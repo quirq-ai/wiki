@@ -1,4 +1,22 @@
-# quirq-ai org wiki
+"""Top-level README / INDEX / manifest updates."""
+
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+from quirq_wiki.constants import (
+    GENERATED_MARKER,
+    INDEX_NAME,
+    MANIFEST_NAME,
+    README_REPOS_BEGIN,
+    README_REPOS_END,
+    REPO_INDEX_NAME,
+)
+from quirq_wiki.github_api import RepoInfo
+
+README_TEMPLATE = """# quirq-ai org wiki
 
 A readable map of **what lives where** across every public repository in the
 [`quirq-ai`](https://github.com/quirq-ai) GitHub organization.
@@ -42,19 +60,9 @@ omits forks, so the generator lists repos via `GET /orgs/quirq-ai/repos` with
 `type=all` and then keeps only `private: false`. Private repositories are never
 invented or written into this wiki.
 
-<!-- quirq-wiki:repos:start -->
-| Repository | Kind | Wiki | GitHub |
-| --- | --- | --- | --- |
-| **.github**<br>Quirq's GitHub organization profile and shared community guidelines. | public | [`.github/`](.github/_index.md) | [.github](https://github.com/quirq-ai/.github) |
-| **docs** | public fork | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
-| **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
-| **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
-| **galileo** | public | [`galileo/`](galileo/_index.md) | [galileo](https://github.com/quirq-ai/galileo) |
-| **innernet** | public | [`innernet/`](innernet/_index.md) | [innernet](https://github.com/quirq-ai/innernet) |
-| **quirq_ai** | public | [`quirq_ai/`](quirq_ai/_index.md) | [quirq_ai](https://github.com/quirq-ai/quirq_ai) |
-| **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
-| **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
-<!-- quirq-wiki:repos:end -->
+""" + README_REPOS_BEGIN + """
+_The generator fills this list._
+""" + README_REPOS_END + """
 
 ## Skip rules
 
@@ -199,3 +207,147 @@ heuristic paragraphs.
 Generated descriptions summarize public source and are not a substitute for
 each repository's own license. This wiki's generator code is available under
 the same terms as contributions to this repository.
+"""
+
+
+def render_repo_list_markdown(repos: list[RepoInfo]) -> str:
+    lines = [
+        "| Repository | Kind | Wiki | GitHub |",
+        "| --- | --- | --- | --- |",
+    ]
+    for repo in repos:
+        kind = "public fork" if repo.fork else "public"
+        if repo.archived:
+            kind += ", archived"
+        wiki = f"[`{repo.name}/`]({repo.name}/{REPO_INDEX_NAME})"
+        gh = f"[{repo.name}]({repo.html_url})"
+        desc = (repo.description or "").strip()
+        extra = f"<br>{_escape_md(desc)}" if desc else ""
+        lines.append(f"| **{repo.name}**{extra} | {kind} | {wiki} | {gh} |")
+    if not repos:
+        lines.append("| _none discovered_ | | | |")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def _escape_md(text: str) -> str:
+    return text.replace("|", "\\|").replace("\n", " ")
+
+
+def upsert_readme(wiki_root: Path, repos: list[RepoInfo]) -> None:
+    path = wiki_root / "README.md"
+    if path.exists():
+        current = path.read_text(encoding="utf-8")
+    else:
+        current = README_TEMPLATE
+    if README_REPOS_BEGIN not in current or README_REPOS_END not in current:
+        current = README_TEMPLATE
+    list_md = render_repo_list_markdown(repos)
+    before, rest = current.split(README_REPOS_BEGIN, 1)
+    _, after = rest.split(README_REPOS_END, 1)
+    path.write_text(
+        before + README_REPOS_BEGIN + "\n" + list_md + README_REPOS_END + after,
+        encoding="utf-8",
+    )
+
+
+def write_index(wiki_root: Path, repos: list[RepoInfo]) -> None:
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines = [
+        f"<!-- {GENERATED_MARKER} org-index -->",
+        "",
+        "# Index",
+        "",
+        "Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself is excluded.",
+        "",
+        render_repo_list_markdown(repos).rstrip(),
+        "",
+        "## Folder convention",
+        "",
+        "- `_index.md` — catalog of that repo's directory pages",
+        "- `_root.md` — files at the source repository root",
+        "- `src.md` / `src__utils.md` — one page per nested source directory",
+        "",
+        f"_Generated {generated_at}._",
+        "",
+    ]
+    (wiki_root / INDEX_NAME).write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_manifest(
+    wiki_root: Path,
+    repos: list[RepoInfo],
+    *,
+    shas: dict[str, str | None],
+    include_archived: bool,
+) -> None:
+    payload = {
+        "org": "quirq-ai",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "skip_archived": not include_archived,
+        "excluded_repos": ["wiki"],
+        "discovery": "GET /orgs/quirq-ai/repos?type=all, keep private=false",
+        "repos": [
+            {
+                "name": repo.name,
+                "fork": repo.fork,
+                "archived": repo.archived,
+                "default_branch": repo.default_branch,
+                "html_url": repo.html_url,
+                "pushed_at": repo.pushed_at,
+                "sha": shas.get(repo.name),
+            }
+            for repo in repos
+        ],
+    }
+    (wiki_root / MANIFEST_NAME).write_text(
+        json.dumps(payload, indent=2, sort_keys=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+def load_manifest_repo_names(wiki_root: Path) -> list[str]:
+    path = wiki_root / MANIFEST_NAME
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    return [item["name"] for item in data.get("repos", []) if "name" in item]
+
+
+def remove_stale_repo_folders(wiki_root: Path, current_names: set[str]) -> list[str]:
+    """Remove previously generated repo folders that are no longer public.
+
+    Never deletes reserved tooling paths. The `.github` source repo is current
+    iff `.github` is in ``current_names``; its workflows/ tree is still kept.
+    """
+    from quirq_wiki.constants import RESERVED_TOP_LEVEL
+    from quirq_wiki.render import is_generated
+
+    previous = set(load_manifest_repo_names(wiki_root))
+    removed: list[str] = []
+    stale = previous - current_names
+    for name in sorted(stale):
+        dest = wiki_root / name
+        if not dest.exists():
+            continue
+        if name == ".github":
+            for path in dest.iterdir():
+                if path.is_file() and path.suffix == ".md" and is_generated(path):
+                    path.unlink()
+            removed.append(name)
+            continue
+        if name in RESERVED_TOP_LEVEL:
+            continue
+        if dest.is_dir():
+            _rmtree_generated_dir(dest)
+            removed.append(name)
+    return removed
+
+
+def _rmtree_generated_dir(dest: Path) -> None:
+    import shutil
+
+    shutil.rmtree(dest)

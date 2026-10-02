@@ -1,0 +1,24 @@
+[
+  {
+    "name": "mini",
+    "description": "CI fixture, not a real org repo",
+    "default_branch": "main",
+    "html_url": "https://github.com/quirq-ai/mini",
+    "clone_url": "https://github.com/quirq-ai/mini.git",
+    "fork": false,
+    "archived": false,
+    "private": false,
+    "pushed_at": null
+  },
+  {
+    "name": "wiki",
+    "description": "must be excluded",
+    "default_branch": "main",
+    "html_url": "https://github.com/quirq-ai/wiki",
+    "clone_url": "https://github.com/quirq-ai/wiki.git",
+    "fork": false,
+    "archived": false,
+    "private": false,
+    "pushed_at": null
+  }
+]

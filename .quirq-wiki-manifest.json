@@ -1,0 +1,92 @@
+{
+  "org": "quirq-ai",
+  "generated_at": "2026-10-02T18:35:25.564696+00:00",
+  "skip_archived": true,
+  "excluded_repos": [
+    "wiki"
+  ],
+  "discovery": "GET /orgs/quirq-ai/repos?type=all, keep private=false",
+  "repos": [
+    {
+      "name": ".github",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/.github",
+      "pushed_at": "2026-09-21T13:44:43Z",
+      "sha": "2a29f6fdf47b23c01d7e7a585e3595343135719a"
+    },
+    {
+      "name": "docs",
+      "fork": true,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/docs",
+      "pushed_at": "2026-08-26T16:45:37Z",
+      "sha": "23215ff3348d4bced23334c42400910fab36d2bb"
+    },
+    {
+      "name": "environment",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/environment",
+      "pushed_at": "2026-07-24T19:31:18Z",
+      "sha": "094ed6ebb2dd1a1686bd40a62709c3a67a76c3cb"
+    },
+    {
+      "name": "euler",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/euler",
+      "pushed_at": "2026-09-23T15:37:33Z",
+      "sha": "318af968118dface05436f69c5ef3e516c03faa8"
+    },
+    {
+      "name": "galileo",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/galileo",
+      "pushed_at": "2026-10-01T10:28:00Z",
+      "sha": "10b5507494752406af83285c6f261b86281c9412"
+    },
+    {
+      "name": "innernet",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/innernet",
+      "pushed_at": "2026-10-02T18:07:51Z",
+      "sha": "53597c3f7e8beb512555043375df8fba60aca817"
+    },
+    {
+      "name": "quirq_ai",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/quirq_ai",
+      "pushed_at": "2026-09-28T16:39:08Z",
+      "sha": "13c26afb386d991562c8c0c518130ca5c06456cd"
+    },
+    {
+      "name": "xo-cowork-api",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/xo-cowork-api",
+      "pushed_at": "2026-08-28T14:48:39Z",
+      "sha": "70d288d2a14a52c58e638f87d40ab9163c0724d3"
+    },
+    {
+      "name": "xo-space",
+      "fork": true,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/xo-space",
+      "pushed_at": "2026-10-02T15:35:05Z",
+      "sha": "509208e7758ae5091a0ea76513e6fd61eca47304"
+    }
+  ]
+}

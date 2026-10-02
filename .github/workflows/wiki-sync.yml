@@ -1,0 +1,106 @@
+# Sync the org wiki from public quirq-ai source repositories.
+#
+# Triggers:
+#   - workflow_dispatch  (manual full or single-repo rebuild)
+#   - schedule           (daily safety net)
+#   - repository_dispatch type `quirq-wiki-sync`  (other repos / org webhook)
+#
+# On success, commits regenerated markdown to main with a [wiki-bot] message
+# (or opens a PR when commit_mode=pr). Concurrent runs queue instead of racing.
+
+name: Wiki sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: Optional single public repo to regenerate (leave empty for the full org)
+        required: false
+        type: string
+      changed_paths:
+        description: Optional comma-separated source paths (used with a single repo)
+        required: false
+        type: string
+      commit_mode:
+        description: Commit directly to main, or open a pull request
+        required: false
+        type: choice
+        options:
+          - main
+          - pr
+        default: main
+  schedule:
+    - cron: "0 6 * * *"
+  repository_dispatch:
+    types: [quirq-wiki-sync]
+
+concurrency:
+  group: wiki-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  packages: read
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install generator
+        run: python -m pip install --upgrade pip && python -m pip install -e ".[dev]"
+
+      - name: Test generator
+        run: python -m pytest
+
+      - name: Generate wiki markdown
+        env:
+          REPO: ${{ github.event.inputs.repo || github.event.client_payload.repo || '' }}
+          CHANGED_PATHS: ${{ github.event.inputs.changed_paths || github.event.client_payload.changed_paths || '' }}
+        run: |
+          set -euo pipefail
+          extra=()
+          if [ -n "${REPO}" ]; then
+            extra+=(--repo "${REPO}")
+          fi
+          if [ -n "${CHANGED_PATHS}" ]; then
+            extra+=(--changed-paths "${CHANGED_PATHS}")
+          fi
+          python -m quirq_wiki generate --out . --cache-dir .cache/repos "${extra[@]}"
+
+      - name: Commit snapshot
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_MODE: ${{ github.event.inputs.commit_mode || github.event.client_payload.commit_mode || 'main' }}
+          REPO: ${{ github.event.inputs.repo || github.event.client_payload.repo || '' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No wiki changes to commit."
+            exit 0
+          fi
+          scope="${REPO:-org}"
+          git commit -m "[wiki-bot] regenerate ${scope} wiki snapshot"
+          if [ "${COMMIT_MODE}" = "pr" ]; then
+            branch="wiki-bot/sync-$(date -u +%Y%m%dT%H%M%SZ)"
+            git checkout -b "${branch}"
+            git push -u origin "${branch}"
+            gh pr create --base main --head "${branch}" \
+              --title "[wiki-bot] regenerate ${scope} wiki snapshot" \
+              --body "Automated wiki refresh from the wiki-sync workflow."
+          else
+            git push origin HEAD:main
+          fi
