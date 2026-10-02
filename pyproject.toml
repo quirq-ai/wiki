@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quirq-wiki"
+version = "0.1.0"
+description = "Generate a human-readable org wiki for public quirq-ai repositories."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+quirq-wiki = "quirq_wiki.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quirq_wiki*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
