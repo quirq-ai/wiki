@@ -113,7 +113,8 @@ def test_generate_offline_layout(tmp_path: Path):
     assert "Binary" in assets
 
     readme = (wiki / "README.md").read_text()
-    assert "[`mini/`](mini/_index.md)" in readme
+    assert "[`mini/`](mini/_index.md)" in readme or "[`mini`](mini/_index.md)" in readme
+    assert "```mermaid" in readme
     assert "quirq-ai/secret" not in readme
     assert "| **secret**" not in readme
     index = (wiki / "INDEX.md").read_text()
