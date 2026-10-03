@@ -1,157 +1,121 @@
 # quirq-ai org wiki
 
-A readable map of **what lives where** across every public repository in the
-[`quirq-ai`](https://github.com/quirq-ai) GitHub organization.
+A map of **what lives where** across every public repository in [`quirq-ai`](https://github.com/quirq-ai).
 
-This repository is generated and refreshed by automation. Humans edit the
-generator and this README's prose; file-level pages under each repo folder are
-produced from source and should not be hand-edited (they will be overwritten).
+Each public repo gets a folder here. Each source directory gets one markdown page. File-level pages are generated — edit the generator or this README, not those pages. This `wiki` repo is not documented as content (no `wiki/` folder).
 
-## Convention
+[Index](INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
 
-1. **One top-level directory per public source repo**, named exactly like the
-   GitHub repository (`galileo/`, `xo-space/`, `.github/`, …).
-2. **This `wiki` repo is not documented as content** (no `wiki/` folder). That
-   avoids a self-reference loop. Tooling, workflows, and this README stay here.
-3. **One markdown file per directory** that exists in the source repo
-   (recursive). Encoding is flat: source path separators `/` become `__`.
-   - source folder `src` → [`galileo/src.md`](galileo/src.md)
-   - source folder `src/utils` → `src__utils.md`
-   - files at the source repo root → `_root.md`
-4. Each page describes **only the files that live directly in that folder**.
-   Nested folders get their own pages; they are not summarized in the parent.
-5. Every documented repo also has a short [`_index.md`](galileo/_index.md)
-   listing its folder pages. The compact org map is [`INDEX.md`](INDEX.md).
+## Repos
 
-### `.github` collision
-
-GitHub Actions for *this* wiki live in [`.github/workflows/`](.github/workflows/).
-The public org repository also named [`.github`](https://github.com/quirq-ai/.github)
-is documented as markdown files **beside** those workflows (`_root.md`,
-`_index.md`, `profile.md`, …). The generator never deletes `workflows/`.
-
-The public repository named [`docs`](https://github.com/quirq-ai/docs) occupies
-the top-level `docs/` folder (source-repo documentation, not this wiki's own
-docs). How to operate the wiki is this README.
-
-## Public repos
-
-Archived repositories are **skipped by default** (none were archived when this
-convention was introduced). Public forks **are included** — GitHub's search API
-omits forks, so the generator lists repos via `GET /orgs/quirq-ai/repos` with
-`type=all` and then keeps only `private: false`. Private repositories are never
-invented or written into this wiki.
+Public only. Forks included. Archived skipped. Private never listed. Discovery is `GET /orgs/quirq-ai/repos?type=all`, not the search API.
 
 <!-- quirq-wiki:repos:start -->
-| Repository | Kind | Wiki | GitHub |
-| --- | --- | --- | --- |
-| **.github**<br>Quirq's GitHub organization profile and shared community guidelines. | public | [`.github/`](.github/_index.md) | [.github](https://github.com/quirq-ai/.github) |
-| **docs** | public fork | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
-| **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
-| **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
-| **galileo** | public | [`galileo/`](galileo/_index.md) | [galileo](https://github.com/quirq-ai/galileo) |
-| **innernet** | public | [`innernet/`](innernet/_index.md) | [innernet](https://github.com/quirq-ai/innernet) |
-| **quirq_ai** | public | [`quirq_ai/`](quirq_ai/_index.md) | [quirq_ai](https://github.com/quirq-ai/quirq_ai) |
-| **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
-| **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
-<!-- quirq-wiki:repos:end -->
-
-## Skip rules
-
-The walker does not descend into, and does not create pages for:
-
-- `.git`, `node_modules`, `venv`, `.venv`, `__pycache__`
-- tool caches (`.mypy_cache`, `.pytest_cache`, `.ruff_cache`, `.tox`, `.turbo`)
-- build outputs (`dist`, `build`, `.next`, `coverage`, `target`, `.gradle`)
-- package metadata trees (`*.egg-info`, `*.dist-info`)
-
-Files that **do** appear on a page but are only lightly noted:
-
-- binaries (images, fonts, PDFs, archives, wasm, model weights, …)
-- lockfile blobs (`package-lock.json`, `pnpm-lock.yaml`, `yarn.lock`, …)
-- text files larger than 256 KB (prefix only)
-- `.env` / `.env.example` — **key names only**, never values
-
-## Generator
-
-Python 3.11+, standard library only for the default path:
-
-```sh
-python3 -m pip install -e ".[dev]"   # tests extra; generator itself needs no deps
-python3 -m quirq_wiki list-repos
-python3 -m quirq_wiki generate --out .
+```mermaid
+flowchart LR
+  subgraph public["quirq-ai · public"]
+    direction LR
+    github[".github"]
+    docs["docs *"]
+    environment["environment"]
+    euler["euler"]
+    galileo["galileo"]
+    innernet["innernet"]
+    quirq_ai["quirq_ai"]
+    xo_cowork_api["xo-cowork-api"]
+    xo_space["xo-space *"]
+  end
+  click github "./.github/_index.md"
+  click docs "./docs/_index.md"
+  click environment "./environment/_index.md"
+  click euler "./euler/_index.md"
+  click galileo "./galileo/_index.md"
+  click innernet "./innernet/_index.md"
+  click quirq_ai "./quirq_ai/_index.md"
+  click xo_cowork_api "./xo-cowork-api/_index.md"
+  click xo_space "./xo-space/_index.md"
 ```
 
-Useful flags:
+[`.github`](.github/_index.md) · [`docs`](docs/_index.md)* · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`galileo`](galileo/_index.md) · [`innernet`](innernet/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
 
-| Flag | Meaning |
-| --- | --- |
-| `--repo galileo` | Incremental: regenerate only that repo's folder |
-| `--changed-paths src/server.mjs,README.md` | Further limit which folder pages are rewritten |
-| `--include-archived` | Also document archived public repos |
-| `--cache-dir .cache/repos` | Shallow clones live here (gitignored) |
-| `--dry-run` | Discover and scan, write nothing |
-| `--source-map galileo=/path/to/checkout` | Use a local tree instead of cloning (tests / airgap) |
-| `--repos-json path.json` | Skip the live GitHub listing (tests) |
+\* public fork
+<!-- quirq-wiki:repos:end -->
 
-### Descriptions
+Make a repo **public** under `quirq-ai` and the next sync adds a folder. No allow-list.
 
-Every file paragraph comes from a **deterministic content-based summarizer**:
-docstrings, module headers, exports, README/front-matter, FastAPI routes,
-`package.json` scripts, and similar signals. CI does **not** call a paid LLM.
+## Layout
 
-If you want a higher-quality rewrite, set one of these in the environment
-(local or a private Actions secret — never commit it):
+One top-level folder per public GitHub repo. One markdown file per source directory. `/` becomes `__`. Root files go in `_root.md`. Nested folders are not described on the parent page.
 
-- `ANTHROPIC_API_KEY`
-- `OPENAI_API_KEY` or `QUIRQ_WIKI_LLM_KEY`
-- optional `QUIRQ_WIKI_LLM_MODEL` to override the default model
+```mermaid
+flowchart LR
+  subgraph source["source: galileo/"]
+    rootFiles["root files"]
+    src["src/"]
+    utils["src/utils/"]
+  end
+  subgraph wiki["wiki: galileo/"]
+    index["_index.md"]
+    rootMd["_root.md"]
+    srcMd["src.md"]
+    utilsMd["src__utils.md"]
+  end
+  rootFiles --> rootMd
+  src --> srcMd
+  utils --> utilsMd
+```
 
-When no key is present, generation stays fully offline after the git clones.
+Example: [`galileo/src.md`](galileo/src.md) ← source folder `src`. [`galileo/src__utils.md`](galileo/src__utils.md) ← `src/utils`.
 
-## Adding a new public repo
+**Name collisions:** Actions for *this* wiki live in [`.github/workflows/`](.github/workflows/). The org [`.github`](https://github.com/quirq-ai/.github) repo is documented as markdown beside them; `workflows/` is never deleted. The [`docs`](https://github.com/quirq-ai/docs) source repo owns top-level `docs/`.
 
-1. Make the repository **public** under `quirq-ai`.
-2. Do nothing else for discovery: the next `wiki-sync` run (manual, daily
-   schedule, or a `quirq-wiki-sync` dispatch) lists org repos dynamically and
-   creates a new top-level folder.
-3. Optional: add the notify workflow below so pushes rebuild that folder within
-   minutes instead of waiting for the daily schedule.
+**Skipped dirs:** `.git`, `node_modules`, `venv`, `.venv`, `__pycache__`, caches, `dist`/`build`/`.next`. **Light notes only:** binaries, lockfiles, files &gt; 256 KB, `.env*` (key names, never values).
 
-There is no allow-list to edit. Private repos never appear.
+## How a page is made
 
-## Keeping the wiki current
+A page is not a dump of the tree. For each source folder the generator lists files **in that folder only**, reads each file, and writes a 3–5 line paragraph.
 
-The workflow [`.github/workflows/wiki-sync.yml`](.github/workflows/wiki-sync.yml)
-in **this** repository is the receiver:
+```mermaid
+flowchart TD
+  folder["Source folder src/"] --> split{"What is in it?"}
+  split -->|"files here"| read["Read prefix: docstring, JSDoc, exports, front matter, routes"]
+  split -->|"subfolders"| other["Their own .md pages — not described here"]
+  read --> para["### filename.ext plus a 3–5 line paragraph"]
+  para --> out["galileo/src.md"]
+```
 
-| Trigger | What it rebuilds |
-| --- | --- |
-| `workflow_dispatch` | Full org, or one repo if you pass `repo` |
-| `schedule` (daily 06:00 UTC) | Full org, safety net |
-| `repository_dispatch` type `quirq-wiki-sync` | The repo named in `client_payload.repo` (else full) |
+Summaries are deterministic (no paid API in CI). Optional rewrite if `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, or `QUIRQ_WIKI_LLM_KEY` is set. Do not commit keys.
 
-On success the bot commits to `main` with a `[wiki-bot]` message, under the
-concurrency group `wiki-sync` so two runs cannot interleave. Set the
-`commit_mode` input to `pr` if pushing to `main` is blocked.
+## Keep it updated
 
-`GITHUB_TOKEN` is enough: `contents: write` to commit here, `packages: read`
-reserved for future use. Reading other **public** repos needs no extra token.
+```mermaid
+flowchart LR
+  push["Push on a public source repo"] --> dispatch["repository_dispatch quirq-wiki-sync"]
+  daily["Daily 06:00 UTC"] --> gen
+  manual["workflow_dispatch"] --> gen
+  dispatch --> gen["python -m quirq_wiki generate"]
+  gen --> commit["wiki-bot commit to wiki main"]
+```
 
-### A. Reusable workflow other repos can `uses:`
+Receiver: [`.github/workflows/wiki-sync.yml`](.github/workflows/wiki-sync.yml) (`contents: write`, `packages: read`). Concurrency group `wiki-sync`. `[wiki-bot]` commits to `main`, or a PR if `commit_mode=pr`. Incremental: pass `repo` (and optional `changed_paths`). Public clones need no extra token.
 
-Source repositories can call
-[`quirq-ai/wiki/.github/workflows/reusable-notify-wiki.yml`](.github/workflows/reusable-notify-wiki.yml)
-on push to their default branch. That workflow sends `repository_dispatch`
-`quirq-wiki-sync` with the repo name and changed paths.
+```sh
+python3 -m pip install -e ".[dev]"
+python3 -m pytest
+python3 -m quirq_wiki list-repos
+python3 -m quirq_wiki generate --out .                  # full org
+python3 -m quirq_wiki generate --out . --repo galileo   # one folder
+```
 
-`GITHUB_TOKEN` from another repository **cannot** dispatch into `wiki`. Store an
-org-level fine-grained PAT or GitHub App token as `WIKI_DISPATCH_TOKEN`
-(permission: Actions write on `quirq-ai/wiki`, contents read is not required)
-and pass it as a secret:
+`--changed-paths`, `--include-archived`, `--cache-dir`, `--dry-run`, `--source-map`, `--repos-json` exist for incremental, tests, and airgap clones.
+
+### Near-commit updates (org-admin)
+
+`GITHUB_TOKEN` from another repo **cannot** dispatch into wiki. Pick at least one:
+
+**A. Reusable workflow** — org secret `WIKI_DISPATCH_TOKEN` (GitHub App or PAT, **Actions: write** on `quirq-ai/wiki`). In each source repo:
 
 ```yaml
-# in e.g. xo-space/.github/workflows/notify-wiki.yml
 name: Notify org wiki
 on:
   push:
@@ -163,39 +127,6 @@ jobs:
       token: ${{ secrets.WIKI_DISPATCH_TOKEN }}
 ```
 
-Copy-paste snippet (same effect, inlined) is in the reusable workflow file's
-header comment.
+**B. Org webhook / GitHub App** — subscribe to public `push`, then POST [`repos/quirq-ai/wiki/dispatches`](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event) with `event_type: quirq-wiki-sync` and `client_payload: { "repo": "<name>", "ref": "<sha>", "changed_paths": [...] }`. Prefer a GitHub App over a personal PAT. This covers every public repo without a workflow in each one.
 
-### B. Org webhook / GitHub App (true every-commit)
-
-An organization owner can forward **all** public `push` events without adding a
-workflow to each repo:
-
-1. GitHub org → Settings → Webhooks (or a GitHub App subscribed to `push`).
-2. On `push` to a public non-`wiki` repo's default branch, POST
-   [`repos/quirq-ai/wiki/dispatches`](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event)
-   with `event_type: quirq-wiki-sync` and
-   `client_payload: { "repo": "<name>", "ref": "<sha>", "changed_paths": [...] }`.
-3. Use a GitHub App installed on the org, not a personal PAT, if this should
-   outlive one admin.
-
-Until that webhook exists, daily schedule plus manual `workflow_dispatch` keep
-the snapshot from going stale; per-repo `uses:` covers the repos that opt in.
-
-## Local development of the generator
-
-```sh
-python3 -m pip install -e ".[dev]"
-python3 -m pytest
-python3 -m quirq_wiki generate --out /tmp/wiki-preview --cache-dir /tmp/wiki-cache
-```
-
-Regenerating in CI with the same generator (no LLM keys) is meant to be
-deterministic for a given source SHA: same layout, same skip rules, same
-heuristic paragraphs.
-
-## License
-
-Generated descriptions summarize public source and are not a substitute for
-each repository's own license. This wiki's generator code is available under
-the same terms as contributions to this repository.
+Also allow Actions to push to `main` (or use `commit_mode=pr`). Until A or B is wired, daily schedule + manual dispatch keep the snapshot from going stale.
