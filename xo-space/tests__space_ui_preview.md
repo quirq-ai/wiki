@@ -204,4 +204,4 @@ Timeline over an explicit fictional graph: all service writes are blocked.
 
 [`tests/space_ui_preview/timeline-experience.mjs`](https://github.com/quirq-ai/xo-space/blob/main/tests/space_ui_preview/timeline-experience.mjs) · code · 15311 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

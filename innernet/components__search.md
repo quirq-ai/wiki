@@ -20,14 +20,14 @@ The card beside the results when one article clearly answers the query: who it i
 is made of, and where it lives, with the way into Innerpedia. Notable exports:
 `KnowledgePanel`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/search/knowledge-panel.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/knowledge-panel.tsx) · code · 6728 bytes
+[`components/search/knowledge-panel.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/knowledge-panel.tsx) · code · 6682 bytes
 
 ### no-results.tsx
 
 When nothing matches: say so kindly, offer a spelling if there is one, and three ways
 forward. Notable exports: `NoResults`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/search/no-results.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/no-results.tsx) · code · 4006 bytes
+[`components/search/no-results.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/no-results.tsx) · code · 4000 bytes
 
 ### operator-chips.tsx
 
@@ -80,7 +80,7 @@ line of facts. The source line names the kind rather than the folder, so the nam
 said twice in a row. Notable exports: `ResultItem`. Wired into a Next.js app (App Router or
 Next APIs).
 
-[`components/search/result-item.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/result-item.tsx) · code · 5422 bytes
+[`components/search/result-item.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/result-item.tsx) · code · 5331 bytes
 
 ### result-tabs.tsx
 
@@ -98,4 +98,4 @@ function Snippet({ segments }: { segments: Segment[] }) { return <>{segments.map
 
 [`components/search/snippet.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/snippet.tsx) · code · 317 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

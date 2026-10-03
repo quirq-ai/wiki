@@ -16,4 +16,4 @@ paths. Shebang `#!/usr/bin/env bash`.
 
 [`plugin/scripts/discover.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugin/scripts/discover.sh) · code · 7585 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

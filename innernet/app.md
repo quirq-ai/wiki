@@ -20,7 +20,7 @@ Stylesheet `globals.css` for layout and visual treatment in this folder. Leading
 selectors include `aurora`, `grain`, `ix-entry`, `ix-dense`, `prose-wiki`, `rise`. Defines
 or consumes CSS custom properties (design tokens).
 
-[`app/globals.css`](https://github.com/quirq-ai/innernet/blob/main/app/globals.css) · code · 11506 bytes
+[`app/globals.css`](https://github.com/quirq-ai/innernet/blob/main/app/globals.css) · code · 11610 bytes
 
 ### icon.svg
 
@@ -37,7 +37,7 @@ const instrument = Instrument_Serif({ subsets: ["latin"], weight: "400", style: 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" }); const mono =
 JetBrains Notable exports: `RootLayout`, `metadata`, `viewport`.
 
-[`app/layout.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/layout.tsx) · code · 1689 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/layout.tsx) · code · 2510 bytes
 
 ### not-found.tsx
 
@@ -49,11 +49,12 @@ Next.js app (App Router or Next APIs).
 
 ### page.tsx
 
-export const metadata: Metadata = { title: { absolute: "Innernet · your personal internet"
-}, description: "Search the folders on this machine like the web, and read your projects in
-Innerpedia.", } Notable exports: `Home`, `metadata`, `dynamic`. Wired into a Next.js app
-(App Router or Next APIs).
+export const metadata: Metadata = DEMO ? { title: { absolute: "Innernet · a demo of your
+personal internet" }, description: A demo of Innernet: the open-source repositories of
+github.com/${DEMO_ORG}, searchable like the web and readable in Innerpedia, with the
+Innernet Field Guide to how it works and how to run it on your own folders., } : { title: {
+absolut Notable exports: `Home`, `metadata`, `dynamic`.
 
-[`app/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/page.tsx) · code · 4095 bytes
+[`app/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/page.tsx) · code · 6544 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

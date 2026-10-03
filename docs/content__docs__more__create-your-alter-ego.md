@@ -42,4 +42,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/more/create-your-alter-ego/publishing.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-alter-ego/publishing.mdx) · code · 6139 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

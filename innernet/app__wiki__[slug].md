@@ -12,6 +12,6 @@ One route for everything under /wiki/: articles, stubs, disambiguation lists, Ca
 pages and Special: pages, the way Wikipedia does it. Notable exports: `generateMetadata`,
 `WikiPage`, `dynamic`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/wiki/[slug]/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/wiki/[slug]/page.tsx) · code · 2155 bytes
+[`app/wiki/[slug]/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/wiki/[slug]/page.tsx) · code · 2156 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

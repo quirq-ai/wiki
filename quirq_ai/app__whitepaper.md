@@ -25,4 +25,4 @@ Router or Next APIs).
 
 [`app/whitepaper/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/whitepaper/page.tsx) · code · 9608 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

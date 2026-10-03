@@ -63,4 +63,4 @@ xo-cowork machine-local UI/installation state. Functions: `get_state`, `update_s
 
 [`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 1797 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

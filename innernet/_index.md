@@ -2,34 +2,69 @@
 
 # innernet
 
-A personal internet. Search the folders on this machine the way you search the web, and read every project as an article in Innerpedia, the encyclopedia of you.
+innernet
 
 - GitHub: [https://github.com/quirq-ai/innernet](https://github.com/quirq-ai/innernet)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-02T18:07:51Z`
-- Snapshot SHA: `53597c3f7e8b`
+- Last push: `2026-10-03T05:15:08Z`
+- Snapshot SHA: `4e9becef4af1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 11 | [_root.md](_root.md) |
+| (repository root) | 13 | [_root.md](_root.md) |
 | `app` | 6 | [app.md](app.md) |
+| `app/activity` | 1 | [app__activity.md](app__activity.md) |
 | `app/api` | 0 | [app__api.md](app__api.md) |
+| `app/api/activity` | 1 | [app__api__activity.md](app__api__activity.md) |
+| `app/api/db` | 0 | [app__api__db.md](app__api__db.md) |
+| `app/api/db/store` | 1 | [app__api__db__store.md](app__api__db__store.md) |
+| `app/api/logo` | 0 | [app__api__logo.md](app__api__logo.md) |
+| `app/api/logo/[id]` | 1 | [app__api__logo__[id].md](app__api__logo__[id].md) |
 | `app/api/suggest` | 1 | [app__api__suggest.md](app__api__suggest.md) |
-| `app/guide` | 2 | [app__guide.md](app__guide.md) |
+| `app/guide` | 1 | [app__guide.md](app__guide.md) |
 | `app/search` | 1 | [app__search.md](app__search.md) |
 | `app/wiki` | 1 | [app__wiki.md](app__wiki.md) |
 | `app/wiki/[slug]` | 1 | [app__wiki__[slug].md](app__wiki__[slug].md) |
-| `components` | 6 | [components.md](components.md) |
-| `components/guide` | 16 | [components__guide.md](components__guide.md) |
-| `components/home` | 5 | [components__home.md](components__home.md) |
+| `brand` | 0 | [brand.md](brand.md) |
+| `brand/quirq` | 0 | [brand__quirq.md](brand__quirq.md) |
+| `brand/quirq/backgrounds` | 13 | [brand__quirq__backgrounds.md](brand__quirq__backgrounds.md) |
+| `components` | 10 | [components.md](components.md) |
+| `components/activity` | 9 | [components__activity.md](components__activity.md) |
+| `components/guide` | 18 | [components__guide.md](components__guide.md) |
+| `components/home` | 8 | [components__home.md](components__home.md) |
 | `components/search` | 11 | [components__search.md](components__search.md) |
 | `components/wiki` | 6 | [components__wiki.md](components__wiki.md) |
 | `components/wiki/article` | 9 | [components__wiki__article.md](components__wiki__article.md) |
-| `components/wiki/main` | 10 | [components__wiki__main.md](components__wiki__main.md) |
-| `lib` | 8 | [lib.md](lib.md) |
-| `scripts` | 4 | [scripts.md](scripts.md) |
+| `components/wiki/main` | 12 | [components__wiki__main.md](components__wiki__main.md) |
+| `data` | 0 | [data.md](data.md) |
+| `data/demo` | 1 | [data__demo.md](data__demo.md) |
+| `film` | 13 | [film.md](film.md) |
+| `film/.media` | 1 | [film__.media.md](film__.media.md) |
+| `film/assets` | 0 | [film__assets.md](film__assets.md) |
+| `film/assets/audio` | 1 | [film__assets__audio.md](film__assets__audio.md) |
+| `film/assets/audio/music` | 4 | [film__assets__audio__music.md](film__assets__audio__music.md) |
+| `film/assets/audio/sfx` | 9 | [film__assets__audio__sfx.md](film__assets__audio__sfx.md) |
+| `film/assets/audio/sfx/takes` | 17 | [film__assets__audio__sfx__takes.md](film__assets__audio__sfx__takes.md) |
+| `film/assets/audio/vo` | 19 | [film__assets__audio__vo.md](film__assets__audio__vo.md) |
+| `film/assets/captures` | 8 | [film__assets__captures.md](film__assets__captures.md) |
+| `film/assets/fonts` | 6 | [film__assets__fonts.md](film__assets__fonts.md) |
+| `film/assets/plates` | 9 | [film__assets__plates.md](film__assets__plates.md) |
+| `film/assets/plates/src` | 10 | [film__assets__plates__src.md](film__assets__plates__src.md) |
+| `film/assets/tex` | 1 | [film__assets__tex.md](film__assets__tex.md) |
+| `film/scripts` | 9 | [film__scripts.md](film__scripts.md) |
+| `film/src` | 7 | [film__src.md](film__src.md) |
+| `film/src/scenes` | 21 | [film__src__scenes.md](film__src__scenes.md) |
+| `film/voice-samples` | 5 | [film__voice-samples.md](film__voice-samples.md) |
+| `lib` | 13 | [lib.md](lib.md) |
+| `lib/db` | 12 | [lib__db.md](lib__db.md) |
+| `public` | 0 | [public.md](public.md) |
+| `public/brand` | 0 | [public__brand.md](public__brand.md) |
+| `public/brand/quirq` | 6 | [public__brand__quirq.md](public__brand__quirq.md) |
+| `public/guide` | 3 | [public__guide.md](public__guide.md) |
+| `public/guide/plates` | 9 | [public__guide__plates.md](public__guide__plates.md) |
+| `scripts` | 6 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-02 18:35 UTC._
+_Generated 2026-10-03 10:43 UTC._

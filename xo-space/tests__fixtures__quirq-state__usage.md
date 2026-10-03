@@ -13,4 +13,4 @@ JSON document `sample_agent.json` whose top-level keys are `schema`, `last_synce
 
 [`tests/fixtures/quirq-state/usage/sample_agent.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/usage/sample_agent.json) · code · 170 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

@@ -6,6 +6,39 @@ Source: [components](https://github.com/quirq-ai/innernet/tree/main/components) 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### brand-nav.tsx
+
+The quirq mark and the small links every header carries: back and forward through this tab's
+trail and the way to its history, the field guide, quirq, and the code on GitHub. Plain
+links and buttons; nothing here fetches. Notable exports: `QuirqMark`, `QuirqHome`,
+`BrandLinks`, `QUIRQ_URL`, `GITHUB_URL`. Wired into a Next.js app (App Router or Next APIs).
+
+[`components/brand-nav.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/brand-nav.tsx) · code · 4141 bytes
+
+### demo-banner.tsx
+
+The one line every page of the demo opens with: what this is, whose folders these are, where
+your history goes, and where to get an Innernet of your own. Only rendered in the demo
+(lib/mode.ts).
+
+[`components/demo-banner.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/demo-banner.tsx) · code · 4092 bytes
+
+### page-sigil.tsx
+
+A page's identity as a server component: its own logo where the index found one (drawn with
+<img> from /api/logo, see lib/logo.ts), its letter sigil otherwise. Takes the page or its
+slug. Use it wherever a server component shows a page. Client components keep <Sigil> and
+are handed a logo's address only on purpose (the Innerpedia globe, the search box's
+suggestions), never a whole page by accident. Notable exports: `PageSigil`.
+
+[`components/page-sigil.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/page-sigil.tsx) · code · 1124 bytes
+
+### quirq-credit.tsx
+
+A quiet attribution shared by the two footer layouts. Notable exports: `BrandCredit`.
+
+[`components/quirq-credit.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/quirq-credit.tsx) · code · 498 bytes
+
 ### search-box.tsx
 
 The one search box, in two sizes. Suggestions come from our own /api/suggest route handler
@@ -13,7 +46,7 @@ The one search box, in two sizes. Suggestions come from our own /api/suggest rou
 `SearchBox`. Wired into a Next.js app (App Router or Next APIs). Marked `'use client'` so it
 runs in the browser.
 
-[`components/search-box.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search-box.tsx) · code · 8478 bytes
+[`components/search-box.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search-box.tsx) · code · 8679 bytes
 
 ### sigil.tsx
 
@@ -21,17 +54,18 @@ Every folder gets a deterministic "sigil": a small aurora of three hues derived 
 slug, with its initial set in the display serif. Repos are round, projects are soft squares,
 plain folders are muted. The same sigil appears in search results, suggestions, the
 knowledge panel and the article infobox, so a project is recognisable by colour before its
-name is read. Notable exports: `sigilHues`, `sigilGradient`, `sigilDot`, `Sigil`.
+name is read.
 
-[`components/sigil.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/sigil.tsx) · code · 3044 bytes
+[`components/sigil.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/sigil.tsx) · code · 5352 bytes
 
 ### site-footer.tsx
 
 Small print under results and Innerpedia pages: a few ways onward, how fresh the index is,
-and how to refresh it. Home has its own, centred version. Notable exports: `SiteFooter`,
+and how to refresh it. Home has its own, centred version. The demo's index is built before
+it is deployed, so there is nothing for a reader to refresh. Notable exports: `SiteFooter`,
 `FooterLink`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/site-footer.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/site-footer.tsx) · code · 1783 bytes
+[`components/site-footer.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/site-footer.tsx) · code · 2527 bytes
 
 ### theme-toggle.tsx
 
@@ -44,11 +78,12 @@ runs in the browser.
 
 ### top-bar.tsx
 
-Header for every page except home: wordmark, compact search, and the way across to the other
-half of the site. Notable exports: `TopBar`. Wired into a Next.js app (App Router or Next
-APIs).
+Header for every page except home: the quirq mark home, the wordmark, compact search, the
+way across to the other half of the site, back and forward through this tab's trail with the
+way to its history, and the guide, quirq and GitHub links. Notable exports: `TopBar`. Wired
+into a Next.js app (App Router or Next APIs).
 
-[`components/top-bar.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/top-bar.tsx) · code · 1877 bytes
+[`components/top-bar.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/top-bar.tsx) · code · 2298 bytes
 
 ### wordmark.tsx
 
@@ -58,4 +93,4 @@ italic, a quiet nod to the thing being searched being you. Notable exports: `Wor
 
 [`components/wordmark.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wordmark.tsx) · code · 1171 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

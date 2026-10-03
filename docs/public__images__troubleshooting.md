@@ -62,4 +62,4 @@ blobs.
 
 [`public/images/troubleshooting/select-provider.png`](https://github.com/quirq-ai/docs/blob/main/public/images/troubleshooting/select-provider.png) · binary · 71830 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

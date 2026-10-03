@@ -19,4 +19,4 @@ Read-only Space session telemetry for local Cursor agent sessions. Functions:
 
 [`services/cowork_agent/adapters/cursor/session_telemetry.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/cursor/session_telemetry.py) · code · 29653 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

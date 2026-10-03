@@ -20,4 +20,4 @@ Classes: `LoadTimelineTests`, `TickTests`, `ConfigTests`, `PortTests`. Contains 
 
 [`tests/test_watcher.py`](https://github.com/quirq-ai/euler/blob/main/tests/test_watcher.py) · code · 3832 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

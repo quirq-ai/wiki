@@ -7,8 +7,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-02T15:35:05Z`
-- Snapshot SHA: `509208e7758a`
+- Last push: `2026-10-02T20:41:08Z`
+- Snapshot SHA: `c3cea98c8e70`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -31,7 +31,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github/screenshots` | 0 | [.github__screenshots.md](.github__screenshots.md) |
 | `.github/screenshots/issue105` | 3 | [.github__screenshots__issue105.md](.github__screenshots__issue105.md) |
 | `.github/screenshots/projects-experience` | 8 | [.github__screenshots__projects-experience.md](.github__screenshots__projects-experience.md) |
-| `.github/workflows` | 2 | [.github__workflows.md](.github__workflows.md) |
+| `.github/workflows` | 3 | [.github__workflows.md](.github__workflows.md) |
 | `brand` | 2 | [brand.md](brand.md) |
 | `brand/screenshots` | 9 | [brand__screenshots.md](brand__screenshots.md) |
 | `brand/screenshots/issue-100` | 5 | [brand__screenshots__issue-100.md](brand__screenshots__issue-100.md) |
@@ -157,4 +157,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 3 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-02 18:35 UTC._
+_Generated 2026-10-03 10:43 UTC._

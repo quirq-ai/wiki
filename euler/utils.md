@@ -20,4 +20,4 @@ Deterministic port selection for local server startup (same shape as xo-space). 
 
 [`utils/local_port.py`](https://github.com/quirq-ai/euler/blob/main/utils/local_port.py) · code · 1945 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

@@ -15,4 +15,4 @@ LinkItemType[] = socialLinks.map((l) => ({ ...l, on: "menu" as const, })) Notabl
 
 [`src/app/api-reference/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/api-reference/layout.tsx) · code · 1421 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

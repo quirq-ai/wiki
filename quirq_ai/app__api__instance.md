@@ -16,4 +16,4 @@ Notable exports: `GET`, `dynamic`. Wired into a Next.js app (App Router or Next 
 
 [`app/api/instance/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/api/instance/route.ts) · code · 3280 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

@@ -45,4 +45,4 @@ by the docs site.
 
 [`content/docs/quirq/what-is-quirq/two-meters.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/what-is-quirq/two-meters.mdx) · code · 2993 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

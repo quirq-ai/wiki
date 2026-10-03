@@ -8,10 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### page.tsx
 
-Innerpedia's front page, a love letter to Wikipedia's: a welcome, then the day's featured
-article, news, trivia and anniversaries, all computed from the index. Notable exports:
-`WikiMain`, `dynamic`, `metadata`.
+Innerpedia's front page, a love letter to Wikipedia's: the globe of every project as the
+whole first screen, then, as you scroll, the day's featured article, news, trivia and
+anniversaries, all computed from the index. Notable exports: `WikiMain`, `dynamic`,
+`metadata`.
 
-[`app/wiki/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/wiki/page.tsx) · code · 2483 bytes
+[`app/wiki/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/wiki/page.tsx) · code · 3013 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

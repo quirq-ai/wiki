@@ -14,4 +14,4 @@ scope`, `paths`, `components`. Looks like a route or path table.
 
 [`public/openapi/xo-cowork-api.json`](https://github.com/quirq-ai/docs/blob/main/public/openapi/xo-cowork-api.json) · code · 21047 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

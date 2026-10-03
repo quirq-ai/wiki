@@ -78,4 +78,4 @@ bar and router. CLI bins: `galileo`. Scripts: `demo`, `start`, `sample`, `test`.
 
 [`package.json`](https://github.com/quirq-ai/galileo/blob/main/package.json) · code · 601 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

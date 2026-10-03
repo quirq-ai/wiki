@@ -12,7 +12,7 @@ A full Innerpedia article: contents on the left, the article with its infobox in
 sections only where there is something to say. Notable exports: `ArticleView`. Wired into a
 Next.js app (App Router or Next APIs).
 
-[`components/wiki/article-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article-view.tsx) · code · 5962 bytes
+[`components/wiki/article-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article-view.tsx) · code · 5984 bytes
 
 ### category-view.tsx
 
@@ -28,7 +28,7 @@ or Next APIs).
 top-level folder) that holds it, in Wikipedia's manner. Notable exports:
 `DisambiguationView`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/wiki/disambiguation-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/disambiguation-view.tsx) · code · 10114 bytes
+[`components/wiki/disambiguation-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/disambiguation-view.tsx) · code · 10058 bytes
 
 ### special-view.tsx
 
@@ -44,7 +44,7 @@ A stub: a folder with no README or manifest of its own. Same chrome as an articl
 shorter: what it is, what is in it, and a polite request for a README. Notable exports:
 `StubView`.
 
-[`components/wiki/stub-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/stub-view.tsx) · code · 3033 bytes
+[`components/wiki/stub-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/stub-view.tsx) · code · 3055 bytes
 
 ### wiki-shell.tsx
 
@@ -52,6 +52,6 @@ Chrome shared by every Innerpedia page: header, a centred column, and the footer
 special pages, held to the bottom of the window on short pages. Each view renders its own
 <main>. Notable exports: `WikiShell`.
 
-[`components/wiki/wiki-shell.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/wiki-shell.tsx) · code · 1196 bytes
+[`components/wiki/wiki-shell.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/wiki-shell.tsx) · code · 1228 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

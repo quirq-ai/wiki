@@ -61,4 +61,4 @@ tracks work delivered, and provides real-time visibility into agent execution. M
 
 [`content/docs/space/observability.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/observability.mdx) · code · 3439 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

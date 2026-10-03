@@ -77,4 +77,4 @@ rendered by the docs site.
 
 [`content/docs/space/space-walk/tree-lens.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/tree-lens.mdx) · code · 1984 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

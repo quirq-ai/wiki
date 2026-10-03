@@ -28,7 +28,7 @@ The infobox: a sigil on a wash of its own colours, then the facts in label/value
 grouped the way Wikipedia groups them. Notable exports: `Infobox`. Wired into a Next.js app
 (App Router or Next APIs).
 
-[`components/wiki/article/infobox.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/infobox.tsx) · code · 7374 bytes
+[`components/wiki/article/infobox.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/infobox.tsx) · code · 7361 bytes
 
 ### lead.ts
 
@@ -38,7 +38,7 @@ segments, so the view can render links and bold without any HTML. Notable export
 `authorTotal`, `article`, `codeLanguages`, `descriptor`, `typeLabel`, `shortKind`,
 `placeSegs`, `placeText`, and 12 more.
 
-[`components/wiki/article/lead.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/lead.ts) · code · 20835 bytes
+[`components/wiki/article/lead.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/lead.ts) · code · 21019 bytes
 
 ### parts.tsx
 
@@ -46,7 +46,7 @@ Small building blocks shared by articles, stubs and disambiguation pages. Notabl
 `PathText`, `Segs`, `Breadcrumb`, `Title`, `PageHeader`, `Tool`, `Section`, `Sub`, and 5
 more. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/wiki/article/parts.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/parts.tsx) · code · 9667 bytes
+[`components/wiki/article/parts.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/parts.tsx) · code · 9680 bytes
 
 ### readme.tsx
 
@@ -63,7 +63,7 @@ links opened in a new tab and relative links left inert. Notable exports: `prepa
 "See also" and "External links", the two lists that close an article. Notable exports:
 `gloss`, `SeeAlso`, `ExternalLinks`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/wiki/article/related.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/related.tsx) · code · 3595 bytes
+[`components/wiki/article/related.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/related.tsx) · code · 4094 bytes
 
 ### structure.tsx
 
@@ -81,4 +81,4 @@ Languages as one stacked bar, then frameworks, scripts and dependencies. Notable
 
 [`components/wiki/article/technology.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/technology.tsx) · code · 5900 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

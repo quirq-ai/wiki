@@ -21,21 +21,31 @@ const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "e
 "nine", "ten", "eleven", "twelve"]; const word = (n: number) => WORDS[n] ?? num(n) Notable
 exports: `DidYouKnow`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/wiki/main/did-you-know.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/did-you-know.tsx) · code · 4244 bytes
+[`components/wiki/main/did-you-know.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/did-you-know.tsx) · code · 4431 bytes
 
 ### featured.tsx
 
 const WORDS = 80 Notable exports: `FeaturedArticle`. Wired into a Next.js app (App Router or
 Next APIs).
 
-[`components/wiki/main/featured.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/featured.tsx) · code · 2471 bytes
+[`components/wiki/main/featured.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/featured.tsx) · code · 2777 bytes
+
+### globe.tsx
+
+The Innerpedia globe: one tile per project, laid out on a Fibonacci sphere and turning
+slowly in 3D. Everything it shows arrives in its props from the server; it fetches nothing.
+Each frame writes only transforms, opacity and stacking order, and the loop sleeps while the
+globe is off screen, while the tab is hidden, and (unless someone is turning it by hand)
+whenever the reader prefers reduced motion.
+
+[`components/wiki/main/globe.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/globe.tsx) · code · 25992 bytes
 
 ### in-the-news.tsx
 
 const DAY = 86_400_000; const clip = (s: string, n = 64) => (s.length was started
 {timeAgo(page.created)}. Notable exports: `InTheNews`.
 
-[`components/wiki/main/in-the-news.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/in-the-news.tsx) · code · 3039 bytes
+[`components/wiki/main/in-the-news.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/in-the-news.tsx) · code · 3027 bytes
 
 ### insights.ts
 
@@ -44,7 +54,7 @@ are memoised per index version, so a rebuilt index refreshes them. Notable expor
 `indexTime`, `gloss`, `splitTitle`, `containers`, `workspaces`, `categoryInfo`,
 `allCategories`, `subcollections`, and 24 more.
 
-[`components/wiki/main/insights.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/insights.ts) · code · 22343 bytes
+[`components/wiki/main/insights.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/insights.ts) · code · 23399 bytes
 
 ### letter-columns.tsx
 
@@ -63,6 +73,16 @@ const ago = (n: number) => (n === 1 ? "a year ago" : ${plural(n, "year")} ago); 
 
 [`components/wiki/main/on-this-day.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/on-this-day.tsx) · code · 3561 bytes
 
+### reveal.tsx
+
+Main page boxes below the globe ease in as they scroll into view. The server renders them
+visible; only once this script runs, and only for a box still below the window, is it hidden
+to be revealed, so nothing is lost without JavaScript and nothing in view ever blinks.
+Reduced motion: everything simply stays put. Notable exports: `Reveal`. Marked `'use
+client'` so it runs in the browser.
+
+[`components/wiki/main/reveal.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/reveal.tsx) · code · 1497 bytes
+
 ### section.tsx
 
 Small building blocks shared by the Main page, Category pages and Special pages. Notable
@@ -77,14 +97,15 @@ Special:Statistics. A small, handsome table page: the headline counts, what the 
 written in, when the work happened, and the biggest and busiest things. Notable exports:
 `StatisticsView`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/wiki/main/statistics.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/statistics.tsx) · code · 15880 bytes
+[`components/wiki/main/statistics.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/statistics.tsx) · code · 15973 bytes
 
 ### welcome.tsx
 
-The welcome banner: the Innerpedia globe, the greeting, live counts, and portals into the
-largest collections and languages. Notable exports: `Welcome`. Wired into a Next.js app (App
-Router or Next APIs).
+The Main page's first screen: the Innerpedia globe, every project a tile you can reach from
+here, beside the greeting, the live counts and the portals. The rest of the Main page waits
+below the scroll cue. Notable exports: `Welcome`. Wired into a Next.js app (App Router or
+Next APIs).
 
-[`components/wiki/main/welcome.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/welcome.tsx) · code · 7681 bytes
+[`components/wiki/main/welcome.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/welcome.tsx) · code · 7386 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

@@ -21,7 +21,10 @@ flowchart LR
     euler["euler"]
     galileo["galileo"]
     innernet["innernet"]
+    instants["instants"]
     quirq_ai["quirq_ai"]
+    quirqy["quirqy"]
+    quitter["quitter"]
     xo_cowork_api["xo-cowork-api"]
     xo_space["xo-space *"]
   end
@@ -31,12 +34,15 @@ flowchart LR
   click euler "./euler/_index.md"
   click galileo "./galileo/_index.md"
   click innernet "./innernet/_index.md"
+  click instants "./instants/_index.md"
   click quirq_ai "./quirq_ai/_index.md"
+  click quirqy "./quirqy/_index.md"
+  click quitter "./quitter/_index.md"
   click xo_cowork_api "./xo-cowork-api/_index.md"
   click xo_space "./xo-space/_index.md"
 ```
 
-[`.github`](.github/_index.md) · [`docs`](docs/_index.md)* · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`galileo`](galileo/_index.md) · [`innernet`](innernet/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
+[`.github`](.github/_index.md) · [`docs`](docs/_index.md)* · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`galileo`](galileo/_index.md) · [`innernet`](innernet/_index.md) · [`instants`](instants/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
 
 \* public fork
 <!-- quirq-wiki:repos:end -->

@@ -16,4 +16,4 @@ createContext void; chat: UseChatHelpers; } | null>(null) Notable exports:
 
 [`src/components/ai/search.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ai/search.tsx) · code · 15494 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._

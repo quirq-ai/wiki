@@ -6,25 +6,31 @@ Source: [scripts](https://github.com/quirq-ai/innernet/tree/main/scripts) in [in
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### build-demo-index.ts
+
+Build the demo index: the public repositories of github.com/quirq-ai as one Innerpedia.
+
+[`scripts/build-demo-index.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/build-demo-index.ts) · code · 24226 bytes
+
 ### build-index.ts
 
-Crawl the configured roots and write data/index.json. pnpm index # uses innernet.config.json
-INNERNET_ROOTS=~/a,~/b INNERNET_MAX_DEPTH=3 pnpm index # other roots and depth, one run
-INNERNET_OUT=/tmp/test.json pnpm index # writes there; data/index.json is left alone Privacy
-rules this script keeps: - It only ever reads README*, CLAUDE.md, AGENTS.md and project
-manifests.
+Crawl the configured roots and write data/index.json.
 
-[`scripts/build-index.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/build-index.ts) · code · 29179 bytes
+[`scripts/build-index.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/build-index.ts) · code · 51596 bytes
+
+### db.ts
+
+Innernet's database from the terminal (lib/db).
+
+[`scripts/db.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/db.ts) · code · 13495 bytes
 
 ### shot.mjs
 
 Headless screenshot of a running page, taken once it has settled: fonts loaded and every
 finite animation (the staggered `rise`) finished. Drives chrome-headless-shell over the
-DevTools protocol, because its --screenshot flag fires mid-animation. CHROME_BIN overrides
-the browser. node scripts/shot.mjs <url-path> <out.png> [width] [height] [light|dark] Prints
-the document size, and flags horizontal overflow with the elements causing it.
+DevTools protocol, because its --screenshot flag fires mid-animation.
 
-[`scripts/shot.mjs`](https://github.com/quirq-ai/innernet/blob/main/scripts/shot.mjs) · code · 5836 bytes
+[`scripts/shot.mjs`](https://github.com/quirq-ai/innernet/blob/main/scripts/shot.mjs) · code · 6946 bytes
 
 ### shot.sh
 
@@ -43,4 +49,4 @@ scripts/try-search.ts "linear clone".
 
 [`scripts/try-search.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/try-search.ts) · code · 896 bytes
 
-_Generated 2026-10-02 18:35 UTC from `main`._
+_Generated 2026-10-03 10:43 UTC from `main`._
