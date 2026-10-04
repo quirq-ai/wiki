@@ -54,7 +54,7 @@ are memoised per index version, so a rebuilt index refreshes them. Notable expor
 `indexTime`, `gloss`, `splitTitle`, `containers`, `workspaces`, `categoryInfo`,
 `allCategories`, `subcollections`, and 24 more.
 
-[`components/wiki/main/insights.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/insights.ts) · code · 23399 bytes
+[`components/wiki/main/insights.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/insights.ts) · code · 24299 bytes
 
 ### letter-columns.tsx
 
@@ -106,6 +106,6 @@ here, beside the greeting, the live counts and the portals. The rest of the Main
 below the scroll cue. Notable exports: `Welcome`. Wired into a Next.js app (App Router or
 Next APIs).
 
-[`components/wiki/main/welcome.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/welcome.tsx) · code · 7386 bytes
+[`components/wiki/main/welcome.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/main/welcome.tsx) · code · 7910 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

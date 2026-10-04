@@ -40,7 +40,7 @@ export type { Db, DbKind, DbState, DbStateName, LockHolder, Row, Statement } fro
 Notable exports: `dbState`, `setDbOwner`, `getDb`, `closeDb`, `dbEnabled`,
 `demoKeepsHistory`.
 
-[`lib/db/index.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/index.ts) · code · 5640 bytes
+[`lib/db/index.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/index.ts) · code · 5788 bytes
 
 ### ingest.ts
 
@@ -49,7 +49,7 @@ record and the interchange format: Innernet appends to <session>/innernet.jsonl,
 other app appends to a file of its own beside it. Reading them into the database is cheap
 because only what changed is read.
 
-[`lib/db/ingest.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/ingest.ts) · code · 25383 bytes
+[`lib/db/ingest.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/ingest.ts) · code · 26112 bytes
 
 ### log.ts
 
@@ -63,13 +63,13 @@ whatever an error chose to quote.
 
 ### neon.ts
 
-The demo's database: Neon serverless Postgres over HTTPS, through DATABASE_URL, which the
-Vercel Marketplace sets on the demo's project. Every query is one HTTPS request with nothing
-kept open, which suits short-lived server functions. Only the demo may come here. This
-machine's folders never go to a server, so local mode refuses before any client exists,
-whatever variables happen to be set. Notable exports: `openNeon`.
+Neon serverless Postgres over HTTPS: every query is one request with nothing kept open,
+which suits short-lived server functions. Two databases come through here, and they never
+mix: the demo's DATABASE_URL, set by the Vercel Marketplace on the demo's project. Only the
+demo opens it; local mode refuses, whatever variables are set. yours the remote database
+Sources can switch this machine's storage to (lib/storage.ts, ~/.innernet/remote.json).
 
-[`lib/db/neon.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/neon.ts) · code · 1569 bytes
+[`lib/db/neon.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/neon.ts) · code · 2383 bytes
 
 ### pglite.ts
 
@@ -79,6 +79,14 @@ leaves the machine.
 
 [`lib/db/pglite.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/pglite.ts) · code · 8840 bytes
 
+### remote-sync.ts
+
+A connected remote database, kept in step with this machine, both ways. This machine's own
+database (PGlite) stays the one in use; the remote is a second copy that follows it and that
+your other machines can share.
+
+[`lib/db/remote-sync.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/remote-sync.ts) · code · 15034 bytes
+
 ### schema.ts
 
 The schema, the same on both databases, made idempotently once per process.
@@ -87,12 +95,13 @@ The schema, the same on both databases, made idempotently once per process.
 
 ### status.ts
 
-What the database holds and where, in one call, for the history page (/activity) and
-anything else that wants to say so. Never throws and never waits on the network: on this
-machine it asks PGlite, which is in the process; on the demo it reports what the last
-background check of Neon saw, so rendering a page never queries Neon.
+What the database holds and where, in one call, for the history page (/activity), Sources
+and anything else that wants to say so. Never throws and never waits on the network: on this
+machine it asks PGlite, which is in the process (the remote database, when connected,
+reports through lib/db/remote-sync.ts); on the demo it reports what the last background
+check of Neon saw, so rendering a page never queries Neon.
 
-[`lib/db/status.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/status.ts) · code · 4606 bytes
+[`lib/db/status.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/status.ts) · code · 4749 bytes
 
 ### sync.ts
 
@@ -102,15 +111,25 @@ at once from memory and does its database work in the background. local Whenever
 data/index.json is loaded anew, it is stored in the database if that holds a different one
 (by generatedAt).
 
-[`lib/db/sync.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/sync.ts) · code · 9913 bytes
+[`lib/db/sync.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/sync.ts) · code · 10054 bytes
+
+### tombstones.ts
+
+History this machine has forgotten (a session folder or a line you deleted), remembered
+while a remote database is connected, so the sync deletes it there too and never brings it
+back down. Kept in this machine's database, under kv remote.forgotten: the newest 20,000
+uids, which is far more lines than anyone deletes between two syncs. Notable exports:
+`forgottenUids`, `rememberForgotten`.
+
+[`lib/db/tombstones.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/tombstones.ts) · code · 1323 bytes
 
 ### types.ts
 
 The database contract, shared by both drivers (lib/db/pglite.ts on this machine,
-lib/db/neon.ts on the demo) and everything that talks to them. Same SQL for both: no ORM,
-just text with $1 placeholders and plain rows back. Values travel as text, numbers or
-booleans. JSON goes in as a string cast in the SQL ($1::jsonb) and comes back parsed.
+lib/db/neon.ts for Neon) and everything that talks to them. Same SQL for both: no ORM, just
+text with $1 placeholders and plain rows back. Values travel as text, numbers or booleans.
+JSON goes in as a string cast in the SQL ($1::jsonb) and comes back parsed.
 
-[`lib/db/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/types.ts) · code · 2084 bytes
+[`lib/db/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/types.ts) · code · 2319 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

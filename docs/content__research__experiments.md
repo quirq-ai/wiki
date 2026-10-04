@@ -149,4 +149,4 @@ tokenizer destroys.
 
 [`content/research/experiments/tokenizer-not-the-language.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/tokenizer-not-the-language.mdx) · code · 34060 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

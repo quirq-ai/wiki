@@ -55,4 +55,4 @@ artwork used by the UI, docs, or brand; not executable source.
 
 [`public/images/research/claude-code-harness/subagent.svg`](https://github.com/quirq-ai/docs/blob/main/public/images/research/claude-code-harness/subagent.svg) · code · 2795 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -60,7 +60,7 @@ hooks, so the server renders it from the files on this machine and the demo's br
 renders it from localStorage. Notable exports: `duration`, `AppBadge`, `SessionList`. Wired
 into a Next.js app (App Router or Next APIs).
 
-[`components/activity/session-list.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/activity/session-list.tsx) · code · 11670 bytes
+[`components/activity/session-list.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/activity/session-list.tsx) · code · 13219 bytes
 
 ### shared.ts
 
@@ -88,4 +88,4 @@ from "./shared" Notable exports: `sessionId`, `currentSessionId`, `readTrail`, `
 
 [`components/activity/trail.ts`](https://github.com/quirq-ai/innernet/blob/main/components/activity/trail.ts) · code · 10946 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -20,4 +20,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/space/install-space-as-a-skill/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/meta.json) · code · 92 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -48,4 +48,4 @@ metadata. MDX page (Markdown with JSX components), typically rendered by the doc
 
 [`content/docs/setup/data/vercel.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/data/vercel.mdx) · code · 3112 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

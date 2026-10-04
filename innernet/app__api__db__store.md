@@ -13,6 +13,6 @@ run by the server, which already has this machine's database open. The index fil
 if the database holds a different one, and every history folder is read in. This machine
 only, from its own pages only; the demo has no such door.
 
-[`app/api/db/store/route.ts`](https://github.com/quirq-ai/innernet/blob/main/app/api/db/store/route.ts) · code · 1979 bytes
+[`app/api/db/store/route.ts`](https://github.com/quirq-ai/innernet/blob/main/app/api/db/store/route.ts) · code · 1989 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

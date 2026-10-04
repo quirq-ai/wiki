@@ -16,4 +16,4 @@ exports: `buttonVariants`, `ButtonProps`.
 
 [`src/components/ui/button.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ui/button.tsx) · code · 1159 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

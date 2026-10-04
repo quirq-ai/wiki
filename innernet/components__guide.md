@@ -12,7 +12,7 @@ Chapter II: what a folder needs to become an article, the five steps, roots, nam
 folders most in need of a README. Notable exports: `AddSite`. Wired into a Next.js app (App
 Router or Next APIs).
 
-[`components/guide/add-site.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/add-site.tsx) · code · 20798 bytes
+[`components/guide/add-site.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/add-site.tsx) · code · 22559 bytes
 
 ### chapters.ts
 
@@ -27,7 +27,7 @@ progress ruler (a client component), so the two can never disagree. Notable expo
 Chapter IV: a map of the code, four recipes quoted from the code itself, the loop, the
 conventions, and the checklist from CONTRIBUTING.md. Notable exports: `Contribute`.
 
-[`components/guide/contribute.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/contribute.tsx) · code · 24043 bytes
+[`components/guide/contribute.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/contribute.tsx) · code · 25283 bytes
 
 ### copy-button.tsx
 
@@ -55,7 +55,7 @@ then the colophon. It lives on the home page under the search box, at /#guide. E
 is read from the live index and every code excerpt from the code itself, so the guide never
 drifts from the app. Notable exports: `FieldGuide`.
 
-[`components/guide/field-guide.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/field-guide.tsx) · code · 3903 bytes
+[`components/guide/field-guide.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/field-guide.tsx) · code · 3793 bytes
 
 ### folder-recipe.tsx
 
@@ -65,7 +65,7 @@ categories), lib/normalize.ts (summary) and lib/search.ts (tabs, operators, prio
 line for the folders this recipe can describe; the small print under the card names the
 lines. Change those rules, change these. Notable exports: `FolderRecipe`.
 
-[`components/guide/folder-recipe.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/folder-recipe.tsx) · code · 31718 bytes
+[`components/guide/folder-recipe.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/folder-recipe.tsx) · code · 32732 bytes
 
 ### guide-motion.tsx
 
@@ -109,7 +109,7 @@ Chapter I: the pipeline, then its three stations, each with its plate and the li
 of this machine's index. Notable exports: `HowItWorks`. Wired into a Next.js app (App Router
 or Next APIs).
 
-[`components/guide/how-it-works.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/how-it-works.tsx) · code · 21113 bytes
+[`components/guide/how-it-works.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/how-it-works.tsx) · code · 22413 bytes
 
 ### parts.tsx
 
@@ -133,7 +133,7 @@ drawing from public/guide/plates/<id>.svg.
 Chapter V: what is read, what is only counted, what is blacked out, who may ask, and what
 the database keeps, here and on the public demo. Notable exports: `Privacy`.
 
-[`components/guide/privacy.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/privacy.tsx) · code · 12512 bytes
+[`components/guide/privacy.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/privacy.tsx) · code · 14221 bytes
 
 ### recipe-shared.ts
 
@@ -161,4 +161,4 @@ next.config.ts names the files a deployment needs.
 
 [`components/guide/source.ts`](https://github.com/quirq-ai/innernet/blob/main/components/guide/source.ts) · code · 3834 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

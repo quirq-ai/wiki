@@ -45,4 +45,4 @@ components), typically rendered by the docs site.
 
 [`content/docs/more/create-your-environments/publishing.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-environments/publishing.mdx) · code · 3881 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -38,4 +38,4 @@ import { docsContentRoute, docsImageRoute, docsRoute, researchContentRoute, } fr
 
 [`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 5545 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

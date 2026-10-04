@@ -19,4 +19,4 @@ application object.
 
 [`routers/cowork_agent/legacy/openclaw_usage.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/routers/cowork_agent/legacy/openclaw_usage.py) · code · 1115 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

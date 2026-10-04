@@ -30,4 +30,4 @@ id; type Mode = " Notable exports: `useSession`.
 
 [`hooks/use-session.ts`](https://github.com/quirq-ai/instants/blob/main/hooks/use-session.ts) · code · 14663 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

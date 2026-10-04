@@ -12,7 +12,7 @@ A full Innerpedia article: contents on the left, the article with its infobox in
 sections only where there is something to say. Notable exports: `ArticleView`. Wired into a
 Next.js app (App Router or Next APIs).
 
-[`components/wiki/article-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article-view.tsx) · code · 5984 bytes
+[`components/wiki/article-view.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article-view.tsx) · code · 6792 bytes
 
 ### category-view.tsx
 
@@ -54,4 +54,4 @@ special pages, held to the bottom of the window on short pages. Each view render
 
 [`components/wiki/wiki-shell.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/wiki-shell.tsx) · code · 1228 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

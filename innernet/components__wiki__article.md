@@ -6,6 +6,14 @@ Source: [components/wiki/article](https://github.com/quirq-ai/innernet/tree/main
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### agent.tsx
+
+An agent's own sections: the instructions and memory it reads, shown the way a README is,
+then its sessions and activity, told from file names, sizes and dates alone. Notable
+exports: `AgentInstructions`, `AgentSessions`.
+
+[`components/wiki/article/agent.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/agent.tsx) · code · 8445 bytes
+
 ### contents-nav.tsx
 
 The contents list. On wide screens it sits sticky beside the article and follows the reader
@@ -18,9 +26,10 @@ browser.
 ### history.tsx
 
 A repository's life: the headline numbers, commits per month as a quiet bar chart, who wrote
-it, and the last ten commits as a timeline. Notable exports: `History`.
+it, and the last ten commits as a timeline. Notable exports: `Figure`, `shortDate`,
+`MonthBars`, `History`.
 
-[`components/wiki/article/history.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/history.tsx) · code · 6929 bytes
+[`components/wiki/article/history.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/history.tsx) · code · 7291 bytes
 
 ### infobox.tsx
 
@@ -28,7 +37,7 @@ The infobox: a sigil on a wash of its own colours, then the facts in label/value
 grouped the way Wikipedia groups them. Notable exports: `Infobox`. Wired into a Next.js app
 (App Router or Next APIs).
 
-[`components/wiki/article/infobox.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/infobox.tsx) · code · 7361 bytes
+[`components/wiki/article/infobox.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/infobox.tsx) · code · 9635 bytes
 
 ### lead.ts
 
@@ -36,9 +45,9 @@ The encyclopedia voice. Turns index metadata into sentences ("linear-clone is a 
 Next.js application in the experiments collection of the XO workspace.") as a list of
 segments, so the view can render links and bold without any HTML. Notable exports:
 `authorTotal`, `article`, `codeLanguages`, `descriptor`, `typeLabel`, `shortKind`,
-`placeSegs`, `placeText`, and 12 more.
+`placeSegs`, `placeText`, and 14 more.
 
-[`components/wiki/article/lead.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/lead.ts) · code · 21019 bytes
+[`components/wiki/article/lead.ts`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/lead.ts) · code · 22487 bytes
 
 ### parts.tsx
 
@@ -81,4 +90,4 @@ Languages as one stacked bar, then frameworks, scripts and dependencies. Notable
 
 [`components/wiki/article/technology.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/article/technology.tsx) · code · 5900 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

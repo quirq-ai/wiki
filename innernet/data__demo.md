@@ -8,9 +8,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### index.json
 
-Large text file (590.0 KB), over the generator's 256 KB parse cap. Only a prefix was
+Large text file (855.0 KB), over the generator's 256 KB parse cap. Only a prefix was
 inspected.
 
-[`data/demo/index.json`](https://github.com/quirq-ai/innernet/blob/main/data/demo/index.json) · huge · 604139 bytes
+[`data/demo/index.json`](https://github.com/quirq-ai/innernet/blob/main/data/demo/index.json) · huge · 875540 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

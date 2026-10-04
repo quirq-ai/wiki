@@ -9,11 +9,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### brand-nav.tsx
 
 The quirq mark and the small links every header carries: back and forward through this tab's
-trail and the way to its history, the field guide, quirq, and the code on GitHub. Plain
-links and buttons; nothing here fetches. Notable exports: `QuirqMark`, `QuirqHome`,
-`BrandLinks`, `QUIRQ_URL`, `GITHUB_URL`. Wired into a Next.js app (App Router or Next APIs).
+trail and the way to its history, the field guide, sources, quirq, and the code on GitHub.
+Sources manages this machine's indexes and storage. Notable exports: `QuirqMark`,
+`QuirqHome`, `BrandLinks`, `QUIRQ_URL`, `GITHUB_URL`. Wired into a Next.js app (App Router
+or Next APIs).
 
-[`components/brand-nav.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/brand-nav.tsx) · code · 4141 bytes
+[`components/brand-nav.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/brand-nav.tsx) · code · 5008 bytes
 
 ### demo-banner.tsx
 
@@ -46,17 +47,17 @@ The one search box, in two sizes. Suggestions come from our own /api/suggest rou
 `SearchBox`. Wired into a Next.js app (App Router or Next APIs). Marked `'use client'` so it
 runs in the browser.
 
-[`components/search-box.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search-box.tsx) · code · 8679 bytes
+[`components/search-box.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search-box.tsx) · code · 8771 bytes
 
 ### sigil.tsx
 
 Every folder gets a deterministic "sigil": a small aurora of three hues derived from its
 slug, with its initial set in the display serif. Repos are round, projects are soft squares,
-plain folders are muted. The same sigil appears in search results, suggestions, the
-knowledge panel and the article infobox, so a project is recognisable by colour before its
-name is read.
+agents' folders are octagons, plain folders are muted. The same sigil appears in search
+results, suggestions, the knowledge panel and the article infobox, so a project is
+recognisable by colour before its name is read.
 
-[`components/sigil.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/sigil.tsx) · code · 5352 bytes
+[`components/sigil.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/sigil.tsx) · code · 5781 bytes
 
 ### site-footer.tsx
 
@@ -93,4 +94,4 @@ italic, a quiet nod to the thing being searched being you. Notable exports: `Wor
 
 [`components/wordmark.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wordmark.tsx) · code · 1171 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

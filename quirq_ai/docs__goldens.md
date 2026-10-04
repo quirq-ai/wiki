@@ -41,4 +41,4 @@ JSON document `what-is-quirq.json` whose top-level keys are `path`, `viewport`, 
 
 [`docs/goldens/what-is-quirq.json`](https://github.com/quirq-ai/quirq_ai/blob/main/docs/goldens/what-is-quirq.json) · code · 887 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

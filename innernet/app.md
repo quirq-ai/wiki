@@ -20,7 +20,7 @@ Stylesheet `globals.css` for layout and visual treatment in this folder. Leading
 selectors include `aurora`, `grain`, `ix-entry`, `ix-dense`, `prose-wiki`, `rise`. Defines
 or consumes CSS custom properties (design tokens).
 
-[`app/globals.css`](https://github.com/quirq-ai/innernet/blob/main/app/globals.css) · code · 11610 bytes
+[`app/globals.css`](https://github.com/quirq-ai/innernet/blob/main/app/globals.css) · code · 11751 bytes
 
 ### icon.svg
 
@@ -55,6 +55,6 @@ github.com/${DEMO_ORG}, searchable like the web and readable in Innerpedia, with
 Innernet Field Guide to how it works and how to run it on your own folders., } : { title: {
 absolut Notable exports: `Home`, `metadata`, `dynamic`.
 
-[`app/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/page.tsx) · code · 6544 bytes
+[`app/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/page.tsx) · code · 6679 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

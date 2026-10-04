@@ -27,4 +27,4 @@ Environment-derived runtime facts that are needed below the services layer. Func
 
 [`utils/runtime_env.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/runtime_env.py) · code · 2458 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -12,17 +12,35 @@ The activity history: plain folders and JSON Lines files, no index. The folders 
 record and the format every app shares; the database keeps a copy of their lines, read in as
 they change (lib/db/ingest.ts).
 
-[`lib/activity.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/activity.ts) · code · 6889 bytes
+[`lib/activity.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/activity.ts) · code · 7344 bytes
+
+### agents.ts
+
+Projects and agents: the index's top-level classification. Every dot folder in an indexed
+source belongs to an agent or tool (.claude, .codex, .cursor, .xo...), and so does
+everything inside it; all the rest belongs to projects. Two kinds of dot folder are not
+agents. Folders a tool generates (build output, caches, installed dependencies, version-
+control internals) are skipped like node_modules.
+
+[`lib/agents.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/agents.ts) · code · 4838 bytes
+
+### base-path.ts
+
+Next Link, router navigation and redirect() add basePath themselves. Browser fetches, native
+forms, media and raw Location headers need it explicitly. Notable exports: `appPath`,
+`BASE_PATH`.
+
+[`lib/base-path.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/base-path.ts) · code · 575 bytes
 
 ### data.ts
 
-Loads data/index.json once and reloads it when the file changes, so `pnpm index` takes
-effect without restarting the server. The demo (lib/mode.ts) reads the committed
-data/demo/index.json instead; next.config.ts ships that one file with every server function,
-and never the local index. The database (lib/db) keeps a copy, and the file stays the
-source.
+Local mode combines the selected sources from data/sources.json: data/index.json for folders
+and data/github.json for GitHub (with the bundled snapshot as fallback). Changed files and
+source selections take effect without restarting the server. The public demo keeps its
+original bundled-file / Neon flow. The database (lib/db) keeps a copy, and the file stays
+the source.
 
-[`lib/data.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/data.ts) · code · 7622 bytes
+[`lib/data.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/data.ts) · code · 9044 bytes
 
 ### demo-check.ts
 
@@ -66,6 +84,16 @@ has one address however many projects share it, and the browser can keep it for 
 
 [`lib/logo.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/logo.ts) · code · 2554 bytes
 
+### merge-indexes.ts
+
+/** Combine the chosen indexes without changing either source on disk or in memory. * GitHub
+URLs have their own namespace even when Local is unchecked, so ordinary * source switches
+keep bookmarked GitHub articles pointing at the same page. */ export function
+mergeIndexes(local: SiteIndex | null, remote: SiteIndex | null): SiteIndex { const pages =
+[...(loc Notable exports: `mergeIndexes`.
+
+[`lib/merge-indexes.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/merge-indexes.ts) · code · 4412 bytes
+
 ### mode.ts
 
 Two ways to run Innernet. Local (the default): the index of this machine's folders, served
@@ -81,10 +109,27 @@ locally.
 One pass that brings an index up to the current rules, shared by the indexer (before it
 writes) and the server (when it loads an index written by an older indexer). It only does
 what needs no disk: credentials redacted, text in house style, summaries re-picked, logos
-checked, dates in UTC and rolled up the tree, categories completed. Idempotent. No imports
-beyond lib/text, so the indexer can use it outside Next.
+checked, dates in UTC and rolled up the tree, categories completed, every page placed among
+projects or agents. Idempotent.
 
-[`lib/normalize.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/normalize.ts) · code · 6222 bytes
+[`lib/normalize.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/normalize.ts) · code · 8260 bytes
+
+### project-root.ts
+
+A host such as Quirq may serve multiple apps from one process. It sets this runtime-only
+path instead of changing the working directory for every request. Notable exports:
+`PROJECT_ROOT`.
+
+[`lib/project-root.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/project-root.ts) · code · 335 bytes
+
+### remote-config.ts
+
+Remote input: a collection of public GitHub repositories, from any account, each as
+"owner/name". There is no whole-account mode: a sync fetches exactly what is listed. Notable
+exports: `parseRepository`, `normalizeRemoteConfig`, `remoteActivityFields`, `RemoteConfig`,
+`EMPTY_REMOTE`, `MAX_REPOSITORIES`, `remoteOwners`.
+
+[`lib/remote-config.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/remote-config.ts) · code · 4537 bytes
 
 ### same-origin.ts
 
@@ -102,7 +147,49 @@ Server-side full-text search over the index. The engine is rebuilt only when the
 changes. Notable exports: `pageSummary`, `parseQuery`, `search`, `suggest`, `displayPath`,
 `fallbackDescription`, `Tab`, `TABS`, and 5 more.
 
-[`lib/search.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/search.ts) · code · 16816 bytes
+[`lib/search.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/search.ts) · code · 18155 bytes
+
+### source-request.ts
+
+export const sourceHeaders = { "Cache-Control": "no-store" }; export const sourceError =
+(status: number, error: string) => Response.json({ error }, { status, headers: sourceHeaders
+}) Notable exports: `readSourceRequest`, `sourceHeaders`, `sourceError`.
+
+[`lib/source-request.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/source-request.ts) · code · 1241 bytes
+
+### source-storage.ts
+
+What Sources shows: the input (local folders, GitHub repositories), everything that input
+generates, one short row each with a relative path, its size and when it last changed, and
+the databases its copy is kept in. Notable exports: `shownPath`, `generatedData`,
+`sourceInfo`, `openStorageLocation`, `GeneratedItem`, `remoteSummary`.
+
+[`lib/source-storage.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/source-storage.ts) · code · 10395 bytes
+
+### sources.ts
+
+export interface SourceSelection { local: boolean; remote: boolean } Notable exports:
+`validSourceSelection`, `readSourceSelection`, `readRemoteConfig`, `writeSourceSelection`,
+`localSourceConfig`, `remoteOutputFile`, `remoteIndexFile`, `SourceSelection`, and 5 more.
+
+[`lib/sources.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/sources.ts) · code · 4168 bytes
+
+### storage.ts
+
+The remote database Innernet can connect to, beside this machine's own (PGlite in
+~/.innernet/db, always in use). Connected, the two are kept in step both ways (see
+lib/db/remote-sync.ts): what this machine makes goes up, and history from your other
+machines comes down into the history folders, which stay the record.
+
+[`lib/storage.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/storage.ts) · code · 4006 bytes
+
+### sync-sources.ts
+
+export type SyncResult = | { ok: true; pages: number; generatedAt: string; durationMs:
+number } | { ok: false; status: number; error: string } Notable exports: `syncSources`,
+`SyncResult`, `sourceSyncRunning`.
+
+[`lib/sync-sources.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/sync-sources.ts) · code · 6323 bytes
 
 ### text.ts
 
@@ -116,9 +203,9 @@ with no imports, so the indexer can use them outside Next. Notable exports: `tid
 ### types.ts
 
 The index contract. Written by scripts/build-index.ts, read by lib/data.ts. Everything here
-is plain JSON so the index can be inspected by hand. Notable exports: `PageKind`, `Commit`,
-`GitInfo`, `Manifest`, `Page`, `LogoSurface`, `IndexMeta`, `SiteIndex`.
+is plain JSON so the index can be inspected by hand. Notable exports: `PageKind`, `Realm`,
+`AgentFile`, `AgentSession`, `AgentInfo`, `Commit`, `GitInfo`, `Manifest`, and 4 more.
 
-[`lib/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/types.ts) · code · 5471 bytes
+[`lib/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/types.ts) · code · 7948 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

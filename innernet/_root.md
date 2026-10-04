@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 11 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 12 pattern(s)
 including `node_modules`, `.next`, `next-env.d.ts`, `*.tsbuildinfo`, `data/*.json`,
-`data/*.tmp`, `public/guide/innernet-explainer.mp4`, `.demo-cache/`, and 3 more. Generated
+`data/*.tmp`, `public/guide/innernet-explainer.mp4`, `.demo-cache/`, and 4 more. Generated
 and secret files matching these patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/innernet/blob/main/.gitignore) · other · 561 bytes
+[`.gitignore`](https://github.com/quirq-ai/innernet/blob/main/.gitignore) · other · 576 bytes
 
 ### .vercelignore
 
@@ -24,15 +24,31 @@ keeps them out of git; this keeps them out of a CLI upload too.
 
 [`.vercelignore`](https://github.com/quirq-ai/innernet/blob/main/.vercelignore) · other · 416 bytes
 
+### AGENTS.md
+
+The agent/workspace instructions (“This is NOT the Next.js you know”). This version has
+breaking changes — APIs, conventions, and file structure may all differ from your training
+data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from this file's
+directory; in monorepos the next package may not be visible from the repo root) before
+writing any code. Heed deprecation notices.
+
+[`AGENTS.md`](https://github.com/quirq-ai/innernet/blob/main/AGENTS.md) · code · 1214 bytes
+
+### CLAUDE.md
+
+The Claude Code instructions. @AGENTS.md.
+
+[`CLAUDE.md`](https://github.com/quirq-ai/innernet/blob/main/CLAUDE.md) · code · 11 bytes
+
 ### CONTRIBUTING.md
 
 The contributor guide (“Contributing to innernet”). Innernet is small enough to hold in your
-head: one crawler, one JSON file, one search engine and an encyclopedia drawn from it. This
-page is how to work on it. For how it behaves (the crawl rules, ranking, operators, every
-kind of Innerpedia page), read the field guide on the home page at
+head: a crawler, local JSON indexes, one search engine and an encyclopedia drawn from them.
+This page is how to work on it. For how it behaves (the crawl rules, ranking, operators,
+every kind of Innerpedia page), read the field guide on the home page at
 [/#guide](http://localhost:3470/#guide).
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 11850 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 15121 bytes
 
 ### DESIGN.md
 
@@ -42,13 +58,13 @@ for every project and a stub for every other folder. It should feel like the ear
 best ideas (a single search box, blue links, the encyclopedia) remade with the calm and
 typographic care of a good printed book.
 
-[`DESIGN.md`](https://github.com/quirq-ai/innernet/blob/main/DESIGN.md) · code · 19132 bytes
+[`DESIGN.md`](https://github.com/quirq-ai/innernet/blob/main/DESIGN.md) · code · 22140 bytes
 
 ### README.md
 
 The project README (“The public demo (Vercel)”). innernet.
 
-[`README.md`](https://github.com/quirq-ai/innernet/blob/main/README.md) · code · 20976 bytes
+[`README.md`](https://github.com/quirq-ai/innernet/blob/main/README.md) · code · 30046 bytes
 
 ### innernet.config.json
 
@@ -64,7 +80,7 @@ machine it opens the database early, and when data/index.json is missing it wait
 stored index, so the first page shows it rather than an empty site (lib/db/sync.ts). The
 demo needs nothing here: it asks Neon on first use.
 
-[`instrumentation.ts`](https://github.com/quirq-ai/innernet/blob/main/instrumentation.ts) · code · 799 bytes
+[`instrumentation.ts`](https://github.com/quirq-ai/innernet/blob/main/instrumentation.ts) · code · 972 bytes
 
 ### next.config.ts
 
@@ -72,7 +88,7 @@ Innernet makes no requests beyond its own origin (DESIGN.md, principle 5); the C
 Security-Policy holds the browser to that. Development also needs eval for React's debugging
 and a websocket for hot reload. Provides a default export as the module's public entry.
 
-[`next.config.ts`](https://github.com/quirq-ai/innernet/blob/main/next.config.ts) · code · 5495 bytes
+[`next.config.ts`](https://github.com/quirq-ai/innernet/blob/main/next.config.ts) · code · 5726 bytes
 
 ### package.json
 
@@ -116,4 +132,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

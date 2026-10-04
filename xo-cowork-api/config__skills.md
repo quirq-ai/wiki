@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`config/skills/catalog.json`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/skills/catalog.json) · code · 1742 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

@@ -14,6 +14,6 @@ kind, url, ...} one event from the recorder (components/activity/recorder.tsx). 
 machine it is appended to <session>/innernet.jsonl, the format every app shares, and once
 the answer is sent that session's files are read into the database (lib/db/ingest.ts).
 
-[`app/api/activity/route.ts`](https://github.com/quirq-ai/innernet/blob/main/app/api/activity/route.ts) · code · 8109 bytes
+[`app/api/activity/route.ts`](https://github.com/quirq-ai/innernet/blob/main/app/api/activity/route.ts) · code · 8293 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._

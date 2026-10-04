@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-03T10:43:10.167768+00:00",
+  "generated_at": "2026-10-04T11:24:21.233949+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -40,8 +40,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/euler",
-      "pushed_at": "2026-09-23T15:37:33Z",
-      "sha": "318af968118dface05436f69c5ef3e516c03faa8"
+      "pushed_at": "2026-10-03T23:31:08Z",
+      "sha": "1a2cce731b13e802f59a761721bbb5403251d2d5"
     },
     {
       "name": "galileo",
@@ -58,8 +58,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/innernet",
-      "pushed_at": "2026-10-03T05:15:08Z",
-      "sha": "4e9becef4af1593b05405fc9f2c4e698b980913d"
+      "pushed_at": "2026-10-03T19:59:07Z",
+      "sha": "da9b84cf811f4358e3ee0b5d9d4388b69bf481e9"
     },
     {
       "name": "instants",
@@ -96,6 +96,15 @@
       "html_url": "https://github.com/quirq-ai/quitter",
       "pushed_at": "2026-10-03T01:55:33Z",
       "sha": "f4ac9ca1ae6f9f82968a4c47af063ed859912773"
+    },
+    {
+      "name": "research",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/research",
+      "pushed_at": "2026-10-04T11:15:14Z",
+      "sha": "bd5ac02977e0483e7a26081c9cb162baf6eac6b1"
     },
     {
       "name": "xo-cowork-api",

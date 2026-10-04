@@ -12,7 +12,7 @@ The query found things, just none of this kind. Saying "nothing matches" would b
 point at the tabs that do have results instead. Notable exports: `EmptyTab`. Wired into a
 Next.js app (App Router or Next APIs).
 
-[`components/search/empty-tab.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/empty-tab.tsx) · code · 1813 bytes
+[`components/search/empty-tab.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/empty-tab.tsx) · code · 1844 bytes
 
 ### knowledge-panel.tsx
 
@@ -62,7 +62,7 @@ so every consumer of search() gets them. Notable exports: `withoutOperator`,
 `withoutOperators`, `tokens`, `primaryLanguage`, `kindLabel`, `kindLine`, `crumbs`,
 `tailCrumbs`, and 6 more.
 
-[`components/search/query-tools.ts`](https://github.com/quirq-ai/innernet/blob/main/components/search/query-tools.ts) · code · 7585 bytes
+[`components/search/query-tools.ts`](https://github.com/quirq-ai/innernet/blob/main/components/search/query-tools.ts) · code · 7732 bytes
 
 ### related-searches.tsx
 
@@ -80,7 +80,7 @@ line of facts. The source line names the kind rather than the folder, so the nam
 said twice in a row. Notable exports: `ResultItem`. Wired into a Next.js app (App Router or
 Next APIs).
 
-[`components/search/result-item.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/result-item.tsx) · code · 5331 bytes
+[`components/search/result-item.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/result-item.tsx) · code · 5687 bytes
 
 ### result-tabs.tsx
 
@@ -98,4 +98,4 @@ function Snippet({ segments }: { segments: Segment[] }) { return <>{segments.map
 
 [`components/search/snippet.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/snippet.tsx) · code · 317 bytes
 
-_Generated 2026-10-03 10:43 UTC from `main`._
+_Generated 2026-10-04 11:24 UTC from `main`._
