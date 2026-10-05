@@ -26,7 +26,7 @@ Markdown page “Create Your Alter-Ego”. A version of you, trained on your wor
 public, yours to shape. MDX page (Markdown with JSX components), typically rendered by the
 docs site.
 
-[`content/docs/more/create-your-alter-ego/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-alter-ego/index.mdx) · code · 4618 bytes
+[`content/docs/more/create-your-alter-ego/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-alter-ego/index.mdx) · code · 4601 bytes
 
 ### meta.json
 
@@ -42,4 +42,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/more/create-your-alter-ego/publishing.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-alter-ego/publishing.mdx) · code · 6139 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

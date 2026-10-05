@@ -37,4 +37,4 @@ components), typically rendered by the docs site.
 
 [`content/research/phase-1-agentic-workforce/unit-of-work.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/phase-1-agentic-workforce/unit-of-work.mdx) · code · 4629 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

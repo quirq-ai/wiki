@@ -348,4 +348,4 @@ generated blobs.
 
 [`public/assets/home-v9/workflow-visual.png`](https://github.com/quirq-ai/quirq_ai/blob/main/public/assets/home-v9/workflow-visual.png) · binary · 143811 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

@@ -31,7 +31,7 @@ Extensionless file `.node-version`. 24.
 
 The project README (“Quick start”). Euler Your apps. One home. One dock.
 
-[`README.md`](https://github.com/quirq-ai/euler/blob/main/README.md) · code · 19831 bytes
+[`README.md`](https://github.com/quirq-ai/euler/blob/main/README.md) · code · 20454 bytes
 
 ### euler.workspace.json
 
@@ -65,4 +65,4 @@ a shared dock, and directly mounted applications. CLI bins: `euler`. Scripts: `s
 
 [`package.json`](https://github.com/quirq-ai/euler/blob/main/package.json) · code · 990 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

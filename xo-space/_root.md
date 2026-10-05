@@ -27,12 +27,12 @@ locally; never commit real credentials.
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 59 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 60 pattern(s)
 including `.env`, `.env.local`, `.env.*.local`, `.env.backup`, `.env.bak*`, `main.tf`,
-`.claude/`, `experiments/`, and 51 more. Generated and secret files matching these patterns
+`.claude/`, `experiments/`, and 52 more. Generated and secret files matching these patterns
 are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/xo-space/blob/main/.gitignore) · other · 1399 bytes
+[`.gitignore`](https://github.com/quirq-ai/xo-space/blob/main/.gitignore) · other · 1477 bytes
 
 ### AGENTS.md
 
@@ -57,7 +57,7 @@ open-source local control plane for AI coding agents — Claude Code, Codex, Ope
 Antigravity, and Cursor for telemetry — plus the Space UI that shows what those agents did
 to your projects. This guide is the short path from "I found something" to "it's merged".
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17232 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17746 bytes
 
 ### DEVELOPING.md
 
@@ -171,4 +171,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

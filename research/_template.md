@@ -26,4 +26,10 @@ The project README (“{{TOPIC}}”). _One sentence: what this topic is about._.
 
 [`_template/README.md`](https://github.com/quirq-ai/research/blob/main/_template/README.md) · code · 985 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+### package.json
+
+npm package manifest for `{{TOPIC}}`. Scripts: `build`, `dev`.
+
+[`_template/package.json`](https://github.com/quirq-ai/research/blob/main/_template/package.json) · code · 177 bytes
+
+_Generated 2026-10-05 12:48 UTC from `main`._

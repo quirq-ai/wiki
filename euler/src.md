@@ -24,7 +24,7 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; cha
 '.mjs': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json':
 'applicat Notable exports: `compiledStore`, `inspectBuild`, `buildCompiledWorkspace`
 
-[`src/compiled.mjs`](https://github.com/quirq-ai/euler/blob/main/src/compiled.mjs) · code · 13009 bytes
+[`src/compiled.mjs`](https://github.com/quirq-ai/euler/blob/main/src/compiled.mjs) · code · 13050 bytes
 
 ### config.mjs
 
@@ -52,6 +52,6 @@ Set(['dev', 'start', 'preview']); const placeholders = new Set(['node', 'port',
 'workspaceRoot', 'projectRoot']); const identifier = /^[a-zA-Z0-9][a-zA-Z0-9._-]*$/; const
 object = (valu Notable exports: `validateManifest`, `loadWorkspace`, `manifestName`
 
-[`src/workspace.mjs`](https://github.com/quirq-ai/euler/blob/main/src/workspace.mjs) · code · 5965 bytes
+[`src/workspace.mjs`](https://github.com/quirq-ai/euler/blob/main/src/workspace.mjs) · code · 7128 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

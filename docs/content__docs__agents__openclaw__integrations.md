@@ -23,10 +23,10 @@ with JSX components), typically rendered by the docs site.
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/agents/openclaw/integrations/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/integrations/meta.json) · code · 65 bytes
+[`content/docs/agents/openclaw/integrations/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/integrations/meta.json) · code · 84 bytes
 
 ### v0-vercel.mdx
 
@@ -37,4 +37,4 @@ rendered by the docs site.
 
 [`content/docs/agents/openclaw/integrations/v0-vercel.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/integrations/v0-vercel.mdx) · code · 3966 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

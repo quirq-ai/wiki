@@ -70,4 +70,4 @@ blobs.
 
 [`app/quitter/docs/responsive-tablet.jpg`](https://github.com/quirq-ai/euler/blob/main/app/quitter/docs/responsive-tablet.jpg) · binary · 68193 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

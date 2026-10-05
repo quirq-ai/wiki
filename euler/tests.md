@@ -25,7 +25,7 @@ test file.
 const index = 'Compiled fixture'; const withoutDock = (html) => html.replace(//g,
 '').replace(//g, '').replace(//g, '') Automated test file.
 
-[`tests/compiled.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/compiled.test.mjs) · code · 24826 bytes
+[`tests/compiled.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/compiled.test.mjs) · code · 27801 bytes
 
 ### dashboard-config.test.mjs
 
@@ -70,6 +70,6 @@ assert.throws(() => setupApps(['../innernet']), /Unknown app/); }) Automated tes
 const repositoryRoot = fileURLToPath(new URL('..', import.meta.url)) Provides a default
 export as the module's public entry. Automated test file.
 
-[`tests/workspace.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/workspace.test.mjs) · code · 6848 bytes
+[`tests/workspace.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/workspace.test.mjs) · code · 9451 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

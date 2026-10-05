@@ -13,7 +13,7 @@ when they are being tested, and they behave differently when they know. That bre
 static benchmark, because a passing score measures the model's read of the test environment,
 not its behavior in the wild.
 
-[`content/research/experiments/alignment-environments.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/alignment-environments.mdx) · code · 26645 bytes
+[`content/research/experiments/alignment-environments.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/alignment-environments.mdx) · code · 26664 bytes
 
 ### coding-model-eval-harness.mdx
 
@@ -23,7 +23,7 @@ observability, captured diffs, and blind judging — cut short when Fable was su
 the harder tasks ran. MDX page (Markdown with JSX components), typically rendered by the
 docs site.
 
-[`content/research/experiments/coding-model-eval-harness.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/coding-model-eval-harness.mdx) · code · 17132 bytes
+[`content/research/experiments/coding-model-eval-harness.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/coding-model-eval-harness.mdx) · code · 17151 bytes
 
 ### curiosity-comparison.mdx
 
@@ -33,7 +33,7 @@ lightweight C repository. It is the first agent that behaves like it's curious: 
 curiosity index, spends the largest share of its actions reading, and — uniquely — explores
 more the richer the space gets.
 
-[`content/research/experiments/curiosity-comparison.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/curiosity-comparison.mdx) · code · 21354 bytes
+[`content/research/experiments/curiosity-comparison.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/curiosity-comparison.mdx) · code · 21373 bytes
 
 ### harvey-case-study.mdx
 
@@ -43,7 +43,7 @@ is not exclusive access to a smarter model, but the system built around it. Harv
 the foundation model as swappable compute and puts every bit of its edge into the harness:
 routing, state, permissions, and deterministic task decomposition.
 
-[`content/research/experiments/harvey-case-study.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/harvey-case-study.mdx) · code · 26285 bytes
+[`content/research/experiments/harvey-case-study.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/harvey-case-study.mdx) · code · 26304 bytes
 
 ### index.mdx
 
@@ -53,7 +53,7 @@ richer context is nearly free to run, it does not hurt task success, and it lowe
 of getting oriented. MDX page (Markdown with JSX components), typically rendered by the docs
 site.
 
-[`content/research/experiments/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/index.mdx) · code · 14297 bytes
+[`content/research/experiments/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/index.mdx) · code · 14316 bytes
 
 ### machine-can-disappear.mdx
 
@@ -62,7 +62,7 @@ idempotent compute across Nirvana ABS, E2B, and GKE agent sandboxes - and why on
 platform kept every bit of committed work after a crash without a 35-second penalty. MDX
 page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/research/experiments/machine-can-disappear.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/machine-can-disappear.mdx) · code · 18826 bytes
+[`content/research/experiments/machine-can-disappear.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/machine-can-disappear.mdx) · code · 18845 bytes
 
 ### meta.json
 
@@ -79,7 +79,7 @@ host and does nothing to stop several agents inside it from reaching each other,
 usual fix, a container inside the container, needs the exact mount privileges the hardening
 removes.
 
-[`content/research/experiments/nested-sandboxes-for-agent-isolation.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/nested-sandboxes-for-agent-isolation.mdx) · code · 24395 bytes
+[`content/research/experiments/nested-sandboxes-for-agent-isolation.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/nested-sandboxes-for-agent-isolation.mdx) · code · 24414 bytes
 
 ### observational-data-work-done.mdx
 
@@ -88,7 +88,7 @@ agent sessions in forensic detail: every tool call captured before execution, ev
 accounted, thirty artifacts per run. Then we graded the sessions against the maintainers'
 own tests and asked what the recording was worth.
 
-[`content/research/experiments/observational-data-work-done.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/observational-data-work-done.mdx) · code · 43162 bytes
+[`content/research/experiments/observational-data-work-done.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/observational-data-work-done.mdx) · code · 43181 bytes
 
 ### organic-vs-synthetic-evaluation-data.mdx
 
@@ -98,7 +98,7 @@ organic data on the two things a safety evaluation most needs: calibrated incide
 forecasting and construct validity. Why the gap is structural, why organic data matters, and
 where synthetic legitimately wins.
 
-[`content/research/experiments/organic-vs-synthetic-evaluation-data.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/organic-vs-synthetic-evaluation-data.mdx) · code · 55015 bytes
+[`content/research/experiments/organic-vs-synthetic-evaluation-data.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/organic-vs-synthetic-evaluation-data.mdx) · code · 55034 bytes
 
 ### relevance-not-volume.mdx
 
@@ -108,7 +108,7 @@ specific rule. The generic one changed nothing: conformance stayed at its 8% flo
 with the rule lifted it to 80–100%. On these tasks it was not about how much context you
 give an agent, but whether the bytes close a gap it actually has.
 
-[`content/research/experiments/relevance-not-volume.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/relevance-not-volume.mdx) · code · 14699 bytes
+[`content/research/experiments/relevance-not-volume.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/relevance-not-volume.mdx) · code · 14718 bytes
 
 ### research-series.mdx
 
@@ -127,7 +127,7 @@ how the codebase works — and measured what they actually opened. They read the
 skip the substance. 84 controlled runs on environmental curiosity. MDX page (Markdown with
 JSX components), typically rendered by the docs site.
 
-[`content/research/experiments/the-incurious-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/the-incurious-agent.mdx) · code · 37302 bytes
+[`content/research/experiments/the-incurious-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/the-incurious-agent.mdx) · code · 37321 bytes
 
 ### the-self-sufficient-agent.mdx
 
@@ -137,7 +137,7 @@ it didn't break. With no documentation at all, two coding agents satisfied nine 
 obvious functional requirements, identically. On this kind of work, the bottleneck was never
 curiosity. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/research/experiments/the-self-sufficient-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/the-self-sufficient-agent.mdx) · code · 17332 bytes
+[`content/research/experiments/the-self-sufficient-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/the-self-sufficient-agent.mdx) · code · 17351 bytes
 
 ### tokenizer-not-the-language.mdx
 
@@ -147,6 +147,6 @@ we represent them, the tokenizer and the writing system, not the language itself
 is the sharpest test, because its extreme theoretical density is exactly what a standard
 tokenizer destroys.
 
-[`content/research/experiments/tokenizer-not-the-language.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/tokenizer-not-the-language.mdx) · code · 34060 bytes
+[`content/research/experiments/tokenizer-not-the-language.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/experiments/tokenizer-not-the-language.mdx) · code · 34079 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

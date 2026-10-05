@@ -25,10 +25,9 @@ patterns are not in the clone the wiki summarizes.
 
 ### README.md
 
-The project README (“XO Docs”). This is a Next.js application generated with [Create
-Fumadocs](https://github.com/fuma-nama/fumadocs).
+The project README (“XO Docs”). Run development server.
 
-[`README.md`](https://github.com/quirq-ai/docs/blob/main/README.md) · code · 1587 bytes
+[`README.md`](https://github.com/quirq-ai/docs/blob/main/README.md) · code · 1483 bytes
 
 ### biome.json
 
@@ -113,4 +112,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/docs/blob/main/tsconfig.json) · code · 740 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

@@ -1331,4 +1331,4 @@ generated blobs.
 
 [`public/images/xo-cowork-setup-09-project-view.jpeg`](https://github.com/quirq-ai/docs/blob/main/public/images/xo-cowork-setup-09-project-view.jpeg) · binary · 48120 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

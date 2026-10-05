@@ -59,9 +59,9 @@ integration. MDX page (Markdown with JSX components), typically rendered by the 
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/api/xo-mcp-server/integrations/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/api/xo-mcp-server/integrations/meta.json) · code · 115 bytes
+[`content/api/xo-mcp-server/integrations/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/api/xo-mcp-server/integrations/meta.json) · code · 134 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

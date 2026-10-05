@@ -20,7 +20,7 @@ Markdown page “Build an Environment”. Turn a real workflow into a bounded en
 observable state and a checkable outcome. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/more/create-your-environments/from-scratch.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-environments/from-scratch.mdx) · code · 4399 bytes
+[`content/docs/more/create-your-environments/from-scratch.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-environments/from-scratch.mdx) · code · 4397 bytes
 
 ### index.mdx
 
@@ -45,4 +45,4 @@ components), typically rendered by the docs site.
 
 [`content/docs/more/create-your-environments/publishing.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/create-your-environments/publishing.mdx) · code · 3881 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

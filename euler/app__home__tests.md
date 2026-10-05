@@ -23,7 +23,7 @@ const markup = css + preload + script; const decorated = html.replace('', ${mark
 policy = "default-src 'self'; script-src 'self'; frame-ancestors 'none'" Automated test
 file.
 
-[`app/home/tests/dock.test.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/tests/dock.test.mjs) · code · 9903 bytes
+[`app/home/tests/dock.test.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/tests/dock.test.mjs) · code · 15196 bytes
 
 ### euler-avatar.test.mjs
 
@@ -35,10 +35,18 @@ memoryStorage = (initial) => { const values = new Map(initial === undefined ? []
 
 [`app/home/tests/euler-avatar.test.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/tests/euler-avatar.test.mjs) · code · 8815 bytes
 
+### euler-dock-extension.test.mjs
+
+const origin = 'http://127.0.0.1:2713'; const metadata = (patch = {}) => JSON.stringify({
+version: 1, appId: 'innernet', moduleUrl: '/app/innernet/dock.js', ...patch }); const parse
+= (raw) => parseDockConfig(raw, '/app/innernet/search', origin) Automated test file.
+
+[`app/home/tests/euler-dock-extension.test.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/tests/euler-dock-extension.test.mjs) · code · 6621 bytes
+
 ### euler-dock.test.mjs
 
 const origin = 'http://localhost:2713' Automated test file.
 
 [`app/home/tests/euler-dock.test.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/tests/euler-dock.test.mjs) · code · 4572 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

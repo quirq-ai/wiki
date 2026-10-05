@@ -2,12 +2,13 @@
 
 # docs (public fork)
 
-This is a Next.js application generated with [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+Run development server
 
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
 - Default branch: `main`
-- Last push: `2026-08-26T16:45:37Z`
-- Snapshot SHA: `23215ff3348d`
+- Primary language (GitHub): MDX
+- Last push: `2026-10-05T04:11:38Z`
+- Snapshot SHA: `30ec1e48b40f`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -60,9 +61,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `content/docs/setup/data` | 6 | [content__docs__setup__data.md](content__docs__setup__data.md) |
 | `content/docs/setup/models` | 3 | [content__docs__setup__models.md](content__docs__setup__models.md) |
 | `content/docs/setup/models/oauth` | 4 | [content__docs__setup__models__oauth.md](content__docs__setup__models__oauth.md) |
-| `content/docs/space` | 7 | [content__docs__space.md](content__docs__space.md) |
-| `content/docs/space/install-space-as-a-skill` | 2 | [content__docs__space__install-space-as-a-skill.md](content__docs__space__install-space-as-a-skill.md) |
-| `content/docs/space/space-walk` | 9 | [content__docs__space__space-walk.md](content__docs__space__space-walk.md) |
+| `content/docs/space` | 6 | [content__docs__space.md](content__docs__space.md) |
+| `content/docs/space/install-space-as-a-skill` | 3 | [content__docs__space__install-space-as-a-skill.md](content__docs__space__install-space-as-a-skill.md) |
+| `content/docs/space/observability` | 5 | [content__docs__space__observability.md](content__docs__space__observability.md) |
+| `content/docs/space/space-walk` | 16 | [content__docs__space__space-walk.md](content__docs__space__space-walk.md) |
 | `content/docs/troubleshooting` | 2 | [content__docs__troubleshooting.md](content__docs__troubleshooting.md) |
 | `content/docs/troubleshooting/agents` | 2 | [content__docs__troubleshooting__agents.md](content__docs__troubleshooting__agents.md) |
 | `content/docs/troubleshooting/agents/openclaw` | 3 | [content__docs__troubleshooting__agents__openclaw.md](content__docs__troubleshooting__agents__openclaw.md) |
@@ -84,9 +86,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/images/environments` | 1 | [public__images__environments.md](public__images__environments.md) |
 | `public/images/research` | 3 | [public__images__research.md](public__images__research.md) |
 | `public/images/research/claude-code-harness` | 7 | [public__images__research__claude-code-harness.md](public__images__research__claude-code-harness.md) |
-| `public/images/space` | 13 | [public__images__space.md](public__images__space.md) |
+| `public/images/space` | 41 | [public__images__space.md](public__images__space.md) |
 | `public/images/troubleshooting` | 7 | [public__images__troubleshooting.md](public__images__troubleshooting.md) |
 | `public/openapi` | 1 | [public__openapi.md](public__openapi.md) |
+| `scripts` | 2 | [scripts.md](scripts.md) |
+| `scripts/space-ui-preview` | 6 | [scripts__space-ui-preview.md](scripts__space-ui-preview.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/app` | 7 | [src__app.md](src__app.md) |
 | `src/app/api` | 0 | [src__app__api.md](src__app__api.md) |
@@ -114,11 +118,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/app/research/category/[tag]` | 1 | [src__app__research__category__[tag].md](src__app__research__category__[tag].md) |
 | `src/app/templates` | 1 | [src__app__templates.md](src__app__templates.md) |
 | `src/app/templates/[[...slug]]` | 1 | [src__app__templates__[[...slug]].md](src__app__templates__[[...slug]].md) |
-| `src/components` | 14 | [src__components.md](src__components.md) |
+| `src/components` | 15 | [src__components.md](src__components.md) |
 | `src/components/ai` | 1 | [src__components__ai.md](src__components__ai.md) |
 | `src/components/google-analytics` | 2 | [src__components__google-analytics.md](src__components__google-analytics.md) |
 | `src/components/posthog` | 3 | [src__components__posthog.md](src__components__posthog.md) |
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-04 11:24 UTC._
+_Generated 2026-10-05 12:48 UTC._

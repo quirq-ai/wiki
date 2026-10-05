@@ -13,4 +13,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`drizzle/meta/_journal.json`](https://github.com/quirq-ai/instants/blob/main/drizzle/meta/_journal.json) · code · 61 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

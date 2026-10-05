@@ -15,10 +15,10 @@ Markdown page “OpenClaw Models”. Switch your OpenClaw agent's underlying mod
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/agents/openclaw/models/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/models/meta.json) · code · 76 bytes
+[`content/docs/agents/openclaw/models/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/models/meta.json) · code · 93 bytes
 
 ### switch-to-codex.mdx
 
@@ -36,4 +36,4 @@ typically rendered by the docs site.
 
 [`content/docs/agents/openclaw/models/switch-to-venice.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/models/switch-to-venice.mdx) · code · 3468 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

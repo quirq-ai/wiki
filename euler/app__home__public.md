@@ -23,6 +23,20 @@ exports: `normalizeAvatarConfig`, `resolveAvatarTraits`, `avatarSvg`, `avatarUri
 
 [`app/home/public/euler-avatar.js`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-avatar.js) · code · 5428 bytes
 
+### euler-dock-extension.js
+
+const appIdPattern = /^[a-zA-Z0-9][a-zA-Z0-9._-]*$/ Notable exports: `parseDockConfig`,
+`dockSnapshot`, `createDockSubscription`, `dockClearance`.
+
+[`app/home/public/euler-dock-extension.js`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-dock-extension.js) · code · 3596 bytes
+
+### euler-dock-host.css
+
+Shared placement for app-defined docks. App styles may refine :host. Defines or consumes CSS
+custom properties (design tokens).
+
+[`app/home/public/euler-dock-host.css`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-dock-host.css) · code · 1036 bytes
+
 ### euler-dock-ui.css
 
 Stylesheet `euler-dock-ui.css` for layout and visual treatment in this folder. Leading class
@@ -47,7 +61,7 @@ iconIds = new Set(['innernet', 'quitter', 'instants']); const validId = (id) => 
 === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(id) Notable exports: `safeAppRoute`,
 `dockOpacity`, `runningApps`.
 
-[`app/home/public/euler-dock.js`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-dock.js) · code · 17409 bytes
+[`app/home/public/euler-dock.js`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-dock.js) · code · 23947 bytes
 
 ### euler-home.js
 
@@ -74,4 +88,4 @@ HTML document `euler.html` titled “Home &middot; Euler”. Home &middot; Euler
 
 [`app/home/public/euler.html`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler.html) · code · 14563 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

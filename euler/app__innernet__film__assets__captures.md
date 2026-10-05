@@ -70,4 +70,4 @@ blobs.
 
 [`app/innernet/film/assets/captures/search-linear@2x.png`](https://github.com/quirq-ai/euler/blob/main/app/innernet/film/assets/captures/search-linear@2x.png) · binary · 2586361 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

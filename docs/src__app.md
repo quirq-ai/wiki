@@ -26,7 +26,7 @@ executable source.
 Stylesheet `global.css` for layout and visual treatment in this folder. Leading class
 selectors include `dark`. Defines or consumes CSS custom properties (design tokens).
 
-[`src/app/global.css`](https://github.com/quirq-ai/docs/blob/main/src/app/global.css) · code · 1935 bytes
+[`src/app/global.css`](https://github.com/quirq-ai/docs/blob/main/src/app/global.css) · code · 2484 bytes
 
 ### layout.tsx
 
@@ -37,13 +37,13 @@ Wired into a Next.js app (App Router or Next APIs).
 
 ### page.tsx
 
-export const metadata: Metadata = { title: "Quirq Docs", description: "Build and run agentic
-work. Run a Space locally or through XO in the cloud, then measure delivered work with
-quirqs.", alternates: { canonical: "https://docs.quirq.ai/", }, openGraph: { title: "Quirq
-Docs", description: "Build and run agentic work. Run a Space locally or through XO in the
+export const metadata: Metadata = { title: "XO Space Docs", description: "Documentation for
+XO Space: the local control plane for AI coding agents. Run a Space locally or through XO
+Cloud.", alternates: { canonical: "https://docs.xo.builders/", }, openGraph: { title: "XO
+Space Docs", description: "Documentation for XO Space: the local control plane for AI co
 Notable exports: `RootPage`, `metadata`.
 
-[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 663 bytes
+[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 671 bytes
 
 ### robots.ts
 
@@ -59,4 +59,4 @@ exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 737 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

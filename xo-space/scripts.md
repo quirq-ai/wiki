@@ -19,7 +19,7 @@ disagree. Shebang `#!/usr/bin/env bash`. Functions: `compare`.
 Route-parity guard for the agent-modular broker. Runnable as a script via `if __name__ ==
 '__main__'`. Functions: `discover_agents`, `probe`, `main`.
 
-[`scripts/check_route_parity.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/check_route_parity.py) · code · 5161 bytes
+[`scripts/check_route_parity.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/check_route_parity.py) · code · 5533 bytes
 
 ### install_shared_deps.sh
 
@@ -36,4 +36,4 @@ script via `if __name__ == '__main__'`. Functions: `runtime_mounts`.
 
 [`scripts/list_runtime_mounts.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/list_runtime_mounts.py) · code · 2160 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

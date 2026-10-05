@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Markdown page “Choose an Agent”. Pick the XO agent that best matches your work and preferred
 interface. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/cloud/choose-an-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/choose-an-agent.mdx) · code · 1905 bytes
+[`content/docs/cloud/choose-an-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/choose-an-agent.mdx) · code · 1605 bytes
 
 ### create-account.mdx
 
@@ -35,7 +35,7 @@ Markdown page “Launch Your First Agent”. Create an XO project from an agent 
 reach a successful first interaction. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/cloud/launch-first-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/launch-first-agent.mdx) · code · 3618 bytes
+[`content/docs/cloud/launch-first-agent.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/launch-first-agent.mdx) · code · 3326 bytes
 
 ### manage-space.mdx
 
@@ -75,4 +75,4 @@ rendered by the docs site.
 
 [`content/docs/cloud/vs-code-server.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/vs-code-server.mdx) · code · 3135 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

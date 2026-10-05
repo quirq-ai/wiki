@@ -60,41 +60,41 @@ by the docs site.
 
 ### index.mdx
 
-Markdown page “XO Cowork API”. Build frontends and AI agents on top of the in-space control
+Markdown page “Space API”. Build frontends and AI agents on top of the in-space control
 plane. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/api/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/index.mdx) · code · 9651 bytes
+[`content/api/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/index.mdx) · code · 9649 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/api/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/api/meta.json) · code · 435 bytes
+[`content/api/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/api/meta.json) · code · 427 bytes
 
 ### overview.mdx
 
-Markdown page “XO Cowork API Architecture and Conventions”. Base URL, auth model, transport
+Markdown page “Space API Architecture and Conventions”. Base URL, auth model, transport
 conventions, and error envelope. MDX page (Markdown with JSX components), typically rendered
 by the docs site.
 
-[`content/api/overview.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/overview.mdx) · code · 7038 bytes
+[`content/api/overview.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/overview.mdx) · code · 7037 bytes
 
 ### quickstart.mdx
 
-Markdown page “Quickstart: Make Your First Cowork API Request”. Verify a Cowork API
-instance, discover its space configuration, and stream a first chat turn. MDX page (Markdown
-with JSX components), typically rendered by the docs site.
+Markdown page “Quickstart: Make Your First Space API Request”. Verify a Space API instance,
+discover its space configuration, and stream a first chat turn. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/api/quickstart.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/quickstart.mdx) · code · 4603 bytes
+[`content/api/quickstart.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/quickstart.mdx) · code · 4587 bytes
 
 ### reference.mdx
 
-Markdown page “Interactive XO Cowork API Reference”. Explore a curated read-only contract
-and send requests directly to your own Cowork space. MDX page (Markdown with JSX
-components), typically rendered by the docs site.
+Markdown page “Interactive Space API Reference”. Explore a curated read-only contract and
+send requests directly to your own Space. MDX page (Markdown with JSX components), typically
+rendered by the docs site.
 
-[`content/api/reference.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/reference.mdx) · code · 1817 bytes
+[`content/api/reference.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/reference.mdx) · code · 1805 bytes
 
 ### secrets-api.mdx
 
@@ -118,4 +118,4 @@ Markdown page “Usage API”. Unified token, cost, and tool telemetry across ru
 
 [`content/api/usage-api.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/usage-api.mdx) · code · 6326 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

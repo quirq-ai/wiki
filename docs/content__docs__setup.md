@@ -20,7 +20,7 @@ Markdown page “Agent Compatibility Guide”. Choose model authentication, inte
 messaging channels that match your XO agent. MDX page (Markdown with JSX components),
 typically rendered by the docs site.
 
-[`content/docs/setup/compatibility.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/compatibility.mdx) · code · 2437 bytes
+[`content/docs/setup/compatibility.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/compatibility.mdx) · code · 2123 bytes
 
 ### index.mdx
 
@@ -37,4 +37,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/setup/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/meta.json) · code · 119 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

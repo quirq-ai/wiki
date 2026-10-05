@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Markdown page “Changelog”. Weekly product releases, improvements, and fixes for XO. MDX page
 (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/changelog.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/changelog.mdx) · code · 1081 bytes
+[`content/docs/changelog.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/changelog.mdx) · code · 1539 bytes
 
 ### glossary.mdx
 
@@ -25,13 +25,13 @@ MDX page (Markdown with JSX components), typically rendered by the docs site.
 Markdown page “XO Space”. The home for your AI Agent Team. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 6597 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 5685 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 358 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 295 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

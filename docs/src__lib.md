@@ -17,7 +17,7 @@ export { twMerge as cn } from "tailwind-merge" Notable exports: `cn`.
 const logo = ( Notable exports: `baseOptions`, `socialLinks`. Wired into a Next.js app (App
 Router or Next APIs).
 
-[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 2213 bytes
+[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 2295 bytes
 
 ### shared.ts
 
@@ -27,7 +27,7 @@ docsContentRoute = "/llms.mdx/docs"; export const researchContentRoute =
 "/llms.mdx/research" Notable exports: `appName`, `siteUrl`, `docsRoute`, `docsImageRoute`,
 `docsContentRoute`, `researchContentRoute`, `gitConfig`.
 
-[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 420 bytes
+[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 414 bytes
 
 ### source.ts
 
@@ -36,6 +36,6 @@ import { docsContentRoute, docsImageRoute, docsRoute, researchContentRoute, } fr
 `getResearchPageMarkdownUrl`, `getResearchPageImage`, `getLLMText`, `source`, `apiSource`,
 `templatesSource`, and 1 more.
 
-[`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 5545 bytes
+[`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 5788 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

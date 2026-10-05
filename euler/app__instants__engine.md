@@ -71,4 +71,4 @@ Portable activity contract. This module does not import server storage. Notable 
 
 [`app/instants/engine/types.ts`](https://github.com/quirq-ai/euler/blob/main/app/instants/engine/types.ts) · code · 1730 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

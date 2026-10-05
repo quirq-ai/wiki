@@ -98,4 +98,4 @@ a script via `if __name__ == '__main__'`. Defines the `app` application object. 
 
 [`server.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/server.py) · code · 35912 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

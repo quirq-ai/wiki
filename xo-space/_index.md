@@ -7,8 +7,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-02T20:41:08Z`
-- Snapshot SHA: `c3cea98c8e70`
+- Last push: `2026-10-04T21:27:05Z`
+- Snapshot SHA: `14b21a41668b`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -26,12 +26,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.agents/skills/xo-projects` | 1 | [.agents__skills__xo-projects.md](.agents__skills__xo-projects.md) |
 | `.agents/skills/xo-projects/references` | 3 | [.agents__skills__xo-projects__references.md](.agents__skills__xo-projects__references.md) |
 | `.claude-plugin` | 1 | [.claude-plugin.md](.claude-plugin.md) |
-| `.github` | 0 | [.github.md](.github.md) |
+| `.github` | 1 | [.github.md](.github.md) |
 | `.github/ISSUE_TEMPLATE` | 4 | [.github__ISSUE_TEMPLATE.md](.github__ISSUE_TEMPLATE.md) |
 | `.github/screenshots` | 0 | [.github__screenshots.md](.github__screenshots.md) |
 | `.github/screenshots/issue105` | 3 | [.github__screenshots__issue105.md](.github__screenshots__issue105.md) |
 | `.github/screenshots/projects-experience` | 8 | [.github__screenshots__projects-experience.md](.github__screenshots__projects-experience.md) |
-| `.github/workflows` | 3 | [.github__workflows.md](.github__workflows.md) |
+| `.github/workflows` | 6 | [.github__workflows.md](.github__workflows.md) |
 | `brand` | 2 | [brand.md](brand.md) |
 | `brand/screenshots` | 9 | [brand__screenshots.md](brand__screenshots.md) |
 | `brand/screenshots/issue-100` | 5 | [brand__screenshots__issue-100.md](brand__screenshots__issue-100.md) |
@@ -47,6 +47,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `config/models/claude_code` | 2 | [config__models__claude_code.md](config__models__claude_code.md) |
 | `config/models/codex` | 2 | [config__models__codex.md](config__models__codex.md) |
 | `config/skills` | 1 | [config__skills.md](config__skills.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `plugin` | 1 | [plugin.md](plugin.md) |
 | `plugin/.claude-plugin` | 1 | [plugin__.claude-plugin.md](plugin__.claude-plugin.md) |
 | `plugin/commands` | 3 | [plugin__commands.md](plugin__commands.md) |
@@ -118,7 +119,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 125 | [tests.md](tests.md) |
+| `tests` | 128 | [tests.md](tests.md) |
 | `tests/fixtures` | 0 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/fixtures/quirq-state` | 1 | [tests__fixtures__quirq-state.md](tests__fixtures__quirq-state.md) |
 | `tests/fixtures/quirq-state/.locks` | 1 | [tests__fixtures__quirq-state__.locks.md](tests__fixtures__quirq-state__.locks.md) |
@@ -157,4 +158,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 3 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-04 11:24 UTC._
+_Generated 2026-10-05 12:48 UTC._

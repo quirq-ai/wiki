@@ -22,10 +22,10 @@ Markdown page “Templates”. Pre-configured deployments you can launch in one 
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/templates/templates/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/templates/templates/meta.json) · code · 73 bytes
+[`content/templates/templates/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/templates/templates/meta.json) · code · 101 bytes
 
 ### n8n-workflows.mdx
 
@@ -34,4 +34,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/templates/templates/n8n-workflows.mdx`](https://github.com/quirq-ai/docs/blob/main/content/templates/templates/n8n-workflows.mdx) · code · 1482 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

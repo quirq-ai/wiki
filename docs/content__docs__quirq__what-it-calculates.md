@@ -45,4 +45,4 @@ typically rendered by the docs site.
 
 [`content/docs/quirq/what-it-calculates/validation.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/what-it-calculates/validation.mdx) · code · 3790 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

@@ -15,9 +15,9 @@ for OpenClaw. MDX page (Markdown with JSX components), typically rendered by the
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/troubleshooting/agents/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/troubleshooting/agents/meta.json) · code · 64 bytes
+[`content/docs/troubleshooting/agents/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/troubleshooting/agents/meta.json) · code · 81 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

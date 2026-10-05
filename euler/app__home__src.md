@@ -12,6 +12,6 @@ Decorate only full HTML documents. App APIs, React Server Components, assets, an
 must retain their exact response bytes and cache metadata. Notable exports:
 `isDockDocumentRequest`, `attachEulerDock`.
 
-[`app/home/src/dock.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/src/dock.mjs) · code · 8140 bytes
+[`app/home/src/dock.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/src/dock.mjs) · code · 9698 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

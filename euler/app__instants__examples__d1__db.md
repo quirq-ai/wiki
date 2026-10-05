@@ -15,4 +15,4 @@ createdAt: text("created_at").notNull().default(sqlCURRENT_TIMESTAMP), }) Notabl
 
 [`app/instants/examples/d1/db/schema.ts`](https://github.com/quirq-ai/euler/blob/main/app/instants/examples/d1/db/schema.ts) · code · 370 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

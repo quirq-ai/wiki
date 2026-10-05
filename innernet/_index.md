@@ -7,16 +7,18 @@ innernet
 - GitHub: [https://github.com/quirq-ai/innernet](https://github.com/quirq-ai/innernet)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-03T19:59:07Z`
-- Snapshot SHA: `da9b84cf811f`
+- Last push: `2026-10-04T23:18:23Z`
+- Snapshot SHA: `8f383a3d6c28`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 15 | [_root.md](_root.md) |
+| (repository root) | 16 | [_root.md](_root.md) |
 | `.cursor` | 0 | [.cursor.md](.cursor.md) |
 | `.cursor/rules` | 1 | [.cursor__rules.md](.cursor__rules.md) |
+| `.github` | 1 | [.github.md](.github.md) |
+| `.github/workflows` | 3 | [.github__workflows.md](.github__workflows.md) |
 | `app` | 6 | [app.md](app.md) |
 | `app/activity` | 1 | [app__activity.md](app__activity.md) |
 | `app/api` | 0 | [app__api.md](app__api.md) |
@@ -49,6 +51,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `components/wiki/main` | 12 | [components__wiki__main.md](components__wiki__main.md) |
 | `data` | 0 | [data.md](data.md) |
 | `data/demo` | 1 | [data__demo.md](data__demo.md) |
+| `docs` | 0 | [docs.md](docs.md) |
+| `docs/architecture` | 4 | [docs__architecture.md](docs__architecture.md) |
+| `docs/architecture/figures` | 5 | [docs__architecture__figures.md](docs__architecture__figures.md) |
 | `film` | 13 | [film.md](film.md) |
 | `film/.media` | 1 | [film__.media.md](film__.media.md) |
 | `film/assets` | 0 | [film__assets.md](film__assets.md) |
@@ -66,6 +71,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `film/src` | 7 | [film__src.md](film__src.md) |
 | `film/src/scenes` | 21 | [film__src__scenes.md](film__src__scenes.md) |
 | `film/voice-samples` | 5 | [film__voice-samples.md](film__voice-samples.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `lib` | 23 | [lib.md](lib.md) |
 | `lib/db` | 14 | [lib__db.md](lib__db.md) |
 | `public` | 0 | [public.md](public.md) |
@@ -75,4 +81,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/guide/plates` | 9 | [public__guide__plates.md](public__guide__plates.md) |
 | `scripts` | 12 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-04 11:24 UTC._
+_Generated 2026-10-05 12:48 UTC._

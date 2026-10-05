@@ -70,4 +70,4 @@ HTTP routes: `GET /api/xo-projects`, `GET /api/xo-projects/{project_id}/tree`. C
 
 [`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 5781 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

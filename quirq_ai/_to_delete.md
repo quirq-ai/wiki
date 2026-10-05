@@ -14,4 +14,4 @@ blobs.
 
 [`_to_delete/websrc.tgz`](https://github.com/quirq-ai/quirq_ai/blob/main/_to_delete/websrc.tgz) · binary · 5627670 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

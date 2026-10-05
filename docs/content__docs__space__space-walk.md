@@ -6,75 +6,130 @@ Source: [content/docs/space/space-walk](https://github.com/quirq-ai/docs/tree/ma
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### commands.mdx
+
+Markdown page “Commands & Schedules”. Save commands, run them manually or on an interval,
+and inspect results in Setup or Inbox Jobs. MDX page (Markdown with JSX components),
+typically rendered by the docs site.
+
+[`content/docs/space/space-walk/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/commands.mdx) · code · 6339 bytes
+
+### connectors.mdx
+
+Markdown page “Connectors”. Connect workspace tools and account apps, choose access for this
+Space, and configure actions and Inbox polling. MDX page (Markdown with JSX components),
+typically rendered by the docs site.
+
+[`content/docs/space/space-walk/connectors.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/connectors.mdx) · code · 8854 bytes
+
 ### dashboard.mdx
 
-Markdown page “Project Dashboard”. Visualizing projects inside purpose environments with
-orbiting in-progress todo satellites. MDX page (Markdown with JSX components), typically
-rendered by the docs site.
+Markdown page “Projects Overview”. Survey projects by purpose, explore their connections,
+and inspect recorded todos. MDX page (Markdown with JSX components), typically rendered by
+the docs site.
 
-[`content/docs/space/space-walk/dashboard.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/dashboard.mdx) · code · 3282 bytes
+[`content/docs/space/space-walk/dashboard.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/dashboard.mdx) · code · 4585 bytes
 
 ### files-explorer.mdx
 
-Markdown page “Files Explorer & Graph”. The Files tab in XO Space: List, Graph, and Tree
-lenses with project drawers and safe in-place file previews. MDX page (Markdown with JSX
-components), typically rendered by the docs site.
+Markdown page “Projects Data & File Preview”. Browse project files with List, Graph, and
+Tree, filter live or pinned projects, and preview current or historical files. MDX page
+(Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/space/space-walk/files-explorer.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/files-explorer.mdx) · code · 4050 bytes
+[`content/docs/space/space-walk/files-explorer.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/files-explorer.mdx) · code · 5142 bytes
+
+### graph.mdx
+
+Markdown page “Graph”. Explore projects, mapped folders and files, and relationships across
+the workspace. MDX page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/space/space-walk/graph.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/graph.mdx) · code · 3139 bytes
+
+### inbox.mdx
+
+Markdown page “Inbox”. Triage incoming items, monitor connections and jobs, and inspect
+workspace and sharing activity. MDX page (Markdown with JSX components), typically rendered
+by the docs site.
+
+[`content/docs/space/space-walk/inbox.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/inbox.mdx) · code · 7611 bytes
 
 ### index.mdx
 
-Markdown page “Space Walk Overview”. A guided tour of the local XO Space UI served at
-http://localhost:5002/space/ MDX page (Markdown with JSX components), typically rendered by
-the docs site.
+Markdown page “Space UI Overview”. Navigate Projects, Agents, Inbox, and Setup, use the
+command menu, and follow work from project files to activity. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/docs/space/space-walk/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/index.mdx) · code · 2908 bytes
+[`content/docs/space/space-walk/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/index.mdx) · code · 6436 bytes
+
+### manage.mdx
+
+Markdown page “Manage Projects”. Clone repositories, inspect project metadata and issues,
+pin frequent projects, share access, and remove local projects. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
+
+[`content/docs/space/space-walk/manage.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/manage.mdx) · code · 4001 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/space/space-walk/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/meta.json) · code · 190 bytes
+[`content/docs/space/space-walk/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/meta.json) · code · 289 bytes
 
 ### replay.mdx
 
-Markdown page “Space Walk 3D Session Replay”. Replaying agent sessions as moving light over
-Firefly Tree and Attention Terrain 3D repository maps. MDX page (Markdown with JSX
+Markdown page “Session Replay”. Understand the distinction between Agents telemetry,
+Projects Timeline playback, and the separate Space Walk tool. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/space/space-walk/replay.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/replay.mdx) · code · 5426 bytes
+[`content/docs/space/space-walk/replay.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/replay.mdx) · code · 1525 bytes
 
 ### sessions.mdx
 
-Markdown page “Sessions & Telemetry”. Multi-runtime session aggregation, token breakdowns,
-honest cost tracking, and turn-by-turn prompt inspection. MDX page (Markdown with JSX
-components), typically rendered by the docs site.
+Markdown page “Agents & Telemetry”. Compare local session usage, inspect prompts and trends,
+export metrics, and configure telemetry collection. MDX page (Markdown with JSX components),
+typically rendered by the docs site.
 
-[`content/docs/space/space-walk/sessions.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/sessions.mdx) · code · 2796 bytes
+[`content/docs/space/space-walk/sessions.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/sessions.mdx) · code · 9122 bytes
 
 ### setup.mdx
 
-Markdown page “Setup & Quirq State”. Manage storage roots, file watcher coverage, write-only
-credentials, and inspect machine-local vs portable metadata in XO Space. MDX page (Markdown
-with JSX components), typically rendered by the docs site.
+Markdown page “Setup & Quirq State”. Set up your workspace and agent, manage secrets and
+connectors, and apply changes through Server controls. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/docs/space/space-walk/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/setup.mdx) · code · 3119 bytes
+[`content/docs/space/space-walk/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/setup.mdx) · code · 10010 bytes
+
+### sharing.mdx
+
+Markdown page “Sharing”. Share repository access with another workspace, inspect incoming
+changes, and apply fetched commits. MDX page (Markdown with JSX components), typically
+rendered by the docs site.
+
+[`content/docs/space/space-walk/sharing.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/sharing.mdx) · code · 5715 bytes
 
 ### timeline.mdx
 
-Markdown page “Workspace Timeline”. Parallel multi-repo Git commit history and dated
-artifact tracking with upward time flow in XO Space. MDX page (Markdown with JSX
-components), typically rendered by the docs site.
+Markdown page “Timeline”. Compare project Git histories and first appearances of mapped
+files across the workspace. MDX page (Markdown with JSX components), typically rendered by
+the docs site.
 
-[`content/docs/space/space-walk/timeline.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/timeline.mdx) · code · 2355 bytes
+[`content/docs/space/space-walk/timeline.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/timeline.mdx) · code · 4133 bytes
 
 ### tree-lens.mdx
 
-Markdown page “Tree Lens”. Visualizing workspace directory hierarchy with horizontal depth
-columns and stacked files in XO Space. MDX page (Markdown with JSX components), typically
+Markdown page “Tree”. Browse the mapped workspace as a horizontal hierarchy, with expandable
+folders and file previews. MDX page (Markdown with JSX components), typically rendered by
+the docs site.
+
+[`content/docs/space/space-walk/tree-lens.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/tree-lens.mdx) · code · 2659 bytes
+
+### wiki.mdx
+
+Markdown page “Wiki”. Find the right Space guide from a compact in-app topic directory and
+open detailed documentation in a new tab. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/space/space-walk/tree-lens.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/tree-lens.mdx) · code · 1984 bytes
+[`content/docs/space/space-walk/wiki.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/wiki.mdx) · code · 3114 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

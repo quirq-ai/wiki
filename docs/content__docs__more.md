@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Markdown page “Platform”. Build environments and deploy applications on XO. MDX page
 (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/more/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/index.mdx) · code · 1483 bytes
+[`content/docs/more/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/index.mdx) · code · 1472 bytes
 
 ### meta.json
 
@@ -20,4 +20,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/more/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/meta.json) · code · 112 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

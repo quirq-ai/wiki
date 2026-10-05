@@ -28,4 +28,4 @@ const name = z .string() .min(1) .max(256) .regex(/^[^\s/\x00-\x1f\x7f]+$/u); co
 
 [`scripts/connector-preview/protocol.mjs`](https://github.com/quirq-ai/instants/blob/main/scripts/connector-preview/protocol.mjs) · code · 1781 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

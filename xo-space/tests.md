@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 XO Cowork API tests.
 
-[`tests/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/__init__.py) · code · 27 bytes
+[`tests/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/__init__.py) · code · 205 bytes
 
 ### doctor_sandbox.py
 
@@ -26,6 +26,13 @@ print_restart_hint in isolation. Shebang `#!/usr/bin/env bash`. Functions: `ok`,
 `check`, `detect`, `fetch`, `hint`.
 
 [`tests/install_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/install_sh_harness.sh) · code · 7502 bytes
+
+### required_tools.py
+
+The external tools the repo-wide checks shell out to (bash, git, node). Functions:
+`clean_env`, `require_tools`. Contains tests.
+
+[`tests/required_tools.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/required_tools.py) · code · 3049 bytes
 
 ### test_activity_state.py
 
@@ -73,6 +80,14 @@ __name__ == '__main__'`. HTTP routes: `GET /api/anything`. Classes:
 with FastAPI. Contains tests.
 
 [`tests/test_browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_browser_guard.py) · code · 9877 bytes
+
+### test_checkout_hygiene.py
+
+What the checkout itself may carry, so data files cannot steer the suite. Runnable as a
+script via `if __name__ == '__main__'`. Classes: `CheckoutHygiene`. Functions:
+`is_env_file`. Contains tests.
+
+[`tests/test_checkout_hygiene.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_checkout_hygiene.py) · code · 3110 bytes
 
 ### test_claude_stream_deltas.py
 
@@ -395,7 +410,7 @@ Classes: `InboxStoreTests`, `InboxLocationTests`. Functions: `iso`, `item`. Cont
 install.sh — the functions that decide what the one-liner does. Runnable as a script via `if
 __name__ == '__main__'`. Classes: `InstallShTests`. Contains tests.
 
-[`tests/test_install_sh.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_install_sh.py) · code · 2199 bytes
+[`tests/test_install_sh.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_install_sh.py) · code · 2330 bytes
 
 ### test_issue_37_gaps.py
 
@@ -545,6 +560,14 @@ __name__ == '__main__'`. Classes: `_Sandbox`, `SampleTests`, `StorePathTests`,
 `_sample_folders`, `_examples`, `_rel`, `_documents`, `_strings`. Contains tests.
 
 [`tests/test_quirq_state_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_state_layout.py) · code · 15512 bytes
+
+### test_repo_checks.py
+
+The repo-wide checks that the old .github/workflows/tests.yml ran by hand. Runnable as a
+script via `if __name__ == '__main__'`. Classes: `RepoCheckCase`, `RouteParity`,
+`PluginBundles`, `SpaceUiSyntax`. Contains tests.
+
+[`tests/test_repo_checks.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_repo_checks.py) · code · 3264 bytes
 
 ### test_root_sessions.py
 
@@ -922,7 +945,7 @@ FastAPI. Contains tests.
 uninstall.sh — the functions that decide what gets removed. Runnable as a script via `if
 __name__ == '__main__'`. Classes: `UninstallShTests`. Contains tests.
 
-[`tests/test_uninstall_sh.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_uninstall_sh.py) · code · 3087 bytes
+[`tests/test_uninstall_sh.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_uninstall_sh.py) · code · 3139 bytes
 
 ### test_usage_reporting_status.py
 
@@ -975,4 +998,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

@@ -48,7 +48,7 @@ This page is how to work on it. For how it behaves (the crawl rules, ranking, op
 every kind of Innerpedia page), read the field guide on the home page at
 [/#guide](http://localhost:3470/#guide).
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 15121 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 15984 bytes
 
 ### DESIGN.md
 
@@ -101,12 +101,20 @@ folders like the web, read your projects like an encyclopedia. Scripts: `index`,
 
 ### pnpm-lock.yaml
 
-Package-manager lockfile (pnpm-lock.yaml, 71.8 KB). It pins the exact dependency tree for
+Package-manager lockfile (pnpm-lock.yaml, 78.8 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`pnpm-lock.yaml`](https://github.com/quirq-ai/innernet/blob/main/pnpm-lock.yaml) · lockfile · 73550 bytes
+[`pnpm-lock.yaml`](https://github.com/quirq-ai/innernet/blob/main/pnpm-lock.yaml) · lockfile · 80659 bytes
+
+### pnpm-workspace.yaml
+
+YAML file `pnpm-workspace.yaml`. Top-level keys: `allowBuilds`. Dependency build scripts
+pnpm may run. pnpm 11 refuses an install with an unlisted one. esbuild (through tsx) works
+from its prebuilt platform package, so its install script stays off, as pnpm 10 left it.
+
+[`pnpm-workspace.yaml`](https://github.com/quirq-ai/innernet/blob/main/pnpm-workspace.yaml) · code · 241 bytes
 
 ### postcss.config.mjs
 
@@ -132,4 +140,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

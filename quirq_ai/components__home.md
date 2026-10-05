@@ -132,4 +132,4 @@ app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
 
 [`components/home/works-with.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/components/home/works-with.tsx) · code · 3468 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._

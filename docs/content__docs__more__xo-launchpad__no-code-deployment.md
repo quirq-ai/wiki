@@ -40,9 +40,9 @@ docs site.
 
 ### meta.json
 
-JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
+JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/more/xo-launchpad/no-code-deployment/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/xo-launchpad/no-code-deployment/meta.json) · code · 151 bytes
+[`content/docs/more/xo-launchpad/no-code-deployment/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/xo-launchpad/no-code-deployment/meta.json) · code · 171 bytes
 
-_Generated 2026-10-04 11:24 UTC from `main`._
+_Generated 2026-10-05 12:48 UTC from `main`._
