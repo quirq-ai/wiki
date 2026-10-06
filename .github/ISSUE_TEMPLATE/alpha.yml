@@ -11,6 +11,7 @@ body:
     id: repo
     attributes:
       label: Which repo were you working in?
+      description: This goes into a public issue. If the repo is private, just write private.
       placeholder: innernet, xo-space, website, ...
     validations:
       required: true
@@ -20,11 +21,11 @@ body:
       label: Which step?
       options:
         - Install qq
-        - Get a repo (qq sync)
+        - Set up a repo (qq sync)
         - Build or test locally
         - Open a PR / presubmit verdict
         - Land through the merge queue
-        - Revert or roll PR
+        - A proposed revert, or a dependency roll PR
         - Canary report
         - Something else
     validations:
