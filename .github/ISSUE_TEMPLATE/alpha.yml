@@ -1,0 +1,54 @@
+name: qq alpha problem
+description: Something in qq slowed you down, broke, or surprised you during the alpha.
+title: "[alpha] "
+labels: ["alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying qq. This repo is public, so never paste tokens, keys or private logs here.
+  - type: input
+    id: repo
+    attributes:
+      label: Which repo were you working in?
+      description: This goes into a public issue. If the repo is private, just write private.
+      placeholder: innernet, xo-space, website, ...
+    validations:
+      required: true
+  - type: dropdown
+    id: step
+    attributes:
+      label: Which step?
+      options:
+        - Install qq
+        - Set up a repo (qq sync)
+        - Build or test locally
+        - Open a PR / presubmit verdict
+        - Land through the merge queue
+        - A proposed revert, or a dependency roll PR
+        - Canary report
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Links to the PR or the failing run help most.
+    validations:
+      required: true
+  - type: dropdown
+    id: blocked
+    attributes:
+      label: Did it block you?
+      options:
+        - Yes, I could not continue
+        - I found a workaround
+        - No, just annoying
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Your machine
+      placeholder: macOS 15 on Apple silicon, Ubuntu 24.04, ...
