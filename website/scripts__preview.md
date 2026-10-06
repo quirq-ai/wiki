@@ -14,4 +14,4 @@ reason, the status table still gets written on its own.
 
 [`scripts/preview/build-preview-comment.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/preview/build-preview-comment.mjs) · code · 3852 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

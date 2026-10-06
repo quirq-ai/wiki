@@ -26,4 +26,4 @@ IconSparkles, IconTrends, IconWarning, } from '@posthog/icons' import Cloudinary
 
 [`src/hooks/productData/ai_observability/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/ai_observability/slides.tsx) · code · 23380 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

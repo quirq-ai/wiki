@@ -18,4 +18,4 @@ npm package manifest for `gatsby-remark-inline-jsx-paragraphs` v0.1.0. Entry `in
 
 [`plugins/gatsby-remark-inline-jsx-paragraphs/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-remark-inline-jsx-paragraphs/package.json) · code · 102 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

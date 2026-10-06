@@ -18,4 +18,4 @@ import { Header } from './Header' Notable exports: `Header`.
 
 [`src/components/Header/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Header/index.tsx) · code · 75 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

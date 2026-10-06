@@ -166,4 +166,4 @@ blobs.
 
 [`static/images/og/why-posthog.png`](https://github.com/quirq-ai/website/blob/main/static/images/og/why-posthog.png) · binary · 38882 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

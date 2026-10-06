@@ -24,4 +24,4 @@ from '../../../../context/App' import { useWindow } from '../../../../context/Wi
 
 [`src/components/Pricing/PricingCalculator/AllProductsRatesModal/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/PricingCalculator/AllProductsRatesModal/index.tsx) · code · 8410 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

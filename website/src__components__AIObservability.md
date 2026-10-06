@@ -28,4 +28,4 @@ prop).
 
 [`src/components/AIObservability/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/AIObservability/README.md) · code · 844 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

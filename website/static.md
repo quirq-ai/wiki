@@ -22,10 +22,10 @@ blobs.
 
 ### quirq-icon.svg
 
-SVG graphic `quirq-icon.svg` (279 bytes). Vector artwork used by the UI, docs, or brand; not
+SVG graphic `quirq-icon.svg` (328 bytes). Vector artwork used by the UI, docs, or brand; not
 executable source.
 
-[`static/quirq-icon.svg`](https://github.com/quirq-ai/website/blob/main/static/quirq-icon.svg) · code · 279 bytes
+[`static/quirq-icon.svg`](https://github.com/quirq-ai/website/blob/main/static/quirq-icon.svg) · code · 328 bytes
 
 ### robots.txt
 
@@ -40,4 +40,4 @@ read. Open the source file for the full document.
 
 [`static/world-countries-sans-antarctica.json`](https://github.com/quirq-ai/website/blob/main/static/world-countries-sans-antarctica.json) · code · 109244 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

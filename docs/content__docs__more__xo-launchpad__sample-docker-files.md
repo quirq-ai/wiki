@@ -48,4 +48,4 @@ with JSX components), typically rendered by the docs site.
 
 [`content/docs/more/xo-launchpad/sample-docker-files/vite.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/more/xo-launchpad/sample-docker-files/vite.mdx) · code · 634 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

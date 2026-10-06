@@ -57,4 +57,4 @@ import pluralizeWord from 'pluralize' Notable exports: `formatCompact`, `parseCo
 
 [`src/components/Pricing/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/utils.ts) · code · 1348 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

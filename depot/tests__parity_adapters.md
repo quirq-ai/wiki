@@ -26,4 +26,4 @@ Classes: `UsesTool`.
 
 [`tests/parity_adapters/uses_tool.py`](https://github.com/quirq-ai/depot/blob/main/tests/parity_adapters/uses_tool.py) · code · 356 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

@@ -26,4 +26,4 @@ from 'components/Glow' import type { CarouselSlide } from
 
 [`src/hooks/productData/surveys/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/surveys/slides.tsx) · code · 12934 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -14,4 +14,4 @@ from '../../images/check.svg' import XIcon from '../../images/x.svg' import Link
 
 [`src/components/LibraryComparison/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/LibraryComparison/index.tsx) · code · 4237 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

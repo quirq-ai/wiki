@@ -70,4 +70,4 @@ blobs.
 
 [`static/images/products/surveys/templates.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/surveys/templates.png) · binary · 39501 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

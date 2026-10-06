@@ -14,4 +14,4 @@ content/uploads/2020/templates/employee_offer_letter.pages` for the full content
 
 [`static/wp-content/uploads/2020/templates/employee_offer_letter.pages`](https://github.com/quirq-ai/website/blob/main/static/wp-content/uploads/2020/templates/employee_offer_letter.pages) · huge · 829473 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -22,4 +22,4 @@ more.
 
 [`src/qqgate/backends/github.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/backends/github.py) · code · 28165 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

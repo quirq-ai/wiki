@@ -50,16 +50,16 @@ Jsonc file `.markdownlint-cli2.jsonc`.
 
 ### .nvmrc
 
-Extensionless file `.nvmrc`. 22.
+Extensionless file `.nvmrc`. 24.
 
-[`.nvmrc`](https://github.com/quirq-ai/website/blob/main/.nvmrc) · other · 2 bytes
+[`.nvmrc`](https://github.com/quirq-ai/website/blob/main/.nvmrc) · other · 3 bytes
 
 ### .prettierignore
 
 Extensionless file `.prettierignore`. *.md *.mdx *.lock .cache/ public/ node_modules/
-static/.
+static/ .github/workflows/qq-*.yml.
 
-[`.prettierignore`](https://github.com/quirq-ai/website/blob/main/.prettierignore) · other · 56 bytes
+[`.prettierignore`](https://github.com/quirq-ai/website/blob/main/.prettierignore) · other · 162 bytes
 
 ### .prettierrc
 
@@ -83,23 +83,23 @@ Extensionless file `.vercelignore`. .git .cache .pnpm-store.
 
 ### AGENTS.md
 
-The agent/workspace instructions (“Working on Quirq Home base”). This repository is Quirq's
+The agent/workspace instructions (“Working on quirq Home base”). This repository is quirq's
 Gatsby 4 / React website, adapted from the PostHog desktop interface. Public repositories in
 the configured GitHub organization become app pages inside a shared desktop. Read
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 5180 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 5271 bytes
 
 ### CLAUDE.md
 
-The Claude Code instructions (“Working on Quirq Home base”). This repository is Quirq's
+The Claude Code instructions (“Working on quirq Home base”). This repository is quirq's
 Gatsby 4 / React website, adapted from the PostHog desktop interface. Public repositories in
 the configured GitHub organization become app pages inside a shared desktop. Read
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 5180 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 5271 bytes
 
 ### LICENSE
 
@@ -117,41 +117,27 @@ Posthog file `LICENSE.posthog`. For all content except the /contents/ folder.
 
 ### LICENSING.md
 
-Markdown page “Licensing and attribution”. This repository combines Quirq additions with
+Markdown page “Licensing and attribution”. This repository combines quirq additions with
 material inherited from [PostHog/posthog.com](https://github.com/PostHog/posthog.com),
 starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 
-[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 1663 bytes
+[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 1771 bytes
 
 ### README.md
 
-The project README (“Quirq home base”). A customizable desktop for the apps, experiments,
-and open source projects in the [Quirq GitHub organization](https://github.com/quirq-ai).
+The project README (“quirq home base”). A customizable desktop for the apps, experiments,
+and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 14704 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 15605 bytes
 
 ### SECURITY.md
 
-The security policy (“Reporting a Vulnerability”). Security vulnerabilities and other
-security related findings can be reported via our [vulnerability disclosure
-program](https://bugcrowd.com/engagements/posthog-vdp-pro) or by emailing [security-
-reports@posthog.com](mailto:security-reports@posthog.com).
+The security policy. Please report security problems in this website privately. Use GitHub's
+private vulnerability reporting: open the repository's Security tab and choose Report a
+vulnerability. If that option is not available, open an issue that asks for a private
+contact, without any details of the problem, and a maintainer will reach out.
 
-[`SECURITY.md`](https://github.com/quirq-ai/website/blob/main/SECURITY.md) · code · 451 bytes
-
-### STYLEGUIDE.md
-
-Markdown page “Documentation style guide”. This style guide explains our standards and
-guidelines for contributors to the PostHog documentation.
-
-[`STYLEGUIDE.md`](https://github.com/quirq-ai/website/blob/main/STYLEGUIDE.md) · code · 4051 bytes
-
-### WARP.md
-
-Markdown page “WARP.md”. This file provides guidance to WARP (warp.dev) when working with
-code in this repository.
-
-[`WARP.md`](https://github.com/quirq-ai/website/blob/main/WARP.md) · code · 4336 bytes
+[`SECURITY.md`](https://github.com/quirq-ai/website/blob/main/SECURITY.md) · code · 448 bytes
 
 ### gatsby-browser.tsx
 
@@ -169,7 +155,7 @@ require('dotenv').config({ path: .env.${process.env.NODE_ENV}.local })
 require('dotenv').config({ path: .env.${process.env.NODE_ENV} }) const path =
 require('path').
 
-[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1491 bytes
+[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1495 bytes
 
 ### gatsby-node.ts
 
@@ -186,15 +172,6 @@ Implement Gatsby's SSR (Server Side Rendering) APIs in this file. Notable export
 
 [`gatsby-ssr.js`](https://github.com/quirq-ai/website/blob/main/gatsby-ssr.js) · code · 1433 bytes
 
-### greptile.json
-
-JSON document `greptile.json` whose top-level keys are `commentTypes`, `instructions`,
-`customContext`, `ignorePatterns`, `triggerOnUpdates`, `shouldUpdateDescription`,
-`disabledLabels`, `excludeAuthors`. Structured data consumed by the surrounding app or
-tooling.
-
-[`greptile.json`](https://github.com/quirq-ai/website/blob/main/greptile.json) · code · 4281 bytes
-
 ### kea.js
 
 import React from 'react' import { Provider } from 'react-redux' import { getContext,
@@ -207,7 +184,7 @@ resetContext } from 'kea' import { loadersPlugin } from 'kea-loaders' import { r
 ### package.json
 
 npm package manifest for `quirq-home-base` v1.0.0. A customizable desktop for apps from the
-Quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:test`, `prebuild-move`,
+quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:test`, `prebuild-move`,
 `build-move`, `prebuild`, `build`, `prebuild:minimal`, `build:minimal`, `start`, and 28
 more.
 
@@ -242,7 +219,7 @@ require('autoprefixer')], }).
 JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`, `defaults`,
 `repositories`. Structured data consumed by the surrounding app or tooling.
 
-[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 1948 bytes
+[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 2165 bytes
 
 ### safelist.txt
 
@@ -256,12 +233,11 @@ white [&_img]:w-[724px] [&_img]:max-w-[724px] @xl:max-w-2xs @2xl:basis-3/12 @2xl
 
 ### tailwind.config.js
 
-module.exports = { content: ['./src//*.{js,jsx,ts,tsx}',
-'./contents//*.{js,jsx,ts,tsx,mdx}', './safelist.txt'], options: { safelist: [ use
-safelist.txt ], }, darkMode: 'class', // or 'media' or 'class' theme: { screens: { '2xs':
-'425px', xs: '482px', sm: '640px', => @media (min-width: 640px) { ... }.
+module.exports = { content: ['./src/**/*.{js,jsx,ts,tsx}', './safelist.txt'], options: {
+safelist: [ use safelist.txt ], }, darkMode: 'class', // or 'media' or 'class' theme: {
+screens: { '2xs': '425px', xs: '482px', sm: '640px', => @media (min-width: 640px) { ... }.
 
-[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 24544 bytes
+[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 24303 bytes
 
 ### tsconfig.json
 
@@ -273,8 +249,8 @@ file for the full document.
 ### vercel.json
 
 JSON document `vercel.json` whose top-level keys are `$schema`, `framework`, `buildCommand`,
-`outputDirectory`. Structured data consumed by the surrounding app or tooling.
+`outputDirectory`, `redirects`. Structured data consumed by the surrounding app or tooling.
 
-[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 153 bytes
+[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 236 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -110,4 +110,4 @@ generated blobs.
 
 [`static/images/product/user-paths.png`](https://github.com/quirq-ai/website/blob/main/static/images/product/user-paths.png) · binary · 119876 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

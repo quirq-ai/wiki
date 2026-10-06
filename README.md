@@ -28,6 +28,7 @@ flowchart LR
     installer["installer"]
     instants["instants"]
     marketing["marketing"]
+    monitoring["monitoring"]
     perf["perf"]
     quirq_ai["quirq_ai"]
     quirqy["quirqy"]
@@ -57,6 +58,7 @@ flowchart LR
   click installer "./installer/_index.md"
   click instants "./instants/_index.md"
   click marketing "./marketing/_index.md"
+  click monitoring "./monitoring/_index.md"
   click perf "./perf/_index.md"
   click quirq_ai "./quirq_ai/_index.md"
   click quirqy "./quirqy/_index.md"
@@ -74,7 +76,7 @@ flowchart LR
   click xo_space "./xo-space/_index.md"
 ```
 
-[`.github`](.github/_index.md) · [`depot`](depot/_index.md) · [`docs`](docs/_index.md)* · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`marketing`](marketing/_index.md) · [`perf`](perf/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`website`](website/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
+[`.github`](.github/_index.md) · [`depot`](depot/_index.md) · [`docs`](docs/_index.md)* · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`marketing`](marketing/_index.md) · [`monitoring`](monitoring/_index.md) · [`perf`](perf/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`website`](website/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
 
 \* public fork
 <!-- quirq-wiki:repos:end -->

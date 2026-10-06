@@ -105,4 +105,4 @@ import { readFile, writeFile, rename, rm } from 'node:fs/promises' import { reso
 
 [`scripts/sync-quirq-apps.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-apps.mjs) · code · 6526 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

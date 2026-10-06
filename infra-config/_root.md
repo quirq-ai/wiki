@@ -38,7 +38,7 @@ onboarded, what builds them, how a change lands, how releases move through chann
 limits on what agents may do alone. A change here is a pull request that goes through the
 same gate as code, and you revert it like code.
 
-[`README.md`](https://github.com/quirq-ai/infra-config/blob/main/README.md) · code · 17326 bytes
+[`README.md`](https://github.com/quirq-ai/infra-config/blob/main/README.md) · code · 17335 bytes
 
 ### requirements-drift.txt
 
@@ -63,4 +63,4 @@ annotate -o requirements.txt.
 
 [`requirements.txt`](https://github.com/quirq-ai/infra-config/blob/main/requirements.txt) · code · 18298 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

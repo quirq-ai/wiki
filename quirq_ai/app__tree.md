@@ -25,4 +25,4 @@ Notable exports: `STORY`.
 
 [`app/tree/story.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/tree/story.ts) · code · 4109 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

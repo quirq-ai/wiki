@@ -31,16 +31,16 @@ from 'components/RadixUI/MenuBar' import ActiveWindowsPanel from
 'components/ActiveWindowsPanel' import OSButton from 'components/OSButton' import Tooltip
 from 'components/RadixU Provides a default export as the module's public entry.
 
-[`src/components/TaskBarMenu/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/index.tsx) · code · 5064 bytes
+[`src/components/TaskBarMenu/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/index.tsx) · code · 5021 bytes
 
 ### menuData.tsx
 
 import React from 'react' import { MenuType, MenuItemType } from
 'components/RadixUI/MenuBar' import { IconBrightness, IconChevronDown, IconHome, IconApps }
 from '@posthog/icons' import { IconGithub } from 'components/OSIcons' import QuirqAppIcon
-from 'components/QuirqAppIcon' import { useAppActions, useAppSettings } from
-'../../context/App' import { getQuir Notable exports: `useMenuData`, `useMenuSelectOptions`
+from 'components/QuirqAppIcon' import { QuirqMark } from 'components/QuirqBrand' import {
+useAppSettings } from ' Notable exports: `useMenuData`, `useMenuSelectOptions`
 
-[`src/components/TaskBarMenu/menuData.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/menuData.tsx) · code · 3682 bytes
+[`src/components/TaskBarMenu/menuData.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/menuData.tsx) · code · 3447 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

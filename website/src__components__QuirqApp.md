@@ -24,6 +24,6 @@ remarkGfm from 'remark-gfm' import Explorer from 'components/Explorer' import OS
 'components/Link' import type { QuirqApp } from 'lib/quirqApps' Notable exports:
 `RepositoryApp`.
 
-[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 9705 bytes
+[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 9398 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

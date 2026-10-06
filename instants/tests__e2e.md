@@ -12,4 +12,4 @@ UI behavior must not depend on third-party photo or font servers being online.
 
 [`tests/e2e/instants.spec.ts`](https://github.com/quirq-ai/instants/blob/main/tests/e2e/instants.spec.ts) · code · 26473 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

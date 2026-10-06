@@ -20,9 +20,10 @@ GitHub snapshot.
 
 import React, { useMemo, useState } from 'react' import Explorer from 'components/Explorer'
 import Link from 'components/Link' import OSButton from 'components/OSButton' import
-QuirqAppIcon from 'components/QuirqAppIcon' import { getQuirqApps, quirqConfig } from
-'lib/quirqApps' Notable exports: `HomeBase`.
+QuirqAppIcon from 'components/QuirqAppIcon' import { QuirqWordmark } from
+'components/QuirqBrand' import { getQuirqApps, quirqConfig } from 'lib/quirqApps' Notable
+exports: `HomeBase`.
 
-[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 11991 bytes
+[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 6275 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

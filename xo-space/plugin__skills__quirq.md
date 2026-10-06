@@ -15,4 +15,4 @@ for install/start.
 
 [`plugin/skills/quirq/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugin/skills/quirq/SKILL.md) · code · 2788 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

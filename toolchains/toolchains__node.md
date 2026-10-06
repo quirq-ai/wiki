@@ -22,4 +22,4 @@ the toolchain.
 
 [`toolchains/node/toolchain.toml`](https://github.com/quirq-ai/toolchains/blob/main/toolchains/node/toolchain.toml) · code · 2197 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

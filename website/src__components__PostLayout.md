@@ -142,4 +142,4 @@ exports: `ITopic`, `IContributor`, `IMenu`, `ICrumb`, `ISidebarAction`, `INextPo
 
 [`src/components/PostLayout/types.ts`](https://github.com/quirq-ai/website/blob/main/src/components/PostLayout/types.ts) · code · 2326 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

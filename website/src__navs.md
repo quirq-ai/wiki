@@ -95,4 +95,4 @@ Shared sidebar nav for the "Why PostHog?" page collection. Notable exports:
 
 [`src/navs/whyPostHog.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/whyPostHog.ts) · code · 1200 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

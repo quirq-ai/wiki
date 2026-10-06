@@ -41,4 +41,4 @@ sidebar, and mobile glass dock while giving them a collaboration purpose.
 
 [`docs/ui.md`](https://github.com/quirq-ai/instants/blob/main/docs/ui.md) · code · 7955 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

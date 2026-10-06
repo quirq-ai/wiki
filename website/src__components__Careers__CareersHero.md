@@ -14,4 +14,4 @@ from 'mark.js' Notable exports: `CareersHero`.
 
 [`src/components/Careers/CareersHero/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/CareersHero/index.tsx) · code · 15489 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

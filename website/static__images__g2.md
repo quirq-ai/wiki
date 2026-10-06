@@ -574,4 +574,4 @@ UI, docs, or brand; not executable source.
 
 [`static/images/g2/SessionReplay_MomentumLeader_Leader.svg`](https://github.com/quirq-ai/website/blob/main/static/images/g2/SessionReplay_MomentumLeader_Leader.svg) · code · 10090 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

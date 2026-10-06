@@ -153,4 +153,4 @@ Replacing '/' would result in empty string which is invalid Notable exports: `fl
 
 [`gatsby/utils.ts`](https://github.com/quirq-ai/website/blob/main/gatsby/utils.ts) · code · 1821 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

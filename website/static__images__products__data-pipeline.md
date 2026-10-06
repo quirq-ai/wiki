@@ -14,4 +14,4 @@ blobs.
 
 [`static/images/products/data-pipeline/data-pipeline.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/data-pipeline/data-pipeline.png) · binary · 75696 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

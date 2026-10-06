@@ -59,4 +59,4 @@ exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 737 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

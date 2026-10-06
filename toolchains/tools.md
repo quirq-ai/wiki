@@ -30,4 +30,4 @@ __name__ == '__main__'`. Classes: `SpecError`. Functions: `load_repo_config`, `l
 
 [`tools/qqtc.py`](https://github.com/quirq-ai/toolchains/blob/main/tools/qqtc.py) · code · 24031 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

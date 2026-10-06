@@ -46,4 +46,4 @@ blobs.
 
 [`static/images/products/ab-testing/targeting-ab.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/ab-testing/targeting-ab.png) · binary · 23441 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -21,4 +21,4 @@ string controls?: string }, HTMLElement } }.
 
 [`src/components/WistiaEmbed/types.d.ts`](https://github.com/quirq-ai/website/blob/main/src/components/WistiaEmbed/types.d.ts) · code · 381 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

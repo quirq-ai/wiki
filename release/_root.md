@@ -8,11 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 4 pattern(s)
-including `__pycache__/`, `*.egg-info/`, `.qq/`, `.venv/`. Generated and secret files
-matching these patterns are not in the clone the wiki summarizes.
+`.gitignore` tells git or Docker which paths to omit. It currently lists 5 pattern(s)
+including `__pycache__/`, `*.egg-info/`, `.qq/`, `.venv/`, `build/`. Generated and secret
+files matching these patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/release/blob/main/.gitignore) · other · 37 bytes
+[`.gitignore`](https://github.com/quirq-ai/release/blob/main/.gitignore) · other · 44 bytes
 
 ### AGENTS.md
 
@@ -36,7 +36,7 @@ repos in any language. This repo moves builds through channels. A channel is a p
 channels/ names a commit and an artifact digest, and only the release executor moves it,
 recording an operation key before it does.
 
-[`README.md`](https://github.com/quirq-ai/release/blob/main/README.md) · code · 16407 bytes
+[`README.md`](https://github.com/quirq-ai/release/blob/main/README.md) · code · 18663 bytes
 
 ### pins.toml
 
@@ -53,6 +53,6 @@ dependencies`, `project.scripts`, `project.entry-points."qq.commands"`,
 `tool.setuptools.packages.find`, `tool.pytest.ini_options`. Python project metadata and tool
 configuration.
 
-[`pyproject.toml`](https://github.com/quirq-ai/release/blob/main/pyproject.toml) · code · 1344 bytes
+[`pyproject.toml`](https://github.com/quirq-ai/release/blob/main/pyproject.toml) · code · 1417 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

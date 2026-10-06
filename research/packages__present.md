@@ -13,4 +13,4 @@ renders its Markdown into a static site in dist/. CLI bins: `present`.
 
 [`packages/present/package.json`](https://github.com/quirq-ai/research/blob/main/packages/present/package.json) · code · 298 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

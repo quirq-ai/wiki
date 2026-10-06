@@ -14,4 +14,4 @@ Notable exports: `validateQuirqConfig`, `normalizeAppPath`, `safeWebUrl`,
 
 [`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 11322 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

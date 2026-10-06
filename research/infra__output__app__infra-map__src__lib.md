@@ -13,4 +13,4 @@ Notable exports: `cn`.
 
 [`infra/output/app/infra-map/src/lib/utils.ts`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/lib/utils.ts) · code · 166 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

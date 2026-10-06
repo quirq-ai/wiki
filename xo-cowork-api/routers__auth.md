@@ -39,4 +39,4 @@ OpenAI Codex CLI device-code login. Defines the `router` application object. HTT
 
 [`routers/auth/codex_setup.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/routers/auth/codex_setup.py) · code · 39047 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -25,4 +25,4 @@ as f } Notable exports: `applications`, `topFeatures`.
 
 [`src/hooks/productData/product_analytics/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/product_analytics/slides.tsx) · code · 12763 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

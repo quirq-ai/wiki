@@ -12,7 +12,7 @@ eslint-disable @typescript-eslint/no-empty-function Notable exports: `MenuItem`,
 `ChatParams`, `AppActionsContextType`, `AppSettingsContextType`, `AppUIStateContextType`,
 `AppWindowsContextType`, `Context`, and 8 more.
 
-[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 101697 bytes
+[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 101305 bytes
 
 ### Toast.tsx
 
@@ -30,4 +30,4 @@ MenuItemType } from 'components/RadixUI/MenuBar' Notable exports: `AppWindow`, `
 
 [`src/context/Window.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/Window.tsx) · code · 5520 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

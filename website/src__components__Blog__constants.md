@@ -16,4 +16,4 @@ hideFromNavigation?: boolean } Notable exports: `CategoryInterface`, `homeCatego
 
 [`src/components/Blog/constants/categories.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Blog/constants/categories.tsx) · code · 2690 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

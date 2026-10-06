@@ -73,7 +73,7 @@ loader: V0-REC-01). Capabilities are recipes' list: fetch, build, test, package,
 deploy, bench and fuzz. A missing capability is a declared state, not an error: a docs site
 has no test. Settled year-one stack: the latest Python and the latest Next.js.
 
-[`config/kinds.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/kinds.toml) · code · 3170 bytes
+[`config/kinds.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/kinds.toml) · code · 3915 bytes
 
 ### org.toml
 
@@ -98,7 +98,7 @@ TOML config `pipelines.toml`. Builders: what runs, on which trigger, in which po
 Pipelines follow Chromium's split: presubmit (on the change, inside the gate), postsubmit
 (every main commit), release, and perf (perf.toml). Fuzz schedules live in fuzz.toml.
 
-[`config/pipelines.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/pipelines.toml) · code · 4585 bytes
+[`config/pipelines.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/pipelines.toml) · code · 5314 bytes
 
 ### postmortem.toml
 
@@ -117,7 +117,7 @@ one [[repo]] block here, plus the repo's own infra/repo.toml once sync exists. F
 read from the repos on 2026-10-03. Settled: public repos only for now (both repos below
 clone anonymously). Sections: `area`, `[repo`, `repo.deploy`, `[repo.other_qq_workflows`.
 
-[`config/repos.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/repos.toml) · code · 2318 bytes
+[`config/repos.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/repos.toml) · code · 2834 bytes
 
 ### rollers.toml
 
@@ -129,4 +129,4 @@ alone (D4). Sections: `area`, `[roller`.
 
 [`config/rollers.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/rollers.toml) · code · 1496 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

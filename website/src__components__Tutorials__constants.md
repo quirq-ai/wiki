@@ -13,4 +13,4 @@ import { InlineCode } from 'components/InlineCode' import { graphql, useStaticQu
 
 [`src/components/Tutorials/constants/tags.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Tutorials/constants/tags.tsx) · code · 875 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

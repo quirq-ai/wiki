@@ -16,4 +16,4 @@ from 'components/ Provides a default export as the module's public entry.
 
 [`src/components/WistiaCustomPlayer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/WistiaCustomPlayer/index.tsx) · code · 44816 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -33,4 +33,4 @@ qq sync and qq fetch: get a repo's pinned toolchains and dependencies. Functions
 
 [`src/qqdepot/commands/sync.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/sync.py) · code · 6565 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

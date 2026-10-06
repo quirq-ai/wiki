@@ -47,4 +47,4 @@ data`, `tool.pytest.ini_options`. Python project metadata and tool configuration
 
 [`pyproject.toml`](https://github.com/quirq-ai/recipes/blob/main/pyproject.toml) · code · 852 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

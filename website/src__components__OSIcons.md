@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 App icon mapping for different skins Notable exports: `isAppIconName`, `AppIconProps`,
 `IconImageProps`, `IconImage`, `AppIcon`, `AppItem`, `AppLink`.
 
-[`src/components/OSIcons/AppIcon.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSIcons/AppIcon.tsx) · code · 20799 bytes
+[`src/components/OSIcons/AppIcon.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSIcons/AppIcon.tsx) · code · 20822 bytes
 
 ### DemoIcon.tsx
 
@@ -69,4 +69,4 @@ exports: `GlassIcon`, `PricingIcon`, `DemoIcon`.
 
 [`src/components/OSIcons/index.ts`](https://github.com/quirq-ai/website/blob/main/src/components/OSIcons/index.ts) · code · 255 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -12,7 +12,7 @@ Stylesheet `global.css` for layout and visual treatment in this folder. Leading 
 selectors include `code-block`, `app-scrollbar`, `app-scrollbar-thumb`, `app-scrollbar-
 corner`, `article-content`, `bio-preview`, `bio-sidebar`, `question-content`, and 112 more.
 
-[`src/styles/global.css`](https://github.com/quirq-ai/website/blob/main/src/styles/global.css) · code · 79402 bytes
+[`src/styles/global.css`](https://github.com/quirq-ai/website/blob/main/src/styles/global.css) · code · 79400 bytes
 
 ### workable-overrides.css
 
@@ -20,4 +20,4 @@ whr_embed_hook { Leading class selectors include `whr-group`, `whr-date`, `whr-l
 
 [`src/styles/workable-overrides.css`](https://github.com/quirq-ai/website/blob/main/src/styles/workable-overrides.css) · code · 1450 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

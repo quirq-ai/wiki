@@ -118,4 +118,4 @@ Markdown page “Usage API”. Unified token, cost, and tool telemetry across ru
 
 [`content/api/usage-api.mdx`](https://github.com/quirq-ai/docs/blob/main/content/api/usage-api.mdx) · code · 6326 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

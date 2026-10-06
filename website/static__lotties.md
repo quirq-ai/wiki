@@ -57,4 +57,4 @@ skipping a structural summary. Open the source file directly if you need its con
 
 [`static/lotties/toy.lottie`](https://github.com/quirq-ai/website/blob/main/static/lotties/toy.lottie) · code · 58185 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

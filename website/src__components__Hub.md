@@ -13,4 +13,4 @@ CategoryGrid from 'components/BlogLanding/CategoryGrid' Notable exports: `Hub`.
 
 [`src/components/Hub/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Hub/index.tsx) · code · 902 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -134,4 +134,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src` | 5 | [src.md](src.md) |
 | `tests` | 8 | [tests.md](tests.md) |
 
-_Generated 2026-10-05 12:48 UTC._
+_Generated 2026-10-06 12:17 UTC._

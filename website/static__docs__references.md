@@ -14,4 +14,4 @@ older versions age out.
 
 [`static/docs/references/version-unavailable.md`](https://github.com/quirq-ai/website/blob/main/static/docs/references/version-unavailable.md) · code · 647 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

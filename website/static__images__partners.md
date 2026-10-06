@@ -53,4 +53,4 @@ blobs.
 
 [`static/images/partners/talenodigital.png`](https://github.com/quirq-ai/website/blob/main/static/images/partners/talenodigital.png) · binary · 5334 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

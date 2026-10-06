@@ -16,4 +16,4 @@ README.md in each output folder only describes the format, so it is skipped.
 
 [`packages/present/bin/present.js`](https://github.com/quirq-ai/research/blob/main/packages/present/bin/present.js) · code · 6684 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

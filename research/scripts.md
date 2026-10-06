@@ -16,11 +16,17 @@ _template/ and packages/.
 
 [`scripts/build-hub.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/build-hub.mjs) · code · 5697 bytes
 
+### check.mjs
+
+Check that every topic follows the repo rules in AGENTS.md.
+
+[`scripts/check.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/check.mjs) · code · 4192 bytes
+
 ### new-topic.sh
 
 Create a new research topic folder from _template/. Shebang `#!/usr/bin/env bash`.
 Functions: `usage`, `cleanup`. Fails fast (`set -e`).
 
-[`scripts/new-topic.sh`](https://github.com/quirq-ai/research/blob/main/scripts/new-topic.sh) · code · 2437 bytes
+[`scripts/new-topic.sh`](https://github.com/quirq-ai/research/blob/main/scripts/new-topic.sh) · code · 2493 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

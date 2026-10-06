@@ -21,4 +21,4 @@ by the surrounding app or tooling.
 
 [`content/research/phase-2-collaboration/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/research/phase-2-collaboration/meta.json) · code · 61 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

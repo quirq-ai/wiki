@@ -8,10 +8,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### quirq-app-mapping.md
 
-Markdown page “Quirq app mapping”. The GitHub organization is the catalog. Its public
+Markdown page “quirq app mapping”. The GitHub organization is the catalog. Its public
 repositories become apps in Home Base, the desktop, and navigation. The shared window
 system, wallpapers, themes, and app-specific URLs stay available.
 
-[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 5014 bytes
+[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 5010 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

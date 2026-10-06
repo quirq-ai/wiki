@@ -13,4 +13,4 @@ draft | in review | final Failure record.
 
 [`templates/postmortem.md`](https://github.com/quirq-ai/infra-config/blob/main/templates/postmortem.md) · code · 1630 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

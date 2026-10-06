@@ -15,6 +15,15 @@ dated facts are refreshed.
 
 [`infra/output/report/2026-10-05-qq-build-run-locally.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-build-run-locally.md) · code · 16539 bytes
 
+### 2026-10-05-qq-onboard-website.md
+
+Markdown page “Add a repo to quirq infra: onboarding quirq-ai/website”. Guide for infra
+operators, 2026-10-05. Requested by suraj. It walks through putting a new repo under quirq
+infra (qq), with its landing policy enforced, using quirq-ai/website as the worked example.
+Each step says what you do, who approves it, and the options you can change at that step.
+
+[`infra/output/report/2026-10-05-qq-onboard-website.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-onboard-website.md) · code · 26264 bytes
+
 ### 2026-10-05-qq-phases.md
 
 Markdown page “quirq infra (qq): the phases v0, v1 and v2”. Report, 2026-10-05. Requested by
@@ -50,4 +59,4 @@ The project README (“report”). A long-form write-up of the research.
 
 [`infra/output/report/README.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/README.md) · code · 335 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

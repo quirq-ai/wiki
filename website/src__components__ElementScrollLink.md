@@ -14,4 +14,4 @@ useMemo } from 'react' Notable exports: `ScrollSpyProvider`, `ElementScrollLink`
 
 [`src/components/ElementScrollLink/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ElementScrollLink/index.tsx) · code · 5110 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

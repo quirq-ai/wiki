@@ -14,4 +14,4 @@ import { CallToAction } from 'components/CallToAction' import Editor from
 
 [`src/pages/code/open.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/code/open.tsx) · code · 1980 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

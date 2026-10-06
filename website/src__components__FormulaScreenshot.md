@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `FormulaScreenshot`.
 
 [`src/components/FormulaScreenshot/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/FormulaScreenshot/index.js) · code · 424 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

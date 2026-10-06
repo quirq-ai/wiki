@@ -53,4 +53,4 @@ quirqConfig } from 'lib/quirqApps' Notable exports: `LanguageAlternate`, `SEO`,
 
 [`src/components/seo.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/seo.tsx) · code · 6487 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

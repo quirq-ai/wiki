@@ -28,4 +28,4 @@ Vtt file `innernet-explainer.vtt`. WEBVTT.
 
 [`app/innernet/public/guide/innernet-explainer.vtt`](https://github.com/quirq-ai/euler/blob/main/app/innernet/public/guide/innernet-explainer.vtt) · code · 4085 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

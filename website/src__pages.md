@@ -171,7 +171,7 @@ import WindowTabs from 'components/WindowTabs' import { Fieldset } from
 'components/RadixUI/ToggleGroup' import { Popover } from 'components/RadixUI/Popover' import
 ScrollArea from 'components/RadixUI/S Notable exports: `DisplayOptions`.
 
-[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 15218 bytes
+[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 13540 bytes
 
 ### dpa.tsx
 
@@ -566,4 +566,4 @@ import React from 'react' import SEO from 'components/seo' import WhyPostHogView
 
 [`src/pages/workflow.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/workflow.tsx) · code · 4565 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -13,4 +13,4 @@ import React from 'react' import usePostHog from '../../hooks/usePostHog' import
 
 [`src/components/Screenshot/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Screenshot/index.tsx) · code · 19607 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

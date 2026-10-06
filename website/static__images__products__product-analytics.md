@@ -126,4 +126,4 @@ blobs.
 
 [`static/images/products/product-analytics/screenshot-trend-sparkline.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/product-analytics/screenshot-trend-sparkline.png) · binary · 72292 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

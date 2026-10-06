@@ -43,4 +43,4 @@ exports: `MotionLab`. Wired into a Next.js app (App Router or Next APIs).
 
 [`app/instants/components/motion/motion-lab.tsx`](https://github.com/quirq-ai/euler/blob/main/app/instants/components/motion/motion-lab.tsx) · code · 25254 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

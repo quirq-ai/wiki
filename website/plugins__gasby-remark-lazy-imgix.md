@@ -18,4 +18,4 @@ npm package manifest for `gatsby-remark-lazy-imgix` v0.1.0. Entry `index.js`.
 
 [`plugins/gasby-remark-lazy-imgix/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gasby-remark-lazy-imgix/package.json) · code · 91 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

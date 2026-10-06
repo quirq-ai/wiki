@@ -45,4 +45,4 @@ generated blobs.
 
 [`src/components/Pricing/images/vacation-hog.png`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/images/vacation-hog.png) · binary · 218514 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

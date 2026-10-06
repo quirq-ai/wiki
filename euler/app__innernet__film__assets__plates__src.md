@@ -100,4 +100,4 @@ knowledge panel. The whole apparatus sits inside one boundary: the machine it ru
 
 [`app/innernet/film/assets/plates/src/search.mjs`](https://github.com/quirq-ai/euler/blob/main/app/innernet/film/assets/plates/src/search.mjs) · code · 23444 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

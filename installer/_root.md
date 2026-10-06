@@ -70,4 +70,4 @@ requirements-ci.txt.
 
 [`requirements-ci.txt`](https://github.com/quirq-ai/installer/blob/main/requirements-ci.txt) · code · 18767 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

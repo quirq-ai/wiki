@@ -7,7 +7,7 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - GitHub: [https://github.com/quirq-ai/gate](https://github.com/quirq-ai/gate)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-05T08:00:22Z`
+- Last push: `2026-10-05T16:37:38Z`
 - Snapshot SHA: `c3721365186a`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -28,4 +28,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
 | `timing` | 1 | [timing.md](timing.md) |
 
-_Generated 2026-10-05 12:48 UTC._
+_Generated 2026-10-06 12:17 UTC._

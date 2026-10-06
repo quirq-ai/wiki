@@ -14,4 +14,4 @@ blobs.
 
 [`static/images/deskhog/origami-hog.pdf`](https://github.com/quirq-ai/website/blob/main/static/images/deskhog/origami-hog.pdf) · binary · 2182879 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

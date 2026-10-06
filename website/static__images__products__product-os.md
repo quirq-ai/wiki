@@ -54,4 +54,4 @@ generated blobs.
 
 [`static/images/products/product-os/sql-hog.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/product-os/sql-hog.png) · binary · 107314 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

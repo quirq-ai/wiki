@@ -46,4 +46,4 @@ generated blobs.
 
 [`static/fonts/squeak-bold-webfont.woff2`](https://github.com/quirq-ai/website/blob/main/static/fonts/squeak-bold-webfont.woff2) · binary · 54860 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

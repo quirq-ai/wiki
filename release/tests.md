@@ -52,7 +52,7 @@ Python module `test_cli.py`. Functions: `git`,
 Python module `test_codeowners.py`. Functions:
 `test_codeowners_names_suraj_for_exactly_the_trust_paths`. Contains tests.
 
-[`tests/test_codeowners.py`](https://github.com/quirq-ai/release/blob/main/tests/test_codeowners.py) · code · 812 bytes
+[`tests/test_codeowners.py`](https://github.com/quirq-ai/release/blob/main/tests/test_codeowners.py) · code · 1020 bytes
 
 ### test_config.py
 
@@ -66,7 +66,7 @@ Python module `test_config.py`. Functions: `test_lkgr_ref_comes_from_channels_to
 
 Python module `test_executor.py`. Classes: `Spy`, `Skip`.
 
-[`tests/test_executor.py`](https://github.com/quirq-ai/release/blob/main/tests/test_executor.py) · code · 17525 bytes
+[`tests/test_executor.py`](https://github.com/quirq-ai/release/blob/main/tests/test_executor.py) · code · 18697 bytes
 
 ### test_github_backend.py
 
@@ -89,6 +89,22 @@ Python module `test_package.py`. Functions: `test_version`. Contains tests.
 
 [`tests/test_package.py`](https://github.com/quirq-ai/release/blob/main/tests/test_package.py) · code · 72 bytes
 
+### test_push_credential.py
+
+The executor action's release-state push credential (push-credential.sh and its check), run
+against the git layout actions/checkout v7.0.1 leaves: a credentials file under $RUNNER_TEMP
+that .git/config includes through includeIf.gitdir for the repository and for every linked
+worktree.
+
+[`tests/test_push_credential.py`](https://github.com/quirq-ai/release/blob/main/tests/test_push_credential.py) · code · 9419 bytes
+
+### test_workflows.py
+
+Lint for the executor action: how a writer job gets its release-state push credential, and
+what runs before and while it holds it.
+
+[`tests/test_workflows.py`](https://github.com/quirq-ai/release/blob/main/tests/test_workflows.py) · code · 9634 bytes
+
 ### timeline.py
 
 Builds main histories and post-submit runs for tests: one letter per commit and builder.
@@ -96,4 +112,4 @@ Functions: `sha`, `history`, `runs_for`.
 
 [`tests/timeline.py`](https://github.com/quirq-ai/release/blob/main/tests/timeline.py) · code · 2271 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

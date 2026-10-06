@@ -55,4 +55,4 @@ executable source.
 
 [`src/components/Careers/InterviewProcess/images/technical.svg`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/InterviewProcess/images/technical.svg) · code · 2407 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

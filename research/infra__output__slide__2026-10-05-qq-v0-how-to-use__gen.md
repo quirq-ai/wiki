@@ -22,4 +22,4 @@ slide per page Fonts: Inter, Poppins and JetBrains Mono from Google Fonts.
 
 [`infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/render.js`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/render.js) · code · 3392 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

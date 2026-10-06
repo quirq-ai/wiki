@@ -145,4 +145,4 @@ executable source.
 
 [`static/images/investors/yc.svg`](https://github.com/quirq-ai/website/blob/main/static/images/investors/yc.svg) · code · 552 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

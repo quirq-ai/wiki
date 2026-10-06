@@ -82,6 +82,6 @@ report"). Functions: `title`, `build`, `write`.
 The release state store: the record of every pointer and every operation. Classes: `Store`.
 Functions: `_check_name`, `_read_json`.
 
-[`src/qqrelease/store.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/store.py) · code · 6723 bytes
+[`src/qqrelease/store.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/store.py) · code · 7068 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

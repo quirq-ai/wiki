@@ -18,7 +18,7 @@ Backends: where a pointer's git ref lives, picked by the backend field in infra-
 GitHub backend: a pointer's ref is the branch refs/heads/ in the target repo, moved through
 the REST API. Classes: `Mirror`. Functions: `_quote`.
 
-[`src/qqrelease/backends/github.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/backends/github.py) · code · 3987 bytes
+[`src/qqrelease/backends/github.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/backends/github.py) · code · 4096 bytes
 
 ### local.py
 
@@ -26,4 +26,4 @@ Target repos as local git directories: /. Classes: `Mirror`.
 
 [`src/qqrelease/backends/local.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/backends/local.py) · code · 1990 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

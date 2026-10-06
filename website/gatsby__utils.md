@@ -20,4 +20,4 @@ import path from 'path' import fs from 'fs' Notable exports: `fetchScoutSkills`,
 
 [`gatsby/utils/fetchScoutSkills.ts`](https://github.com/quirq-ai/website/blob/main/gatsby/utils/fetchScoutSkills.ts) · code · 3924 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

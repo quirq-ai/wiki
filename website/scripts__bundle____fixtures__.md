@@ -13,4 +13,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`scripts/bundle/__fixtures__/sample-graph.json`](https://github.com/quirq-ai/website/blob/main/scripts/bundle/__fixtures__/sample-graph.json) · code · 1007 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

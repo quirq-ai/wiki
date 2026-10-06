@@ -83,4 +83,4 @@ Contains tests.
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_verdict.py) · code · 1519 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:17 UTC from `main`._

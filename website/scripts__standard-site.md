@@ -15,4 +15,4 @@ records owned on PostHog's own PDS, under the posthog.com identity.
 
 [`scripts/standard-site/README.md`](https://github.com/quirq-ai/website/blob/main/scripts/standard-site/README.md) · code · 4648 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

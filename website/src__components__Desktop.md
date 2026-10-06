@@ -15,11 +15,12 @@ import ZoomHover from 'components/ZoomHover' Notable exports: `DesktopIcon`.
 
 ### Wallpapers.tsx
 
-import React from 'react' import CloudinaryImage from 'components/CloudinaryImage' Notable
-exports: `Wallpapers`, `WallpaperGlow`, `WALLPAPER_GLOW`, `DEFAULT_WALLPAPER_GLOW`,
-`getWallpaperGlow`.
+import React from 'react' /** * Wallpapers * Renders every desktop scene; visibility is
+driven by body[data-wallpaper], * set from localStorage in theme-init.js before React
+hydrates (and kept in sync * by App.tsx). That way the saved wallpaper paints on first frame
+— no flash of * the default scene.
 
-[`src/components/Desktop/Wallpapers.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/Wallpapers.tsx) · code · 7594 bytes
+[`src/components/Desktop/Wallpapers.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/Wallpapers.tsx) · code · 2631 bytes
 
 ### index.tsx
 
@@ -29,6 +30,6 @@ from 'components/QuirqAppIcon' import { getQuirqApps } from 'lib/quirqApps' impo
 } from 'components/OSIcons/AppIcon' import ContextMenu from 'components/RadixUI/Co Notable
 exports: `useProductLinks`, `apps`.
 
-[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 12504 bytes
+[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 12333 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

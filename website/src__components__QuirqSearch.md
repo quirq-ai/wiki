@@ -8,7 +8,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“Quirq search”). SearchOverlay replaces global PostHog search in the
+The project README (“quirq search”). SearchOverlay replaces global PostHog search in the
 desktop wrapper. It consumes the same getQuirqApps() catalog as Home base, the desktop
 icons, and the taskbar. The index contains visible organization repositories plus Home base
 and Display options. Hidden, archived, and excluded repositories never enter it.
@@ -25,4 +25,4 @@ useAppUIState } from '../../context/App' import { getQuirqApps, quirqConfig } fr
 
 [`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 6760 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

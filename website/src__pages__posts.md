@@ -15,4 +15,4 @@ import React, { useEffect, useState } from 'react' import NewPost from
 
 [`src/pages/posts/new.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/posts/new.tsx) · code · 1031 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

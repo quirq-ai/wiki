@@ -19,4 +19,4 @@ coordinates from Mapbox according to a Squeak source. Entry `gatsby-node.js`.
 
 [`plugins/gatsby-mapbox-locations/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-mapbox-locations/package.json) · code · 272 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

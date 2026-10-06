@@ -14,4 +14,4 @@ generated blobs.
 
 [`static/images/products/support/ticket-sidebar.png`](https://github.com/quirq-ai/website/blob/main/static/images/products/support/ticket-sidebar.png) · binary · 161646 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

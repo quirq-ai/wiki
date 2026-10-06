@@ -24,6 +24,6 @@ window.__onThemeChange(newTheme) } var preferredTheme var darkQuery =
 window.matchMedia('(prefers-color-scheme: dark)') darkQuery.addListener(function (e) { if
 (!localStorage.getItem('them.
 
-[`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 1923 bytes
+[`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 2036 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._

@@ -16,4 +16,4 @@ import usePostHog from 'hooks/usePostHog' import { Avatar as DefaultAvatar } fro
 
 [`src/pages/community/profile/edit.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/community/profile/edit.tsx) · code · 28412 bytes
 
-_Generated 2026-10-05 12:48 UTC from `main`._
+_Generated 2026-10-06 12:18 UTC from `main`._
