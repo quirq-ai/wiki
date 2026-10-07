@@ -1,0 +1,76 @@
+diff --git a/.github/PULL_REQUEST_TEMPLATE.md b/.github/PULL_REQUEST_TEMPLATE.md
+index 69be42f..f45e513 100644
+--- a/.github/PULL_REQUEST_TEMPLATE.md
++++ b/.github/PULL_REQUEST_TEMPLATE.md
+@@ -10,4 +10,4 @@
+ 
+ <!-- Include visual evidence when useful, plus any compatibility concerns, follow-up work, or documentation changes. Remove this section if it does not apply. -->
+ 
+-<!-- Follow this repository's contribution guide and target branch. XO Space changes target development; .github changes target main. Never include secrets or private data. -->
++<!-- Follow this repository's contribution guide and target branch. XO Space and .github changes target main (XO Space's `development` is a maintainers' staging branch). Never include secrets or private data. -->
+diff --git a/CONTRIBUTING.md b/CONTRIBUTING.md
+index 5238a52..10aef83 100644
+--- a/CONTRIBUTING.md
++++ b/CONTRIBUTING.md
+@@ -20,7 +20,7 @@ Search existing issues and pull requests before starting. Small fixes can go str
+ 3. Run the relevant checks. For documentation, verify links and rendered formatting; for code, exercise the affected behavior and follow the repository's test requirements.
+ 4. Open a pull request with the reason for the change, a related issue if there is one, and what you verified. Call out anything you could not check. Include screenshots when they help explain a visual change.
+ 
+-**XO Space:** branch from and target `development`; `main` is the release branch. Follow its [contribution guide](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) for setup and required checks.
++**XO Space:** branch from and target `main`; `development` is the maintainers' staging branch, so do not target it. Follow its [contribution guide](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) for setup and required checks.
+ 
+ **This `.github` repository:** target `main`. Profile, routing, and community-file changes should keep public links accurate and inherited guidance useful across repositories.
+ 
+diff --git a/README.md b/README.md
+index 608aa76..0402b70 100644
+--- a/README.md
++++ b/README.md
+@@ -2,7 +2,7 @@
+ 
+ The public organization profile and shared community guidelines for [quirq-ai](https://github.com/quirq-ai).
+ 
+-**Looking for the product?** [Run XO Space locally](https://github.com/quirq-ai/xo-space#quick-start), [open the hosted app](https://app.xo.builders/), or [read the documentation](https://docs.xo.builders/).
++**Looking for the product?** [Run XO Space locally](https://github.com/quirq-ai/xo-space#quick-start), [open the hosted app](https://app.xo.builders/), or [read the documentation](https://docs.quirq.dev/).
+ 
+ ## What lives here
+ 
+@@ -36,4 +36,4 @@ python3 -m venv .venv
+ 
+ The check validates local Markdown links, profile assets and GitHub configuration. Public destination checks and visual review are separate: follow the [maintenance checklist](docs/maintaining.md#before-merging).
+ 
+-Open pull requests against **main**. Changes become the organization profile and eligible repository defaults when merged. XO Space has its own [contribution workflow](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md), including a different target branch.
++Open pull requests against **main**. Changes become the organization profile and eligible repository defaults when merged. XO Space has its own [contribution workflow](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md).
+diff --git a/SUPPORT.md b/SUPPORT.md
+index 4052b51..d45a6b7 100644
+--- a/SUPPORT.md
++++ b/SUPPORT.md
+@@ -1,6 +1,6 @@
+ # Get help with quirq
+ 
+-Start with the repository's README and [XO Space documentation](https://docs.xo.builders/). A repository's own support instructions take precedence over this shared guide.
++Start with the repository's README and [XO Space documentation](https://docs.quirq.dev/). A repository's own support instructions take precedence over this shared guide.
+ 
+ | You need help with | Where to go |
+ | --- | --- |
+diff --git a/profile/README.md b/profile/README.md
+index fd2bfed..bf5f472 100644
+--- a/profile/README.md
++++ b/profile/README.md
+@@ -8,7 +8,7 @@
+ <p align="center">
+   <a href="https://app.xo.builders/"><strong>Open the cloud app ↗</strong></a> ·
+   <a href="https://github.com/quirq-ai/xo-space#quick-start"><strong>Run Space locally</strong></a> ·
+-  <a href="https://docs.xo.builders/">Documentation</a> ·
++  <a href="https://docs.quirq.dev/">Documentation</a> ·
+   <a href="https://www.quirq.ai/">Website</a>
+ </p>
+ 
+@@ -35,7 +35,7 @@ Agent work spans repositories, runtimes and sessions. Quirq brings the environme
+ 
+ Space provides the environment layer; Swarm provides the hosted management route. Hosted access and available applications depend on your account and environment.
+ 
+-Space has execution adapters for **Claude Code, Codex, OpenClaw, Hermes and Antigravity**. Session telemetry currently aggregates **Claude Code, Codex and Cursor**, with available data varying by runtime. See the [supported agents](https://github.com/quirq-ai/xo-space#supported-agents) for setup details.
++Space has execution adapters for **Claude Code, Codex, OpenClaw, Hermes and Antigravity**, and partial support for **Grok Bot**. Session telemetry currently aggregates **Claude Code, Codex and Cursor**, with available data varying by runtime. See the [supported agents](https://github.com/quirq-ai/xo-space#supported-agents) for setup details.
+ 
+ ### Try Space on your machine
+ 
