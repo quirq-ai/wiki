@@ -20,6 +20,6 @@ Classes: `_NoRedirect`. Functions: `generated_workflow`, `generated_jobs`, `work
 `check_workflows`, `required_checks_rule`, `rulesets`, `org_ruleset`, `plan_org`, and 8
 more.
 
-[`src/qqgate/backends/github.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/backends/github.py) · code · 28165 bytes
+[`src/qqgate/backends/github.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/backends/github.py) · code · 28490 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

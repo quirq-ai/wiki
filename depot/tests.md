@@ -64,6 +64,16 @@ tests.
 
 [`tests/test_pin.py`](https://github.com/quirq-ai/depot/blob/main/tests/test_pin.py) · code · 8318 bytes
 
+### test_run.py
+
+qq run, qq create and qq NAME: commands run from the repo root with the repo's pinned
+toolchains. Functions: `toolchain`, `qq`, `repo`, `pin_hello`,
+`test_command_line_runs_from_repo_root_with_exit_code`,
+`test_several_words_run_without_a_shell`, `test_double_dash_and_options_after_the_command`,
+`test_missing_program_is_127`, and 42 more. Contains tests.
+
+[`tests/test_run.py`](https://github.com/quirq-ai/depot/blob/main/tests/test_run.py) · code · 19064 bytes
+
 ### test_sync.py
 
 V0-DEP-02: qq sync and qq fetch get a repo's pinned toolchains and dependencies. Classes:
@@ -73,4 +83,4 @@ V0-DEP-02: qq sync and qq fetch get a repo's pinned toolchains and dependencies.
 
 [`tests/test_sync.py`](https://github.com/quirq-ai/depot/blob/main/tests/test_sync.py) · code · 19260 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

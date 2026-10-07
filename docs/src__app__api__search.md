@@ -13,4 +13,4 @@ multi-source search API is confirmed.
 
 [`src/app/api/search/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/api/search/route.ts) · code · 311 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

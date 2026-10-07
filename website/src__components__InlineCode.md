@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `InlineCode`.
 
 [`src/components/InlineCode/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/InlineCode/index.js) · code · 244 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

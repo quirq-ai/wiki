@@ -47,7 +47,7 @@ JUnit XML in, normalized Results out: the result sink (plan §5.2, like ResultSi
 ResultDB). Classes: `JUnitError`. Functions: `exception_class`, `informative_type`, `parse`,
 `parse_file`.
 
-[`src/qqresults/junit.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/junit.py) · code · 14260 bytes
+[`src/qqresults/junit.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/junit.py) · code · 14455 bytes
 
 ### model.py
 
@@ -101,4 +101,4 @@ Verdicts, computed mechanically from Results (plan §5.4). Functions: `by_test`,
 
 [`src/qqresults/verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/verdict.py) · code · 1957 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

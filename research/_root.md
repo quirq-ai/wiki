@@ -19,7 +19,7 @@ these patterns are not in the clone the wiki summarizes.
 The agent/workspace instructions (“Agent guide”). This file tells an agent how to create and
 work a research topic in this repository. Read it in full before changing anything.
 
-[`AGENTS.md`](https://github.com/quirq-ai/research/blob/main/AGENTS.md) · code · 5353 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/research/blob/main/AGENTS.md) · code · 5648 bytes
 
 ### LICENSE
 
@@ -33,22 +33,22 @@ redistribution.
 
 The project README (“research”). Verified, shareable research outcomes from quirq.
 
-[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 6637 bytes
+[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 7646 bytes
 
 ### package-lock.json
 
-Package-manager lockfile (package-lock.json, 136.3 KB). It pins the exact dependency tree
+Package-manager lockfile (package-lock.json, 137.7 KB). It pins the exact dependency tree
 for reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`package-lock.json`](https://github.com/quirq-ai/research/blob/main/package-lock.json) · lockfile · 139544 bytes
+[`package-lock.json`](https://github.com/quirq-ai/research/blob/main/package-lock.json) · lockfile · 141002 bytes
 
 ### package.json
 
-npm package manifest for `research`. Scripts: `check`, `build`, `dev`.
+npm package manifest for `research`. Scripts: `check`, `topics`, `build`, `dev`.
 
-[`package.json`](https://github.com/quirq-ai/research/blob/main/package.json) · code · 442 bytes
+[`package.json`](https://github.com/quirq-ai/research/blob/main/package.json) · code · 489 bytes
 
 ### turbo.json
 
@@ -65,4 +65,4 @@ consumed by the surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/research/blob/main/vercel.json) · code · 197 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -57,4 +57,4 @@ progress fails fluently, and keeps going.
 
 [`content/research/perspectives/the-moving-harness-needs-a-still-judge.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/perspectives/the-moving-harness-needs-a-still-judge.mdx) · code · 41509 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

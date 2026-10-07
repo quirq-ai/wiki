@@ -41,4 +41,4 @@ data consumed by the surrounding app or tooling.
 
 [`src/presentations/product-managers.json`](https://github.com/quirq-ai/website/blob/main/src/presentations/product-managers.json) · code · 3833 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

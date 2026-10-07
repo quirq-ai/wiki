@@ -21,4 +21,4 @@ import PostCard from './PostCard' Notable exports: `PostCard`.
 
 [`src/components/PostCard/index.ts`](https://github.com/quirq-ai/website/blob/main/src/components/PostCard/index.ts) · code · 79 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

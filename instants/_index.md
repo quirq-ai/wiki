@@ -2,13 +2,13 @@
 
 # instants
 
-Work that needs a reply. People you can see.
+Your agent activity, in one place.
 
 - GitHub: [https://github.com/quirq-ai/instants](https://github.com/quirq-ai/instants)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-03T08:10:00Z`
-- Snapshot SHA: `d89db7982fa3`
+- Last push: `2026-10-06T21:10:20Z`
+- Snapshot SHA: `cbeb9f3bb897`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -22,7 +22,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `app/api` | 0 | [app__api.md](app__api.md) |
 | `app/api/session` | 1 | [app__api__session.md](app__api__session.md) |
 | `app/motion` | 1 | [app__motion.md](app__motion.md) |
-| `components` | 1 | [components.md](components.md) |
+| `components` | 2 | [components.md](components.md) |
 | `components/collaboration` | 2 | [components__collaboration.md](components__collaboration.md) |
 | `components/instagram` | 7 | [components__instagram.md](components__instagram.md) |
 | `components/motion` | 4 | [components__motion.md](components__motion.md) |
@@ -30,11 +30,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `config` | 2 | [config.md](config.md) |
 | `data` | 1 | [data.md](data.md) |
 | `db` | 2 | [db.md](db.md) |
-| `docs` | 4 | [docs.md](docs.md) |
-| `docs/media` | 4 | [docs__media.md](docs__media.md) |
+| `docs` | 5 | [docs.md](docs.md) |
+| `docs/media` | 5 | [docs__media.md](docs__media.md) |
 | `drizzle` | 0 | [drizzle.md](drizzle.md) |
 | `drizzle/meta` | 1 | [drizzle__meta.md](drizzle__meta.md) |
-| `engine` | 8 | [engine.md](engine.md) |
+| `engine` | 18 | [engine.md](engine.md) |
 | `examples` | 0 | [examples.md](examples.md) |
 | `examples/d1` | 0 | [examples__d1.md](examples__d1.md) |
 | `examples/d1/app` | 0 | [examples__d1__app.md](examples__d1__app.md) |
@@ -48,8 +48,8 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 11 | [scripts.md](scripts.md) |
 | `scripts/connector-preview` | 3 | [scripts__connector-preview.md](scripts__connector-preview.md) |
 | `session` | 1 | [session.md](session.md) |
-| `tests` | 3 | [tests.md](tests.md) |
+| `tests` | 9 | [tests.md](tests.md) |
 | `tests/e2e` | 1 | [tests__e2e.md](tests__e2e.md) |
 | `vendor` | 2 | [vendor.md](vendor.md) |
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

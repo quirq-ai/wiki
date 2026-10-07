@@ -191,6 +191,14 @@ dayjs from 'dayjs' import relativeTime from 'dayjs/plugin/relativeTime' import L
 
 [`src/templates/PostListing.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/PostListing.tsx) · code · 20209 bytes
 
+### QuirqInfraV0.tsx
+
+import React from 'react' import SEO from 'components/seo' import QuirqInfraV0 from
+'components/QuirqInfraV0' import type { QuirqApp } from 'lib/quirqApps' Notable exports:
+`QuirqInfraV0Page`.
+
+[`src/templates/QuirqInfraV0.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/QuirqInfraV0.tsx) · code · 559 bytes
+
 ### Team.tsx
 
 import Layout from 'components/Layout' import { graphql } from 'gatsby' import React from
@@ -227,4 +235,4 @@ import React from 'react' import SEO from 'components/seo' import RepositoryApp 
 
 [`src/templates/quirq-app.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/quirq-app.tsx) · code · 478 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

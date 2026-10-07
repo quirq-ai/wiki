@@ -36,7 +36,7 @@ The project README (“test-pipelines”). Part of quirq infra ("qq"), quirq-ai'
 for repos in any language. This repo turns test output into stored results and mechanical
 verdicts.
 
-[`README.md`](https://github.com/quirq-ai/test-pipelines/blob/main/README.md) · code · 35158 bytes
+[`README.md`](https://github.com/quirq-ai/test-pipelines/blob/main/README.md) · code · 35156 bytes
 
 ### pins.toml
 
@@ -53,4 +53,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/test-pipelines/blob/main/pyproject.toml) · code · 560 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

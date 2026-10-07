@@ -76,7 +76,7 @@ JSON document `org.schema.json` whose top-level keys are `$schema`, `$id`, `titl
 `additionalProperties`, `required`, `properties`. Structured data consumed by the
 surrounding app or tooling.
 
-[`schema/org.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/org.schema.json) · code · 3608 bytes
+[`schema/org.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/org.schema.json) · code · 3788 bytes
 
 ### perf.schema.json
 
@@ -92,7 +92,7 @@ JSON document `pipelines.schema.json` whose top-level keys are `$schema`, `$id`,
 `type`, `additionalProperties`, `required`, `properties`. Structured data consumed by the
 surrounding app or tooling.
 
-[`schema/pipelines.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/pipelines.schema.json) · code · 2608 bytes
+[`schema/pipelines.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/pipelines.schema.json) · code · 2780 bytes
 
 ### postmortem.schema.json
 
@@ -108,7 +108,7 @@ JSON document `repos.schema.json` whose top-level keys are `$schema`, `$id`, `ti
 `type`, `additionalProperties`, `required`, `properties`. Structured data consumed by the
 surrounding app or tooling.
 
-[`schema/repos.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/repos.schema.json) · code · 2536 bytes
+[`schema/repos.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/repos.schema.json) · code · 2577 bytes
 
 ### rollers.schema.json
 
@@ -118,4 +118,4 @@ surrounding app or tooling.
 
 [`schema/rollers.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/rollers.schema.json) · code · 1385 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

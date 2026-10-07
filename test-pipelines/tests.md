@@ -54,10 +54,10 @@ Contains tests.
 Python module `test_junit.py`. Functions: `parse`, `test_pytest_report_is_normalized`,
 `test_runner_dialects`, `test_vitest_failure_keeps_message`,
 `test_nested_suites_and_missing_classname`, `test_bad_reports_fail_loudly`,
-`test_entity_bomb_is_refused`, `test_long_messages_are_truncated`, and 11 more. Contains
+`test_entity_bomb_is_refused`, `test_long_messages_are_truncated`, and 13 more. Contains
 tests.
 
-[`tests/test_junit.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_junit.py) · code · 12799 bytes
+[`tests/test_junit.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_junit.py) · code · 14013 bytes
 
 ### test_retry.py
 
@@ -97,4 +97,4 @@ Python module `test_verdict.py`. Functions: `res`, `test_all_pass_passes`,
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_verdict.py) · code · 1328 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -34,4 +34,4 @@ MDX page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/templates/quickstart.mdx`](https://github.com/quirq-ai/docs/blob/main/content/templates/quickstart.mdx) · code · 5012 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

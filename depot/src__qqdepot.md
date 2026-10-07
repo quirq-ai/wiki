@@ -23,9 +23,9 @@ installed. Runnable as a script via `if __name__ == '__main__'`. Functions: `qq_
 ### cli.py
 
 qq: the quirq infra command line. Runnable as a script via `if __name__ == '__main__'`.
-Functions: `build_parser`, `main`.
+Functions: `build_parser`, `repo_epilog`, `main`.
 
-[`src/qqdepot/cli.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/cli.py) · code · 1830 bytes
+[`src/qqdepot/cli.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/cli.py) · code · 3542 bytes
 
 ### gate.py
 
@@ -58,4 +58,4 @@ script via `if __name__ == '__main__'`. Classes: `Watch`. Functions: `run_id`,
 
 [`src/qqdepot/watch.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/watch.py) · code · 9686 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

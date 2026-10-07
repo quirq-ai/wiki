@@ -8,13 +8,13 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### app.tsx
 
-import { Search, Compass, Clapperboard, Send, Heart, SquarePlus, Menu, Zap, Moon, Sun,
-ChevronRight, Download, Bookmark, Check, } from "lucide-react"; import { DropdownMenu,
-DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, } from
-"@/components/ui/dropdown-menu"; import { HomeIcon, Avatar, Wordmark, PoweredBy, Verified,
-mock, Post, } from "./shared Notable exports: `InstantsApp`.
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, } from "react"; import {
+Search, Compass, Clapperboard, Send, Heart, SquarePlus, Menu, Zap, Moon, Sun, ChevronRight,
+Download, Upload, RefreshCw, Bookmark, Check, } from "lucide-react"; import { DropdownMenu,
+DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, } from "@/components/ui Notable
+exports: `InstantsApp`. Marked `'use client'` so it runs in the browser.
 
-[`components/instagram/app.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/app.tsx) · code · 25979 bytes
+[`components/instagram/app.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/app.tsx) · code · 35632 bytes
 
 ### instant-response.tsx
 
@@ -34,7 +34,7 @@ import { Dialog, DialogContent, DialogTitle, DialogDescription, } from
 onOpenQueue, }: { panel: string | null; onClose: () => void; onProfile: (id: string) =>
 void; attention Notable exports: `SidePanel`, `PostDialog`, `CreateDialog`, `ShareDialog`.
 
-[`components/instagram/overlays.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/overlays.tsx) · code · 16235 bytes
+[`components/instagram/overlays.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/overlays.tsx) · code · 18271 bytes
 
 ### post-card.tsx
 
@@ -44,17 +44,17 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 onLike, onSave, onComment, onShare, onProfile, response, expiresAt, onRespond, }: { post
 Notable exports: `PostCard`. Marked `'use client'` so it runs in the browser.
 
-[`components/instagram/post-card.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/post-card.tsx) · code · 7073 bytes
+[`components/instagram/post-card.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/post-card.tsx) · code · 8364 bytes
 
 ### shared.tsx
 
-export { mock, getUser, getCompany } from "@/lib/data"; export type { User, Instant, Post }
-from "@/lib/data"; export function Photo({ src, alt, className = "", eager = false, }: {
-src: string; alt: string; className?: string; eager?: boolean; }) { const [failedSrc,
-setFailedSrc] = useState(null); const image = useRef(null); useEffect(() => { A cached
-failur Notable exports: `Photo`, `Avatar`, `Verified`, `Wordmark`, `PoweredBy`, `HomeIcon`
+export type { User, Instant, Post } from "@/lib/data"; export function Photo({ src, alt,
+className = "", eager = false, }: { src: string; alt: string; className?: string; eager?:
+boolean; }) { const [failedSrc, setFailedSrc] = useState(null); const image = useRef(null);
+useEffect(() => { A cached failure can precede hydration, before React attaches onError.
+Notable exports: `Photo`, `Avatar`, `Verified`, `Wordmark`, `PoweredBy`, `HomeIcon`.
 
-[`components/instagram/shared.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/shared.tsx) · code · 2678 bytes
+[`components/instagram/shared.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/shared.tsx) · code · 2896 bytes
 
 ### use-theme-tool.ts
 
@@ -74,6 +74,6 @@ react"; import { Dialog, DialogContent, DialogTitle, DialogDescription, } from
 "@/components/ui/dialog"; export function ExploreView({ onOpen, onSearch, }: { onOpen:
 (post: Post) => void; onS Notable exports: `ExploreView`, `ProfileView`, `MessagesView`
 
-[`components/instagram/views.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/views.tsx) · code · 20259 bytes
+[`components/instagram/views.tsx`](https://github.com/quirq-ai/instants/blob/main/components/instagram/views.tsx) · code · 22400 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

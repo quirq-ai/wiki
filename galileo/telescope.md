@@ -50,4 +50,4 @@ and 29 more. Defines or consumes CSS custom properties (design tokens).
 
 [`telescope/telescope.js`](https://github.com/quirq-ai/galileo/blob/main/telescope/telescope.js) · code · 20207 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

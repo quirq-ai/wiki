@@ -8,22 +8,21 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“Home base”). The organization app launcher, inside the existing
-Explorer and desktop window system. All entries come from getQuirqApps() in
-src/lib/quirqApps.ts. Change quirq.apps.json to map a repository to an icon, a category, a
-URL, a presentation, or a custom component. Run pnpm apps:sync to refresh the committed
-GitHub snapshot.
+The project README (“Home base”). The Home window at /, laid out after
+[Euler](https://github.com/quirq-ai/euler)'s Home, inside the existing Explorer and desktop
+window system. It opens on a first visit to /, and the dock's Home icon opens it or brings
+it forward. Closing it reveals the desktop and its icons.
 
-[`src/components/HomeBase/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/README.md) · code · 716 bytes
+[`src/components/HomeBase/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/README.md) · code · 1717 bytes
 
 ### index.tsx
 
-import React, { useMemo, useState } from 'react' import Explorer from 'components/Explorer'
-import Link from 'components/Link' import OSButton from 'components/OSButton' import
-QuirqAppIcon from 'components/QuirqAppIcon' import { QuirqWordmark } from
-'components/QuirqBrand' import { getQuirqApps, quirqConfig } from 'lib/quirqApps' Notable
-exports: `HomeBase`.
+import React, { useEffect, useMemo, useRef, useState } from 'react' import Explorer from
+'components/Explorer' import Link from 'components/Link' import OSButton from
+'components/OSButton' import { QuirqAppTile } from 'components/QuirqAppIcon' import {
+QuirqWordmark } from 'components/QuirqBrand' import QuirqAvatar, { AvatarEditor } from
+'components/QuirqAva Notable exports: `HomeBase`.
 
-[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 6275 bytes
+[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 23911 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -455,4 +455,4 @@ in the browser.
 
 [`components/ui/tooltip.tsx`](https://github.com/quirq-ai/instants/blob/main/components/ui/tooltip.tsx) · code · 1830 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

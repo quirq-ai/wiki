@@ -54,14 +54,14 @@ Workspace connectors use their existing local APIs, independently of the XO Nota
 Project management owns one persistent controller. Navigation and catalog Provides a default
 export as the module's public entry.
 
-[`space_ui/js/views/project-manage.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/project-manage.js) · code · 1674 bytes
+[`space_ui/js/views/project-manage.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/project-manage.js) · code · 1689 bytes
 
 ### project-management.js
 
 Project creation and local removal. The server is the authority for every Notable exports:
 `githubBrowserUrl`, `mountProjectManagement`.
 
-[`space_ui/js/views/project-management.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/project-management.js) · code · 32999 bytes
+[`space_ui/js/views/project-management.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/project-management.js) · code · 33378 bytes
 
 ### projects.js
 
@@ -140,7 +140,7 @@ Setup controller. Notable exports: `createSetupViews`.
 not a layout: share once, then commits flow and each side applies. Provides a default export
 as the module's public entry.
 
-[`space_ui/js/views/sharing.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/sharing.js) · code · 37887 bytes
+[`space_ui/js/views/sharing.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/sharing.js) · code · 38063 bytes
 
 ### sharing_data.js
 
@@ -164,4 +164,4 @@ module's public entry.
 
 [`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8250 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

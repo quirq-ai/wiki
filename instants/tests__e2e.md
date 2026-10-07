@@ -8,8 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### instants.spec.ts
 
-UI behavior must not depend on third-party photo or font servers being online.
+import { parseActivityEntry, parseTimelineEntry, parseLogEntries, } from "../../engine/log-
+schema.mjs"; UI behavior must not depend on third-party photo or font servers being online.
+test.beforeEach(async ({ page }) => { await page.route(
+/https:\/\/(images\.unsplash\.com|fonts\.(googleapis|gstatic)\.com)/, (route) =>
+route.abort(), ); }); const dock = (page.
 
-[`tests/e2e/instants.spec.ts`](https://github.com/quirq-ai/instants/blob/main/tests/e2e/instants.spec.ts) · code · 26473 bytes
+[`tests/e2e/instants.spec.ts`](https://github.com/quirq-ai/instants/blob/main/tests/e2e/instants.spec.ts) · code · 38839 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -6,6 +6,14 @@ Source: [docs/media](https://github.com/quirq-ai/instants/tree/main/docs/media) 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### agent-feed.png
+
+Binary PNG asset (111.1 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
+
+[`docs/media/agent-feed.png`](https://github.com/quirq-ai/instants/blob/main/docs/media/agent-feed.png) · binary · 113755 bytes
+
 ### mobile-dark.png
 
 Binary PNG asset (224.0 KB). Left unsummarized; open the file in the source repository if
@@ -38,4 +46,4 @@ generated blobs.
 
 [`docs/media/motion-lab.png`](https://github.com/quirq-ai/instants/blob/main/docs/media/motion-lab.png) · binary · 583715 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -12,6 +12,6 @@ Isolates the `windows` subscription so that opening/closing a window only re-ren
 list, not the whole Wrapper (and therefore not the desktop, taskbar, etc.). Notable exports:
 `Wrapper`.
 
-[`src/components/Wrapper/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Wrapper/index.tsx) · code · 1438 bytes
+[`src/components/Wrapper/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Wrapper/index.tsx) · code · 1698 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

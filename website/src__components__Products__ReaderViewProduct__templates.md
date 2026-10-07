@@ -201,4 +201,4 @@ Instal Notable exports: `templateRegistry`, `Overview`, `Eli5`, `UseCases`, `App
 
 [`src/components/Products/ReaderViewProduct/templates/index.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Products/ReaderViewProduct/templates/index.ts) · code · 2221 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

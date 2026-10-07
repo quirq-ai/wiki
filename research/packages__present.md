@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 npm package manifest for `@research/present` v1.0.0. Default presentation for a topic:
 renders its Markdown into a static site in dist/. CLI bins: `present`.
 
-[`packages/present/package.json`](https://github.com/quirq-ai/research/blob/main/packages/present/package.json) · code · 298 bytes
+[`packages/present/package.json`](https://github.com/quirq-ai/research/blob/main/packages/present/package.json) · code · 326 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -14,4 +14,4 @@ import cntl from 'cntl' import React from 'react' import { Structure } from
 
 [`src/components/Blog/BlogFeaturedImage/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/Blog/BlogFeaturedImage/index.js) · code · 2963 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -35,7 +35,7 @@ surrounding app or tooling.
 
 Unmodified browser captures of a sibling xo-space checkout. All API data.
 
-[`scripts/space-ui-preview/capture.mjs`](https://github.com/quirq-ai/docs/blob/main/scripts/space-ui-preview/capture.mjs) · code · 20459 bytes
+[`scripts/space-ui-preview/capture.mjs`](https://github.com/quirq-ai/docs/blob/main/scripts/space-ui-preview/capture.mjs) · code · 20460 bytes
 
 ### fixtures.py
 
@@ -51,4 +51,4 @@ via `if __name__ == '__main__'`. Classes: `Handler`. Functions: `read_quirq_cont
 
 [`scripts/space-ui-preview/server.py`](https://github.com/quirq-ai/docs/blob/main/scripts/space-ui-preview/server.py) · code · 9332 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

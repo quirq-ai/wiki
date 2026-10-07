@@ -23,6 +23,6 @@ from 'gatsby' import { IconSearch, IconX } from '@posthog/icons' import { useApp
 useAppUIState } from '../../context/App' import { getQuirqApps, quirqConfig } from
 'lib/quirqApps' import Notable exports: `SearchOverlay`.
 
-[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 6760 bytes
+[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7049 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

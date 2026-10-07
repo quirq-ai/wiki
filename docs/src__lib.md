@@ -21,13 +21,13 @@ Router or Next APIs).
 
 ### shared.ts
 
-export const appName = "XO Docs"; export const siteUrl = "https://docs.xo.builders"; export
+export const appName = "XO Docs"; export const siteUrl = "https://docs.quirq.dev"; export
 const docsRoute = "/docs"; export const docsImageRoute = "/og/docs"; export const
 docsContentRoute = "/llms.mdx/docs"; export const researchContentRoute =
 "/llms.mdx/research" Notable exports: `appName`, `siteUrl`, `docsRoute`, `docsImageRoute`,
 `docsContentRoute`, `researchContentRoute`, `gitConfig`.
 
-[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 414 bytes
+[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 412 bytes
 
 ### source.ts
 
@@ -38,4 +38,4 @@ import { docsContentRoute, docsImageRoute, docsRoute, researchContentRoute, } fr
 
 [`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 5788 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

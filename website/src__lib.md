@@ -62,6 +62,26 @@ Notable exports: `getQuirqApps`, `getQuirqApp`, `QuirqApp`, `quirqConfig`, `quir
 
 [`src/lib/quirqApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqApps.ts) · code · 1376 bytes
 
+### quirqAvatar.ts
+
+A small configuration and storage adapter over the vendored Blobatar renderer, modeled on
+Euler's euler-avatar.js. Avatars render locally from a name (the seed); nothing calls a
+service. Notable exports: `normalizeAvatarConfig`, `avatarSvg`, `avatarUri`,
+`loadAvatarConfig`, `saveAvatarConfig`, `useQuirqAvatar`, `AVATAR_STORAGE_KEY`,
+`avatarShapes`, and 7 more.
+
+[`src/lib/quirqAvatar.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAvatar.ts) · code · 6586 bytes
+
+### quirqProjects.ts
+
+import config from '../../quirq.projects.json' import snapshot from '../data/quirq-
+projects.json' import { buildQuirqProjects, DEFAULT_PROJECT_RULE, PHASES, projectRuleText }
+from '../../scripts/lib/quirq-phases.mjs' Notable exports: `getQuirqProjectGroups`,
+`PhaseId`, `Phase`, `QuirqProject`, `QuirqProjectGroup`, `quirqPhases`, `projectsFetchedAt`,
+`starsSource`.
+
+[`src/lib/quirqProjects.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjects.ts) · code · 1667 bytes
+
 ### shopify.ts
 
 import type { CartCreateReponse, CartResponse, CreateCartVariables } from
@@ -89,4 +109,4 @@ LibraryPluginType } from 'types' Notable exports: `classNames`, `getPluginImageS
 
 [`src/lib/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/utils.ts) · code · 4353 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

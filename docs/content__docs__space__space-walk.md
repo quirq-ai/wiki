@@ -130,6 +130,6 @@ Markdown page “Wiki”. Find the right Space guide from a compact in-app topic
 open detailed documentation in a new tab. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/space/space-walk/wiki.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/wiki.mdx) · code · 3114 bytes
+[`content/docs/space/space-walk/wiki.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/wiki.mdx) · code · 3116 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

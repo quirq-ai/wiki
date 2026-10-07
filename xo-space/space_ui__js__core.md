@@ -98,7 +98,7 @@ One explicit full-page refresh for the header and command palette. The Notable e
 Cross-page actions go through the registry. Only a completed, still-current Notable exports:
 `openProjectAdd`, `initProjectActions`, `openProjectActivity`.
 
-[`space_ui/js/core/project-actions.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/core/project-actions.js) · code · 1006 bytes
+[`space_ui/js/core/project-actions.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/core/project-actions.js) · code · 1310 bytes
 
 ### project-issues.js
 
@@ -219,4 +219,4 @@ Workspace-wide rollups, in one request. Notable exports: `workspaceCounts`.
 
 [`space_ui/js/core/workspace.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/core/workspace.js) · code · 2968 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

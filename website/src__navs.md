@@ -20,21 +20,6 @@ Picks the sidebar section a URL belongs to. Notable exports: `getActiveMenuSecti
 
 [`src/navs/activeMenu.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/activeMenu.ts) · code · 1348 bytes
 
-### applicationMetrics.test.ts
-
-The metrics product is called out as "Application metrics" in the docs, not plain "Metrics",
-so it isn't confused with experiment/revenue/usage/dashboard metrics. Automated test file.
-
-[`src/navs/applicationMetrics.test.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/applicationMetrics.test.ts) · code · 1580 bytes
-
-### applicationMetricsPresence.test.ts
-
-Application metrics is a product in open alpha. It should appear wherever the other APM
-signals (logs, traces) appear so people can find it and see that it is in alpha. These tests
-pin the two pieces of that presence: Automated test file.
-
-[`src/navs/applicationMetricsPresence.test.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/applicationMetricsPresence.test.ts) · code · 2826 bytes
-
 ### handbook.json
 
 JSON array `handbook.json` with 1 items; first item keys: `name`, `links`.
@@ -95,4 +80,4 @@ Shared sidebar nav for the "Why PostHog?" page collection. Notable exports:
 
 [`src/navs/whyPostHog.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/whyPostHog.ts) · code · 1200 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

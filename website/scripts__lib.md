@@ -14,4 +14,13 @@ Notable exports: `validateQuirqConfig`, `normalizeAppPath`, `safeWebUrl`,
 
 [`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 11322 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+### quirq-phases.mjs
+
+The project phase ladder: where each quirq repo stands, read from the repo's shape. Shared
+by the projects sync script, its tests and the browser (src/lib/quirqProjects.ts). Notable
+exports: `projectRuleText`, `ungroupedRepositories`, `countPeople`, `isNoteFile`,
+`readSignals`, `computePhase`, `validateProjectsConfig`, `buildQuirqProjects`, and 3 more.
+
+[`scripts/lib/quirq-phases.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-phases.mjs) · code · 10284 bytes
+
+_Generated 2026-10-07 12:09 UTC from `main`._

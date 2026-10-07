@@ -101,7 +101,7 @@ The Claude Code adapter streams text live. Classes: `StreamDeltaTests`. Function
 The marketplace must install a complete, relocatable Codex plugin bundle. Runnable as a
 script via `if __name__ == '__main__'`. Classes: `CodexPluginPackageTests`. Contains tests.
 
-[`tests/test_codex_plugin_package.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_plugin_package.py) · code · 3266 bytes
+[`tests/test_codex_plugin_package.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_plugin_package.py) · code · 4095 bytes
 
 ### test_codex_plugin_runtime.py
 
@@ -109,6 +109,16 @@ Exercise the shipped plugin launcher without network, login or a live server. Ru
 script via `if __name__ == '__main__'`. Classes: `CodexPluginRuntimeTests`. Contains tests.
 
 [`tests/test_codex_plugin_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_plugin_runtime.py) · code · 13369 bytes
+
+### test_codex_remote_control.py
+
+Codex Remote Control service and routes, against fake codex-cli 0.152.x output. Runnable as
+a script via `if __name__ == '__main__'`. Classes: `FakeCli`, `_IsolatedState`,
+`ParseJsonObjectTests`, `CollapseCliErrorTests`, `SmallHelperTests`, `ResolveBinaryTests`,
+`FailureClassificationTests`, `LivePidTests`, and 6 more. Functions: `_result`, `_json`.
+Built with FastAPI. Contains tests.
+
+[`tests/test_codex_remote_control.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_remote_control.py) · code · 25280 bytes
 
 ### test_codex_rollout_messages.py
 
@@ -126,7 +136,7 @@ Python module `test_command_executor.py`. Classes: `CommandSpecTests`, `SafeArgT
 `RunSpecTests`, `SkillCatalogArgvTests`, `OneExecutorTests`. Functions: `run`. Contains
 tests.
 
-[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 30608 bytes
+[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 31785 bytes
 
 ### test_command_sync_lifecycle.py
 
@@ -469,11 +479,11 @@ script via `if __name__ == '__main__'`. Classes: `PluginDiscoveryTests`. Contain
 
 ### test_project_management.py
 
-Project management is local-only and fails closed on uncertain sharing. Runnable as a script
-via `if __name__ == '__main__'`. Classes: `ProjectManagementTests`. Functions: `command`.
-Built with FastAPI. Contains tests.
+Project management is local-only: removal never consults sharing, and it fails closed on
+uncertain local state. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`ProjectManagementTests`. Functions: `command`. Built with FastAPI. Contains tests.
 
-[`tests/test_project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_management.py) · code · 22978 bytes
+[`tests/test_project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_management.py) · code · 21586 bytes
 
 ### test_project_sharing_bff.py
 
@@ -496,6 +506,15 @@ End-to-end project sharing with real git and three workspaces. Classes: `FakeSwa
 `ProjectSharingEndToEndTests`. Functions: `run`, `git`. Contains tests.
 
 [`tests/test_project_sharing_e2e.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_e2e.py) · code · 11718 bytes
+
+### test_project_sharing_git_ops.py
+
+git_ops bounds every git call: a hung network or lock must not stall the relay, and a
+missing credential fails at once instead of waiting on a prompt. Runnable as a script via
+`if __name__ == '__main__'`. Classes: `GitOpsTimeoutTests`. Functions: `result`. Contains
+tests.
+
+[`tests/test_project_sharing_git_ops.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_git_ops.py) · code · 2900 bytes
 
 ### test_project_sharing_identity.py
 
@@ -545,12 +564,36 @@ via `if __name__ == '__main__'`. Classes: `ProjectTreeListingTests`. Contains te
 
 [`tests/test_project_tree_listing.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_tree_listing.py) · code · 3527 bytes
 
+### test_quirq_bridge.py
+
+Runs tests/quirq/check_bridge.cjs: the quirq plugin's Space bridge (plugins/quirq/ui/space-
+bridge.js) in a fake host, without a browser. Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `QuirqBridgeTests`. Contains tests.
+
+[`tests/test_quirq_bridge.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_bridge.py) · code · 816 bytes
+
 ### test_quirq_catalog.py
 
 Python module `test_quirq_catalog.py`. Runnable as a script via `if __name__ == '__main__'`.
 Classes: `QuirqCatalogTests`. Contains tests.
 
 [`tests/test_quirq_catalog.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_catalog.py) · code · 5373 bytes
+
+### test_quirq_plugin_server.py
+
+The quirq plugin's MCP server (plugins/quirq/mcp/server.py): proxy policy, settings,
+mentions, views and a real stdio MCP handshake. Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `BridgeTests`. Functions: `load`, `fake_read_api`. Contains tests.
+
+[`tests/test_quirq_plugin_server.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_plugin_server.py) · code · 17504 bytes
+
+### test_quirq_space_view.py
+
+The quirq plugin's packaging: the committed Space view and the upload ZIP. Runnable as a
+script via `if __name__ == '__main__'`. Classes: `SpaceViewPackagingTests`. Functions:
+`load`. Contains tests.
+
+[`tests/test_quirq_space_view.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_space_view.py) · code · 3329 bytes
 
 ### test_quirq_state_layout.py
 
@@ -998,4 +1041,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

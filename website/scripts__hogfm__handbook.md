@@ -156,4 +156,4 @@ Upload handbook audio files to S3 Functions: `check_s3_available`, `upload_to_s3
 
 [`scripts/hogfm/handbook/s3_uploader.py`](https://github.com/quirq-ai/website/blob/main/scripts/hogfm/handbook/s3_uploader.py) · code · 9697 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

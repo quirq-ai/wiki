@@ -14,7 +14,7 @@ handbook page](/handbook/brand/assets), live from the
 the mark. The page previews and downloads do not depend on static/brand, so they can't drift
 from the library.
 
-[`src/components/BrandLogos/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/BrandLogos/README.md) · code · 2029 bytes
+[`src/components/BrandLogos/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/BrandLogos/README.md) · code · 2010 bytes
 
 ### index.tsx
 
@@ -25,4 +25,4 @@ exports: `BrandLogos`.
 
 [`src/components/BrandLogos/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/BrandLogos/index.tsx) · code · 9785 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -12,4 +12,4 @@ import React from 'react' import usePostHog from 'hooks/usePostHog' Notable expo
 
 [`src/components/IsUS/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/IsUS/index.tsx) · code · 260 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

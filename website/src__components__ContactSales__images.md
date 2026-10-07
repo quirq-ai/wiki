@@ -112,4 +112,4 @@ not executable source.
 
 [`src/components/ContactSales/images/y-combinator_dark.svg`](https://github.com/quirq-ai/website/blob/main/src/components/ContactSales/images/y-combinator_dark.svg) · code · 5098 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

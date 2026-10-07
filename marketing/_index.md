@@ -6,7 +6,7 @@ marketing: campaign copy, launch posts and brand assets
 
 - GitHub: [https://github.com/quirq-ai/marketing](https://github.com/quirq-ai/marketing)
 - Default branch: `main`
-- Last push: `2026-10-05T05:35:50Z`
+- Last push: `2026-10-06T21:33:21Z`
 - Snapshot SHA: `189a217aad79`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -15,4 +15,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 1 | [_root.md](_root.md) |
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

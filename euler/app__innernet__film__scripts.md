@@ -87,4 +87,4 @@ scripts/voice.mjs all lines whose text changed since the last run node scripts/v
 
 [`app/innernet/film/scripts/voice.mjs`](https://github.com/quirq-ai/euler/blob/main/app/innernet/film/scripts/voice.mjs) · code · 3426 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

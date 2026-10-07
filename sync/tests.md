@@ -58,4 +58,4 @@ Contains tests.
 
 [`tests/test_schema.py`](https://github.com/quirq-ai/sync/blob/main/tests/test_schema.py) · code · 7938 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

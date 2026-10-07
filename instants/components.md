@@ -16,4 +16,11 @@ connectorErrorRecovery(error, connectorName, reconnectHref); return ( Notable ex
 
 [`components/connector-error.tsx`](https://github.com/quirq-ai/instants/blob/main/components/connector-error.tsx) · code · 1082 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+### data-provider.tsx
+
+const DataContext = createContext(null) Notable exports: `DataProvider`, `useData`. Marked
+`'use client'` so it runs in the browser.
+
+[`components/data-provider.tsx`](https://github.com/quirq-ai/instants/blob/main/components/data-provider.tsx) · code · 1296 bytes
+
+_Generated 2026-10-07 12:09 UTC from `main`._

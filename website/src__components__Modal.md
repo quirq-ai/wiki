@@ -21,4 +21,4 @@ import { Dialog, Transition } from '@headlessui/react' import React, { Fragment 
 
 [`src/components/Modal/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/Modal/index.js) · code · 898 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

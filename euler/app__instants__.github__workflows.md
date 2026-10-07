@@ -12,4 +12,4 @@ GitHub Actions workflow `ci.yml`. Top-level keys: `name`, `on`, `permissions`, `
 
 [`app/instants/.github/workflows/ci.yml`](https://github.com/quirq-ai/euler/blob/main/app/instants/.github/workflows/ci.yml) · code · 674 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

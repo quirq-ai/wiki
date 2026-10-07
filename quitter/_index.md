@@ -25,4 +25,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/ui/hooks` | 1 | [src__ui__hooks.md](src__ui__hooks.md) |
 | `tests` | 1 | [tests.md](tests.md) |
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

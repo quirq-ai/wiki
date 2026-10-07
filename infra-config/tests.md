@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### test_qqcfg.py
 
 The seed config passes, and known-bad changes fail. Runnable as a script via `if __name__ ==
-'__main__'`. Classes: `SeedConfig`, `BadChangesFail`, `Readers`, `Delivery`,
-`DriftWorkflow`. Contains tests.
+'__main__'`. Classes: `SeedConfig`, `BadChangesFail`, `Readers`, `Delivery`, `UserOrg`,
+`Golden`, `DriftWorkflow`. Contains tests.
 
-[`tests/test_qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tests/test_qqcfg.py) · code · 47318 bytes
+[`tests/test_qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tests/test_qqcfg.py) · code · 59021 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -31,4 +31,4 @@ import type { PrismTheme } from 'prism-react-renderer' Notable exports: `lightTh
 
 [`src/components/CodeBlock/theme.ts`](https://github.com/quirq-ai/website/blob/main/src/components/CodeBlock/theme.ts) · code · 4048 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

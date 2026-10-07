@@ -35,10 +35,10 @@ The one loop skeleton behind the background pollers. Functions: `run_forever`.
 
 ### project_management.py
 
-Clone and remove local projects, with fresh sharing checks before removal. Functions:
-`removal_status`, `remove_project`, `clone_project`.
+Clone and remove local projects. Functions: `removal_status`, `remove_project`,
+`clone_project`.
 
-[`services/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_management.py) · code · 20354 bytes
+[`services/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_management.py) · code · 18258 bytes
 
 ### setup_status.py
 
@@ -90,4 +90,4 @@ The canonical `.xo/` directory every xo-project carries. Classes: `EnsureReport`
 
 [`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 10075 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

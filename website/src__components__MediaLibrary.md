@@ -54,4 +54,4 @@ useDropzone } from 'react-dropzone' import { useWindow } from '../../context/Win
 
 [`src/components/MediaLibrary/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/MediaLibrary/index.tsx) · code · 7051 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

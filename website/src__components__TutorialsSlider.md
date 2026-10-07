@@ -13,4 +13,4 @@ from 'gatsby' import React from 'react' Notable exports: `TutorialsSlider`, `que
 
 [`src/components/TutorialsSlider/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TutorialsSlider/index.tsx) · code · 1619 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

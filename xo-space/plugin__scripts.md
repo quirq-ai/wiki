@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### discover.sh
 
-Read-only local discovery. Requires only bash, curl, and POSIX awk. A pointer is a last-
-known-location hint; discovery never installs or starts anything. stdout contains exactly
-one JSON object (running, installed, or not_installed). QUIRQ_DISCOVER_PORTS replaces the
-fallback ports, not the pointer port. Only verified pointer-port discoveries inherit pointer
-paths. Shebang `#!/usr/bin/env bash`.
+Read-only local discovery. Requires only bash, curl, and POSIX awk. Keep LF line endings
+(see .gitattributes): bash cannot run this file with CRLF. A pointer is a last-known-
+location hint; discovery never installs or starts anything. stdout contains exactly one JSON
+object (running, installed, or not_installed). QUIRQ_DISCOVER_PORTS replaces the fallback
+ports, not the pointer port.
 
-[`plugin/scripts/discover.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugin/scripts/discover.sh) · code · 7585 bytes
+[`plugin/scripts/discover.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugin/scripts/discover.sh) · code · 7667 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

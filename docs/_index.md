@@ -7,8 +7,8 @@ Run development server
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
 - Default branch: `main`
 - Primary language (GitHub): MDX
-- Last push: `2026-10-05T04:11:38Z`
-- Snapshot SHA: `30ec1e48b40f`
+- Last push: `2026-10-07T11:40:27Z`
+- Snapshot SHA: `5d9371c5b79a`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -28,7 +28,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `content/api` | 15 | [content__api.md](content__api.md) |
 | `content/api/xo-mcp-server` | 4 | [content__api__xo-mcp-server.md](content__api__xo-mcp-server.md) |
 | `content/api/xo-mcp-server/integrations` | 8 | [content__api__xo-mcp-server__integrations.md](content__api__xo-mcp-server__integrations.md) |
-| `content/docs` | 4 | [content__docs.md](content__docs.md) |
+| `content/docs` | 5 | [content__docs.md](content__docs.md) |
 | `content/docs/(build)` | 1 | [content__docs__(build).md](content__docs__(build).md) |
 | `content/docs/(operate)` | 1 | [content__docs__(operate).md](content__docs__(operate).md) |
 | `content/docs/(research)` | 1 | [content__docs__(research).md](content__docs__(research).md) |
@@ -125,4 +125,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-06 12:17 UTC._
+_Generated 2026-10-07 12:09 UTC._

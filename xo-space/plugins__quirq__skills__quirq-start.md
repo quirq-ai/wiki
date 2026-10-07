@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Markdown page “Start XO Space”. Start an existing XO Space installation and open its UI in
 Codex, preserving its backend and workspace without fetching updates.
 
-[`plugins/quirq/skills/quirq-start/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq-start/SKILL.md) · code · 2385 bytes
+[`plugins/quirq/skills/quirq-start/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq-start/SKILL.md) · code · 2575 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

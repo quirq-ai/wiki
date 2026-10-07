@@ -37,7 +37,7 @@ checks, computed from [infra-config](https://github.com/quirq-ai/infra-config) a
 repo's manifest, and the merge queue that verifies the exact merge result before it reaches
 main.
 
-[`README.md`](https://github.com/quirq-ai/gate/blob/main/README.md) · code · 7300 bytes
+[`README.md`](https://github.com/quirq-ai/gate/blob/main/README.md) · code · 7410 bytes
 
 ### apply-requirements.txt
 
@@ -55,7 +55,7 @@ TOML config `pins.toml`. Other qq repos this one reads, by pinned commit (never 
 Policy comes from infra-config; manifests are read only through sync. TODO(expert): let
 rollers move these pins. Sections: `infra-config`, `sync`.
 
-[`pins.toml`](https://github.com/quirq-ai/gate/blob/main/pins.toml) · code · 480 bytes
+[`pins.toml`](https://github.com/quirq-ai/gate/blob/main/pins.toml) · code · 518 bytes
 
 ### pyproject.toml
 
@@ -65,4 +65,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/gate/blob/main/pyproject.toml) · code · 837 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

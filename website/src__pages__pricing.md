@@ -16,4 +16,4 @@ import FreeTierTicker from 'components/Pricin Notable exports: `Pricing`.
 
 [`src/pages/pricing/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/pricing/index.tsx) · code · 4950 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -34,4 +34,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/templates/templates/n8n-workflows.mdx`](https://github.com/quirq-ai/docs/blob/main/content/templates/templates/n8n-workflows.mdx) · code · 1482 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

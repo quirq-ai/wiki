@@ -46,4 +46,4 @@ __name__ == '__main__'`. Classes: `Report`. Functions: `expand`, `load_json`,
 
 [`config/agents/codex/troubleshoot.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/agents/codex/troubleshoot.py) · code · 5754 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

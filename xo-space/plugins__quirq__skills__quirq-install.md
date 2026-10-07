@@ -12,6 +12,6 @@ Markdown page “Install XO Space”. Install and launch XO Space from Codex in 
 workspace with the Codex backend. Use when asked to install Space or open it for the first
 time.
 
-[`plugins/quirq/skills/quirq-install/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq-install/SKILL.md) · code · 3064 bytes
+[`plugins/quirq/skills/quirq-install/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq-install/SKILL.md) · code · 3464 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

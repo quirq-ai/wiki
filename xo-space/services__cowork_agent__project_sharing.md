@@ -35,7 +35,7 @@ return None/False/empty — the relay must degrade, never crash. Functions: `ori
 `remote_head`, `local_remote_head`, `enumerate_hashes`, `fetch_origin`, `commit_present`,
 `recent_commits`, `clone`, and 3 more.
 
-[`services/cowork_agent/project_sharing/git_ops.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/git_ops.py) · code · 6476 bytes
+[`services/cowork_agent/project_sharing/git_ops.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/git_ops.py) · code · 7550 bytes
 
 ### poller.py
 
@@ -83,4 +83,4 @@ workspace_id, commits} to swarm. Functions: `run_tick_repo`.
 
 [`services/cowork_agent/project_sharing/watcher.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/watcher.py) · code · 2821 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

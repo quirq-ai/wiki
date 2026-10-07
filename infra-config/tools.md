@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### qqcfg.py
 
 qqcfg: validate and generate quirq infra (qq) config. Runnable as a script via `if __name__
-== '__main__'`. Classes: `ConfigError`. Functions: `load`, `by_name`, `check_schema`,
-`check_refs`, `check_policy`, `with_digest`, `sq`, `q`, and 12 more.
+== '__main__'`. Classes: `ConfigError`. Functions: `is_quirq`, `config_repo`, `load`,
+`by_name`, `check_schema`, `check_refs`, `check_policy`, `drift_check`, and 15 more.
 
-[`tools/qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tools/qqcfg.py) · code · 49944 bytes
+[`tools/qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tools/qqcfg.py) · code · 53606 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

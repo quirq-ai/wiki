@@ -8,10 +8,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### route.ts
 
-import { isSessionId, MAX_REQUEST_BYTES, parseActivityBatch, SessionError, } from
-"@/engine/schema.mjs" Notable exports: `GET`, `POST`, `runtime`, `dynamic`. Wired into a
-Next.js app (App Router or Next APIs).
+export const runtime = "nodejs"; export const dynamic = "force-dynamic" Notable exports:
+`GET`, `POST`, `runtime`, `dynamic`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/api/session/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/session/route.ts) · code · 4205 bytes
+[`app/api/session/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/session/route.ts) · code · 8237 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

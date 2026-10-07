@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### green.json
 
 JSON document `green.json` whose top-level keys are `xo-space-presubmit`, `innernet-
-presubmit`. Structured data consumed by the surrounding app or tooling.
+presubmit`, `website-presubmit`. Structured data consumed by the surrounding app or tooling.
 
-[`tests/fixtures/green.json`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/green.json) · code · 67 bytes
+[`tests/fixtures/green.json`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/green.json) · code · 99 bytes
 
 ### innernet.repo.toml
 
@@ -25,9 +25,18 @@ built so far. Sections: `qq`, `toolchains.node`, `[targets`.
 ### red.json
 
 JSON document `red.json` whose top-level keys are `xo-space-presubmit`, `innernet-
-presubmit`, `tests`. Structured data consumed by the surrounding app or tooling.
+presubmit`, `website-presubmit`, `tests`. Structured data consumed by the surrounding app or
+tooling.
 
-[`tests/fixtures/red.json`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/red.json) · code · 87 bytes
+[`tests/fixtures/red.json`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/red.json) · code · 119 bytes
+
+### website.repo.toml
+
+TOML config `website.repo.toml`. Fixture: website's manifest as delivered in website #1
+(head 6d4ebf6), comments trimmed. Sections: `[targets`, `qq`, `toolchains.node`,
+`toolchains.node.platforms`.
+
+[`tests/fixtures/website.repo.toml`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/website.repo.toml) · code · 853 bytes
 
 ### xo-space.repo.toml
 
@@ -38,4 +47,4 @@ built so far. Sections: `qq`, `toolchains.python`, `[targets`.
 
 [`tests/fixtures/xo-space.repo.toml`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/xo-space.repo.toml) · code · 869 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

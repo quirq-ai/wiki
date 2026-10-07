@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 The agent/workspace instructions (“Agent instructions: {{TOPIC}}”). Read the root
 [AGENTS.md](../AGENTS.md) first. This file adds instructions for this topic only.
 
-[`_template/AGENTS.md`](https://github.com/quirq-ai/research/blob/main/_template/AGENTS.md) · code · 880 bytes
+[`_template/AGENTS.md`](https://github.com/quirq-ai/research/blob/main/_template/AGENTS.md) · code · 896 bytes
 
 ### GOAL.md
 
@@ -32,4 +32,4 @@ npm package manifest for `{{TOPIC}}`. Scripts: `build`, `dev`.
 
 [`_template/package.json`](https://github.com/quirq-ai/research/blob/main/_template/package.json) · code · 177 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

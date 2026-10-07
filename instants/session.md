@@ -8,9 +8,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“Private session files”). During local development, Instants keeps one
-private activity journal for each browser profile.
+The project README (“Legacy session files”). The active Instants store now has exactly two
+persistent data files for each private profile.
 
-[`session/README.md`](https://github.com/quirq-ai/instants/blob/main/session/README.md) · code · 2546 bytes
+[`session/README.md`](https://github.com/quirq-ai/instants/blob/main/session/README.md) · code · 1329 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

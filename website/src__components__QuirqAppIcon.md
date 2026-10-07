@@ -12,15 +12,15 @@ The project README (“Quirq app icons”). QuirqAppIcon is a small adapter for 
 OSIcons/GlassIcon. It keeps the desktop's beveled silhouettes, glass, hover motion, and
 wallpaper-colored glow while giving each repository a distinct glyph and color.
 
-[`src/components/QuirqAppIcon/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAppIcon/README.md) · code · 927 bytes
+[`src/components/QuirqAppIcon/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAppIcon/README.md) · code · 1310 bytes
 
 ### index.tsx
 
 import React from 'react' import GlassIcon from 'components/OSIcons/GlassIcon' import {
 HOME_SILHOUETTE, SKILLS_SILHOUETTE, DOWNLOAD_SILHOUETTE, HANDBOOK_SILHOUETTE,
 TALK_TO_A_HUMAN_SILHOUETTE, SELF_DRIVING_SILHOUETTE, CONTEXT_WAREHOUSE_SILHOUETTE, } from
-'components/OSIcons/glyphs' Notable exports: `QuirqAppIcon`.
+'components/OSIcons/glyphs' Notable exports: `QuirqAppIcon`, `QuirqAppTile`.
 
-[`src/components/QuirqAppIcon/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAppIcon/index.tsx) · code · 2932 bytes
+[`src/components/QuirqAppIcon/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAppIcon/index.tsx) · code · 3671 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

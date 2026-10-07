@@ -7,6 +7,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | Repository | Kind | Wiki | GitHub |
 | --- | --- | --- | --- |
 | **.github**<br>Quirq's GitHub organization profile and shared community guidelines. | public | [`.github/`](.github/_index.md) | [.github](https://github.com/quirq-ai/.github) |
+| **agent-skills** | public | [`agent-skills/`](agent-skills/_index.md) | [agent-skills](https://github.com/quirq-ai/agent-skills) |
 | **depot** | public | [`depot/`](depot/_index.md) | [depot](https://github.com/quirq-ai/depot) |
 | **docs** | public fork | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
@@ -29,9 +30,11 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **remote-build** | public | [`remote-build/`](remote-build/_index.md) | [remote-build](https://github.com/quirq-ai/remote-build) |
 | **research** | public | [`research/`](research/_index.md) | [research](https://github.com/quirq-ai/research) |
 | **rollers** | public | [`rollers/`](rollers/_index.md) | [rollers](https://github.com/quirq-ai/rollers) |
+| **setup**<br>One command to set up qq for a GitHub org | public | [`setup/`](setup/_index.md) | [setup](https://github.com/quirq-ai/setup) |
 | **sync** | public | [`sync/`](sync/_index.md) | [sync](https://github.com/quirq-ai/sync) |
 | **test-pipelines** | public | [`test-pipelines/`](test-pipelines/_index.md) | [test-pipelines](https://github.com/quirq-ai/test-pipelines) |
 | **toolchains** | public | [`toolchains/`](toolchains/_index.md) | [toolchains](https://github.com/quirq-ai/toolchains) |
+| **ui** | public | [`ui/`](ui/_index.md) | [ui](https://github.com/quirq-ai/ui) |
 | **website**<br>website: code and deploy of the public quirq.ai site | public | [`website/`](website/_index.md) | [website](https://github.com/quirq-ai/website) |
 | **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
 | **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
@@ -42,4 +45,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

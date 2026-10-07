@@ -39,11 +39,11 @@ Wired into a Next.js app (App Router or Next APIs).
 
 export const metadata: Metadata = { title: "XO Space Docs", description: "Documentation for
 XO Space: the local control plane for AI coding agents. Run a Space locally or through XO
-Cloud.", alternates: { canonical: "https://docs.xo.builders/", }, openGraph: { title: "XO
-Space Docs", description: "Documentation for XO Space: the local control plane for AI co
+Cloud.", alternates: { canonical: "https://docs.quirq.dev/", }, openGraph: { title: "XO
+Space Docs", description: "Documentation for XO Space: the local control plane for AI codi
 Notable exports: `RootPage`, `metadata`.
 
-[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 671 bytes
+[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 667 bytes
 
 ### robots.ts
 
@@ -59,4 +59,4 @@ exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 737 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

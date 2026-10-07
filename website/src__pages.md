@@ -171,7 +171,7 @@ import WindowTabs from 'components/WindowTabs' import { Fieldset } from
 'components/RadixUI/ToggleGroup' import { Popover } from 'components/RadixUI/Popover' import
 ScrollArea from 'components/RadixUI/S Notable exports: `DisplayOptions`.
 
-[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 13540 bytes
+[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 13638 bytes
 
 ### dpa.tsx
 
@@ -398,6 +398,13 @@ Notable exports: `ProductOS`.
 
 [`src/pages/product-os.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/product-os.tsx) · code · 265 bytes
 
+### projects.tsx
+
+import React from 'react' import SEO from 'components/seo' import QuirqProjects from
+'components/QuirqProjects' Notable exports: `ProjectsPage`.
+
+[`src/pages/projects.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/projects.tsx) · code · 424 bytes
+
 ### research.tsx
 
 import React, { useEffect, useState } from 'react' import { graphql } from 'gatsby' import {
@@ -566,4 +573,4 @@ import React from 'react' import SEO from 'components/seo' import WhyPostHogView
 
 [`src/pages/workflow.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/workflow.tsx) · code · 4565 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -30,6 +30,6 @@ from 'components/QuirqAppIcon' import { getQuirqApps } from 'lib/quirqApps' impo
 } from 'components/OSIcons/AppIcon' import ContextMenu from 'components/RadixUI/Co Notable
 exports: `useProductLinks`, `apps`.
 
-[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 12333 bytes
+[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 12439 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

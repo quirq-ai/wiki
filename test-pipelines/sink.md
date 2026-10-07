@@ -12,6 +12,6 @@ GitHub Action metadata (`action.yml`). The result sink as a GitHub Action, for t
 post-submit builders (plan §5.2). Use it after the test steps, with if: always(), pinned by
 commit.
 
-[`sink/action.yml`](https://github.com/quirq-ai/test-pipelines/blob/main/sink/action.yml) · code · 6859 bytes
+[`sink/action.yml`](https://github.com/quirq-ai/test-pipelines/blob/main/sink/action.yml) · code · 6857 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

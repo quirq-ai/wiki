@@ -82,4 +82,4 @@ Python module `test_workflows.py`. Functions: `test_tools_qqperf_runs_from_sourc
 
 [`tests/test_workflows.py`](https://github.com/quirq-ai/perf/blob/main/tests/test_workflows.py) · code · 1121 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

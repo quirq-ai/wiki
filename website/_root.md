@@ -17,7 +17,7 @@ frome dota wit crate halp doubleclick fastr pullrequest.
 
 Extensionless file `.eslintignore`. gatsby/ gatsby* mdxImportGen.js public static/scripts/.
 
-[`.eslintignore`](https://github.com/quirq-ai/website/blob/main/.eslintignore) · other · 55 bytes
+[`.eslintignore`](https://github.com/quirq-ai/website/blob/main/.eslintignore) · other · 108 bytes
 
 ### .eslintrc.json
 
@@ -59,7 +59,7 @@ Extensionless file `.nvmrc`. 24.
 Extensionless file `.prettierignore`. *.md *.mdx *.lock .cache/ public/ node_modules/
 static/ .github/workflows/qq-*.yml.
 
-[`.prettierignore`](https://github.com/quirq-ai/website/blob/main/.prettierignore) · other · 162 bytes
+[`.prettierignore`](https://github.com/quirq-ai/website/blob/main/.prettierignore) · other · 215 bytes
 
 ### .prettierrc
 
@@ -89,7 +89,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 5271 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 6782 bytes
 
 ### CLAUDE.md
 
@@ -99,7 +99,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 5271 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 6782 bytes
 
 ### LICENSE
 
@@ -121,14 +121,14 @@ Markdown page “Licensing and attribution”. This repository combines quirq ad
 material inherited from [PostHog/posthog.com](https://github.com/PostHog/posthog.com),
 starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 
-[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 1771 bytes
+[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 2156 bytes
 
 ### README.md
 
 The project README (“quirq home base”). A customizable desktop for the apps, experiments,
 and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 15605 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 18984 bytes
 
 ### SECURITY.md
 
@@ -155,7 +155,7 @@ require('dotenv').config({ path: .env.${process.env.NODE_ENV}.local })
 require('dotenv').config({ path: .env.${process.env.NODE_ENV} }) const path =
 require('path').
 
-[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1495 bytes
+[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1508 bytes
 
 ### gatsby-node.ts
 
@@ -163,7 +163,7 @@ import path from 'path' import fs from 'fs' import { GatsbyNode } from 'gatsby' 
 getQuirqApps } from './src/lib/quirqApps' Notable exports: `createPages`, `onCreatePage`,
 `preprocessSource`, `onCreateBabelConfig`, `onCreateWebpackConfig`.
 
-[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 3944 bytes
+[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 3987 bytes
 
 ### gatsby-ssr.js
 
@@ -184,11 +184,11 @@ resetContext } from 'kea' import { loadersPlugin } from 'kea-loaders' import { r
 ### package.json
 
 npm package manifest for `quirq-home-base` v1.0.0. A customizable desktop for apps from the
-quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:test`, `prebuild-move`,
-`build-move`, `prebuild`, `build`, `prebuild:minimal`, `build:minimal`, `start`, and 28
-more.
+quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:prune`, `apps:test`,
+`projects:sync`, `projects:check`, `build-move`, `prebuild`, `build`, `build:minimal`, and
+28 more.
 
-[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13464 bytes
+[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13454 bytes
 
 ### pnpm-lock.yaml
 
@@ -219,7 +219,15 @@ require('autoprefixer')], }).
 JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`, `defaults`,
 `repositories`. Structured data consumed by the surrounding app or tooling.
 
-[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 2165 bytes
+[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 2551 bytes
+
+### quirq.projects.json
+
+JSON document `quirq.projects.json` whose top-level keys are `organization`, `source`,
+`projectRule`, `automation`, `groups`, `repositories`. Structured data consumed by the
+surrounding app or tooling.
+
+[`quirq.projects.json`](https://github.com/quirq-ai/website/blob/main/quirq.projects.json) · code · 4798 bytes
 
 ### safelist.txt
 
@@ -253,4 +261,4 @@ JSON document `vercel.json` whose top-level keys are `$schema`, `framework`, `bu
 
 [`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 236 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

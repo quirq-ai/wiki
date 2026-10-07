@@ -67,7 +67,7 @@ string; avatar: string; verified: boolean; following: boolean; companyId: string
 string; }; export type Instant = { kind: string; title: string; expiresInMinutes: number; op
 Notable exports: `Company`, `User`, `Instant`, `Comment`, `Post`, `Message`, `Thread`
 
-[`lib/data.ts`](https://github.com/quirq-ai/instants/blob/main/lib/data.ts) · code · 2123 bytes
+[`lib/data.ts`](https://github.com/quirq-ai/instants/blob/main/lib/data.ts) · code · 2274 bytes
 
 ### motion-core.mjs
 
@@ -102,4 +102,4 @@ Notable exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/instants/blob/main/lib/utils.ts) · code · 177 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

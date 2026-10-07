@@ -14,10 +14,10 @@ qq's own subcommands. Each module has register(subparsers), the same shape a plu
 
 ### build.py
 
-qq build and qq test: run the same adapter actions as CI, here. Functions: `repo_root`,
-`toolchain_args`, `recipes_argv`, `run`, `register`.
+qq build and qq test: run a repo's targets here through quirq-ai/recipes. Functions:
+`repo_root`, `toolchain_args`, `recipes_argv`, `run`, `register`.
 
-[`src/qqdepot/commands/build.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/build.py) · code · 3081 bytes
+[`src/qqdepot/commands/build.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/build.py) · code · 3206 bytes
 
 ### change.py
 
@@ -26,6 +26,20 @@ Functions: `run_upload`, `run_try`, `run_land`, `run_status`, `register`.
 
 [`src/qqdepot/commands/change.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/change.py) · code · 8071 bytes
 
+### create.py
+
+qq create: give this repo a qq command of its own. Functions: `run_create`, `register`.
+
+[`src/qqdepot/commands/create.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/create.py) · code · 2372 bytes
+
+### run.py
+
+qq run and a repo's own commands: run a command in the repo's qq environment. Classes:
+`RunError`, `UsageError`, `_Parser`. Functions: `check_name`, `saved_path`, `saved_names`,
+`toolchain_bins`, `environment`, `execute`, `qq_commands`, `shadowed`, and 8 more.
+
+[`src/qqdepot/commands/run.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/run.py) · code · 19191 bytes
+
 ### sync.py
 
 qq sync and qq fetch: get a repo's pinned toolchains and dependencies. Functions: `sync`,
@@ -33,4 +47,4 @@ qq sync and qq fetch: get a repo's pinned toolchains and dependencies. Functions
 
 [`src/qqdepot/commands/sync.py`](https://github.com/quirq-ai/depot/blob/main/src/qqdepot/commands/sync.py) · code · 6565 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

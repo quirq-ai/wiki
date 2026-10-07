@@ -17,7 +17,7 @@ public entry.
 
 import React from 'react' Notable exports: `HTML`, `HTMLProps`.
 
-[`src/html.tsx`](https://github.com/quirq-ai/website/blob/main/src/html.tsx) · code · 1983 bytes
+[`src/html.tsx`](https://github.com/quirq-ai/website/blob/main/src/html.tsx) · code · 1491 bytes
 
 ### mdxGlobalComponents.js
 
@@ -48,4 +48,4 @@ Notable exports: `cn`, `capitalizeFirstLetter`, `toFixedMin`, `flattenStrapiResp
 
 [`src/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/utils.ts) · code · 2328 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

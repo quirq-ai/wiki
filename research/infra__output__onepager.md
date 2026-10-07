@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Markdown page “qq v0 in one page”. One-pager, 2026-10-05. Requested by suraj.
 
-[`infra/output/onepager/2026-10-05-qq-v0-overview.md`](https://github.com/quirq-ai/research/blob/main/infra/output/onepager/2026-10-05-qq-v0-overview.md) · code · 5795 bytes
+[`infra/output/onepager/2026-10-05-qq-v0-overview.md`](https://github.com/quirq-ai/research/blob/main/infra/output/onepager/2026-10-05-qq-v0-overview.md) · code · 5941 bytes
 
 ### README.md
 
@@ -19,4 +19,4 @@ a couple of minutes.
 
 [`infra/output/onepager/README.md`](https://github.com/quirq-ai/research/blob/main/infra/output/onepager/README.md) · code · 361 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

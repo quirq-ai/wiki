@@ -44,4 +44,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`examples/node-app/tsconfig.json`](https://github.com/quirq-ai/recipes/blob/main/examples/node-app/tsconfig.json) · code · 652 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

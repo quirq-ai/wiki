@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### capabilities.json
 
 JSON document `capabilities.json` whose top-level keys are `models`, `data`, `channels`,
-`secrets`. Structured data consumed by the surrounding app or tooling.
+`secrets`, `remote_control`. Structured data consumed by the surrounding app or tooling.
 
-[`config/agents/codex/capabilities.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/capabilities.json) · code · 644 bytes
+[`config/agents/codex/capabilities.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/capabilities.json) · code · 685 bytes
 
 ### manifest.json
 
@@ -36,7 +36,7 @@ Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_warn`, `log
 `prov`, `install_apt_prereqs`, `install_node`, `write_repo_env_file`, `seed_agent_env`,
 `check_codex_cli`, and 1 more.
 
-[`config/agents/codex/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/setup.sh) · code · 10357 bytes
+[`config/agents/codex/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/setup.sh) · code · 10522 bytes
 
 ### troubleshoot.py
 
@@ -46,4 +46,4 @@ __name__ == '__main__'`. Classes: `Report`. Functions: `expand`, `load_json`,
 
 [`config/agents/codex/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/troubleshoot.py) · code · 5749 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

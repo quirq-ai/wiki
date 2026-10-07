@@ -7,8 +7,8 @@ Configuration as code for quirq infra (qq), the CI/CD system for every quirq-ai 
 - GitHub: [https://github.com/quirq-ai/infra-config](https://github.com/quirq-ai/infra-config)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-05T12:57:02Z`
-- Snapshot SHA: `41a8cb0a19e4`
+- Last push: `2026-10-07T00:48:24Z`
+- Snapshot SHA: `c284fd4eae10`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -27,6 +27,15 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `schema` | 14 | [schema.md](schema.md) |
 | `templates` | 1 | [templates.md](templates.md) |
 | `tests` | 1 | [tests.md](tests.md) |
+| `tests/golden` | 0 | [tests__golden.md](tests__golden.md) |
+| `tests/golden/.github` | 0 | [tests__golden__.github.md](tests__golden__.github.md) |
+| `tests/golden/.github/workflows` | 3 | [tests__golden__.github__workflows.md](tests__golden__.github__workflows.md) |
+| `tests/golden/config` | 13 | [tests__golden__config.md](tests__golden__config.md) |
+| `tests/golden/generated` | 0 | [tests__golden__generated.md](tests__golden__generated.md) |
+| `tests/golden/generated/github` | 0 | [tests__golden__generated__github.md](tests__golden__generated__github.md) |
+| `tests/golden/generated/github/innernet` | 2 | [tests__golden__generated__github__innernet.md](tests__golden__generated__github__innernet.md) |
+| `tests/golden/generated/github/website` | 2 | [tests__golden__generated__github__website.md](tests__golden__generated__github__website.md) |
+| `tests/golden/generated/github/xo-space` | 2 | [tests__golden__generated__github__xo-space.md](tests__golden__generated__github__xo-space.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-06 12:17 UTC._
+_Generated 2026-10-07 12:09 UTC._

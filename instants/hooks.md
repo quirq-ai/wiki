@@ -22,12 +22,12 @@ import * as React from "react" Notable exports: `useIsMobile`.
 
 ### use-session.ts
 
-import { appendActivity, createSessionDocument, MAX_BATCH_EVENTS, MAX_EVENTS,
-parseActivityBatch, parseSessionDocument, } from "@/engine/schema.mjs"; import type {
-Activity, ActivityInput, SessionDocument, SessionResult, } from "@/engine/types"; const
-DEVICE_KEY = "instants-session-v1"; const outboxKey = (id: string) => "instants-outbox:" +
-id; type Mode = " Notable exports: `useSession`.
+import { parseActivityEntry, parseTimelineEntry, parseLogEntries, } from "@/engine/log-
+schema.mjs"; import { activityEntry, assertActivityAllowed, jsonl, mergeEntries,
+mirrorCreatedPosts, prepareImport, projectWorkspace, type WorkspaceLogs, } from
+"@/engine/workspace"; import type { ActivityEntry, LogDiagnostic, TimelineEntry, } from
+"@/engine/log-types"; co Notable exports: `useSession`.
 
-[`hooks/use-session.ts`](https://github.com/quirq-ai/instants/blob/main/hooks/use-session.ts) · code · 14663 bytes
+[`hooks/use-session.ts`](https://github.com/quirq-ai/instants/blob/main/hooks/use-session.ts) · code · 19600 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

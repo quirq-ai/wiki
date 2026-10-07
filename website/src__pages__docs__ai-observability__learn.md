@@ -13,4 +13,4 @@ import React from 'react' import { useLocation } from '@reach/router' Notable ex
 
 [`src/pages/docs/ai-observability/learn/[...chapter].tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/ai-observability/learn/[...chapter].tsx) · code · 730 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

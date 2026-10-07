@@ -14,4 +14,4 @@ scripts/install_shared_deps.sh — install shared system deps once at boot. Sheb
 
 [`scripts/install_shared_deps.sh`](https://github.com/quirq-ai/xo-cowork-api/blob/main/scripts/install_shared_deps.sh) · code · 5920 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

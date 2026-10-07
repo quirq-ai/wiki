@@ -16,4 +16,4 @@ pipelines]) run from source on PYTHONPATH. Regenerate: echo jsonschema== | uv pi
 
 [`requirements/runtime.lock`](https://github.com/quirq-ai/gardener/blob/main/requirements/runtime.lock) · code · 11297 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

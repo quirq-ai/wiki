@@ -41,6 +41,6 @@ from '@posthog/icons' import { IconGithub } from 'components/OSIcons' import Qui
 from 'components/QuirqAppIcon' import { QuirqMark } from 'components/QuirqBrand' import {
 useAppSettings } from ' Notable exports: `useMenuData`, `useMenuSelectOptions`
 
-[`src/components/TaskBarMenu/menuData.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/menuData.tsx) · code · 3447 bytes
+[`src/components/TaskBarMenu/menuData.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TaskBarMenu/menuData.tsx) · code · 3964 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

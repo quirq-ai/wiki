@@ -22,4 +22,4 @@ InstallSchema } from 'components/PlatformInstall' Notable exports: `MCPInstallCT
 
 [`src/components/MCPInstallCTA/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/MCPInstallCTA/index.tsx) · code · 2028 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

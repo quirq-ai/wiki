@@ -51,14 +51,6 @@ glob = require('glob') // eslint-disable-line @typescript-eslint/no-var-requires
 
 [`scripts/fix-mdx.js`](https://github.com/quirq-ai/website/blob/main/scripts/fix-mdx.js) · code · 4620 bytes
 
-### generate-brand-assets.mjs
-
-Materialize stable /brand URLs from the canonical package before Gatsby copies static/ to
-public/. package.json lifecycle hooks run this automatically for the standard build
-commands.
-
-[`scripts/generate-brand-assets.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/generate-brand-assets.mjs) · code · 5058 bytes
-
 ### generate-mcp-rest-mapping-candidates.js
 
 eslint-disable @typescript-eslint/no-var-requires.
@@ -85,7 +77,17 @@ join } from 'node:path' import { Buffer } from 'node:buffer' import { buildQuirq
 normalizeAppPath, safeWebUrl } from './lib/quirq-catalog.mjs' import {
 fetchOrganizationReposit Automated test file.
 
-[`scripts/quirq-catalog.test.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/quirq-catalog.test.mjs) · code · 12706 bytes
+[`scripts/quirq-catalog.test.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/quirq-catalog.test.mjs) · code · 14904 bytes
+
+### quirq-phases.test.mjs
+
+import test from 'node:test' import assert from 'node:assert/strict' import { mkdtemp,
+readFile, rm, writeFile } from 'node:fs/promises' import { tmpdir } from 'node:os' import {
+join } from 'node:path' import { buildQuirqProjects, computePhase, countPeople, isNoteFile,
+projectRuleText, readSignals, ungroupedRepositories, validateProjectsConfig, } from './li
+Automated test file.
+
+[`scripts/quirq-phases.test.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/quirq-phases.test.mjs) · code · 11944 bytes
 
 ### run-post-build-tasks.ts
 
@@ -101,8 +103,18 @@ import { readFile, writeFile, rename, rm } from 'node:fs/promises' import { reso
 } from 'node:path' import { fileURLToPath } from 'node:url' import { Buffer } from
 'node:buffer' import { buildQuirqApps, normalizeRepository, validateQuirqConfig } from
 './lib/quirq-catalog.mjs' Notable exports: `fetchOrganizationRepositories`,
-`fetchRepositoryReadme`, `syncQuirqApps`.
+`fetchRepositoryReadme`, `pruneHiddenReadmes`, `syncQuirqApps`.
 
-[`scripts/sync-quirq-apps.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-apps.mjs) · code · 6526 bytes
+[`scripts/sync-quirq-apps.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-apps.mjs) · code · 7814 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+### sync-quirq-projects.mjs
+
+Refresh src/data/quirq-projects.json: the shape of every repo in quirq.projects.json. Uses
+anonymous git (a shallow, blobless clone per repo for the files, and a commits-only clone
+for who committed), release's public channels.json, and one anonymous GitHub API request for
+star counts, falling back to the stars in the apps snapshot. It needs no token. Run with
+`pnpm projects:sync`; `--check` validates offline.
+
+[`scripts/sync-quirq-projects.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-projects.mjs) · code · 8865 bytes
+
+_Generated 2026-10-07 12:09 UTC from `main`._

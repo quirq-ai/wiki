@@ -7,14 +7,14 @@ website: code and deploy of the public quirq.ai site
 - GitHub: [https://github.com/quirq-ai/website](https://github.com/quirq-ai/website)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-05T21:21:15Z`
-- Snapshot SHA: `2ca3bacdc720`
+- Last push: `2026-10-07T00:57:01Z`
+- Snapshot SHA: `3959d4a46a12`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 32 | [_root.md](_root.md) |
+| (repository root) | 33 | [_root.md](_root.md) |
 | `.devcontainer` | 1 | [.devcontainer.md](.devcontainer.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/ISSUE_TEMPLATE` | 2 | [.github__ISSUE_TEMPLATE.md](.github__ISSUE_TEMPLATE.md) |
@@ -51,13 +51,13 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `plugins/gatsby-transformer-cloudinary` | 6 | [plugins__gatsby-transformer-cloudinary.md](plugins__gatsby-transformer-cloudinary.md) |
 | `plugins/gatsby-transformer-cloudinary/gatsby-plugin-image` | 11 | [plugins__gatsby-transformer-cloudinary__gatsby-plugin-image.md](plugins__gatsby-transformer-cloudinary__gatsby-plugin-image.md) |
 | `plugins/gatsby-transformer-cloudinary/node-creation` | 10 | [plugins__gatsby-transformer-cloudinary__node-creation.md](plugins__gatsby-transformer-cloudinary__node-creation.md) |
-| `scripts` | 14 | [scripts.md](scripts.md) |
+| `scripts` | 15 | [scripts.md](scripts.md) |
 | `scripts/bundle` | 4 | [scripts__bundle.md](scripts__bundle.md) |
 | `scripts/bundle/__fixtures__` | 1 | [scripts__bundle____fixtures__.md](scripts__bundle____fixtures__.md) |
 | `scripts/hogfm` | 6 | [scripts__hogfm.md](scripts__hogfm.md) |
 | `scripts/hogfm/changehog` | 1 | [scripts__hogfm__changehog.md](scripts__hogfm__changehog.md) |
 | `scripts/hogfm/handbook` | 20 | [scripts__hogfm__handbook.md](scripts__hogfm__handbook.md) |
-| `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
+| `scripts/lib` | 2 | [scripts__lib.md](scripts__lib.md) |
 | `scripts/preview` | 1 | [scripts__preview.md](scripts__preview.md) |
 | `scripts/standard-site` | 1 | [scripts__standard-site.md](scripts__standard-site.md) |
 | `src` | 6 | [src.md](src.md) |
@@ -172,6 +172,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/DebugContainerQuery` | 1 | [src__components__DebugContainerQuery.md](src__components__DebugContainerQuery.md) |
 | `src/components/DemoScheduler` | 1 | [src__components__DemoScheduler.md](src__components__DemoScheduler.md) |
 | `src/components/Desktop` | 3 | [src__components__Desktop.md](src__components__Desktop.md) |
+| `src/components/Dock` | 2 | [src__components__Dock.md](src__components__Dock.md) |
 | `src/components/Docs` | 32 | [src__components__Docs.md](src__components__Docs.md) |
 | `src/components/Docs/AppsList` | 2 | [src__components__Docs__AppsList.md](src__components__Docs__AppsList.md) |
 | `src/components/Docs/SolvedQuestions` | 1 | [src__components__Docs__SolvedQuestions.md](src__components__Docs__SolvedQuestions.md) |
@@ -402,7 +403,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/QuickLinks` | 1 | [src__components__QuickLinks.md](src__components__QuickLinks.md) |
 | `src/components/QuirqApp` | 2 | [src__components__QuirqApp.md](src__components__QuirqApp.md) |
 | `src/components/QuirqAppIcon` | 2 | [src__components__QuirqAppIcon.md](src__components__QuirqAppIcon.md) |
+| `src/components/QuirqAvatar` | 2 | [src__components__QuirqAvatar.md](src__components__QuirqAvatar.md) |
 | `src/components/QuirqBrand` | 2 | [src__components__QuirqBrand.md](src__components__QuirqBrand.md) |
+| `src/components/QuirqInfraV0` | 4 | [src__components__QuirqInfraV0.md](src__components__QuirqInfraV0.md) |
+| `src/components/QuirqProjects` | 2 | [src__components__QuirqProjects.md](src__components__QuirqProjects.md) |
 | `src/components/QuirqSearch` | 2 | [src__components__QuirqSearch.md](src__components__QuirqSearch.md) |
 | `src/components/Quote2` | 1 | [src__components__Quote2.md](src__components__Quote2.md) |
 | `src/components/RadixUI` | 17 | [src__components__RadixUI.md](src__components__RadixUI.md) |
@@ -494,6 +498,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/TutorialsSlider` | 1 | [src__components__TutorialsSlider.md](src__components__TutorialsSlider.md) |
 | `src/components/Tweet` | 1 | [src__components__Tweet.md](src__components__Tweet.md) |
 | `src/components/TypecaastPlayer` | 2 | [src__components__TypecaastPlayer.md](src__components__TypecaastPlayer.md) |
+| `src/components/ui` | 5 | [src__components__ui.md](src__components__ui.md) |
 | `src/components/Viewer` | 7 | [src__components__Viewer.md](src__components__Viewer.md) |
 | `src/components/WaitlistForm` | 2 | [src__components__WaitlistForm.md](src__components__WaitlistForm.md) |
 | `src/components/WarehouseWizardHint` | 1 | [src__components__WarehouseWizardHint.md](src__components__WarehouseWizardHint.md) |
@@ -517,7 +522,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ZoomImage` | 1 | [src__components__ZoomImage.md](src__components__ZoomImage.md) |
 | `src/constants` | 12 | [src__constants.md](src__constants.md) |
 | `src/context` | 3 | [src__context.md](src__context.md) |
-| `src/data` | 12 | [src__data.md](src__data.md) |
+| `src/data` | 13 | [src__data.md](src__data.md) |
 | `src/data/typecaast` | 4 | [src__data__typecaast.md](src__data__typecaast.md) |
 | `src/hooks` | 51 | [src__hooks.md](src__hooks.md) |
 | `src/hooks/competitorData` | 107 | [src__hooks__competitorData.md](src__hooks__competitorData.md) |
@@ -546,12 +551,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/images/products` | 16 | [src__images__products.md](src__images__products.md) |
 | `src/images/sales` | 22 | [src__images__sales.md](src__images__sales.md) |
 | `src/images/teams` | 1 | [src__images__teams.md](src__images__teams.md) |
-| `src/lib` | 10 | [src__lib.md](src__lib.md) |
+| `src/lib` | 12 | [src__lib.md](src__lib.md) |
 | `src/lib/hogwatch` | 2 | [src__lib__hogwatch.md](src__lib__hogwatch.md) |
 | `src/logic` | 2 | [src__logic.md](src__logic.md) |
 | `src/menuItems` | 1 | [src__menuItems.md](src__menuItems.md) |
-| `src/navs` | 13 | [src__navs.md](src__navs.md) |
-| `src/pages` | 63 | [src__pages.md](src__pages.md) |
+| `src/navs` | 11 | [src__navs.md](src__navs.md) |
+| `src/pages` | 64 | [src__pages.md](src__pages.md) |
 | `src/pages-content` | 3 | [src__pages-content.md](src__pages-content.md) |
 | `src/pages-content/images` | 24 | [src__pages-content__images.md](src__pages-content__images.md) |
 | `src/pages/academy` | 1 | [src__pages__academy.md](src__pages__academy.md) |
@@ -667,7 +672,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/scripts` | 1 | [src__scripts.md](src__scripts.md) |
 | `src/sidebars` | 1 | [src__sidebars.md](src__sidebars.md) |
 | `src/styles` | 2 | [src__styles.md](src__styles.md) |
-| `src/templates` | 23 | [src__templates.md](src__templates.md) |
+| `src/templates` | 24 | [src__templates.md](src__templates.md) |
 | `src/templates/Hub` | 1 | [src__templates__Hub.md](src__templates__Hub.md) |
 | `src/templates/merch` | 27 | [src__templates__merch.md](src__templates__merch.md) |
 | `src/templates/OG` | 6 | [src__templates__OG.md](src__templates__OG.md) |
@@ -675,70 +680,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/templates/sdk` | 2 | [src__templates__sdk.md](src__templates__sdk.md) |
 | `src/templates/tutorials` | 3 | [src__templates__tutorials.md](src__templates__tutorials.md) |
 | `src/types` | 1 | [src__types.md](src__types.md) |
-| `static` | 5 | [static.md](static.md) |
-| `static/.well-known` | 0 | [static__.well-known.md](static__.well-known.md) |
-| `static/.well-known/oauth` | 0 | [static__.well-known__oauth.md](static__.well-known__oauth.md) |
-| `static/.well-known/oauth/desktop-announcements-admin` | 1 | [static__.well-known__oauth__desktop-announcements-admin.md](static__.well-known__oauth__desktop-announcements-admin.md) |
-| `static/.well-known/oauth/hogli` | 1 | [static__.well-known__oauth__hogli.md](static__.well-known__oauth__hogli.md) |
-| `static/.well-known/oauth/visual-review` | 1 | [static__.well-known__oauth__visual-review.md](static__.well-known__oauth__visual-review.md) |
-| `static/.well-known/oauth/webmcp` | 1 | [static__.well-known__oauth__webmcp.md](static__.well-known__oauth__webmcp.md) |
-| `static/brand` | 34 | [static__brand.md](static__brand.md) |
-| `static/brand/badge` | 4 | [static__brand__badge.md](static__brand__badge.md) |
+| `src/vendor` | 0 | [src__vendor.md](src__vendor.md) |
+| `src/vendor/blobatar` | 7 | [src__vendor__blobatar.md](src__vendor__blobatar.md) |
+| `static` | 3 | [static.md](static.md) |
+| `static/brand` | 0 | [static__brand.md](static__brand.md) |
 | `static/brand/quirq` | 2 | [static__brand__quirq.md](static__brand__quirq.md) |
-| `static/changelog` | 3 | [static__changelog.md](static__changelog.md) |
-| `static/docs` | 0 | [static__docs.md](static__docs.md) |
-| `static/docs/references` | 1 | [static__docs__references.md](static__docs__references.md) |
-| `static/fonts` | 5 | [static__fonts.md](static__fonts.md) |
-| `static/icons` | 1 | [static__icons.md](static__icons.md) |
-| `static/images` | 29 | [static__images.md](static__images.md) |
-| `static/images/competitors` | 3 | [static__images__competitors.md](static__images__competitors.md) |
-| `static/images/customers` | 65 | [static__images__customers.md](static__images__customers.md) |
-| `static/images/deskhog` | 1 | [static__images__deskhog.md](static__images__deskhog.md) |
-| `static/images/docs` | 0 | [static__images__docs.md](static__images__docs.md) |
-| `static/images/docs/posthog-desktop` | 3 | [static__images__docs__posthog-desktop.md](static__images__docs__posthog-desktop.md) |
-| `static/images/docs/prompt-management` | 6 | [static__images__docs__prompt-management.md](static__images__docs__prompt-management.md) |
-| `static/images/emojis` | 7 | [static__images__emojis.md](static__images__emojis.md) |
-| `static/images/enterprise` | 2 | [static__images__enterprise.md](static__images__enterprise.md) |
-| `static/images/g2` | 81 | [static__images__g2.md](static__images__g2.md) |
-| `static/images/investors` | 18 | [static__images__investors.md](static__images__investors.md) |
-| `static/images/og` | 20 | [static__images__og.md](static__images__og.md) |
-| `static/images/partners` | 6 | [static__images__partners.md](static__images__partners.md) |
-| `static/images/product` | 13 | [static__images__product.md](static__images__product.md) |
-| `static/images/product/product-icons` | 12 | [static__images__product__product-icons.md](static__images__product__product-icons.md) |
-| `static/images/product/session-recording` | 3 | [static__images__product__session-recording.md](static__images__product__session-recording.md) |
-| `static/images/products` | 0 | [static__images__products.md](static__images__products.md) |
-| `static/images/products/ab-testing` | 5 | [static__images__products__ab-testing.md](static__images__products__ab-testing.md) |
-| `static/images/products/data-pipeline` | 1 | [static__images__products__data-pipeline.md](static__images__products__data-pipeline.md) |
-| `static/images/products/data-warehouse` | 8 | [static__images__products__data-warehouse.md](static__images__products__data-warehouse.md) |
-| `static/images/products/feature-flags` | 7 | [static__images__products__feature-flags.md](static__images__products__feature-flags.md) |
-| `static/images/products/product-analytics` | 15 | [static__images__products__product-analytics.md](static__images__products__product-analytics.md) |
-| `static/images/products/product-os` | 6 | [static__images__products__product-os.md](static__images__products__product-os.md) |
-| `static/images/products/session-replay` | 5 | [static__images__products__session-replay.md](static__images__products__session-replay.md) |
-| `static/images/products/support` | 1 | [static__images__products__support.md](static__images__products__support.md) |
-| `static/images/products/surveys` | 8 | [static__images__products__surveys.md](static__images__products__surveys.md) |
-| `static/images/products/web-analytics` | 17 | [static__images__products__web-analytics.md](static__images__products__web-analytics.md) |
-| `static/images/sparks-joy` | 0 | [static__images__sparks-joy.md](static__images__sparks-joy.md) |
-| `static/images/sparks-joy/hoglr` | 4 | [static__images__sparks-joy__hoglr.md](static__images__sparks-joy__hoglr.md) |
-| `static/images/survey` | 0 | [static__images__survey.md](static__images__survey.md) |
-| `static/images/survey/ratings` | 5 | [static__images__survey__ratings.md](static__images__survey__ratings.md) |
-| `static/lotties` | 7 | [static__lotties.md](static__lotties.md) |
-| `static/lotties/product-icons` | 8 | [static__lotties__product-icons.md](static__lotties__product-icons.md) |
-| `static/pocket-guides` | 0 | [static__pocket-guides.md](static__pocket-guides.md) |
-| `static/pocket-guides/posthog` | 2 | [static__pocket-guides__posthog.md](static__pocket-guides__posthog.md) |
-| `static/scripts` | 2 | [static__scripts.md](static__scripts.md) |
-| `static/security` | 2 | [static__security.md](static__security.md) |
-| `static/sounds` | 4 | [static__sounds.md](static__sounds.md) |
-| `static/stripe` | 1 | [static__stripe.md](static__stripe.md) |
-| `static/styles` | 1 | [static__styles.md](static__styles.md) |
-| `static/wp-content` | 0 | [static__wp-content.md](static__wp-content.md) |
-| `static/wp-content/uploads` | 0 | [static__wp-content__uploads.md](static__wp-content__uploads.md) |
-| `static/wp-content/uploads/2020` | 1 | [static__wp-content__uploads__2020.md](static__wp-content__uploads__2020.md) |
-| `static/wp-content/uploads/2020/01` | 22 | [static__wp-content__uploads__2020__01.md](static__wp-content__uploads__2020__01.md) |
-| `static/wp-content/uploads/2020/02` | 82 | [static__wp-content__uploads__2020__02.md](static__wp-content__uploads__2020__02.md) |
-| `static/wp-content/uploads/2020/03` | 53 | [static__wp-content__uploads__2020__03.md](static__wp-content__uploads__2020__03.md) |
-| `static/wp-content/uploads/2020/04` | 69 | [static__wp-content__uploads__2020__04.md](static__wp-content__uploads__2020__04.md) |
-| `static/wp-content/uploads/2020/05` | 12 | [static__wp-content__uploads__2020__05.md](static__wp-content__uploads__2020__05.md) |
-| `static/wp-content/uploads/2020/logos` | 4 | [static__wp-content__uploads__2020__logos.md](static__wp-content__uploads__2020__logos.md) |
-| `static/wp-content/uploads/2020/templates` | 1 | [static__wp-content__uploads__2020__templates.md](static__wp-content__uploads__2020__templates.md) |
+| `static/images` | 3 | [static__images.md](static__images.md) |
+| `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

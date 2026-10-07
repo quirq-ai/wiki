@@ -20,4 +20,4 @@ by the surrounding app or tooling.
 
 [`tests/fixtures/every-commit.json`](https://github.com/quirq-ai/gardener/blob/main/tests/fixtures/every-commit.json) · code · 5109 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

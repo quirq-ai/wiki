@@ -18,4 +18,4 @@ import React from 'react' import JobCard from './JobCard' Notable exports: `JobL
 
 [`src/components/Jobs/JobList.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Jobs/JobList.tsx) · code · 547 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

@@ -15,4 +15,4 @@ Wizard from 'components/Wizard' import Link from 'components/Link' import Scroll
 
 [`src/pages/docs/references/version-unavailable.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/references/version-unavailable.tsx) · code · 4392 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

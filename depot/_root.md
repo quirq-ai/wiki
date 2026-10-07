@@ -34,7 +34,7 @@ The project README (“depot”). depot is qq, the quirq infra command line. Eve
 quirq infra builds pins the qq version it runs in its manifest, infra/repo.toml, and qq
 installs and runs exactly that version.
 
-[`README.md`](https://github.com/quirq-ai/depot/blob/main/README.md) · code · 9283 bytes
+[`README.md`](https://github.com/quirq-ai/depot/blob/main/README.md) · code · 14327 bytes
 
 ### pyproject.toml
 
@@ -45,4 +45,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/depot/blob/main/pyproject.toml) · code · 968 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

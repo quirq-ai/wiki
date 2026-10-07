@@ -63,7 +63,7 @@ Is each background part of the Space alive and succeeding? Functions: `watcher_e
 `stale_after`, `heartbeat_age`, `watcher_dead`, `watcher_alive`, `usage_state_path`,
 `watcher`, `components`, and 5 more.
 
-[`services/doctor/liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/liveness.py) · code · 32170 bytes
+[`services/doctor/liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/liveness.py) · code · 32192 bytes
 
 ### model.py
 
@@ -100,4 +100,4 @@ Run every check with error isolation and assemble the report (architecture §5).
 
 [`services/doctor/run.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/run.py) · code · 5251 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

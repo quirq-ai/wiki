@@ -14,12 +14,12 @@ Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.webm binary
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 34 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 35 pattern(s)
 including `/node_modules`, `/.pnp`, `.pnp.*`, `.yarn/*`, `!.yarn/patches`, `!.yarn/plugins`,
-`!.yarn/releases`, `!.yarn/versions`, and 26 more. Generated and secret files matching these
+`!.yarn/releases`, `!.yarn/versions`, and 27 more. Generated and secret files matching these
 patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 841 bytes
+[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 853 bytes
 
 ### .npmrc
 
@@ -45,11 +45,11 @@ The Claude Code instructions. @AGENTS.md.
 
 ### CONTRIBUTING.md
 
-The contributor guide (“Contributing to Instants”). Instants is a team collaboration
-prototype with private per-person activity. Contributions should keep the demo easy to run,
-the interactions accessible, and the boundary between demo state and real delivery clear.
+The contributor guide (“Contributing to Instants”). Instants visualizes agent activity with
+two JSONL logs and private per-person progress. Contributions should keep the app easy to
+run, imported history readable, interactions accessible, and source capabilities honest.
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/instants/blob/main/CONTRIBUTING.md) · code · 4358 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/instants/blob/main/CONTRIBUTING.md) · code · 5120 bytes
 
 ### LICENSE
 
@@ -61,16 +61,16 @@ redistribution.
 
 ### README.md
 
-The project README (“Instants”). Work that needs a reply. People you can see.
+The project README (“Instants”). Your agent activity, in one place.
 
-[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 12457 bytes
+[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 13378 bytes
 
 ### SECURITY.md
 
 The security policy. Security fixes target the current default branch. There are no
 separately supported release lines or guaranteed response times.
 
-[`SECURITY.md`](https://github.com/quirq-ai/instants/blob/main/SECURITY.md) · code · 2621 bytes
+[`SECURITY.md`](https://github.com/quirq-ai/instants/blob/main/SECURITY.md) · code · 3473 bytes
 
 ### THIRD_PARTY_NOTICES.md
 
@@ -116,7 +116,7 @@ ena Provides a default export as the module's public entry.
 const projectRoot = fileURLToPath(new URL(".", import.meta.url)) Provides a default export
 as the module's public entry.
 
-[`next.config.ts`](https://github.com/quirq-ai/instants/blob/main/next.config.ts) · code · 500 bytes
+[`next.config.ts`](https://github.com/quirq-ai/instants/blob/main/next.config.ts) · code · 604 bytes
 
 ### package-lock.json
 
@@ -132,7 +132,7 @@ of this file.
 npm package manifest for `instants` v0.1.0. Scripts: `install:ci`, `dev`, `build`, `start`,
 `dev:sites`, `build:sites`, `start:sites`, `lint`, `typecheck`, `test`, and 2 more.
 
-[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 2349 bytes
+[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 2391 bytes
 
 ### playwright.config.ts
 
@@ -170,4 +170,4 @@ a default export as the module's public entry.
 
 [`vite.config.ts`](https://github.com/quirq-ai/instants/blob/main/vite.config.ts) · code · 3135 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

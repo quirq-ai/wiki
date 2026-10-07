@@ -7,14 +7,14 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-06T11:45:57Z`
-- Snapshot SHA: `14b21a41668b`
+- Last push: `2026-10-07T11:56:21Z`
+- Snapshot SHA: `756d058d7ae5`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 20 | [_root.md](_root.md) |
+| (repository root) | 21 | [_root.md](_root.md) |
 | `.agents` | 0 | [.agents.md](.agents.md) |
 | `.agents/plugins` | 1 | [.agents__plugins.md](.agents__plugins.md) |
 | `.agents/skills` | 0 | [.agents__skills.md](.agents__skills.md) |
@@ -55,15 +55,18 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `plugin/skills` | 0 | [plugin__skills.md](plugin__skills.md) |
 | `plugin/skills/quirq` | 1 | [plugin__skills__quirq.md](plugin__skills__quirq.md) |
 | `plugins` | 0 | [plugins.md](plugins.md) |
-| `plugins/quirq` | 1 | [plugins__quirq.md](plugins__quirq.md) |
+| `plugins/quirq` | 4 | [plugins__quirq.md](plugins__quirq.md) |
 | `plugins/quirq/.codex-plugin` | 1 | [plugins__quirq__.codex-plugin.md](plugins__quirq__.codex-plugin.md) |
 | `plugins/quirq/assets` | 4 | [plugins__quirq__assets.md](plugins__quirq__assets.md) |
-| `plugins/quirq/scripts` | 2 | [plugins__quirq__scripts.md](plugins__quirq__scripts.md) |
+| `plugins/quirq/mcp` | 1 | [plugins__quirq__mcp.md](plugins__quirq__mcp.md) |
+| `plugins/quirq/scripts` | 4 | [plugins__quirq__scripts.md](plugins__quirq__scripts.md) |
 | `plugins/quirq/skills` | 0 | [plugins__quirq__skills.md](plugins__quirq__skills.md) |
 | `plugins/quirq/skills/quirq` | 1 | [plugins__quirq__skills__quirq.md](plugins__quirq__skills__quirq.md) |
 | `plugins/quirq/skills/quirq-install` | 1 | [plugins__quirq__skills__quirq-install.md](plugins__quirq__skills__quirq-install.md) |
+| `plugins/quirq/skills/quirq-onboarding` | 1 | [plugins__quirq__skills__quirq-onboarding.md](plugins__quirq__skills__quirq-onboarding.md) |
 | `plugins/quirq/skills/quirq-start` | 1 | [plugins__quirq__skills__quirq-start.md](plugins__quirq__skills__quirq-start.md) |
 | `plugins/quirq/skills/quirq-status` | 1 | [plugins__quirq__skills__quirq-status.md](plugins__quirq__skills__quirq-status.md) |
+| `plugins/quirq/ui` | 3 | [plugins__quirq__ui.md](plugins__quirq__ui.md) |
 | `routers` | 8 | [routers.md](routers.md) |
 | `routers/auth` | 4 | [routers__auth.md](routers__auth.md) |
 | `routers/cowork_agent` | 19 | [routers__cowork_agent.md](routers__cowork_agent.md) |
@@ -78,7 +81,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/adapters` | 5 | [services__cowork_agent__adapters.md](services__cowork_agent__adapters.md) |
 | `services/cowork_agent/adapters/antigravity` | 15 | [services__cowork_agent__adapters__antigravity.md](services__cowork_agent__adapters__antigravity.md) |
 | `services/cowork_agent/adapters/claude_code` | 17 | [services__cowork_agent__adapters__claude_code.md](services__cowork_agent__adapters__claude_code.md) |
-| `services/cowork_agent/adapters/codex` | 14 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
+| `services/cowork_agent/adapters/codex` | 16 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
 | `services/cowork_agent/adapters/cursor` | 2 | [services__cowork_agent__adapters__cursor.md](services__cowork_agent__adapters__cursor.md) |
 | `services/cowork_agent/adapters/grokbot` | 8 | [services__cowork_agent__adapters__grokbot.md](services__cowork_agent__adapters__grokbot.md) |
 | `services/cowork_agent/adapters/hermes` | 19 | [services__cowork_agent__adapters__hermes.md](services__cowork_agent__adapters__hermes.md) |
@@ -119,7 +122,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 128 | [tests.md](tests.md) |
+| `tests` | 133 | [tests.md](tests.md) |
 | `tests/fixtures` | 0 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/fixtures/quirq-state` | 1 | [tests__fixtures__quirq-state.md](tests__fixtures__quirq-state.md) |
 | `tests/fixtures/quirq-state/.locks` | 1 | [tests__fixtures__quirq-state__.locks.md](tests__fixtures__quirq-state__.locks.md) |
@@ -153,9 +156,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/quirq-state/usage` | 1 | [tests__fixtures__quirq-state__usage.md](tests__fixtures__quirq-state__usage.md) |
 | `tests/fixtures/xo-project` | 1 | [tests__fixtures__xo-project.md](tests__fixtures__xo-project.md) |
 | `tests/fixtures/xo-project/.xo` | 4 | [tests__fixtures__xo-project__.xo.md](tests__fixtures__xo-project__.xo.md) |
+| `tests/quirq` | 1 | [tests__quirq.md](tests__quirq.md) |
 | `tests/space_ui_preview` | 31 | [tests__space_ui_preview.md](tests__space_ui_preview.md) |
 | `tests/space_ui_preview/screenshots` | 2 | [tests__space_ui_preview__screenshots.md](tests__space_ui_preview__screenshots.md) |
 | `utils` | 3 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-06 12:18 UTC._
+_Generated 2026-10-07 12:09 UTC._

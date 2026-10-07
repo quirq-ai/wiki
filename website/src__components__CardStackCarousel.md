@@ -46,4 +46,4 @@ JSON array `quotes.json` with 9 items; first item keys: `content`.
 
 [`src/components/CardStackCarousel/quotes.json`](https://github.com/quirq-ai/website/blob/main/src/components/CardStackCarousel/quotes.json) · code · 1450 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

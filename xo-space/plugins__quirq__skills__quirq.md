@@ -12,6 +12,6 @@ Markdown page “XO Space in Codex”. Open, install or inspect XO Space (Quirq)
 workspace for coding agents. Use when the user asks to open Space, run XO Space inside
 Codex, browse their Space projects or check the local Space server.
 
-[`plugins/quirq/skills/quirq/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq/SKILL.md) · code · 2380 bytes
+[`plugins/quirq/skills/quirq/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq/SKILL.md) · code · 5469 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

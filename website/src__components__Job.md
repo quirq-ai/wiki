@@ -39,4 +39,4 @@ Helper function to parse HTML and replace anchor tags with Link components Notab
 
 [`src/components/Job/TeamsSidebar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Job/TeamsSidebar.tsx) · code · 14800 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

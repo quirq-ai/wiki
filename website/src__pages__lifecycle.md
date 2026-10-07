@@ -15,4 +15,4 @@ DataVizNav } from '../../hooks/useDataVizNavigation' Notable exports: `Lifecycle
 
 [`src/pages/lifecycle/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/lifecycle/index.tsx) · code · 4875 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

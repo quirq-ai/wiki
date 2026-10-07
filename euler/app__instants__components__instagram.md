@@ -76,4 +76,4 @@ react"; import { Dialog, DialogContent, DialogTitle, DialogDescription, } from
 
 [`app/instants/components/instagram/views.tsx`](https://github.com/quirq-ai/euler/blob/main/app/instants/components/instagram/views.tsx) · code · 20259 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._

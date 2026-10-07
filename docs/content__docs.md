@@ -32,6 +32,14 @@ components), typically rendered by the docs site.
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 295 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 333 bytes
 
-_Generated 2026-10-06 12:17 UTC from `main`._
+### qq.mdx
+
+Markdown page “qq: quirq infra in one guide”. What qq is, how a change moves through it, how
+to use it on your machine, how to add a repo, and what works today. MDX page (Markdown with
+JSX components), typically rendered by the docs site.
+
+[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 17603 bytes
+
+_Generated 2026-10-07 12:09 UTC from `main`._

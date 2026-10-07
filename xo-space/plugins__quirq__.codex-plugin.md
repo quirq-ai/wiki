@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### plugin.json
 
 JSON document `plugin.json` whose top-level keys are `name`, `version`, `description`,
-`author`, `homepage`, `repository`, `license`, `keywords`, `skills`, `interface`. Structured
-data consumed by the surrounding app or tooling.
+`author`, `homepage`, `repository`, `license`, `keywords`, `skills`, `mcpServers`,
+`extensions`, `interface`. Structured data consumed by the surrounding app or tooling.
 
-[`plugins/quirq/.codex-plugin/plugin.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/.codex-plugin/plugin.json) · code · 1351 bytes
+[`plugins/quirq/.codex-plugin/plugin.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/.codex-plugin/plugin.json) · code · 1611 bytes
 
-_Generated 2026-10-06 12:18 UTC from `main`._
+_Generated 2026-10-07 12:09 UTC from `main`._
