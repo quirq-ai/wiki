@@ -35,6 +35,6 @@ the dashboard can be run for someone else without a code change. Notable exports
 JSON document `repos.json` whose top-level keys are `_comment`, `groups`. Structured data
 consumed by the surrounding app or tooling.
 
-[`config/repos.json`](https://github.com/quirq-ai/monitoring/blob/main/config/repos.json) · code · 1175 bytes
+[`config/repos.json`](https://github.com/quirq-ai/monitoring/blob/main/config/repos.json) · code · 1342 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

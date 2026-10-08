@@ -79,7 +79,7 @@ Shared building blocks for /providers/status. Functions: `parse_env_file`,
 
 Read-only, privacy-aware catalog of machine-local Quirq state. Functions: `quirq_catalog`.
 
-[`services/cowork_agent/quirq_catalog.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/quirq_catalog.py) · code · 29043 bytes
+[`services/cowork_agent/quirq_catalog.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/quirq_catalog.py) · code · 29207 bytes
 
 ### runtime_config.py
 
@@ -130,4 +130,4 @@ Quirq machine-local UI/installation state. Functions: `get_state`, `update_state
 
 [`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 2462 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

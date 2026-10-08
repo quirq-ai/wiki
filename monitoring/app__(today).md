@@ -20,6 +20,6 @@ undefined); const snapshot = await buildSnapshot({ window }); const now = new
 Date(snapshot.generatedAt); const words = window === "24h" ? "24 hours" : "7 days"; What
 needs a lo Notable exports: `TodayPage`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/(today)/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/(today)/page.tsx) · code · 5353 bytes
+[`app/(today)/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/(today)/page.tsx) · code · 5597 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

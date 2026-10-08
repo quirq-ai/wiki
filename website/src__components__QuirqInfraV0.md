@@ -16,13 +16,13 @@ component through src/templates/QuirqInfraV0.tsx (see quirq.apps.json).
 
 ### data.ts
 
-What quirq infra (qq) v0 is, as of 2026-10-05. The repo roles, the walk-through of one
+What quirq infra (qq) v0 is, as of 2026-10-07. The repo roles, the walk-through of one
 change and the Chromium counterparts are adapted from the infra-map app in quirq-ai/research
 (MIT, infra/output/app/infra-map/src/repos.ts). Status lines come from the v0 status report
-in the same repo (infra/output/report/2026-10-05-qq-v0-status.md). The live tab reads
-current state instead.
+in the same repo (infra/output/report/2026-10-05-qq-v0-status.md), rechecked against "Where
+qq stands" in the qq guide (https://docs.quirq.dev/docs/qq) on 2026-10-07.
 
-[`src/components/QuirqInfraV0/data.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/data.ts) · code · 13457 bytes
+[`src/components/QuirqInfraV0/data.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/data.ts) · code · 14495 bytes
 
 ### index.tsx
 
@@ -44,4 +44,4 @@ each file for up to 5 minutes. Notable exports: `getJson`, `recentDays`, `useLiv
 
 [`src/components/QuirqInfraV0/live.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/live.ts) · code · 3872 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -57,4 +57,4 @@ import { useMemo } from 'react' import useProducts from 'hooks/useProducts' Nota
 
 [`src/components/ImageAnnotations/useProductScreenshot.ts`](https://github.com/quirq-ai/website/blob/main/src/components/ImageAnnotations/useProductScreenshot.ts) · code · 819 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

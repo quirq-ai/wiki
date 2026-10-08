@@ -35,7 +35,7 @@ The project README (“rollers”). rollers moves pinned dependencies and toolch
 quirq infra (qq), through the same gate as any other change, with no human in the loop. An
 agent may land a clean roll alone (plan D4).
 
-[`README.md`](https://github.com/quirq-ai/rollers/blob/main/README.md) · code · 11413 bytes
+[`README.md`](https://github.com/quirq-ai/rollers/blob/main/README.md) · code · 11925 bytes
 
 ### infra-config.commit
 
@@ -51,4 +51,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/rollers/blob/main/pyproject.toml) · code · 648 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

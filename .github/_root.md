@@ -28,14 +28,14 @@ The contributor guide (“Contributing to quirq”). Thanks for helping make age
 to start, understand, and improve. Bug reports, documentation corrections, thoughtful
 questions, and focused code changes are all welcome.
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/.github/blob/main/CONTRIBUTING.md) · code · 2973 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/.github/blob/main/CONTRIBUTING.md) · code · 3007 bytes
 
 ### README.md
 
 The project README (“Quirq on GitHub”). The public organization profile and shared community
 guidelines for [quirq-ai](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/.github/blob/main/README.md) · code · 2590 bytes
+[`README.md`](https://github.com/quirq-ai/.github/blob/main/README.md) · code · 2551 bytes
 
 ### SECURITY.md
 
@@ -48,10 +48,10 @@ credentials, or private data in public issues, discussions, or pull requests.
 ### SUPPORT.md
 
 The support guide (“Get help with quirq”). Start with the repository's README and [XO Space
-documentation](https://docs.xo.builders/). A repository's own support instructions take
+documentation](https://docs.quirq.dev/). A repository's own support instructions take
 precedence over this shared guide.
 
-[`SUPPORT.md`](https://github.com/quirq-ai/.github/blob/main/SUPPORT.md) · code · 1450 bytes
+[`SUPPORT.md`](https://github.com/quirq-ai/.github/blob/main/SUPPORT.md) · code · 1448 bytes
 
 ### requirements-dev.txt
 
@@ -59,4 +59,4 @@ Txt file `requirements-dev.txt`. PyYAML==6.0.3 markdown-it-py==4.2.0 mdurl==0.1.
 
 [`requirements-dev.txt`](https://github.com/quirq-ai/.github/blob/main/requirements-dev.txt) · code · 49 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

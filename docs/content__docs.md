@@ -40,6 +40,6 @@ Markdown page “qq: quirq infra in one guide”. What qq is, how a change moves
 to use it on your machine, how to add a repo, and what works today. MDX page (Markdown with
 JSX components), typically rendered by the docs site.
 
-[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 17603 bytes
+[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 19130 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

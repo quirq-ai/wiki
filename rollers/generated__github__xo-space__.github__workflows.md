@@ -16,4 +16,4 @@ not edit here: change rollers.toml, regenerate in quirq-ai/rollers, and copy.
 
 [`generated/github/xo-space/.github/workflows/qq-roll-land.yml`](https://github.com/quirq-ai/rollers/blob/main/generated/github/xo-space/.github/workflows/qq-roll-land.yml) · code · 58312 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

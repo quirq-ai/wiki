@@ -18,6 +18,6 @@ export default async function ReleasePage() { const snapshot = await buildSnapsh
 now = new Date(snapshot.generatedAt); const { release } = snapshot Notable exports:
 `ReleasePage`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/release/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/release/page.tsx) · code · 4639 bytes
+[`app/release/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/release/page.tsx) · code · 4671 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

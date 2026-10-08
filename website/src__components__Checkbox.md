@@ -13,4 +13,4 @@ import React from 'react' import { Check } from '../Icons/Icons' Notable exports
 
 [`src/components/Checkbox/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Checkbox/index.tsx) · code · 1493 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -12,4 +12,4 @@ import { useStaticQuery, graphql } from 'gatsby' Notable exports: `BlogPosts`.
 
 [`src/components/Blog/BlogPosts/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Blog/BlogPosts/index.tsx) · code · 1123 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -40,4 +40,4 @@ Functions: `fail`, `usage`, `absolute_directory`, `check_codex`, `install_space`
 
 [`plugins/quirq/scripts/space.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/scripts/space.sh) · code · 9583 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

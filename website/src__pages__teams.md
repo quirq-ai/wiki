@@ -36,4 +36,4 @@ Fie Notable exports: `TeamBenPage`.
 
 [`src/pages/teams/team-ben.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/teams/team-ben.tsx) · code · 15596 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

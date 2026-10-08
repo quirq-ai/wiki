@@ -14,7 +14,7 @@ the digest for * the server log, and a retry. */ export default function ErrorPa
 reset }: { error: Error & { digest?: string }; reset: () => void }) { return ( Notable
 exports: `ErrorPage`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/error.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/error.tsx) · code · 1416 bytes
+[`app/error.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/error.tsx) · code · 1428 bytes
 
 ### favicon.ico
 
@@ -27,26 +27,25 @@ blobs.
 ### globals.css
 
 Stylesheet `globals.css` for layout and visual treatment in this folder. Leading class
-selectors include `brand-wordmark`, `markdown`, `state-green`, `state-red`, `state-held`,
-`state-pending`, `state-unknown`, `state-stale`. Defines or consumes CSS custom properties
+selectors include `brand-wordmark`, `markdown`. Defines or consumes CSS custom properties
 (design tokens).
 
-[`app/globals.css`](https://github.com/quirq-ai/monitoring/blob/main/app/globals.css) · code · 6385 bytes
+[`app/globals.css`](https://github.com/quirq-ai/monitoring/blob/main/app/globals.css) · code · 6728 bytes
 
 ### layout.tsx
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" }); const poppins =
-Poppins({ subsets: ["latin"], weight: "600", variable: "--font-poppins", }); const jetbrains
-= JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains", }) Notable exports:
-`RootLayout`, `metadata`. Wired into a Next.js app (App Router or Next APIs).
+export const metadata: Metadata = { title: "quirq monitoring", description: "What changed
+across quirq-ai, and what state everything is in.", icons: { icon: "/brand/quirq/app-
+icon.svg" }, } Notable exports: `RootLayout`, `metadata`. Wired into a Next.js app (App
+Router or Next APIs).
 
-[`app/layout.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/layout.tsx) · code · 1286 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/layout.tsx) · code · 1306 bytes
 
 ### not-found.tsx
 
 export default function NotFound() { return ( Notable exports: `NotFound`. Wired into a
 Next.js app (App Router or Next APIs).
 
-[`app/not-found.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/not-found.tsx) · code · 505 bytes
+[`app/not-found.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/not-found.tsx) · code · 517 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

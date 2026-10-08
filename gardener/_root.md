@@ -37,7 +37,7 @@ a small service: it watches the post-submit run on every main commit, publishes 
 status, groups failures by regression range, bisects them to a culprit and opens clean
 reverts within the caps in infra-config's auto_revert.toml.
 
-[`README.md`](https://github.com/quirq-ai/gardener/blob/main/README.md) · code · 16273 bytes
+[`README.md`](https://github.com/quirq-ai/gardener/blob/main/README.md) · code · 16693 bytes
 
 ### pins.toml
 
@@ -55,4 +55,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/gardener/blob/main/pyproject.toml) · code · 880 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

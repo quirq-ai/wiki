@@ -12,7 +12,7 @@ The project README (“Second reference: the quirq infra field guide”). A 3:02
 quirq infra (qq), the org's CI/CD system, made with this engine on 2026-10-05 and narrated
 by Lily over an ElevenLabs bed. It is the film the quirq team asked to be made reusable.
 
-[`skills/explainer-film/references/examples/quirq-infra/README.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/quirq-infra/README.md) · code · 2967 bytes
+[`skills/explainer-film/references/examples/quirq-infra/README.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/quirq-infra/README.md) · code · 3885 bytes
 
 ### film.css
 
@@ -48,4 +48,4 @@ against FACTS.md. Lily (ElevenLabs) reads it; scripts/voice.mjs renders it. Nota
 
 [`skills/explainer-film/references/examples/quirq-infra/script.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/quirq-infra/script.mjs) · code · 3089 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

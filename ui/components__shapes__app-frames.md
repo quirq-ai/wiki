@@ -180,4 +180,4 @@ app panel with a draggable, keyboard operable handle; when both minimum widths n
 
 [`components/shapes/app-frames/sidebar-app-shell.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/app-frames/sidebar-app-shell.tsx) · code · 19825 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

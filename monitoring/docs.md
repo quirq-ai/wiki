@@ -8,10 +8,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### today-phone.png
 
-Binary PNG asset (18.5 KB). Left unsummarized; open the file in the source repository if you
+Binary PNG asset (48.9 KB). Left unsummarized; open the file in the source repository if you
 need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
 blobs.
 
-[`docs/today-phone.png`](https://github.com/quirq-ai/monitoring/blob/main/docs/today-phone.png) · binary · 18962 bytes
+[`docs/today-phone.png`](https://github.com/quirq-ai/monitoring/blob/main/docs/today-phone.png) · binary · 50109 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

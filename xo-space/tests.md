@@ -115,10 +115,10 @@ script via `if __name__ == '__main__'`. Classes: `CodexPluginRuntimeTests`. Cont
 Codex Remote Control service and routes, against fake codex-cli 0.152.x output. Runnable as
 a script via `if __name__ == '__main__'`. Classes: `FakeCli`, `_IsolatedState`,
 `ParseJsonObjectTests`, `CollapseCliErrorTests`, `SmallHelperTests`, `ResolveBinaryTests`,
-`FailureClassificationTests`, `LivePidTests`, and 6 more. Functions: `_result`, `_json`.
+`FailureClassificationTests`, `LivePidTests`, and 12 more. Functions: `_result`, `_json`.
 Built with FastAPI. Contains tests.
 
-[`tests/test_codex_remote_control.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_remote_control.py) · code · 25280 bytes
+[`tests/test_codex_remote_control.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_remote_control.py) · code · 42373 bytes
 
 ### test_codex_rollout_messages.py
 
@@ -136,7 +136,7 @@ Python module `test_command_executor.py`. Classes: `CommandSpecTests`, `SafeArgT
 `RunSpecTests`, `SkillCatalogArgvTests`, `OneExecutorTests`. Functions: `run`. Contains
 tests.
 
-[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 31785 bytes
+[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 34657 bytes
 
 ### test_command_sync_lifecycle.py
 
@@ -273,9 +273,9 @@ __name__ == '__main__'`. Classes: `InventoryCoversTheFixtures`, `StampRequiredTe
 Architecture §9.1: what counts as leftover, and when no action is offered. Runnable as a
 script via `if __name__ == '__main__'`. Classes: `LeftoverSandbox`, `RuntimeKeyDriftTests`,
 `DetectionTests`, `RuntimeSplitTests`, `LastKnownNameTests`, `MoveAsideTests`,
-`NameSourceTests`. Contains tests.
+`NameSourceTests`, `IdentityLostTests`. Contains tests.
 
-[`tests/test_doctor_leftovers.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_leftovers.py) · code · 25550 bytes
+[`tests/test_doctor_leftovers.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_leftovers.py) · code · 29512 bytes
 
 ### test_doctor_liveness.py
 
@@ -1041,4 +1041,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

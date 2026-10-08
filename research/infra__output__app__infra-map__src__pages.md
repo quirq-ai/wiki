@@ -110,4 +110,4 @@ the surrounding app or tooling.
 
 [`infra/output/app/infra-map/src/pages/toolchains.json`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/pages/toolchains.json) · code · 4165 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

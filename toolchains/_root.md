@@ -19,7 +19,7 @@ patterns are not in the clone the wiki summarizes.
 The agent/workspace instructions (“Agent guide”). How an agent changes this repo safely.
 Read README.md first.
 
-[`AGENTS.md`](https://github.com/quirq-ai/toolchains/blob/main/AGENTS.md) · code · 1460 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/toolchains/blob/main/AGENTS.md) · code · 1508 bytes
 
 ### LICENSE
 
@@ -35,7 +35,7 @@ The project README (“toolchains”). Part of quirq infra ("qq"), quirq-ai's CI
 repos in any language. This repo builds the toolchains every qq build uses, publishes them,
 pins them by digest, and promotes them from staging by reviewed pull request.
 
-[`README.md`](https://github.com/quirq-ai/toolchains/blob/main/README.md) · code · 5799 bytes
+[`README.md`](https://github.com/quirq-ai/toolchains/blob/main/README.md) · code · 5912 bytes
 
 ### promoted.toml
 
@@ -58,4 +58,4 @@ tools/qqtc.py. Sections: `github`.
 
 [`toolchains.toml`](https://github.com/quirq-ai/toolchains/blob/main/toolchains.toml) · code · 309 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

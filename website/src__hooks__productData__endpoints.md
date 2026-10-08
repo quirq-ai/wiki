@@ -25,4 +25,4 @@ EndpointsPlaygr Notable exports: `applications`, `topFeatures`.
 
 [`src/hooks/productData/endpoints/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/endpoints/slides.tsx) · code · 11053 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

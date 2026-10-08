@@ -15,4 +15,4 @@ Yup from 'yup' import { IconCheckCircle } from '@posthog/icons' Notable exports:
 
 [`src/components/PartnershipsSurvey/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/PartnershipsSurvey/index.tsx) · code · 5624 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

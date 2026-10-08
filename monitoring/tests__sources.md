@@ -9,12 +9,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### canary-report.test.ts
 
 describe("canary report", () => { it("finds the newest captured report", async () => { await
-withFixtures(); const signal = await readLatestCanaryReport(3, new
-Date("2026-10-07T12:00:00Z")); expect(signal.ok).toBe(true); if (!signal.ok) return;
-expect(signal.value.date).toBe("2026-10-06");
-expect(signal.value.markdown.length).toBeGreaterThan(50); }) Automated test file.
+withFixtures(); The fixtures also hold a {{today}}.md rendered for the real date, so now is
+pinned to a day whose three-day window the real today can never enter again (it failed on
+2026-10-07). const signal = await readLatestCanaryReport(3, new Date("2026-10-06T12:0
+Automated test file.
 
-[`tests/sources/canary-report.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-report.test.ts) · code · 860 bytes
+[`tests/sources/canary-report.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-report.test.ts) · code · 1447 bytes
 
 ### canary-runs.test.ts
 
@@ -24,7 +24,7 @@ expect(signal.ok && signal.value?.outcome).toBe("shipped"); if (!signal.ok || !s
 return; expect(signal.value.stages.map((s) => s.name)).toEqual(["build", "verify", "fuzz-
 smoke", "depl Automated test file.
 
-[`tests/sources/canary-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-runs.test.ts) · code · 4130 bytes
+[`tests/sources/canary-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-runs.test.ts) · code · 7050 bytes
 
 ### channels-config.test.ts
 
@@ -99,7 +99,7 @@ metrics.value).toEqual(["build-size", "innernet-search"]); const series = await
 readPerfSeries("innernet", "build-size"); expect(series.ok).toBe(true); if (!series.ok)
 return; expect(serie Automated test file.
 
-[`tests/sources/perf.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/perf.test.ts) · code · 2385 bytes
+[`tests/sources/perf.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/perf.test.ts) · code · 3756 bytes
 
 ### pointers.test.ts
 
@@ -172,6 +172,6 @@ expect(xo.value.coverage?.commits).toBe(11); const in Automated test file.
 const treeStatus = WRITERS.find((w) => w.id === "gardener/tree-status")! Automated test
 file.
 
-[`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 3352 bytes
+[`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 4765 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

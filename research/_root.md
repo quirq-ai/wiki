@@ -33,7 +33,7 @@ redistribution.
 
 The project README (“research”). Verified, shareable research outcomes from quirq.
 
-[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 7646 bytes
+[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 7740 bytes
 
 ### package-lock.json
 
@@ -65,4 +65,4 @@ consumed by the surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/research/blob/main/vercel.json) · code · 197 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

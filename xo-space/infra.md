@@ -15,4 +15,4 @@ generated from quirq-ai/infra-config. Sections: `qq`, `toolchains.python`, `[tar
 
 [`infra/repo.toml`](https://github.com/quirq-ai/xo-space/blob/main/infra/repo.toml) · code · 3039 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

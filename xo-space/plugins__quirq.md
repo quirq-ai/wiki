@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 JSON document `.mcp.json` whose top-level keys are `mcpServers`. Structured data consumed by
 the surrounding app or tooling.
 
-[`plugins/quirq/.mcp.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/.mcp.json) · code · 141 bytes
+[`plugins/quirq/.mcp.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/.mcp.json) · code · 155 bytes
 
 ### EXTENSIONS.md
 
@@ -39,4 +39,4 @@ JSON document `plugin.json` whose top-level keys are `name`, `version`, `descrip
 
 [`plugins/quirq/plugin.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/plugin.json) · code · 1611 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

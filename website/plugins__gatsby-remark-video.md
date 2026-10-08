@@ -19,4 +19,4 @@ npm package manifest for `gatsby-remark-video` v0.1.0. Entry `index.js`.
 
 [`plugins/gatsby-remark-video/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-remark-video/package.json) · code · 86 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -36,7 +36,7 @@ repos in any language. This repo moves builds through channels. A channel is a p
 channels/ names a commit and an artifact digest, and only the release executor moves it,
 recording an operation key before it does.
 
-[`README.md`](https://github.com/quirq-ai/release/blob/main/README.md) · code · 18663 bytes
+[`README.md`](https://github.com/quirq-ai/release/blob/main/README.md) · code · 19560 bytes
 
 ### pins.toml
 
@@ -55,4 +55,4 @@ configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/release/blob/main/pyproject.toml) · code · 1417 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -18,9 +18,9 @@ exports: `readLatestCanaryReport`, `CanaryReport`.
 release release-state canary/<repo>/runs/<date>.json: one outcome per repo per day. A day
 with no file is a day the canary did not run for that repo, which is itself worth showing.
 Notable exports: `readCanaryRun`, `recentDates`, `listCanaryRunDates`, `readCanaryDays`,
-`canaryOutcomes`, `CanaryOutcome`, `CanaryStage`, `CanaryRun`, and 1 more.
+`canaryOutcomes`, `CanaryOutcome`, `CanaryStage`, `CanaryRun`, and 2 more.
 
-[`lib/sources/canary-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-runs.ts) · code · 4518 bytes
+[`lib/sources/canary-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-runs.ts) · code · 5511 bytes
 
 ### channels-config.ts
 
@@ -85,7 +85,7 @@ perf perf-data <repo>/<metric>.jsonl: one qq-perf-record/1 per line, write-once.
 list a directory, so the metric names come from the contents API (cached an hour). Notable
 exports: `listPerfMetrics`, `readPerfSeries`, `PerfRecord`, `PerfSeries`.
 
-[`lib/sources/perf.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/perf.ts) · code · 3475 bytes
+[`lib/sources/perf.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/perf.ts) · code · 3826 bytes
 
 ### pointers.ts
 
@@ -153,4 +153,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

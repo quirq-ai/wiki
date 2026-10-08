@@ -24,4 +24,4 @@ npm package manifest for `gatsby-source-git-metadata` v0.1.0.
 
 [`plugins/gatsby-source-git-metadata/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-source-git-metadata/package.json) · code · 69 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

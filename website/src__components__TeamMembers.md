@@ -16,4 +16,4 @@ Notable exports: `TeamMembers`, `AddTeamMember`.
 
 [`src/components/TeamMembers/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TeamMembers/index.tsx) · code · 13073 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

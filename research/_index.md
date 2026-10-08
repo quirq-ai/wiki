@@ -7,8 +7,8 @@ Verified, shareable research outcomes from quirq.
 - GitHub: [https://github.com/quirq-ai/research](https://github.com/quirq-ai/research)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-07T01:00:59Z`
-- Snapshot SHA: `1f5a0368726a`
+- Last push: `2026-10-07T18:19:42Z`
+- Snapshot SHA: `26cc843379e5`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -72,4 +72,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

@@ -13,6 +13,6 @@ follows the canary channel instead of main, with no xo-space code change. Only i
 research and test environments, never on real users' machines. Real installs keep following
 main until v2.
 
-[`docs/xo-space-canary.md`](https://github.com/quirq-ai/installer/blob/main/docs/xo-space-canary.md) · code · 7539 bytes
+[`docs/xo-space-canary.md`](https://github.com/quirq-ai/installer/blob/main/docs/xo-space-canary.md) · code · 7637 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

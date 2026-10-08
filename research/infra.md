@@ -28,7 +28,7 @@ starting with the internal alpha of qq v0.
 The project README (“infra”). How quirq infra (qq), the build, test and land system behind
 the quirq repos, fits together across its 13 public repos.
 
-[`infra/README.md`](https://github.com/quirq-ai/research/blob/main/infra/README.md) · code · 9813 bytes
+[`infra/README.md`](https://github.com/quirq-ai/research/blob/main/infra/README.md) · code · 9853 bytes
 
 ### package.json
 
@@ -36,4 +36,4 @@ npm package manifest for `infra`. Scripts: `build`, `dev`.
 
 [`infra/package.json`](https://github.com/quirq-ai/research/blob/main/infra/package.json) · code · 195 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

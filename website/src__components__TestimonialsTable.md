@@ -13,4 +13,4 @@ React from 'react' Notable exports: `TestimonialsTable`.
 
 [`src/components/TestimonialsTable/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/TestimonialsTable/index.js) · code · 1598 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

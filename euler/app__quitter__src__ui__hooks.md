@@ -16,4 +16,4 @@ engine.getSnapshot, engine.getSnapshot); return { engine, snapshot }; } Notable 
 
 [`app/quitter/src/ui/hooks/useQuitterEngine.ts`](https://github.com/quirq-ai/euler/blob/main/app/quitter/src/ui/hooks/useQuitterEngine.ts) · code · 503 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

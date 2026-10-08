@@ -12,4 +12,4 @@ Composition root: switch the adapter here when the real engine is ready.
 
 [`app/quitter/src/main.tsx`](https://github.com/quirq-ai/euler/blob/main/app/quitter/src/main.tsx) · code · 458 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

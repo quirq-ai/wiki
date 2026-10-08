@@ -19,4 +19,4 @@ export type CPMTier = 'yes' | 'yes-but' | 'maybe' | 'no' Notable exports: `CPMTi
 
 [`src/lib/hogwatch/types.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/hogwatch/types.ts) · code · 899 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

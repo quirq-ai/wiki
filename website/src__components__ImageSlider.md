@@ -13,4 +13,4 @@ import { IconArrowLeft, IconArrowRight } from '@posthog/icons' import React, { u
 
 [`src/components/ImageSlider/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ImageSlider/index.tsx) · code · 1500 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

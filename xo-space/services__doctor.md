@@ -55,7 +55,7 @@ versions this xo-space reads (architecture §7.2-7.3). Classes: `Spec`. Function
 Leftover runtime data: `/projects//` no project uses. Classes: `Leftover`, `Survey`,
 `DoctorError`. Functions: `describe_unknown`, `survey`, `too_recent`, `check`, `move_aside`.
 
-[`services/doctor/leftovers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/leftovers.py) · code · 19914 bytes
+[`services/doctor/leftovers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/leftovers.py) · code · 24665 bytes
 
 ### liveness.py
 
@@ -91,7 +91,7 @@ Reading the disk without trusting it. Classes: `ReadResult`, `Tree`. Functions: 
 
 One entry per underlying problem (#188 design §10). Functions: `relate`.
 
-[`services/doctor/relate.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/relate.py) · code · 5201 bytes
+[`services/doctor/relate.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/relate.py) · code · 5228 bytes
 
 ### run.py
 
@@ -100,4 +100,4 @@ Run every check with error isolation and assemble the report (architecture §5).
 
 [`services/doctor/run.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/run.py) · code · 5251 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

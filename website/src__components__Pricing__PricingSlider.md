@@ -39,4 +39,4 @@ selectors include `slider`, `rc-slider`, `rc-slider-mark`.
 
 [`src/components/Pricing/PricingSlider/slider.css`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/PricingSlider/slider.css) · code · 776 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

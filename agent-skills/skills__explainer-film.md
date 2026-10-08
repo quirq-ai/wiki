@@ -22,6 +22,6 @@ of the Innernet field guide and quirq infra films. Use when asked for an explain
 product walkthrough film, "a video like the Innernet one" or "a film like the quirq infra
 one".
 
-[`skills/explainer-film/SKILL.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/SKILL.md) · code · 10537 bytes
+[`skills/explainer-film/SKILL.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/SKILL.md) · code · 11559 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -8,35 +8,43 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### bin.mjs
 
-@ts-check qq-setup: set up quirq infra (qq) for a GitHub org. The terminal checks your
-tools, a local form in your browser asks which org and repos, and the terminal shows the
-plan. THIS BUILD IS READ-ONLY: it reads GitHub through your gh login and writes nothing
-anywhere.
+@ts-check qq-setup: set up quirq infra (qq) for a GitHub org, or put qq on this machine to
+work on a repo that already uses it. The terminal checks your tools, a local form in your
+browser asks which, and the terminal shows the plan or prints the install commands. THIS
+BUILD IS READ-ONLY: it reads GitHub through your gh login and writes nothing anywhere.
 
-[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 8620 bytes
+[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 9644 bytes
 
 ### detect.mjs
 
 @ts-check Which qq kinds a repo fits.
 
-[`cli/detect.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/detect.mjs) · code · 3626 bytes
+[`cli/detect.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/detect.mjs) · code · 3796 bytes
 
 ### facts.mjs
 
 @ts-check What the form shows: the user's orgs and, per org, its repos with the qq kinds
 they fit. Read-only: every call here is a GET through gh (cli/gh.mjs). Notable exports:
-`listOrgs`, `listRepos`, `mapLimit`, `MAX_REPOS`.
+`listOrgs`, `listRepos`, `mapLimit`, `QQ_OWN_REPOS`, `MAX_REPOS`.
 
-[`cli/facts.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/facts.mjs) · code · 5882 bytes
+[`cli/facts.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/facts.mjs) · code · 6573 bytes
 
 ### gh.mjs
 
 @ts-check Every GitHub call goes through the user's own `gh` login: this command never
 reads, stores or prints the token, because gh makes the HTTP request itself. This build only
-reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `isName`,
-`encodeRef`, `GhError`, and 1 more.
+reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `encodeRef`,
+`GhError`, `TOKEN_VARS`, and 1 more.
 
-[`cli/gh.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/gh.mjs) · code · 4825 bytes
+[`cli/gh.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/gh.mjs) · code · 4621 bytes
+
+### names.mjs
+
+@ts-check Names: pure functions with no Node imports, so the form imports this same file
+(one copy of the rules). Notable exports: `isName`, `normalizeRepo`, `isBlankRepo`,
+`parseRepo`.
+
+[`cli/names.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/names.mjs) · code · 1206 bytes
 
 ### plan.mjs
 
@@ -52,7 +60,7 @@ exports: `checkAnswers`, `buildPlan`, `CONFIG_REPO`, `STARTERS`.
 and its scopes. Each failing check says the one thing to do about it. Notable exports:
 `checks`, `preflight`, `NEEDED_SCOPES`, `LATER_SCOPES`.
 
-[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5451 bytes
+[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5423 bytes
 
 ### protection.mjs
 
@@ -73,4 +81,14 @@ command already read. Notable exports: `startServer`.
 
 [`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 6953 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+### tools.mjs
+
+@ts-check The second way in: put qq on this machine and work on a repo that already uses it.
+qq-setup only prints these commands; it runs none of them. They are copied from the qq guide
+(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at eecdbca); change both
+together, with tests/fixtures/qq-guide-install.txt. Notable exports: `commandsFor`,
+`getLine`, `checkTools`, `toolsText`, `INSTALL`, `USE`, `USE_MAC`, `USE_NOTE`, and 3 more.
+
+[`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6264 bytes
+
+_Generated 2026-10-08 12:20 UTC from `main`._

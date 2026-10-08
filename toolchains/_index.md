@@ -7,8 +7,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - GitHub: [https://github.com/quirq-ai/toolchains](https://github.com/quirq-ai/toolchains)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-04T23:14:20Z`
-- Snapshot SHA: `44f8f959458e`
+- Last push: `2026-10-07T16:19:21Z`
+- Snapshot SHA: `f45c239330bf`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `toolchains/python` | 2 | [toolchains__python.md](toolchains__python.md) |
 | `tools` | 3 | [tools.md](tools.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

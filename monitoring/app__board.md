@@ -14,11 +14,9 @@ export default function Loading() { return ; } Notable exports: `Loading`.
 
 ### page.tsx
 
-const productColumns: { key: "tree" | "lkgr" | "canary" | "deploy"; label: string }[] = [ {
-key: "tree", label: "Tree" }, { key: "lkgr", label: "lkgr" }, { key: "canary", label:
-"Canary" }, { key: "deploy", label: "Deploy" }, ] Notable exports: `BoardPage`. Wired into a
-Next.js app (App Router or Next APIs).
+const headClass = "h-10 px-3 text-xs font-medium text-muted-foreground" Notable exports:
+`BoardPage`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/board/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/board/page.tsx) · code · 7365 bytes
+[`app/board/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/board/page.tsx) · code · 8517 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

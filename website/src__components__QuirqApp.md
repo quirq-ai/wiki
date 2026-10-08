@@ -26,4 +26,4 @@ remarkGfm from 'remark-gfm' import Explorer from 'components/Explorer' import OS
 
 [`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 9398 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

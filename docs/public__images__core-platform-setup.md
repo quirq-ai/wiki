@@ -150,4 +150,4 @@ generated blobs.
 
 [`public/images/core-platform-setup/vs-code-server-9.jpeg`](https://github.com/quirq-ai/docs/blob/main/public/images/core-platform-setup/vs-code-server-9.jpeg) · binary · 71697 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

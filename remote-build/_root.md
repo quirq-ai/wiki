@@ -36,7 +36,7 @@ The project README (“remote-build”). Part of quirq infra ("qq"), quirq-ai's 
 repos in any language. This repo is where actions run and how their results are reused: the
 executor interface and the action cache.
 
-[`README.md`](https://github.com/quirq-ai/remote-build/blob/main/README.md) · code · 4648 bytes
+[`README.md`](https://github.com/quirq-ai/remote-build/blob/main/README.md) · code · 4812 bytes
 
 ### pyproject.toml
 
@@ -46,4 +46,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/remote-build/blob/main/pyproject.toml) · code · 796 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

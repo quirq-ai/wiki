@@ -13,4 +13,4 @@ import React from 'react' import MediaPlayer from 'components/MediaPlayer' Notab
 
 [`src/pages/spicy.mov/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/spicy.mov/index.tsx) · code · 530 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -20,4 +20,4 @@ import React from 'react' import MediaPlayer from 'components/MediaPlayer' impor
 
 [`src/pages/videos/play.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/videos/play.tsx) · code · 1341 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

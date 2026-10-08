@@ -21,4 +21,4 @@ for (const g of groupSeenIn(s.seenIn)) perSurface.set(g.key, (perSurface.get(g.k
 
 [`app/(catalog)/page.tsx`](https://github.com/quirq-ai/ui/blob/main/app/(catalog)/page.tsx) · code · 7783 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

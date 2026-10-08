@@ -53,4 +53,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/space/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/meta.json) · code · 229 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

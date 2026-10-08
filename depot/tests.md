@@ -83,4 +83,4 @@ V0-DEP-02: qq sync and qq fetch get a repo's pinned toolchains and dependencies.
 
 [`tests/test_sync.py`](https://github.com/quirq-ai/depot/blob/main/tests/test_sync.py) · code · 19260 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -8,12 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### 2026-10-05-qq-build-run-locally.md
 
-Markdown page “Build and run any repo locally”. Guide, 2026-10-05. Requested by suraj. This
-is the 2026-10-04 "Build and run any repo locally" guide (quirq internal planning docs, not
-public), kept here as a guide (not re-verified against that doc in this repo). Only the
-dated facts are refreshed.
+Markdown page “Build and run any repo locally”. Current install steps: see the qq guide at
+[docs.quirq.dev/docs/qq](https://docs.quirq.dev/docs/qq). This 2026-10-05 snapshot installs
+qq and qqsync as in the setup guide, which uses unpinned sync@main.
 
-[`infra/output/report/2026-10-05-qq-build-run-locally.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-build-run-locally.md) · code · 16676 bytes
+[`infra/output/report/2026-10-05-qq-build-run-locally.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-build-run-locally.md) · code · 16888 bytes
 
 ### 2026-10-05-qq-onboard-website.md
 
@@ -35,13 +34,11 @@ to the repos' main commits read on 2026-10-05.
 
 ### 2026-10-05-qq-setup-depot-sync.md
 
-Markdown page “qq setup: depot and sync only”. Guide, 2026-10-05. Requested by suraj. This
-is the 2026-10-04 "qq setup: depot and sync only" guide (quirq internal planning docs, not
-public), kept here as a guide (not re-verified against that doc in this repo). Only the
-dated facts are refreshed: the commits, and a re-check that the Mac behaviour of qq sync has
-not changed.
+Markdown page “qq setup: depot and sync only”. Current install steps: see the qq guide at
+[docs.quirq.dev/docs/qq](https://docs.quirq.dev/docs/qq). This 2026-10-05 snapshot installs
+qqsync from unpinned sync@main; the guide pins the commit qq itself uses.
 
-[`infra/output/report/2026-10-05-qq-setup-depot-sync.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-setup-depot-sync.md) · code · 15864 bytes
+[`infra/output/report/2026-10-05-qq-setup-depot-sync.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-setup-depot-sync.md) · code · 16082 bytes
 
 ### 2026-10-05-qq-v0-status.md
 
@@ -69,4 +66,4 @@ The project README (“report”). A long-form write-up of the research.
 
 [`infra/output/report/README.md`](https://github.com/quirq-ai/research/blob/main/infra/output/report/README.md) · code · 335 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -14,4 +14,4 @@ from 'cntl' import * as Icons from '@posthog/icons' Notable exports: `getProduct
 
 [`src/components/Pricing/Addons/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/Addons/index.tsx) · code · 5870 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

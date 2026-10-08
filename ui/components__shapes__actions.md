@@ -127,4 +127,4 @@ CTA block and advisor card that carry the square button. Server-safe: no hooks.
 
 [`components/shapes/actions/pill-cta.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/actions/pill-cta.tsx) · code · 12568 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

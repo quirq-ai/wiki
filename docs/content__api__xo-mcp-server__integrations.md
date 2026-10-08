@@ -64,4 +64,4 @@ consumed by the surrounding app or tooling.
 
 [`content/api/xo-mcp-server/integrations/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/api/xo-mcp-server/integrations/meta.json) · code · 134 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

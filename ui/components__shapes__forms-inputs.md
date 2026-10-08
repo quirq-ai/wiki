@@ -281,4 +281,4 @@ with Back and Next) and StepProgress ("Step 2 of 7" over a segmented bar).
 
 [`components/shapes/forms-inputs/wizard.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/forms-inputs/wizard.tsx) · code · 25371 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

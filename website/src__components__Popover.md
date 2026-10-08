@@ -16,4 +16,4 @@ Notable exports: `Popover`.
 
 [`src/components/Popover/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Popover/index.tsx) · code · 1307 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

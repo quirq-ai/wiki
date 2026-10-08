@@ -15,4 +15,4 @@ Python module `command.py`. Runnable as a script via `if __name__ == '__main__'`
 
 [`scripts/hogfm/changehog/command.py`](https://github.com/quirq-ai/website/blob/main/scripts/hogfm/changehog/command.py) · code · 8636 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

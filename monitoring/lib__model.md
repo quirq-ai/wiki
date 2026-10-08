@@ -13,7 +13,16 @@ ReleaseRepo, type SectionRead, type Snapshot, type SourceStatus, type TodayItem,
 WaitingItem, type WriterHealth, } from "@/lib/model/types"; Joins every Signal into the one
 model the pages render.
 
-[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 34392 bytes
+[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35729 bytes
+
+### fold-runs.ts
+
+Splits a list into runs, in order, of items that fold and items that do not, so the phone
+Board can draw a run of folded rows as one card and every other row as a card of its own.
+Every item lands in exactly one run; an empty list gives no runs. Notable exports:
+`foldRuns`.
+
+[`lib/model/fold-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/fold-runs.ts) · code · 655 bytes
 
 ### freshness.ts
 
@@ -50,4 +59,4 @@ Notable exports: `SNAPSHOT_SCHEMA`, `CellStateSchema`, `CellSchema`, `SourceStat
 
 [`lib/model/types.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/types.ts) · code · 7336 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

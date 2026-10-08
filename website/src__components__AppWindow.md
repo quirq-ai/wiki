@@ -16,4 +16,4 @@ import { Men Notable exports: `AppWindow`.
 
 [`src/components/AppWindow/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/AppWindow/index.tsx) · code · 32112 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

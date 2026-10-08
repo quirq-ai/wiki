@@ -171,4 +171,4 @@ and the note on blocked or cancelled steps. NextStepCard: the step a session wor
 
 [`components/shapes/lists-tables/todo-checklist.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/lists-tables/todo-checklist.tsx) · code · 6201 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

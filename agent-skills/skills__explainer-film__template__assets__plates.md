@@ -13,4 +13,4 @@ executable source.
 
 [`skills/explainer-film/template/assets/plates/example.svg`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/assets/plates/example.svg) · code · 6627 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

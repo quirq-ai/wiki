@@ -13,4 +13,4 @@ its category's index.tsx, and no source file uses an em or en dash.
 
 [`scripts/check-shapes.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/check-shapes.mjs) · code · 1852 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

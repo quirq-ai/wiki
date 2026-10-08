@@ -14,4 +14,4 @@ Notable exports: `Banner`.
 
 [`src/components/Banner/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Banner/index.tsx) · code · 2458 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

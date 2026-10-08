@@ -12,7 +12,7 @@ Subprocess command-runner utility. Classes: `CommandResult`, `CommandSpecError`,
 `CommandSpec`. Functions: `spawn_detached`, `archive_path_for`, `run`, `run_sync`,
 `run_chain`, `safe_arg`, `split_command`, `run_spec`, and 1 more.
 
-[`utils/commands/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/__init__.py) · code · 31263 bytes
+[`utils/commands/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/__init__.py) · code · 34084 bytes
 
 ### scheduler.py
 
@@ -23,4 +23,4 @@ Functions: `jobs_file`, `state_file`, `runs_file`, `log_file`, `scheduler_enable
 
 [`utils/commands/scheduler.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/scheduler.py) · code · 31077 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

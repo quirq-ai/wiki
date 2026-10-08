@@ -7,8 +7,8 @@ website: code and deploy of the public quirq.ai site
 - GitHub: [https://github.com/quirq-ai/website](https://github.com/quirq-ai/website)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-07T00:57:01Z`
-- Snapshot SHA: `3959d4a46a12`
+- Last push: `2026-10-07T18:19:18Z`
+- Snapshot SHA: `94c138f591b9`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -688,4 +688,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `static/images` | 3 | [static__images.md](static__images.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

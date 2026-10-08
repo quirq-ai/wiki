@@ -43,4 +43,4 @@ import React from 'react' import Link from 'components/Link' Notable exports: `P
 
 [`src/components/Presentation/Utilities/parseHtml.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Presentation/Utilities/parseHtml.tsx) · code · 3591 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -83,4 +83,4 @@ desktop OS architecture.
 
 [`agents/windows.md`](https://github.com/quirq-ai/website/blob/main/agents/windows.md) · code · 1142 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

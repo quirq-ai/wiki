@@ -27,6 +27,13 @@ codex agents capability. Functions: `list_agents`, `create_agent`, `get_detail`,
 
 [`services/cowork_agent/adapters/codex/agents.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/agents.py) · code · 6584 bytes
 
+### app_server_rpc.py
+
+One JSON-RPC call to the codex app-server daemon over its control socket. Classes:
+`AppServerRpcError`. Functions: `call`.
+
+[`services/cowork_agent/adapters/codex/app_server_rpc.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/app_server_rpc.py) · code · 3564 bytes
+
 ### channels_status.py
 
 Codex channels-status view. Functions: `build_status_view`, `get_channels_status`.
@@ -64,19 +71,19 @@ Codex providers-status adapter. Functions: `get_providers_status`.
 Codex Remote Control lifecycle: start / pair / stop / inspect the codex app-server daemon so
 the ChatGPT app can drive this machine. Classes: `RemoteControlError`. Functions:
 `parse_json_object`, `collapse_cli_error`, `resolve_binary`, `get_status`, `start`, `pair`,
-`stop`.
+`pairing_status`, `stop`.
 
-[`services/cowork_agent/adapters/codex/remote_control.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/remote_control.py) · code · 19167 bytes
+[`services/cowork_agent/adapters/codex/remote_control.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/remote_control.py) · code · 30558 bytes
 
 ### routes.py
 
 codex adapter-owned routes, mounted only while codex is the active agent. Defines the
 `router` application object. HTTP routes: `GET /api/remote-control/status`, `POST
 /api/remote-control/start`, `POST /api/remote-control/pair`, `POST /api/remote-
-control/stop`. Classes: `RemoteControlStartBody`. Functions: `remote_control_status`,
-`remote_control_start`, `remote_control_pair`, `remote_control_stop`.
+control/pair/status`, `POST /api/remote-control/stop`. Classes: `RemoteControlStartBody`,
+`PairingStatusBody`.
 
-[`services/cowork_agent/adapters/codex/routes.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/routes.py) · code · 1421 bytes
+[`services/cowork_agent/adapters/codex/routes.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/routes.py) · code · 2137 bytes
 
 ### session_prompts.py
 
@@ -121,4 +128,4 @@ Classes: `Source`. Functions: `_uuid_from_rollout`.
 
 [`services/cowork_agent/adapters/codex/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/visualizer_source.py) · code · 17436 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

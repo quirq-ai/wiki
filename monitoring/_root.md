@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .env.example
 
-Environment template `.env.example` (values omitted from the wiki). Fine-grained GitHub
-token with public read only. Empty: API tiles read "no token". Keys: `GITHUB_TOKEN`,
-`MONITORING_ORG`, `MONITORING_OWNER`, `MONITORING_RAW_BASE`, `MONITORING_API_BASE`. Copy to
-`.env` locally; never commit real credentials.
+Environment template `.env.example` (values omitted from the wiki). Classic GitHub token
+with no scopes (public read only). Empty: API tiles read "no token". Keys: `GITHUB_TOKEN`,
+`MONITORING_ORG`, `MONITORING_OWNER`, `MONITORING_RAW_BASE`, `MONITORING_API_BASE`,
+`PW_CHROMIUM_PATH`. Copy to `.env` locally; never commit real credentials.
 
-[`.env.example`](https://github.com/quirq-ai/monitoring/blob/main/.env.example) · code · 389 bytes
+[`.env.example`](https://github.com/quirq-ai/monitoring/blob/main/.env.example) · code · 621 bytes
 
 ### .gitignore
 
@@ -32,7 +32,7 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 32191 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 35791 bytes
 
 ### CLAUDE.md
 
@@ -54,7 +54,7 @@ The project README (“monitoring”). The quirq-ai monitoring dashboard: one pa
 **what changed across the org and what state everything is in**, on a phone or a desktop.
 suraj's Vercel project serves it at [monitoring.quirq.dev](https://monitoring.quirq.dev/).
 
-[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 9390 bytes
+[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 10573 bytes
 
 ### eslint.config.mjs
 
@@ -77,7 +77,7 @@ the module's public entry.
 npm package manifest for `monitoring` v0.1.0. Scripts: `dev`, `build`, `start`, `lint`,
 `typecheck`, `test`, `e2e`, `live`.
 
-[`package.json`](https://github.com/quirq-ai/monitoring/blob/main/package.json) · code · 1093 bytes
+[`package.json`](https://github.com/quirq-ai/monitoring/blob/main/package.json) · code · 1116 bytes
 
 ### playwright.config.ts
 
@@ -88,12 +88,12 @@ Provides a default export as the module's public entry.
 
 ### pnpm-lock.yaml
 
-Package-manager lockfile (pnpm-lock.yaml, 284.5 KB). It pins the exact dependency tree for
+Package-manager lockfile (pnpm-lock.yaml, 285.3 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`pnpm-lock.yaml`](https://github.com/quirq-ai/monitoring/blob/main/pnpm-lock.yaml) · lockfile · 291371 bytes
+[`pnpm-lock.yaml`](https://github.com/quirq-ai/monitoring/blob/main/pnpm-lock.yaml) · lockfile · 292100 bytes
 
 ### pnpm-workspace.yaml
 
@@ -125,4 +125,4 @@ import.meta.url)), }, }, test: { include: process.env.LIVE ? ["tests/live-check.
 
 [`vitest.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/vitest.config.ts) · code · 567 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -14,4 +14,4 @@ import { Dialog, Transition } from '@headlessui/react' import { IconX } from
 
 [`src/components/Drawer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Drawer/index.tsx) · code · 3266 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

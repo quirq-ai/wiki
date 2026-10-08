@@ -217,4 +217,4 @@ HTML document `sources.html`. SOURCES Where every status on these slides comes f
 
 [`infra/output/slide/2026-10-05-qq-v0-how-to-use/slides/sources.html`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/slides/sources.html) · code · 5535 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

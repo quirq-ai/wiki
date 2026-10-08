@@ -158,4 +158,4 @@ exports: `useTimers`. Marked `'use client'` so it runs in the browser.
 
 [`components/shapes/media-files/use-timers.ts`](https://github.com/quirq-ai/ui/blob/main/components/shapes/media-files/use-timers.ts) · code · 640 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

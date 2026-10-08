@@ -89,4 +89,4 @@ Shell script `sites-env.sh`. Shebang `#!/usr/bin/env bash`. Fails fast (`set -e`
 
 [`scripts/sites-env.sh`](https://github.com/quirq-ai/instants/blob/main/scripts/sites-env.sh) · code · 1530 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

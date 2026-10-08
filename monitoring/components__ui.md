@@ -22,25 +22,15 @@ authority" import { cn } from "@/lib/utils" Notable exports: `Alert`, `AlertTitl
 
 [`components/ui/alert.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/alert.tsx) · code · 1613 bytes
 
-### badge.tsx
-
-const badgeVariants = cva( "inline-flex w-fit shrink-0 items-center justify-center gap-1
-overflow-hidden rounded-full border border-transparent px-2 py-0.5 text-xs font-medium
-whitespace-nowrap transition-[color,box-shadow] focus-visible:border-ring focus-
-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-
-invalid:ring-destruct Notable exports: `Badge`, `badgeVariants`.
-
-[`components/ui/badge.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/badge.tsx) · code · 1778 bytes
-
 ### button.tsx
 
 const buttonVariants = cva( "inline-flex shrink-0 items-center justify-center gap-2 rounded-
 md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-
-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none
-disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:ar
-Notable exports: `Button`, `buttonVariants`.
+ring focus-visible:ring-[3px] focus-visible:ring-ring disabled:pointer-events-none
+disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20
+dark:aria- Notable exports: `Button`, `buttonVariants`.
 
-[`components/ui/button.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/button.tsx) · code · 2395 bytes
+[`components/ui/button.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/button.tsx) · code · 2392 bytes
 
 ### card.tsx
 
@@ -76,4 +66,4 @@ the browser.
 
 [`components/ui/table.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/table.tsx) · code · 2477 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -13,4 +13,4 @@ Tooltip from 'components/Tooltip' import React from 'react' Notable exports: `Ta
 
 [`src/components/Tabs/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Tabs/index.tsx) · code · 5969 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

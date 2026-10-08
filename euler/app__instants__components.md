@@ -16,4 +16,4 @@ connectorErrorRecovery(error, connectorName, reconnectHref); return ( Notable ex
 
 [`app/instants/components/connector-error.tsx`](https://github.com/quirq-ai/euler/blob/main/app/instants/components/connector-error.tsx) · code · 1082 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

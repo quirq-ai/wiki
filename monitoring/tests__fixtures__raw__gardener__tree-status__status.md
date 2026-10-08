@@ -22,4 +22,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/raw/gardener/tree-status/status/xo-space.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gardener/tree-status/status/xo-space.json) · code · 714 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -7,8 +7,8 @@ Run development server
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
 - Default branch: `main`
 - Primary language (GitHub): MDX
-- Last push: `2026-10-07T11:40:27Z`
-- Snapshot SHA: `5d9371c5b79a`
+- Last push: `2026-10-07T18:19:08Z`
+- Snapshot SHA: `eecdbca671cc`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -125,4 +125,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:19 UTC._

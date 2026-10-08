@@ -12,6 +12,6 @@ Extensionless file `gh`. A stand-in for the GitHub CLI used by the e2e test: can
 for the GET calls qq-setup makes. It never touches the network. Any call it does not know
 fails the way gh does on a 404.
 
-[`tests/fake-gh/gh`](https://github.com/quirq-ai/setup/blob/main/tests/fake-gh/gh) · other · 3714 bytes
+[`tests/fake-gh/gh`](https://github.com/quirq-ai/setup/blob/main/tests/fake-gh/gh) · other · 4439 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

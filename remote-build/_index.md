@@ -7,8 +7,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - GitHub: [https://github.com/quirq-ai/remote-build](https://github.com/quirq-ai/remote-build)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-04T22:42:30Z`
-- Snapshot SHA: `62b2f04865ff`
+- Last push: `2026-10-07T16:20:06Z`
+- Snapshot SHA: `d8fea666828b`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/qqrbe/backends` | 3 | [src__qqrbe__backends.md](src__qqrbe__backends.md) |
 | `tests` | 8 | [tests.md](tests.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

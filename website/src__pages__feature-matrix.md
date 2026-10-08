@@ -12,4 +12,4 @@ Import product data to get competitor lists Notable exports: `FeatureMatrix`.
 
 [`src/pages/feature-matrix/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/feature-matrix/index.tsx) · code · 21760 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

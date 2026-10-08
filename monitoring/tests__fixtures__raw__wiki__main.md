@@ -14,4 +14,4 @@ surrounding app or tooling.
 
 [`tests/fixtures/raw/wiki/main/.quirq-wiki-manifest.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/wiki/main/.quirq-wiki-manifest.json) · code · 8130 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

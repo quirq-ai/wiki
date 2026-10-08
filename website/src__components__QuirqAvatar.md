@@ -23,4 +23,4 @@ exports: `QuirqAvatar`, `AvatarEditor`.
 
 [`src/components/QuirqAvatar/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAvatar/index.tsx) · code · 19105 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

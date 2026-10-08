@@ -64,7 +64,7 @@ open-source local control plane for AI coding agents — Claude Code, Codex, Ope
 Antigravity, and Cursor for telemetry — plus the Space UI that shows what those agents did
 to your projects. This guide is the short path from "I found something" to "it's merged".
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17746 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17749 bytes
 
 ### DEVELOPING.md
 
@@ -89,7 +89,7 @@ marketplace add quirq-ai/xo-space, then open Plugins → Quirq → XO Space and 
 In a new Codex task, say “Open XO Space” or “Install XO Space in ~/work.” The plugin handles
 first setup and opens the local UI; fresh installs use the Codex backend.
 
-[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12485 bytes
+[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12606 bytes
 
 ### LICENSE
 
@@ -104,7 +104,7 @@ redistribution.
 The project README (“XO Space”). Build, observe and measure agentic work — locally, across
 every coding agent you use.
 
-[`README.md`](https://github.com/quirq-ai/xo-space/blob/main/README.md) · code · 26891 bytes
+[`README.md`](https://github.com/quirq-ai/xo-space/blob/main/README.md) · code · 27063 bytes
 
 ### RELEASING.md
 
@@ -158,7 +158,7 @@ Txt file `requirements-dev.txt`. XO Space API — development / test dependencie
 
 Txt file `requirements.txt`. XO Space API Dependencies.
 
-[`requirements.txt`](https://github.com/quirq-ai/xo-space/blob/main/requirements.txt) · code · 2565 bytes
+[`requirements.txt`](https://github.com/quirq-ai/xo-space/blob/main/requirements.txt) · code · 2927 bytes
 
 ### server.py
 
@@ -178,4 +178,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

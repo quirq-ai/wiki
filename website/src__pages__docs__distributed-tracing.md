@@ -16,4 +16,4 @@ from 'components/ReaderView' import Link from 'components/Link' import useProduc
 
 [`src/pages/docs/distributed-tracing/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/distributed-tracing/index.tsx) · code · 5894 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

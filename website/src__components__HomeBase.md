@@ -25,4 +25,4 @@ QuirqWordmark } from 'components/QuirqBrand' import QuirqAvatar, { AvatarEditor 
 
 [`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 23911 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

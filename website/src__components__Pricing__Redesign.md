@@ -90,4 +90,4 @@ import React from 'react' import { IconAtSign, IconBolt, IconLaptop, IconPlug } 
 
 [`src/components/Pricing/Redesign/Surfaces.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/Redesign/Surfaces.tsx) · code · 1660 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

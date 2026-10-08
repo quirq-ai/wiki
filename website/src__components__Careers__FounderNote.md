@@ -14,4 +14,4 @@ image' import { James, Plus, Tim } from 'components/Signatures' import { Link } 
 
 [`src/components/Careers/FounderNote/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/FounderNote/index.tsx) · code · 5383 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

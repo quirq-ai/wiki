@@ -14,4 +14,4 @@ JSON document `lkgr.json` whose top-level keys are `commit`, `digest`, `generati
 
 [`tests/fixtures/raw/release/release-state/pointers/xo-space/lkgr.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/pointers/xo-space/lkgr.json) · code · 1151 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

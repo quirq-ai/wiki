@@ -36,7 +36,7 @@ repos in any language. This repo makes clients follow a release channel instead 
 reads which commit and artifact digest each channel names, and documents how an install
 follows one.
 
-[`README.md`](https://github.com/quirq-ai/installer/blob/main/README.md) · code · 8038 bytes
+[`README.md`](https://github.com/quirq-ai/installer/blob/main/README.md) · code · 8493 bytes
 
 ### pins.toml
 
@@ -70,4 +70,4 @@ requirements-ci.txt.
 
 [`requirements-ci.txt`](https://github.com/quirq-ai/installer/blob/main/requirements-ci.txt) · code · 18767 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

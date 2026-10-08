@@ -132,4 +132,4 @@ rendered by the docs site.
 
 [`content/docs/space/space-walk/wiki.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/wiki.mdx) · code · 3116 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

@@ -35,7 +35,7 @@ The project README (“perf”). Part of quirq infra ("qq"), quirq-ai's CI/CD sy
 in any language. This repo records performance on every post-submit commit, so v1 can alert
 on regressions and v2 can bisect them.
 
-[`README.md`](https://github.com/quirq-ai/perf/blob/main/README.md) · code · 6003 bytes
+[`README.md`](https://github.com/quirq-ai/perf/blob/main/README.md) · code · 6175 bytes
 
 ### pyproject.toml
 
@@ -46,4 +46,4 @@ configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/perf/blob/main/pyproject.toml) · code · 1374 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

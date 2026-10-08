@@ -7,8 +7,8 @@ rollers moves pinned dependencies and toolchains forward for quirq infra (qq), t
 - GitHub: [https://github.com/quirq-ai/rollers](https://github.com/quirq-ai/rollers)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-04T22:42:56Z`
-- Snapshot SHA: `4285aa4dd321`
+- Last push: `2026-10-07T16:45:13Z`
+- Snapshot SHA: `631361042aa6`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -32,4 +32,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests` | 9 | [tests.md](tests.md) |
 | `tests/fixtures` | 3 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

@@ -14,4 +14,4 @@ import { groupMenuItems } from 'lib/utils' import React from 'react' Notable exp
 
 [`src/components/QuickLinks/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuickLinks/index.tsx) · code · 1590 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

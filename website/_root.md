@@ -128,7 +128,7 @@ starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 The project README (“quirq home base”). A customizable desktop for the apps, experiments,
 and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 18984 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 19365 bytes
 
 ### SECURITY.md
 
@@ -261,4 +261,4 @@ JSON document `vercel.json` whose top-level keys are `$schema`, `framework`, `bu
 
 [`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 236 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

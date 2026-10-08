@@ -162,6 +162,6 @@ module's public entry.
 A compact local starting page. Full guides live in xo-docs. Provides a default export as the
 module's public entry.
 
-[`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8250 bytes
+[`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8251 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

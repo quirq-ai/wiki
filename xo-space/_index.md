@@ -7,8 +7,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-07T11:56:21Z`
-- Snapshot SHA: `756d058d7ae5`
+- Last push: `2026-10-08T12:00:40Z`
+- Snapshot SHA: `37bd7f791871`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -81,7 +81,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/adapters` | 5 | [services__cowork_agent__adapters.md](services__cowork_agent__adapters.md) |
 | `services/cowork_agent/adapters/antigravity` | 15 | [services__cowork_agent__adapters__antigravity.md](services__cowork_agent__adapters__antigravity.md) |
 | `services/cowork_agent/adapters/claude_code` | 17 | [services__cowork_agent__adapters__claude_code.md](services__cowork_agent__adapters__claude_code.md) |
-| `services/cowork_agent/adapters/codex` | 16 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
+| `services/cowork_agent/adapters/codex` | 17 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
 | `services/cowork_agent/adapters/cursor` | 2 | [services__cowork_agent__adapters__cursor.md](services__cowork_agent__adapters__cursor.md) |
 | `services/cowork_agent/adapters/grokbot` | 8 | [services__cowork_agent__adapters__grokbot.md](services__cowork_agent__adapters__grokbot.md) |
 | `services/cowork_agent/adapters/hermes` | 19 | [services__cowork_agent__adapters__hermes.md](services__cowork_agent__adapters__hermes.md) |
@@ -162,4 +162,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 3 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

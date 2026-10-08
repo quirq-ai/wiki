@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### setup-form.tsx
 
 import { api, keyFromHash, KIND_LABELS, STARTER_LABELS, type RepoList, type StarterKind,
-type State, } from "@/lib/api" Notable exports: `SetupForm`. Marked `'use client'` so it
-runs in the browser.
+type State, type Tools, } from "@/lib/api"; type Mode = "repos" | "tools" Notable exports:
+`SetupForm`. Marked `'use client'` so it runs in the browser.
 
-[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 13364 bytes
+[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 22080 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

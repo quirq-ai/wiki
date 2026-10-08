@@ -13,12 +13,12 @@ share the same navigation structure: Projects, Agents, Inbox, and Setup. Primary
 a section's default page; the secondary links open its pages and can be copied, opened in
 another tab, or revisited with Back/Forward.
 
-[`space_ui/README.md`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/README.md) · code · 54748 bytes
+[`space_ui/README.md`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/README.md) · code · 54749 bytes
 
 ### index.html
 
 HTML document `index.html` titled “XO Space”. XO Space.
 
-[`space_ui/index.html`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/index.html) · code · 11612 bytes
+[`space_ui/index.html`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/index.html) · code · 11615 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

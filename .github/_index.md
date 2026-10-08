@@ -7,8 +7,8 @@ Quirq's GitHub organization profile and shared community guidelines.
 - GitHub: [https://github.com/quirq-ai/.github](https://github.com/quirq-ai/.github)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-09-21T13:44:43Z`
-- Snapshot SHA: `2a29f6fdf47b`
+- Last push: `2026-10-07T18:18:08Z`
+- Snapshot SHA: `d63b49057607`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `profile/assets` | 2 | [profile__assets.md](profile__assets.md) |
 | `scripts` | 1 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:19 UTC._

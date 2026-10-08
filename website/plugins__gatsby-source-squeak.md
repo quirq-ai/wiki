@@ -26,4 +26,4 @@ Scripts: `test`, `build`. Entry `index.js`.
 
 [`plugins/gatsby-source-squeak/package.json`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-source-squeak/package.json) · code · 485 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

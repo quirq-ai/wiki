@@ -16,4 +16,4 @@ window.matchMedia('(prefers-color-scheme: dark)') darkQuery.addListener(function
 
 [`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 2036 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -13,4 +13,4 @@ a crawlable text H1 so search engines can index it. Notable exports: `Students`.
 
 [`src/pages/students/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/students/index.tsx) · code · 323 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

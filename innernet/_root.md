@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 12 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 13 pattern(s)
 including `node_modules`, `.next`, `next-env.d.ts`, `*.tsbuildinfo`, `data/*.json`,
-`data/*.tmp`, `public/guide/innernet-explainer.mp4`, `.demo-cache/`, and 4 more. Generated
+`data/*.tmp`, `public/guide/innernet-explainer.mp4`, `.demo-cache/`, and 5 more. Generated
 and secret files matching these patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/innernet/blob/main/.gitignore) · other · 576 bytes
+[`.gitignore`](https://github.com/quirq-ai/innernet/blob/main/.gitignore) · other · 640 bytes
 
 ### .vercelignore
 
@@ -48,7 +48,7 @@ This page is how to work on it. For how it behaves (the crawl rules, ranking, op
 every kind of Innerpedia page), read the field guide on the home page at
 [/#guide](http://localhost:3470/#guide).
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 15984 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/innernet/blob/main/CONTRIBUTING.md) · code · 16050 bytes
 
 ### DESIGN.md
 
@@ -140,4 +140,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

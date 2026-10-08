@@ -21,4 +21,4 @@ React from 'react' Notable exports: `SelfHost`.
 
 [`src/components/Pricing/Overlays/SelfHost.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/Overlays/SelfHost.tsx) · code · 6273 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

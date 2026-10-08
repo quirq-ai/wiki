@@ -13,4 +13,4 @@ export const metadata: Metadata = { title: "All shapes" } Notable exports: `Shap
 
 [`app/(catalog)/shapes/page.tsx`](https://github.com/quirq-ai/ui/blob/main/app/(catalog)/shapes/page.tsx) · code · 1049 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -38,4 +38,4 @@ from data, so they need no image files and stay sharp. Notable exports: `cover`,
 
 [`packages/theme/visuals.mjs`](https://github.com/quirq-ai/research/blob/main/packages/theme/visuals.mjs) · code · 6152 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

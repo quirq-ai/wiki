@@ -6,6 +6,12 @@ Source: [tests/model](https://github.com/quirq-ai/monitoring/tree/main/tests/mod
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### fold-runs.test.ts
+
+const even = (n: number) => n % 2 === 0 Automated test file.
+
+[`tests/model/fold-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/fold-runs.test.ts) · code · 1720 bytes
+
 ### repo.test.ts
 
 describe("repo view", () => { it("is null for a name that is not a repo name, with no
@@ -14,7 +20,7 @@ buildRepoView("../etc/passwd")).toBeNull(); expect(await buildRepoView("a b")).t
 expect(fixtures.log.requests).toBe(0); expect(isRepoName("innernet")).toBe(true); })
 Automated test file.
 
-[`tests/model/repo.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/repo.test.ts) · code · 2118 bytes
+[`tests/model/repo.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/repo.test.ts) · code · 3069 bytes
 
 ### snapshot.test.ts
 
@@ -22,6 +28,6 @@ const fixture = (path: string) => readFileSync(new URL(../fixtures/${path},
 import.meta.url), "utf8"); const today = () => new Date().toISOString().slice(0, 10)
 Automated test file.
 
-[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 26839 bytes
+[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 31505 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

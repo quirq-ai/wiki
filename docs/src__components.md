@@ -71,12 +71,12 @@ export function getMDXComponents(components?: MDXComponents) { return {
 
 ### quirq-home.tsx
 
-const SIGN_UP_URL = "https://app.xo.builders/sign-up?ref=docs.quirq.ai"; const
+const SIGN_UP_URL = "https://app.xo.builders/sign-up?ref=docs.quirq.dev"; const
 GITHUB_REPO_URL = "https://github.com/quirq-ai/xo-space" Notable exports: `QuirqHome`. Wired
 into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
 browser.
 
-[`src/components/quirq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/quirq-home.tsx) · code · 20758 bytes
+[`src/components/quirq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/quirq-home.tsx) · code · 20759 bytes
 
 ### research-hub.tsx
 
@@ -97,13 +97,13 @@ function DownArrow({ label }: { label: string }) { return ( Notable exports:
 
 ### start-free-bar.tsx
 
-const SIGN_UP_URL = "https://app.xo.builders/sign-up?ref=docs.quirq.ai"; /** Hide the bar
+const SIGN_UP_URL = "https://app.xo.builders/sign-up?ref=docs.quirq.dev"; /** Hide the bar
 near the page end so the docs footer / social links stay reachable. */ const
 HIDE_NEAR_BOTTOM_PX = 160; /** Matches bar content + vertical padding; reserved so content
 can scroll clear of the bar. */ const BAR_HEIGHT_PX = 60 Notable exports: `StartFreeBar`.
 Marked `'use client'` so it runs in the browser.
 
-[`src/components/start-free-bar.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/start-free-bar.tsx) · code · 3500 bytes
+[`src/components/start-free-bar.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/start-free-bar.tsx) · code · 3501 bytes
 
 ### system-sequence.tsx
 
@@ -127,6 +127,6 @@ exports: `VideoEmbed`. Marked `'use client'` so it runs in the browser.
 What is XO — 4-layer architecture explainer. Theme-aware (fd-* tokens). Notable exports:
 `WhatIsXO`. Marked `'use client'` so it runs in the browser.
 
-[`src/components/what-is-xo.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/what-is-xo.tsx) · code · 23614 bytes
+[`src/components/what-is-xo.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/what-is-xo.tsx) · code · 23615 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

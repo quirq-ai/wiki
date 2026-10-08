@@ -16,4 +16,4 @@ Timezone } from 'components/NotProductIcons' import { CallToAction } from
 
 [`src/components/Careers/JobListings/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/JobListings/index.tsx) · code · 38653 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

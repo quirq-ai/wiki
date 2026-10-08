@@ -57,4 +57,4 @@ Cross-check xo-project intent against the live OpenClaw install. Runnable as a s
 
 [`config/agents/openclaw/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/troubleshoot.py) · code · 9147 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

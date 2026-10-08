@@ -44,4 +44,4 @@ Mapping for team query parameter - makes URL less conspicuous Notable exports:
 
 [`src/components/Presentation/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Presentation/index.tsx) · code · 21741 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

@@ -37,7 +37,7 @@ repos in any language. This repo holds one adapter per target kind, found by one
 adapter is the only place in quirq infra that may name a language, a build tool or a test
 runner.
 
-[`README.md`](https://github.com/quirq-ai/recipes/blob/main/README.md) · code · 8808 bytes
+[`README.md`](https://github.com/quirq-ai/recipes/blob/main/README.md) · code · 9161 bytes
 
 ### pyproject.toml
 
@@ -47,4 +47,4 @@ data`, `tool.pytest.ini_options`. Python project metadata and tool configuration
 
 [`pyproject.toml`](https://github.com/quirq-ai/recipes/blob/main/pyproject.toml) · code · 852 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

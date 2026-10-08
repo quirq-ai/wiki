@@ -20,4 +20,4 @@ whr_embed_hook { Leading class selectors include `whr-group`, `whr-date`, `whr-l
 
 [`src/styles/workable-overrides.css`](https://github.com/quirq-ai/website/blob/main/src/styles/workable-overrides.css) · code · 1450 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

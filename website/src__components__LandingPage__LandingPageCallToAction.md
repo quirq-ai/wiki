@@ -13,4 +13,4 @@ exports: `LandingPageCallToAction`.
 
 [`src/components/LandingPage/LandingPageCallToAction/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/LandingPage/LandingPageCallToAction/index.tsx) · code · 538 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

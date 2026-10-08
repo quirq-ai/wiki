@@ -7,8 +7,8 @@ Skills that let an agent do a whole job from one prompt. Each skill is a folder 
 - GitHub: [https://github.com/quirq-ai/agent-skills](https://github.com/quirq-ai/agent-skills)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-07T11:54:26Z`
-- Snapshot SHA: `f34b37763e93`
+- Last push: `2026-10-07T18:20:26Z`
+- Snapshot SHA: `4e2b0068b074`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -35,4 +35,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `skills/explainer-film/template/src/scenes` | 3 | [skills__explainer-film__template__src__scenes.md](skills__explainer-film__template__src__scenes.md) |
 | `skills/explainer-film/template/src/themes` | 3 | [skills__explainer-film__template__src__themes.md](skills__explainer-film__template__src__themes.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:19 UTC._

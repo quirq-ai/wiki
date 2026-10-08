@@ -25,4 +25,4 @@ useAppUIState } from '../../context/App' import { getQuirqApps, quirqConfig } fr
 
 [`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7049 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

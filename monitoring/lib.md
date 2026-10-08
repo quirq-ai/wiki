@@ -20,18 +20,19 @@ Notable exports: `parseColor`, `contrast`, `parseTokenBlocks`, `contrastFailures
 
 Every network read in the app goes through this file or lib/github.ts. Pages never fetch.
 Notable exports: `rawBase`, `rawUrl`, `blobUrl`, `treeUrl`, `rememberMissing`,
-`isRememberedMissing`, `forgetMissing`, `fetchRaw`, and 8 more.
+`isRememberedMissing`, `rememberedMissingMessage`, `forgetMissing`, and 9 more.
 
-[`lib/fetch.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/fetch.ts) · code · 5247 bytes
+[`lib/fetch.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/fetch.ts) · code · 5624 bytes
 
 ### github.ts
 
 The only GitHub API client. GET only: the dashboard never writes. The token is sent only to
 api.github.com (or to a loopback fixture server under test), never anywhere else, and it is
 never logged or returned. Notable exports: `isApiOutageReason`, `rateLimitedUntil`,
-`forgetBackoff`, `apiBase`, `hasToken`, `requestsThisHour`, `ghGet`, `repoPath`, and 6 more.
+`forgetBackoff`, `apiBase`, `hasToken`, `requestsThisHour`, `isPlainNotFound`, `ghGet`, and
+7 more.
 
-[`lib/github.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/github.ts) · code · 9200 bytes
+[`lib/github.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/github.ts) · code · 11137 bytes
 
 ### signal.ts
 
@@ -48,4 +49,4 @@ exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/utils.ts) · code · 169 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

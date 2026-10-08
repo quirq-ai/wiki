@@ -19,7 +19,7 @@ Markdown page “Create an Account”. Register on XO, pick your username, and s
 under 2 minutes. MDX page (Markdown with JSX components), typically rendered by the docs
 site.
 
-[`content/docs/cloud/create-account.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/create-account.mdx) · code · 1791 bytes
+[`content/docs/cloud/create-account.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/create-account.mdx) · code · 1792 bytes
 
 ### index.mdx
 
@@ -75,4 +75,4 @@ rendered by the docs site.
 
 [`content/docs/cloud/vs-code-server.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/vs-code-server.mdx) · code · 3135 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:19 UTC from `main`._

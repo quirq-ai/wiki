@@ -18,7 +18,7 @@ Large text file (1.1 MB), over the generator's 256 KB parse cap. Only a prefix w
 inspected. Opening lines: XO Spacehtml{color-scheme:dark} See the source path
 `plugins/quirq/ui/space-app.html` for the full content.
 
-[`plugins/quirq/ui/space-app.html`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/ui/space-app.html) · huge · 1199867 bytes
+[`plugins/quirq/ui/space-app.html`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/ui/space-app.html) · huge · 1199868 bytes
 
 ### space-bridge.js
 
@@ -26,4 +26,4 @@ XO Space ↔ MCP Apps host bridge.
 
 [`plugins/quirq/ui/space-bridge.js`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/ui/space-bridge.js) · code · 26143 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

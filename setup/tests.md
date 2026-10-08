@@ -10,6 +10,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 @ts-check Automated test file.
 
-[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 14236 bytes
+[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 22897 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

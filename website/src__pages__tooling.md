@@ -16,4 +16,4 @@ import WizardCommand from 'components/WizardCom Notable exports: `Tooling`.
 
 [`src/pages/tooling/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/tooling/index.tsx) · code · 10715 bytes
 
-_Generated 2026-10-07 12:09 UTC from `main`._
+_Generated 2026-10-08 12:20 UTC from `main`._

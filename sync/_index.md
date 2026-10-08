@@ -7,8 +7,8 @@ sync owns the quirq infra (qq) repo manifest, infra/repo.toml: its versioned sch
 - GitHub: [https://github.com/quirq-ai/sync](https://github.com/quirq-ai/sync)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-04T22:41:30Z`
-- Snapshot SHA: `d97e2f747cfa`
+- Last push: `2026-10-07T16:19:52Z`
+- Snapshot SHA: `1924a994d1e4`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests` | 6 | [tests.md](tests.md) |
 | `tests/fixtures` | 2 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._

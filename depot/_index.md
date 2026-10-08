@@ -7,8 +7,8 @@ depot is qq, the quirq infra command line. Every repo that quirq infra builds pi
 - GitHub: [https://github.com/quirq-ai/depot](https://github.com/quirq-ai/depot)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-07T02:30:34Z`
-- Snapshot SHA: `52d4e99de933`
+- Last push: `2026-10-07T16:43:25Z`
+- Snapshot SHA: `982ce856e29f`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -28,4 +28,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/parity_adapters` | 3 | [tests__parity_adapters.md](tests__parity_adapters.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:19 UTC._

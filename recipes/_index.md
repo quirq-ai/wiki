@@ -7,8 +7,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - GitHub: [https://github.com/quirq-ai/recipes](https://github.com/quirq-ai/recipes)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-04T22:50:45Z`
-- Snapshot SHA: `db6ce0a19ea0`
+- Last push: `2026-10-07T16:23:56Z`
+- Snapshot SHA: `05c258b4fa93`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake_adapters` | 6 | [tests__fake_adapters.md](tests__fake_adapters.md) |
 | `tools` | 2 | [tools.md](tools.md) |
 
-_Generated 2026-10-07 12:09 UTC._
+_Generated 2026-10-08 12:20 UTC._
