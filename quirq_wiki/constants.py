@@ -29,6 +29,7 @@ RESERVED_TOP_LEVEL = frozenset(
         "tests",
         "examples",
         "scripts",
+        "_activity",
     }
 )
 

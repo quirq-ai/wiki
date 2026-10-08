@@ -5,6 +5,7 @@
 Run development server
 
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
+- [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): MDX
 - Last push: `2026-10-07T18:19:08Z`

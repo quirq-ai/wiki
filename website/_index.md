@@ -5,6 +5,7 @@
 website: code and deploy of the public quirq.ai site
 
 - GitHub: [https://github.com/quirq-ai/website](https://github.com/quirq-ai/website)
+- [Activity history](../_activity/repos/website.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-07T18:19:18Z`

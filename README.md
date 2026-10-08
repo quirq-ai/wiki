@@ -4,7 +4,7 @@ A map of **what lives where** across every public repository in [`quirq-ai`](htt
 
 Each public repo gets a folder here. Each source directory gets one markdown page. File-level pages are generated — edit the generator or this README, not those pages. This `wiki` repo is not documented as content (no `wiki/` folder).
 
-[Index](INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
+[Index](INDEX.md) · [Activity](_activity/INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
 
 ## Repos
 
@@ -154,6 +154,36 @@ python3 -m quirq_wiki generate --out . --repo galileo   # one folder
 ```
 
 `--changed-paths`, `--include-archived`, `--cache-dir`, `--dry-run`, `--source-map`, `--repos-json` exist for incremental, tests, and airgap clones.
+
+## Daily activity archive
+
+[Browse the activity index](_activity/INDEX.md). Activity covers **every public organization repository**, including forks, archived repositories and this wiki. Source-code documentation still excludes this wiki.
+
+The collector stores commits reachable from current branches, pull request and issue updates, published releases, and workflow runs. Daily batches use the record's UTC source timestamp; rerunning a collection merges records without duplicating previously stored revisions. Markdown indexes group the same records by day and repository.
+
+```sh
+python -m quirq_wiki activity --out .                         # first run: previous seven days
+python -m quirq_wiki activity --out . --since 2026-10-01       # explicit backfill
+python -m quirq_wiki activity --out . --repo gardener          # one public repository
+python -m quirq_wiki activity --out . --git-credential         # local GitHub credential helper
+```
+
+Use `GITHUB_TOKEN` or `GH_TOKEN` for an organization-wide run. `--git-credential` opts into the existing local Git credential helper; credentials stay in memory and are never written to the archive. Collection uses no paid APIs or new runtime dependencies.
+
+```text
+_activity/
+  INDEX.md                       # all dates, repositories and collection status
+  state.json                     # per-repository success cursor and pending runs
+  repos/gardener.md               # repository activity index
+  2026/10/08/README.md            # readable daily batch
+  2026/10/08/records.jsonl         # structured records with stable IDs
+```
+
+After the first collection, successful repositories resume with a one-day overlap. A repository cursor advances only after all sources have been collected and its records are stored. Failed repositories retain their cursor, completed repositories remain saved, and the command exits nonzero. Corrupt archives are reported instead of silently overwritten. Writes are atomic per file and a process lock prevents overlapping local collectors.
+
+The [activity workflow](.github/workflows/activity-sync.yml) runs daily at **06:15 UTC** once these changes are pushed to the default branch and Actions is enabled. It shares the wiki-sync concurrency group, commits batches under `_activity/`, and reports partial failures. It uses the workflow token by default; an optional `WIKI_ACTIVITY_TOKEN` with read access to public repository metadata, issues/PRs and Actions can supply extra access or API capacity. Branch protections may require allowing the workflow's commit or adapting the workflow to open a PR.
+
+**Coverage:** this is an archive of observed metadata, not an exhaustive event audit. The first run covers seven days unless `--since` is supplied. GitHub exposes current PR/issue/workflow state, so changes between polls can be missed. The issue/PR actor is its author, not necessarily the person who made its latest update. Commit dates are not push dates; deleted branches, force-pushed-away commits, and old commits newly pushed outside the query window cannot be reconstructed. Tag-only refs, deleted items, comment bodies, private repositories, and draft releases are not collected. Release edits without an exposed update timestamp cannot be dated reliably. Workflow updates are checked across all returned pages, including old runs. Previously collected public history remains in the archive if a repository later becomes private or disappears; no new private data is fetched.
 
 ### Near-commit updates (org-admin)
 

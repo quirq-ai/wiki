@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo is where actions run and how their results are reused: the executor interface and the action cache.
 
 - GitHub: [https://github.com/quirq-ai/remote-build](https://github.com/quirq-ai/remote-build)
+- [Activity history](../_activity/repos/remote-build.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:20:06Z`

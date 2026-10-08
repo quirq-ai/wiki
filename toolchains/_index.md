@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo builds the toolchains every qq build uses, publishes them, pins them by digest, and promotes them from staging by reviewed pull request.
 
 - GitHub: [https://github.com/quirq-ai/toolchains](https://github.com/quirq-ai/toolchains)
+- [Activity history](../_activity/repos/toolchains.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:19:21Z`

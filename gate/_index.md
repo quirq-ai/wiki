@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo decides what must pass before a change lands: the required checks, computed from [infra-config](https://github.com/quirq-ai/infra-config) and each repo's manifest, and the merge queue that verifies the exact merge result before it
 
 - GitHub: [https://github.com/quirq-ai/gate](https://github.com/quirq-ai/gate)
+- [Activity history](../_activity/repos/gate.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:42:09Z`

@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo records performance on every post-submit commit, so v1 can alert on regressions and v2 can bisect them.
 
 - GitHub: [https://github.com/quirq-ai/perf](https://github.com/quirq-ai/perf)
+- [Activity history](../_activity/repos/perf.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T19:36:05Z`

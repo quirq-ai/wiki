@@ -5,6 +5,7 @@
 Euler Your apps. One home. One dock.
 
 - GitHub: [https://github.com/quirq-ai/euler](https://github.com/quirq-ai/euler)
+- [Activity history](../_activity/repos/euler.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-04T22:34:12Z`

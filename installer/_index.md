@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo makes clients follow a release channel instead of main: it reads which commit and artifact digest each channel names, and documents how an install follows one.
 
 - GitHub: [https://github.com/quirq-ai/installer](https://github.com/quirq-ai/installer)
+- [Activity history](../_activity/repos/installer.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:41:25Z`

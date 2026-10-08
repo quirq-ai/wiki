@@ -5,6 +5,7 @@
 sync owns the quirq infra (qq) repo manifest, infra/repo.toml: its versioned schema, the only library that reads and edits it (qqsync), and the checks that keep pins honest.
 
 - GitHub: [https://github.com/quirq-ai/sync](https://github.com/quirq-ai/sync)
+- [Activity history](../_activity/repos/sync.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:19:52Z`

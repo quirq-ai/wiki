@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo holds one adapter per target kind, found by one loader. An adapter is the only place in quirq infra that may name a language, a build tool or a test runner.
 
 - GitHub: [https://github.com/quirq-ai/recipes](https://github.com/quirq-ai/recipes)
+- [Activity history](../_activity/repos/recipes.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:23:56Z`

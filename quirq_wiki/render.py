@@ -117,6 +117,7 @@ def render_repo_index(
         f"{description}",
         "",
         f"- GitHub: [{repo.html_url}]({repo.html_url})",
+        f"- [Activity history](../_activity/repos/{repo.name}.md)",
         f"- Default branch: `{repo.default_branch}`",
     ]
     if repo.language:

@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo moves builds through channels. A channel is a pointer: channels/ names a commit and an artifact digest, and only the release executor moves it, recording an operation key before it does.
 
 - GitHub: [https://github.com/quirq-ai/release](https://github.com/quirq-ai/release)
+- [Activity history](../_activity/repos/release.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-08T07:44:45Z`

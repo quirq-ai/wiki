@@ -5,6 +5,7 @@
 Verified, shareable research outcomes from quirq.
 
 - GitHub: [https://github.com/quirq-ai/research](https://github.com/quirq-ai/research)
+- [Activity history](../_activity/repos/research.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
 - Last push: `2026-10-07T18:19:42Z`

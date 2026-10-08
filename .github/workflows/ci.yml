@@ -30,4 +30,5 @@ jobs:
       - name: Offline generate smoke
         run: |
           python -m quirq_wiki generate --help
+          python -m quirq_wiki activity --help
           python -m quirq_wiki list-repos --repos-json tests/fixtures/repos.json

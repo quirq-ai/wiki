@@ -5,6 +5,7 @@
 _No GitHub description; README did not yield an intro paragraph._
 
 - GitHub: [https://github.com/quirq-ai/quirqy](https://github.com/quirq-ai/quirqy)
+- [Activity history](../_activity/repos/quirqy.md)
 - Default branch: `main`
 - Last push: `2026-10-03T10:16:59Z`
 

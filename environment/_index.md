@@ -5,6 +5,7 @@
 _No GitHub description; README did not yield an intro paragraph._
 
 - GitHub: [https://github.com/quirq-ai/environment](https://github.com/quirq-ai/environment)
+- [Activity history](../_activity/repos/environment.md)
 - Default branch: `main`
 - Last push: `2026-07-24T19:31:18Z`
 - Snapshot SHA: `094ed6ebb2dd`

@@ -5,6 +5,7 @@
 The quirq-ai monitoring dashboard: one page that says **what changed across the org and what state everything is in**, on a phone or a desktop. suraj's Vercel project serves it at [monitoring.quirq.dev](https://monitoring.quirq.dev/).
 
 - GitHub: [https://github.com/quirq-ai/monitoring](https://github.com/quirq-ai/monitoring)
+- [Activity history](../_activity/repos/monitoring.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-08T10:02:19Z`

@@ -5,6 +5,7 @@
 One command to set up qq for a GitHub org
 
 - GitHub: [https://github.com/quirq-ai/setup](https://github.com/quirq-ai/setup)
+- [Activity history](../_activity/repos/setup.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
 - Last push: `2026-10-07T19:08:37Z`
