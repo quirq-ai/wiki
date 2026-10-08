@@ -5,6 +5,7 @@
 Build, observe and measure agentic work — locally, across every coding agent you use.
 
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
+- [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-08T12:00:40Z`

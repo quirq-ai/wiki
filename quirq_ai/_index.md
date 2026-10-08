@@ -5,6 +5,7 @@
 quirq · work at light speed
 
 - GitHub: [https://github.com/quirq-ai/quirq_ai](https://github.com/quirq-ai/quirq_ai)
+- [Activity history](../_activity/repos/quirq_ai.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-09-28T16:39:08Z`

@@ -50,6 +50,7 @@ jobs:
       - name: Checkout wiki
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -102,5 +103,6 @@ jobs:
               --title "[wiki-bot] regenerate ${scope} wiki snapshot" \
               --body "Automated wiki refresh from the wiki-sync workflow."
           else
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

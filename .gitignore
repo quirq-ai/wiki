@@ -11,4 +11,5 @@ __pycache__/
 htmlcov/
 .env
 .DS_Store
-
+_activity/.state-*.tmp
+_activity/**/.activity-*.tmp

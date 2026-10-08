@@ -5,6 +5,7 @@
 Every UI component shape used across quirq products, demoed live in one Next.js app.
 
 - GitHub: [https://github.com/quirq-ai/ui](https://github.com/quirq-ai/ui)
+- [Activity history](../_activity/repos/ui.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-06T22:49:59Z`

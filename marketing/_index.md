@@ -5,6 +5,7 @@
 marketing: campaign copy, launch posts and brand assets
 
 - GitHub: [https://github.com/quirq-ai/marketing](https://github.com/quirq-ai/marketing)
+- [Activity history](../_activity/repos/marketing.md)
 - Default branch: `main`
 - Last push: `2026-10-06T21:33:21Z`
 - Snapshot SHA: `189a217aad79`

@@ -5,6 +5,7 @@
 Configuration as code for quirq infra (qq), the CI/CD system for every quirq-ai repo. This repo declares the whole system as data: which repos are onboarded, what builds them, how a change lands, how releases move through channels, and the limits on what agents may do alone. A change here is a pull request that goes th
 
 - GitHub: [https://github.com/quirq-ai/infra-config](https://github.com/quirq-ai/infra-config)
+- [Activity history](../_activity/repos/infra-config.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:45:10Z`

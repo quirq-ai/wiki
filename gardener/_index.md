@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo keeps main green in every onboarded repo, as an agent plus a small service: it watches the post-submit run on every main commit, publishes a tree status, groups failures by regression range, bisects them to a culprit and opens clea
 
 - GitHub: [https://github.com/quirq-ai/gardener](https://github.com/quirq-ai/gardener)
+- [Activity history](../_activity/repos/gardener.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-08T12:02:31Z`

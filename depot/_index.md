@@ -5,6 +5,7 @@
 depot is qq, the quirq infra command line. Every repo that quirq infra builds pins the qq version it runs in its manifest, infra/repo.toml, and qq installs and runs exactly that version.
 
 - GitHub: [https://github.com/quirq-ai/depot](https://github.com/quirq-ai/depot)
+- [Activity history](../_activity/repos/depot.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:43:25Z`

@@ -1,0 +1,73 @@
+name: Daily activity index
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: Optional single public repository (empty for all public repos)
+        required: false
+        type: string
+      since:
+        description: Optional backfill start in UTC, e.g. 2026-10-01
+        required: false
+        type: string
+
+# Share the content generator's lock so the two writers never push concurrently.
+concurrency:
+  group: wiki-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+  issues: read
+  pull-requests: read
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install and test
+        run: |
+          python -m pip install -e ".[dev]"
+          python -m pytest
+      - name: Collect public activity
+        id: collect
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIKI_ACTIVITY_TOKEN || secrets.GITHUB_TOKEN }}
+          ACTIVITY_REPO: ${{ inputs.repo }}
+          ACTIVITY_SINCE: ${{ inputs.since }}
+        run: |
+          set -euo pipefail
+          extra=()
+          if [ -n "${ACTIVITY_REPO}" ]; then extra+=(--repo "${ACTIVITY_REPO}"); fi
+          if [ -n "${ACTIVITY_SINCE}" ]; then extra+=(--since "${ACTIVITY_SINCE}"); fi
+          python -m quirq_wiki activity --out . "${extra[@]}"
+      - name: Commit completed batches and collection status
+        if: steps.collect.outcome == 'success' || steps.collect.outcome == 'failure'
+        run: |
+          set -euo pipefail
+          if [ ! -d _activity ]; then exit 0; fi
+          git add -- _activity
+          git add -u -- INDEX.md ':(glob)*/_index.md'
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "[wiki-bot] batch public repository activity"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Report incomplete collection
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'Collection was incomplete. Completed batches were saved; failed repository cursors were preserved.'
+          exit 1

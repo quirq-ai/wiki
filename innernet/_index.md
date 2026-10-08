@@ -5,6 +5,7 @@
 innernet
 
 - GitHub: [https://github.com/quirq-ai/innernet](https://github.com/quirq-ai/innernet)
+- [Activity history](../_activity/repos/innernet.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-07T18:21:55Z`

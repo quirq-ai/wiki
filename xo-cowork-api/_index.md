@@ -5,6 +5,7 @@
 The local control plane for AI coding agents. One workspace, many runtimes — Claude Code, OpenClaw, Codex, Hermes, Antigravity, and whatever comes next.
 
 - GitHub: [https://github.com/quirq-ai/xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api)
+- [Activity history](../_activity/repos/xo-cowork-api.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-08-28T14:48:39Z`

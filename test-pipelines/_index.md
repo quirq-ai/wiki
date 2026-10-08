@@ -5,6 +5,7 @@
 Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. This repo turns test output into stored results and mechanical verdicts.
 
 - GitHub: [https://github.com/quirq-ai/test-pipelines](https://github.com/quirq-ai/test-pipelines)
+- [Activity history](../_activity/repos/test-pipelines.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-08T06:17:39Z`
