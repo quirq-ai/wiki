@@ -249,4 +249,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`components/shapes/layout/use-motion.ts`](https://github.com/quirq-ai/ui/blob/main/components/shapes/layout/use-motion.ts) · code · 1476 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

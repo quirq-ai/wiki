@@ -27,4 +27,11 @@ Environment-derived runtime facts that are needed below the services layer. Func
 
 [`utils/runtime_env.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/runtime_env.py) · code · 2458 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+### safe_read.py
+
+Reading a state file whole without trusting what sits at its path. Classes:
+`NotARegularFile`, `FileTooLarge`. Functions: `read_text_guarded`.
+
+[`utils/safe_read.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/safe_read.py) · code · 2895 bytes
+
+_Generated 2026-10-09 12:10 UTC from `main`._

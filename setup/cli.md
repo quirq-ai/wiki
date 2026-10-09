@@ -27,7 +27,7 @@ BUILD IS READ-ONLY: it reads GitHub through your gh login and writes nothing any
 they fit. Read-only: every call here is a GET through gh (cli/gh.mjs). Notable exports:
 `listOrgs`, `listRepos`, `mapLimit`, `QQ_OWN_REPOS`, `MAX_REPOS`.
 
-[`cli/facts.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/facts.mjs) · code · 6573 bytes
+[`cli/facts.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/facts.mjs) · code · 6570 bytes
 
 ### gh.mjs
 
@@ -85,10 +85,10 @@ command already read. Notable exports: `startServer`.
 
 @ts-check The second way in: put qq on this machine and work on a repo that already uses it.
 qq-setup only prints these commands; it runs none of them. They are copied from the qq guide
-(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at eecdbca); change both
+(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at e67769e); change both
 together, with tests/fixtures/qq-guide-install.txt. Notable exports: `commandsFor`,
 `getLine`, `checkTools`, `toolsText`, `INSTALL`, `USE`, `USE_MAC`, `USE_NOTE`, and 3 more.
 
-[`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6264 bytes
+[`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6261 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

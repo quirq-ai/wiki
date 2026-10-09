@@ -34,4 +34,4 @@ import { SectionHeader } from './SectionHeader' Notable exports: `Structure`.
 
 [`src/components/Structure/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Structure/index.tsx) · code · 264 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

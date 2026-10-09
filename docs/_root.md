@@ -25,9 +25,12 @@ patterns are not in the clone the wiki summarizes.
 
 ### README.md
 
-The project README (“XO Docs”). Run development server.
+The project README (“XO Docs”). The docs are live at
+[docs.quirq.dev](https://docs.quirq.dev/). New here? Start at
+[docs.quirq.dev/docs/start](https://docs.quirq.dev/docs/start), which links the main guides
+and sites on one page. The rest of this file is for people working on the docs site itself.
 
-[`README.md`](https://github.com/quirq-ai/docs/blob/main/README.md) · code · 1483 bytes
+[`README.md`](https://github.com/quirq-ai/docs/blob/main/README.md) · code · 1751 bytes
 
 ### biome.json
 
@@ -48,7 +51,7 @@ tooling.
 
 const withMDX = createMDX() Provides a default export as the module's public entry.
 
-[`next.config.mjs`](https://github.com/quirq-ai/docs/blob/main/next.config.mjs) · code · 2432 bytes
+[`next.config.mjs`](https://github.com/quirq-ai/docs/blob/main/next.config.mjs) · code · 2537 bytes
 
 ### package-lock.json
 
@@ -112,4 +115,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/docs/blob/main/tsconfig.json) · code · 740 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

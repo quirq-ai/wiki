@@ -23,11 +23,10 @@ site.
 
 ### index.mdx
 
-Markdown page “Cloud Space (Managed)”. Pre-provisioned cloud infrastructure for running XO
-Space on managed remote machines. MDX page (Markdown with JSX components), typically
-rendered by the docs site.
+Markdown page “XO Cloud”. XO Space, run for you at app.xo.builders. Nothing to install. MDX
+page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/cloud/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/index.mdx) · code · 2595 bytes
+[`content/docs/cloud/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/index.mdx) · code · 1920 bytes
 
 ### launch-first-agent.mdx
 
@@ -50,15 +49,14 @@ typically rendered by the docs site.
 JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/cloud/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/meta.json) · code · 260 bytes
+[`content/docs/cloud/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/meta.json) · code · 247 bytes
 
 ### overview.mdx
 
-Markdown page “Overview”. What XO Cloud is, how it differs from XO Space, and the path from
-account to a running agent. MDX page (Markdown with JSX components), typically rendered by
-the docs site.
+Markdown page “Overview”. XO Cloud or XO Space on your own computer, and how to pick. MDX
+page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/cloud/overview.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/overview.mdx) · code · 3005 bytes
+[`content/docs/cloud/overview.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/overview.mdx) · code · 1371 bytes
 
 ### share-project.mdx
 
@@ -75,4 +73,4 @@ rendered by the docs site.
 
 [`content/docs/cloud/vs-code-server.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/vs-code-server.mdx) · code · 3135 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

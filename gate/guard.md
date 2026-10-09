@@ -13,6 +13,6 @@ language, build tool or deploy target; anything language-specific lives in a rec
 adapter, found through one loader. Changing this file is a policy change (verification
 surface), so it needs suraj. Sections: `terms`, `[allow`.
 
-[`guard/terms.toml`](https://github.com/quirq-ai/gate/blob/main/guard/terms.toml) · code · 4888 bytes
+[`guard/terms.toml`](https://github.com/quirq-ai/gate/blob/main/guard/terms.toml) · code · 4846 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

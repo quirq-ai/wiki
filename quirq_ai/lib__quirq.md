@@ -116,4 +116,4 @@ The simulated workspace behind the browser mint flow. Automated test file.
 
 [`lib/quirq/workspace.test.mjs`](https://github.com/quirq-ai/quirq_ai/blob/main/lib/quirq/workspace.test.mjs) · code · 7197 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

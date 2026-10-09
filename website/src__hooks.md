@@ -337,13 +337,6 @@ import { useEffect, useState } from 'react' import qs from 'qs' Notable exports:
 
 [`src/hooks/useTeamUpdates.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/useTeamUpdates.tsx) · code · 2196 bytes
 
-### useTheme.tsx
-
-import { useState, useEffect } from 'react' Notable exports: `useTheme`, `ThemeOption`,
-`themeOptions`, `getWallpaperClasses`, `getThemeSpecificBackgroundColors`.
-
-[`src/hooks/useTheme.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/useTheme.tsx) · code · 1365 bytes
-
 ### useUser.tsx
 
 Sentinel value used by posthog-js for cookieless tracking mode Notable exports: `User`,
@@ -376,4 +369,4 @@ import { useState, useEffect } from 'react' Notable exports: `useWistiaThumbnail
 
 [`src/hooks/useWistiaThumbnail.ts`](https://github.com/quirq-ai/website/blob/main/src/hooks/useWistiaThumbnail.ts) · code · 1330 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

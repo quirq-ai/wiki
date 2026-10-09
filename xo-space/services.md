@@ -19,7 +19,7 @@ Functions: `redact`, `describe`, `register`, `tick_started`, `tick_succeeded`,
 Workspace display name and logo, saved together as one atomic setting. Classes:
 `BrandingError`. Functions: `get_branding`, `save_branding`, `get_logo`.
 
-[`services/branding.py`](https://github.com/quirq-ai/xo-space/blob/main/services/branding.py) · code · 6364 bytes
+[`services/branding.py`](https://github.com/quirq-ai/xo-space/blob/main/services/branding.py) · code · 6401 bytes
 
 ### errors.py
 
@@ -60,7 +60,7 @@ Telemetry source configuration behind the Agents tab's Configure page. Classes:
 The workspace's saved visual theme, separate from its name and logo. Classes: `ThemeError`.
 Functions: `get_theme`, `save_theme`.
 
-[`services/theme.py`](https://github.com/quirq-ai/xo-space/blob/main/services/theme.py) · code · 2390 bytes
+[`services/theme.py`](https://github.com/quirq-ai/xo-space/blob/main/services/theme.py) · code · 2427 bytes
 
 ### timestamps.py
 
@@ -90,4 +90,4 @@ The canonical `.xo/` directory every xo-project carries. Classes: `EnsureReport`
 
 [`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 10075 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

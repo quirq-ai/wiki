@@ -165,13 +165,13 @@ IconList, IconList.
 
 ### display-options.tsx
 
-import React, { useState, useEffect } from 'react' import { createPortal } from 'react-dom'
-import WindowTabs from 'components/WindowTabs' import { Fieldset } from
-'components/OSFieldset' import { ToggleGroup, ToggleOption } from
-'components/RadixUI/ToggleGroup' import { Popover } from 'components/RadixUI/Popover' import
-ScrollArea from 'components/RadixUI/S Notable exports: `DisplayOptions`.
+import React, { useState } from 'react' import { createPortal } from 'react-dom' import
+WindowTabs from 'components/WindowTabs' import { Fieldset } from 'components/OSFieldset'
+import { ToggleGroup, ToggleOption } from 'components/RadixUI/ToggleGroup' import { IconDay,
+IconEye, IconHide, IconInfo, IconLaptop, IconNight } from '@posthog/icons' import { SEO }
+Notable exports: `DisplayOptions`.
 
-[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 13638 bytes
+[`src/pages/display-options.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/display-options.tsx) · code · 7768 bytes
 
 ### dpa.tsx
 
@@ -573,4 +573,4 @@ import React from 'react' import SEO from 'components/seo' import WhyPostHogView
 
 [`src/pages/workflow.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/workflow.tsx) · code · 4565 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

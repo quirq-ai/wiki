@@ -14,4 +14,4 @@ in services/usage_sync.py].
 
 [`docs/openclaw-usage-sync-flow.md`](https://github.com/quirq-ai/xo-cowork-api/blob/main/docs/openclaw-usage-sync-flow.md) · code · 1423 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -12,16 +12,16 @@ The project README (“Dock”). Euler's floating glass dock, used as the site's
 in place of the old top bar. It sits below the desktop viewport, so windows end above it
 rather than under it.
 
-[`src/components/Dock/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/README.md) · code · 982 bytes
+[`src/components/Dock/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/README.md) · code · 1227 bytes
 
 ### index.tsx
 
 import React from 'react' import { IconApp, IconSearch } from '@posthog/icons' import Link
 from 'components/Link' import ActiveWindowsPanel from 'components/ActiveWindowsPanel' import
-{ QuirqAppTile } from 'components/QuirqAppIcon' import QuirqAvatar from
-'components/QuirqAvatar' import { useAppActions, useAppWindows } from '../../context/App'
-Notable exports: `Dock`.
+{ QuirqAppTile } from 'components/QuirqAppIcon' import { QuirqAvatarTile } from
+'components/QuirqAvatar' import { useOpenQuirqy } from 'components/Quirqy' import {
+QUIRQY_WINDO Notable exports: `Dock`.
 
-[`src/components/Dock/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/index.tsx) · code · 6331 bytes
+[`src/components/Dock/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/index.tsx) · code · 7706 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

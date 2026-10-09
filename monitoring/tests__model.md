@@ -12,6 +12,14 @@ const even = (n: number) => n % 2 === 0 Automated test file.
 
 [`tests/model/fold-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/fold-runs.test.ts) · code · 1720 bytes
 
+### matrix.test.ts
+
+function item(repo: string, at: string, state: TodayItem["state"] = "green"): TodayItem {
+return { kind: "merged", repo, title: ${repo} at ${at}, at, url: https://github.com/quirq-
+ai/${repo}, state }; } Automated test file.
+
+[`tests/model/matrix.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/matrix.test.ts) · code · 1681 bytes
+
 ### repo.test.ts
 
 describe("repo view", () => { it("is null for a name that is not a repo name, with no
@@ -28,6 +36,14 @@ const fixture = (path: string) => readFileSync(new URL(../fixtures/${path},
 import.meta.url), "utf8"); const today = () => new Date().toISOString().slice(0, 10)
 Automated test file.
 
-[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 31505 bytes
+[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 31565 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+### stale.test.ts
+
+const now = new Date("2026-10-08T12:00:00Z"); const readAgo = (seconds: number, maxAge:
+number): Read => ({ fetchedAt: new Date(now.getTime() - seconds * 1000).toISOString(),
+maxAge }) Automated test file.
+
+[`tests/model/stale.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/stale.test.ts) · code · 2099 bytes
+
+_Generated 2026-10-09 12:10 UTC from `main`._

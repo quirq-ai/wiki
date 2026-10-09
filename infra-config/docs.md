@@ -14,7 +14,7 @@ read it. suraj keeps the original; if the two differ, the original wins. Two edi
 made: links to the v0 plan point at [v0.md](v0.md), and one local file path became a
 description.
 
-[`docs/plan.md`](https://github.com/quirq-ai/infra-config/blob/main/docs/plan.md) · code · 80304 bytes
+[`docs/plan.md`](https://github.com/quirq-ai/infra-config/blob/main/docs/plan.md) · code · 80305 bytes
 
 ### v0.md
 
@@ -24,6 +24,6 @@ read it. suraj keeps the original; if the two differ, the original wins. Two edi
 made: the link to the overview points at [plan.md](plan.md), and one local file path became
 a description. v1.md and v2.md are not copied, so links to them do not resolve here.
 
-[`docs/v0.md`](https://github.com/quirq-ai/infra-config/blob/main/docs/v0.md) · code · 17338 bytes
+[`docs/v0.md`](https://github.com/quirq-ai/infra-config/blob/main/docs/v0.md) · code · 17347 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

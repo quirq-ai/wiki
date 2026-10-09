@@ -223,4 +223,4 @@ DecisionTree lays out diamonds and results top-down and traces a request's path.
 
 [`components/shapes/graphs-trees/sequence-diagram.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/graphs-trees/sequence-diagram.tsx) · code · 17492 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

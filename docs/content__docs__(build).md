@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/(build)/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/(build)/meta.json) · code · 92 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

@@ -19,7 +19,7 @@ Atomic file writes for the records this system keeps on disk. Classes:
 `create_file_exclusive`, `create_json_exclusive`, `append_jsonl`, `read_stamped_document`,
 `unsupported_schema_message`, `write_json_owned`, `write_json_atomic_if_changed`.
 
-[`services/storage/atomic_write.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/atomic_write.py) · code · 13772 bytes
+[`services/storage/atomic_write.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/atomic_write.py) · code · 13810 bytes
 
 ### flock.py
 
@@ -55,6 +55,6 @@ Pure JSON readers for visualizer and watcher state. Functions: `read_json`,
 `read_jsonl_tail_reverse`, `merge_session_record`, `merge_sessionslist`,
 `adapter_field_names`, `augment_field_names`.
 
-[`services/storage/reader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/reader.py) · code · 8176 bytes
+[`services/storage/reader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/reader.py) · code · 8221 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

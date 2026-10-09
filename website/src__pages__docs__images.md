@@ -54,4 +54,4 @@ blobs.
 
 [`src/pages/docs/images/template-website-traffic.png`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/images/template-website-traffic.png) · binary · 29578 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -22,7 +22,7 @@ change and the Chromium counterparts are adapted from the infra-map app in quirq
 in the same repo (infra/output/report/2026-10-05-qq-v0-status.md), rechecked against "Where
 qq stands" in the qq guide (https://docs.quirq.dev/docs/qq) on 2026-10-07.
 
-[`src/components/QuirqInfraV0/data.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/data.ts) · code · 14495 bytes
+[`src/components/QuirqInfraV0/data.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/data.ts) · code · 14468 bytes
 
 ### index.tsx
 
@@ -44,4 +44,4 @@ each file for up to 5 minutes. Notable exports: `getJson`, `recentDays`, `useLiv
 
 [`src/components/QuirqInfraV0/live.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/live.ts) · code · 3872 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

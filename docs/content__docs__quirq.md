@@ -16,17 +16,17 @@ with JSX components), typically rendered by the docs site.
 
 ### index.mdx
 
-Markdown page “quirq: Measure Agent Work”. quirq is the output meter for AI work: verified,
-owner-valued, delivered. Measure what your agents actually deliver on XO, not just what they
-cost. MDX page (Markdown with JSX components), typically rendered by the docs site.
+Markdown page “quirq: A Proposed Unit of Agent Work”. A proposal for measuring what AI
+agents deliver, not just what they cost. MDX page (Markdown with JSX components), typically
+rendered by the docs site.
 
-[`content/docs/quirq/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/index.mdx) · code · 3187 bytes
+[`content/docs/quirq/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/index.mdx) · code · 3262 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/quirq/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/meta.json) · code · 184 bytes
+[`content/docs/quirq/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/meta.json) · code · 175 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

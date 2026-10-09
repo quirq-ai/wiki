@@ -14,4 +14,4 @@ string; content: string; } Notable exports: `POST`, `ChatUIMessage`, `SearchTool
 
 [`src/app/api/chat/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/api/chat/route.ts) · code · 3267 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

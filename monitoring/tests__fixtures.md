@@ -13,13 +13,13 @@ GitHub. raw/// mirrors the raw URL layout; api/*.json are GitHub API responses; 
 says which API path serves which file (first match wins; * matches one path segment, a query
 value ending in * matches by prefix).
 
-[`tests/fixtures/README.md`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/README.md) · code · 11033 bytes
+[`tests/fixtures/README.md`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/README.md) · code · 11278 bytes
 
 ### routes.json
 
 JSON array `routes.json` with 36 items; first item keys: `path`, `query`, `file`.
 
-[`tests/fixtures/routes.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/routes.json) · code · 4849 bytes
+[`tests/fixtures/routes.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/routes.json) · code · 4894 bytes
 
 ### server.d.mts
 
@@ -39,4 +39,4 @@ prove the dashboard never writes.
 
 [`tests/fixtures/server.mjs`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/server.mjs) · code · 7503 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

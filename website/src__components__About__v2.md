@@ -46,4 +46,4 @@ import CloudinaryImage from 'components/CloudinaryImage' import { YCBadge } from
 
 [`src/components/About/v2/YC.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/About/v2/YC.tsx) · code · 3386 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

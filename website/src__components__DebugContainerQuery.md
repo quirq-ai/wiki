@@ -16,4 +16,4 @@ add new container names to the end of safelist.txt Notable exports: `DebugContai
 
 [`src/components/DebugContainerQuery/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/DebugContainerQuery/index.tsx) · code · 2902 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

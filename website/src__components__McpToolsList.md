@@ -21,4 +21,4 @@ import React from 'react' import { graphql, useStaticQuery } from 'gatsby' impor
 
 [`src/components/McpToolsList/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/McpToolsList/index.tsx) · code · 5162 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

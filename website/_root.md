@@ -28,12 +28,12 @@ JSON document `.eslintrc.json` whose top-level keys are `env`, `extends`, `parse
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 33 pattern(s)
-including `.cache`, `node_modules`, `.pnp.*`, `.pnpm-store*`, `/public`, `/og-images`,
-`.DS_Store`, `/bundle-report`, and 25 more. Generated and secret files matching these
-patterns are not in the clone the wiki summarizes.
+`.gitignore` tells git or Docker which paths to omit. It currently lists 34 pattern(s)
+including `.cache`, `node_modules`, `!/src/vendor/pierre-trees/node_modules/`, `.pnp.*`,
+`.pnpm-store*`, `/public`, `/og-images`, `.DS_Store`, and 26 more. Generated and secret
+files matching these patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/website/blob/main/.gitignore) · other · 832 bytes
+[`.gitignore`](https://github.com/quirq-ai/website/blob/main/.gitignore) · other · 977 bytes
 
 ### .imgbotconfig
 
@@ -46,7 +46,7 @@ Extensionless file `.imgbotconfig`. { "schedule": "daily", "aggressiveCompressio
 
 Jsonc file `.markdownlint-cli2.jsonc`.
 
-[`.markdownlint-cli2.jsonc`](https://github.com/quirq-ai/website/blob/main/.markdownlint-cli2.jsonc) · code · 824 bytes
+[`.markdownlint-cli2.jsonc`](https://github.com/quirq-ai/website/blob/main/.markdownlint-cli2.jsonc) · code · 933 bytes
 
 ### .nvmrc
 
@@ -89,7 +89,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 6782 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 9511 bytes
 
 ### CLAUDE.md
 
@@ -99,7 +99,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 6782 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 9511 bytes
 
 ### LICENSE
 
@@ -128,7 +128,7 @@ starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 The project README (“quirq home base”). A customizable desktop for the apps, experiments,
 and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 19365 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 23220 bytes
 
 ### SECURITY.md
 
@@ -163,7 +163,7 @@ import path from 'path' import fs from 'fs' import { GatsbyNode } from 'gatsby' 
 getQuirqApps } from './src/lib/quirqApps' Notable exports: `createPages`, `onCreatePage`,
 `preprocessSource`, `onCreateBabelConfig`, `onCreateWebpackConfig`.
 
-[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 3987 bytes
+[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 5441 bytes
 
 ### gatsby-ssr.js
 
@@ -188,7 +188,7 @@ quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:prune`, `ap
 `projects:sync`, `projects:check`, `build-move`, `prebuild`, `build`, `build:minimal`, and
 28 more.
 
-[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13454 bytes
+[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13592 bytes
 
 ### pnpm-lock.yaml
 
@@ -216,10 +216,11 @@ require('autoprefixer')], }).
 
 ### quirq.apps.json
 
-JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`, `defaults`,
-`repositories`. Structured data consumed by the surrounding app or tooling.
+JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`,
+`frameOrigins`, `defaults`, `repositories`. Structured data consumed by the surrounding app
+or tooling.
 
-[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 2551 bytes
+[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 4432 bytes
 
 ### quirq.projects.json
 
@@ -227,7 +228,7 @@ JSON document `quirq.projects.json` whose top-level keys are `organization`, `so
 `projectRule`, `automation`, `groups`, `repositories`. Structured data consumed by the
 surrounding app or tooling.
 
-[`quirq.projects.json`](https://github.com/quirq-ai/website/blob/main/quirq.projects.json) · code · 4798 bytes
+[`quirq.projects.json`](https://github.com/quirq-ai/website/blob/main/quirq.projects.json) · code · 5264 bytes
 
 ### safelist.txt
 
@@ -245,7 +246,7 @@ module.exports = { content: ['./src/**/*.{js,jsx,ts,tsx}', './safelist.txt'], op
 safelist: [ use safelist.txt ], }, darkMode: 'class', // or 'media' or 'class' theme: {
 screens: { '2xs': '425px', xs: '482px', sm: '640px', => @media (min-width: 640px) { ... }.
 
-[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 24303 bytes
+[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 24139 bytes
 
 ### tsconfig.json
 
@@ -257,8 +258,9 @@ file for the full document.
 ### vercel.json
 
 JSON document `vercel.json` whose top-level keys are `$schema`, `framework`, `buildCommand`,
-`outputDirectory`, `redirects`. Structured data consumed by the surrounding app or tooling.
+`outputDirectory`, `headers`, `redirects`, `rewrites`. Structured data consumed by the
+surrounding app or tooling.
 
-[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 236 bytes
+[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 755 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

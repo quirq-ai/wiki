@@ -25,4 +25,4 @@ from 'components/Glow' import Link from 'components/Link' import type { Carousel
 
 [`src/hooks/productData/workflows/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/workflows/slides.tsx) · code · 12015 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

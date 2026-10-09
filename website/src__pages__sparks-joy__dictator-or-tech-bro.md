@@ -13,4 +13,4 @@ import React from 'react' import Explorer from 'components/Explorer' import SEO 
 
 [`src/pages/sparks-joy/dictator-or-tech-bro/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/sparks-joy/dictator-or-tech-bro/index.tsx) · code · 1119 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

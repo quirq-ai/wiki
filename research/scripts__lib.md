@@ -14,4 +14,4 @@ says about it. Notable exports: `findTopics`, `plain`, `readTopic`, `published`,
 
 [`scripts/lib/topics.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/lib/topics.mjs) · code · 2083 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

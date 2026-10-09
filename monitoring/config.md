@@ -20,7 +20,7 @@ Writers that keep state on a branch, and how long the dashboard waits before cal
 stale. Each window is about two intervals plus slack. If a schedule changes in its repo,
 update this table and AGENTS.md in one PR. Notable exports: `Writer`, `WRITERS`.
 
-[`config/freshness.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/freshness.ts) · code · 2887 bytes
+[`config/freshness.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/freshness.ts) · code · 2881 bytes
 
 ### owner.ts
 
@@ -37,4 +37,4 @@ consumed by the surrounding app or tooling.
 
 [`config/repos.json`](https://github.com/quirq-ai/monitoring/blob/main/config/repos.json) · code · 1342 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

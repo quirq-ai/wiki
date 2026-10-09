@@ -16,4 +16,4 @@ run left there (an edited script, a package in the venv) can run or get in the w
 
 [`scripts/apply.sh`](https://github.com/quirq-ai/gate/blob/main/scripts/apply.sh) · code · 12864 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

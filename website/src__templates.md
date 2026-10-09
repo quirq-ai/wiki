@@ -230,9 +230,27 @@ CloudinaryImage from 'components/CloudinaryImage' import TemplateCTAs from
 ### quirq-app.tsx
 
 import React from 'react' import SEO from 'components/seo' import RepositoryApp from
-'components/QuirqApp' import type { QuirqApp } from 'lib/quirqApps' Notable exports:
-`QuirqAppPage`.
+'components/QuirqApp' import type { QuirqApp } from 'lib/quirqApps' import { useQuirqApps }
+from 'lib/quirqLiveApps' Notable exports: `QuirqAppPage`.
 
-[`src/templates/quirq-app.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/quirq-app.tsx) · code · 478 bytes
+[`src/templates/quirq-app.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/quirq-app.tsx) · code · 979 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+### quirq-launch.tsx
+
+import React, { useEffect, useMemo, useState } from 'react' import SEO from 'components/seo'
+import Explorer from 'components/Explorer' import HeaderBar from
+'components/OSChrome/HeaderBar' import OSButton from 'components/OSButton' import {
+MissingApp, touchTarget, useRoutedApp } from 'components/QuirqApp/RoutedApp' import {
+PROFILE_BLOB_BASE, useProfileRea Notable exports: `QuirqLaunchPage`.
+
+[`src/templates/quirq-launch.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/quirq-launch.tsx) · code · 10838 bytes
+
+### quirq-live-app.tsx
+
+import React from 'react' import SEO from 'components/seo' import RepositoryApp from
+'components/QuirqApp' import { MissingApp, useRoutedApp } from
+'components/QuirqApp/RoutedApp' Notable exports: `QuirqLiveAppPage`.
+
+[`src/templates/quirq-live-app.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/quirq-live-app.tsx) · code · 890 bytes
+
+_Generated 2026-10-09 12:10 UTC from `main`._

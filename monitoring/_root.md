@@ -32,7 +32,7 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 35791 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 38060 bytes
 
 ### CLAUDE.md
 
@@ -54,7 +54,7 @@ The project README (“monitoring”). The quirq-ai monitoring dashboard: one pa
 **what changed across the org and what state everything is in**, on a phone or a desktop.
 suraj's Vercel project serves it at [monitoring.quirq.dev](https://monitoring.quirq.dev/).
 
-[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 10573 bytes
+[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 10923 bytes
 
 ### eslint.config.mjs
 
@@ -125,4 +125,4 @@ import.meta.url)), }, }, test: { include: process.env.LIVE ? ["tests/live-check.
 
 [`vitest.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/vitest.config.ts) · code · 567 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

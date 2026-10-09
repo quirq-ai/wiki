@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 The project README (“QuirqBrand”). QuirqMark (the "q" tile) and QuirqWordmark (lowercase
 "quirq", drawn in currentColor) as inline SVG.
 
-[`src/components/QuirqBrand/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqBrand/README.md) · code · 442 bytes
+[`src/components/QuirqBrand/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqBrand/README.md) · code · 423 bytes
 
 ### index.tsx
 
@@ -21,4 +21,4 @@ themes. Notable exports: `QuirqMark`, `QuirqWordmark`.
 
 [`src/components/QuirqBrand/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqBrand/index.tsx) · code · 3262 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -83,7 +83,7 @@ here. SEED (V0-CFG-03): names, backends, policy-owner, the two pools, the two se
 and the three rotations are what v0 runs on: proposed in the skeleton, settled when suraj
 approves V0-CFG-03.
 
-[`config/org.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/org.toml) · code · 7119 bytes
+[`config/org.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/org.toml) · code · 7213 bytes
 
 ### perf.toml
 
@@ -129,4 +129,4 @@ alone (D4). Sections: `area`, `[roller`.
 
 [`config/rollers.toml`](https://github.com/quirq-ai/infra-config/blob/main/config/rollers.toml) · code · 1496 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

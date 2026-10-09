@@ -94,11 +94,10 @@ typically rendered by the docs site.
 
 ### setup.mdx
 
-Markdown page “Setup & Quirq State”. Set up your workspace and agent, manage secrets and
-connectors, and apply changes through Server controls. MDX page (Markdown with JSX
-components), typically rendered by the docs site.
+Markdown page “Setup”. Pick your folders and agent, save secrets, connect tools and restart
+Space. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/space/space-walk/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/setup.mdx) · code · 10010 bytes
+[`content/docs/space/space-walk/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/setup.mdx) · code · 4709 bytes
 
 ### sharing.mdx
 
@@ -132,4 +131,4 @@ rendered by the docs site.
 
 [`content/docs/space/space-walk/wiki.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/space-walk/wiki.mdx) · code · 3116 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

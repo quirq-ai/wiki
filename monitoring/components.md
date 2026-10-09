@@ -21,7 +21,7 @@ One class per outcome. `unknown` (the run file could not be read) is an outlined
 a question mark, so it never passes for a quiet day; `none` (no file that day) is the muted
 fill. Notable exports: `CanaryStrip`.
 
-[`components/canary-strip.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/canary-strip.tsx) · code · 2937 bytes
+[`components/canary-strip.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/canary-strip.tsx) · code · 2979 bytes
 
 ### cell.tsx
 
@@ -30,7 +30,17 @@ none * cell is a known fact with no health in it, so it shows as plain text with
 */ export function CellView({ cell, now, title, exact = false }: { cell: Cell; now: Date;
 title?: string; exact?: boolean }) { return ( Notable exports: `CellView`, `CellInline`.
 
-[`components/cell.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/cell.tsx) · code · 1576 bytes
+[`components/cell.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/cell.tsx) · code · 1626 bytes
+
+### change-matrix.tsx
+
+/** * What changed, one row per tracked repo: the repo, its count, and one dot per change in
+the * state color, oldest left, newest right, so a busy repo reads as a long row and a quiet
+one as a * short one. The dots are the ElevenLabs UI matrix idea (a grid of round cells)
+with the * dashboard's own state markers for cells, and the row wraps instead of scro
+Notable exports: `ChangeMatrix`. Wired into a Next.js app (App Router or Next APIs).
+
+[`components/change-matrix.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/change-matrix.tsx) · code · 6394 bytes
 
 ### count-tiles.tsx
 
@@ -44,12 +54,23 @@ Notable exports: `CountTiles`. Wired into a Next.js app (App Router or Next APIs
 
 ### markdown.tsx
 
-The report's own headings sit under the page's, so each is demoted two levels. A wide table
+Links that leave the dashboard open in a new tab, like every other outside link. The
+report's own headings sit under the page's, so each is demoted two levels. A wide table
 scrolls sideways inside a box a keyboard can reach, each box labelled by its number so the
 landmarks are distinct. Images are not fetched: an outside image would tell its host the
 viewer's address, so only the alt text is shown. Notable exports: `Markdown`.
 
-[`components/markdown.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/markdown.tsx) · code · 1623 bytes
+[`components/markdown.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/markdown.tsx) · code · 1789 bytes
+
+### new-tab.tsx
+
+Every link that leaves the dashboard opens in a new tab, so the page a reader is scanning
+stays put; `noopener` keeps the opened page from reaching back to this one. Page links
+inside the dashboard stay in the same tab (the back button must keep working). Spread it on
+an `<a>` whose href is decided at render time; the anchors with a fixed outside href carry
+the same two attributes inline. Notable exports: `newTab`.
+
+[`components/new-tab.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/new-tab.tsx) · code · 496 bytes
 
 ### page-skeleton.tsx
 
@@ -65,20 +86,23 @@ function PageSkeleton() { return ( Notable exports: `PageSkeleton`.
 export function PageTitle({ title, lead, children }: { title: string; lead: string;
 children?: React.ReactNode }) { return ( Notable exports: `PageTitle`.
 
-[`components/page-title.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/page-title.tsx) · code · 456 bytes
+[`components/page-title.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/page-title.tsx) · code · 484 bytes
 
 ### sha.tsx
 
 A 7-character commit id in mono, linked to the full commit. Notable exports: `Sha`.
 
-[`components/sha.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/sha.tsx) · code · 332 bytes
+[`components/sha.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/sha.tsx) · code · 357 bytes
 
 ### site-header.tsx
 
+/** * Sticky header: the wordmark and the theme toggle at the edges, the page tabs centered
+between * them (a three-column grid, so the tabs sit in the middle of the header whatever
+the edges * measure). On a phone the tabs are their own centered row under the wordmark. */
 export function SiteHeader() { return ( Notable exports: `SiteHeader`. Wired into a Next.js
 app (App Router or Next APIs).
 
-[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1312 bytes
+[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1623 bytes
 
 ### site-nav.tsx
 
@@ -87,7 +111,7 @@ href: "/board", label: "Board" }, { href: "/release", label: "Release" }, { href
 label: "Health" }, ] as const Notable exports: `SiteNav`. Wired into a Next.js app (App
 Router or Next APIs). Marked `'use client'` so it runs in the browser.
 
-[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 1388 bytes
+[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 1648 bytes
 
 ### source-link.tsx
 
@@ -96,7 +120,7 @@ is. */ export function SourceLink({ source, url, at, now, label = "from" }: { so
 string; url: string; at?: string; now: Date; label?: string }) { return ( Notable exports:
 `SourceLink`.
 
-[`components/source-link.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/source-link.tsx) · code · 721 bytes
+[`components/source-link.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/source-link.tsx) · code · 746 bytes
 
 ### sources-list.tsx
 
@@ -106,14 +130,14 @@ or API page could * be read (through the data cache, so never "fresh"), not that
 says is healthy; the Board * and the writers' cards judge that. A read older than twice its
 Notable exports: `SourcesList`.
 
-[`components/sources-list.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/sources-list.tsx) · code · 2473 bytes
+[`components/sources-list.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/sources-list.tsx) · code · 2595 bytes
 
 ### state-badge.tsx
 
 export { states, type State } Notable exports: `StateDot`, `StateBadge`, `states`, `type
 State`.
 
-[`components/state-badge.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/state-badge.tsx) · code · 1412 bytes
+[`components/state-badge.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/state-badge.tsx) · code · 1478 bytes
 
 ### theme-toggle.tsx
 
@@ -131,4 +155,4 @@ now); const utc = exactUtc(iso); return ( Notable exports: `TimeAgo`.
 
 [`components/time-ago.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/time-ago.tsx) · code · 547 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

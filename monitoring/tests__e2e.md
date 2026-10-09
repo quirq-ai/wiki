@@ -17,7 +17,7 @@ export const origin = "http://127.0.0.1:3010" Notable exports: `origin`.
 const themes = ["light", "dark"] as const; const viewports = [ { name: "390", width: 390,
 height: 844 }, { name: "1280", width: 1280, height: 800 }, ] as const.
 
-[`tests/e2e/pages.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/pages.spec.ts) · code · 8946 bytes
+[`tests/e2e/pages.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/pages.spec.ts) · code · 23184 bytes
 
 ### shell.spec.ts
 
@@ -26,4 +26,4 @@ height: 844 }, { name: "1280", width: 1280, height: 800 }, ] as const.
 
 [`tests/e2e/shell.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/shell.spec.ts) · code · 2792 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

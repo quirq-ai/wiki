@@ -18,6 +18,6 @@ export default async function HealthPage() { const snapshot = await buildSnapsho
 now = new Date(snapshot.generatedAt); const { health } = snapshot; const down =
 snapshot.sources.filter((s) => !s.ok).length Notable exports: `HealthPage`.
 
-[`app/health/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/health/page.tsx) · code · 6282 bytes
+[`app/health/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/health/page.tsx) · code · 6332 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

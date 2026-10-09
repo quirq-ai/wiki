@@ -10,8 +10,8 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Markdown page “quirq app mapping”. The GitHub organization is the catalog. Its public
 repositories become apps in Home Base, the desktop, and navigation. The shared window
-system, wallpapers, themes, and app-specific URLs stay available.
+system, themes, and app-specific URLs stay available.
 
-[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 5210 bytes
+[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 7380 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -14,4 +14,4 @@ import React, { useEffect, useState } from 'react' import { Tab as HeadlessTab }
 
 [`src/components/Tab/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Tab/index.tsx) · code · 3831 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

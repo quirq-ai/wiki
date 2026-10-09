@@ -273,4 +273,4 @@ Notable exports: `GlassCard`, `SoftPanel`, `SetupCard`, `SectionCard`, `Category
 
 [`components/shapes/cards/surfaces.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/cards/surfaces.tsx) · code · 9812 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

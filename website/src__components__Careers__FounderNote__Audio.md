@@ -86,4 +86,4 @@ generated blobs.
 
 [`src/components/Careers/FounderNote/Audio/quote-9.mp3`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/FounderNote/Audio/quote-9.mp3) · binary · 178866 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

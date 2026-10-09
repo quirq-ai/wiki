@@ -71,4 +71,4 @@ Notable exports: `Shape`, `Category`.
 
 [`lib/types.ts`](https://github.com/quirq-ai/ui/blob/main/lib/types.ts) · code · 773 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

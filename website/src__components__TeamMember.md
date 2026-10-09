@@ -15,4 +15,4 @@ Notable exports: `TeamMember`, `TeamMemberLink`, `FutureTeamMember`.
 
 [`src/components/TeamMember/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TeamMember/index.tsx) · code · 8660 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

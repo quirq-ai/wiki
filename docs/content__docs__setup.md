@@ -24,17 +24,16 @@ typically rendered by the docs site.
 
 ### index.mdx
 
-Markdown page “Configure Your Space”. Connect compatible models, data sources, and channels
-after your space is provisioned. MDX page (Markdown with JSX components), typically rendered
-by the docs site.
+Markdown page “Set up XO Cloud”. Connect models, data and chat apps after your cloud machine
+is ready. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/setup/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/index.mdx) · code · 1482 bytes
+[`content/docs/setup/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/index.mdx) · code · 1358 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `icon`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/setup/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/meta.json) · code · 119 bytes
+[`content/docs/setup/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/setup/meta.json) · code · 115 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

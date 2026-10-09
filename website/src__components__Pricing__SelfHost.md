@@ -14,4 +14,4 @@ Notable exports: `SelfHost`.
 
 [`src/components/Pricing/SelfHost/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/SelfHost/index.tsx) · code · 1983 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

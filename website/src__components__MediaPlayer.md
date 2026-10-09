@@ -12,4 +12,4 @@ Add types for YouTube and Wistia APIs to avoid TS errors Notable exports: `Media
 
 [`src/components/MediaPlayer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/MediaPlayer/index.tsx) · code · 22528 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -7,8 +7,8 @@ website: code and deploy of the public quirq.ai site
 - GitHub: [https://github.com/quirq-ai/website](https://github.com/quirq-ai/website)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-07T18:19:18Z`
-- Snapshot SHA: `94c138f591b9`
+- Last push: `2026-10-09T10:46:09Z`
+- Snapshot SHA: `1b6774dc6118`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -57,7 +57,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts/hogfm` | 6 | [scripts__hogfm.md](scripts__hogfm.md) |
 | `scripts/hogfm/changehog` | 1 | [scripts__hogfm__changehog.md](scripts__hogfm__changehog.md) |
 | `scripts/hogfm/handbook` | 20 | [scripts__hogfm__handbook.md](scripts__hogfm__handbook.md) |
-| `scripts/lib` | 2 | [scripts__lib.md](scripts__lib.md) |
+| `scripts/lib` | 3 | [scripts__lib.md](scripts__lib.md) |
 | `scripts/preview` | 1 | [scripts__preview.md](scripts__preview.md) |
 | `scripts/standard-site` | 1 | [scripts__standard-site.md](scripts__standard-site.md) |
 | `src` | 6 | [src.md](src.md) |
@@ -401,13 +401,15 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ProgressBar` | 1 | [src__components__ProgressBar.md](src__components__ProgressBar.md) |
 | `src/components/Questions` | 3 | [src__components__Questions.md](src__components__Questions.md) |
 | `src/components/QuickLinks` | 1 | [src__components__QuickLinks.md](src__components__QuickLinks.md) |
-| `src/components/QuirqApp` | 2 | [src__components__QuirqApp.md](src__components__QuirqApp.md) |
-| `src/components/QuirqAppIcon` | 2 | [src__components__QuirqAppIcon.md](src__components__QuirqAppIcon.md) |
+| `src/components/QuirqApp` | 6 | [src__components__QuirqApp.md](src__components__QuirqApp.md) |
+| `src/components/QuirqAppIcon` | 3 | [src__components__QuirqAppIcon.md](src__components__QuirqAppIcon.md) |
 | `src/components/QuirqAvatar` | 2 | [src__components__QuirqAvatar.md](src__components__QuirqAvatar.md) |
 | `src/components/QuirqBrand` | 2 | [src__components__QuirqBrand.md](src__components__QuirqBrand.md) |
 | `src/components/QuirqInfraV0` | 4 | [src__components__QuirqInfraV0.md](src__components__QuirqInfraV0.md) |
+| `src/components/QuirqProfile` | 3 | [src__components__QuirqProfile.md](src__components__QuirqProfile.md) |
 | `src/components/QuirqProjects` | 2 | [src__components__QuirqProjects.md](src__components__QuirqProjects.md) |
 | `src/components/QuirqSearch` | 2 | [src__components__QuirqSearch.md](src__components__QuirqSearch.md) |
+| `src/components/Quirqy` | 2 | [src__components__Quirqy.md](src__components__Quirqy.md) |
 | `src/components/Quote2` | 1 | [src__components__Quote2.md](src__components__Quote2.md) |
 | `src/components/RadixUI` | 17 | [src__components__RadixUI.md](src__components__RadixUI.md) |
 | `src/components/RadixUI/css` | 1 | [src__components__RadixUI__css.md](src__components__RadixUI__css.md) |
@@ -524,7 +526,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/context` | 3 | [src__context.md](src__context.md) |
 | `src/data` | 13 | [src__data.md](src__data.md) |
 | `src/data/typecaast` | 4 | [src__data__typecaast.md](src__data__typecaast.md) |
-| `src/hooks` | 51 | [src__hooks.md](src__hooks.md) |
+| `src/hooks` | 50 | [src__hooks.md](src__hooks.md) |
 | `src/hooks/competitorData` | 107 | [src__hooks__competitorData.md](src__hooks__competitorData.md) |
 | `src/hooks/docs` | 3 | [src__hooks__docs.md](src__hooks__docs.md) |
 | `src/hooks/featureDefinitions` | 22 | [src__hooks__featureDefinitions.md](src__hooks__featureDefinitions.md) |
@@ -551,7 +553,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/images/products` | 16 | [src__images__products.md](src__images__products.md) |
 | `src/images/sales` | 22 | [src__images__sales.md](src__images__sales.md) |
 | `src/images/teams` | 1 | [src__images__teams.md](src__images__teams.md) |
-| `src/lib` | 12 | [src__lib.md](src__lib.md) |
+| `src/lib` | 17 | [src__lib.md](src__lib.md) |
 | `src/lib/hogwatch` | 2 | [src__lib__hogwatch.md](src__lib__hogwatch.md) |
 | `src/logic` | 2 | [src__logic.md](src__logic.md) |
 | `src/menuItems` | 1 | [src__menuItems.md](src__menuItems.md) |
@@ -672,7 +674,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/scripts` | 1 | [src__scripts.md](src__scripts.md) |
 | `src/sidebars` | 1 | [src__sidebars.md](src__sidebars.md) |
 | `src/styles` | 2 | [src__styles.md](src__styles.md) |
-| `src/templates` | 24 | [src__templates.md](src__templates.md) |
+| `src/templates` | 26 | [src__templates.md](src__templates.md) |
 | `src/templates/Hub` | 1 | [src__templates__Hub.md](src__templates__Hub.md) |
 | `src/templates/merch` | 27 | [src__templates__merch.md](src__templates__merch.md) |
 | `src/templates/OG` | 6 | [src__templates__OG.md](src__templates__OG.md) |
@@ -682,10 +684,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/types` | 1 | [src__types.md](src__types.md) |
 | `src/vendor` | 0 | [src__vendor.md](src__vendor.md) |
 | `src/vendor/blobatar` | 7 | [src__vendor__blobatar.md](src__vendor__blobatar.md) |
+| `src/vendor/pierre-trees` | 3 | [src__vendor__pierre-trees.md](src__vendor__pierre-trees.md) |
 | `static` | 3 | [static.md](static.md) |
 | `static/brand` | 0 | [static__brand.md](static__brand.md) |
-| `static/brand/quirq` | 2 | [static__brand__quirq.md](static__brand__quirq.md) |
+| `static/brand/quirq` | 1 | [static__brand__quirq.md](static__brand__quirq.md) |
 | `static/images` | 3 | [static__images.md](static__images.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-08 12:20 UTC._
+_Generated 2026-10-09 12:10 UTC._

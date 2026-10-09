@@ -19,4 +19,4 @@ Google Drive connector via rclone (CLI mode — no daemon, no port). Functions:
 
 [`services/cowork_agent/connectors/gdrive/provider.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/gdrive/provider.py) · code · 6487 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

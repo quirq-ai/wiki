@@ -7,7 +7,7 @@ quirq · work at light speed
 - GitHub: [https://github.com/quirq-ai/quirq_ai](https://github.com/quirq-ai/quirq_ai)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-09-28T16:39:08Z`
+- Last push: `2026-10-08T19:03:04Z`
 - Snapshot SHA: `13c26afb386d`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -80,4 +80,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/research` | 16 | [public__research.md](public__research.md) |
 | `scripts` | 2 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-08 12:19 UTC._
+_Generated 2026-10-09 12:10 UTC._

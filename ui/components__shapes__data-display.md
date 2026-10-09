@@ -240,4 +240,4 @@ safe: CopyButton carries its own client boundary.
 
 [`components/shapes/data-display/trust-boundary.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/data-display/trust-boundary.tsx) · code · 16091 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

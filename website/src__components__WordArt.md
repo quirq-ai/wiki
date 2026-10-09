@@ -19,4 +19,4 @@ Theme, WordArtProps } from './WordArt' Notable exports: `wordArtThemes`.
 
 [`src/components/WordArt/index.ts`](https://github.com/quirq-ai/website/blob/main/src/components/WordArt/index.ts) · code · 131 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

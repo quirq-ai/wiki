@@ -15,4 +15,4 @@ Next.js app (App Router or Next APIs).
 
 [`src/app/templates/[[...slug]]/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/templates/[[...slug]]/page.tsx) · code · 2252 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

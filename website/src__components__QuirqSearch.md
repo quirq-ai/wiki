@@ -9,20 +9,21 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### README.md
 
 The project README (“quirq search”). SearchOverlay replaces global PostHog search in the
-desktop wrapper. It consumes the same getQuirqApps() catalog as Home base, the desktop
-icons, and the taskbar. The index contains visible organization repositories plus Home base
-and Display options. Hidden, archived, and excluded repositories never enter it.
+desktop wrapper. It consumes the same live catalog (useQuirqApps() from
+src/lib/quirqLiveApps.ts) as Home base and the desktop icons, so a repository added to the
+organization is searchable without a rebuild. The index contains visible organization
+repositories plus Home base, Projects, and Edit (Display options).
 
-[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1367 bytes
+[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1463 bytes
 
 ### index.tsx
 
-import React, { useEffect, useState } from 'react' import { Combobox } from
+import React, { useEffect, useMemo, useState } from 'react' import { Combobox } from
 '@headlessui/react' import { Dialog as RadixDialog } from 'radix-ui' import { navigate }
 from 'gatsby' import { IconSearch, IconX } from '@posthog/icons' import { useAppActions,
-useAppUIState } from '../../context/App' import { getQuirqApps, quirqConfig } from
-'lib/quirqApps' import Notable exports: `SearchOverlay`.
+useAppUIState } from '../../context/App' import { quirqConfig, type QuirqApp } from
+'lib/quirqApp Notable exports: `SearchOverlay`.
 
-[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7049 bytes
+[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7246 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

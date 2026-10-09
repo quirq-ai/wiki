@@ -12,4 +12,4 @@ import { Link } from 'gatsby' import React from 'react' Notable exports: `Card`.
 
 [`src/components/Card/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Card/index.tsx) · code · 825 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -7,8 +7,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-08T12:00:40Z`
-- Snapshot SHA: `37bd7f791871`
+- Last push: `2026-10-09T11:11:11Z`
+- Snapshot SHA: `e7092bac888c`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -109,7 +109,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/visualizer/sources` | 2 | [services__cowork_agent__visualizer__sources.md](services__cowork_agent__visualizer__sources.md) |
 | `services/cowork_agent/visualizer/workspace` | 9 | [services__cowork_agent__visualizer__workspace.md](services__cowork_agent__visualizer__workspace.md) |
 | `services/cowork_agent/xo_projects_sync` | 8 | [services__cowork_agent__xo_projects_sync.md](services__cowork_agent__xo_projects_sync.md) |
-| `services/doctor` | 13 | [services__doctor.md](services__doctor.md) |
+| `services/doctor` | 14 | [services__doctor.md](services__doctor.md) |
 | `services/inbox` | 4 | [services__inbox.md](services__inbox.md) |
 | `services/storage` | 7 | [services__storage.md](services__storage.md) |
 | `services/swarm_api` | 6 | [services__swarm_api.md](services__swarm_api.md) |
@@ -122,7 +122,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 133 | [tests.md](tests.md) |
+| `tests` | 136 | [tests.md](tests.md) |
 | `tests/fixtures` | 0 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/fixtures/quirq-state` | 1 | [tests__fixtures__quirq-state.md](tests__fixtures__quirq-state.md) |
 | `tests/fixtures/quirq-state/.locks` | 1 | [tests__fixtures__quirq-state__.locks.md](tests__fixtures__quirq-state__.locks.md) |
@@ -159,7 +159,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/quirq` | 1 | [tests__quirq.md](tests__quirq.md) |
 | `tests/space_ui_preview` | 31 | [tests__space_ui_preview.md](tests__space_ui_preview.md) |
 | `tests/space_ui_preview/screenshots` | 2 | [tests__space_ui_preview__screenshots.md](tests__space_ui_preview__screenshots.md) |
-| `utils` | 3 | [utils.md](utils.md) |
+| `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-08 12:20 UTC._
+_Generated 2026-10-09 12:10 UTC._

@@ -32,15 +32,16 @@ never logged or returned. Notable exports: `isApiOutageReason`, `rateLimitedUnti
 `forgetBackoff`, `apiBase`, `hasToken`, `requestsThisHour`, `isPlainNotFound`, `ghGet`, and
 7 more.
 
-[`lib/github.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/github.ts) · code · 11137 bytes
+[`lib/github.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/github.ts) · code · 11498 bytes
 
 ### signal.ts
 
 The one shape every source returns. A page never sees a raw fetch result: it sees a Signal,
 which either carries a validated value or says in one line why it does not. Notable exports:
-`okSignal`, `failSignal`, `carryFailure`, `readAt`, `states`, `State`, `Read`, `Signal`.
+`okSignal`, `failSignal`, `unreadAt`, `isStaleRead`, `carryFailure`, `readAt`, `states`,
+`State`, and 2 more.
 
-[`lib/signal.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/signal.ts) · code · 2382 bytes
+[`lib/signal.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/signal.ts) · code · 3435 bytes
 
 ### utils.ts
 
@@ -49,4 +50,4 @@ exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/utils.ts) · code · 169 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

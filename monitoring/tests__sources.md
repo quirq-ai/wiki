@@ -24,7 +24,7 @@ expect(signal.ok && signal.value?.outcome).toBe("shipped"); if (!signal.ok || !s
 return; expect(signal.value.stages.map((s) => s.name)).toEqual(["build", "verify", "fuzz-
 smoke", "depl Automated test file.
 
-[`tests/sources/canary-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-runs.test.ts) · code · 7050 bytes
+[`tests/sources/canary-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/canary-runs.test.ts) · code · 8435 bytes
 
 ### channels-config.test.ts
 
@@ -99,7 +99,7 @@ metrics.value).toEqual(["build-size", "innernet-search"]); const series = await
 readPerfSeries("innernet", "build-size"); expect(series.ok).toBe(true); if (!series.ok)
 return; expect(serie Automated test file.
 
-[`tests/sources/perf.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/perf.test.ts) · code · 3756 bytes
+[`tests/sources/perf.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/perf.test.ts) · code · 4321 bytes
 
 ### pointers.test.ts
 
@@ -174,4 +174,4 @@ file.
 
 [`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 4765 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

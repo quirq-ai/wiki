@@ -20,4 +20,4 @@ Competitor data imports Notable exports: `ProductComparisonTable`.
 
 [`src/components/ProductComparisonTable/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ProductComparisonTable/index.tsx) · code · 51495 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

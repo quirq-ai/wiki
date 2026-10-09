@@ -13,4 +13,4 @@ const DIR = path.join(process.cwd(), ".quirq", "journeys") Notable exports: `GET
 
 [`app/api/journeys/[slug]/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/api/journeys/[slug]/route.ts) · code · 1052 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -54,7 +54,7 @@ V0-ORG-03: merge queue and rulesets as code (settings/.toml), applied by an admi
 `RepoPlan`, `Job`, `CheckoutState`. Functions: `load_settings`, `build`, `repo_settings`,
 `repo_options`, `workflow_jobs`, `readiness`, `checkout_state`, `org_workflows`, and 3 more.
 
-[`src/qqgate/settings.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/settings.py) · code · 28774 bytes
+[`src/qqgate/settings.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/settings.py) · code · 30194 bytes
 
 ### timing.py
 
@@ -69,4 +69,4 @@ Classes: `Verdict`. Functions: `evaluate`.
 
 [`src/qqgate/verdict.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/verdict.py) · code · 1952 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

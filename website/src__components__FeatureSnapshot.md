@@ -19,4 +19,4 @@ import React from 'react' Notable exports: `FeatureSnapshot`.
 
 [`src/components/FeatureSnapshot/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/FeatureSnapshot/index.tsx) · code · 1142 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

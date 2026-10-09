@@ -14,4 +14,4 @@ type State, type Tools, } from "@/lib/api"; type Mode = "repos" | "tools" Notabl
 
 [`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 22080 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

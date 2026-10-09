@@ -6,6 +6,12 @@ Source: [src/components/Desktop](https://github.com/quirq-ai/website/tree/main/s
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### Background.tsx
+
+import React from 'react' Notable exports: `Background`, `DESKTOP_ICON_GLOW`.
+
+[`src/components/Desktop/Background.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/Background.tsx) · code · 680 bytes
+
 ### DesktopIcon.tsx
 
 import React from 'react' import { AppLink, AppItem } from 'components/OSIcons/AppIcon'
@@ -13,23 +19,14 @@ import ZoomHover from 'components/ZoomHover' Notable exports: `DesktopIcon`.
 
 [`src/components/Desktop/DesktopIcon.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/DesktopIcon.tsx) · code · 472 bytes
 
-### Wallpapers.tsx
-
-import React from 'react' /** * Wallpapers * Renders every desktop scene; visibility is
-driven by body[data-wallpaper], * set from localStorage in theme-init.js before React
-hydrates (and kept in sync * by App.tsx). That way the saved wallpaper paints on first frame
-— no flash of * the default scene.
-
-[`src/components/Desktop/Wallpapers.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/Wallpapers.tsx) · code · 2631 bytes
-
 ### index.tsx
 
-import React, { useEffect, useRef } from 'react' import Link from 'components/Link' import {
-useAppActions, useAppSettings, useAppUIState } from '../../context/App' import QuirqAppIcon
-from 'components/QuirqAppIcon' import { getQuirqApps } from 'lib/quirqApps' import { AppItem
-} from 'components/OSIcons/AppIcon' import ContextMenu from 'components/RadixUI/Co Notable
-exports: `useProductLinks`, `apps`.
+import React, { useEffect, useMemo, useRef, useState } from 'react' import Link from
+'components/Link' import { useAppActions, useAppSettings, useAppUIState, useAppWindows }
+from '../../context/App' import QuirqAppIcon from 'components/QuirqAppIcon' import type {
+QuirqApp } from 'lib/quirqApps' import { useQuirqApps } from 'lib/quirqLiveApps' import {
+AppIte Provides a default export as the module's public entry.
 
-[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 12439 bytes
+[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 16169 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

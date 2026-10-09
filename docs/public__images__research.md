@@ -27,4 +27,4 @@ not executable source.
 
 [`public/images/research/fig3_mechanism.svg`](https://github.com/quirq-ai/docs/blob/main/public/images/research/fig3_mechanism.svg) · code · 22288 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

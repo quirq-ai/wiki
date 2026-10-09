@@ -14,4 +14,4 @@ from 'slugify' Provides a default export as the module's public entry.
 
 [`src/components/Academy/PostQuote.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Academy/PostQuote.tsx) · code · 5771 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -12,7 +12,7 @@ Markdown page “Claude Code”. Discover, install, and start a local XO Space w
 plugin for Claude Code. MDX page (Markdown with JSX components), typically rendered by the
 docs site.
 
-[`content/docs/space/install-space-as-a-skill/claude-code.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/claude-code.mdx) · code · 3572 bytes
+[`content/docs/space/install-space-as-a-skill/claude-code.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/claude-code.mdx) · code · 3573 bytes
 
 ### codex.mdx
 
@@ -20,7 +20,7 @@ Markdown page “Codex”. Install the Quirq plugin for Codex, check local Space
 install or start the server. MDX page (Markdown with JSX components), typically rendered by
 the docs site.
 
-[`content/docs/space/install-space-as-a-skill/codex.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/codex.mdx) · code · 6847 bytes
+[`content/docs/space/install-space-as-a-skill/codex.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/codex.mdx) · code · 6849 bytes
 
 ### meta.json
 
@@ -29,4 +29,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/space/install-space-as-a-skill/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/space/install-space-as-a-skill/meta.json) · code · 101 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

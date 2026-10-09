@@ -290,4 +290,4 @@ frame width, not just the viewport.
 
 [`components/shapes/navigation/top-nav.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/navigation/top-nav.tsx) · code · 16807 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

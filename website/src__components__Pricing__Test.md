@@ -61,4 +61,4 @@ import React from 'react' import * as Icons from '@posthog/icons' Notable export
 
 [`src/components/Pricing/Test/freeTierData.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/Test/freeTierData.tsx) · code · 4436 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

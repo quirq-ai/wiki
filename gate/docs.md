@@ -13,6 +13,6 @@ rulesets are code in settings/github.toml; qqgate settings turns them into GitHu
 An agent cannot apply them (it would be changing its own gate); an org admin runs one
 command, from the gate commit the coordinator names.
 
-[`docs/apply-settings.md`](https://github.com/quirq-ai/gate/blob/main/docs/apply-settings.md) · code · 19942 bytes
+[`docs/apply-settings.md`](https://github.com/quirq-ai/gate/blob/main/docs/apply-settings.md) · code · 21398 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

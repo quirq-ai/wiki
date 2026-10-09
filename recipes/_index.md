@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake_adapters` | 6 | [tests__fake_adapters.md](tests__fake_adapters.md) |
 | `tools` | 2 | [tools.md](tools.md) |
 
-_Generated 2026-10-08 12:20 UTC._
+_Generated 2026-10-09 12:10 UTC._

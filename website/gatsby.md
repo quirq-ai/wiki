@@ -88,7 +88,7 @@ require('node:path') const vm = require('node:vm') const test = require('node:te
 createRequire } = require('node:module') const ts = require('typescript') const {
 buildQuirqApps } = require('../scripts/lib/quirq-catalog.mjs') Automated test file.
 
-[`gatsby/quirqRoutes.test.cjs`](https://github.com/quirq-ai/website/blob/main/gatsby/quirqRoutes.test.cjs) · code · 5166 bytes
+[`gatsby/quirqRoutes.test.cjs`](https://github.com/quirq-ai/website/blob/main/gatsby/quirqRoutes.test.cjs) · code · 5776 bytes
 
 ### rawMarkdownUtils.ts
 
@@ -153,4 +153,4 @@ Replacing '/' would result in empty string which is invalid Notable exports: `fl
 
 [`gatsby/utils.ts`](https://github.com/quirq-ai/website/blob/main/gatsby/utils.ts) · code · 1821 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -13,4 +13,4 @@ Notable exports: `Customers`.
 
 [`src/pages/customers/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/customers/index.tsx) · code · 27972 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -175,13 +175,6 @@ JSON array `release_contents_canary_xo-space_runs.json` with 3 items; first item
 
 [`tests/fixtures/api/release_contents_canary_xo-space_runs.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/release_contents_canary_xo-space_runs.json) · code · 1459 bytes
 
-### runs_depot_e2e-sync.json
-
-JSON document `runs_depot_e2e-sync.json` whose top-level keys are `total_count`,
-`workflow_runs`. Structured data consumed by the surrounding app or tooling.
-
-[`tests/fixtures/api/runs_depot_e2e-sync.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/runs_depot_e2e-sync.json) · code · 2495 bytes
-
 ### runs_empty.json
 
 JSON document `runs_empty.json` whose top-level keys are `total_count`, `workflow_runs`.
@@ -209,6 +202,13 @@ JSON document `runs_perf_perf.json` whose top-level keys are `total_count`, `wor
 Structured data consumed by the surrounding app or tooling.
 
 [`tests/fixtures/api/runs_perf_perf.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/runs_perf_perf.json) · code · 2468 bytes
+
+### runs_qq_e2e-sync.json
+
+JSON document `runs_qq_e2e-sync.json` whose top-level keys are `total_count`,
+`workflow_runs`. Structured data consumed by the surrounding app or tooling.
+
+[`tests/fixtures/api/runs_qq_e2e-sync.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/runs_qq_e2e-sync.json) · code · 2486 bytes
 
 ### runs_release_canary-watchdog.json
 
@@ -323,4 +323,4 @@ JSON array `xo-space_pull_77_reviews.json` with 1 items; first item keys: `id`, 
 
 [`tests/fixtures/api/xo-space_pull_77_reviews.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/xo-space_pull_77_reviews.json) · code · 1897 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -37,4 +37,4 @@ are intentionally left out. Notable exports: `CHANGELOG_TOPIC_DOCS`, `stripPostH
 
 [`src/components/Changelog/docsLinks.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Changelog/docsLinks.ts) · code · 2953 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

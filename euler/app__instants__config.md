@@ -21,4 +21,4 @@ JSON document `motion.json` whose top-level keys are `durations`, `easing`, `ges
 
 [`app/instants/config/motion.json`](https://github.com/quirq-ai/euler/blob/main/app/instants/config/motion.json) · code · 406 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

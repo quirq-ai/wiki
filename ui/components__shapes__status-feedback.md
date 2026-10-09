@@ -231,4 +231,4 @@ uppercase pill), HudPrompt, FloatingNotice and AmbientToast.
 
 [`components/shapes/status-feedback/toast.tsx`](https://github.com/quirq-ai/ui/blob/main/components/shapes/status-feedback/toast.tsx) · code · 15547 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

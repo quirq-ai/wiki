@@ -26,4 +26,4 @@ IconChevronDown Notable exports: `HeaderBar`.
 
 [`src/components/OSChrome/HeaderBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSChrome/HeaderBar.tsx) · code · 18469 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

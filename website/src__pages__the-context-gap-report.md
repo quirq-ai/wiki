@@ -16,4 +16,4 @@ TeamMember from 'components/TeamMember' import { CalloutBox } from
 
 [`src/pages/the-context-gap-report/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/the-context-gap-report/index.tsx) · code · 11547 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

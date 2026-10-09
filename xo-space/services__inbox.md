@@ -32,8 +32,8 @@ Functions: `refresh`, `list_items`, `create_item`, `update_item`, `update_many`,
 
 The inbox file: `~/.quirq/inbox/inbox.json (under QUIRQ_STATE_ROOT`). Classes: `InboxError`.
 Functions: `is_project_id`, `is_pid`, `pid_for`, `is_url`, `is_link_path`, `validate_link`,
-`build_item`, `source_config`, and 11 more.
+`build_item`, `source_config`, and 12 more.
 
-[`services/inbox/store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/inbox/store.py) · code · 18970 bytes
+[`services/inbox/store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/inbox/store.py) · code · 20027 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

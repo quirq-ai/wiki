@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 release release-state reports/<date>.md: the daily canary report, shown as text. Notable
 exports: `readLatestCanaryReport`, `CanaryReport`.
 
-[`lib/sources/canary-report.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-report.ts) · code · 1168 bytes
+[`lib/sources/canary-report.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-report.ts) · code · 1202 bytes
 
 ### canary-runs.ts
 
@@ -20,7 +20,7 @@ with no file is a day the canary did not run for that repo, which is itself wort
 Notable exports: `readCanaryRun`, `recentDates`, `listCanaryRunDates`, `readCanaryDays`,
 `canaryOutcomes`, `CanaryOutcome`, `CanaryStage`, `CanaryRun`, and 2 more.
 
-[`lib/sources/canary-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-runs.ts) · code · 5511 bytes
+[`lib/sources/canary-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/canary-runs.ts) · code · 5651 bytes
 
 ### channels-config.ts
 
@@ -36,7 +36,7 @@ The check runs on a branch's head commit, rolled up into one state. Branch names
 the registry, never from a visitor. Notable exports: `readBranchChecks`, `rollup`,
 `CheckRun`, `BranchChecks`.
 
-[`lib/sources/checks.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/checks.ts) · code · 4486 bytes
+[`lib/sources/checks.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/checks.ts) · code · 4518 bytes
 
 ### deployments.ts
 
@@ -153,4 +153,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

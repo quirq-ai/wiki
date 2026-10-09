@@ -25,7 +25,7 @@ Normalised event types — the API the sinks consume. Classes: `Event`, `Session
 Seek-tail reader with offset persistence. Classes: `OffsetStore`. Functions:
 `read_new_lines`.
 
-[`services/cowork_agent/visualizer/ingest/jsonl_tail.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/ingest/jsonl_tail.py) · code · 6630 bytes
+[`services/cowork_agent/visualizer/ingest/jsonl_tail.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/ingest/jsonl_tail.py) · code · 6667 bytes
 
 ### pii_filter.py
 
@@ -34,4 +34,4 @@ The redactor — the only module that turns a raw Claude Code jsonl line into no
 
 [`services/cowork_agent/visualizer/ingest/pii_filter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/ingest/pii_filter.py) · code · 9889 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

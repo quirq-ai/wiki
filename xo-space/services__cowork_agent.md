@@ -128,6 +128,6 @@ Bundled-skill installer. Functions: `install_xo_skills`, `link_global_skill`.
 
 Quirq machine-local UI/installation state. Functions: `get_state`, `update_state`.
 
-[`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 2462 bytes
+[`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 2499 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

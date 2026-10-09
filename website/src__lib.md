@@ -58,9 +58,11 @@ Product interest tracking for onboarding Notable exports: `getProductInterests`,
 
 import config from '../../quirq.apps.json' import snapshot from '../data/quirq-
 repositories.json' import { buildQuirqApps } from '../../scripts/lib/quirq-catalog.mjs'
-Notable exports: `getQuirqApps`, `getQuirqApp`, `QuirqApp`, `quirqConfig`, `quirqSnapshot`.
+import type { QuirqIcon } from '../components/QuirqAppIcon/glyphs' Notable exports:
+`getQuirqApps`, `getLaunchTarget`, `getQuirqApp`, `QuirqApp`, `quirqConfig`,
+`quirqSnapshot`.
 
-[`src/lib/quirqApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqApps.ts) · code · 1376 bytes
+[`src/lib/quirqApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqApps.ts) · code · 1949 bytes
 
 ### quirqAvatar.ts
 
@@ -68,9 +70,35 @@ A small configuration and storage adapter over the vendored Blobatar renderer, m
 Euler's euler-avatar.js. Avatars render locally from a name (the seed); nothing calls a
 service. Notable exports: `normalizeAvatarConfig`, `avatarSvg`, `avatarUri`,
 `loadAvatarConfig`, `saveAvatarConfig`, `useQuirqAvatar`, `AVATAR_STORAGE_KEY`,
-`avatarShapes`, and 7 more.
+`QUIRQY_WINDOW`, and 8 more.
 
-[`src/lib/quirqAvatar.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAvatar.ts) · code · 6586 bytes
+[`src/lib/quirqAvatar.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAvatar.ts) · code · 6917 bytes
+
+### quirqDocs.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import { docImageUrl,
+docSrcSet, isDocPath, readmeIn, repositoryPath, themedMedia } from './quirqDocs.ts'
+Automated test file.
+
+[`src/lib/quirqDocs.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.test.ts) · code · 3521 bytes
+
+### quirqDocs.ts
+
+A repository's documentation, read in the visitor's browser. The list of Markdown files
+comes from GitHub's git trees API: one anonymous, rate-limited request per repository per
+visit (an unchanged tree revalidates as a 304, which GitHub doesn't count). Each file comes
+from raw.githubusercontent.com, which is outside the API's rate limit and caches files for
+up to 5 minutes.
+
+[`src/lib/quirqDocs.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.ts) · code · 5729 bytes
+
+### quirqLiveApps.ts
+
+The organization's repository list, read live in the visitor's browser from GitHub's public
+REST API, so a repository created, renamed, described or deleted in the organization shows
+on the desktop, in Home base and in search without a rebuild. No token or backend.
+
+[`src/lib/quirqLiveApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqLiveApps.ts) · code · 8000 bytes
 
 ### quirqProjects.ts
 
@@ -81,6 +109,24 @@ from '../../scripts/lib/quirq-phases.mjs' Notable exports: `getQuirqProjectGroup
 `starsSource`.
 
 [`src/lib/quirqProjects.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjects.ts) · code · 1667 bytes
+
+### quirqReadmeLinks.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import {
+canFrameReadmeLink, readmeLinkAt, readmeLinkNamed, readmeLinkLabel, readmeLinkLook,
+readmeLinks, readmeLinkTarget, } from './quirqReadmeLinks.ts' Automated test file.
+
+[`src/lib/quirqReadmeLinks.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.test.ts) · code · 7207 bytes
+
+### quirqReadmeLinks.ts
+
+The links in the organization's profile README, as the desktop shows them: each is an app
+icon (its look) that opens where the link points (its target). Pure functions, so they can
+be tested. Notable exports: `readmeLinkApp`, `readmeLinkLook`, `canFrameReadmeLink`,
+`readmeLinkAddress`, `readmeLinkTarget`, `readmeLinks`, `readmeLinkNamed`, `readmeLinkAt`,
+and 8 more.
+
+[`src/lib/quirqReadmeLinks.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.ts) · code · 9168 bytes
 
 ### shopify.ts
 
@@ -109,4 +155,4 @@ LibraryPluginType } from 'types' Notable exports: `classNames`, `getPluginImageS
 
 [`src/lib/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/utils.ts) · code · 4353 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

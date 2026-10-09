@@ -66,12 +66,12 @@ SpotlightAction } from './actions' import { configForType } from './categories' 
 ### actions.tsx
 
 import React from 'react' import { IconBolt, IconClockRewind, IconConfetti, IconCursor,
-IconCursorClick, IconDay, IconImage, IconLaptop, IconMagicWand, IconMouseScrollDown,
-IconNight, IconRocket, IconShare, IconStar, IconX, } from '@posthog/icons' import { navigate
-} from 'gatsby' import { useApp, SiteSettings } from '../../context/App' import { useToast }
-f Notable exports: `SpotlightAction`, `useSpotlightActions`.
+IconCursorClick, IconDay, IconLaptop, IconMagicWand, IconMouseScrollDown, IconNight,
+IconRocket, IconShare, IconStar, IconX, } from '@posthog/icons' import { navigate } from
+'gatsby' import { useApp, SiteSettings } from '../../context/App' import { useToast } from
+'../../ Notable exports: `SpotlightAction`, `useSpotlightActions`.
 
-[`src/components/SpotlightSearch/actions.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/SpotlightSearch/actions.tsx) · code · 9529 bytes
+[`src/components/SpotlightSearch/actions.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/SpotlightSearch/actions.tsx) · code · 8729 bytes
 
 ### categories.tsx
 
@@ -96,4 +96,4 @@ import type { SpotlightAction } from './actions' Notable exports: `AlgoliaRecord
 
 [`src/components/SpotlightSearch/types.ts`](https://github.com/quirq-ai/website/blob/main/src/components/SpotlightSearch/types.ts) · code · 655 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

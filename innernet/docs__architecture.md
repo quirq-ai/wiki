@@ -31,7 +31,7 @@ ai/innernet, read from the code at commit 4e9bece on 3 October 2026. First writt
 735c5be; updated after two pushes added a database, a browsing history, project logos and
 the Innerpedia globe.*.
 
-[`docs/architecture/architecture.md`](https://github.com/quirq-ai/innernet/blob/main/docs/architecture/architecture.md) · code · 35764 bytes
+[`docs/architecture/architecture.md`](https://github.com/quirq-ai/innernet/blob/main/docs/architecture/architecture.md) · code · 36034 bytes
 
 ### data.md
 
@@ -42,4 +42,4 @@ document](architecture.md).*.
 
 [`docs/architecture/data.md`](https://github.com/quirq-ai/innernet/blob/main/docs/architecture/data.md) · code · 34618 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -28,4 +28,4 @@ minutes. MDX page (Markdown with JSX components), typically rendered by the docs
 
 [`content/docs/agents/xo-cowork/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/xo-cowork/setup.mdx) · code · 4736 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

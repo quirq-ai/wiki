@@ -23,7 +23,7 @@ variables. Keys: `HOST`, `PORT`, `STAGE`, `UVICORN_RELOAD`, `QUIRQ_SKIP_BOOT_INS
 `QUIRQ_WATCHER_SOURCE_MODE`, `XO_RC_DIR`, `CLAUDE_CLI_PATH`, and 13 more. Copy to `.env`
 locally; never commit real credentials.
 
-[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 18241 bytes
+[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 18045 bytes
 
 ### .gitattributes
 
@@ -47,7 +47,7 @@ The agent/workspace instructions (“XO Cowork API - Codex Project Instructions�
 backend that brokers chat and auth flows. - Uses local coding CLIs (claude or codex) for
 assistant responses. - Keep API behavior backward compatible by default.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4118 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4116 bytes
 
 ### CLAUDE.md
 
@@ -64,7 +64,7 @@ open-source local control plane for AI coding agents — Claude Code, Codex, Ope
 Antigravity, and Cursor for telemetry — plus the Space UI that shows what those agents did
 to your projects. This guide is the short path from "I found something" to "it's merged".
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17749 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17770 bytes
 
 ### DEVELOPING.md
 
@@ -72,7 +72,7 @@ The developer guide (“Developing xo-space”). A practical guide to working in
 how it's wired, where things live, how to run and validate it, and how to add a new agent
 backend without touching core code.
 
-[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 60376 bytes
+[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 57701 bytes
 
 ### Dockerfile
 
@@ -89,7 +89,7 @@ marketplace add quirq-ai/xo-space, then open Plugins → Quirq → XO Space and 
 In a new Codex task, say “Open XO Space” or “Install XO Space in ~/work.” The plugin handles
 first setup and opens the local UI; fresh installs use the Codex backend.
 
-[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12606 bytes
+[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12815 bytes
 
 ### LICENSE
 
@@ -136,11 +136,11 @@ stash back (without dropping it if apply fails) Shebang `#!/usr/bin/env bash`. F
 ### install.sh
 
 install.sh — set up and run Quirq natively. Shebang `#!/usr/bin/env bash`. Functions:
-`fail`, `require_command`, `resolve_repo_dir`, `fetch_repo`, `ensure_uv`,
-`sync_dependencies`, `report_tool`, `check_optional_tools`, `print_reporting_notice`,
-`saved_root_from_file`, and 10 more.
+`fail`, `require_command`, `physical_dir`, `has_checkout_files`, `read_dir_info`,
+`is_shared_tmp`, `dir_writable_by_others`, `filesystem_type`, `on_permissionless_fs`,
+`writable_problem`, and 23 more.
 
-[`install.sh`](https://github.com/quirq-ai/xo-space/blob/main/install.sh) · code · 28235 bytes
+[`install.sh`](https://github.com/quirq-ai/xo-space/blob/main/install.sh) · code · 37870 bytes
 
 ### pytest.ini
 
@@ -178,4 +178,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

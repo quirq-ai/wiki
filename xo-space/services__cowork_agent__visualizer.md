@@ -58,7 +58,7 @@ Git provenance for one project — its origin URL and default branch. Functions:
 Functions: `mirror_path`, `read_mirror`, `load_state`, `record_pages`, `record_failure`,
 `reset_mirror`.
 
-[`services/cowork_agent/visualizer/github_mirror.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/github_mirror.py) · code · 15045 bytes
+[`services/cowork_agent/visualizer/github_mirror.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/github_mirror.py) · code · 15082 bytes
 
 ### migrate.py
 
@@ -70,10 +70,10 @@ T21 — the one-time, idempotent move of the pre-T19 runtime tier. Functions:
 ### peers_store.py
 
 CRUD over `/.xo/peers.json` — the collaborator roster. Classes: `PeersStoreError`.
-Functions: `create_peer`, `read_roster`, `list_peers`, `get_peer`, `update_peer`,
-`delete_peer`.
+Functions: `shape_problem`, `create_peer`, `read_roster`, `list_peers`, `get_peer`,
+`update_peer`, `delete_peer`.
 
-[`services/cowork_agent/visualizer/peers_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/peers_store.py) · code · 11257 bytes
+[`services/cowork_agent/visualizer/peers_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/peers_store.py) · code · 11413 bytes
 
 ### project_index.py
 
@@ -133,9 +133,10 @@ The todo lifecycle status vocabulary — one definition, one place.
 ### todos_store.py
 
 CRUD over `/.xo/todos.json` — and the todo event source. Classes: `TodosStoreError`.
-Functions: `is_deleted`, `create_todo`, `get_todo`, `update_todo`, `delete_todo`.
+Functions: `is_deleted`, `shape_problem`, `create_todo`, `get_todo`, `update_todo`,
+`delete_todo`.
 
-[`services/cowork_agent/visualizer/todos_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/todos_store.py) · code · 13812 bytes
+[`services/cowork_agent/visualizer/todos_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/todos_store.py) · code · 14180 bytes
 
 ### watcher.py
 
@@ -165,10 +166,10 @@ The read-time projection: .xo/workitems.json joined with the mirror. Functions:
 ### workitems_store.py
 
 CRUD over `/.xo/workitems.json` — the durable work surface. Classes: `WorkitemsStoreError`.
-Functions: `emit_workitem_events`, `is_deleted`, `is_adopted`, `create_workitem`,
-`get_workitem`, `list_workitems`, `update_workitem`, `delete_workitem`, and 2 more.
+Functions: `emit_workitem_events`, `is_deleted`, `is_adopted`, `shape_problem`,
+`create_workitem`, `get_workitem`, `list_workitems`, `update_workitem`, and 3 more.
 
-[`services/cowork_agent/visualizer/workitems_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workitems_store.py) · code · 33897 bytes
+[`services/cowork_agent/visualizer/workitems_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workitems_store.py) · code · 34083 bytes
 
 ### workspace_index.py
 
@@ -178,4 +179,4 @@ Workspace discovery — every project the watcher should track. Functions:
 
 [`services/cowork_agent/visualizer/workspace_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace_index.py) · code · 3266 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

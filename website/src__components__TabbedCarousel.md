@@ -15,4 +15,4 @@ from 'components/RadixUI/Tooltip' Notable exports: `TabbedCarousel`, `TabbedCaro
 
 [`src/components/TabbedCarousel/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TabbedCarousel/index.tsx) · code · 14358 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

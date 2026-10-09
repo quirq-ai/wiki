@@ -13,16 +13,16 @@ The project README (“Home base”). The Home window at /, laid out after
 window system. It opens on a first visit to /, and the dock's Home icon opens it or brings
 it forward. Closing it reveals the desktop and its icons.
 
-[`src/components/HomeBase/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/README.md) · code · 1717 bytes
+[`src/components/HomeBase/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/README.md) · code · 1952 bytes
 
 ### index.tsx
 
-import React, { useEffect, useMemo, useRef, useState } from 'react' import Explorer from
+import React, { useEffect, useMemo, useState } from 'react' import Explorer from
 'components/Explorer' import Link from 'components/Link' import OSButton from
 'components/OSButton' import { QuirqAppTile } from 'components/QuirqAppIcon' import {
-QuirqWordmark } from 'components/QuirqBrand' import QuirqAvatar, { AvatarEditor } from
-'components/QuirqAva Notable exports: `HomeBase`.
+QuirqWordmark } from 'components/QuirqBrand' import { QuirqAvatarTile } from
+'components/QuirqAvatar' import { useO Notable exports: `HomeBase`.
 
-[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 23911 bytes
+[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 21450 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

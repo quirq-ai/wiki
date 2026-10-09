@@ -20,4 +20,4 @@ import { IconChevronDown, IconLogomark } from '@posthog/icons' import React, { u
 
 [`src/components/Cards/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Cards/index.tsx) · code · 4656 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

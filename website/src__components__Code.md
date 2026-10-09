@@ -90,4 +90,4 @@ import { useState, useEffect } from 'react' Notable exports: `usePrefersReducedM
 
 [`src/components/Code/usePrefersReducedMotion.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Code/usePrefersReducedMotion.ts) · code · 531 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

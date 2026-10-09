@@ -38,7 +38,7 @@ suggestions), never a whole page by accident. Notable exports: `PageSigil`.
 
 A quiet attribution shared by the two footer layouts. Notable exports: `BrandCredit`.
 
-[`components/quirq-credit.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/quirq-credit.tsx) · code · 498 bytes
+[`components/quirq-credit.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/quirq-credit.tsx) · code · 556 bytes
 
 ### search-box.tsx
 
@@ -94,4 +94,4 @@ italic, a quiet nod to the thing being searched being you. Notable exports: `Wor
 
 [`components/wordmark.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wordmark.tsx) · code · 1171 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -13,6 +13,6 @@ targets, schema quirq-repo/1 (quirq-ai/sync). Read and edit it only through qqsy
 show, qqsync pin, or the qqsync.manifest library); never parse it any other way. Sections:
 `[targets`, `qq`, `toolchains.node`, `toolchains.node.platforms`.
 
-[`infra/repo.toml`](https://github.com/quirq-ai/innernet/blob/main/infra/repo.toml) · code · 1846 bytes
+[`infra/repo.toml`](https://github.com/quirq-ai/innernet/blob/main/infra/repo.toml) · code · 1843 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

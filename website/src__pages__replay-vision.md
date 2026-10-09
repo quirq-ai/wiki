@@ -20,4 +20,4 @@ import React from 'react' import ProductReaderView from
 
 [`src/pages/replay-vision/pricing.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/replay-vision/pricing.tsx) · code · 363 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

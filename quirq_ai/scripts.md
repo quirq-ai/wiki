@@ -18,4 +18,4 @@ Builds the sample ledger the dashboard reads.
 
 [`scripts/build-sample-ledger.mjs`](https://github.com/quirq-ai/quirq_ai/blob/main/scripts/build-sample-ledger.mjs) · code · 9854 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -33,16 +33,16 @@ redistribution.
 
 The project README (“research”). Verified, shareable research outcomes from quirq.
 
-[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 7740 bytes
+[`README.md`](https://github.com/quirq-ai/research/blob/main/README.md) · code · 7948 bytes
 
 ### package-lock.json
 
-Package-manager lockfile (package-lock.json, 137.7 KB). It pins the exact dependency tree
+Package-manager lockfile (package-lock.json, 138.1 KB). It pins the exact dependency tree
 for reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`package-lock.json`](https://github.com/quirq-ai/research/blob/main/package-lock.json) · lockfile · 141002 bytes
+[`package-lock.json`](https://github.com/quirq-ai/research/blob/main/package-lock.json) · lockfile · 141392 bytes
 
 ### package.json
 
@@ -65,4 +65,4 @@ consumed by the surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/research/blob/main/vercel.json) · code · 197 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

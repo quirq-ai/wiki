@@ -181,4 +181,4 @@ exports: `useTimers`, `reducedMotion`.
 
 [`components/shapes/chat-threads/use-timers.ts`](https://github.com/quirq-ai/ui/blob/main/components/shapes/chat-threads/use-timers.ts) · code · 905 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

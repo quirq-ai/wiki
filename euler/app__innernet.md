@@ -123,4 +123,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`app/innernet/tsconfig.json`](https://github.com/quirq-ai/euler/blob/main/app/innernet/tsconfig.json) · code · 781 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

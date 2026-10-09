@@ -37,9 +37,9 @@ Swarm calls for Plane-A chat storage (/ask_question saves the exchange). Classes
 ### project_sharing.py
 
 Swarm calls for project sharing (the commit relay). Functions: `report_commits`, `poll`,
-`share`, `revoke`, `members`.
+`poll_detailed`, `share`, `revoke`, `members`.
 
-[`services/swarm_api/project_sharing.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/project_sharing.py) · code · 1973 bytes
+[`services/swarm_api/project_sharing.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/project_sharing.py) · code · 2483 bytes
 
 ### usage.py
 
@@ -47,4 +47,4 @@ Swarm calls for the daily usage report. Functions: `probe_key`, `report`.
 
 [`services/swarm_api/usage.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/usage.py) · code · 600 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

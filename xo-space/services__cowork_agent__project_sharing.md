@@ -43,7 +43,7 @@ The relay loop. One flat cadence (PROJECT_SHARING_POLL_INTERVAL_SECONDS, default
 jittered) or sooner when nudged. Functions: `reset_for_tests`, `nudge`, `local_repo_map`,
 `run_tick`, `wait_for_next_tick`, `run_relay_poller`.
 
-[`services/cowork_agent/project_sharing/poller.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/poller.py) · code · 11931 bytes
+[`services/cowork_agent/project_sharing/poller.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/poller.py) · code · 12117 bytes
 
 ### repo_identity.py
 
@@ -66,7 +66,7 @@ Per-repo relay state, machine-local, under ~/.quirq/sharing/. Functions: `relay_
 `state_path`, `load_last_reported`, `save_last_reported`, `load_cloned_at`,
 `save_cloned_at`, `load_cursor`, `save_cursor`, and 4 more.
 
-[`services/cowork_agent/project_sharing/state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/state.py) · code · 5059 bytes
+[`services/cowork_agent/project_sharing/state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/state.py) · code · 5096 bytes
 
 ### status.py
 
@@ -74,7 +74,7 @@ In-memory relay status. Volatile by design: restarts empty and repopulates on th
 tick. Functions: `reset`, `set_parked`, `record_poll`, `record_available`, `record_fetch`,
 `record_synced`, `record_clone_started`, `record_clone_result`, and 6 more.
 
-[`services/cowork_agent/project_sharing/status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/status.py) · code · 8464 bytes
+[`services/cowork_agent/project_sharing/status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/status.py) · code · 8931 bytes
 
 ### watcher.py
 
@@ -83,4 +83,4 @@ workspace_id, commits} to swarm. Functions: `run_tick_repo`.
 
 [`services/cowork_agent/project_sharing/watcher.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_sharing/watcher.py) · code · 2821 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

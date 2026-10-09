@@ -24,4 +24,4 @@ IconLaptop, IconRewindPlay, IconBell, } from '@posthog/icons' import CloudinaryI
 
 [`src/hooks/productData/logs/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/logs/slides.tsx) · code · 12752 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

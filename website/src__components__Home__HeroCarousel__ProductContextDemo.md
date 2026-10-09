@@ -23,4 +23,4 @@ Notable exports: `ProductContextDemo`, `ContextNode`.
 
 [`src/components/Home/HeroCarousel/ProductContextDemo/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Home/HeroCarousel/ProductContextDemo/index.tsx) · code · 7246 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

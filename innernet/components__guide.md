@@ -24,10 +24,11 @@ progress ruler (a client component), so the two can never disagree. Notable expo
 
 ### contribute.tsx
 
-Chapter IV: a map of the code, four recipes quoted from the code itself, the loop, the
-conventions, and the checklist from CONTRIBUTING.md. Notable exports: `Contribute`.
+On the demo, file links go to GitHub, which refuses to be framed: open them in a new tab so
+they never replace the page when the demo is shown in another site's window. Notable
+exports: `Contribute`.
 
-[`components/guide/contribute.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/contribute.tsx) · code · 25283 bytes
+[`components/guide/contribute.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/contribute.tsx) · code · 25566 bytes
 
 ### copy-button.tsx
 
@@ -133,7 +134,7 @@ drawing from public/guide/plates/<id>.svg.
 Chapter V: what is read, what is only counted, what is blacked out, who may ask, and what
 the database keeps, here and on the public demo. Notable exports: `Privacy`.
 
-[`components/guide/privacy.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/privacy.tsx) · code · 14221 bytes
+[`components/guide/privacy.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/guide/privacy.tsx) · code · 14340 bytes
 
 ### recipe-shared.ts
 
@@ -161,4 +162,4 @@ next.config.ts names the files a deployment needs.
 
 [`components/guide/source.ts`](https://github.com/quirq-ai/innernet/blob/main/components/guide/source.ts) · code · 3834 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

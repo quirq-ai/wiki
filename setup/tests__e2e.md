@@ -20,6 +20,6 @@ join(ROOT, "test-results", "screenshots"); The line that gets a repo: qq fetch, 
 on a Mac, where qq fetch stops after cloning. const GET = process.platform === "darwin" ?
 "git clone" : "qq fetch"; const AS_DARWIN = ["--import", pathToFileURL(join(ROOT, "tests".
 
-[`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 13974 bytes
+[`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 13972 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

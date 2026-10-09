@@ -38,4 +38,4 @@ blobs.
 
 [`src/images/lawyers/wayne-jarvis.jpg`](https://github.com/quirq-ai/website/blob/main/src/images/lawyers/wayne-jarvis.jpg) · binary · 32231 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

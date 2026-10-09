@@ -52,7 +52,7 @@ or the live index on 2 October 2026. Paths are relative to experiments/innernet.
 scripts/build-index.ts, N = lib/normalize.ts, T = lib/text.ts, S = lib/search.ts, D =
 lib/data.ts. When this file and DESIGN.md or README.md disagree, this file follows the code.
 
-[`film/FACTS.md`](https://github.com/quirq-ai/innernet/blob/main/film/FACTS.md) · code · 38497 bytes
+[`film/FACTS.md`](https://github.com/quirq-ai/innernet/blob/main/film/FACTS.md) · code · 38679 bytes
 
 ### README.md
 
@@ -116,4 +116,4 @@ field guide film · storyboard v2.
 
 [`film/storyboard.html`](https://github.com/quirq-ai/innernet/blob/main/film/storyboard.html) · code · 154116 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-08T12:20:14.321170+00:00",
+  "generated_at": "2026-10-09T12:10:13.288145+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -26,22 +26,13 @@
       "sha": "4e2b0068b074036ad0a8d368eeb9fce93ba8b2de"
     },
     {
-      "name": "depot",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "html_url": "https://github.com/quirq-ai/depot",
-      "pushed_at": "2026-10-07T16:43:25Z",
-      "sha": "982ce856e29f0e1f7a2784f9f5d069fa7b3877de"
-    },
-    {
       "name": "docs",
       "fork": true,
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/docs",
-      "pushed_at": "2026-10-07T18:19:08Z",
-      "sha": "eecdbca671ccb560db477894a9732a2570174da7"
+      "pushed_at": "2026-10-09T09:35:21Z",
+      "sha": "e67769e86a29e20a83e14e2744ba79897e3c9f20"
     },
     {
       "name": "environment",
@@ -76,7 +67,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-10-08T12:02:31Z",
+      "pushed_at": "2026-10-09T09:41:10Z",
       "sha": "1eb981e22e33bd76fca376dcd1f107e655be8e81"
     },
     {
@@ -85,8 +76,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gate",
-      "pushed_at": "2026-10-07T16:42:09Z",
-      "sha": "96c85d438b35cd239e9ddca87a42ed2a076a8d98"
+      "pushed_at": "2026-10-09T10:06:03Z",
+      "sha": "bebca98ca669127a0e19927d493134c7fe053f36"
     },
     {
       "name": "infra-config",
@@ -94,8 +85,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/infra-config",
-      "pushed_at": "2026-10-07T16:45:10Z",
-      "sha": "54cbf438ab03c429b96577946a4b7b7bbe6cb1fc"
+      "pushed_at": "2026-10-09T07:08:21Z",
+      "sha": "b344eaf848b43f6096b0247c9b21ca6ed10b08a8"
     },
     {
       "name": "innernet",
@@ -103,8 +94,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/innernet",
-      "pushed_at": "2026-10-07T18:21:55Z",
-      "sha": "e48fd9795221130b1b930d8f0374f4e548df34a0"
+      "pushed_at": "2026-10-09T10:46:00Z",
+      "sha": "dbd61d2531fe92b0a176e4c096ac1c7eaa995ea5"
     },
     {
       "name": "installer",
@@ -139,8 +130,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/monitoring",
-      "pushed_at": "2026-10-08T10:02:19Z",
-      "sha": "6d69a8fbef28e85842e3446d5ca3bdc0c93a3eb7"
+      "pushed_at": "2026-10-09T08:09:12Z",
+      "sha": "95a70c8e5eeabccce74120bb70c8b3872a8b9c20"
     },
     {
       "name": "perf",
@@ -148,8 +139,17 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/perf",
-      "pushed_at": "2026-10-07T19:36:05Z",
+      "pushed_at": "2026-10-09T06:20:15Z",
       "sha": "7ef18e81b4d5f0f96e0fec71a4a1db733cf857b9"
+    },
+    {
+      "name": "qq",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/qq",
+      "pushed_at": "2026-10-09T07:59:39Z",
+      "sha": "8424df8e10bbebfd6ec00f4e63d2e73421c78235"
     },
     {
       "name": "quirq_ai",
@@ -157,7 +157,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/quirq_ai",
-      "pushed_at": "2026-09-28T16:39:08Z",
+      "pushed_at": "2026-10-08T19:03:04Z",
       "sha": "13c26afb386d991562c8c0c518130ca5c06456cd"
     },
     {
@@ -193,7 +193,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-08T07:44:45Z",
+      "pushed_at": "2026-10-09T07:45:19Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -211,8 +211,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/research",
-      "pushed_at": "2026-10-07T18:19:42Z",
-      "sha": "26cc843379e54eba21ae8faae8be93100c8f1458"
+      "pushed_at": "2026-10-08T16:25:00Z",
+      "sha": "8c5e6c5c0d3fb7eb93c8c74495aabdf030a62909"
     },
     {
       "name": "rollers",
@@ -229,8 +229,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/setup",
-      "pushed_at": "2026-10-07T19:08:37Z",
-      "sha": "d76e9b36dbf5549ab5321953bd60dae78bd70e01"
+      "pushed_at": "2026-10-09T09:45:11Z",
+      "sha": "5acb0f1575edc4cf6813546053f2b868167227c6"
     },
     {
       "name": "sync",
@@ -247,7 +247,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-08T06:17:39Z",
+      "pushed_at": "2026-10-09T06:19:34Z",
       "sha": "0ad06a230fabf7c2d85ee4bdb5e03e0f9c828a6e"
     },
     {
@@ -269,13 +269,22 @@
       "sha": "02d6488e97241ac52d4031999b5155d3ee91d885"
     },
     {
+      "name": "vangogh",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/vangogh",
+      "pushed_at": "2026-10-08T17:06:25Z",
+      "sha": "ee7e4fbaeb92fc97fa4427085c039a547bade0c4"
+    },
+    {
       "name": "website",
       "fork": false,
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/website",
-      "pushed_at": "2026-10-07T18:19:18Z",
-      "sha": "94c138f591b9fe69a6b5a5914794cbb12831721f"
+      "pushed_at": "2026-10-09T10:46:09Z",
+      "sha": "1b6774dc6118bebc7646fdca1a9d7a5d8698a0b2"
     },
     {
       "name": "xo-cowork-api",
@@ -292,8 +301,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-10-08T12:00:40Z",
-      "sha": "37bd7f7918715d60bc55df197869cada5df602e6"
+      "pushed_at": "2026-10-09T11:11:11Z",
+      "sha": "e7092bac888cef6c1196dbb0f8043daa3ee19ce0"
     }
   ]
 }

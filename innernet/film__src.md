@@ -62,4 +62,4 @@ against FACTS.md. Lily (ElevenLabs) reads it; scripts/voice.mjs renders it. Nota
 
 [`film/src/script.mjs`](https://github.com/quirq-ai/innernet/blob/main/film/src/script.mjs) · code · 2854 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

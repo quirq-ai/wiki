@@ -13,7 +13,7 @@ ReleaseRepo, type SectionRead, type Snapshot, type SourceStatus, type TodayItem,
 WaitingItem, type WriterHealth, } from "@/lib/model/types"; Joins every Signal into the one
 model the pages render.
 
-[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35729 bytes
+[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35559 bytes
 
 ### fold-runs.ts
 
@@ -33,6 +33,14 @@ function judgeWriter(writer: Writer, runs: Signal, now: Date): WriterHealth { co
 Notable exports: `judgeWriter`.
 
 [`lib/model/freshness.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/freshness.ts) · code · 1791 bytes
+
+### matrix.ts
+
+/** One row of Today's change matrix: a repo and its changes in the window, oldest first. */
+export type MatrixRow = { repo: string; items: TodayItem[] } Notable exports: `matrixRows`,
+`MatrixRow`.
+
+[`lib/model/matrix.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/matrix.ts) · code · 1186 bytes
 
 ### repo.ts
 
@@ -59,4 +67,4 @@ Notable exports: `SNAPSHOT_SCHEMA`, `CellStateSchema`, `CellSchema`, `SourceStat
 
 [`lib/model/types.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/types.ts) · code · 7336 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

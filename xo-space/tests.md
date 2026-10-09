@@ -23,9 +23,10 @@ A healthy Space built from the two golden samples, for xo-doctor tests. Classes:
 
 tests/install_sh_harness.sh — exercises install.sh's resolve_repo_dir, fetch_repo and
 print_restart_hint in isolation. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad`,
-`check`, `detect`, `fetch`, `hint`.
+`check`, `detect`, `run`, `err`, `expect_stop`, `commit_installer`, `add_acl`, `fetch`, and
+3 more.
 
-[`tests/install_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/install_sh_harness.sh) · code · 7502 bytes
+[`tests/install_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/install_sh_harness.sh) · code · 20553 bytes
 
 ### required_tools.py
 
@@ -70,7 +71,7 @@ Workspace branding persists validated changes without touching real state. Runna
 script via `if __name__ == '__main__'`. Classes: `BrandingTests`. Functions: `image_bytes`.
 Built with FastAPI. Contains tests.
 
-[`tests/test_branding.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_branding.py) · code · 13222 bytes
+[`tests/test_branding.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_branding.py) · code · 13234 bytes
 
 ### test_browser_guard.py
 
@@ -246,6 +247,14 @@ via `if __name__ == '__main__'`. Classes: `SpaceIdentityTests`, `DuplicateIdTest
 
 [`tests/test_doctor_checks.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_checks.py) · code · 16093 bytes
 
+### test_doctor_content.py
+
+Content the owning store can't use is reported, in the store's own words. Runnable as a
+script via `if __name__ == '__main__'`. Classes: `ValidatorSeamTests`, `ContentSandbox`,
+`ContentTests`, `StoreAgreementTests`. Contains tests.
+
+[`tests/test_doctor_content.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_content.py) · code · 6464 bytes
+
 ### test_doctor_every_finding.py
 
 No finding is built without a headline and a next step (#188 design §1). Runnable as a
@@ -280,10 +289,11 @@ script via `if __name__ == '__main__'`. Classes: `LeftoverSandbox`, `RuntimeKeyD
 ### test_doctor_liveness.py
 
 Liveness: the task record and what each component leaves on disk. Classes:
-`LivenessSandbox`, `WatcherTests`, `ComponentTests`, `ConnectionsTests`, `GitHubTests`,
-`SchedulerTests`, `UsageTests`, `RelayTests`. Functions: `_stamp`. Contains tests.
+`LivenessSandbox`, `WatcherTests`, `WatcherDisabledTests`, `ComponentTests`,
+`ConnectionsTests`, `GitHubTests`, `SchedulerTests`, `UsageTests`, and 1 more. Functions:
+`_stamp`. Contains tests.
 
-[`tests/test_doctor_liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_liveness.py) · code · 23120 bytes
+[`tests/test_doctor_liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_liveness.py) · code · 28654 bytes
 
 ### test_doctor_model.py
 
@@ -298,7 +308,7 @@ tests.
 Read findings say which file, what breaks, what happens by itself, and what to do. Classes:
 `ReadFindingTests`. Contains tests.
 
-[`tests/test_doctor_read_findings.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_read_findings.py) · code · 6833 bytes
+[`tests/test_doctor_read_findings.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_read_findings.py) · code · 10033 bytes
 
 ### test_doctor_reading.py
 
@@ -306,7 +316,7 @@ xo-doctor reads a file into exactly one outcome and never returns its content. R
 script via `if __name__ == '__main__'`. Classes: `ClassifyTests`, `MeasureTreeTests`,
 `PrintableTests`, `ModelTests`, `EvidenceAndTailTests`. Contains tests.
 
-[`tests/test_doctor_reading.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_reading.py) · code · 12384 bytes
+[`tests/test_doctor_reading.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_reading.py) · code · 12867 bytes
 
 ### test_doctor_regressions.py
 
@@ -334,9 +344,10 @@ FastAPI. Contains tests.
 
 A doctor run: healthy baseline, error isolation, and the read-only contract. Runnable as a
 script via `if __name__ == '__main__'`. Classes: `BaselineTests`, `ReadCheckTests`,
-`ReportSizeTests`, `ReadOnlyTests`, `HostileFileTests`. Built with FastAPI. Contains tests.
+`CoverageTests`, `ReportSizeTests`, `ReadOnlyTests`, `HostileFileTests`. Built with FastAPI.
+Contains tests.
 
-[`tests/test_doctor_run.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_run.py) · code · 17797 bytes
+[`tests/test_doctor_run.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_run.py) · code · 19790 bytes
 
 ### test_doctor_seams.py
 
@@ -344,6 +355,13 @@ The private names the doctor borrows from other modules still exist. Runnable as
 via `if __name__ == '__main__'`. Classes: `PrivateSeamsTests`. Contains tests.
 
 [`tests/test_doctor_seams.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_seams.py) · code · 2115 bytes
+
+### test_doctor_special.py
+
+Links, FIFOs and devices at state paths are reported, never opened. Classes:
+`SpecialEntryTests`. Contains tests.
+
+[`tests/test_doctor_special.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_special.py) · code · 3965 bytes
 
 ### test_env_blank_shadow.py
 
@@ -413,7 +431,7 @@ tests.
 Python module `test_inbox_store.py`. Runnable as a script via `if __name__ == '__main__'`.
 Classes: `InboxStoreTests`, `InboxLocationTests`. Functions: `iso`, `item`. Contains tests.
 
-[`tests/test_inbox_store.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_store.py) · code · 40747 bytes
+[`tests/test_inbox_store.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_store.py) · code · 42149 bytes
 
 ### test_install_sh.py
 
@@ -498,14 +516,14 @@ tests.
 Python module `test_project_sharing_clone.py`. Classes: `CloneFunctionTests`,
 `AutoCloneInTickTests`. Functions: `run`. Contains tests.
 
-[`tests/test_project_sharing_clone.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_clone.py) · code · 15322 bytes
+[`tests/test_project_sharing_clone.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_clone.py) · code · 15345 bytes
 
 ### test_project_sharing_e2e.py
 
 End-to-end project sharing with real git and three workspaces. Classes: `FakeSwarm`,
 `ProjectSharingEndToEndTests`. Functions: `run`, `git`. Contains tests.
 
-[`tests/test_project_sharing_e2e.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_e2e.py) · code · 11718 bytes
+[`tests/test_project_sharing_e2e.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_e2e.py) · code · 11944 bytes
 
 ### test_project_sharing_git_ops.py
 
@@ -534,14 +552,14 @@ Python module `test_project_sharing_layout.py`. Classes: `GitRepoDirsTests`, `Co
 
 Python module `test_project_sharing_nudge.py`. Classes: `NudgeTests`. Contains tests.
 
-[`tests/test_project_sharing_nudge.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_nudge.py) · code · 3701 bytes
+[`tests/test_project_sharing_nudge.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_nudge.py) · code · 3744 bytes
 
 ### test_project_sharing_poller.py
 
 Python module `test_project_sharing_poller.py`. Classes: `PollerTickTests`,
 `WatcherPublishTests`. Functions: `run`. Contains tests.
 
-[`tests/test_project_sharing_poller.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_poller.py) · code · 9696 bytes
+[`tests/test_project_sharing_poller.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_sharing_poller.py) · code · 10714 bytes
 
 ### test_project_sharing_state.py
 
@@ -627,6 +645,14 @@ Python module `test_runtime_config.py`. Runnable as a script via `if __name__ ==
 Built with FastAPI. Contains tests.
 
 [`tests/test_runtime_config.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_config.py) · code · 19932 bytes
+
+### test_safe_read.py
+
+State files are read whole only when they are small regular files. Runnable as a script via
+`if __name__ == '__main__'`. Classes: `ReadTextGuardedTests`,
+`SchedulerRefusesDevicesTests`. Contains tests.
+
+[`tests/test_safe_read.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_safe_read.py) · code · 3299 bytes
 
 ### test_scheduler.py
 
@@ -718,7 +744,7 @@ The Quirq view's Health panel: on-demand checks and one confirmed action. Runnab
 script via `if __name__ == '__main__'`. Classes: `HealthPanelTests`. Functions: `read`.
 Contains tests.
 
-[`tests/test_space_doctor_ui.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_doctor_ui.py) · code · 4059 bytes
+[`tests/test_space_doctor_ui.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_doctor_ui.py) · code · 4634 bytes
 
 ### test_space_file_history.py
 
@@ -910,7 +936,7 @@ Exercise contextual view searches against the real view modules. Classes:
 Python module `test_space_wiki.py`. Runnable as a script via `if __name__ == '__main__'`.
 Classes: `SpaceWikiTests`. Functions: `view_contract`. Contains tests.
 
-[`tests/test_space_wiki.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_wiki.py) · code · 40276 bytes
+[`tests/test_space_wiki.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_wiki.py) · code · 40572 bytes
 
 ### test_storage_layout.py
 
@@ -941,7 +967,7 @@ One stream vocabulary for every chat adapter. Runnable as a script via `if __nam
 Python module `test_swarm_api.py`. Classes: `ClientPatch`, `TransportTests`,
 `FeatureModuleTests`, `OneDoorTests`. Functions: `run`, `fake_response`. Contains tests.
 
-[`tests/test_swarm_api.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_swarm_api.py) · code · 8042 bytes
+[`tests/test_swarm_api.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_swarm_api.py) · code · 9140 bytes
 
 ### test_telemetry_sources.py
 
@@ -958,7 +984,7 @@ tests.
 Theme preferences persist independently of branding and the checkout. Runnable as a script
 via `if __name__ == '__main__'`. Classes: `ThemeTests`. Built with FastAPI. Contains tests.
 
-[`tests/test_theme.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_theme.py) · code · 8611 bytes
+[`tests/test_theme.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_theme.py) · code · 8620 bytes
 
 ### test_timeline_routes.py
 
@@ -1041,4 +1067,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

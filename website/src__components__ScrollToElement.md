@@ -13,4 +13,4 @@ import React, { useCallback } from 'react' Notable exports: `scrollToElement`,
 
 [`src/components/ScrollToElement/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ScrollToElement/index.tsx) · code · 3197 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

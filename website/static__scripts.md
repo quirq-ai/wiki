@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### theme-init.js
 
-(function () { window.__onThemeChange = function () {} function setTheme(newTheme) {
-window.__theme = newTheme preferredTheme = newTheme document.body.className = newTheme
-window.__onThemeChange(newTheme) } var preferredTheme var darkQuery =
-window.matchMedia('(prefers-color-scheme: dark)') darkQuery.addListener(function (e) { if
-(!localStorage.getItem('them.
+(function () { window.__onThemeChange = function () {} var darkQuery =
+window.matchMedia('(prefers-color-scheme: dark)') function resolve(theme) { return theme ===
+'system' ? (darkQuery.matches ? 'dark' : 'light') : theme } Applies a light or dark theme;
+the preference ('system', 'light' or 'dark') is kept separately. function setTheme(newTheme)
+{ window.__t.
 
-[`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 2036 bytes
+[`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 2583 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

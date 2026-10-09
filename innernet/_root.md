@@ -64,7 +64,7 @@ typographic care of a good printed book.
 
 The project README (“The public demo (Vercel)”). innernet.
 
-[`README.md`](https://github.com/quirq-ai/innernet/blob/main/README.md) · code · 30046 bytes
+[`README.md`](https://github.com/quirq-ai/innernet/blob/main/README.md) · code · 30376 bytes
 
 ### innernet.config.json
 
@@ -88,7 +88,7 @@ Innernet makes no requests beyond its own origin (DESIGN.md, principle 5); the C
 Security-Policy holds the browser to that. Development also needs eval for React's debugging
 and a websocket for hot reload. Provides a default export as the module's public entry.
 
-[`next.config.ts`](https://github.com/quirq-ai/innernet/blob/main/next.config.ts) · code · 5726 bytes
+[`next.config.ts`](https://github.com/quirq-ai/innernet/blob/main/next.config.ts) · code · 6238 bytes
 
 ### package.json
 
@@ -140,4 +140,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

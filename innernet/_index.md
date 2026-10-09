@@ -7,8 +7,8 @@ innernet
 - GitHub: [https://github.com/quirq-ai/innernet](https://github.com/quirq-ai/innernet)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-07T18:21:55Z`
-- Snapshot SHA: `e48fd9795221`
+- Last push: `2026-10-09T10:46:00Z`
+- Snapshot SHA: `dbd61d2531fe`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -81,4 +81,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/guide/plates` | 9 | [public__guide__plates.md](public__guide__plates.md) |
 | `scripts` | 12 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-08 12:19 UTC._
+_Generated 2026-10-09 12:10 UTC._

@@ -36,4 +36,4 @@ Vercel authorization server client (Sign in with Vercel: OAuth 2.1 + OIDC). Clas
 
 [`services/cowork_agent/connectors/vercel/oauth.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/vercel/oauth.py) · code · 9306 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

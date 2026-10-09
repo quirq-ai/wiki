@@ -228,4 +228,4 @@ plugin-image' Notable exports: `getCartVariables`, `isNotNullish`, `getProductMe
 
 [`src/templates/merch/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/templates/merch/utils.ts) · code · 4933 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

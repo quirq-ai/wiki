@@ -7,8 +7,8 @@ One command to set up qq for a GitHub org
 - GitHub: [https://github.com/quirq-ai/setup](https://github.com/quirq-ai/setup)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-07T19:08:37Z`
-- Snapshot SHA: `d76e9b36dbf5`
+- Last push: `2026-10-09T09:45:11Z`
+- Snapshot SHA: `5acb0f1575ed`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-08 12:20 UTC._
+_Generated 2026-10-09 12:10 UTC._

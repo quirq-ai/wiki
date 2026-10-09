@@ -54,7 +54,7 @@ Python module `test_guard.py`. Functions: `terms`, `core_repo`,
 `test_tests_docs_and_ci_are_not_core`,
 `test_language_names_are_findings_outside_reviewed_files`, and 9 more. Contains tests.
 
-[`tests/test_guard.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_guard.py) · code · 4458 bytes
+[`tests/test_guard.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_guard.py) · code · 4437 bytes
 
 ### test_required.py
 
@@ -66,7 +66,7 @@ Python module `test_required.py`.
 
 Python module `test_settings.py`.
 
-[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 54926 bytes
+[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 57617 bytes
 
 ### test_timing.py
 
@@ -83,4 +83,4 @@ Contains tests.
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_verdict.py) · code · 1519 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

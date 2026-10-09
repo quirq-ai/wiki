@@ -7,8 +7,8 @@ The quirq-ai monitoring dashboard: one page that says **what changed across the 
 - GitHub: [https://github.com/quirq-ai/monitoring](https://github.com/quirq-ai/monitoring)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-08T10:02:19Z`
-- Snapshot SHA: `6d69a8fbef28`
+- Last push: `2026-10-09T08:09:12Z`
+- Snapshot SHA: `95a70c8e5eea`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -27,12 +27,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `app/repos` | 0 | [app__repos.md](app__repos.md) |
 | `app/repos/[repo]` | 1 | [app__repos__[repo].md](app__repos__[repo].md) |
 | `app/waiting` | 2 | [app__waiting.md](app__waiting.md) |
-| `components` | 15 | [components.md](components.md) |
+| `components` | 17 | [components.md](components.md) |
 | `components/ui` | 8 | [components__ui.md](components__ui.md) |
 | `config` | 4 | [config.md](config.md) |
 | `docs` | 1 | [docs.md](docs.md) |
 | `lib` | 5 | [lib.md](lib.md) |
-| `lib/model` | 6 | [lib__model.md](lib__model.md) |
+| `lib/model` | 7 | [lib__model.md](lib__model.md) |
 | `lib/sources` | 18 | [lib__sources.md](lib__sources.md) |
 | `public` | 0 | [public.md](public.md) |
 | `public/brand` | 0 | [public__brand.md](public__brand.md) |
@@ -78,7 +78,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/raw/wiki` | 0 | [tests__fixtures__raw__wiki.md](tests__fixtures__raw__wiki.md) |
 | `tests/fixtures/raw/wiki/main` | 1 | [tests__fixtures__raw__wiki__main.md](tests__fixtures__raw__wiki__main.md) |
 | `tests/helpers` | 2 | [tests__helpers.md](tests__helpers.md) |
-| `tests/model` | 3 | [tests__model.md](tests__model.md) |
+| `tests/model` | 5 | [tests__model.md](tests__model.md) |
 | `tests/sources` | 18 | [tests__sources.md](tests__sources.md) |
 
-_Generated 2026-10-08 12:19 UTC._
+_Generated 2026-10-09 12:10 UTC._

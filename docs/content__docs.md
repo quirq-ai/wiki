@@ -18,21 +18,21 @@ Markdown page “Changelog”. Weekly product releases, improvements, and fixes 
 Markdown page “Glossary”. Platform terms for XO Space, XO Cloud, agents, and measured work.
 MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/glossary.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/glossary.mdx) · code · 5406 bytes
+[`content/docs/glossary.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/glossary.mdx) · code · 5488 bytes
 
 ### index.mdx
 
 Markdown page “XO Space”. The home for your AI Agent Team. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 5685 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 3351 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 333 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 346 bytes
 
 ### qq.mdx
 
@@ -40,6 +40,13 @@ Markdown page “qq: quirq infra in one guide”. What qq is, how a change moves
 to use it on your machine, how to add a repo, and what works today. MDX page (Markdown with
 JSX components), typically rendered by the docs site.
 
-[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 19130 bytes
+[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 19101 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+### start.mdx
+
+Markdown page “Start here”. The main XO and quirq links on one page. MDX page (Markdown with
+JSX components), typically rendered by the docs site.
+
+[`content/docs/start.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/start.mdx) · code · 2152 bytes
+
+_Generated 2026-10-09 12:09 UTC from `main`._

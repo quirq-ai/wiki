@@ -7,8 +7,8 @@ Verified, shareable research outcomes from quirq.
 - GitHub: [https://github.com/quirq-ai/research](https://github.com/quirq-ai/research)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-07T18:19:42Z`
-- Snapshot SHA: `26cc843379e5`
+- Last push: `2026-10-08T16:25:00Z`
+- Snapshot SHA: `8c5e6c5c0d3f`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -23,6 +23,70 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `_template/output/onepager` | 1 | [_template__output__onepager.md](_template__output__onepager.md) |
 | `_template/output/report` | 1 | [_template__output__report.md](_template__output__report.md) |
 | `_template/output/slide` | 1 | [_template__output__slide.md](_template__output__slide.md) |
+| `claude` | 4 | [claude.md](claude.md) |
+| `claude/output` | 0 | [claude__output.md](claude__output.md) |
+| `claude/output/app` | 1 | [claude__output__app.md](claude__output__app.md) |
+| `claude/output/app/claude-json-explorer` | 3 | [claude__output__app__claude-json-explorer.md](claude__output__app__claude-json-explorer.md) |
+| `claude/output/app/claude-json-explorer/site` | 2 | [claude__output__app__claude-json-explorer__site.md](claude__output__app__claude-json-explorer__site.md) |
+| `claude/output/app/claude-json-explorer/site/additionalModelCostsCache` | 1 | [claude__output__app__claude-json-explorer__site__additionalModelCostsCache.md](claude__output__app__claude-json-explorer__site__additionalModelCostsCache.md) |
+| `claude/output/app/claude-json-explorer/site/additionalModelCostsCache/each-model` | 1 | [claude__output__app__claude-json-explorer__site__additionalModelCostsCache__each-model.md](claude__output__app__claude-json-explorer__site__additionalModelCostsCache__each-model.md) |
+| `claude/output/app/claude-json-explorer/site/additionalModelOptionsCache` | 1 | [claude__output__app__claude-json-explorer__site__additionalModelOptionsCache.md](claude__output__app__claude-json-explorer__site__additionalModelOptionsCache.md) |
+| `claude/output/app/claude-json-explorer/site/cachedArtifactRoster` | 1 | [claude__output__app__claude-json-explorer__site__cachedArtifactRoster.md](claude__output__app__claude-json-explorer__site__cachedArtifactRoster.md) |
+| `claude/output/app/claude-json-explorer/site/cachedExperimentData` | 1 | [claude__output__app__claude-json-explorer__site__cachedExperimentData.md](claude__output__app__claude-json-explorer__site__cachedExperimentData.md) |
+| `claude/output/app/claude-json-explorer/site/cachedExperimentData/each-flag` | 1 | [claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag.md](claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag.md) |
+| `claude/output/app/claude-json-explorer/site/cachedExperimentData/each-flag/value` | 1 | [claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag__value.md](claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag__value.md) |
+| `claude/output/app/claude-json-explorer/site/cachedExperimentData/each-flag/value/each-nested-object` | 1 | [claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag__value__each-nested-object.md](claude__output__app__claude-json-explorer__site__cachedExperimentData__each-flag__value__each-nested-object.md) |
+| `claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures` | 1 | [claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures.md](claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures.md) |
+| `claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-list-flag` | 1 | [claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-list-flag.md](claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-list-flag.md) |
+| `claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag` | 1 | [claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag.md](claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag.md) |
+| `claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/each-nested-object` | 1 | [claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag__each-nested-object.md](claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag__each-nested-object.md) |
+| `claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/each-nested-object/each-nested-object` | 1 | [claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag__each-nested-object__each-nested-object.md](claude__output__app__claude-json-explorer__site__cachedGrowthBookFeatures__each-object-flag__each-nested-object__each-nested-object.md) |
+| `claude/output/app/claude-json-explorer/site/cachedStatsigGates` | 1 | [claude__output__app__claude-json-explorer__site__cachedStatsigGates.md](claude__output__app__claude-json-explorer__site__cachedStatsigGates.md) |
+| `claude/output/app/claude-json-explorer/site/clientDataCacheSlots` | 1 | [claude__output__app__claude-json-explorer__site__clientDataCacheSlots.md](claude__output__app__claude-json-explorer__site__clientDataCacheSlots.md) |
+| `claude/output/app/claude-json-explorer/site/clientDataCacheSlots/each-slot` | 1 | [claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot.md](claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot.md) |
+| `claude/output/app/claude-json-explorer/site/clientDataCacheSlots/each-slot/data` | 1 | [claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot__data.md](claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot__data.md) |
+| `claude/output/app/claude-json-explorer/site/clientDataCacheSlots/each-slot/data/cedar_lagoon` | 1 | [claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot__data__cedar_lagoon.md](claude__output__app__claude-json-explorer__site__clientDataCacheSlots__each-slot__data__cedar_lagoon.md) |
+| `claude/output/app/claude-json-explorer/site/feedbackSurveyState` | 1 | [claude__output__app__claude-json-explorer__site__feedbackSurveyState.md](claude__output__app__claude-json-explorer__site__feedbackSurveyState.md) |
+| `claude/output/app/claude-json-explorer/site/githubRepoPaths` | 1 | [claude__output__app__claude-json-explorer__site__githubRepoPaths.md](claude__output__app__claude-json-explorer__site__githubRepoPaths.md) |
+| `claude/output/app/claude-json-explorer/site/groveConfigCache` | 1 | [claude__output__app__claude-json-explorer__site__groveConfigCache.md](claude__output__app__claude-json-explorer__site__groveConfigCache.md) |
+| `claude/output/app/claude-json-explorer/site/groveConfigCache/each-account` | 1 | [claude__output__app__claude-json-explorer__site__groveConfigCache__each-account.md](claude__output__app__claude-json-explorer__site__groveConfigCache__each-account.md) |
+| `claude/output/app/claude-json-explorer/site/hasShownOpus45Notice` | 1 | [claude__output__app__claude-json-explorer__site__hasShownOpus45Notice.md](claude__output__app__claude-json-explorer__site__hasShownOpus45Notice.md) |
+| `claude/output/app/claude-json-explorer/site/mcpServers` | 1 | [claude__output__app__claude-json-explorer__site__mcpServers.md](claude__output__app__claude-json-explorer__site__mcpServers.md) |
+| `claude/output/app/claude-json-explorer/site/mcpServers/each-server` | 1 | [claude__output__app__claude-json-explorer__site__mcpServers__each-server.md](claude__output__app__claude-json-explorer__site__mcpServers__each-server.md) |
+| `claude/output/app/claude-json-explorer/site/oauthAccount` | 1 | [claude__output__app__claude-json-explorer__site__oauthAccount.md](claude__output__app__claude-json-explorer__site__oauthAccount.md) |
+| `claude/output/app/claude-json-explorer/site/oauthAccount/ccOnboardingFlags` | 1 | [claude__output__app__claude-json-explorer__site__oauthAccount__ccOnboardingFlags.md](claude__output__app__claude-json-explorer__site__oauthAccount__ccOnboardingFlags.md) |
+| `claude/output/app/claude-json-explorer/site/overageCreditGrantCache` | 1 | [claude__output__app__claude-json-explorer__site__overageCreditGrantCache.md](claude__output__app__claude-json-explorer__site__overageCreditGrantCache.md) |
+| `claude/output/app/claude-json-explorer/site/overageCreditGrantCache/each-organization` | 1 | [claude__output__app__claude-json-explorer__site__overageCreditGrantCache__each-organization.md](claude__output__app__claude-json-explorer__site__overageCreditGrantCache__each-organization.md) |
+| `claude/output/app/claude-json-explorer/site/overageCreditGrantCache/each-organization/info` | 1 | [claude__output__app__claude-json-explorer__site__overageCreditGrantCache__each-organization__info.md](claude__output__app__claude-json-explorer__site__overageCreditGrantCache__each-organization__info.md) |
+| `claude/output/app/claude-json-explorer/site/passesEligibilityCache` | 1 | [claude__output__app__claude-json-explorer__site__passesEligibilityCache.md](claude__output__app__claude-json-explorer__site__passesEligibilityCache.md) |
+| `claude/output/app/claude-json-explorer/site/passesEligibilityCache/each-organization` | 1 | [claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization.md](claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization.md) |
+| `claude/output/app/claude-json-explorer/site/passesEligibilityCache/each-organization/referral_code_details` | 1 | [claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization__referral_code_details.md](claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization__referral_code_details.md) |
+| `claude/output/app/claude-json-explorer/site/passesEligibilityCache/each-organization/referrer_reward` | 1 | [claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization__referrer_reward.md](claude__output__app__claude-json-explorer__site__passesEligibilityCache__each-organization__referrer_reward.md) |
+| `claude/output/app/claude-json-explorer/site/pluginUsage` | 1 | [claude__output__app__claude-json-explorer__site__pluginUsage.md](claude__output__app__claude-json-explorer__site__pluginUsage.md) |
+| `claude/output/app/claude-json-explorer/site/pluginUsage/each-plugin` | 1 | [claude__output__app__claude-json-explorer__site__pluginUsage__each-plugin.md](claude__output__app__claude-json-explorer__site__pluginUsage__each-plugin.md) |
+| `claude/output/app/claude-json-explorer/site/projects` | 1 | [claude__output__app__claude-json-explorer__site__projects.md](claude__output__app__claude-json-explorer__site__projects.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project.md](claude__output__app__claude-json-explorer__site__projects__each-project.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__lastModelUsage.md](claude__output__app__claude-json-explorer__site__projects__each-project__lastModelUsage.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage/each-model` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__lastModelUsage__each-model.md](claude__output__app__claude-json-explorer__site__projects__each-project__lastModelUsage__each-model.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/lastSessionMetrics` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__lastSessionMetrics.md](claude__output__app__claude-json-explorer__site__projects__each-project__lastSessionMetrics.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__mcpServers.md](claude__output__app__claude-json-explorer__site__projects__each-project__mcpServers.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers/each-server` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__mcpServers__each-server.md](claude__output__app__claude-json-explorer__site__projects__each-project__mcpServers__each-server.md) |
+| `claude/output/app/claude-json-explorer/site/projects/each-project/reactVulnerabilityCache` | 1 | [claude__output__app__claude-json-explorer__site__projects__each-project__reactVulnerabilityCache.md](claude__output__app__claude-json-explorer__site__projects__each-project__reactVulnerabilityCache.md) |
+| `claude/output/app/claude-json-explorer/site/replBridgePlaceholders` | 1 | [claude__output__app__claude-json-explorer__site__replBridgePlaceholders.md](claude__output__app__claude-json-explorer__site__replBridgePlaceholders.md) |
+| `claude/output/app/claude-json-explorer/site/replBridgePlaceholders/each-session` | 1 | [claude__output__app__claude-json-explorer__site__replBridgePlaceholders__each-session.md](claude__output__app__claude-json-explorer__site__replBridgePlaceholders__each-session.md) |
+| `claude/output/app/claude-json-explorer/site/s1mAccessCache` | 1 | [claude__output__app__claude-json-explorer__site__s1mAccessCache.md](claude__output__app__claude-json-explorer__site__s1mAccessCache.md) |
+| `claude/output/app/claude-json-explorer/site/s1mAccessCache/each-entry` | 1 | [claude__output__app__claude-json-explorer__site__s1mAccessCache__each-entry.md](claude__output__app__claude-json-explorer__site__s1mAccessCache__each-entry.md) |
+| `claude/output/app/claude-json-explorer/site/seenNotifications` | 1 | [claude__output__app__claude-json-explorer__site__seenNotifications.md](claude__output__app__claude-json-explorer__site__seenNotifications.md) |
+| `claude/output/app/claude-json-explorer/site/skillUsage` | 1 | [claude__output__app__claude-json-explorer__site__skillUsage.md](claude__output__app__claude-json-explorer__site__skillUsage.md) |
+| `claude/output/app/claude-json-explorer/site/skillUsage/each-skill` | 1 | [claude__output__app__claude-json-explorer__site__skillUsage__each-skill.md](claude__output__app__claude-json-explorer__site__skillUsage__each-skill.md) |
+| `claude/output/app/claude-json-explorer/site/tipLifetimeShownCounts` | 1 | [claude__output__app__claude-json-explorer__site__tipLifetimeShownCounts.md](claude__output__app__claude-json-explorer__site__tipLifetimeShownCounts.md) |
+| `claude/output/app/claude-json-explorer/site/tipsHistory` | 1 | [claude__output__app__claude-json-explorer__site__tipsHistory.md](claude__output__app__claude-json-explorer__site__tipsHistory.md) |
+| `claude/output/app/claude-json-explorer/site/toolUsage` | 1 | [claude__output__app__claude-json-explorer__site__toolUsage.md](claude__output__app__claude-json-explorer__site__toolUsage.md) |
+| `claude/output/app/claude-json-explorer/site/toolUsage/each-tool` | 1 | [claude__output__app__claude-json-explorer__site__toolUsage__each-tool.md](claude__output__app__claude-json-explorer__site__toolUsage__each-tool.md) |
+| `claude/output/onepager` | 2 | [claude__output__onepager.md](claude__output__onepager.md) |
+| `claude/output/report` | 2 | [claude__output__report.md](claude__output__report.md) |
+| `claude/output/report/2026-10-08-claude-code-session` | 13 | [claude__output__report__2026-10-08-claude-code-session.md](claude__output__report__2026-10-08-claude-code-session.md) |
+| `claude/output/slide` | 1 | [claude__output__slide.md](claude__output__slide.md) |
 | `design` | 4 | [design.md](design.md) |
 | `design/output` | 0 | [design__output.md](design__output.md) |
 | `design/output/app` | 1 | [design__output__app.md](design__output__app.md) |
@@ -72,4 +136,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
 
-_Generated 2026-10-08 12:20 UTC._
+_Generated 2026-10-09 12:10 UTC._

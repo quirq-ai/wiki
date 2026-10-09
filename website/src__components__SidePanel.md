@@ -15,4 +15,4 @@ from '@posthog/icons' import Tooltip from 'components/RadixUI/Tooltip' import OS
 
 [`src/components/SidePanel/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/SidePanel/index.tsx) · code · 3464 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

@@ -58,14 +58,14 @@ string backgroundRepeat?: string backgroundPosition?: string } Notable exports:
 JSON document `quirq-projects.json` whose top-level keys are `organization`, `fetchedAt`,
 `starsSource`, `repositories`. Structured data consumed by the surrounding app or tooling.
 
-[`src/data/quirq-projects.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-projects.json) · code · 11680 bytes
+[`src/data/quirq-projects.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-projects.json) · code · 12876 bytes
 
 ### quirq-repositories.json
 
-JSON file `quirq-repositories.json` that did not parse from the prefix that was read. Open
-the source file for the full document.
+Large text file (416.0 KB), over the generator's 256 KB parse cap. Only a prefix was
+inspected.
 
-[`src/data/quirq-repositories.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-repositories.json) · code · 128585 bytes
+[`src/data/quirq-repositories.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-repositories.json) · huge · 425956 bytes
 
 ### subprocessors.json
 
@@ -102,4 +102,4 @@ string tags?: string[] thumbnail?: string } Notable exports: `Video`, `videos`.
 
 [`src/data/videos.ts`](https://github.com/quirq-ai/website/blob/main/src/data/videos.ts) · code · 848 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

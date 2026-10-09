@@ -76,7 +76,7 @@ GITHUB_REPO_URL = "https://github.com/quirq-ai/xo-space" Notable exports: `Quirq
 into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
 browser.
 
-[`src/components/quirq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/quirq-home.tsx) · code · 20759 bytes
+[`src/components/quirq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/quirq-home.tsx) · code · 21131 bytes
 
 ### research-hub.tsx
 
@@ -113,7 +113,7 @@ Space.", icon: "icon-[ph--hard-drives-fill]", imageName: "runtime", }, { name: "
 label: "Transparent architectural container", description: "The environment that holds the
 tools, mem Notable exports: `SystemSequence`.
 
-[`src/components/system-sequence.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/system-sequence.tsx) · code · 6285 bytes
+[`src/components/system-sequence.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/system-sequence.tsx) · code · 6289 bytes
 
 ### video-embed.tsx
 
@@ -127,6 +127,6 @@ exports: `VideoEmbed`. Marked `'use client'` so it runs in the browser.
 What is XO — 4-layer architecture explainer. Theme-aware (fd-* tokens). Notable exports:
 `WhatIsXO`. Marked `'use client'` so it runs in the browser.
 
-[`src/components/what-is-xo.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/what-is-xo.tsx) · code · 23615 bytes
+[`src/components/what-is-xo.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/what-is-xo.tsx) · code · 23225 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._

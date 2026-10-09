@@ -389,4 +389,4 @@ import React from 'react' Notable exports: `volumeArt`, `VOLUME_ART`.
 
 [`src/components/PocketGuides/volumeArt.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/PocketGuides/volumeArt.tsx) · code · 918 bytes
 
-_Generated 2026-10-08 12:20 UTC from `main`._
+_Generated 2026-10-09 12:10 UTC from `main`._

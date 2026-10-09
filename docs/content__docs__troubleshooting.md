@@ -8,10 +8,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### index.mdx
 
-Markdown page “Troubleshooting”. Start with the symptom, service, or exact error you are
-seeing. MDX page (Markdown with JSX components), typically rendered by the docs site.
+Markdown page “Troubleshooting”. Find help by what is going wrong. MDX page (Markdown with
+JSX components), typically rendered by the docs site.
 
-[`content/docs/troubleshooting/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/troubleshooting/index.mdx) · code · 1590 bytes
+[`content/docs/troubleshooting/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/troubleshooting/index.mdx) · code · 1519 bytes
 
 ### meta.json
 
@@ -20,4 +20,4 @@ consumed by the surrounding app or tooling.
 
 [`content/docs/troubleshooting/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/troubleshooting/meta.json) · code · 80 bytes
 
-_Generated 2026-10-08 12:19 UTC from `main`._
+_Generated 2026-10-09 12:09 UTC from `main`._
