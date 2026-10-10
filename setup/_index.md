@@ -7,8 +7,8 @@ One command to set up qq for a GitHub org
 - GitHub: [https://github.com/quirq-ai/setup](https://github.com/quirq-ai/setup)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-09T09:45:11Z`
-- Snapshot SHA: `5acb0f1575ed`
+- Last push: `2026-10-10T10:23:33Z`
+- Snapshot SHA: `8466e4b8a996`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -18,7 +18,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github` | 0 | [.github.md](.github.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
 | `app` | 3 | [app.md](app.md) |
-| `cli` | 10 | [cli.md](cli.md) |
+| `cli` | 11 | [cli.md](cli.md) |
 | `components` | 1 | [components.md](components.md) |
 | `components/ui` | 12 | [components__ui.md](components__ui.md) |
 | `lib` | 2 | [lib.md](lib.md) |
@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-09 12:10 UTC._
+_Generated 2026-10-10 11:27 UTC._

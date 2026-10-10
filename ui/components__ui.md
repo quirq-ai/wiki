@@ -57,13 +57,13 @@ focus), Checkbox and Radio (native inputs, optional card layout). Switch lives i
 
 ### index.ts
 
-Shared ui primitives for every shape category. Import from "@/components/ui". Client
-components (CopyButton, CopyField, Segmented, TabChips, Switch) carry their own "use client"
-boundary and are re-exported by name, so this barrel is safe to import from server
-components. Notable exports: `Field`, `Fieldset`, `Input`, `Textarea`, `Select`,
-`SearchInput`, `Checkbox`, `Radio`, and 22 more.
+Shared UI primitives. Import from "@/components/ui". Client components (CopyButton,
+CopyField, Segmented, TabChips, Switch) carry their own "use client" boundary and are re-
+exported by name, so this barrel is safe to import from server components. Notable exports:
+`Field`, `Fieldset`, `Input`, `Textarea`, `Select`, `SearchInput`, `Checkbox`, `Radio`, and
+22 more. Marked `'use client'` so it runs in the browser.
 
-[`components/ui/index.ts`](https://github.com/quirq-ai/ui/blob/main/components/ui/index.ts) · code · 1182 bytes
+[`components/ui/index.ts`](https://github.com/quirq-ai/ui/blob/main/components/ui/index.ts) · code · 1157 bytes
 
 ### kbd.tsx
 
@@ -150,4 +150,4 @@ exports: `Tooltip`, `TooltipProps`.
 
 [`components/ui/tooltip.tsx`](https://github.com/quirq-ai/ui/blob/main/components/ui/tooltip.tsx) · code · 2278 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

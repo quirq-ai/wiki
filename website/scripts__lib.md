@@ -9,11 +9,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### quirq-catalog.mjs
 
 Shared by the Gatsby UI and the Node sync command. Keep this module free of Node APIs. The
-project color tokens QuirqAppIcon tints with. Notable exports: `validateQuirqConfig`,
-`isFramableUrl`, `normalizeAppPath`, `safeWebUrl`, `normalizeRepository`,
-`mergeLiveRepositories`, `buildQuirqApps`, `QUIRQ_COLORS`, and 1 more.
+project color tokens QuirqAppIcon tints with. Notable exports: `repositoryRole`,
+`validateQuirqConfig`, `isFramableUrl`, `normalizeAppPath`, `safeWebUrl`,
+`normalizeRepository`, `mergeLiveRepositories`, `buildQuirqApps`, and 6 more.
 
-[`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 16063 bytes
+[`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 18569 bytes
 
 ### quirq-phases.mjs
 
@@ -33,4 +33,4 @@ GitHub. Server rendering keeps the full file.
 
 [`scripts/lib/strip-readmes-loader.cjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/strip-readmes-loader.cjs) · code · 556 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

@@ -47,7 +47,7 @@ The agent/workspace instructions (“XO Cowork API - Codex Project Instructions�
 backend that brokers chat and auth flows. - Uses local coding CLIs (claude or codex) for
 assistant responses. - Keep API behavior backward compatible by default.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4116 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4348 bytes
 
 ### CLAUDE.md
 
@@ -55,7 +55,7 @@ The Claude Code instructions (“XO Cowork API - Project Memory”). - FastAPI b
 brokers chat and auth flows. - Uses local claude CLI for coding/assistant responses. -
 Primary API behavior should remain backward compatible.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4210 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4442 bytes
 
 ### CONTRIBUTING.md
 
@@ -178,4 +178,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

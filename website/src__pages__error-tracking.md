@@ -20,4 +20,4 @@ import React from 'react' import ProductReaderView from
 
 [`src/pages/error-tracking/pricing.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/error-tracking/pricing.tsx) · code · 366 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

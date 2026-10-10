@@ -39,4 +39,4 @@ useUser } from 'hooks/useUser' import { inputClasses, labelClasses } from
 
 [`src/components/Squeak/components/auth/SignUp.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Squeak/components/auth/SignUp.tsx) · code · 4306 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

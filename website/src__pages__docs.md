@@ -59,4 +59,4 @@ a default export as the module's public entry.
 
 [`src/pages/docs/services.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/services.tsx) · code · 1737 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

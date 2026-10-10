@@ -66,13 +66,21 @@ Python module `test_required.py`.
 
 Python module `test_settings.py`.
 
-[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 57617 bytes
+[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 58892 bytes
 
 ### test_timing.py
 
 Python module `test_timing.py`.
 
 [`tests/test_timing.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_timing.py) · code · 8249 bytes
+
+### test_user_org.py
+
+A user org's settings (qqgate settings --settings FILE, the one-command setup in quirq-
+ai/setup): only qq-main and qq-reserved-tags, only for the org its qq-config names, never
+quirq-ai's.
+
+[`tests/test_user_org.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_user_org.py) · code · 30978 bytes
 
 ### test_verdict.py
 
@@ -83,4 +91,4 @@ Contains tests.
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_verdict.py) · code · 1519 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

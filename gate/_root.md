@@ -37,7 +37,7 @@ checks, computed from [infra-config](https://github.com/quirq-ai/infra-config) a
 repo's manifest, and the merge queue that verifies the exact merge result before it reaches
 main.
 
-[`README.md`](https://github.com/quirq-ai/gate/blob/main/README.md) · code · 8205 bytes
+[`README.md`](https://github.com/quirq-ai/gate/blob/main/README.md) · code · 8919 bytes
 
 ### apply-requirements.txt
 
@@ -65,4 +65,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/gate/blob/main/pyproject.toml) · code · 837 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

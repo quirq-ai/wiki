@@ -31,4 +31,4 @@ exports: `usePlatform`.
 
 [`src/components/Pricing/Platform/usePlatform.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/Platform/usePlatform.ts) · code · 489 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

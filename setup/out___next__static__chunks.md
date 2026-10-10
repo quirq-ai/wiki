@@ -53,7 +53,7 @@ e?r:t})(e)}r._=function(e,t){if(!t&&e&&e.__esModule)return e;if(null===e||"objec
 
 [`out/_next/static/chunks/2k-8irj2ezsy-.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/2k-8irj2ezsy-.js) · code · 178839 bytes
 
-### 3byubi4n2p5r9.js
+### 326dw0lnml7b1.js
 
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
 document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,o,n,s;var
@@ -61,7 +61,7 @@ a,i=e.i(43476),l=e.i(71645);let c=e=>{let
 t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,r)=>r?r.toUpperCase():t.toLowerCase());return
 t.charAt(0).toUpperCase()+t.slice(1)},d=(...e)=>e.filter((e,t,r)=>!!e&&""!==e.
 
-[`out/_next/static/chunks/3byubi4n2p5r9.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/3byubi4n2p5r9.js) · code · 86431 bytes
+[`out/_next/static/chunks/326dw0lnml7b1.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/326dw0lnml7b1.js) · code · 87559 bytes
 
 ### 3fntmmi971322.js
 
@@ -83,4 +83,4 @@ e;if(!Array.isArray(globalThis.TURBOPACK))return;var
 
 [`out/_next/static/chunks/turbopack-1y655n96lhfxa.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/turbopack-1y655n96lhfxa.js) · code · 9688 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

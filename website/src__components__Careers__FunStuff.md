@@ -13,4 +13,4 @@ Link from 'components/Link' Provides a default export as the module's public ent
 
 [`src/components/Careers/FunStuff/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/FunStuff/index.tsx) · code · 9864 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

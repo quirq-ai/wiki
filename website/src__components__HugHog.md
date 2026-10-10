@@ -12,4 +12,4 @@ import React from 'react' import { motion } from 'framer-motion' Notable exports
 
 [`src/components/HugHog/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/HugHog/index.js) · code · 995 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

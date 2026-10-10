@@ -69,4 +69,4 @@ typically rendered by the docs site.
 
 [`content/research/phase-1-agentic-workforce/unit-of-work-research/validation.mdx`](https://github.com/quirq-ai/docs/blob/main/content/research/phase-1-agentic-workforce/unit-of-work-research/validation.mdx) · code · 3788 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -14,4 +14,4 @@ APIs).
 
 [`src/app/research/category/[tag]/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/research/category/[tag]/page.tsx) · code · 4144 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

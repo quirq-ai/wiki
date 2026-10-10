@@ -45,6 +45,6 @@ TOML config `pyproject.toml`. Sections: `build-system`, `project`, `project.opti
 dependencies`, `project.scripts`, `tool.setuptools.packages.find`, `tool.setuptools.package-
 data`, `tool.pytest.ini_options`. Python project metadata and tool configuration.
 
-[`pyproject.toml`](https://github.com/quirq-ai/recipes/blob/main/pyproject.toml) · code · 852 bytes
+[`pyproject.toml`](https://github.com/quirq-ai/recipes/blob/main/pyproject.toml) · code · 865 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

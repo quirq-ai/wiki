@@ -43,4 +43,4 @@ step modifier Notable exports: `stepModifier`.
 
 [`src/components/CompensationCalculator/compensation_data/step_modifier.ts`](https://github.com/quirq-ai/website/blob/main/src/components/CompensationCalculator/compensation_data/step_modifier.ts) · code · 187 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

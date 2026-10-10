@@ -75,4 +75,4 @@ import React from 'react' import Link from 'components/Link' import Markdown fro
 
 [`src/components/Home/Sections/WhyPostHogSection.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Home/Sections/WhyPostHogSection.tsx) · code · 1270 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

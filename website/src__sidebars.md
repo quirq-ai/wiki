@@ -12,4 +12,4 @@ JSON array `pipelines.json` with 15 items; first item keys: `name`, `url`.
 
 [`src/sidebars/pipelines.json`](https://github.com/quirq-ai/website/blob/main/src/sidebars/pipelines.json) · code · 1238 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

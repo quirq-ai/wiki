@@ -102,4 +102,4 @@ import { resolveTokenColors } from './tokenColors' Notable exports: `igniteWordm
 
 [`src/components/BuildMode/wordmarkFire.ts`](https://github.com/quirq-ai/website/blob/main/src/components/BuildMode/wordmarkFire.ts) · code · 9332 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

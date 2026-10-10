@@ -17,14 +17,14 @@ qqgate: the quirq infra (qq) landing gate.
 qqgate: the quirq infra (qq) landing gate. Functions: `cmd_required`, `cmd_rule`,
 `cmd_verdict`, `cmd_settings`, `cmd_guard`, `cmd_queued_at`, `main`.
 
-[`src/qqgate/cli.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/cli.py) · code · 28065 bytes
+[`src/qqgate/cli.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/cli.py) · code · 37211 bytes
 
 ### config.py
 
 Read infra-config through its own loader and validator (qqcfg), from a checkout at a pinned
 commit. Functions: `qqcfg_module`, `load`.
 
-[`src/qqgate/config.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/config.py) · code · 1810 bytes
+[`src/qqgate/config.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/config.py) · code · 2037 bytes
 
 ### errors.py
 
@@ -51,10 +51,11 @@ V0-GAT-01: compute a repo's required checks from infra-config and its manifest. 
 ### settings.py
 
 V0-ORG-03: merge queue and rulesets as code (settings/.toml), applied by an admin. Classes:
-`RepoPlan`, `Job`, `CheckoutState`. Functions: `load_settings`, `build`, `repo_settings`,
-`repo_options`, `workflow_jobs`, `readiness`, `checkout_state`, `org_workflows`, and 3 more.
+`RepoPlan`, `Job`, `CheckoutState`. Functions: `load_settings`, `load_user_settings`,
+`check_user_owner`, `build`, `repo_settings`, `repo_options`, `workflow_jobs`, `readiness`,
+and 5 more.
 
-[`src/qqgate/settings.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/settings.py) · code · 30194 bytes
+[`src/qqgate/settings.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/settings.py) · code · 37091 bytes
 
 ### timing.py
 
@@ -69,4 +70,4 @@ Classes: `Verdict`. Functions: `evaluate`.
 
 [`src/qqgate/verdict.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/verdict.py) · code · 1952 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

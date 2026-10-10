@@ -57,4 +57,4 @@ __name__ == '__main__'`. Classes: `Report`. Functions: `expand`, `load_json`,
 
 [`config/agents/hermes/troubleshoot.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/agents/hermes/troubleshoot.py) · code · 12184 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

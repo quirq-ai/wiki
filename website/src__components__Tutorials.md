@@ -16,4 +16,4 @@ NewsletterForm } from 'components/NewsletterForm' import { capitalize } from
 
 [`src/components/Tutorials/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Tutorials/index.tsx) · code · 2418 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

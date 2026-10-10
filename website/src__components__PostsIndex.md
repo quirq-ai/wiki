@@ -94,4 +94,4 @@ import { PostSummary } from './types' Notable exports: `rand`, `getSubtitle`,
 
 [`src/components/PostsIndex/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/components/PostsIndex/utils.ts) · code · 1702 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

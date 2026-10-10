@@ -25,4 +25,4 @@ import React from 'react' Notable exports: `True`, `False`, `ComparisonRow`.
 
 [`src/components/ComparisonTable/row.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ComparisonTable/row.tsx) · code · 908 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

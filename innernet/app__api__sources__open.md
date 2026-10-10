@@ -13,4 +13,4 @@ export const runtime = "nodejs"; export const dynamic = "force-dynamic" Notable 
 
 [`app/api/sources/open/route.ts`](https://github.com/quirq-ai/innernet/blob/main/app/api/sources/open/route.ts) · code · 868 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

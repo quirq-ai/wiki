@@ -14,4 +14,4 @@ import React from 'react' import Tooltip from 'components/RadixUI/Tooltip' impor
 
 [`src/components/Products/Slides/PlanComparison/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Products/Slides/PlanComparison/index.tsx) · code · 24010 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

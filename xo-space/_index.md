@@ -7,8 +7,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - GitHub: [https://github.com/quirq-ai/xo-space](https://github.com/quirq-ai/xo-space)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-09T11:11:11Z`
-- Snapshot SHA: `e7092bac888c`
+- Last push: `2026-10-10T07:44:59Z`
+- Snapshot SHA: `cc7d73db61e2`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -162,4 +162,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-09 12:10 UTC._
+_Generated 2026-10-10 11:28 UTC._

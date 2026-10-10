@@ -42,4 +42,4 @@ NewsletterForm } from 'components/NewsletterForm' Notable exports: `Newsletter`.
 
 [`src/components/Edition/Views/Newsletter.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Edition/Views/Newsletter.tsx) · code · 794 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

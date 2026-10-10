@@ -13,7 +13,7 @@ ai/.github, profile/README.md), written on the desktop's plain background. The d
 icons, the dock and app windows sit on top of it. components/Desktop mounts it in the
 desktop's scrolling layer; on phones the icon grid scrolls above it.
 
-[`src/components/QuirqProfile/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/README.md) · code · 2789 bytes
+[`src/components/QuirqProfile/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/README.md) · code · 2766 bytes
 
 ### index.tsx
 
@@ -23,7 +23,7 @@ import React, { useState } from 'react' import ReactMarkdown, { uriTransformer }
 import { quirqConfig } from 'lib/quirqApps' import { useQuirqApps } from 'lib/quirqLiveApps'
 Provides a default export as the module's public entry.
 
-[`src/components/QuirqProfile/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/index.tsx) · code · 12768 bytes
+[`src/components/QuirqProfile/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/index.tsx) · code · 12750 bytes
 
 ### useProfileReadme.ts
 
@@ -35,4 +35,4 @@ caches each file for up to 5 minutes. Notable exports: `useProfileReadme`,
 
 [`src/components/QuirqProfile/useProfileReadme.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/useProfileReadme.ts) · code · 2829 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

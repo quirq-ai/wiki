@@ -29,6 +29,41 @@ interface ExportToPdfOptions { slideId?: string filename?: string } Notable expo
 
 [`src/lib/exportToPdf.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/exportToPdf.ts) · code · 4777 bytes
 
+### externalLinks.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import {
+isAbsoluteWebUrl, leavesSite, openExternalLinksInWindows, webWindowPath, webWindowTitle,
+webWindowUrl, } from './externalLinks.ts' Automated test file.
+
+[`src/lib/externalLinks.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/externalLinks.test.ts) · code · 4626 bytes
+
+### externalLinks.ts
+
+Rule (AGENTS.md): every link that leaves this site opens in a window on this site, the page
+in an iframe (/launch/web/<address>). A page that refuses frames, can't be reached or isn't
+there shows "Oops" with an Open in new tab button instead. Links marked with
+NEW_TAB_ATTRIBUTE (the Open in new tab buttons themselves), and clicks with a modifier key,
+open in a new tab.
+
+[`src/lib/externalLinks.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/externalLinks.ts) · code · 4482 bytes
+
+### frameCheck.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import {
+ancestorAllowed, frameAncestors, followFrameCheck, frameVerdict, isFrameCheck,
+isPublicAddress, isSharedHost, knownFrameCheck, probeableUrl, } from './frameCheck.ts'
+Automated test file.
+
+[`src/lib/frameCheck.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/frameCheck.test.ts) · code · 11874 bytes
+
+### frameCheck.ts
+
+Whether a web page can open in a window on this site, in an iframe. A site decides that with
+its response headers (X-Frame-Options, or CSP frame-ancestors), and the browser hides the
+answer from the page that frames it: a refused frame just shows the browser's own error.
+
+[`src/lib/frameCheck.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/frameCheck.ts) · code · 13401 bytes
+
 ### posthogDesktopCompute.ts
 
 export interface ComputeRateCard { cpu_core_second_usd: string memory_gib_second_usd: string
@@ -58,11 +93,11 @@ Product interest tracking for onboarding Notable exports: `getProductInterests`,
 
 import config from '../../quirq.apps.json' import snapshot from '../data/quirq-
 repositories.json' import { buildQuirqApps } from '../../scripts/lib/quirq-catalog.mjs'
-import type { QuirqIcon } from '../components/QuirqAppIcon/glyphs' Notable exports:
-`getQuirqApps`, `getLaunchTarget`, `getQuirqApp`, `QuirqApp`, `quirqConfig`,
-`quirqSnapshot`.
+import type { QuirqRole } from './quirqRoles' import type { QuirqIcon } from
+'../components/QuirqAppIcon/glyphs' Notable exports: `getQuirqApps`, `getLaunchTarget`,
+`getQuirqApp`, `QuirqApp`, `quirqConfig`, `quirqSnapshot`.
 
-[`src/lib/quirqApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqApps.ts) · code · 1949 bytes
+[`src/lib/quirqApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqApps.ts) · code · 2009 bytes
 
 ### quirqAvatar.ts
 
@@ -77,10 +112,10 @@ service. Notable exports: `normalizeAvatarConfig`, `avatarSvg`, `avatarUri`,
 ### quirqDocs.test.ts
 
 import test from 'node:test' import assert from 'node:assert/strict' import { docImageUrl,
-docSrcSet, isDocPath, readmeIn, repositoryPath, themedMedia } from './quirqDocs.ts'
-Automated test file.
+docLabel, docSrcSet, isDocPath, readmeIn, readmeSummary, repositoryPath, themedMedia,
+withoutTitle, } from './quirqDocs.ts' Automated test file.
 
-[`src/lib/quirqDocs.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.test.ts) · code · 3521 bytes
+[`src/lib/quirqDocs.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.test.ts) · code · 5648 bytes
 
 ### quirqDocs.ts
 
@@ -90,7 +125,7 @@ visit (an unchanged tree revalidates as a 304, which GitHub doesn't count). Each
 from raw.githubusercontent.com, which is outside the API's rate limit and caches files for
 up to 5 minutes.
 
-[`src/lib/quirqDocs.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.ts) · code · 5729 bytes
+[`src/lib/quirqDocs.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqDocs.ts) · code · 8233 bytes
 
 ### quirqLiveApps.ts
 
@@ -116,7 +151,7 @@ import test from 'node:test' import assert from 'node:assert/strict' import {
 canFrameReadmeLink, readmeLinkAt, readmeLinkNamed, readmeLinkLabel, readmeLinkLook,
 readmeLinks, readmeLinkTarget, } from './quirqReadmeLinks.ts' Automated test file.
 
-[`src/lib/quirqReadmeLinks.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.test.ts) · code · 7207 bytes
+[`src/lib/quirqReadmeLinks.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.test.ts) · code · 6886 bytes
 
 ### quirqReadmeLinks.ts
 
@@ -126,7 +161,21 @@ be tested. Notable exports: `readmeLinkApp`, `readmeLinkLook`, `canFrameReadmeLi
 `readmeLinkAddress`, `readmeLinkTarget`, `readmeLinks`, `readmeLinkNamed`, `readmeLinkAt`,
 and 8 more.
 
-[`src/lib/quirqReadmeLinks.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.ts) · code · 9168 bytes
+[`src/lib/quirqReadmeLinks.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqReadmeLinks.ts) · code · 8631 bytes
+
+### quirqRoles.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import { quirqRoles,
+roleInfo, roleKeywords } from './quirqRoles.ts' Automated test file.
+
+[`src/lib/quirqRoles.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqRoles.test.ts) · code · 750 bytes
+
+### quirqRoles.ts
+
+import { QUIRQ_ROLES } from '../../scripts/lib/quirq-catalog.mjs' Notable exports:
+`roleKeywords`, `QuirqRole`, `quirqRoles`, `roleInfo`.
+
+[`src/lib/quirqRoles.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqRoles.ts) · code · 1485 bytes
 
 ### shopify.ts
 
@@ -155,4 +204,4 @@ LibraryPluginType } from 'types' Notable exports: `classNames`, `getPluginImageS
 
 [`src/lib/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/utils.ts) · code · 4353 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

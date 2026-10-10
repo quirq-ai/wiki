@@ -37,4 +37,4 @@ consumed by the surrounding app or tooling.
 
 [`config/repos.json`](https://github.com/quirq-ai/monitoring/blob/main/config/repos.json) · code · 1342 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

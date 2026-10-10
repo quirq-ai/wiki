@@ -62,7 +62,7 @@ Python module `test_pin.py`. Functions: `write_manifest`, `test_find_manifest_wa
 `test_invalid_manifest_is_an_error`, `test_is_self`, `test_key`, and 12 more. Contains
 tests.
 
-[`tests/test_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_pin.py) · code · 8692 bytes
+[`tests/test_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_pin.py) · code · 8677 bytes
 
 ### test_run.py
 
@@ -81,6 +81,13 @@ V0-DEP-02: qq sync and qq fetch get a repo's pinned toolchains and dependencies.
 `product`, `test_fresh_clone_is_buildable_after_sync`, `test_test_fails_without_sync`, and
 26 more. Contains tests.
 
-[`tests/test_sync.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync.py) · code · 19260 bytes
+[`tests/test_sync.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync.py) · code · 19389 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+### test_sync_pin.py
+
+Python module `test_sync_pin.py`. Functions:
+`test_presubmit_checks_out_the_sync_commit_qq_pins`. Contains tests.
+
+[`tests/test_sync_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync_pin.py) · code · 608 bytes
+
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -13,4 +13,4 @@ exports: `WistiaVideoRef`.
 
 [`src/components/WistiaVideo/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/WistiaVideo/index.tsx) · code · 4799 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

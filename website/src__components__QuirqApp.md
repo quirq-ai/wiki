@@ -8,13 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### DocsBrowser.tsx
 
-import React, { useCallback, useEffect, useRef, useState } from 'react' import type {
-QuirqApp } from 'lib/quirqApps' import { githubFileUrl, isDocPath, loadDoc, loadDocsIndex,
-readmeIn, type DocsIndex } from 'lib/quirqDocs' import { useAppSettings } from
-'../../context/App' import MarkdownDoc from './MarkdownDoc' import DocsTree from
-'./DocsTree' Notable exports: `DocsBrowser`.
+Up to this many docs are tabs under the window's header; a repository with more gets the
+@pierre/trees sidebar instead. Notable exports: `useRepositoryDocs`, `DocsBrowser`,
+`MAX_DOC_TABS`, `RepositoryDocs`.
 
-[`src/components/QuirqApp/DocsBrowser.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/DocsBrowser.tsx) · code · 8238 bytes
+[`src/components/QuirqApp/DocsBrowser.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/DocsBrowser.tsx) · code · 9793 bytes
 
 ### DocsTree.tsx
 
@@ -32,17 +30,15 @@ import remarkGfm from 'remark-gfm' import rehypeRaw from 'rehype-raw' import reh
 { defaultSchema } from 'rehype-sanitize' import GithubSlugger from 'github-slugger' import
 Highl Notable exports: `MarkdownDoc`.
 
-[`src/components/QuirqApp/MarkdownDoc.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/MarkdownDoc.tsx) · code · 12519 bytes
+[`src/components/QuirqApp/MarkdownDoc.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/MarkdownDoc.tsx) · code · 13427 bytes
 
 ### README.md
 
 The project README (“Repository app windows”). The default app template reuses Explorer and
-the original window controls. Its content comes from GitHub repository metadata and a synced
-README. It supports three presentations: overview (app profile), reader (document with
-repository sidebar), and gallery (a colorful showcase). The presentation belongs to each
-entry in quirq.apps.json.
+the original window controls. Its content comes from GitHub repository metadata and the
+repository's Markdown docs.
 
-[`src/components/QuirqApp/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/README.md) · code · 3021 bytes
+[`src/components/QuirqApp/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/README.md) · code · 3164 bytes
 
 ### RoutedApp.tsx
 
@@ -52,16 +48,16 @@ quirqConfig, type QuirqApp } from 'lib/quirqApps' import { useQuirqCatalog, type
 QuirqCatalog } from 'lib/quirqLiveApps' import { useApp } from '../../context/App' import {
 useWindo Notable exports: `repositoryFromPath`, `useRoutedApp`, `MissingApp`, `touchTarget`.
 
-[`src/components/QuirqApp/RoutedApp.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/RoutedApp.tsx) · code · 8435 bytes
+[`src/components/QuirqApp/RoutedApp.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/RoutedApp.tsx) · code · 6374 bytes
 
 ### index.tsx
 
-import React, { useState } from 'react' import Explorer from 'components/Explorer' import
-OSButton from 'components/OSButton' import QuirqAppIcon from 'components/QuirqAppIcon'
-import Link from 'components/Link' import { getLaunchTarget, type QuirqApp } from
-'lib/quirqApps' import DocsBrowser from './DocsBrowser' import { touchTarget } from
-'./RoutedApp' Notable exports: `RepositoryApp`.
+import React, { useEffect, useState } from 'react' import { Tabs as RadixTabs } from 'radix-
+ui' import Explorer from 'components/Explorer' import OSButton from 'components/OSButton'
+import QuirqAppIcon from 'components/QuirqAppIcon' import { getLaunchTarget, type QuirqApp }
+from 'lib/quirqApps' import { docLabel, readmeSummary } from 'lib/quirqDocs' import {
+Notable exports: `RepositoryApp`.
 
-[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 8128 bytes
+[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 10375 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

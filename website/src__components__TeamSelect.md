@@ -13,4 +13,4 @@ import { OSSelect } from 'components/OSForm' import React, { useEffect, useState
 
 [`src/components/TeamSelect/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TeamSelect/index.tsx) · code · 890 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

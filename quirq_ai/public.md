@@ -20,4 +20,4 @@ Txt file `llm.txt`. quirq.
 
 [`public/llm.txt`](https://github.com/quirq-ai/quirq_ai/blob/main/public/llm.txt) · code · 2168 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

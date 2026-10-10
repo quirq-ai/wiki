@@ -16,4 +16,4 @@ the preference ('system', 'light' or 'dark') is kept separately. function setThe
 
 [`static/scripts/theme-init.js`](https://github.com/quirq-ai/website/blob/main/static/scripts/theme-init.js) · code · 2583 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

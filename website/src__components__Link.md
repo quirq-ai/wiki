@@ -14,6 +14,6 @@ Tooltip from 'components/Tooltip' import { Link as GatsbyLink } from 'gatsby' im
 IconArrowUpRight } from '@posthog/icons' import ContextMenu, { ContextMenuItemProps } from
 'compon Notable exports: `Link`, `Props`.
 
-[`src/components/Link/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Link/index.tsx) · code · 11870 bytes
+[`src/components/Link/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Link/index.tsx) · code · 12189 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

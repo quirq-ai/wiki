@@ -23,4 +23,4 @@ compile --universal --python-version 3.11 --generate-hashes pypi.in -o pypi.txt.
 
 [`src/qqdepot/locks/pypi.txt`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/locks/pypi.txt) · code · 18931 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

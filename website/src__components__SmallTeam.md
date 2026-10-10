@@ -22,4 +22,4 @@ GatsbyImage, getImage } from 'gatsby-plugin-image' import Tooltip from
 
 [`src/components/SmallTeam/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/SmallTeam/index.tsx) · code · 7111 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

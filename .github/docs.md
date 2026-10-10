@@ -15,4 +15,4 @@ the product repository. Research belongs in a clearly identified research sectio
 
 [`docs/maintaining.md`](https://github.com/quirq-ai/.github/blob/main/docs/maintaining.md) · code · 6141 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -573,4 +573,4 @@ import React from 'react' import SEO from 'components/seo' import WhyPostHogView
 
 [`src/pages/workflow.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/workflow.tsx) · code · 4565 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

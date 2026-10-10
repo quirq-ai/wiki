@@ -20,6 +20,6 @@ const plexMono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], var
 font-plex-mono", }) Notable exports: `RootLayout`, `metadata`, `viewport`. Wired into a
 Next.js app (App Router or Next APIs).
 
-[`app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/app/layout.tsx) · code · 1171 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/app/layout.tsx) · code · 1102 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

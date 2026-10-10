@@ -23,4 +23,4 @@ from 'components/PlatformInstall' import { buildWizardCommand } from
 
 [`src/components/Home/HeroCTA/variants.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Home/HeroCTA/variants.tsx) · code · 13579 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

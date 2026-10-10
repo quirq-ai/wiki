@@ -34,7 +34,7 @@ The project README (“sync”). sync owns the quirq infra (qq) repo manifest, i
 its versioned schema, the only library that reads and edits it (qqsync), and the checks that
 keep pins honest.
 
-[`README.md`](https://github.com/quirq-ai/sync/blob/main/README.md) · code · 10440 bytes
+[`README.md`](https://github.com/quirq-ai/sync/blob/main/README.md) · code · 11524 bytes
 
 ### pyproject.toml
 
@@ -44,4 +44,4 @@ data`, `tool.pytest.ini_options`. Python project metadata and tool configuration
 
 [`pyproject.toml`](https://github.com/quirq-ai/sync/blob/main/pyproject.toml) · code · 642 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

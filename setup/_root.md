@@ -43,7 +43,7 @@ or to put qq on your machine and work on a repo that already uses it: the termin
 your tools, a short form in your browser asks which, and the terminal shows what it will do
 or prints the commands.
 
-[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 6800 bytes
+[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 7673 bytes
 
 ### eslint.config.mjs
 
@@ -100,4 +100,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/setup/blob/main/tsconfig.json) · code · 779 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

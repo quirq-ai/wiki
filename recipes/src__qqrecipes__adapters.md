@@ -20,4 +20,4 @@ from the pinned CPython, under .qq/venv so it is never an input. Functions:
 
 [`src/qqrecipes/adapters/_python.py`](https://github.com/quirq-ai/recipes/blob/main/src/qqrecipes/adapters/_python.py) · code · 3608 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -24,4 +24,4 @@ one".
 
 [`skills/explainer-film/SKILL.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/SKILL.md) · code · 11559 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

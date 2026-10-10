@@ -17,18 +17,18 @@ clone the wiki summarizes.
 
 ### README.md
 
-The project README (“quirq ui”). Every UI component shape used across quirq products, demoed
-live in one Next.js app.
+The project README (“quirq template”). A stripped-down Next.js starter for new quirq repos.
+The quirq design tokens, brand marks and UI primitives are already wired; the rest is yours.
 
-[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 9829 bytes
+[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 3468 bytes
 
 ### eslint.config.mjs
 
 const eslintConfig = [ ...nextCoreWebVitals, ...nextTypescript, { ignores: ["node_modules/",
-".next/", "out/", "build/", "next-env.d.ts"], }, ] Provides a default export as the module's
-public entry. Wired into a Next.js app (App Router or Next APIs).
+".next/", "out/", "build/", "next-env.d.ts", "library/*/source/**"], }, ] Provides a default
+export as the module's public entry. Wired into a Next.js app (App Router or Next APIs).
 
-[`eslint.config.mjs`](https://github.com/quirq-ai/ui/blob/main/eslint.config.mjs) · code · 324 bytes
+[`eslint.config.mjs`](https://github.com/quirq-ai/ui/blob/main/eslint.config.mjs) · code · 347 bytes
 
 ### next.config.ts
 
@@ -39,11 +39,11 @@ Provides a default export as the module's public entry.
 
 ### package.json
 
-npm package manifest for `quirq-ui` v0.1.0. Every quirq UI component shape, demoed live in
-Next.js, plus a sample app built from them. Scripts: `dev`, `build`, `start`, `lint`,
-`typecheck`, `check`.
+npm package manifest for `quirq-template` v0.1.0. A stripped-down Next.js starter with the
+quirq design tokens, brand marks and UI primitives. Scripts: `dev`, `build`, `start`,
+`lint`, `typecheck`, `check`.
 
-[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 936 bytes
+[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 944 bytes
 
 ### pnpm-lock.yaml
 
@@ -66,6 +66,6 @@ the module's public entry.
 TypeScript compiler configuration for this package or app (paths, JSX mode, and strictness).
 Downstream `tsc` and bundlers read it to typecheck and emit.
 
-[`tsconfig.json`](https://github.com/quirq-ai/ui/blob/main/tsconfig.json) · code · 590 bytes
+[`tsconfig.json`](https://github.com/quirq-ai/ui/blob/main/tsconfig.json) · code · 610 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

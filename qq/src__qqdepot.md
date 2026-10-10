@@ -41,14 +41,14 @@ Version pinning: run the qq version the current repo pins in infra/repo.toml. Cl
 `PinError`, `Pin`. Functions: `qq_home`, `git_env`, `find_manifest`, `read_pin`, `trusted`,
 `check`, `is_self`, `pip_install`, and 5 more.
 
-[`src/qqdepot/pin.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/pin.py) · code · 13081 bytes
+[`src/qqdepot/pin.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/pin.py) · code · 12753 bytes
 
 ### store.py
 
 Fetch pinned toolchains and dependencies into a content-addressed store, checked by digest.
 Classes: `FetchError`, `Artifact`. Functions: `resolve`, `store_dir`, `ensure`.
 
-[`src/qqdepot/store.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/store.py) · code · 15075 bytes
+[`src/qqdepot/store.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/store.py) · code · 15233 bytes
 
 ### watch.py
 
@@ -58,4 +58,4 @@ script via `if __name__ == '__main__'`. Classes: `Watch`. Functions: `run_id`,
 
 [`src/qqdepot/watch.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/watch.py) · code · 9686 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

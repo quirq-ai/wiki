@@ -89,7 +89,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 9511 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 12473 bytes
 
 ### CLAUDE.md
 
@@ -99,7 +99,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 9511 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 12473 bytes
 
 ### LICENSE
 
@@ -128,7 +128,7 @@ starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 The project README (“quirq home base”). A customizable desktop for the apps, experiments,
 and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 23220 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 24194 bytes
 
 ### SECURITY.md
 
@@ -144,10 +144,10 @@ contact, without any details of the problem, and a maintainer will reach out.
 import React from 'react' import { initKea, wrapElement } from './kea' import '@fontsource-
 variable/ibm-plex-sans' import '@fontsource-variable/ibm-plex-sans/wght-italic.css' import
 './src/styles/global.css' import { Provider as ToastProvider } from './src/context/Toast'
-import { RouteUpdateArgs } from 'gatsby' import Wrapper from './src/components/Wrapper'
-Notable exports: `wrapRootElement`, `onRouteUpdate`, `wrapPageElement`
+import { navigate, RouteUpdateArgs } from 'gatsby' import Wrapper from './src/components
+Notable exports: `onClientEntry`, `wrapRootElement`, `onRouteUpdate`, `wrapPageElement`
 
-[`gatsby-browser.tsx`](https://github.com/quirq-ai/website/blob/main/gatsby-browser.tsx) · code · 1265 bytes
+[`gatsby-browser.tsx`](https://github.com/quirq-ai/website/blob/main/gatsby-browser.tsx) · code · 1748 bytes
 
 ### gatsby-config.js
 
@@ -188,7 +188,7 @@ quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:prune`, `ap
 `projects:sync`, `projects:check`, `build-move`, `prebuild`, `build`, `build:minimal`, and
 28 more.
 
-[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13592 bytes
+[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13676 bytes
 
 ### pnpm-lock.yaml
 
@@ -220,7 +220,7 @@ JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`,
 `frameOrigins`, `defaults`, `repositories`. Structured data consumed by the surrounding app
 or tooling.
 
-[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 4432 bytes
+[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 4319 bytes
 
 ### quirq.projects.json
 
@@ -261,6 +261,6 @@ JSON document `vercel.json` whose top-level keys are `$schema`, `framework`, `bu
 `outputDirectory`, `headers`, `redirects`, `rewrites`. Structured data consumed by the
 surrounding app or tooling.
 
-[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 755 bytes
+[`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 686 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

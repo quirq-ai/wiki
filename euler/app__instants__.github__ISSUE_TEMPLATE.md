@@ -18,4 +18,4 @@ YAML file `feature_request.yml`. Top-level keys: `name`, `description`, `title`,
 
 [`app/instants/.github/ISSUE_TEMPLATE/feature_request.yml`](https://github.com/quirq-ai/euler/blob/main/app/instants/.github/ISSUE_TEMPLATE/feature_request.yml) · code · 828 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

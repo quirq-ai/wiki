@@ -102,4 +102,4 @@ string tags?: string[] thumbnail?: string } Notable exports: `Video`, `videos`.
 
 [`src/data/videos.ts`](https://github.com/quirq-ai/website/blob/main/src/data/videos.ts) · code · 848 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

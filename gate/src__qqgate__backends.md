@@ -17,9 +17,9 @@ Backend-specific gate code, one module per backend named in infra-config (org.to
 
 GitHub backend: required checks are GitHub Actions jobs; the rule is a repository ruleset.
 Classes: `_NoRedirect`. Functions: `generated_workflow`, `generated_jobs`, `workflow_path`,
-`check_workflows`, `required_checks_rule`, `rulesets`, `org_ruleset`, `plan_org`, and 8
+`check_workflows`, `required_checks_rule`, `rulesets`, `org_ruleset`, `plan_org`, and 9
 more.
 
-[`src/qqgate/backends/github.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/backends/github.py) · code · 29263 bytes
+[`src/qqgate/backends/github.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/backends/github.py) · code · 35392 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -13,4 +13,4 @@ import React from 'react' import { faqs } from '../../../pages-content/pricing-d
 
 [`src/components/Pricing/FAQs/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/FAQs/index.tsx) · code · 436 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

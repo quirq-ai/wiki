@@ -12,6 +12,6 @@ Markdown page “quirq app mapping”. The GitHub organization is the catalog. I
 repositories become apps in Home Base, the desktop, and navigation. The shared window
 system, themes, and app-specific URLs stay available.
 
-[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 7380 bytes
+[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 9880 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

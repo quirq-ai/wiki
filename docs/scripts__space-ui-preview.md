@@ -51,4 +51,4 @@ via `if __name__ == '__main__'`. Classes: `Handler`. Functions: `read_quirq_cont
 
 [`scripts/space-ui-preview/server.py`](https://github.com/quirq-ai/docs/blob/main/scripts/space-ui-preview/server.py) · code · 9332 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

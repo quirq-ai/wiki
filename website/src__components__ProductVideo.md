@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `ProductVideo`.
 
 [`src/components/ProductVideo/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/ProductVideo/index.js) · code · 1009 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

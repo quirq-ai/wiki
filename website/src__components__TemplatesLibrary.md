@@ -14,4 +14,4 @@ navigate } from 'gatsby' import Link from 'components/Link' import { IconSearch 
 
 [`src/components/TemplatesLibrary/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TemplatesLibrary/index.tsx) · code · 13420 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

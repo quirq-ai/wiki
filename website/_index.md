@@ -7,8 +7,8 @@ website: code and deploy of the public quirq.ai site
 - GitHub: [https://github.com/quirq-ai/website](https://github.com/quirq-ai/website)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-09T10:46:09Z`
-- Snapshot SHA: `1b6774dc6118`
+- Last push: `2026-10-10T09:09:22Z`
+- Snapshot SHA: `a34c60a61319`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -61,6 +61,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts/preview` | 1 | [scripts__preview.md](scripts__preview.md) |
 | `scripts/standard-site` | 1 | [scripts__standard-site.md](scripts__standard-site.md) |
 | `src` | 6 | [src.md](src.md) |
+| `src/api` | 1 | [src__api.md](src__api.md) |
 | `src/components` | 6 | [src__components.md](src__components.md) |
 | `src/components/About` | 0 | [src__components__About.md](src__components__About.md) |
 | `src/components/About/v2` | 5 | [src__components__About__v2.md](src__components__About__v2.md) |
@@ -553,7 +554,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/images/products` | 16 | [src__images__products.md](src__images__products.md) |
 | `src/images/sales` | 22 | [src__images__sales.md](src__images__sales.md) |
 | `src/images/teams` | 1 | [src__images__teams.md](src__images__teams.md) |
-| `src/lib` | 17 | [src__lib.md](src__lib.md) |
+| `src/lib` | 23 | [src__lib.md](src__lib.md) |
 | `src/lib/hogwatch` | 2 | [src__lib__hogwatch.md](src__lib__hogwatch.md) |
 | `src/logic` | 2 | [src__logic.md](src__logic.md) |
 | `src/menuItems` | 1 | [src__menuItems.md](src__menuItems.md) |
@@ -691,4 +692,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `static/images` | 3 | [static__images.md](static__images.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-09 12:10 UTC._
+_Generated 2026-10-10 11:28 UTC._

@@ -13,4 +13,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`src/components/Pricing/PricingCalculator/__fixtures__/billing-products.json`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/PricingCalculator/__fixtures__/billing-products.json) · code · 3762 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

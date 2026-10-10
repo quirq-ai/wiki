@@ -14,16 +14,16 @@ src/lib/quirqLiveApps.ts) as Home base and the desktop icons, so a repository ad
 organization is searchable without a rebuild. The index contains visible organization
 repositories plus Home base, Projects, and Edit (Display options).
 
-[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1463 bytes
+[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1518 bytes
 
 ### index.tsx
 
-import React, { useEffect, useMemo, useState } from 'react' import { Combobox } from
-'@headlessui/react' import { Dialog as RadixDialog } from 'radix-ui' import { navigate }
-from 'gatsby' import { IconSearch, IconX } from '@posthog/icons' import { useAppActions,
-useAppUIState } from '../../context/App' import { quirqConfig, type QuirqApp } from
-'lib/quirqApp Notable exports: `SearchOverlay`.
+import React, { useEffect, useMemo, useState } from 'react' import { roleKeywords } from
+'lib/quirqRoles' import { Combobox } from '@headlessui/react' import { Dialog as RadixDialog
+} from 'radix-ui' import { navigate } from 'gatsby' import { IconSearch, IconX } from
+'@posthog/icons' import { useAppActions, useAppUIState } from '../../context/App' import { q
+Notable exports: `SearchOverlay`.
 
-[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7246 bytes
+[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7316 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

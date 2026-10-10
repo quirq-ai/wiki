@@ -74,10 +74,10 @@ One-time import of docs links into the Strapi CTA field for changelog entries.
 import test from 'node:test' import assert from 'node:assert/strict' import { mkdtemp,
 readFile, writeFile, rm } from 'node:fs/promises' import { tmpdir } from 'node:os' import {
 join } from 'node:path' import { Buffer } from 'node:buffer' import { QUIRQ_ICONS,
-buildQuirqApps, isFramableUrl, mergeLiveRepositories, normalizeAppPath, safeWebUrl, } from
-'./lib/ Automated test file.
+QUIRQ_ROLES, buildQuirqApps, isDesktopApp, isFramableUrl, mergeLiveRepositories,
+normalizeAppPath Automated test file.
 
-[`scripts/quirq-catalog.test.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/quirq-catalog.test.mjs) · code · 22871 bytes
+[`scripts/quirq-catalog.test.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/quirq-catalog.test.mjs) · code · 28865 bytes
 
 ### quirq-phases.test.mjs
 
@@ -117,4 +117,4 @@ star counts, falling back to the stars in the apps snapshot. It needs no token. 
 
 [`scripts/sync-quirq-projects.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-projects.mjs) · code · 8865 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

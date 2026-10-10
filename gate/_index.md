@@ -7,8 +7,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - GitHub: [https://github.com/quirq-ai/gate](https://github.com/quirq-ai/gate)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-09T10:06:03Z`
-- Snapshot SHA: `bebca98ca669`
+- Last push: `2026-10-09T15:37:59Z`
+- Snapshot SHA: `d7234b758aaf`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,8 +24,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src` | 0 | [src.md](src.md) |
 | `src/qqgate` | 9 | [src__qqgate.md](src__qqgate.md) |
 | `src/qqgate/backends` | 2 | [src__qqgate__backends.md](src__qqgate__backends.md) |
-| `tests` | 10 | [tests.md](tests.md) |
+| `templates` | 1 | [templates.md](templates.md) |
+| `tests` | 11 | [tests.md](tests.md) |
 | `tests/fixtures` | 5 | [tests__fixtures.md](tests__fixtures.md) |
+| `tests/golden` | 1 | [tests__golden.md](tests__golden.md) |
 | `timing` | 1 | [timing.md](timing.md) |
 
-_Generated 2026-10-09 12:09 UTC._
+_Generated 2026-10-10 11:27 UTC._

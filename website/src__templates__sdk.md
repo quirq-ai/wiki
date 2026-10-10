@@ -26,4 +26,4 @@ isLatestVersion } from '../../components/SdkReferences/utils' import ReaderView 
 
 [`src/templates/sdk/SdkType.tsx`](https://github.com/quirq-ai/website/blob/main/src/templates/sdk/SdkType.tsx) · code · 3626 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

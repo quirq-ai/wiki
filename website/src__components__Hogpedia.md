@@ -171,4 +171,4 @@ onlyArticles } from './data' Notable exports: `LORE_PAGE`, `LoreFact`, `useLoreF
 
 [`src/components/Hogpedia/loreFacts.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Hogpedia/loreFacts.ts) · code · 3285 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

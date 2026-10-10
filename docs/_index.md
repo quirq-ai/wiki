@@ -7,8 +7,8 @@ The docs are live at [docs.quirq.dev](https://docs.quirq.dev/). New here? Start 
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
 - Default branch: `main`
 - Primary language (GitHub): MDX
-- Last push: `2026-10-09T09:35:21Z`
-- Snapshot SHA: `e67769e86a29`
+- Last push: `2026-10-10T10:14:08Z`
+- Snapshot SHA: `bb9a832d9528`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -125,4 +125,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-09 12:09 UTC._
+_Generated 2026-10-10 11:27 UTC._

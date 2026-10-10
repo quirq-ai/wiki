@@ -16,4 +16,4 @@ from 'components/RadixU Notable exports: `Start`.
 
 [`src/components/Start/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/Start/index.js) · code · 5706 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

@@ -16,4 +16,4 @@ buildProductStructuredData } from 'components/seo' import { Accordion } from
 
 [`src/components/Startups/StartupProgram.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Startups/StartupProgram.tsx) · code · 48627 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

@@ -31,4 +31,4 @@ An offline backend: commits and runs from a JSON snapshot. Classes: `Backend`.
 
 [`src/qqgarden/backends/snapshot.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/snapshot.py) · code · 3138 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

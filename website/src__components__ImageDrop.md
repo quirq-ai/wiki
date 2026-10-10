@@ -14,4 +14,4 @@ Accept, FileRejection, useDropzone } from 'react-dropzone' Notable exports: `Ima
 
 [`src/components/ImageDrop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ImageDrop/index.tsx) · code · 3379 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

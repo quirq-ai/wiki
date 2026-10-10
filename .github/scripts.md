@@ -15,4 +15,4 @@ script via `if __name__ == '__main__'`. Classes: `Document`, `UniqueLoader`. Fun
 
 [`scripts/validate.py`](https://github.com/quirq-ai/.github/blob/main/scripts/validate.py) · code · 11169 bytes
 
-_Generated 2026-10-09 12:09 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -24,10 +24,10 @@ IconCheck } from '@posthog/icons' Notable exports: `Checkbox`.
 ### ContextMenu.tsx
 
 import * as React from 'react' import { ContextMenu as RadixContextMenu } from 'radix-ui'
-import KeyboardShortcut from "components/KeyboardShortcut" Notable exports:
+import KeyboardShortcut from 'components/KeyboardShortcut' Notable exports:
 `ContextMenuItemProps`, `ContextMenuProps`.
 
-[`src/components/RadixUI/ContextMenu.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/RadixUI/ContextMenu.tsx) · code · 3694 bytes
+[`src/components/RadixUI/ContextMenu.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/RadixUI/ContextMenu.tsx) · code · 3823 bytes
 
 ### FileMenu.tsx
 
@@ -134,4 +134,4 @@ cn } from '../../utils' Notable exports: `TooltipProps`.
 
 [`src/components/RadixUI/Tooltip.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/RadixUI/Tooltip.tsx) · code · 2598 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

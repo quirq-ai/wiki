@@ -21,12 +21,12 @@ import ZoomHover from 'components/ZoomHover' Notable exports: `DesktopIcon`.
 
 ### index.tsx
 
-import React, { useEffect, useMemo, useRef, useState } from 'react' import Link from
-'components/Link' import { useAppActions, useAppSettings, useAppUIState, useAppWindows }
-from '../../context/App' import QuirqAppIcon from 'components/QuirqAppIcon' import type {
-QuirqApp } from 'lib/quirqApps' import { useQuirqApps } from 'lib/quirqLiveApps' import {
-AppIte Provides a default export as the module's public entry.
+A desktop icon opens the app's website like Open app does, in its own window on this site
+(`/launch/<repository>`): framed, or "Oops" with Open in new tab when it can't be
+(AGENTS.md). An app whose website is known never to open in a window (`external`, a shared
+host, GitHub) opens its repository window instead, where Open app is one click away.
+Provides a default export as the module's public entry.
 
-[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 16169 bytes
+[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 17230 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

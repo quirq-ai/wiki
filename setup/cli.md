@@ -13,7 +13,7 @@ work on a repo that already uses it. The terminal checks your tools, a local for
 browser asks which, and the terminal shows the plan or prints the install commands. THIS
 BUILD IS READ-ONLY: it reads GitHub through your gh login and writes nothing anywhere.
 
-[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 9644 bytes
+[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 11275 bytes
 
 ### detect.mjs
 
@@ -46,6 +46,16 @@ reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `enc
 
 [`cli/names.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/names.mjs) · code · 1206 bytes
 
+### opener.mjs
+
+@ts-check Opening the browser without putting the key on a command line. Any local user can
+read another process's argv (ps), and a browser started fresh keeps its URL there for its
+whole life. So the opener gets the path of a page only this user can read, and that page
+sends the browser on to the link. The key is single-use anyway (cli/server.mjs); this keeps
+it out of argv while it is live. Notable exports: `openerBase`, `writeOpener`, `openFile`.
+
+[`cli/opener.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/opener.mjs) · code · 3327 bytes
+
 ### plan.mjs
 
 @ts-check The form's answers, checked against what the command itself read from GitHub, and
@@ -75,20 +85,18 @@ these warnings are for.
 ### server.mjs
 
 @ts-check The form's local server. It listens on 127.0.0.1 only, serves the static form from
-out/, and answers /api/* only to a page that holds the one-time key from the link the
-terminal printed. The GitHub token never reaches the page: the page only sees names the
-command already read. Notable exports: `startServer`.
+out/, and answers /api/* only to the one tab that traded the link's key for a session.
 
-[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 6953 bytes
+[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 10190 bytes
 
 ### tools.mjs
 
 @ts-check The second way in: put qq on this machine and work on a repo that already uses it.
 qq-setup only prints these commands; it runs none of them. They are copied from the qq guide
-(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at e67769e); change both
+(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at bb9a832); change both
 together, with tests/fixtures/qq-guide-install.txt. Notable exports: `commandsFor`,
 `getLine`, `checkTools`, `toolsText`, `INSTALL`, `USE`, `USE_MAC`, `USE_NOTE`, and 3 more.
 
 [`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6261 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

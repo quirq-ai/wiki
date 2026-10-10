@@ -71,4 +71,4 @@ Notable exports: `SelfDrivingReport`, `WatchedSource`, `RequirementLevel`, `Requ
 
 [`src/components/SelfDrivingInbox/types.ts`](https://github.com/quirq-ai/website/blob/main/src/components/SelfDrivingInbox/types.ts) · code · 3865 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

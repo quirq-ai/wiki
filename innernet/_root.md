@@ -32,7 +32,7 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/innernet/blob/main/AGENTS.md) · code · 1214 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/innernet/blob/main/AGENTS.md) · code · 1461 bytes
 
 ### CLAUDE.md
 
@@ -140,4 +140,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

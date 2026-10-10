@@ -14,4 +14,4 @@ from 'gatsby' import React from 'react' import Link from 'components/Link' Notab
 
 [`src/components/TutorialsList/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/TutorialsList/index.tsx) · code · 1852 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

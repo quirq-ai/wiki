@@ -35,7 +35,7 @@ until 2026-10-09; the old URL redirects here). Every repo that quirq infra build
 qq version it runs in its manifest, infra/repo.toml, and qq installs and runs exactly that
 version.
 
-[`README.md`](https://github.com/quirq-ai/qq/blob/main/README.md) · code · 15268 bytes
+[`README.md`](https://github.com/quirq-ai/qq/blob/main/README.md) · code · 15220 bytes
 
 ### pyproject.toml
 
@@ -46,4 +46,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/qq/blob/main/pyproject.toml) · code · 968 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

@@ -78,4 +78,4 @@ const { GraphQLEnumType } = require('gatsby/graphql').
 
 [`plugins/gatsby-transformer-cloudinary/gatsby-plugin-image/types.js`](https://github.com/quirq-ai/website/blob/main/plugins/gatsby-transformer-cloudinary/gatsby-plugin-image/types.js) · code · 272 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

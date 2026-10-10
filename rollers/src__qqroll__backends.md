@@ -20,4 +20,4 @@ Classes: `Backend`. Functions: `_urllib_request`, `_tool_env`, `_run`.
 
 [`src/qqroll/backends/github.py`](https://github.com/quirq-ai/rollers/blob/main/src/qqroll/backends/github.py) · code · 10593 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

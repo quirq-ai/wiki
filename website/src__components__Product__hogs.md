@@ -86,4 +86,4 @@ blobs.
 
 [`src/components/Product/hogs/surveys-hog.png`](https://github.com/quirq-ai/website/blob/main/src/components/Product/hogs/surveys-hog.png) · binary · 98243 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

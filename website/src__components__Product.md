@@ -48,4 +48,4 @@ import { TeamMember, teamQuery } from 'components/People' import { useStaticQuer
 
 [`src/components/Product/TeamMembers.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Product/TeamMembers.tsx) · code · 1148 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

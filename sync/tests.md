@@ -29,6 +29,16 @@ tests.
 
 [`tests/test_guard.py`](https://github.com/quirq-ai/sync/blob/main/tests/test_guard.py) · code · 14335 bytes
 
+### test_init.py
+
+Python module `test_init.py`. Functions: `test_init_then_validate_passes`,
+`test_same_inputs_same_bytes`, `test_kind_without_toolchain_pins_none`,
+`test_two_kinds_one_toolchain_pin_it_once`, `test_refuses_existing_manifest`,
+`test_refuses_dangling_manifest_link`, `test_refuses_linked_infra`,
+`test_refuses_infra_file`, and 29 more. Contains tests.
+
+[`tests/test_init.py`](https://github.com/quirq-ai/sync/blob/main/tests/test_init.py) · code · 14420 bytes
+
 ### test_manifest.py
 
 Python module `test_manifest.py`. Functions: `changed_lines`,
@@ -58,4 +68,4 @@ Contains tests.
 
 [`tests/test_schema.py`](https://github.com/quirq-ai/sync/blob/main/tests/test_schema.py) · code · 7938 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:27 UTC from `main`._

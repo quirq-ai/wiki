@@ -1067,4 +1067,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

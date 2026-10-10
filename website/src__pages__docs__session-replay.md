@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `SessionReplayLearn`.
 
 [`src/pages/docs/session-replay/learn.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/docs/session-replay/learn.tsx) · code · 405 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

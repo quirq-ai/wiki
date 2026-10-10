@@ -90,4 +90,4 @@ import React from 'react' import type { GlowColor } from 'components/Glow' Notab
 
 [`src/components/Products/ReaderViewProduct/types.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Products/ReaderViewProduct/types.ts) · code · 7725 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

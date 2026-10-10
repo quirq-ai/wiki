@@ -110,4 +110,4 @@ import { useEffect, useMemo, useState } from 'react' Notable exports: `Coordinat
 
 [`src/components/HogMap/usePeopleGeo.ts`](https://github.com/quirq-ai/website/blob/main/src/components/HogMap/usePeopleGeo.ts) · code · 6603 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._

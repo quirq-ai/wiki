@@ -26,4 +26,4 @@ from 'components/Squeak' Notable exports: `CommunityQuestions`.
 
 [`src/components/CommunityQuestions/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/CommunityQuestions/index.tsx) · code · 381 bytes
 
-_Generated 2026-10-09 12:10 UTC from `main`._
+_Generated 2026-10-10 11:28 UTC from `main`._
