@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `Background`, `DESKTOP_ICON_GLOW`.
 
 [`library/website/source/src/components/Desktop/Background.tsx`](https://github.com/quirq-ai/ui/blob/main/library/website/source/src/components/Desktop/Background.tsx) · code · 680 bytes
 
-_Generated 2026-10-10 11:27 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

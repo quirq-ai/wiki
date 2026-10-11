@@ -24,4 +24,4 @@ import React, { useEffect, useState } from 'react' import Link from 'components/
 
 [`src/components/Community/Sidebar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Community/Sidebar.tsx) · code · 7600 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

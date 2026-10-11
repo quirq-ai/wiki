@@ -16,4 +16,4 @@ Notable exports: `CDP`.
 
 [`src/pages/cdp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/cdp/index.tsx) · code · 9328 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

@@ -198,4 +198,4 @@ blobs.
 
 [`src/pages-content/images/team.png`](https://github.com/quirq-ai/website/blob/main/src/pages-content/images/team.png) · binary · 4551 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

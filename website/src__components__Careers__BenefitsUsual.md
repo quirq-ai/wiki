@@ -13,4 +13,4 @@ import { DebugContainerQuery } from 'components/DebugContainerQuery' import Reac
 
 [`src/components/Careers/BenefitsUsual/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/BenefitsUsual/index.tsx) · code · 3532 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

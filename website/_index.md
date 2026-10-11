@@ -692,4 +692,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `static/images` | 3 | [static__images.md](static__images.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-10 11:28 UTC._
+_Generated 2026-10-11 11:41 UTC._

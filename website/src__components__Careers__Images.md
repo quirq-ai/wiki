@@ -13,4 +13,4 @@ import React from 'react' Notable exports: `Compensation`, `BoardMeetings`, `Fin
 
 [`src/components/Careers/Images/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/Images/index.tsx) · code · 27877 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

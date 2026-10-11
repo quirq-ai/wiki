@@ -13,4 +13,4 @@ executable source.
 
 [`public/favicon.svg`](https://github.com/quirq-ai/ui/blob/main/public/favicon.svg) · code · 328 bytes
 
-_Generated 2026-10-10 11:27 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

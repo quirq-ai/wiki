@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-10 11:27 UTC._
+_Generated 2026-10-11 11:41 UTC._

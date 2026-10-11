@@ -52,4 +52,4 @@ of this file.
 
 [`scripts/hogfm/uv.lock`](https://github.com/quirq-ai/website/blob/main/scripts/hogfm/uv.lock) · lockfile · 69356 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

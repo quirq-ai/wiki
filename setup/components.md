@@ -14,4 +14,4 @@ Notable exports: `SetupForm`. Marked `'use client'` so it runs in the browser.
 
 [`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 23774 bytes
 
-_Generated 2026-10-10 11:27 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

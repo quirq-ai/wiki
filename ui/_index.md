@@ -52,4 +52,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/logos` | 12 | [public__logos.md](public__logos.md) |
 | `scripts` | 1 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-10 11:27 UTC._
+_Generated 2026-10-11 11:41 UTC._

@@ -13,4 +13,4 @@ Check3, YC } from 'components/Icons' Notable exports: `StartupsCTA`.
 
 [`src/components/StartupsCTA/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/StartupsCTA/index.tsx) · code · 1568 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

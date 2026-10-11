@@ -15,4 +15,4 @@ exports: `fetchCategories`.
 
 [`src/components/Edition/lib/index.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Edition/lib/index.ts) · code · 282 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._

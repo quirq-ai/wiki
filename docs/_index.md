@@ -125,4 +125,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-10 11:27 UTC._
+_Generated 2026-10-11 11:41 UTC._

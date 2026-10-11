@@ -40,4 +40,4 @@ export type BuildingSection = 'top' | 'middle' | 'bottom' Notable exports:
 
 [`src/components/Enterprise/buildingStack.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Enterprise/buildingStack.ts) · code · 3763 bytes
 
-_Generated 2026-10-10 11:28 UTC from `main`._
+_Generated 2026-10-11 11:41 UTC from `main`._
