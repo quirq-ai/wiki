@@ -20,4 +20,4 @@ quirq.ai/install | sh.
 
 [`docs/quirq-kit.md`](https://github.com/quirq-ai/quirq_ai/blob/main/docs/quirq-kit.md) · code · 9038 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

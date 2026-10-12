@@ -12,4 +12,4 @@ Product configuration - change this to adapt for different products Notable expo
 
 [`src/pages/hog/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/hog/index.tsx) · code · 2572 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

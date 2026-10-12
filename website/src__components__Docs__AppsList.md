@@ -20,4 +20,4 @@ right docs page, keyed on the stable product handle. Notable exports: `AppsList`
 
 [`src/components/Docs/AppsList/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Docs/AppsList/index.tsx) · code · 1934 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

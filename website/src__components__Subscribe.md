@@ -23,4 +23,4 @@ GitHubButton from 'react-github-btn' Notable exports: `Subscribe`.
 
 [`src/components/Subscribe/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/Subscribe/index.js) · code · 3548 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

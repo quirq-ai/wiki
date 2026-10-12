@@ -16,4 +16,4 @@ TreeMenu } from 'components/TreeMenu' import dayjs from 'dayjs' import relativeT
 
 [`src/components/Inbox/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Inbox/index.tsx) · code · 35551 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

@@ -33,4 +33,4 @@ GitHub. Server rendering keeps the full file.
 
 [`scripts/lib/strip-readmes-loader.cjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/strip-readmes-loader.cjs) · code · 556 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

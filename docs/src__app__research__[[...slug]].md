@@ -15,4 +15,4 @@ into a Next.js app (App Router or Next APIs).
 
 [`src/app/research/[[...slug]]/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/research/[[...slug]]/page.tsx) · code · 14586 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

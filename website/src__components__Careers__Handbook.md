@@ -15,4 +15,4 @@ image' Provides a default export as the module's public entry.
 
 [`src/components/Careers/Handbook/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/Handbook/index.tsx) · code · 4229 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

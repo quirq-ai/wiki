@@ -22,4 +22,4 @@ the app's custom dock assets have loaded. Notable exports: `mount`.
 
 [`docs/examples/app-dock/dock.js`](https://github.com/quirq-ai/euler/blob/main/docs/examples/app-dock/dock.js) · code · 5962 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

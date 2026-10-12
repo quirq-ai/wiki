@@ -213,10 +213,10 @@ import { graphql, useStaticQuery } from 'gatsby' import { volumeById } from
 
 ### usePostHog.ts
 
-import type { PostHog } from '../types/posthog' Provides a default export as the module's
-public entry.
+import type { PostHog } from '../types/posthog' import { getPostHog } from
+'../lib/quirqAnalytics' Provides a default export as the module's public entry.
 
-[`src/hooks/usePostHog.ts`](https://github.com/quirq-ai/website/blob/main/src/hooks/usePostHog.ts) · code · 230 bytes
+[`src/hooks/usePostHog.ts`](https://github.com/quirq-ai/website/blob/main/src/hooks/usePostHog.ts) · code · 291 bytes
 
 ### usePostHogInstance.ts
 
@@ -369,4 +369,4 @@ import { useState, useEffect } from 'react' Notable exports: `useWistiaThumbnail
 
 [`src/hooks/useWistiaThumbnail.ts`](https://github.com/quirq-ai/website/blob/main/src/hooks/useWistiaThumbnail.ts) · code · 1330 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

@@ -92,4 +92,4 @@ exports: `SectionLabel`, `InlineIcon`, `KeyBadge`.
 
 [`src/components/ReplayVision/sectionHelpers.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ReplayVision/sectionHelpers.tsx) · code · 1435 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

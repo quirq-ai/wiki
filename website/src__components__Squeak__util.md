@@ -44,4 +44,4 @@ formData.append('field' Notable exports: `uploadImage`.
 
 [`src/components/Squeak/util/uploadImage.ts`](https://github.com/quirq-ai/website/blob/main/src/components/Squeak/util/uploadImage.ts) · code · 1189 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

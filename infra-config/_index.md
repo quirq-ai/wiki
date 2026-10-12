@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/golden/generated/github/xo-space` | 2 | [tests__golden__generated__github__xo-space.md](tests__golden__generated__github__xo-space.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-11 11:41 UTC._
+_Generated 2026-10-12 13:39 UTC._

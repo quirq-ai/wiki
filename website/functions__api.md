@@ -13,4 +13,4 @@ import { getPostHogDesktopPricing, PRICING_CACHE_CONTROL } from
 
 [`functions/api/posthog-desktop-pricing.ts`](https://github.com/quirq-ai/website/blob/main/functions/api/posthog-desktop-pricing.ts) · code · 517 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

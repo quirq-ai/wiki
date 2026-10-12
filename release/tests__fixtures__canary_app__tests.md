@@ -13,4 +13,4 @@ Python module `test_greet.py`. Functions: `test_greets_by_name`,
 
 [`tests/fixtures/canary_app/tests/test_greet.py`](https://github.com/quirq-ai/release/blob/main/tests/fixtures/canary_app/tests/test_greet.py) · code · 443 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

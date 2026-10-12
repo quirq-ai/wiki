@@ -22,4 +22,4 @@ getWizardFrameworkRows } from 'constants/installation-taxonomy' Notable exports:
 
 [`src/components/WizardSupportedFrameworks/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/WizardSupportedFrameworks/index.tsx) · code · 772 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

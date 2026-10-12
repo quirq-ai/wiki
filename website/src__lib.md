@@ -89,6 +89,16 @@ Product interest tracking for onboarding Notable exports: `getProductInterests`,
 
 [`src/lib/productInterest.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/productInterest.ts) · code · 3363 bytes
 
+### quirqAnalytics.ts
+
+PostHog analytics and error tracking, on only when the build has GATSBY_POSTHOG_KEY (a
+public project key). posthog-js can't be added with pnpm (the workspace trust policy), so
+the browser loads PostHog's own script instead. A deployed site reaches PostHog through the
+`/ingest` rewrites in vercel.json; `gatsby develop` has no rewrites and goes to PostHog
+directly. Notable exports: `getPostHog`, `startAnalytics`.
+
+[`src/lib/quirqAnalytics.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAnalytics.ts) · code · 1713 bytes
+
 ### quirqApps.ts
 
 import config from '../../quirq.apps.json' import snapshot from '../data/quirq-
@@ -204,4 +214,4 @@ LibraryPluginType } from 'types' Notable exports: `classNames`, `getPluginImageS
 
 [`src/lib/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/utils.ts) · code · 4353 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

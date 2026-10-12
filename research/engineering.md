@@ -36,4 +36,4 @@ npm package manifest for `engineering`. Scripts: `build`, `dev`.
 
 [`engineering/package.json`](https://github.com/quirq-ai/research/blob/main/engineering/package.json) · code · 179 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

@@ -36,4 +36,4 @@ JSON document `slack-signals-loading.json` whose top-level keys are `version`, `
 
 [`src/data/typecaast/slack-signals-loading.json`](https://github.com/quirq-ai/website/blob/main/src/data/typecaast/slack-signals-loading.json) · code · 4415 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

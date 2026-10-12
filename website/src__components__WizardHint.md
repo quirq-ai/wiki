@@ -24,4 +24,4 @@ CloudinaryImage from 'components/CloudinaryImage' import WizardCommand from
 
 [`src/components/WizardHint/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/WizardHint/index.tsx) · code · 4632 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

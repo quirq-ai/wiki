@@ -97,4 +97,4 @@ pricingSliderLo Notable exports: `PricingTable`.
 
 [`src/components/Pricing/PricingTable/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Pricing/PricingTable/index.tsx) · code · 2293 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

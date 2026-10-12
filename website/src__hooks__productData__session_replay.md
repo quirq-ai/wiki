@@ -24,4 +24,4 @@ CarouselSlide } from ' Notable exports: `applications`, `topFeatures`.
 
 [`src/hooks/productData/session_replay/slides.tsx`](https://github.com/quirq-ai/website/blob/main/src/hooks/productData/session_replay/slides.tsx) · code · 21693 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

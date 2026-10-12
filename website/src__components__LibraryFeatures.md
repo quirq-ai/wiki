@@ -14,4 +14,4 @@ from '../../images/x.svg' import InfoIcon from '../InfoIcon/Index' import Link f
 
 [`src/components/LibraryFeatures/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/LibraryFeatures/index.tsx) · code · 3163 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

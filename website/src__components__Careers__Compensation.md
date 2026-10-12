@@ -15,4 +15,4 @@ module's public entry.
 
 [`src/components/Careers/Compensation/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Careers/Compensation/index.tsx) · code · 3329 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

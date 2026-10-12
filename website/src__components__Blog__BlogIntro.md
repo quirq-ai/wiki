@@ -14,4 +14,4 @@ import React from 'react' import { Structure } from '../../Structure' import Blo
 
 [`src/components/Blog/BlogIntro/index.js`](https://github.com/quirq-ai/website/blob/main/src/components/Blog/BlogIntro/index.js) · code · 1903 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

@@ -15,4 +15,4 @@ import SEO from 'components/seo' import Editor from 'components/Editor' import O
 
 [`src/pages/careers-og/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/careers-og/index.tsx) · code · 6445 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

@@ -33,4 +33,4 @@ Notable exports: `Actor`, `PostImage`, `PostDesign`, `PollOption`, `Poll`, `Acti
 
 [`app/quitter/src/engine/types.ts`](https://github.com/quirq-ai/euler/blob/main/app/quitter/src/engine/types.ts) · code · 3199 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

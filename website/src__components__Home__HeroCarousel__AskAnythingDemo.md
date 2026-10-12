@@ -24,4 +24,4 @@ IconServer, IconShield, IconToggle, } from '@posthog/icons' import { useInView }
 
 [`src/components/Home/HeroCarousel/AskAnythingDemo/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Home/HeroCarousel/AskAnythingDemo/index.tsx) · code · 13197 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._

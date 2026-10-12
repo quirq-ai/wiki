@@ -37,4 +37,4 @@ components), typically rendered by the docs site.
 
 [`content/docs/quirq/integrate/playbook.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/quirq/integrate/playbook.mdx) · code · 5138 bytes
 
-_Generated 2026-10-11 11:41 UTC from `main`._
+_Generated 2026-10-12 13:39 UTC from `main`._
