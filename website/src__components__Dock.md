@@ -12,7 +12,7 @@ The project README (“Dock”). Euler's floating glass dock, used as the site's
 in place of the old top bar. It sits below the desktop viewport, so windows end above it
 rather than under it.
 
-[`src/components/Dock/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/README.md) · code · 1227 bytes
+[`src/components/Dock/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/README.md) · code · 1249 bytes
 
 ### index.tsx
 
@@ -24,4 +24,4 @@ QUIRQY_WINDO Notable exports: `Dock`.
 
 [`src/components/Dock/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/index.tsx) · code · 7706 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

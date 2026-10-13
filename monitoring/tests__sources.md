@@ -174,4 +174,4 @@ file.
 
 [`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 4765 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

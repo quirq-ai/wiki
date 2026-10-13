@@ -13,7 +13,7 @@ project color tokens QuirqAppIcon tints with. Notable exports: `repositoryRole`,
 `validateQuirqConfig`, `isFramableUrl`, `normalizeAppPath`, `safeWebUrl`,
 `normalizeRepository`, `mergeLiveRepositories`, `buildQuirqApps`, and 6 more.
 
-[`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 18569 bytes
+[`scripts/lib/quirq-catalog.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/quirq-catalog.mjs) · code · 19260 bytes
 
 ### quirq-phases.mjs
 
@@ -33,4 +33,4 @@ GitHub. Server rendering keeps the full file.
 
 [`scripts/lib/strip-readmes-loader.cjs`](https://github.com/quirq-ai/website/blob/main/scripts/lib/strip-readmes-loader.cjs) · code · 556 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

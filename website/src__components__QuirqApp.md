@@ -48,7 +48,7 @@ quirqConfig, type QuirqApp } from 'lib/quirqApps' import { useQuirqCatalog, type
 QuirqCatalog } from 'lib/quirqLiveApps' import { useApp } from '../../context/App' import {
 useWindo Notable exports: `repositoryFromPath`, `useRoutedApp`, `MissingApp`, `touchTarget`.
 
-[`src/components/QuirqApp/RoutedApp.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/RoutedApp.tsx) · code · 6374 bytes
+[`src/components/QuirqApp/RoutedApp.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/RoutedApp.tsx) · code · 6272 bytes
 
 ### index.tsx
 
@@ -58,6 +58,6 @@ import QuirqAppIcon from 'components/QuirqAppIcon' import { getLaunchTarget, typ
 from 'lib/quirqApps' import { docLabel, readmeSummary } from 'lib/quirqDocs' import {
 Notable exports: `RepositoryApp`.
 
-[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 10375 bytes
+[`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 10385 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

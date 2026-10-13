@@ -8,7 +8,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“Quirq app icons”). QuirqAppIcon is a small adapter for the existing
+The project README (“quirq app icons”). QuirqAppIcon is a small adapter for the existing
 OSIcons/GlassIcon. It keeps the desktop's beveled silhouettes, glass, hover motion, and soft
 hover glow while giving each repository a distinct glyph and color.
 
@@ -30,4 +30,4 @@ QUIRQ_GLYPHS, type QuirqIcon } from './glyphs' Notable exports: `QuirqAppIcon`, 
 
 [`src/components/QuirqAppIcon/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAppIcon/index.tsx) · code · 2217 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

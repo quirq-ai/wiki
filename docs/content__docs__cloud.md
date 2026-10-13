@@ -73,4 +73,4 @@ rendered by the docs site.
 
 [`content/docs/cloud/vs-code-server.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/cloud/vs-code-server.mdx) · code · 3135 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

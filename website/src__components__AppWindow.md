@@ -9,11 +9,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### index.tsx
 
 import React, { useEffect, useState, useMemo, useRef, useCallback } from 'react' import {
-AnimatePresence, motion, PanInfo, useDragControls } from 'framer-motion' import {
-IconChevronDown, IconDocument, IconMinus, IconX, IconCollapse45Chevrons, IconSquare,
-IconArrowLeft, IconArrowRight, IconTerminal, IconSearch, IconDrag, } from '@posthog/icons'
-import { Men Notable exports: `AppWindow`.
+AnimatePresence } from 'framer-motion' import { IconX, IconCollapse45Chevrons, IconSquare }
+from '@posthog/icons' import { Menu, MenuItem, useApp } from '../../context/App' import {
+Provider as WindowProvider, AppWindow as AppWindowType, useWindow } from '../../context/
+Notable exports: `AppWindow`.
 
-[`src/components/AppWindow/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/AppWindow/index.tsx) · code · 32378 bytes
+[`src/components/AppWindow/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/AppWindow/index.tsx) · code · 20392 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

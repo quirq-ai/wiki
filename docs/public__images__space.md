@@ -334,4 +334,4 @@ generated blobs.
 
 [`public/images/space/wiki.png`](https://github.com/quirq-ai/docs/blob/main/public/images/space/wiki.png) · binary · 197837 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

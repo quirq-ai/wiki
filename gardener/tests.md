@@ -134,4 +134,4 @@ S6). Functions: `steps_using`, `test_no_checkout_keeps_credentials`,
 
 [`tests/test_workflows.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_workflows.py) · code · 4416 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

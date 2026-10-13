@@ -33,4 +33,4 @@ Notable exports: `setupApps`, `npmCliCandidates`, `setup`.
 
 [`scripts/setup.mjs`](https://github.com/quirq-ai/euler/blob/main/scripts/setup.mjs) · code · 3696 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

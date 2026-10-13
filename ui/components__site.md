@@ -19,4 +19,4 @@ export function SiteNav() { return ( Notable exports: `SiteNav`. Wired into a Ne
 
 [`components/site/site-nav.tsx`](https://github.com/quirq-ai/ui/blob/main/components/site/site-nav.tsx) · code · 1270 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

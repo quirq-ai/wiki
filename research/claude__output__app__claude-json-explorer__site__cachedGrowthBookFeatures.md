@@ -13,4 +13,4 @@ cachedGrowthBookFeatures · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/index.html) · code · 18096 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

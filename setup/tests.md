@@ -12,4 +12,4 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 [`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 34150 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

@@ -19,6 +19,6 @@ in the Home window.
 Euler's frosted glass, with solid fallbacks for dark mode and reduced transparency (as in
 Home base). Notable exports: `QuirqyWindow`, `useOpenQuirqy`.
 
-[`src/components/Quirqy/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Quirqy/index.tsx) · code · 2970 bytes
+[`src/components/Quirqy/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Quirqy/index.tsx) · code · 2809 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

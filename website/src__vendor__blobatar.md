@@ -70,4 +70,4 @@ surrounding app or tooling.
 
 [`src/vendor/blobatar/provenance.json`](https://github.com/quirq-ai/website/blob/main/src/vendor/blobatar/provenance.json) · code · 1144 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

@@ -21,4 +21,4 @@ by the surrounding app or tooling.
 
 [`content/research/phase-3-self-evolving-systems/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/research/phase-3-self-evolving-systems/meta.json) · code · 71 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

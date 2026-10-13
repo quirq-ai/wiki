@@ -8,13 +8,13 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“quirq search”). SearchOverlay replaces global PostHog search in the
+The project README (“quirq search”). SearchOverlay provides local catalog search in the
 desktop wrapper. It consumes the same live catalog (useQuirqApps() from
 src/lib/quirqLiveApps.ts) as Home base and the desktop icons, so a repository added to the
 organization is searchable without a rebuild. The index contains visible organization
 repositories plus Home base, Projects, and Edit (Display options).
 
-[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1518 bytes
+[`src/components/QuirqSearch/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/README.md) · code · 1517 bytes
 
 ### index.tsx
 
@@ -26,4 +26,4 @@ Notable exports: `SearchOverlay`.
 
 [`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7316 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

@@ -81,4 +81,4 @@ Languages as one stacked bar, then frameworks, scripts and dependencies. Notable
 
 [`app/innernet/components/wiki/article/technology.tsx`](https://github.com/quirq-ai/euler/blob/main/app/innernet/components/wiki/article/technology.tsx) · code · 5900 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

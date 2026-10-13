@@ -6,32 +6,21 @@ Source: [src/components/Explorer](https://github.com/quirq-ai/website/tree/main/
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### Product.tsx
+### README.md
 
-import { IconBook, IconCalendar, IconCreditCard, IconGanttChart, IconListCheck,
-IconMegaphone, IconMessage, IconPeople, } from '@posthog/icons' import OSButton from
-'components/OSButton' import useProduct from 'hooks/useProduct' import React from 'react'
-Notable exports: `Product`.
+The project README (“Explorer”). Shared layout for Home base, repository windows, Projects,
+quirqy, the infra guide and the 404 page. It provides a history/search header and a
+scrolling content area inside the existing flex window system.
 
-[`src/components/Explorer/Product.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/Product.tsx) · code · 7549 bytes
-
-### ProductSidebar.tsx
-
-import React from 'react' import useProduct from 'hooks/useProduct' import { Accordion }
-from 'components/RadixUI/Accordion' import OSButton from 'components/OSButton' import {
-IconCursor, IconHeadset, IconQuestion } from '@posthog/icons' Notable exports:
-`ProductSidebar`.
-
-[`src/components/Explorer/ProductSidebar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/ProductSidebar.tsx) · code · 6775 bytes
+[`src/components/Explorer/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/README.md) · code · 817 bytes
 
 ### index.tsx
 
-import React, { useMemo, useRef, useState } from 'react' import { motion } from 'framer-
-motion' import { Select } from '../RadixUI/Select' import HeaderBar from
-'components/OSChrome/HeaderBar' import { navigate } from 'gatsby' import { useLocation }
-from '@reach/router' import { DebugContainerQuery } from 'components/DebugContainerQuery'
-import ScrollArea fr Notable exports: `Explorer`.
+import React, { useRef } from 'react' import HeaderBar from 'components/OSChrome/HeaderBar'
+import ScrollArea from 'components/RadixUI/ScrollArea' import { useWindow } from
+'../../context/Window' import { getProseClasses } from '../../constants' Notable exports:
+`Explorer`.
 
-[`src/components/Explorer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/index.tsx) · code · 10647 bytes
+[`src/components/Explorer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/index.tsx) · code · 2288 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

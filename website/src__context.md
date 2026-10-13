@@ -9,10 +9,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### App.tsx
 
 eslint-disable @typescript-eslint/no-empty-function Notable exports: `MenuItem`, `Menu`,
-`ChatParams`, `AppActionsContextType`, `AppSettingsContextType`, `AppUIStateContextType`,
-`AppWindowsContextType`, `Context`, and 8 more.
+`AppActionsContextType`, `AppSettingsContextType`, `AppUIStateContextType`,
+`AppWindowsContextType`, `Context`, `ActionsContext`, and 7 more.
 
-[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 101766 bytes
+[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 69926 bytes
 
 ### Toast.tsx
 
@@ -23,11 +23,10 @@ import React, { createContext, useContext, useState } from 'react' import Toasts
 
 ### Window.tsx
 
-import { IMenu } from 'components/PostLayout/types' import React, { createContext,
-useContext, useMemo } from 'react' import { AppSetting, MenuItem } from './App' import {
-MenuItemType } from 'components/RadixUI/MenuBar' Notable exports: `AppWindow`, `Context`,
-`Provider`, `useWindow`.
+import React, { createContext, useContext, useMemo } from 'react' import { AppSetting,
+MenuItem } from './App' import { MenuItemType } from 'components/RadixUI/MenuBar' Notable
+exports: `WindowMenuItem`, `AppWindow`, `Context`, `Provider`, `useWindow`.
 
-[`src/context/Window.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/Window.tsx) · code · 5520 bytes
+[`src/context/Window.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/Window.tsx) · code · 4631 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

@@ -21,4 +21,4 @@ Home base). Notable exports: `QuirqyWindow`, `useOpenQuirqy`.
 
 [`library/website/source/src/components/Quirqy/index.tsx`](https://github.com/quirq-ai/ui/blob/main/library/website/source/src/components/Quirqy/index.tsx) · code · 2970 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

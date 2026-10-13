@@ -28,4 +28,4 @@ by the docs site.
 
 [`content/docs/agents/antigravity/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/antigravity/setup.mdx) · code · 2203 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

@@ -16,4 +16,4 @@ APIs).
 
 [`app/innernet/app/guide/page.tsx`](https://github.com/quirq-ai/euler/blob/main/app/innernet/app/guide/page.tsx) · code · 927 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

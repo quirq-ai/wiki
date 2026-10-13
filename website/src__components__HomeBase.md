@@ -23,6 +23,6 @@ import React, { useEffect, useMemo, useState } from 'react' import Explorer from
 QuirqWordmark } from 'components/QuirqBrand' import { QuirqAvatarTile } from
 'components/QuirqAvatar' import { useO Notable exports: `HomeBase`.
 
-[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 24009 bytes
+[`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 23903 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

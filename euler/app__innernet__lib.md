@@ -137,4 +137,4 @@ is plain JSON so the index can be inspected by hand. Notable exports: `PageKind`
 
 [`app/innernet/lib/types.ts`](https://github.com/quirq-ai/euler/blob/main/app/innernet/lib/types.ts) · code · 5471 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

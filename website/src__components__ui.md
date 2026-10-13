@@ -6,6 +6,16 @@ Source: [src/components/ui](https://github.com/quirq-ai/website/tree/main/src/co
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### LICENSE.shadcn
+
+Shadcn file `LICENSE.shadcn`. shadcn/ui's license, for the components in this folder
+(button.tsx, badge.tsx, card.tsx, tabs.tsx). They are adapted from shadcn/ui
+(https://github.com/shadcn-ui/ui), restyled with this site's tokens. button.tsx names the
+shadcn commit it follows (shadcn-ui/ui@6efecd8); the other three record none. The text below
+is shadcn-ui/ui LICENSE.md at 6efecd8, unchanged.
+
+[`src/components/ui/LICENSE.shadcn`](https://github.com/quirq-ai/website/blob/main/src/components/ui/LICENSE.shadcn) · code · 1429 bytes
+
 ### README.md
 
 The project README (“ui”). [shadcn/ui](https://ui.shadcn.com) primitives for new quirq UI:
@@ -13,7 +23,7 @@ Button, Card, Badge and Tabs. They are copied from shadcn's source and restyled 
 site's color tokens (bg-primary, bg-accent, border-primary, text-primary, text-secondary),
 so they follow the light and dark themes like the rest of the desktop.
 
-[`src/components/ui/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/ui/README.md) · code · 1379 bytes
+[`src/components/ui/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/ui/README.md) · code · 1748 bytes
 
 ### badge.tsx
 
@@ -49,4 +59,4 @@ background. Notable exports: `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`.
 
 [`src/components/ui/tabs.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ui/tabs.tsx) · code · 1942 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

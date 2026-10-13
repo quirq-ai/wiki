@@ -25,4 +25,4 @@ empty`, and 22 more. Defines or consumes CSS custom properties (design tokens).
 
 [`app/instants/components/collaboration/collaboration.css`](https://github.com/quirq-ai/euler/blob/main/app/instants/components/collaboration/collaboration.css) · code · 8895 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

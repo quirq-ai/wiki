@@ -8,11 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“QuirqInfraV0”). The "quirq infra" app at /v0: a guide to quirq infra
+The project README (“quirq infra v0”). The "quirq infra" app at /v0: a guide to quirq infra
 (qq) v0 and a live view of it running. The catalog maps the infra-config repository to this
 component through src/templates/QuirqInfraV0.tsx (see quirq.apps.json).
 
-[`src/components/QuirqInfraV0/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/README.md) · code · 1704 bytes
+[`src/components/QuirqInfraV0/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/README.md) · code · 1706 bytes
 
 ### data.ts
 
@@ -32,7 +32,7 @@ from 'components/QuirqAppIcon' import { Badge, type BadgeVariant } from
 'components/ui/badge' import { Card, CardContent, CardDescription, CardHeader, CardTitle }
 from 'componen Notable exports: `QuirqInfraV0`.
 
-[`src/components/QuirqInfraV0/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/index.tsx) · code · 24965 bytes
+[`src/components/QuirqInfraV0/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/index.tsx) · code · 24871 bytes
 
 ### live.ts
 
@@ -44,4 +44,4 @@ each file for up to 5 minutes. Notable exports: `getJson`, `recentDays`, `useLiv
 
 [`src/components/QuirqInfraV0/live.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/live.ts) · code · 3872 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

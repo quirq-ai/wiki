@@ -6,18 +6,11 @@ Source: [(repository root)](https://github.com/quirq-ai/website/tree/main) in [w
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### .codespellignore
-
-Extensionless file `.codespellignore`. postgresql posthog clickhouse captable vie coo dne
-frome dota wit crate halp doubleclick fastr pullrequest.
-
-[`.codespellignore`](https://github.com/quirq-ai/website/blob/main/.codespellignore) · other · 107 bytes
-
 ### .eslintignore
 
-Extensionless file `.eslintignore`. gatsby/ gatsby* mdxImportGen.js public static/scripts/.
+Extensionless file `.eslintignore`. gatsby/ gatsby* public static/scripts/.
 
-[`.eslintignore`](https://github.com/quirq-ai/website/blob/main/.eslintignore) · other · 108 bytes
+[`.eslintignore`](https://github.com/quirq-ai/website/blob/main/.eslintignore) · other · 92 bytes
 
 ### .eslintrc.json
 
@@ -35,25 +28,18 @@ Environment template `.example.env` (values omitted from the wiki). Keys:
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 34 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 17 pattern(s)
 including `.cache`, `node_modules`, `!/src/vendor/pierre-trees/node_modules/`, `.pnp.*`,
-`.pnpm-store*`, `/public`, `/og-images`, `.DS_Store`, and 26 more. Generated and secret
-files matching these patterns are not in the clone the wiki summarizes.
+`.pnpm-store*`, `/public`, `.DS_Store`, `.vscode`, and 9 more. Generated and secret files
+matching these patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/website/blob/main/.gitignore) · other · 977 bytes
-
-### .imgbotconfig
-
-Extensionless file `.imgbotconfig`. { "schedule": "daily", "aggressiveCompression": "false"
-}.
-
-[`.imgbotconfig`](https://github.com/quirq-ai/website/blob/main/.imgbotconfig) · other · 66 bytes
+[`.gitignore`](https://github.com/quirq-ai/website/blob/main/.gitignore) · other · 446 bytes
 
 ### .markdownlint-cli2.jsonc
 
 Jsonc file `.markdownlint-cli2.jsonc`.
 
-[`.markdownlint-cli2.jsonc`](https://github.com/quirq-ai/website/blob/main/.markdownlint-cli2.jsonc) · code · 933 bytes
+[`.markdownlint-cli2.jsonc`](https://github.com/quirq-ai/website/blob/main/.markdownlint-cli2.jsonc) · code · 1078 bytes
 
 ### .nvmrc
 
@@ -75,13 +61,6 @@ Extensionless file `.prettierrc`. { "trailingComma": "es5", "tabWidth": 4, "semi
 
 [`.prettierrc`](https://github.com/quirq-ai/website/blob/main/.prettierrc) · other · 107 bytes
 
-### .vale.ini
-
-INI config `.vale.ini`. Sections: `formats`, `*.{md,mdx}`, `**/docs/**/*.{md,mdx}`,
-`**/{blog,newsletter,tutorials}/**/*.{md,mdx}`.
-
-[`.vale.ini`](https://github.com/quirq-ai/website/blob/main/.vale.ini) · code · 964 bytes
-
 ### .vercelignore
 
 Extensionless file `.vercelignore`. .git .cache .pnpm-store.
@@ -96,7 +75,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 12918 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/website/blob/main/AGENTS.md) · code · 17161 bytes
 
 ### CLAUDE.md
 
@@ -106,7 +85,7 @@ the configured GitHub organization become app pages inside a shared desktop. Rea
 [README.md](README.md) and the [app mapping guide](docs/quirq-app-mapping.md) before
 changing the catalog or routes.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 12918 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/website/blob/main/CLAUDE.md) · code · 17161 bytes
 
 ### LICENSE
 
@@ -128,14 +107,13 @@ Markdown page “Licensing and attribution”. This repository combines quirq ad
 material inherited from [PostHog/posthog.com](https://github.com/PostHog/posthog.com),
 starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 
-[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 2156 bytes
+[`LICENSING.md`](https://github.com/quirq-ai/website/blob/main/LICENSING.md) · code · 2864 bytes
 
 ### README.md
 
-The project README (“quirq home base”). A customizable desktop for the apps, experiments,
-and open source projects in the [quirq GitHub organization](https://github.com/quirq-ai).
+The project README (“quirq home base”). Everything quirq builds. One little space.
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 24596 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 9549 bytes
 
 ### SECURITY.md
 
@@ -148,13 +126,12 @@ contact, without any details of the problem, and a maintainer will reach out.
 
 ### gatsby-browser.tsx
 
-import React from 'react' import { initKea, wrapElement } from './kea' import '@fontsource-
-variable/ibm-plex-sans' import '@fontsource-variable/ibm-plex-sans/wght-italic.css' import
-'./src/styles/global.css' import { Provider as ToastProvider } from './src/context/Toast'
-import { navigate, RouteUpdateArgs } from 'gatsby' import Wrapper from './src/components
-Notable exports: `onClientEntry`, `wrapRootElement`, `onRouteUpdate`, `wrapPageElement`
+Every link that leaves the site opens in a window here, the page in an iframe, or "Oops"
+with Open in new tab when it can't be shown (AGENTS.md): one listener for every link, HTML
+inside content included. Notable exports: `onClientEntry`, `wrapRootElement`,
+`onRouteUpdate`, `wrapPageElement`, `shouldUpdateScroll`.
 
-[`gatsby-browser.tsx`](https://github.com/quirq-ai/website/blob/main/gatsby-browser.tsx) · code · 1827 bytes
+[`gatsby-browser.tsx`](https://github.com/quirq-ai/website/blob/main/gatsby-browser.tsx) · code · 1742 bytes
 
 ### gatsby-config.js
 
@@ -162,7 +139,7 @@ require('dotenv').config({ path: .env.${process.env.NODE_ENV}.local })
 require('dotenv').config({ path: .env.${process.env.NODE_ENV} }) require('dotenv').config()
 const path = require('path').
 
-[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1535 bytes
+[`gatsby-config.js`](https://github.com/quirq-ai/website/blob/main/gatsby-config.js) · code · 1347 bytes
 
 ### gatsby-node.ts
 
@@ -170,41 +147,31 @@ import path from 'path' import fs from 'fs' import { GatsbyNode } from 'gatsby' 
 getQuirqApps } from './src/lib/quirqApps' Notable exports: `createPages`, `onCreatePage`,
 `preprocessSource`, `onCreateBabelConfig`, `onCreateWebpackConfig`.
 
-[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 5441 bytes
+[`gatsby-node.ts`](https://github.com/quirq-ai/website/blob/main/gatsby-node.ts) · code · 4904 bytes
 
 ### gatsby-ssr.js
 
-Implement Gatsby's SSR (Server Side Rendering) APIs in this file. Notable exports:
-`wrapRootElement`, `wrapPageElement`, `onRenderBody`, `onPreRenderHTML`.
+const React = require('react') Notable exports: `wrapRootElement`, `wrapPageElement`,
+`onRenderBody`.
 
-[`gatsby-ssr.js`](https://github.com/quirq-ai/website/blob/main/gatsby-ssr.js) · code · 1433 bytes
-
-### kea.js
-
-import React from 'react' import { Provider } from 'react-redux' import { getContext,
-resetContext } from 'kea' import { loadersPlugin } from 'kea-loaders' import { routerPlugin
-} from 'kea-router' import { localStoragePlugin } from 'kea-localstorage' Notable exports:
-`initKea`, `wrapElement`.
-
-[`kea.js`](https://github.com/quirq-ai/website/blob/main/kea.js) · code · 541 bytes
+[`gatsby-ssr.js`](https://github.com/quirq-ai/website/blob/main/gatsby-ssr.js) · code · 700 bytes
 
 ### package.json
 
 npm package manifest for `quirq-home-base` v1.0.0. A customizable desktop for apps from the
 quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:prune`, `apps:test`,
-`projects:sync`, `projects:check`, `build-move`, `prebuild`, `build`, `build:minimal`, and
-28 more.
+`projects:sync`, `projects:check`, `build`, `start`, `serve`, `clean`, and 6 more.
 
-[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 13699 bytes
+[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 5004 bytes
 
 ### pnpm-lock.yaml
 
-Package-manager lockfile (pnpm-lock.yaml, 1.4 MB). It pins the exact dependency tree for
+Package-manager lockfile (pnpm-lock.yaml, 616.3 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`pnpm-lock.yaml`](https://github.com/quirq-ai/website/blob/main/pnpm-lock.yaml) · lockfile · 1428685 bytes
+[`pnpm-lock.yaml`](https://github.com/quirq-ai/website/blob/main/pnpm-lock.yaml) · lockfile · 631113 bytes
 
 ### pnpm-workspace.yaml
 
@@ -212,7 +179,7 @@ YAML file `pnpm-workspace.yaml`. Top-level keys: `packages`, `minimumReleaseAge`
 `minimumReleaseAgeExclude`, `blockExoticSubdeps`, `trustPolicy`, `publicHoistPattern`. Hoist
 Gatsby's internal dependencies for webpack compatibility.
 
-[`pnpm-workspace.yaml`](https://github.com/quirq-ai/website/blob/main/pnpm-workspace.yaml) · code · 546 bytes
+[`pnpm-workspace.yaml`](https://github.com/quirq-ai/website/blob/main/pnpm-workspace.yaml) · code · 348 bytes
 
 ### postcss.config.js
 
@@ -235,32 +202,31 @@ JSON document `quirq.projects.json` whose top-level keys are `organization`, `so
 `projectRule`, `automation`, `groups`, `repositories`. Structured data consumed by the
 surrounding app or tooling.
 
-[`quirq.projects.json`](https://github.com/quirq-ai/website/blob/main/quirq.projects.json) · code · 5264 bytes
+[`quirq.projects.json`](https://github.com/quirq-ai/website/blob/main/quirq.projects.json) · code · 5378 bytes
 
 ### safelist.txt
 
-Txt file `safelist.txt`. from-[color-mix(in_srgb,rgb(var(--bg))_0%,transparent)] via-[color-
-mix(in_srgb,rgb(var(--bg))_75%,transparent)] to-[rgb(var(--bg))] [&_ul]:mb-0 [&_a]:text-
-white [&_img]:w-[724px] [&_img]:max-w-[724px] @xl:max-w-2xs @2xl:basis-3/12 @2xl:basis-4/12
-@2xl:basis-5/12 @2xl:basis-6/12 @2xl:basis-7/12 @2xl:basis-8/12 @2xl:basis-9/12 @2xl:ml-8
-@2xl:mr-8 @2xl:pl-0 @2xl:w-1/2 @2xl:w-2/5 @2xl:w-3/5 [&_.bg-front]:fill-yellow [&_.
+Txt file `safelist.txt`. text-blue text-purple text-lilac text-orange text-yellow text-red
+text-salmon text-teal text-seagreen text-green text-pink bg-blue bg-purple bg-lilac bg-
+orange bg-yellow bg-red bg-salmon bg-teal bg-seagreen bg-green bg-pink border-blue border-
+purple border-lilac border-orange border-yellow border-red border-salmon border-teal border-
+seagreen border-green border-pink h-8 pb-8.
 
-[`safelist.txt`](https://github.com/quirq-ai/website/blob/main/safelist.txt) · code · 10503 bytes
+[`safelist.txt`](https://github.com/quirq-ai/website/blob/main/safelist.txt) · code · 378 bytes
 
 ### tailwind.config.js
 
-module.exports = { content: ['./src/**/*.{js,jsx,ts,tsx}', './safelist.txt'], options: {
-safelist: [ use safelist.txt ], }, darkMode: 'class', // or 'media' or 'class' theme: {
-screens: { '2xs': '425px', xs: '482px', sm: '640px', => @media (min-width: 640px) { ... }.
+module.exports = { content: ['./src//*.{js,jsx,ts,tsx}', '!./src/vendor/',
+'./safelist.txt'].
 
-[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 24139 bytes
+[`tailwind.config.js`](https://github.com/quirq-ai/website/blob/main/tailwind.config.js) · code · 10017 bytes
 
 ### tsconfig.json
 
 JSON file `tsconfig.json` that did not parse from the prefix that was read. Open the source
 file for the full document.
 
-[`tsconfig.json`](https://github.com/quirq-ai/website/blob/main/tsconfig.json) · code · 2001 bytes
+[`tsconfig.json`](https://github.com/quirq-ai/website/blob/main/tsconfig.json) · code · 1746 bytes
 
 ### vercel.json
 
@@ -270,4 +236,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 1002 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

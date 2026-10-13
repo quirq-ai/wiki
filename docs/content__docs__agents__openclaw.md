@@ -35,4 +35,4 @@ minutes. MDX page (Markdown with JSX components), typically rendered by the docs
 
 [`content/docs/agents/openclaw/setup.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/setup.mdx) · code · 4976 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

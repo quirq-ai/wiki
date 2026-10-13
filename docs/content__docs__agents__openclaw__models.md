@@ -36,4 +36,4 @@ typically rendered by the docs site.
 
 [`content/docs/agents/openclaw/models/switch-to-venice.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/agents/openclaw/models/switch-to-venice.mdx) · code · 3468 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:01 UTC from `main`._

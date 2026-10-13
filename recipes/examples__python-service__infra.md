@@ -13,4 +13,4 @@ the adapters in CI. Sections: `qq`, `toolchains.python`, `[targets`.
 
 [`examples/python-service/infra/repo.toml`](https://github.com/quirq-ai/recipes/blob/main/examples/python-service/infra/repo.toml) · code · 742 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

@@ -34,4 +34,4 @@ Reading a state file whole without trusting what sits at its path. Classes:
 
 [`utils/safe_read.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/safe_read.py) · code · 2895 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

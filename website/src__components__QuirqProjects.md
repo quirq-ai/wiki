@@ -8,11 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“QuirqProjects”). The Projects page at /projects
+The project README (“quirq projects”). The Projects page at /projects
 (src/pages/projects.tsx): every repository the swarm is building, grouped and placed on a
 phase ladder, so a visitor can see how far each one has come.
 
-[`src/components/QuirqProjects/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProjects/README.md) · code · 1944 bytes
+[`src/components/QuirqProjects/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProjects/README.md) · code · 1945 bytes
 
 ### index.tsx
 
@@ -22,6 +22,6 @@ import QuirqAppIcon from 'components/QuirqAppIcon' import { Badge, type BadgeVar
 'components/ui/badge' import { Card, CardContent, CardDescription, CardHeader, CardTi
 Notable exports: `QuirqProjects`.
 
-[`src/components/QuirqProjects/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProjects/index.tsx) · code · 16341 bytes
+[`src/components/QuirqProjects/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProjects/index.tsx) · code · 16247 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

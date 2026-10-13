@@ -81,4 +81,4 @@ What this workspace may reach: the per-workspace half of connector isolation. Fu
 
 [`services/cowork_agent/connectors/composio/space_scope.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/composio/space_scope.py) · code · 9794 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

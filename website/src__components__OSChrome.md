@@ -6,24 +6,14 @@ Source: [src/components/OSChrome](https://github.com/quirq-ai/website/tree/main/
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### AddressBar.tsx
-
-import React, { useMemo, useState, useEffect } from 'react' import { useWindow } from
-'../../context/Window' import SearchBar from 'components/Editor/SearchBar' import Tooltip
-from 'components/RadixUI/Tooltip' import Toast from 'components/RadixUI/Toast' import {
-useUser } from 'hooks/useUser' import { useApp } from '../../context/App' import { useToast
-} fr Notable exports: `AddressBar`.
-
-[`src/components/OSChrome/AddressBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSChrome/AddressBar.tsx) · code · 1233 bytes
-
 ### HeaderBar.tsx
 
-import React, { useMemo, useState, useEffect } from 'react' import { motion, Variants } from
-'framer-motion' import OSButton from 'components/OSButton' import { IconHome,
-IconSidebarOpen, IconSidebarClose, IconChevronLeft, IconChevronRight, IconSearch, IconBook,
-IconTableOfContents, IconPlay, IconBookmark, IconBookmarkSolid, IconBottomPanel,
-IconChevronDown Notable exports: `HeaderBar`.
+import React, { useEffect, useState } from 'react' import { IconChevronLeft,
+IconChevronRight, IconSearch, IconChevronDown } from '@posthog/icons' import OSButton from
+'components/OSButton' import { useWindow } from '../../context/Window' import { useApp }
+from '../../context/App' import SearchBar from 'components/Editor/SearchBar' import Tooltip
+from 'compo Notable exports: `HeaderBar`.
 
-[`src/components/OSChrome/HeaderBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSChrome/HeaderBar.tsx) · code · 18469 bytes
+[`src/components/OSChrome/HeaderBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSChrome/HeaderBar.tsx) · code · 5931 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

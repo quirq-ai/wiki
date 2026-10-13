@@ -14,4 +14,4 @@ blobs.
 
 [`docs/today-phone.png`](https://github.com/quirq-ai/monitoring/blob/main/docs/today-phone.png) · binary · 77241 bytes
 
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._

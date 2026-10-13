@@ -9,15 +9,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### global.css
 
 Stylesheet `global.css` for layout and visual treatment in this folder. Leading class
-selectors include `code-block`, `app-scrollbar`, `app-scrollbar-thumb`, `app-scrollbar-
-corner`, `article-content`, `bio-preview`, `bio-sidebar`, `question-content`, and 112 more.
+selectors include `app-scrollbar`, `app-scrollbar-thumb`, `app-scrollbar-corner`,
+`footnotes`, `appearance-none`, `animate-overlay-fade-in`, `animate-overlay-fade-out`,
+`animate-window-pop-in`, and 4 more.
 
-[`src/styles/global.css`](https://github.com/quirq-ai/website/blob/main/src/styles/global.css) · code · 79400 bytes
+[`src/styles/global.css`](https://github.com/quirq-ai/website/blob/main/src/styles/global.css) · code · 23632 bytes
 
-### workable-overrides.css
-
-whr_embed_hook { Leading class selectors include `whr-group`, `whr-date`, `whr-location`.
-
-[`src/styles/workable-overrides.css`](https://github.com/quirq-ai/website/blob/main/src/styles/workable-overrides.css) · code · 1450 bytes
-
-_Generated 2026-10-12 13:39 UTC from `main`._
+_Generated 2026-10-13 13:02 UTC from `main`._
