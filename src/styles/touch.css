@@ -1,0 +1,92 @@
+/*
+ * Phone touch targets: every control and standalone link is at least 44px tall
+ * at narrow widths. Links inside running text are exempt (WCAG 2.5.8 inline).
+ * Unlayered and :root-prefixed so it wins over the layered wiki.css and the
+ * unlayered article.css without editing each component rule.
+ */
+@media (max-width: 800px) {
+  :root .icon-button,
+  :root .section-permalink {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  :root .article-tabs {
+    height: 44px;
+  }
+  :root .tab,
+  :root .tools-menu > summary {
+    min-height: 44px;
+  }
+  :root .header-search,
+  :root .header-search button {
+    height: 44px;
+  }
+  :root .header-search input {
+    height: 100%;
+    font-size: 16px;
+  }
+  :root .tools-popover a,
+  :root .tools-popover button,
+  :root .wiki-button,
+  :root .directory-load-more,
+  :root .directory-entry,
+  :root .facts-source,
+  :root .read-more,
+  :root .repo-table-name,
+  :root .search-result-title a,
+  :root .discovery-title a,
+  :root .panel-body h3 a,
+  :root .panel-bottom a,
+  :root .article-paths a,
+  :root .category-box a,
+  :root .article-breadcrumb a,
+  :root .site-footer nav a,
+  :root .footer-bottom nav a,
+  :root .article-facts dd a,
+  :root .left-sidebar a,
+  :root .directory-browser td a,
+  :root td > a,
+  :root dd > a,
+  :root .panel-body div > a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  :root .directory-entry,
+  :root .tools-popover a,
+  :root .tools-popover button,
+  :root .left-sidebar a {
+    display: flex;
+  }
+  :root .directory-filters input,
+  :root .directory-filters select,
+  :root .folder-searchbar input,
+  :root .search-page-form input,
+  :root .search-page-form button {
+    min-height: 44px;
+    font-size: 16px;
+  }
+  :root .appearance-sidebar label {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Navigation opens in the page flow, never as a scrolling overlay. */
+  :root .left-sidebar.is-open {
+    position: static;
+    width: auto;
+    max-height: none;
+    overflow: visible;
+    box-shadow: none;
+    margin-bottom: 16px;
+  }
+  /* The appearance panel is short; it must fit without its own scroll. */
+  :root .appearance-sidebar.is-open {
+    max-height: none;
+    overflow: visible;
+  }
+}

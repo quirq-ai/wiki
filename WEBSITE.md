@@ -48,6 +48,7 @@ Code fences receive syntax highlighting at build time through Shiki. Code blocks
 | `src/components/` | Structured articles, file summaries, directory browsers, facts panels, icons, and Quirq branding. |
 | `src/pages/` | Static routes for articles, the home page, repository directory, recent changes, search, and not-found page. |
 | `src/styles/wiki.css` | Encyclopedia typography, responsive layout, tables, reading themes, and print presentation. |
+| `src/styles/touch.css` | Phone touch targets (44px) and the in-page mobile menu; unlayered so it wins over both stylesheets. |
 | `src/styles/article.css` | Structured article layout, file overviews, metadata, source excerpts, directory navigation, and responsive reading styles. |
 | `src/styles/article.css` | Article typography, metadata, file sections, syntax highlighting, diagrams, and mobile reading layouts. |
 | `src/scripts/wiki.ts` | Reading preferences, mobile navigation, keyboard shortcut, contents tracking, printing, link copying, and random articles. |
@@ -84,7 +85,7 @@ The existing `quirq_wiki/` package remains the documentation generator. The webs
 
 The article's View source tab shows its original committed Markdown within the site and supports browser back navigation. Without JavaScript, its link opens the source file on GitHub. Individual file source links open the original upstream files, and View history opens the article's GitHub commit history. Article edits belong in the upstream source repository or the generator; generated Markdown is overwritten by a later sync. The root `README.md` can be edited, but its generated repository-map markers must be preserved.
 
-Text size, content width, and light/dark/automatic color preferences persist in local storage. Automatic color follows the reader's system setting. The site applies saved preferences before the document is displayed, where browser storage is available. The `/` keyboard shortcut focuses search when the reader is outside a text field. Standard links and article content remain usable with JavaScript disabled; search and preference controls need JavaScript.
+Text size, content width, and light/dark/automatic color preferences persist in local storage. Automatic color, the default, follows the reader's system setting. The site applies saved preferences before the document is displayed, where browser storage is available. The `/` keyboard shortcut focuses search when the reader is outside a text field. Standard links and article content remain usable with JavaScript disabled; search and preference controls need JavaScript.
 
 Pagefind indexes the generated HTML and produces static search assets as described in its [official getting-started guide](https://pagefind.app/docs/). This site loads the search library only on the search page when a query is entered, and paginates results in the browser. Queries do not go to a hosted search service. In the development server, where the production index does not exist, search falls back to article titles and summaries and labels that reduced scope. Use a production preview to verify full-text search.
 
@@ -150,6 +151,8 @@ Import this Git repository into Vercel and configure the project as follows:
 | Install command | `npm ci` |
 | Build command | `npm run build` |
 | Output directory | `dist` |
+
+`vercel.json` sends a Content-Security-Policy. Inline scripts are allowed only by their SHA-256 hash, so after changing an inline script, run `npm run build && npm run test:site`: the test prints any hash missing from `script-src`, and the new hash goes into `vercel.json`. Pagefind needs `'wasm-unsafe-eval'`; Mermaid needs inline styles.
 
 This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Avoid using a temporary preview URL as the permanent canonical origin.
 

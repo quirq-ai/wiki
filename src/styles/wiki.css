@@ -43,7 +43,7 @@
     --text: #202122;
     --muted: #54595d;
     --subtle: #72777d;
-    --border: #a2a9b1;
+    --border: #7f868e;
     --line: #eaecf0;
     --link: #36c;
     --surface: #f8f9fa;
@@ -54,6 +54,7 @@
     --blue-bg: #f5f8fc;
     --blue-head: #e4ecf6;
     --blue-border: #ccd9e9;
+    --xo-ink: #42694e;
     --serif: 'Linux Libertine', Georgia, 'Times New Roman', serif;
     --article-size: 15px;
     color-scheme: light;
@@ -69,7 +70,7 @@
     --text: #eaecf0;
     --muted: #b1b7bd;
     --subtle: #969da6;
-    --border: #72777d;
+    --border: #7d848b;
     --line: #343c44;
     --link: #8aafff;
     --surface: #1a2027;
@@ -80,6 +81,7 @@
     --blue-bg: #16202d;
     --blue-head: #23364d;
     --blue-border: #3b506c;
+    --xo-ink: #8fc49f;
     color-scheme: dark;
   }
   @media (prefers-color-scheme: dark) {
@@ -88,7 +90,7 @@
       --text: #eaecf0;
       --muted: #b1b7bd;
       --subtle: #969da6;
-      --border: #72777d;
+      --border: #7d848b;
       --line: #343c44;
       --link: #8aafff;
       --surface: #1a2027;
@@ -99,6 +101,7 @@
       --blue-bg: #16202d;
       --blue-head: #23364d;
       --blue-border: #3b506c;
+      --xo-ink: #8fc49f;
       color-scheme: dark;
     }
   }
@@ -231,8 +234,8 @@
     text-decoration: none;
   }
   .wiki-globe {
-    width: 54px;
-    height: 54px;
+    width: 40px;
+    height: 40px;
     flex: none;
   }
   .wordmark-text {
@@ -752,7 +755,7 @@
     font-weight: 300;
     margin-left: -5px;
     line-height: 1;
-    color: #42694e;
+    color: var(--xo-ink);
   }
   .orbit-dot {
     position: absolute;
@@ -966,7 +969,7 @@
     color: var(--muted);
   }
   .category-divider {
-    color: var(--border);
+    color: var(--subtle);
   }
   .page-introduction {
     line-height: 1.8;
@@ -1545,8 +1548,8 @@
       display: none;
     }
     .wiki-globe {
-      width: 48px;
-      height: 48px;
+      width: 38px;
+      height: 38px;
     }
     .brand-title {
       font-size: 24px;
@@ -1594,8 +1597,8 @@
       flex: 1;
     }
     .wiki-globe {
-      width: 43px;
-      height: 43px;
+      width: 36px;
+      height: 36px;
     }
     .brand-title {
       font-size: 23px;

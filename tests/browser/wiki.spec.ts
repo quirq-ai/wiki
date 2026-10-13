@@ -208,3 +208,51 @@ test('article tools copy the URL, print, and hide the table of contents', async 
     'true',
   );
 });
+
+test('phone controls are at least 44px tall and the open menu stays in the page', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const url of ['/', '/wiki/monitoring/_index/', '/repositories/']) {
+    await page.goto(url);
+    const small = await page.evaluate(() =>
+      [
+        ...document.querySelectorAll(
+          'header button, header form, .article-tabs a, .tools-menu > summary, td > a, dd > a, .directory-entry, footer nav a',
+        ),
+      ]
+        .filter((element) => {
+          const box = element.getBoundingClientRect();
+          return box.width > 0 && box.height > 0 && box.height < 44;
+        })
+        .map((element) => element.outerHTML.slice(0, 80)),
+    );
+    expect(small, url).toEqual([]);
+  }
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Toggle navigation' }).click();
+  const menu = page.locator('#site-navigation');
+  await expect(menu).toBeVisible();
+  expect(
+    await menu.evaluate((element) => {
+      const style = getComputedStyle(element);
+      return [style.position, style.overflowY];
+    }),
+  ).toEqual(['static', 'visible']);
+});
+
+test('the system dark setting applies when no theme is stored', async ({
+  browser,
+}) => {
+  const context = await browser.newContext({ colorScheme: 'dark' });
+  const page = await context.newPage();
+  await page.goto('http://127.0.0.1:4321/');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'auto');
+  expect(
+    await page.evaluate(() => getComputedStyle(document.body).backgroundColor),
+  ).toBe('rgb(16, 20, 24)');
+  await expect(
+    page.getByRole('radio', { name: 'Automatic', exact: true }),
+  ).toBeChecked();
+  await context.close();
+});

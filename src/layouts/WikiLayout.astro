@@ -3,6 +3,7 @@ import Icon from '../components/Icon.astro';
 import Wordmark from '../components/Wordmark.astro';
 import { getWiki } from '../lib/wiki';
 import '../styles/wiki.css';
+import '../styles/touch.css';
 interface Props {
   title: string;
   documentTitle?: string;
@@ -52,7 +53,7 @@ const formatDate = (value: string) =>
 ---
 
 <!doctype html>
-<html lang="en" data-theme="light" data-font="standard" data-width="standard">
+<html lang="en" data-theme="auto" data-font="standard" data-width="standard">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -364,7 +365,7 @@ const formatDate = (value: string) =>
                 type="radio"
                 name="theme"
                 value={value}
-                checked={value === 'light'}
+                checked={value === 'auto'}
               />
               <span>{label}</span>
             </label>

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -194,4 +195,35 @@ test('ships rendered pages without exposing source files or development tooling'
         ),
     );
   assert.deepEqual(unexpected, []);
+});
+
+test('every inline script is allowed by the Content-Security-Policy hash list', () => {
+  const vercel = JSON.parse(
+    readFileSync(path.join(root, 'vercel.json'), 'utf8'),
+  );
+  const csp = vercel.headers
+    .flatMap((rule) => rule.headers)
+    .find((header) => header.key === 'Content-Security-Policy')?.value;
+  assert.ok(csp, 'vercel.json must set a Content-Security-Policy');
+  const scriptSrc = csp
+    .split(';')
+    .map((directive) => directive.trim())
+    .find((directive) => directive.startsWith('script-src '));
+  assert.ok(scriptSrc, 'the policy must name script-src');
+  assert.ok(!scriptSrc.includes("'unsafe-inline'"));
+  const missing = new Set();
+  for (const filename of htmlFiles) {
+    const html = readFileSync(filename, 'utf8');
+    for (const match of html.matchAll(
+      /<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi,
+    )) {
+      const hash = `'sha256-${createHash('sha256').update(match[1]).digest('base64')}'`;
+      if (!scriptSrc.includes(hash)) missing.add(hash);
+    }
+  }
+  assert.deepEqual(
+    [...missing],
+    [],
+    'Add these inline script hashes to script-src in vercel.json',
+  );
 });

@@ -44,7 +44,7 @@
   color: var(--text);
 }
 .breadcrumb-separator {
-  color: var(--border);
+  color: var(--subtle);
 }
 .article-introduction {
   display: grid;
