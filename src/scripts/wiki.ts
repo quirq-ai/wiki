@@ -20,12 +20,29 @@ function readPreference(name: Preference): string {
   return preferences[name].fallback;
 }
 
+// The browser bar colour follows a stored Light or Dark choice; Automatic keeps
+// each meta's own media query (light and dark page backgrounds).
+const themeColors: Record<string, string> = {
+  light: '#ffffff',
+  dark: '#101418',
+};
+
+function syncThemeColor(theme: string) {
+  document
+    .querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')
+    .forEach((meta) => {
+      const scheme = meta.media.includes('dark') ? 'dark' : 'light';
+      meta.content = themeColors[theme] ?? themeColors[scheme];
+    });
+}
+
 for (const name of Object.keys(preferences) as Preference[]) {
   const inputs = document.querySelectorAll<HTMLInputElement>(
     `input[name="${name}"]`,
   );
   const apply = (value: string) => {
     document.documentElement.dataset[name] = value;
+    if (name === 'theme') syncThemeColor(value);
     inputs.forEach((input) => {
       input.checked = input.value === value;
     });

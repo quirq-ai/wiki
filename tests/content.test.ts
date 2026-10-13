@@ -410,4 +410,6 @@ test('article headings never take the page layout ids', async () => {
   assert.match(rendered.html, /<h2 id="appearance-1">Appearance<\/h2>/);
   assert.match(rendered.html, /<h2 id="main-content-1">Main content<\/h2>/);
   assert.doesNotMatch(rendered.html, /id="appearance"/);
+  // A link written for GitHub's id follows the heading to its new id.
+  assert.match(rendered.html, /<a href="#appearance-1">Jump<\/a>/);
 });

@@ -10,6 +10,7 @@ import rehypeStringify from 'rehype-stringify';
 import type { Root as MarkdownRoot, RootContent as MarkdownNode } from 'mdast';
 import type { Element, Root as HtmlRoot } from 'hast';
 import { richMarkdown } from './rich-markdown';
+import GithubSlugger from 'github-slugger';
 import { headingSlugger } from './presentation';
 
 export interface WikiHeading {
@@ -184,6 +185,9 @@ export async function renderMarkdown(
   let removedTitleOffset: number | undefined;
   let titleSlugReserved = false;
   const slugger = headingSlugger();
+  // GitHub's own ids, without the layout reservations, so links written for
+  // GitHub still reach a heading whose id had to move (#appearance -> #appearance-1).
+  const githubSlugger = new GithubSlugger();
   const processor = unified()
     .use(remarkParse)
     .use(remarkGfm)
@@ -227,10 +231,13 @@ export async function renderMarkdown(
             (element.position?.start.offset ?? Infinity) > removedTitleOffset
           ) {
             titleId = slugger.slug(title || 'section');
+            githubSlugger.slug(title || 'section');
             titleSlugReserved = true;
           }
           const text = normalizeText(plainText(element));
           const id = slugger.slug(text || 'section');
+          const githubId = githubSlugger.slug(text || 'section');
+          if (githubId !== id) anchorTargets.set(githubId, id);
           element.properties.id = id;
           headings.push({ id, text, depth: Number(element.tagName.slice(1)) });
         }
@@ -254,6 +261,7 @@ export async function renderMarkdown(
       });
       if (!titleSlugReserved && removedTitleOffset !== undefined) {
         titleId = slugger.slug(title || 'section');
+        githubSlugger.slug(title || 'section');
         titleSlugReserved = true;
       }
       walkElements(tree, (element) => {
