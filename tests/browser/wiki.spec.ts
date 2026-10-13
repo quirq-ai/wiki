@@ -231,6 +231,7 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
     '/',
     '/wiki/readme/',
     '/wiki/monitoring/_index/',
+    '/wiki/galileo/src/',
     '/repositories/',
     '/recent-changes/',
     '/search/?q=release',
