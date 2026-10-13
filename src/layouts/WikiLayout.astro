@@ -14,6 +14,8 @@ interface Props {
   tab?: string;
   headings?: { id: string; text: string; depth?: number }[];
   sourcePath?: string;
+  /** The article's Markdown twin, for agents. */
+  markdownPath?: string;
   repo?: string | null;
   pagefind?: boolean;
 }
@@ -27,6 +29,7 @@ const {
   tab = 'Article',
   headings = [],
   sourcePath,
+  markdownPath,
   repo,
   pagefind = false,
 } = Astro.props;
@@ -41,6 +44,7 @@ const nav = [
   { label: 'Main page', href: '/', key: 'home' },
   { label: 'All repositories', href: '/repositories/', key: 'repositories' },
   { label: 'Recent changes', href: '/recent-changes/', key: 'changes' },
+  { label: 'Activity', href: '/activity/', key: 'activity' },
 ];
 const popular = ['xo-space', 'quirq_ai', 'galileo', 'agent-skills', 'setup'];
 const formatDate = (value: string) =>
@@ -53,23 +57,19 @@ const formatDate = (value: string) =>
 ---
 
 <!doctype html>
-<html lang="en" data-theme="auto" data-font="standard" data-width="standard">
+<html lang="en" data-font="standard" data-width="standard">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#ffffff"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#101418"
-    />
+    <meta name="theme-color" content="#ffffff" />
     <title>{documentTitle || title} – Quirq Wiki</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {markdownPath && (
+      <link rel="alternate" type="text/markdown" href={markdownPath} />
+    )}
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     {Astro.site && (
       <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     )}
@@ -82,7 +82,6 @@ const formatDate = (value: string) =>
     <script is:inline>
       try {
         for (const [key, values] of Object.entries({
-          theme: ['light', 'dark', 'auto'],
           font: ['small', 'standard', 'large'],
           width: ['standard', 'wide'],
         })) {
@@ -282,6 +281,23 @@ const formatDate = (value: string) =>
               <div class="tools-popover">
                 <button data-print>Print this page</button>
                 <button data-copy-link>Copy page link</button>
+                <button data-agent-copy data-agent-path={markdownPath} hidden>
+                  Copy link for agents
+                </button>
+                <a
+                  href="https://claude.ai/new"
+                  data-agent-open="https://claude.ai/new?q="
+                  data-agent-path={markdownPath}
+                >
+                  Open in Claude <Icon name="external" size={12} />
+                </a>
+                <a
+                  href="https://chatgpt.com/"
+                  data-agent-open="https://chatgpt.com/?q="
+                  data-agent-path={markdownPath}
+                >
+                  Open in ChatGPT <Icon name="external" size={12} />
+                </a>
                 <a href={sourceUrl}>
                   View on GitHub <Icon name="external" size={12} />
                 </a>
@@ -291,7 +307,7 @@ const formatDate = (value: string) =>
           </div>
         </div>
         <div class="site-subtitle" data-pagefind-ignore>
-          From Quirq Wiki, the open knowledge base
+          From Quirq Wiki, the self evolving knowledge base
         </div>
         <slot />
         <footer class="site-footer" data-pagefind-ignore>
@@ -357,26 +373,6 @@ const formatDate = (value: string) =>
                 name="width"
                 value={value}
                 checked={value === 'standard'}
-              />
-              <span>{label}</span>
-            </label>
-          ))}
-        </fieldset>
-        <fieldset>
-          <legend>
-            Color <span class="beta-badge">beta</span>
-          </legend>
-          {[
-            ['auto', 'Automatic'],
-            ['light', 'Light'],
-            ['dark', 'Dark'],
-          ].map(([value, label]) => (
-            <label>
-              <input
-                type="radio"
-                name="theme"
-                value={value}
-                checked={value === 'auto'}
               />
               <span>{label}</span>
             </label>

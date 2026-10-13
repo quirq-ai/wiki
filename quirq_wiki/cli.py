@@ -43,12 +43,40 @@ def build_parser() -> argparse.ArgumentParser:
         help="Use an existing checkout instead of cloning (repeatable).",
     )
     gen.add_argument("--repos-json", type=Path, default=None)
+
+    activity = sub.add_parser("activity", help="Batch public repository activity into daily JSONL and Markdown.")
+    activity.add_argument("--org", default="quirq-ai")
+    activity.add_argument("--out", type=Path, default=Path("."))
+    activity.add_argument("--repo", default=None, help="Collect a single public repository.")
+    activity.add_argument("--since", default=None, help="Backfill from a UTC date or ISO timestamp; first run defaults to seven days.")
+    activity.add_argument("--git-credential", action="store_true", help="Use the existing local GitHub Git credential when no token environment variable is set.")
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
+
+    if args.cmd == "activity":
+        from quirq_wiki.activity import generate_activity, git_credential_token, parse_timestamp
+        from quirq_wiki.github_api import _token_from_env
+
+        try:
+            token = _token_from_env()
+            if not token and args.git_credential:
+                token = git_credential_token()
+            result = generate_activity(
+                wiki_root=args.out, org=args.org, repo_name=args.repo,
+                since=parse_timestamp(args.since) if args.since else None,
+                token=token, progress=lambda message: print(message, file=sys.stderr, flush=True),
+            )
+        except (RuntimeError, ValueError, OSError) as exc:
+            print(f"Activity collection failed: {exc}", file=sys.stderr)
+            return 1
+        print(f"Activity: {len(result.succeeded)} repositories collected, {len(result.failed)} failed; "
+              f"{result.records_seen} records observed. Index: {args.out / '_activity' / 'INDEX.md'}",
+              file=sys.stderr)
+        return 1 if result.failed else 0
 
     if args.cmd == "list-repos":
         repos = load_repos(

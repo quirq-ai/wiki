@@ -1,0 +1,44 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import ActivityList from '../../components/ActivityList.astro';
+import ActivityNote from '../../components/ActivityNote.astro';
+import { getActivity } from '../../lib/activity';
+import { getWiki } from '../../lib/wiki';
+
+export async function getStaticPaths() {
+  const [activity, wiki] = await Promise.all([getActivity(), getWiki()]);
+  // Every documented repository gets a page, even before its first record.
+  const repos = new Set([
+    ...activity.repos,
+    ...wiki.repos.map((repo) => repo.name),
+  ]);
+  return [...repos].map((repo) => ({ params: { repo } }));
+}
+const { repo } = Astro.params;
+const [activity, wiki] = await Promise.all([getActivity(), getWiki()]);
+const documented = wiki.repos.find((entry) => entry.name === repo);
+// A month of history per repository keeps the page readable.
+const days = new Set(activity.days.slice(0, 30));
+const items = activity.items.filter(
+  (item) => item.repo === repo && days.has(item.occurredAt.slice(0, 10)),
+);
+---
+
+<WikiLayout
+  title={`${repo} activity`}
+  active="activity"
+  description={`Commits, pull requests, issues, releases and failed workflow runs in quirq-ai/${repo}.`}
+  headings={[]}
+>
+  <p class="page-introduction">
+    Recent activity in{' '}
+    {documented ? <a href={documented.href}>{repo}</a> : repo}. Everything else
+    is on the <a href="/activity/">activity page</a>.
+  </p>
+  <ActivityNote lastCollection={activity.lastCollection} />
+  {items.length ? (
+    <ActivityList items={items} showRepo={false} />
+  ) : (
+    <p>No activity has been recorded for {repo} yet.</p>
+  )}
+</WikiLayout>

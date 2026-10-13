@@ -5,6 +5,7 @@
 Skills that let an agent do a whole job from one prompt. Each skill is a folder under skills/ with a SKILL.md (what it does, when to use it, the steps) and whatever it needs beside it: templates, scripts, references.
 
 - GitHub: [https://github.com/quirq-ai/agent-skills](https://github.com/quirq-ai/agent-skills)
+- [Activity history](../_activity/repos/agent-skills.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
 - Last push: `2026-10-07T18:20:26Z`

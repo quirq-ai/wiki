@@ -2,6 +2,8 @@
 
 # Index
 
+[Daily activity index](_activity/INDEX.md)
+
 Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself is excluded.
 
 | Repository | Kind | Wiki | GitHub |

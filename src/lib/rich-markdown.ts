@@ -75,7 +75,9 @@ async function codeBlock(pre: Element, code: Element): Promise<Element> {
     : 'text';
   const highlighted = await codeToHast(source, {
     lang: grammar,
-    themes: { light: 'github-light', dark: 'github-dark-default' },
+    theme: 'github-light',
+    // github-light's parameter orange is 3.49:1 on white; this is 5.09:1 (AA).
+    colorReplacements: { '#e36209': '#b35200' },
   });
   const highlightedPre = highlighted.children.find(
     (child): child is Element =>

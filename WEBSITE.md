@@ -34,57 +34,65 @@ Repository overview pages provide a directory browser with readable source paths
 
 The source corpus is a snapshot of generated file summaries, not a checkout of every original source file. The website preserves what those summaries actually say. It does not invent missing explanations, recover complete upstream README chapters, or claim that a summarized code fragment is the entire file. Original files are available through their source links. To improve the underlying explanations, update the upstream documentation or the Python generator and refresh the snapshot.
 
-Code fences receive syntax highlighting at build time through Shiki. Code blocks include language labels and a copy control, with colors for both reading themes. Mermaid fences become diagram figures that load their renderer only when near the viewport; the original definition remains available under **Diagram source**, including when JavaScript is disabled or rendering fails. Wide tables have their own keyboard-accessible scrolling region instead of widening the entire page.
+Code fences receive syntax highlighting at build time through Shiki. Code blocks include language labels and a copy control, in a light color theme. Mermaid fences become diagram figures that load their renderer only when near the viewport; the original definition remains available under **Diagram source**, including when JavaScript is disabled or rendering fails. Wide tables have their own keyboard-accessible scrolling region instead of widening the entire page.
 
 ## Website files
 
-| Location | Responsibility |
-| --- | --- |
-| `src/lib/wiki.ts` | Load and validate the manifest, discover articles, render Markdown, resolve links, and derive repository statistics. |
-| `src/lib/article.ts` | Parse generated pages into structured directory, file, repository, and source metadata for article presentation. |
-| `src/lib/presentation.ts` | Format dates, file sizes, and source-excerpt code fences for the reading view. |
-| `src/lib/rich-markdown.ts` | Enhance sanitized Markdown with build-time code highlighting, accessible table containers, and diagram figures. |
-| `src/layouts/WikiLayout.astro` | Shared page frame, navigation, article tools, metadata, contents, and appearance controls. |
-| `src/components/` | Structured articles, file summaries, directory browsers, facts panels, icons, and Quirq branding. |
-| `src/pages/` | Static routes for articles, the home page, repository directory, recent changes, search, and not-found page. |
-| `src/styles/wiki.css` | Encyclopedia typography, responsive layout, tables, reading themes, and print presentation. |
-| `src/styles/touch.css` | Phone touch targets (44px) and the in-page mobile menu; unlayered so it wins over both stylesheets. |
-| `src/styles/article.css` | Structured article layout and typography, file overviews, metadata, source excerpts, syntax highlighting, diagrams, directory navigation, and responsive reading styles. |
-| `src/scripts/wiki.ts` | Reading preferences, mobile navigation, keyboard shortcut, contents tracking, printing, link copying, and random articles. |
-| `src/scripts/article.ts` | Switch reading/source views, filter directory tables, and copy code with progressive enhancement. |
-| `src/scripts/search.ts` | On-demand search loading, results, pagination, URL state, and development fallback. |
-| `src/scripts/diagrams.ts` | Load Mermaid on demand and render visible diagrams with source fallback. |
-| `public/` | Static site assets copied into the build. |
-| `astro.config.mjs` | Static output and consistent trailing-slash URLs. |
-| `vercel.json` | Vercel build and static deployment configuration. |
-| `tests/content.test.ts` | Content rendering and source-to-route behavior. |
-| `tests/article.test.ts` | Semantic parsing, preserved summaries and anchors, generated metadata, and source hierarchy. |
-| `tests/rich-markdown.test.ts` | Highlighting, code preservation, diagram fallback, table semantics, and safe rendering. |
-| `tests/site.test.mjs` | Integrity checks against the actual production build. |
-| `tests/browser/wiki.spec.ts` | Browser checks for navigation, search, preferences, mobile layout, and reading without JavaScript. |
-| `tests/browser/reading.spec.ts` | Reading checks for deep paths, file summaries, directory hierarchy, empty directories, diagrams, code, and narrow screens. |
-| `playwright.config.ts` | Chromium configuration and the production-preview server used by browser tests. |
-| `.github/workflows/website-check.yml` | Automated website validation on pull requests and pushes to `main`. |
+| Location                              | Responsibility                                                                                                                                                           |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `src/lib/wiki.ts`                     | Load and validate the manifest, discover articles, render Markdown, resolve links, and derive repository statistics.                                                     |
+| `src/lib/article.ts`                  | Parse generated pages into structured directory, file, repository, and source metadata for article presentation.                                                         |
+| `src/lib/presentation.ts`             | Format dates, file sizes, and source-excerpt code fences for the reading view.                                                                                           |
+| `src/lib/rich-markdown.ts`            | Enhance sanitized Markdown with build-time code highlighting, accessible table containers, and diagram figures.                                                          |
+| `src/layouts/WikiLayout.astro`        | Shared page frame, navigation, article tools, metadata, contents, and appearance controls.                                                                               |
+| `src/components/`                     | Structured articles, file summaries, directory browsers, facts panels, icons, and Quirq branding.                                                                        |
+| `src/pages/`                          | Static routes for articles, the home page, repository directory, recent changes, search, and not-found page.                                                             |
+| `src/styles/wiki.css`                 | Encyclopedia typography, responsive layout, tables, the light color theme, and print presentation.                                                                       |
+| `src/styles/touch.css`                | Phone touch targets (44px) and the in-page mobile menu; unlayered so it wins over both stylesheets.                                                                      |
+| `src/styles/article.css`              | Structured article layout and typography, file overviews, metadata, source excerpts, syntax highlighting, diagrams, directory navigation, and responsive reading styles. |
+| `src/scripts/wiki.ts`                 | Reading preferences, mobile navigation, keyboard shortcut, contents tracking, printing, link copying, and random articles.                                               |
+| `src/scripts/article.ts`              | Switch reading/source views, filter directory tables, and copy code with progressive enhancement.                                                                        |
+| `src/scripts/search.ts`               | On-demand search loading, results, pagination, URL state, and development fallback.                                                                                      |
+| `src/scripts/diagrams.ts`             | Load Mermaid on demand and render visible diagrams with source fallback.                                                                                                 |
+| `public/`                             | Static site assets copied into the build.                                                                                                                                |
+| `astro.config.mjs`                    | Static output and consistent trailing-slash URLs.                                                                                                                        |
+| `vercel.json`                         | Vercel build and static deployment configuration.                                                                                                                        |
+| `tests/content.test.ts`               | Content rendering and source-to-route behavior.                                                                                                                          |
+| `tests/article.test.ts`               | Semantic parsing, preserved summaries and anchors, generated metadata, and source hierarchy.                                                                             |
+| `tests/rich-markdown.test.ts`         | Highlighting, code preservation, diagram fallback, table semantics, and safe rendering.                                                                                  |
+| `tests/site.test.mjs`                 | Integrity checks against the actual production build.                                                                                                                    |
+| `tests/browser/wiki.spec.ts`          | Browser checks for navigation, search, preferences, mobile layout, and reading without JavaScript.                                                                       |
+| `tests/browser/reading.spec.ts`       | Reading checks for deep paths, file summaries, directory hierarchy, empty directories, diagrams, code, and narrow screens.                                               |
+| `playwright.config.ts`                | Chromium configuration and the production-preview server used by browser tests.                                                                                          |
+| `.github/workflows/website-check.yml` | Automated website validation on pull requests and pushes to `main`.                                                                                                      |
 
 The existing `quirq_wiki/` package remains the documentation generator. The website is a presentation layer over its output. Website tooling directories are reserved in the generator's stale-repository cleanup rules; build outputs and installed dependencies are ignored by Git.
 
 ## Routes and interactions
 
-| URL | Content |
-| --- | --- |
-| `/` | Main page with an introduction, repository entry points, and snapshot information. |
-| `/repositories/` | Directory of repositories from the manifest. |
-| `/recent-changes/` | Repository push dates recorded in the current snapshot. This is not a live GitHub activity feed. |
-| `/search/?q=router` | Search results for a shareable query. |
-| `/wiki/readme/` | This repository's original README content. |
-| `/wiki/index/` | The generated organization-wide index. |
-| `/wiki/galileo/_index/` | An example repository overview. |
-| `/wiki/galileo/src/` | An example directory article. |
-| `/articles.json` | A compact article directory used by random navigation and fallback search. |
+| URL                     | Content                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------- |
+| `/`                     | Main page with an introduction, repository entry points, and snapshot information.                |
+| `/repositories/`        | Directory of repositories from the manifest.                                                      |
+| `/recent-changes/`      | Repository push dates recorded in the current snapshot. This is not a live GitHub activity feed.  |
+| `/search/?q=router`     | Search results for a shareable query.                                                             |
+| `/wiki/readme/`         | This repository's original README content.                                                        |
+| `/wiki/index/`          | The generated organization-wide index.                                                            |
+| `/wiki/galileo/_index/` | An example repository overview.                                                                   |
+| `/wiki/galileo/src/`    | An example directory article.                                                                     |
+| `/articles.json`        | A compact article directory used by random navigation and fallback search.                        |
+| `/activity/`            | Commits, pull requests, issues, releases and failed runs from the last 7 days, from `_activity/`. |
+| `/activity/qq/`         | One repository's activity for the last 30 days, linked from its repository page.                  |
+| `/wiki/galileo/src.md`  | An article's committed Markdown, for agents (every article has one).                              |
+| `/llms.txt`             | A Markdown map of every article's Markdown twin, for agents.                                      |
+| `/robots.txt`           | Allows all crawlers and names the sitemap.                                                        |
+| `/sitemap.xml`          | Every page, activity page and article.                                                            |
+
+The Tools menu on each page copies a link for agents (the article's `.md` twin) and opens Claude or ChatGPT with a prompt that names that link; opening one also copies the link.
 
 The article's View source tab shows its original committed Markdown within the site and supports browser back navigation. Without JavaScript, its link opens the source file on GitHub. Individual file source links open the original upstream files, and View history opens the article's GitHub commit history. Article edits belong in the upstream source repository or the generator; generated Markdown is overwritten by a later sync. The root `README.md` can be edited, but its generated repository-map markers must be preserved.
 
-Text size, content width, and light/dark/automatic color preferences persist in local storage. Automatic color, the default, follows the reader's system setting. The site applies saved preferences before the document is displayed, where browser storage is available. The `/` keyboard shortcut focuses search when the reader is outside a text field. Standard links and article content remain usable with JavaScript disabled; search and preference controls need JavaScript.
+Text size and content width preferences persist in local storage. The wiki has one light color theme and does not follow the system's dark setting. The site applies saved preferences before the document is displayed, where browser storage is available. The `/` keyboard shortcut focuses search when the reader is outside a text field. Standard links and article content remain usable with JavaScript disabled; search and preference controls need JavaScript.
 
 Pagefind indexes the generated HTML and produces static search assets as described in its [official getting-started guide](https://pagefind.app/docs/). This site loads the search library only on the search page when a query is entered, and paginates results in the browser. Queries do not go to a hosted search service. In the development server, where the production index does not exist, search falls back to article titles and summaries and labels that reduced scope. Use a production preview to verify full-text search.
 
@@ -142,18 +150,18 @@ To refresh a single repository safely, use `python -m quirq_wiki generate --out 
 
 Import this Git repository into Vercel and configure the project as follows:
 
-| Setting | Value |
-| --- | --- |
-| Root directory | `.` — this wiki repository |
-| Framework preset | Astro |
-| Node.js version | 24.x |
-| Install command | `npm ci` |
-| Build command | `npm run build` |
-| Output directory | `dist` |
+| Setting          | Value                      |
+| ---------------- | -------------------------- |
+| Root directory   | `.` — this wiki repository |
+| Framework preset | Astro                      |
+| Node.js version  | 24.x                       |
+| Install command  | `npm ci`                   |
+| Build command    | `npm run build`            |
+| Output directory | `dist`                     |
 
 `vercel.json` sends a Content-Security-Policy. Inline scripts are allowed only by their SHA-256 hash, so after changing an inline script, run `npm run build && npm run test:site`: the test prints any hash missing from `script-src`, and the new hash goes into `vercel.json`. Pagefind needs `'wasm-unsafe-eval'`; Mermaid needs inline styles.
 
-This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Avoid using a temporary preview URL as the permanent canonical origin.
+This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Without it, the build uses Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, which Vercel sets on every build, so `llms.txt`, `robots.txt` and the sitemap carry absolute links. Avoid using a temporary preview URL as the permanent canonical origin.
 
 Commit `package-lock.json` so local development, continuous integration, and Vercel use the same dependency versions. Deploy the generated `dist/` output; the source snapshots and the Python package are inputs to the build, not files served to readers. The site includes a static 404 page for unknown URLs.
 
@@ -165,6 +173,6 @@ Article HTML and highlighted code are generated ahead of time and can be deliver
 
 Snapshot totals, repository descriptions, file counts, source commits, and dates come from the actual content rather than parallel hand-maintained copies. A rebuild picks up new manifest-listed repositories and new generated Markdown pages automatically. If a snapshot is incomplete or malformed, treat the build or integrity-test failure as a content issue and refresh the affected repository.
 
-Keep explanatory generator prose in the generator, source-specific facts upstream, and interface text in Astro components. When changing URL conventions or heading generation, run both the content tests and built-site integrity tests: the README, repository indexes, sidebar anchors, and search results all depend on those mappings. When changing the appearance or controls, inspect a production preview at desktop and mobile widths, with dark mode, keyboard navigation, and long article tables.
+Keep explanatory generator prose in the generator, source-specific facts upstream, and interface text in Astro components. When changing URL conventions or heading generation, run both the content tests and built-site integrity tests: the README, repository indexes, sidebar anchors, and search results all depend on those mappings. When changing the appearance or controls, inspect a production preview at desktop and mobile widths, with keyboard navigation, and long article tables.
 
 Search indexes the rendered article descriptions and file details. Repeated source metadata and interface controls are excluded where marked with `data-pagefind-ignore`, keeping results focused on the actual content. Article descriptions come from meaningful summary text rather than the generated `Source:` preamble.

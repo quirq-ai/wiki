@@ -189,12 +189,47 @@ test('ships rendered pages without exposing source files or development tooling'
         /^(?:node_modules|quirq_wiki|tests|\.git|\.cache|\.env)(?:\/|$)/.test(
           filename,
         ) ||
-        /\.(?:md|py|toml)$/.test(filename) ||
+        /\.(?:py|toml)$/.test(filename) ||
+        // Markdown ships only as the agent twin of a published article.
+        (filename.endsWith('.md') &&
+          !(
+            filename.startsWith('wiki/') &&
+            existsSync(path.join(dist, filename.slice(0, -3), 'index.html'))
+          )) ||
         /^(?:package(?:-lock)?\.json|project\.json|WEBSITE\.md)$/.test(
           filename,
         ),
     );
   assert.deepEqual(unexpected, []);
+});
+
+test('agents get llms.txt, robots.txt, a sitemap and a Markdown twin of every article', () => {
+  const llms = readFileSync(path.join(dist, 'llms.txt'), 'utf8');
+  assert.match(llms, /^# Quirq Wiki\n\n> Self evolving knowledge base/);
+  assert.match(
+    readFileSync(path.join(dist, 'robots.txt'), 'utf8'),
+    /^User-agent: \*\nAllow: \/\n/,
+  );
+  const sitemap = readFileSync(path.join(dist, 'sitemap.xml'), 'utf8');
+  for (const article of articlePaths) {
+    const slug = article.slice(0, -'/index.html'.length);
+    const twin = path.join(dist, `${slug}.md`);
+    assert.ok(existsSync(twin), `${slug}.md is missing`);
+    assert.ok(
+      llms.includes(`${encodeURI(slug)}.md)`) || llms.includes(`${slug}.md)`),
+      `llms.txt misses ${slug}`,
+    );
+    assert.ok(
+      sitemap.includes(`/${slug}/</loc>`) ||
+        sitemap.includes(`/${encodeURI(slug)}/</loc>`),
+      `sitemap misses ${slug}`,
+    );
+  }
+  // The twin is the committed Markdown, byte for byte.
+  assert.equal(
+    readFileSync(path.join(dist, 'wiki/monitoring/_index.md'), 'utf8'),
+    readFileSync(path.join(root, 'monitoring/_index.md'), 'utf8'),
+  );
 });
 
 test('every inline script is allowed by the Content-Security-Policy hash list', () => {

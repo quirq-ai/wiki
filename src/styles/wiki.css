@@ -65,46 +65,6 @@
   :root[data-font='large'] {
     --article-size: 18px;
   }
-  :root[data-theme='dark'] {
-    --background: #101418;
-    --text: #eaecf0;
-    --muted: #b1b7bd;
-    --subtle: #969da6;
-    --border: #7d848b;
-    --line: #343c44;
-    --link: #8aafff;
-    --surface: #1a2027;
-    --hover: #272e37;
-    --green-bg: #16221c;
-    --green-head: #22392a;
-    --green-border: #385541;
-    --blue-bg: #16202d;
-    --blue-head: #23364d;
-    --blue-border: #3b506c;
-    --xo-ink: #8fc49f;
-    color-scheme: dark;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root[data-theme='auto'] {
-      --background: #101418;
-      --text: #eaecf0;
-      --muted: #b1b7bd;
-      --subtle: #969da6;
-      --border: #7d848b;
-      --line: #343c44;
-      --link: #8aafff;
-      --surface: #1a2027;
-      --hover: #272e37;
-      --green-bg: #16221c;
-      --green-head: #22392a;
-      --green-border: #385541;
-      --blue-bg: #16202d;
-      --blue-head: #23364d;
-      --blue-border: #3b506c;
-      --xo-ink: #8fc49f;
-      color-scheme: dark;
-    }
-  }
   html {
     scroll-padding-top: 24px;
   }
@@ -233,9 +193,9 @@
   .wordmark:hover {
     text-decoration: none;
   }
-  .wiki-mark {
-    width: 40px;
-    height: 40px;
+  .wiki-globe {
+    width: 54px;
+    height: 54px;
     flex: none;
   }
   .wordmark-text {
@@ -553,12 +513,6 @@
     gap: 9px;
     padding: 5px 0;
     cursor: pointer;
-  }
-  .beta-badge {
-    font-size: 9px;
-    padding: 1px 4px;
-    border: 1px solid var(--line);
-    margin-left: 3px;
   }
   .source-note {
     font-size: 11px;
@@ -1182,6 +1136,37 @@
     font-size: 13px;
     color: var(--muted);
   }
+  .activity-kind {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .activity-failed {
+    color: #b32424;
+    font-weight: 600;
+  }
+  .activity-more {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .activity-list h3 {
+    font-size: 16px;
+    margin: 18px 0 12px;
+  }
+  .activity-repos h2 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+  }
+  .activity-repos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
   .change-meta {
     display: flex;
     gap: 10px;
@@ -1559,9 +1544,9 @@
     .header-search button {
       display: none;
     }
-    .wiki-mark {
-      width: 38px;
-      height: 38px;
+    .wiki-globe {
+      width: 48px;
+      height: 48px;
     }
     .brand-title {
       font-size: 24px;
@@ -1608,9 +1593,9 @@
     .header-brand {
       flex: 1;
     }
-    .wiki-mark {
-      width: 36px;
-      height: 36px;
+    .wiki-globe {
+      width: 43px;
+      height: 43px;
     }
     .brand-title {
       font-size: 23px;

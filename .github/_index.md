@@ -5,6 +5,7 @@
 Quirq's GitHub organization profile and shared community guidelines.
 
 - GitHub: [https://github.com/quirq-ai/.github](https://github.com/quirq-ai/.github)
+- [Activity history](../_activity/repos/.github.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T18:18:08Z`

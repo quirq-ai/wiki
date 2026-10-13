@@ -5,6 +5,7 @@
 Your agent activity, in one place.
 
 - GitHub: [https://github.com/quirq-ai/instants](https://github.com/quirq-ai/instants)
+- [Activity history](../_activity/repos/instants.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-06T21:10:20Z`

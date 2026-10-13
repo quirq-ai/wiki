@@ -716,18 +716,6 @@
 .source-view-intro > a {
   font-size: 12px;
 }
-:root[data-theme='dark'] .shiki,
-:root[data-theme='dark'] .shiki span {
-  color: var(--shiki-dark) !important;
-  background-color: var(--shiki-dark-bg) !important;
-}
-@media (prefers-color-scheme: dark) {
-  :root[data-theme='auto'] .shiki,
-  :root[data-theme='auto'] .shiki span {
-    color: var(--shiki-dark) !important;
-    background-color: var(--shiki-dark-bg) !important;
-  }
-}
 @media (max-width: 1200px) {
   .article-introduction {
     grid-template-columns: minmax(0, 1fr) 225px;

@@ -20,3 +20,7 @@ dist/
 test-results/
 playwright-report/
 .env.*
+
+# Activity collector temporaries
+_activity/.state-*.tmp
+_activity/**/.activity-*.tmp

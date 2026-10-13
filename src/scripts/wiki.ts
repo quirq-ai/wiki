@@ -1,11 +1,10 @@
 /** Small, dependency-free enhancements shared by every wiki page. */
-type Preference = 'theme' | 'font' | 'width';
+type Preference = 'font' | 'width';
 
 const preferences: Record<
   Preference,
   { values: readonly string[]; fallback: string }
 > = {
-  theme: { values: ['light', 'dark', 'auto'], fallback: 'auto' },
   font: { values: ['small', 'standard', 'large'], fallback: 'standard' },
   width: { values: ['standard', 'wide'], fallback: 'standard' },
 };
@@ -20,20 +19,11 @@ function readPreference(name: Preference): string {
   return preferences[name].fallback;
 }
 
-// The browser bar colour follows a stored Light or Dark choice; Automatic keeps
-// each meta's own media query (light and dark page backgrounds).
-const themeColors: Record<string, string> = {
-  light: '#ffffff',
-  dark: '#101418',
-};
-
-function syncThemeColor(theme: string) {
-  document
-    .querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')
-    .forEach((meta) => {
-      const scheme = meta.media.includes('dark') ? 'dark' : 'light';
-      meta.content = themeColors[theme] ?? themeColors[scheme];
-    });
+// The wiki is light only; forget a colour choice saved by an older version.
+try {
+  localStorage.removeItem('wiki-theme');
+} catch {
+  /* Storage may be unavailable. */
 }
 
 for (const name of Object.keys(preferences) as Preference[]) {
@@ -42,7 +32,6 @@ for (const name of Object.keys(preferences) as Preference[]) {
   );
   const apply = (value: string) => {
     document.documentElement.dataset[name] = value;
-    if (name === 'theme') syncThemeColor(value);
     inputs.forEach((input) => {
       input.checked = input.value === value;
     });
@@ -280,6 +269,51 @@ function announce(message: string) {
     toolStatus.textContent = '';
   }, 6000);
 }
+
+// Agents read the article's Markdown twin; pages without one share their URL.
+function agentLink(element: HTMLElement): string {
+  const path = element.dataset.agentPath;
+  return path ? new URL(path, window.location.href).href : window.location.href;
+}
+function agentPrompt(link: string): string {
+  return `Read ${link} from Quirq Wiki, the self evolving knowledge base for the quirq-ai code, and help me with questions about it.`;
+}
+async function copyForAgents(element: HTMLElement): Promise<boolean> {
+  try {
+    await navigator.clipboard.writeText(agentLink(element));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+document
+  .querySelectorAll<HTMLAnchorElement>('[data-agent-open]')
+  .forEach((link) => {
+    link.href = `${link.dataset.agentOpen}${encodeURIComponent(agentPrompt(agentLink(link)))}`;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    // Also copy the link, so it can be pasted if the agent drops the prompt.
+    link.addEventListener('click', async () => {
+      if (await copyForAgents(link))
+        announce('Link for agents copied too, in case the prompt is dropped.');
+    });
+  });
+
+document
+  .querySelectorAll<HTMLElement>('[data-agent-copy]')
+  .forEach((button) => {
+    // Copying needs this script, so the button only shows once it runs.
+    button.hidden = false;
+    button.addEventListener('click', async (event) => {
+      event.preventDefault();
+      announce(
+        (await copyForAgents(button))
+          ? 'Link for agents copied to clipboard.'
+          : `Could not copy the link. Agents can read ${agentLink(button)}`,
+      );
+    });
+  });
 
 document.querySelectorAll<HTMLElement>('[data-copy-link]').forEach((button) => {
   button.addEventListener('click', async (event) => {

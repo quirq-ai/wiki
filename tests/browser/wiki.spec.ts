@@ -111,22 +111,12 @@ test('directory filters combine language and text and can reset', async ({
 
 test('reading preferences persist across reloads', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('radio', { name: 'Dark', exact: true }).check();
   await page.getByRole('radio', { name: 'Large', exact: true }).check();
   await page.getByRole('radio', { name: 'Wide', exact: true }).check();
   await page.reload();
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
   await expect(page.locator('html')).toHaveAttribute('data-font', 'large');
   await expect(page.locator('html')).toHaveAttribute('data-width', 'wide');
-  // The browser bar follows the stored choice, not the system setting.
-  expect(
-    await page
-      .locator('meta[name="theme-color"]')
-      .evaluateAll((metas) =>
-        metas.map((meta) => meta.getAttribute('content')),
-      ),
-  ).toEqual(['#101418', '#101418']);
-  await page.screenshot({ path: 'test-results/home-dark.png', fullPage: true });
+  await page.screenshot({ path: 'test-results/home-wide.png', fullPage: true });
 });
 
 test('the search icon focuses the search field', async ({ page }) => {
@@ -159,7 +149,7 @@ test('mobile has no overflow and navigation and appearance drawers work', async 
   await expect(page.locator('h1')).toHaveText('All repositories');
   await page.getByRole('button', { name: 'Reading appearance' }).click();
   await expect(page.locator('#appearance')).toBeVisible();
-  await page.getByRole('radio', { name: 'Dark', exact: true }).check();
+  await page.getByRole('radio', { name: 'Large', exact: true }).check();
   await page.keyboard.press('Escape');
   await expect(page.locator('#appearance')).not.toBeVisible();
   expect(
@@ -181,6 +171,8 @@ test('hidden source directories serve correctly and articles work without JavaSc
   await expect(page.locator('.structured-article')).toContainText(
     'createGalileo',
   );
+  // Copying needs JavaScript, so the button stays hidden without it.
+  await expect(page.locator('[data-agent-copy]')).toHaveAttribute('hidden', '');
   await context.close();
 });
 
@@ -211,6 +203,21 @@ test('article tools copy the URL, print, and hide the table of contents', async 
   expect(await page.evaluate(() => navigator.clipboard.readText())).toContain(
     '/wiki/galileo/src/',
   );
+  // Agents get the article's Markdown twin, copied and in the prompt.
+  await page.locator('[data-agent-copy]').click();
+  await expect(page.locator('#tool-status')).toContainText(/agents copied/i);
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(
+    'http://127.0.0.1:4321/wiki/galileo/src.md',
+  );
+  const claude = page.getByRole('link', { name: 'Open in Claude' });
+  await expect(claude).toHaveAttribute('target', '_blank');
+  expect(
+    decodeURIComponent((await claude.getAttribute('href')) ?? ''),
+  ).toContain(
+    'https://claude.ai/new?q=Read http://127.0.0.1:4321/wiki/galileo/src.md',
+  );
+  const markdown = await page.request.get('/wiki/galileo/src.md');
+  expect(await markdown.text()).toContain('# ');
   await page.evaluate(() => {
     window.print = () => {
       document.documentElement.dataset.printRequested = 'true';
@@ -234,6 +241,7 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
     '/wiki/galileo/src/',
     '/repositories/',
     '/recent-changes/',
+    '/activity/',
     '/search/?q=release',
   ]) {
     await page.goto(url);
@@ -296,10 +304,11 @@ test('every appearance option is reachable on a short landscape phone', async ({
   await page.setViewportSize({ width: 740, height: 360 });
   await page.goto('/');
   await page.getByRole('button', { name: 'Reading appearance' }).click();
-  const dark = page.getByRole('radio', { name: 'Dark', exact: true });
-  await dark.scrollIntoViewIfNeeded();
-  await dark.check();
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  // Wide is the last option in the panel.
+  const wide = page.getByRole('radio', { name: 'Wide', exact: true });
+  await wide.scrollIntoViewIfNeeded();
+  await wide.check();
+  await expect(page.locator('html')).toHaveAttribute('data-width', 'wide');
   expect(
     await page
       .locator('#appearance')
@@ -312,12 +321,17 @@ test('long unbroken repository text never pushes a phone page sideways', async (
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const token = 'x'.repeat(260);
-  for (const url of ['/', '/wiki/monitoring/_index/', '/recent-changes/']) {
+  for (const url of [
+    '/',
+    '/wiki/monitoring/_index/',
+    '/recent-changes/',
+    '/activity/',
+  ]) {
     await page.goto(url);
     const width = await page.evaluate((longToken) => {
       for (const element of document.querySelectorAll(
         // Text that comes from source repositories, not the site's own labels.
-        '.directory-entry, .main-content td:not(.file-count):not(.numeric), .article-lead, .main-content dt, .change-name, .change-description, .main-content h3, .feature-lead, .article-paths a',
+        '.directory-entry, .main-content td:not(.file-count):not(.numeric), .article-lead, .activity-list .change-name, .main-content dt, .change-name, .change-description, .main-content h3, .feature-lead, .article-paths a',
       ))
         element.append(longToken);
       return [
@@ -329,18 +343,37 @@ test('long unbroken repository text never pushes a phone page sideways', async (
   }
 });
 
-test('the system dark setting applies when no theme is stored', async ({
+test('the wiki stays light when the system asks for dark', async ({
   browser,
 }) => {
   const context = await browser.newContext({ colorScheme: 'dark' });
   const page = await context.newPage();
+  // A visitor who chose Dark on an older version of the wiki.
+  await page.addInitScript(() => {
+    if (!sessionStorage.getItem('seeded')) {
+      localStorage.setItem('wiki-theme', 'dark');
+      sessionStorage.setItem('seeded', '1');
+    }
+  });
   await page.goto('http://127.0.0.1:4321/');
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'auto');
+  expect(
+    await page.evaluate(
+      () => getComputedStyle(document.documentElement).colorScheme,
+    ),
+  ).toBe('light');
+  expect(
+    await page
+      .locator('meta[name="theme-color"]')
+      .evaluateAll((metas) =>
+        metas.map((meta) => meta.getAttribute('content')),
+      ),
+  ).toEqual(['#ffffff']);
+  expect(
+    await page.evaluate(() => localStorage.getItem('wiki-theme')),
+  ).toBeNull();
   expect(
     await page.evaluate(() => getComputedStyle(document.body).backgroundColor),
-  ).toBe('rgb(16, 20, 24)');
-  await expect(
-    page.getByRole('radio', { name: 'Automatic', exact: true }),
-  ).toBeChecked();
+  ).toBe('rgb(255, 255, 255)');
+  await expect(page.getByRole('radio', { name: 'Dark' })).toHaveCount(0);
   await context.close();
 });
