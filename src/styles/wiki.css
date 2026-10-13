@@ -1136,6 +1136,37 @@
     font-size: 13px;
     color: var(--muted);
   }
+  .activity-kind {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .activity-failed {
+    color: #b32424;
+    font-weight: 600;
+  }
+  .activity-more {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .activity-list h3 {
+    font-size: 16px;
+    margin: 18px 0 12px;
+  }
+  .activity-repos h2 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+  }
+  .activity-repos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
   .change-meta {
     display: flex;
     gap: 10px;

@@ -1,0 +1,36 @@
+---
+import Icon from './Icon.astro';
+interface Props {
+  lastCollection: string | null;
+}
+const { lastCollection } = Astro.props;
+const when = lastCollection
+  ? new Date(lastCollection).toLocaleString('en-GB', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'UTC',
+    })
+  : null;
+---
+
+<div class="information-note">
+  <Icon name="clock" size={20} />
+  <p>
+    {when ? (
+      <>
+        Collected daily from public GitHub metadata, last on{' '}
+        <strong>{when} UTC</strong>.
+      </>
+    ) : (
+      'No activity has been collected yet.'
+    )}{' '}
+    These are observed revisions, not an exhaustive audit: commits use their
+    commit dates, and changes between collections may be missing.{' '}
+    <a href="https://github.com/quirq-ai/wiki/tree/main/_activity">
+      Raw daily batches (JSONL).
+    </a>
+  </p>
+</div>

@@ -1,16 +1,21 @@
 import type { APIRoute } from 'astro';
 import { getWiki } from '../lib/wiki';
 import { absolute } from '../lib/agents';
+import { activityHref, getActivity } from '../lib/activity';
 
 const escape = (value: string) =>
   value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 export const GET: APIRoute = async ({ site }) => {
-  const wiki = await getWiki();
+  const [wiki, activity] = await Promise.all([getWiki(), getActivity()]);
   const paths = [
     '/',
     '/repositories/',
     '/recent-changes/',
+    activityHref(),
+    ...[
+      ...new Set([...activity.repos, ...wiki.repos.map((repo) => repo.name)]),
+    ].map((repo) => activityHref(repo)),
     ...wiki.pages.map((page) => page.href),
   ];
   const lastmod = wiki.generatedAt.slice(0, 10);

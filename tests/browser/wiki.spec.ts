@@ -239,6 +239,7 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
     '/wiki/galileo/src/',
     '/repositories/',
     '/recent-changes/',
+    '/activity/',
     '/search/?q=release',
   ]) {
     await page.goto(url);
@@ -318,12 +319,17 @@ test('long unbroken repository text never pushes a phone page sideways', async (
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const token = 'x'.repeat(260);
-  for (const url of ['/', '/wiki/monitoring/_index/', '/recent-changes/']) {
+  for (const url of [
+    '/',
+    '/wiki/monitoring/_index/',
+    '/recent-changes/',
+    '/activity/',
+  ]) {
     await page.goto(url);
     const width = await page.evaluate((longToken) => {
       for (const element of document.querySelectorAll(
         // Text that comes from source repositories, not the site's own labels.
-        '.directory-entry, .main-content td:not(.file-count):not(.numeric), .article-lead, .main-content dt, .change-name, .change-description, .main-content h3, .feature-lead, .article-paths a',
+        '.directory-entry, .main-content td:not(.file-count):not(.numeric), .article-lead, .activity-list .change-name, .main-content dt, .change-name, .change-description, .main-content h3, .feature-lead, .article-paths a',
       ))
         element.append(longToken);
       return [
@@ -340,7 +346,29 @@ test('the wiki stays light when the system asks for dark', async ({
 }) => {
   const context = await browser.newContext({ colorScheme: 'dark' });
   const page = await context.newPage();
+  // A visitor who chose Dark on an older version of the wiki.
+  await page.addInitScript(() => {
+    if (!sessionStorage.getItem('seeded')) {
+      localStorage.setItem('wiki-theme', 'dark');
+      sessionStorage.setItem('seeded', '1');
+    }
+  });
   await page.goto('http://127.0.0.1:4321/');
+  expect(
+    await page.evaluate(
+      () => getComputedStyle(document.documentElement).colorScheme,
+    ),
+  ).toBe('light');
+  expect(
+    await page
+      .locator('meta[name="theme-color"]')
+      .evaluateAll((metas) =>
+        metas.map((meta) => meta.getAttribute('content')),
+      ),
+  ).toEqual(['#ffffff']);
+  expect(
+    await page.evaluate(() => localStorage.getItem('wiki-theme')),
+  ).toBeNull();
   expect(
     await page.evaluate(() => getComputedStyle(document.body).backgroundColor),
   ).toBe('rgb(255, 255, 255)');

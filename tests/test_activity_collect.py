@@ -82,3 +82,15 @@ def test_empty_commit_message_does_not_block_repository():
     commit = {"sha": "abc", "commit": {"committer": {"date": STAMP}, "message": ""}, "html_url": "https://github.com/quirq-ai/demo/commit/abc"}
     result = collect({"branches": [{"name": "main"}], "commits": [commit]})
     assert result["records"][0]["title"] == "(empty commit message)"
+
+
+def test_workflow_runs_are_listed_only_from_the_window():
+    seen = []
+
+    def runs(page, query):
+        seen.append(query.get("created"))
+        return {"workflow_runs": []}
+
+    collect({"actions/runs": runs})
+    # A day of slack before `since`; older updating runs come from `pending`.
+    assert seen == [[">=2026-09-30"]]

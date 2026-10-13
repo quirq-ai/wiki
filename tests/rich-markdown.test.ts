@@ -139,3 +139,11 @@ test('rich markup does not restore scripts or unsafe attributes removed by sanit
   );
   assert.equal(findElements(tree, 'th')[0]?.properties.scope, 'col');
 });
+
+test('parameter names in code meet AA contrast on white', async () => {
+  const { html } = await render(
+    '```ts\nfunction show(label: string) {\n  return label;\n}\n```',
+  );
+  assert.doesNotMatch(html, /#e36209/i);
+  assert.match(html, /#b35200/i);
+});

@@ -12,6 +12,7 @@ import type { Element, Root as HtmlRoot } from 'hast';
 import { richMarkdown } from './rich-markdown';
 import GithubSlugger from 'github-slugger';
 import { headingSlugger } from './presentation';
+import { activityRoute } from './activity';
 
 export interface WikiHeading {
   id: string;
@@ -134,6 +135,9 @@ export function resolveWikiLink(
   const { pathname, suffix } = splitLocalLink(href, sourcePath);
   const pageRoute = pageRoutes.get(pathname);
   if (pageRoute) return `${pageRoute}${suffix}`;
+  const activity = activityRoute(pathname);
+  if (activity)
+    return activity.includes('#') ? activity : `${activity}${suffix}`;
   const kind = href.split(/[?#]/, 1)[0]?.endsWith('/') ? 'tree' : 'blob';
   const githubPath = pathname.split('/').map(encodeURIComponent).join('/');
   return `https://github.com/${encodeURIComponent(org)}/wiki/${kind}/main/${githubPath}${suffix}`;

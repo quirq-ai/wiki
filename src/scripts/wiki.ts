@@ -19,6 +19,13 @@ function readPreference(name: Preference): string {
   return preferences[name].fallback;
 }
 
+// The wiki is light only; forget a colour choice saved by an older version.
+try {
+  localStorage.removeItem('wiki-theme');
+} catch {
+  /* Storage may be unavailable. */
+}
+
 for (const name of Object.keys(preferences) as Preference[]) {
   const inputs = document.querySelectorAll<HTMLInputElement>(
     `input[name="${name}"]`,

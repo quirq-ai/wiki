@@ -2,6 +2,8 @@
 import Icon from './Icon.astro';
 import ArticleFacts from './ArticleFacts.astro';
 import DirectoryBrowser from './DirectoryBrowser.astro';
+import ActivityList from './ActivityList.astro';
+import { activityHref, getActivity } from '../lib/activity';
 import type { ArticleModel } from '../lib/article';
 import { renderMarkdown, type Wiki, type WikiPage } from '../lib/wiki';
 import { formatBytes, formatDate, codeFence } from '../lib/presentation';
@@ -41,6 +43,16 @@ const descriptionHtml =
     : '';
 const repo = article.repository;
 const isRepository = article.kind === 'repository';
+// A repository's page shows its latest activity: what was merged, opened or
+// released, and any failed runs.
+const activity = isRepository ? await getActivity() : undefined;
+const repoName = repo?.name || article.displayTitle;
+const recentActivity = (activity?.items ?? [])
+  .filter(
+    (item) =>
+      item.repo === repoName && (item.kind !== 'workflow' || item.failed),
+  )
+  .slice(0, 10);
 const directories = article.directories.filter(
   (dir): dir is typeof dir & { href: string } => Boolean(dir.href),
 );
@@ -153,10 +165,38 @@ const nearby = article.siblings
   </div>
 
   {isRepository ? (
-    <DirectoryBrowser
-      directories={directories}
-      repository={repo?.name || article.displayTitle}
-    />
+    <>
+      <section class="repo-activity" aria-labelledby="wiki:activity">
+        <div class="article-section-heading">
+          <h2 id="wiki:activity">Recent activity</h2>
+          <a
+            class="section-permalink"
+            href="#wiki:activity"
+            aria-label="Link to recent activity"
+          >
+            §
+          </a>
+        </div>
+        {recentActivity.length ? (
+          <ActivityList
+            items={recentActivity}
+            showRepo={false}
+            headingLevel={3}
+          />
+        ) : (
+          <p>No activity has been recorded for this repository yet.</p>
+        )}
+        <p class="read-more">
+          <a href={activityHref(repoName)}>
+            All activity for {repoName} <Icon name="arrow" size={14} />
+          </a>
+        </p>
+      </section>
+      <DirectoryBrowser
+        directories={directories}
+        repository={repo?.name || article.displayTitle}
+      />
+    </>
   ) : (
     <>
       {files.length > 0 ? (

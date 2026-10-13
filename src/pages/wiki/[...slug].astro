@@ -30,7 +30,10 @@ const headings = isStructured
   ? [
       { id: 'wiki:overview', text: 'Overview', depth: 2 },
       ...(article.kind === 'repository'
-        ? [{ id: 'wiki:directories', text: 'Repository contents', depth: 2 }]
+        ? [
+            { id: 'wiki:activity', text: 'Recent activity', depth: 2 },
+            { id: 'wiki:directories', text: 'Repository contents', depth: 2 },
+          ]
         : [
             ...(article.files.length
               ? [

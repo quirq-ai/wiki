@@ -14,9 +14,10 @@ on:
         required: false
         type: string
 
-# Share the content generator's lock so the two writers never push concurrently.
+# Its own group: sharing wiki-sync's would let one workflow cancel the other's
+# pending run. The two write different paths and rebase before pushing.
 concurrency:
-  group: wiki-sync
+  group: activity-sync
   cancel-in-progress: false
 
 permissions:

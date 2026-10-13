@@ -36,6 +36,7 @@
   :root .directory-entry,
   :root .facts-source,
   :root .read-more,
+  :root .read-more a,
   :root .repo-table-name,
   :root .search-result-title a,
   :root .discovery-title a,
@@ -46,6 +47,7 @@
   :root .article-breadcrumb a,
   :root .recent-list a,
   :root .change-meta a,
+  :root .activity-repos a,
   :root .file-metadata a,
   :root .site-footer nav a,
   :root .footer-bottom nav a,
@@ -87,6 +89,8 @@
   :root [data-contents-toggle],
   :root td > a[aria-label$=' on GitHub'],
   :root .repo-table-name,
+  :root .change-meta a,
+  :root .activity-repos a,
   :root .recent-list a,
   :root .article-breadcrumb a {
     min-width: 44px;

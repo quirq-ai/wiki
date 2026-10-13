@@ -1,0 +1,85 @@
+---
+import { activityHref, KIND_LABELS, type ActivityItem } from '../lib/activity';
+interface Props {
+  items: ActivityItem[];
+  /** Show which repository each entry belongs to (off on a repository's own page). */
+  showRepo?: boolean;
+  /** Entries listed per day before the rest are counted. */
+  perDay?: number;
+  /** Heading level for each day. */
+  headingLevel?: 2 | 3;
+}
+const {
+  items,
+  showRepo = true,
+  perDay = Infinity,
+  headingLevel = 2,
+} = Astro.props;
+const Heading = `h${headingLevel}` as 'h2' | 'h3';
+// Successful runs are counted, not listed: they are most of the volume and
+// say little. Failed runs are listed with everything else.
+const days = [...new Set(items.map((item) => item.occurredAt.slice(0, 10)))];
+const groups = days.map((day) => {
+  const all = items.filter((item) => item.occurredAt.startsWith(day));
+  const runs = all.filter((item) => item.kind === 'workflow');
+  const listed = all.filter((item) => item.kind !== 'workflow' || item.failed);
+  return {
+    day,
+    shown: listed.slice(0, perDay),
+    hidden: Math.max(0, listed.length - perDay),
+    runs: runs.length,
+    failedRuns: runs.filter((item) => item.failed).length,
+  };
+});
+const dayLabel = (day: string) =>
+  new Date(`${day}T00:00:00Z`).toLocaleDateString('en-GB', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+---
+
+<div class="changes-list activity-list">
+  {groups.map((group) => (
+    <section>
+      <Heading id={`day-${group.day}`}>{dayLabel(group.day)}</Heading>
+      <ul>
+        {group.shown.map((item) => (
+          <li>
+            <span class="change-time">
+              {item.occurredAt.slice(11, 16)} <span>UTC</span>
+            </span>
+            <div>
+              <span
+                class:list={[
+                  'activity-kind',
+                  { 'activity-failed': item.failed },
+                ]}
+              >
+                {`${KIND_LABELS[item.kind]} ${item.action}`.trim()}
+              </span>
+              <a class="change-name" href={item.url}>
+                {item.number !== null ? `#${item.number} ` : ''}
+                {item.title}
+              </a>
+              <div class="change-meta">
+                {showRepo && <a href={activityHref(item.repo)}>{item.repo}</a>}
+                {item.actor && <span>{item.actor}</span>}
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {(group.hidden > 0 || group.runs > 0) && (
+        <p class="activity-more">
+          {group.hidden > 0 &&
+            `${group.hidden.toLocaleString('en-GB')} more ${group.hidden === 1 ? 'entry' : 'entries'} on the repository pages. `}
+          {group.runs > 0 &&
+            `${group.runs.toLocaleString('en-GB')} workflow ${group.runs === 1 ? 'run' : 'runs'}${group.failedRuns ? `, ${group.failedRuns} failed` : ''}.`}
+        </p>
+      )}
+    </section>
+  ))}
+</div>

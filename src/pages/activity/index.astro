@@ -1,0 +1,36 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import ActivityList from '../../components/ActivityList.astro';
+import ActivityNote from '../../components/ActivityNote.astro';
+import { activityHref, getActivity } from '../../lib/activity';
+const activity = await getActivity();
+// The last week; older days stay on each repository's page.
+const days = new Set(activity.days.slice(0, 7));
+const items = activity.items.filter((item) =>
+  days.has(item.occurredAt.slice(0, 10)),
+);
+---
+
+<WikiLayout
+  title="Activity"
+  active="activity"
+  description="Commits, pull requests, issues, releases and failed workflow runs across the quirq-ai repositories, day by day."
+  headings={[]}
+>
+  <p class="page-introduction">
+    Commits, pull requests, issues, releases and failed workflow runs across
+    every public quirq-ai repository, newest first.
+  </p>
+  <ActivityNote lastCollection={activity.lastCollection} />
+  <nav class="activity-repos" aria-label="Activity by repository">
+    <h2>By repository</h2>
+    <ul>
+      {activity.repos.map((repo) => (
+        <li>
+          <a href={activityHref(repo)}>{repo}</a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+  <ActivityList items={items} perDay={60} />
+</WikiLayout>

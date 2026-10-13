@@ -14,7 +14,7 @@ import hashlib
 import json
 import urllib.error
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any, Callable, Iterator
 
 from quirq_wiki.github_api import github_request
@@ -241,7 +241,11 @@ def collect_activity(
             raise ValueError("Invalid activity field: workflow.title")
         records.append(_record(repository=repository, kind="workflow", resource=resource, occurred=occurred, actor=_actor(item.get("triggering_actor") or item.get("actor")), title=title, url=_text(item, "html_url"), details=details))
 
-    for item in _pages(fetch, base, "actions/runs", token=token, result_key="workflow_runs"):
+    # Only runs created in this window (plus a day of slack) are listed; older runs
+    # that were still updating at the last poll are re-read from `pending` below.
+    # Without the filter every collection pages through the repo's whole history.
+    created = f">={(since - timedelta(days=1)).date().isoformat()}"
+    for item in _pages(fetch, base, "actions/runs", token=token, params={"created": created}, result_key="workflow_runs"):
         add_workflow(item)
     for run_id in sorted(pending - workflow_ids):
         try:
