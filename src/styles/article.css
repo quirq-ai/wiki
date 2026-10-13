@@ -660,6 +660,8 @@
 .wiki-prose .table-scroll td {
   text-align: left;
   padding: 9px 13px;
+  /* The table scrolls in its own region, so cells keep whole words. */
+  overflow-wrap: normal;
 }
 .diagram-block {
   border: 1px solid var(--border);

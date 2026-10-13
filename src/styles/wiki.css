@@ -262,10 +262,14 @@
     border: 1px solid var(--border);
     border-radius: 2px;
   }
-  .header-search > svg {
-    margin: 0 10px;
+  .header-search-icon {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
     color: var(--subtle);
     flex: none;
+    cursor: text;
   }
   .header-search input {
     width: 100%;
@@ -329,6 +333,9 @@
     margin: 0 auto;
     padding: 8px 44px 34px;
     align-items: start;
+    /* Repo-sourced names and descriptions can hold long unbroken tokens,
+       in the article and in the side menus alike. */
+    overflow-wrap: anywhere;
   }
   :root[data-width='wide'] .wiki-layout {
     max-width: none;
@@ -413,8 +420,6 @@
     line-height: 1.7;
   }
   .main-content {
-    /* Repo-sourced names and descriptions can hold long unbroken tokens. */
-    overflow-wrap: anywhere;
     min-width: 0;
     font-size: var(--article-size);
   }
@@ -1047,6 +1052,10 @@
     max-width: 100%;
     overflow: auto;
   }
+  /* Tables scroll in their own region, so cells keep whole words. */
+  .table-scroll :is(th, td) {
+    overflow-wrap: normal;
+  }
   .repository-table {
     width: 100%;
     border-collapse: collapse;
@@ -1176,6 +1185,7 @@
   .change-meta {
     display: flex;
     gap: 10px;
+    align-items: center;
     font-size: 11px;
     color: var(--muted);
     margin-top: 6px;

@@ -118,7 +118,21 @@ test('reading preferences persist across reloads', async ({ page }) => {
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
   await expect(page.locator('html')).toHaveAttribute('data-font', 'large');
   await expect(page.locator('html')).toHaveAttribute('data-width', 'wide');
+  // The browser bar follows the stored choice, not the system setting.
+  expect(
+    await page
+      .locator('meta[name="theme-color"]')
+      .evaluateAll((metas) =>
+        metas.map((meta) => meta.getAttribute('content')),
+      ),
+  ).toEqual(['#101418', '#101418']);
   await page.screenshot({ path: 'test-results/home-dark.png', fullPage: true });
+});
+
+test('the search icon focuses the search field', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('.header-search-icon').click();
+  await expect(page.locator('#wiki-search')).toBeFocused();
 });
 
 test('mobile has no overflow and navigation and appearance drawers work', async ({
@@ -217,6 +231,7 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
     '/',
     '/wiki/readme/',
     '/wiki/monitoring/_index/',
+    '/wiki/galileo/src/',
     '/repositories/',
     '/recent-changes/',
     '/search/?q=release',
@@ -236,14 +251,22 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
           const box = element.getBoundingClientRect();
           if (box.width === 0 || box.height === 0) return false;
           if (getComputedStyle(element).visibility === 'hidden') return false;
-          // Links inside running text are exempt (WCAG 2.5.8, inline).
+          // Links inside running text are exempt (WCAG 2.5.8, inline): an
+          // inline link whose block holds other words. A link standing alone
+          // in its block, or laid out as a box, is a target of its own.
           if (
             element.tagName === 'A' &&
-            element.closest(
-              'p, li:not(.left-sidebar li), h1, h2, h3, h4, blockquote, figcaption, .wiki-prose td, .wiki-prose th',
+            getComputedStyle(element).display === 'inline'
+          ) {
+            let block = element.parentElement;
+            while (
+              block &&
+              getComputedStyle(block).display.startsWith('inline')
             )
-          )
-            return false;
+              block = block.parentElement;
+            const own = (element.textContent ?? '').trim();
+            if (block && (block.textContent ?? '').trim() !== own) return false;
+          }
           if (element.closest('.header-search') && element.tagName === 'INPUT')
             return false; // 42px field inside its 44px search box
           return box.height < 44 || box.width < 24;
