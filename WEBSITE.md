@@ -159,7 +159,7 @@ Import this Git repository into Vercel and configure the project as follows:
 | Build command    | `npm run build`            |
 | Output directory | `dist`                     |
 
-`vercel.json` sends a Content-Security-Policy. Inline scripts are allowed only by their SHA-256 hash, so after changing an inline script, run `npm run build && npm run test:site`: the test prints any hash missing from `script-src`, and the new hash goes into `vercel.json`. Pagefind needs `'wasm-unsafe-eval'`; Mermaid needs inline styles.
+`vercel.json` sends a Content-Security-Policy. Inline scripts are allowed only by their SHA-256 hash, so after changing an inline script, run `npm run build && npm run test:site`: the test prints any hash missing from `script-src`, and the new hash goes into `vercel.json`. Pagefind needs `'wasm-unsafe-eval'`; Mermaid needs inline styles. `frame-ancestors` lets only the wiki itself and `quirq.dev` (with and without `www.`) show it in a frame, so it opens in quirq.dev's app window; inside a frame, links to other sites open in a new tab.
 
 This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Without it, the build uses Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, which Vercel sets on every build, so `llms.txt`, `robots.txt` and the sitemap carry absolute links. Avoid using a temporary preview URL as the permanent canonical origin.
 
