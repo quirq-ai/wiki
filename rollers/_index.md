@@ -5,6 +5,7 @@
 rollers moves pinned dependencies and toolchains forward for quirq infra (qq), through the same gate as any other change, with no human in the loop. An agent may land a clean roll alone (plan D4).
 
 - GitHub: [https://github.com/quirq-ai/rollers](https://github.com/quirq-ai/rollers)
+- [Activity history](../_activity/repos/rollers.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-07T16:45:13Z`

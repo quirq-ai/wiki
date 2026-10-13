@@ -5,6 +5,7 @@
 A stripped-down Next.js starter for new quirq repos. The quirq design tokens, brand marks and UI primitives are already wired; the rest is yours.
 
 - GitHub: [https://github.com/quirq-ai/ui](https://github.com/quirq-ai/ui)
+- [Activity history](../_activity/repos/ui.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-10T09:04:24Z`

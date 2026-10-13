@@ -5,6 +5,7 @@
 The inspector of a space: the apps and files on this machine, one at a time, under one bar.
 
 - GitHub: [https://github.com/quirq-ai/galileo](https://github.com/quirq-ai/galileo)
+- [Activity history](../_activity/repos/galileo.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
 - Last push: `2026-10-01T10:28:00Z`

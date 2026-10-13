@@ -25,7 +25,7 @@ A map of **what lives where** across every public repository in [`quirq-ai`](htt
 
 Each public repo gets a folder here. Each source directory gets one markdown page. File-level pages are generated — edit the generator or this README, not those pages. This `wiki` repo is not documented as content (no `wiki/` folder).
 
-[Index](INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
+[Index](INDEX.md) · [Activity](_activity/INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
 
 ## Repos
 
@@ -102,6 +102,21 @@ python3 -m quirq_wiki generate --out . --repo galileo   # one folder
 ```
 
 `--changed-paths`, `--include-archived`, `--cache-dir`, `--dry-run`, `--source-map`, `--repos-json` exist for incremental, tests, and airgap clones.
+
+## Daily activity archive
+
+[Browse the activity index](_activity/INDEX.md). Run `python -m quirq_wiki activity --out .`
+to batch commits, PRs, issues, releases and workflow updates from every public repository,
+including this wiki. The first run starts seven days ago; `--since YYYY-MM-DD` backfills
+an earlier window, and `--repo NAME` restricts collection to one public repository.
+Use `GITHUB_TOKEN` / `GH_TOKEN`, or opt into an existing local Git credential with
+`--git-credential`. No credentials or issue/comment bodies are stored.
+
+Daily UTC JSONL batches and Markdown indexes live under `_activity/`. Repeat runs
+deduplicate records and retain failed cursors for retry. The activity-sync workflow
+runs daily at 06:15 UTC once published on the default branch. This archive records
+observed snapshots, not every intermediate event; deleted history and changes between
+polls cannot be reconstructed, and commit timestamps are not push timestamps.
 
 ### Near-commit updates (org-admin)
 
@@ -217,6 +232,8 @@ def write_index(wiki_root: Path, repos: list[RepoInfo]) -> None:
         "# Index",
         "",
         "Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself is excluded.",
+        "",
+        "[Daily activity index](_activity/INDEX.md) — commits, pull requests, issues, releases and workflow runs.",
         "",
         render_repo_list_markdown(repos).rstrip(),
         "",

@@ -5,6 +5,7 @@
 qq is the quirq infra command line (this repo was quirq-ai/depot until 2026-10-09; the old URL redirects here). Every repo that quirq infra builds pins the qq version it runs in its manifest, infra/repo.toml, and qq installs and runs exactly that version.
 
 - GitHub: [https://github.com/quirq-ai/qq](https://github.com/quirq-ai/qq)
+- [Activity history](../_activity/repos/qq.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
 - Last push: `2026-10-13T10:34:50Z`

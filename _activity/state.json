@@ -1,0 +1,215 @@
+{
+  "org": "quirq-ai",
+  "repos": {
+    "quirq-ai/.github": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/agent-skills": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/depot": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/docs": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/environment": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/euler": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/galileo": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/gardener": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [
+        37821432200
+      ],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/gate": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/infra-config": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/innernet": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/installer": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/instants": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/marketing": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/monitoring": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/perf": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/quirq_ai": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/quirqy": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/quitter": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/recipes": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/release": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [
+        37655527097
+      ],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/remote-build": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/research": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/rollers": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/setup": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/sync": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/test-pipelines": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/toolchains": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/ui": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/vangogh": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/website": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/wiki": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/xo-cowork-api": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    },
+    "quirq-ai/xo-space": {
+      "error": null,
+      "last_success": "2026-10-08T18:05:58Z",
+      "pending_runs": [],
+      "since": "2026-10-01T18:05:58Z"
+    }
+  },
+  "schema_version": 1,
+  "updated_at": "2026-10-08T18:05:58Z"
+}

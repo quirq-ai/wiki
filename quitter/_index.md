@@ -5,6 +5,7 @@
 All your agent and thread activity in one place. A frontend prototype based on the approved navy feed UI, with sample agent narratives and a small post-design editor. The UI and engine can be developed independently.
 
 - GitHub: [https://github.com/quirq-ai/quitter](https://github.com/quirq-ai/quitter)
+- [Activity history](../_activity/repos/quitter.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
 - Last push: `2026-10-03T01:55:33Z`

@@ -5,6 +5,7 @@
 The docs are live at [docs.quirq.dev](https://docs.quirq.dev/). New here? Start at [docs.quirq.dev/docs/start](https://docs.quirq.dev/docs/start), which links the main guides and sites on one page. The rest of this file is for people working on the docs site itself.
 
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
+- [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): MDX
 - Last push: `2026-10-10T10:14:08Z`
