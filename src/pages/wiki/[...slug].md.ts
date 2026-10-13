@@ -1,0 +1,16 @@
+import type { APIRoute } from 'astro';
+import { getWiki, type WikiPage } from '../../lib/wiki';
+
+export async function getStaticPaths() {
+  return (await getWiki()).pages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+// The committed Markdown, unchanged, so agents read exactly what the article
+// renders. Relative links point at sibling .md files, which are served here too.
+export const GET: APIRoute = ({ props }) =>
+  new Response((props as { page: WikiPage }).page.raw, {
+    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
+  });

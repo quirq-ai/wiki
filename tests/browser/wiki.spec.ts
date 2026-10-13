@@ -201,6 +201,21 @@ test('article tools copy the URL, print, and hide the table of contents', async 
   expect(await page.evaluate(() => navigator.clipboard.readText())).toContain(
     '/wiki/galileo/src/',
   );
+  // Agents get the article's Markdown twin, copied and in the prompt.
+  await page.locator('[data-agent-copy]').click();
+  await expect(page.locator('#tool-status')).toContainText(/agents copied/i);
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(
+    'http://127.0.0.1:4321/wiki/galileo/src.md',
+  );
+  const claude = page.getByRole('link', { name: 'Open in Claude' });
+  await expect(claude).toHaveAttribute('target', '_blank');
+  expect(
+    decodeURIComponent((await claude.getAttribute('href')) ?? ''),
+  ).toContain(
+    'https://claude.ai/new?q=Read http://127.0.0.1:4321/wiki/galileo/src.md',
+  );
+  const markdown = await page.request.get('/wiki/galileo/src.md');
+  expect(await markdown.text()).toContain('# ');
   await page.evaluate(() => {
     window.print = () => {
       document.documentElement.dataset.printRequested = 'true';

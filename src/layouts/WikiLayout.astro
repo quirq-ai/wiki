@@ -14,6 +14,8 @@ interface Props {
   tab?: string;
   headings?: { id: string; text: string; depth?: number }[];
   sourcePath?: string;
+  /** The article's Markdown twin, for agents. */
+  markdownPath?: string;
   repo?: string | null;
   pagefind?: boolean;
 }
@@ -27,6 +29,7 @@ const {
   tab = 'Article',
   headings = [],
   sourcePath,
+  markdownPath,
   repo,
   pagefind = false,
 } = Astro.props;
@@ -61,6 +64,11 @@ const formatDate = (value: string) =>
     <meta name="theme-color" content="#ffffff" />
     <title>{documentTitle || title} – Quirq Wiki</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {markdownPath && (
+      <link rel="alternate" type="text/markdown" href={markdownPath} />
+    )}
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     {Astro.site && (
       <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     )}
@@ -272,6 +280,23 @@ const formatDate = (value: string) =>
               <div class="tools-popover">
                 <button data-print>Print this page</button>
                 <button data-copy-link>Copy page link</button>
+                <button data-agent-copy data-agent-path={markdownPath}>
+                  Copy link for agents
+                </button>
+                <a
+                  href="https://claude.ai/new"
+                  data-agent-open="https://claude.ai/new?q="
+                  data-agent-path={markdownPath}
+                >
+                  Open in Claude <Icon name="external" size={12} />
+                </a>
+                <a
+                  href="https://chatgpt.com/"
+                  data-agent-open="https://chatgpt.com/?q="
+                  data-agent-path={markdownPath}
+                >
+                  Open in ChatGPT <Icon name="external" size={12} />
+                </a>
                 <a href={sourceUrl}>
                   View on GitHub <Icon name="external" size={12} />
                 </a>
@@ -281,7 +306,7 @@ const formatDate = (value: string) =>
           </div>
         </div>
         <div class="site-subtitle" data-pagefind-ignore>
-          From Quirq Wiki, the open knowledge base
+          From Quirq Wiki, the self evolving knowledge base
         </div>
         <slot />
         <footer class="site-footer" data-pagefind-ignore>

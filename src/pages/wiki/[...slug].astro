@@ -4,6 +4,7 @@ import Icon from '../../components/Icon.astro';
 import StructuredArticle from '../../components/StructuredArticle.astro';
 import { getWiki, type WikiPage } from '../../lib/wiki';
 import { buildArticle } from '../../lib/article';
+import { markdownHref } from '../../lib/agents';
 import '../../styles/article.css';
 
 export async function getStaticPaths() {
@@ -67,6 +68,7 @@ const markdownUrl =
   titleAnchor={page.titleId}
   description={isStructured ? article.lead : page.description}
   sourcePath={page.sourcePath}
+  markdownPath={markdownHref(page.slug)}
   repo={page.repo}
   headings={headings}
   pagefind

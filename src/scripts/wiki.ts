@@ -263,6 +263,48 @@ function announce(message: string) {
   }, 6000);
 }
 
+// Agents read the article's Markdown twin; pages without one share their URL.
+function agentLink(element: HTMLElement): string {
+  const path = element.dataset.agentPath;
+  return path ? new URL(path, window.location.href).href : window.location.href;
+}
+function agentPrompt(link: string): string {
+  return `Read ${link} from Quirq Wiki, the self evolving knowledge base for the quirq-ai code, and help me with questions about it.`;
+}
+async function copyForAgents(element: HTMLElement): Promise<boolean> {
+  try {
+    await navigator.clipboard.writeText(agentLink(element));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+document
+  .querySelectorAll<HTMLAnchorElement>('[data-agent-open]')
+  .forEach((link) => {
+    link.href = `${link.dataset.agentOpen}${encodeURIComponent(agentPrompt(agentLink(link)))}`;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    // Also copy the link, so it can be pasted if the agent drops the prompt.
+    link.addEventListener('click', () => {
+      void copyForAgents(link);
+    });
+  });
+
+document
+  .querySelectorAll<HTMLElement>('[data-agent-copy]')
+  .forEach((button) => {
+    button.addEventListener('click', async (event) => {
+      event.preventDefault();
+      announce(
+        (await copyForAgents(button))
+          ? 'Link for agents copied to clipboard.'
+          : 'Could not copy the link. You can copy it from the address bar.',
+      );
+    });
+  });
+
 document.querySelectorAll<HTMLElement>('[data-copy-link]').forEach((button) => {
   button.addEventListener('click', async (event) => {
     event.preventDefault();
