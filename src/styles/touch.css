@@ -1,5 +1,6 @@
 /*
  * Phone touch targets: every control and standalone link is at least 44px tall
+ * (and 44px wide where it is an icon or a short button)
  * at narrow widths. Links inside running text are exempt (WCAG 2.5.8 inline).
  * Unlayered and :root-prefixed so it wins over the layered wiki.css and the
  * unlayered article.css without editing each component rule.
@@ -50,7 +51,11 @@
   :root .directory-browser td a,
   :root td > a,
   :root dd > a,
-  :root .panel-body div > a {
+  :root .panel-body div > a,
+  :root .diagram-source > summary,
+  :root .code-copy,
+  :root [data-contents-toggle],
+  :root .context-link {
     min-height: 44px;
     display: inline-flex;
     align-items: center;
@@ -75,6 +80,14 @@
     align-items: center;
   }
 
+  :root .code-copy,
+  :root [data-contents-toggle],
+  :root td > a[aria-label$=' on GitHub'],
+  :root .repo-table-name {
+    min-width: 44px;
+    justify-content: center;
+  }
+
   /* Navigation opens in the page flow, never as a scrolling overlay. */
   :root .left-sidebar.is-open {
     position: static;
@@ -84,9 +97,19 @@
     box-shadow: none;
     margin-bottom: 16px;
   }
-  /* The appearance panel is short; it must fit without its own scroll. */
+  /* Appearance opens at the top of the page flow too, so a short landscape
+     screen reaches every option by scrolling the page, never the panel. */
+  :root .wiki-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
   :root .appearance-sidebar.is-open {
+    order: -1;
+    position: static;
+    width: auto;
     max-height: none;
     overflow: visible;
+    box-shadow: none;
+    margin-bottom: 16px;
   }
 }

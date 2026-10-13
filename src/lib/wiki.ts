@@ -1,6 +1,5 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
-import GithubSlugger from 'github-slugger';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
@@ -11,6 +10,7 @@ import rehypeStringify from 'rehype-stringify';
 import type { Root as MarkdownRoot, RootContent as MarkdownNode } from 'mdast';
 import type { Element, Root as HtmlRoot } from 'hast';
 import { richMarkdown } from './rich-markdown';
+import { headingSlugger } from './presentation';
 
 export interface WikiHeading {
   id: string;
@@ -183,7 +183,7 @@ export async function renderMarkdown(
   let fileCount = 0;
   let removedTitleOffset: number | undefined;
   let titleSlugReserved = false;
-  const slugger = new GithubSlugger();
+  const slugger = headingSlugger();
   const processor = unified()
     .use(remarkParse)
     .use(remarkGfm)

@@ -58,7 +58,16 @@ const formatDate = (value: string) =>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#ffffff"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#101418"
+    />
     <title>{documentTitle || title} – Quirq Wiki</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {Astro.site && (
@@ -372,7 +381,7 @@ const formatDate = (value: string) =>
           ))}
         </fieldset>
         <div class="source-note">
-          <span class="status-dot"></span> Open source
+          <span class="status-dot"></span> Public source
           <p>
             Public knowledge.
             <br />

@@ -75,7 +75,7 @@ async function codeBlock(pre: Element, code: Element): Promise<Element> {
     : 'text';
   const highlighted = await codeToHast(source, {
     lang: grammar,
-    themes: { light: 'github-light', dark: 'github-dark' },
+    themes: { light: 'github-light', dark: 'github-dark-default' },
   });
   const highlightedPre = highlighted.children.find(
     (child): child is Element =>
@@ -85,7 +85,6 @@ async function codeBlock(pre: Element, code: Element): Promise<Element> {
   highlightedPre.properties = {
     ...pre.properties,
     ...highlightedPre.properties,
-    tabIndex: 0,
     ariaLabel: `${label} code`,
   };
   const highlightedCode = highlightedPre.children.find(

@@ -1,11 +1,11 @@
 import path from 'node:path';
-import GithubSlugger from 'github-slugger';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
 import type { Node, Parent } from 'unist';
 import type { Heading, Link, Paragraph, Root, RootContent, Table } from 'mdast';
 import type { Wiki, WikiPage, WikiRepo } from './wiki.js';
+import { headingSlugger } from './presentation.js';
 
 export interface ArticleFile {
   name: string;
@@ -383,7 +383,7 @@ function synopsisFor(bodyMarkdown: string): string {
 
 /** A heading's anchor must reflect Markdown semantics, even when its filename uses emphasis. */
 function headingIds(tree: Root): Map<Heading, string> {
-  const slugger = new GithubSlugger();
+  const slugger = headingSlugger();
   const ids = new Map<Heading, string>();
   const walk = (node: Node) => {
     if (node.type === 'heading')

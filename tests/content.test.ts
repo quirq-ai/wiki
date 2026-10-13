@@ -398,3 +398,16 @@ test('every internal link generated from current content names a published page'
     }
   }
 });
+
+test('article headings never take the page layout ids', async () => {
+  const rendered = await renderMarkdown(
+    '## Appearance\n\n## Main content\n\n[Jump](#appearance)',
+    'galileo/src.md',
+    routes,
+    'quirq-ai',
+    { extractTitle: false },
+  );
+  assert.match(rendered.html, /<h2 id="appearance-1">Appearance<\/h2>/);
+  assert.match(rendered.html, /<h2 id="main-content-1">Main content<\/h2>/);
+  assert.doesNotMatch(rendered.html, /id="appearance"/);
+});

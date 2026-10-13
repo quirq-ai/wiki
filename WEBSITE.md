@@ -1,6 +1,6 @@
 # Quirq Wiki website
 
-The website turns the Markdown snapshot already committed in this repository into a searchable, Wikipedia-inspired knowledge base. The encyclopedia layout includes article tabs, a contents sidebar, source and history links, reading preferences, a repository directory, and a recent-changes page. The branding belongs to Quirq; this is an independent project.
+The website turns the Markdown snapshot already committed in this repository into a searchable, encyclopedia-style knowledge base. The encyclopedia layout includes article tabs, a contents sidebar, source and history links, reading preferences, a repository directory, and a recent-changes page. The branding belongs to Quirq; this is an independent project.
 
 ## Architecture
 
@@ -49,8 +49,7 @@ Code fences receive syntax highlighting at build time through Shiki. Code blocks
 | `src/pages/` | Static routes for articles, the home page, repository directory, recent changes, search, and not-found page. |
 | `src/styles/wiki.css` | Encyclopedia typography, responsive layout, tables, reading themes, and print presentation. |
 | `src/styles/touch.css` | Phone touch targets (44px) and the in-page mobile menu; unlayered so it wins over both stylesheets. |
-| `src/styles/article.css` | Structured article layout, file overviews, metadata, source excerpts, directory navigation, and responsive reading styles. |
-| `src/styles/article.css` | Article typography, metadata, file sections, syntax highlighting, diagrams, and mobile reading layouts. |
+| `src/styles/article.css` | Structured article layout and typography, file overviews, metadata, source excerpts, syntax highlighting, diagrams, directory navigation, and responsive reading styles. |
 | `src/scripts/wiki.ts` | Reading preferences, mobile navigation, keyboard shortcut, contents tracking, printing, link copying, and random articles. |
 | `src/scripts/article.ts` | Switch reading/source views, filter directory tables, and copy code with progressive enhancement. |
 | `src/scripts/search.ts` | On-demand search loading, results, pagination, URL state, and development fallback. |

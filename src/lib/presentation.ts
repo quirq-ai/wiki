@@ -1,3 +1,22 @@
+import GithubSlugger from 'github-slugger';
+
+/** Element ids the page layout owns. Article headings never take them. */
+export const LAYOUT_IDS = [
+  'appearance',
+  'main-content',
+  'site-navigation',
+  'contents-list',
+  'wiki-search',
+  'tool-status',
+] as const;
+
+/** A slugger that skips the layout's own ids, so a heading cannot clobber a control. */
+export function headingSlugger(): GithubSlugger {
+  const slugger = new GithubSlugger();
+  for (const id of LAYOUT_IDS) slugger.slug(id);
+  return slugger;
+}
+
 /** Display helpers do not alter the underlying documentation. */
 export function formatBytes(bytes: number | null): string {
   if (bytes === null) return 'Size not recorded';
