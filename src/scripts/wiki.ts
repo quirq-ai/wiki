@@ -1,11 +1,10 @@
 /** Small, dependency-free enhancements shared by every wiki page. */
-type Preference = 'theme' | 'font' | 'width';
+type Preference = 'font' | 'width';
 
 const preferences: Record<
   Preference,
   { values: readonly string[]; fallback: string }
 > = {
-  theme: { values: ['light', 'dark', 'auto'], fallback: 'auto' },
   font: { values: ['small', 'standard', 'large'], fallback: 'standard' },
   width: { values: ['standard', 'wide'], fallback: 'standard' },
 };
@@ -20,29 +19,12 @@ function readPreference(name: Preference): string {
   return preferences[name].fallback;
 }
 
-// The browser bar colour follows a stored Light or Dark choice; Automatic keeps
-// each meta's own media query (light and dark page backgrounds).
-const themeColors: Record<string, string> = {
-  light: '#ffffff',
-  dark: '#101418',
-};
-
-function syncThemeColor(theme: string) {
-  document
-    .querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')
-    .forEach((meta) => {
-      const scheme = meta.media.includes('dark') ? 'dark' : 'light';
-      meta.content = themeColors[theme] ?? themeColors[scheme];
-    });
-}
-
 for (const name of Object.keys(preferences) as Preference[]) {
   const inputs = document.querySelectorAll<HTMLInputElement>(
     `input[name="${name}"]`,
   );
   const apply = (value: string) => {
     document.documentElement.dataset[name] = value;
-    if (name === 'theme') syncThemeColor(value);
     inputs.forEach((input) => {
       input.checked = input.value === value;
     });

@@ -65,46 +65,6 @@
   :root[data-font='large'] {
     --article-size: 18px;
   }
-  :root[data-theme='dark'] {
-    --background: #101418;
-    --text: #eaecf0;
-    --muted: #b1b7bd;
-    --subtle: #969da6;
-    --border: #7d848b;
-    --line: #343c44;
-    --link: #8aafff;
-    --surface: #1a2027;
-    --hover: #272e37;
-    --green-bg: #16221c;
-    --green-head: #22392a;
-    --green-border: #385541;
-    --blue-bg: #16202d;
-    --blue-head: #23364d;
-    --blue-border: #3b506c;
-    --xo-ink: #8fc49f;
-    color-scheme: dark;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root[data-theme='auto'] {
-      --background: #101418;
-      --text: #eaecf0;
-      --muted: #b1b7bd;
-      --subtle: #969da6;
-      --border: #7d848b;
-      --line: #343c44;
-      --link: #8aafff;
-      --surface: #1a2027;
-      --hover: #272e37;
-      --green-bg: #16221c;
-      --green-head: #22392a;
-      --green-border: #385541;
-      --blue-bg: #16202d;
-      --blue-head: #23364d;
-      --blue-border: #3b506c;
-      --xo-ink: #8fc49f;
-      color-scheme: dark;
-    }
-  }
   html {
     scroll-padding-top: 24px;
   }
@@ -553,12 +513,6 @@
     gap: 9px;
     padding: 5px 0;
     cursor: pointer;
-  }
-  .beta-badge {
-    font-size: 9px;
-    padding: 1px 4px;
-    border: 1px solid var(--line);
-    margin-left: 3px;
   }
   .source-note {
     font-size: 11px;

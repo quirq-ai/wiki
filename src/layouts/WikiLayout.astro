@@ -53,21 +53,12 @@ const formatDate = (value: string) =>
 ---
 
 <!doctype html>
-<html lang="en" data-theme="auto" data-font="standard" data-width="standard">
+<html lang="en" data-font="standard" data-width="standard">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#ffffff"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#101418"
-    />
+    <meta name="theme-color" content="#ffffff" />
     <title>{documentTitle || title} – Quirq Wiki</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {Astro.site && (
@@ -82,7 +73,6 @@ const formatDate = (value: string) =>
     <script is:inline>
       try {
         for (const [key, values] of Object.entries({
-          theme: ['light', 'dark', 'auto'],
           font: ['small', 'standard', 'large'],
           width: ['standard', 'wide'],
         })) {
@@ -357,26 +347,6 @@ const formatDate = (value: string) =>
                 name="width"
                 value={value}
                 checked={value === 'standard'}
-              />
-              <span>{label}</span>
-            </label>
-          ))}
-        </fieldset>
-        <fieldset>
-          <legend>
-            Color <span class="beta-badge">beta</span>
-          </legend>
-          {[
-            ['auto', 'Automatic'],
-            ['light', 'Light'],
-            ['dark', 'Dark'],
-          ].map(([value, label]) => (
-            <label>
-              <input
-                type="radio"
-                name="theme"
-                value={value}
-                checked={value === 'auto'}
               />
               <span>{label}</span>
             </label>

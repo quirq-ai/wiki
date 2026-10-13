@@ -40,17 +40,14 @@ function textContent(node: RootContent): string {
   return '';
 }
 
-test('highlighting preserves exact code text and provides both color themes', async () => {
+test('highlighting preserves exact code text and uses the light theme only', async () => {
   const source = 'const message = "<script> & \\"";\n\nconsole.log(message);\n';
   const { tree, html } = await render(`\`\`\`ts\n${source}\`\`\``);
   assert.equal(textContent(findElements(tree, 'code')[0]!), source);
   assert.match(html, /class="code-block"/);
   assert.match(html, /class="code-language">TypeScript<\/span>/);
-  assert.match(
-    html,
-    /class="shiki shiki-themes github-light github-dark-default"/,
-  );
-  assert.match(html, /--shiki-dark:/);
+  assert.match(html, /class="shiki github-light"/);
+  assert.doesNotMatch(html, /--shiki-dark/);
   assert.equal(html.match(/tabindex=/gi)?.length, 1);
   assert.match(html, /data-copy-code/);
   assert.equal(findElements(tree, 'button')[0]?.properties.hidden, true);

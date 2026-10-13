@@ -111,22 +111,12 @@ test('directory filters combine language and text and can reset', async ({
 
 test('reading preferences persist across reloads', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('radio', { name: 'Dark', exact: true }).check();
   await page.getByRole('radio', { name: 'Large', exact: true }).check();
   await page.getByRole('radio', { name: 'Wide', exact: true }).check();
   await page.reload();
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
   await expect(page.locator('html')).toHaveAttribute('data-font', 'large');
   await expect(page.locator('html')).toHaveAttribute('data-width', 'wide');
-  // The browser bar follows the stored choice, not the system setting.
-  expect(
-    await page
-      .locator('meta[name="theme-color"]')
-      .evaluateAll((metas) =>
-        metas.map((meta) => meta.getAttribute('content')),
-      ),
-  ).toEqual(['#101418', '#101418']);
-  await page.screenshot({ path: 'test-results/home-dark.png', fullPage: true });
+  await page.screenshot({ path: 'test-results/home-wide.png', fullPage: true });
 });
 
 test('the search icon focuses the search field', async ({ page }) => {
@@ -159,7 +149,7 @@ test('mobile has no overflow and navigation and appearance drawers work', async 
   await expect(page.locator('h1')).toHaveText('All repositories');
   await page.getByRole('button', { name: 'Reading appearance' }).click();
   await expect(page.locator('#appearance')).toBeVisible();
-  await page.getByRole('radio', { name: 'Dark', exact: true }).check();
+  await page.getByRole('radio', { name: 'Large', exact: true }).check();
   await page.keyboard.press('Escape');
   await expect(page.locator('#appearance')).not.toBeVisible();
   expect(
@@ -296,10 +286,11 @@ test('every appearance option is reachable on a short landscape phone', async ({
   await page.setViewportSize({ width: 740, height: 360 });
   await page.goto('/');
   await page.getByRole('button', { name: 'Reading appearance' }).click();
-  const dark = page.getByRole('radio', { name: 'Dark', exact: true });
-  await dark.scrollIntoViewIfNeeded();
-  await dark.check();
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  // Wide is the last option in the panel.
+  const wide = page.getByRole('radio', { name: 'Wide', exact: true });
+  await wide.scrollIntoViewIfNeeded();
+  await wide.check();
+  await expect(page.locator('html')).toHaveAttribute('data-width', 'wide');
   expect(
     await page
       .locator('#appearance')
@@ -329,18 +320,15 @@ test('long unbroken repository text never pushes a phone page sideways', async (
   }
 });
 
-test('the system dark setting applies when no theme is stored', async ({
+test('the wiki stays light when the system asks for dark', async ({
   browser,
 }) => {
   const context = await browser.newContext({ colorScheme: 'dark' });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:4321/');
-  await expect(page.locator('html')).toHaveAttribute('data-theme', 'auto');
   expect(
     await page.evaluate(() => getComputedStyle(document.body).backgroundColor),
-  ).toBe('rgb(16, 20, 24)');
-  await expect(
-    page.getByRole('radio', { name: 'Automatic', exact: true }),
-  ).toBeChecked();
+  ).toBe('rgb(255, 255, 255)');
+  await expect(page.getByRole('radio', { name: 'Dark' })).toHaveCount(0);
   await context.close();
 });
