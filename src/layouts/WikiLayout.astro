@@ -3,6 +3,7 @@ import Icon from '../components/Icon.astro';
 import Wordmark from '../components/Wordmark.astro';
 import { getWiki } from '../lib/wiki';
 import '../styles/wiki.css';
+import '../styles/touch.css';
 interface Props {
   title: string;
   documentTitle?: string;
@@ -52,12 +53,21 @@ const formatDate = (value: string) =>
 ---
 
 <!doctype html>
-<html lang="en" data-theme="light" data-font="standard" data-width="standard">
+<html lang="en" data-theme="auto" data-font="standard" data-width="standard">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#ffffff"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#101418"
+    />
     <title>{documentTitle || title} – Quirq Wiki</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {Astro.site && (
@@ -364,14 +374,14 @@ const formatDate = (value: string) =>
                 type="radio"
                 name="theme"
                 value={value}
-                checked={value === 'light'}
+                checked={value === 'auto'}
               />
               <span>{label}</span>
             </label>
           ))}
         </fieldset>
         <div class="source-note">
-          <span class="status-dot"></span> Open source
+          <span class="status-dot"></span> Public source
           <p>
             Public knowledge.
             <br />

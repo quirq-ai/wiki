@@ -46,8 +46,12 @@ test('highlighting preserves exact code text and provides both color themes', as
   assert.equal(textContent(findElements(tree, 'code')[0]!), source);
   assert.match(html, /class="code-block"/);
   assert.match(html, /class="code-language">TypeScript<\/span>/);
-  assert.match(html, /class="shiki shiki-themes github-light github-dark"/);
+  assert.match(
+    html,
+    /class="shiki shiki-themes github-light github-dark-default"/,
+  );
   assert.match(html, /--shiki-dark:/);
+  assert.equal(html.match(/tabindex=/gi)?.length, 1);
   assert.match(html, /data-copy-code/);
   assert.equal(findElements(tree, 'button')[0]?.properties.hidden, true);
   assert.equal(findElements(tree, 'script').length, 0);

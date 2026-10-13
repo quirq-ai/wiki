@@ -8,7 +8,7 @@ Each public repo gets a folder here. Each source directory gets one markdown pag
 
 ## Read it as a website
 
-This repository includes a Wikipedia-style interface built with Astro and TypeScript. It renders the committed documentation into static pages, with full-text search, repository browsing, source links, and adjustable reading preferences.
+This repository includes an encyclopedia-style interface built with Astro and TypeScript. It renders the committed documentation into static pages, with full-text search, repository browsing, source links, and adjustable reading preferences.
 
 With Node.js 24, run `npm ci` and `npm run dev` to start locally. Run `npm run build` then `npm run preview` to try the complete production site with full-text search. For Vercel, use the Astro preset, repository root, `npm run build`, and output directory `dist`.
 

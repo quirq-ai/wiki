@@ -208,3 +208,116 @@ test('article tools copy the URL, print, and hide the table of contents', async 
     'true',
   );
 });
+
+test('phone controls are at least 44px tall and the open menu stays in the page', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const url of [
+    '/',
+    '/wiki/readme/',
+    '/wiki/monitoring/_index/',
+    '/repositories/',
+    '/recent-changes/',
+    '/search/?q=release',
+  ]) {
+    await page.goto(url);
+    // Reveal every control a reader can reach: diagram sources and copy buttons
+    // appear once their scripts run, and the contents button sits in the menu.
+    await page.getByRole('button', { name: 'Toggle navigation' }).click();
+    await page.waitForLoadState('networkidle');
+    const small = await page.evaluate(() =>
+      [
+        ...document.querySelectorAll<HTMLElement>(
+          'a[href], button, summary, input:not([type="radio"]):not([type="checkbox"]), select',
+        ),
+      ]
+        .filter((element) => {
+          const box = element.getBoundingClientRect();
+          if (box.width === 0 || box.height === 0) return false;
+          if (getComputedStyle(element).visibility === 'hidden') return false;
+          // Links inside running text are exempt (WCAG 2.5.8, inline).
+          if (
+            element.tagName === 'A' &&
+            element.closest(
+              'p, li:not(.left-sidebar li), h1, h2, h3, h4, blockquote, figcaption, .wiki-prose td, .wiki-prose th',
+            )
+          )
+            return false;
+          if (element.closest('.header-search') && element.tagName === 'INPUT')
+            return false; // 42px field inside its 44px search box
+          return box.height < 44 || box.width < 24;
+        })
+        .map(
+          (element) =>
+            `${element.outerHTML.slice(0, 70)} ${Math.round(element.getBoundingClientRect().width)}x${Math.round(element.getBoundingClientRect().height)}`,
+        ),
+    );
+    expect(small, url).toEqual([]);
+  }
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Toggle navigation' }).click();
+  const menu = page.locator('#site-navigation');
+  await expect(menu).toBeVisible();
+  expect(
+    await menu.evaluate((element) => {
+      const style = getComputedStyle(element);
+      return [style.position, style.overflowY];
+    }),
+  ).toEqual(['static', 'visible']);
+});
+
+test('every appearance option is reachable on a short landscape phone', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 740, height: 360 });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Reading appearance' }).click();
+  const dark = page.getByRole('radio', { name: 'Dark', exact: true });
+  await dark.scrollIntoViewIfNeeded();
+  await dark.check();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  expect(
+    await page
+      .locator('#appearance')
+      .evaluate((element) => getComputedStyle(element).overflowY),
+  ).toBe('visible');
+});
+
+test('long unbroken repository text never pushes a phone page sideways', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const token = 'x'.repeat(260);
+  for (const url of ['/', '/wiki/monitoring/_index/', '/recent-changes/']) {
+    await page.goto(url);
+    const width = await page.evaluate((longToken) => {
+      for (const element of document.querySelectorAll(
+        // Text that comes from source repositories, not the site's own labels.
+        '.directory-entry, .main-content td:not(.file-count):not(.numeric), .article-lead, .main-content dt, .change-name, .change-description, .main-content h3, .feature-lead, .article-paths a',
+      ))
+        element.append(longToken);
+      return [
+        document.documentElement.scrollWidth,
+        document.documentElement.clientWidth,
+      ];
+    }, token);
+    expect(width[0], url).toBeLessThanOrEqual(width[1]);
+  }
+});
+
+test('the system dark setting applies when no theme is stored', async ({
+  browser,
+}) => {
+  const context = await browser.newContext({ colorScheme: 'dark' });
+  const page = await context.newPage();
+  await page.goto('http://127.0.0.1:4321/');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'auto');
+  expect(
+    await page.evaluate(() => getComputedStyle(document.body).backgroundColor),
+  ).toBe('rgb(16, 20, 24)');
+  await expect(
+    page.getByRole('radio', { name: 'Automatic', exact: true }),
+  ).toBeChecked();
+  await context.close();
+});

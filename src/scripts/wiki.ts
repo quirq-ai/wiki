@@ -5,7 +5,7 @@ const preferences: Record<
   Preference,
   { values: readonly string[]; fallback: string }
 > = {
-  theme: { values: ['light', 'dark', 'auto'], fallback: 'light' },
+  theme: { values: ['light', 'dark', 'auto'], fallback: 'auto' },
   font: { values: ['small', 'standard', 'large'], fallback: 'standard' },
   width: { values: ['standard', 'wide'], fallback: 'standard' },
 };
