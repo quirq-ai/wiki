@@ -1,0 +1,169 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import Icon from '../../components/Icon.astro';
+import StructuredArticle from '../../components/StructuredArticle.astro';
+import { getWiki, type WikiPage } from '../../lib/wiki';
+import { buildArticle } from '../../lib/article';
+import '../../styles/article.css';
+
+export async function getStaticPaths() {
+  return (await getWiki()).pages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+interface Props {
+  page: WikiPage;
+}
+const { page } = Astro.props;
+const wiki = await getWiki();
+const article = buildArticle(page, wiki);
+const isStructured = article.kind !== 'document';
+const title =
+  page.slug === 'readme'
+    ? 'About Quirq Wiki'
+    : page.slug === 'index'
+      ? 'Repository index'
+      : article.displayTitle;
+const headings = isStructured
+  ? [
+      { id: 'wiki:overview', text: 'Overview', depth: 2 },
+      ...(article.kind === 'repository'
+        ? [{ id: 'wiki:directories', text: 'Repository contents', depth: 2 }]
+        : [
+            ...(article.files.length
+              ? [
+                  { id: 'wiki:files', text: 'Files at a glance', depth: 2 },
+                  {
+                    id: 'wiki:descriptions',
+                    text: 'File descriptions',
+                    depth: 2,
+                  },
+                  ...article.files.map((file) => ({
+                    id: file.id,
+                    text: file.displayTitle,
+                    depth: 3,
+                  })),
+                ]
+              : []),
+            ...(article.children.length
+              ? [{ id: 'wiki:children', text: 'Subdirectories', depth: 2 }]
+              : []),
+            ...(article.parent || article.siblings.length
+              ? [{ id: 'wiki:related', text: 'See also', depth: 2 }]
+              : []),
+          ]),
+      { id: 'wiki:provenance', text: 'Sources and revisions', depth: 2 },
+    ]
+  : page.headings;
+const markdownUrl =
+  'https://github.com/quirq-ai/wiki/blob/main/' +
+  page.sourcePath.split('/').map(encodeURIComponent).join('/');
+---
+
+<WikiLayout
+  title={title}
+  documentTitle={page.title}
+  titleAnchor={page.titleId}
+  description={isStructured ? article.lead : page.description}
+  sourcePath={page.sourcePath}
+  repo={page.repo}
+  headings={headings}
+  pagefind
+  articleView
+>
+  <div data-article-reader>
+    <nav
+      class="article-breadcrumb"
+      aria-label="Article location"
+      data-pagefind-ignore
+    >
+      <a href="/">Main page</a>
+      {isStructured ? (
+        article.breadcrumbs
+          .filter((crumb) => crumb.href !== '/')
+          .map((crumb) => (
+            <>
+              <span class="breadcrumb-separator" aria-hidden="true">
+                ›
+              </span>
+              {crumb.href && crumb.href !== page.href ? (
+                <a href={crumb.href}>{crumb.label}</a>
+              ) : (
+                <span aria-current="page">{crumb.label}</span>
+              )}
+            </>
+          ))
+      ) : (
+        <>
+          <span class="breadcrumb-separator" aria-hidden="true">
+            ›
+          </span>
+          <span aria-current="page">{title}</span>
+        </>
+      )}
+    </nav>
+    {isStructured ? (
+      <StructuredArticle article={article} page={page} wiki={wiki} />
+    ) : (
+      <article class="wiki-prose document-article" set:html={page.html} />
+    )}
+    <div class="category-box" data-pagefind-ignore>
+      <span>Categories:</span>
+      <a href="/repositories/">Quirq ecosystem</a>
+      {article.repository && (
+        <>
+          <span class="category-divider">|</span>
+          <a href={article.repository.href}>{article.repository.name}</a>
+          <span class="category-divider">|</span>
+          <span>
+            {article.kind === 'repository'
+              ? 'Repository guides'
+              : 'Directory guides'}
+          </span>
+        </>
+      )}
+    </div>
+  </div>
+  <section
+    class="article-source-view"
+    data-article-source
+    data-pagefind-ignore
+    hidden
+    aria-label="Original article Markdown"
+  >
+    <div class="source-view-intro">
+      <h2>Article source</h2>
+      <p>
+        This is the original Markdown committed to the wiki. The reading view
+        organizes its file summaries and metadata into an article.
+      </p>
+      <a href={markdownUrl}>
+        Open original file on GitHub <Icon name="external" size={13} />
+      </a>
+    </div>
+    <div class="code-block">
+      <div class="code-toolbar">
+        <span class="code-language">Markdown · {page.sourcePath}</span>
+        <button
+          type="button"
+          data-copy-code
+          aria-label="Copy original Markdown"
+          hidden
+        >
+          Copy
+        </button>
+      </div>
+      <pre
+        tabindex="0"
+        aria-label="Original Markdown source"
+      ><code>{page.raw}</code></pre>
+    </div>
+  </section>
+</WikiLayout>
+<script>
+  import '../../scripts/article';
+</script>
+<script>
+  import '../../scripts/diagrams';
+</script>

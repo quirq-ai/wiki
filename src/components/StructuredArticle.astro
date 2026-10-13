@@ -1,0 +1,455 @@
+---
+import Icon from './Icon.astro';
+import ArticleFacts from './ArticleFacts.astro';
+import DirectoryBrowser from './DirectoryBrowser.astro';
+import type { ArticleModel } from '../lib/article';
+import { renderMarkdown, type Wiki, type WikiPage } from '../lib/wiki';
+import { formatBytes, formatDate, codeFence } from '../lib/presentation';
+interface Props {
+  article: ArticleModel;
+  page: WikiPage;
+  wiki: Wiki;
+}
+const { article, page, wiki } = Astro.props;
+const routes = new Map(wiki.pages.map((item) => [item.sourcePath, item.href]));
+const renderFragment = async (markdown: string) =>
+  (
+    await renderMarkdown(markdown, page.sourcePath, routes, wiki.org, {
+      extractTitle: false,
+    })
+  ).html;
+const files = await Promise.all(
+  article.files.map(async (file) => ({
+    ...file,
+    bodyHtml: await renderFragment(
+      file.isCodeExcerpt
+        ? (file.codeMarkdown ??
+            codeFence(file.codeExcerpt || file.bodyMarkdown, file.language))
+        : file.bodyMarkdown,
+    ),
+    notesHtml: file.notesMarkdown
+      ? await renderFragment(file.notesMarkdown)
+      : '',
+  })),
+);
+const contextHtml = article.context
+  ? await renderFragment(article.context.bodyMarkdown)
+  : '';
+const descriptionHtml =
+  article.kind === 'repository'
+    ? await renderFragment(article.descriptionMarkdown)
+    : '';
+const repo = article.repository;
+const isRepository = article.kind === 'repository';
+const directories = article.directories.filter(
+  (dir): dir is typeof dir & { href: string } => Boolean(dir.href),
+);
+const nearby = article.siblings
+  .filter((link) => link.href !== page.href)
+  .slice(0, 6);
+---
+
+<article
+  class="structured-article"
+  aria-label={`${article.displayTitle} article`}
+>
+  <div class="article-introduction" id="wiki:overview">
+    <div class="introduction-copy">
+      <p class="article-kicker">
+        {isRepository ? 'Repository overview' : 'Directory guide'}{' '}
+        <span>·</span> {repo?.name}
+      </p>
+      {isRepository ? (
+        <div
+          class="article-lead wiki-prose"
+          set:html={
+            descriptionHtml ||
+            `<p>Source directory and file documentation for this repository.</p>`
+          }
+        />
+      ) : (
+        <p class="article-lead">
+          {article.directory === '.' ? (
+            <>This is the root directory of</>
+          ) : (
+            <>
+              <strong>{article.displayTitle}</strong> is a directory in
+            </>
+          )}{' '}
+          the <a href={repo?.href}>{repo?.name}</a> repository.{' '}
+          {article.files.length > 0 ? (
+            <>
+              It contains{' '}
+              <strong>
+                {article.files.length} documented{' '}
+                {article.files.length === 1 ? 'file' : 'files'}
+              </strong>
+              {article.stats.languages.length === 1 &&
+              article.stats.languages[0].count === article.files.length ? (
+                <>, written in {article.stats.languages[0].name}</>
+              ) : (
+                ''
+              )}
+              .
+            </>
+          ) : article.children.length ? (
+            'It organizes the subdirectories listed below.'
+          ) : (
+            'No files were documented here in this snapshot.'
+          )}
+        </p>
+      )}
+      {article.context && contextHtml && !isRepository && (
+        <div class="article-context">
+          <div class="context-label">
+            In context{' '}
+            <span>
+              {article.context.href.split('#')[0] === page.href
+                ? 'from this directory’s README'
+                : 'from the parent README'}
+            </span>
+          </div>
+          <div class="wiki-prose" set:html={contextHtml} />
+          <a class="context-link" href={article.context.href}>
+            Read the surrounding documentation <Icon name="arrow" size={13} />
+          </a>
+        </div>
+      )}
+      {isRepository && repo && (
+        <p class="article-overview-note">
+          This guide covers{' '}
+          <strong>{repo.fileCount.toLocaleString()} files</strong> across{' '}
+          <strong>{repo.pageCount - 1} directories</strong>. Open a directory to
+          understand the files inside it, their public interfaces, and where
+          they fit in the source tree.
+        </p>
+      )}
+      {!isRepository && !contextHtml && files.length > 0 && (
+        <p class="article-overview-note">
+          Each section below explains a file’s role using its recorded
+          documentation. The source links open the original files; exported
+          names are listed separately for reference.
+        </p>
+      )}
+      <div class="reading-path" data-pagefind-ignore>
+        <Icon name="clock" size={14} />
+        <span>
+          {Math.max(
+            1,
+            Math.ceil(
+              article.files.reduce(
+                (sum, file) => sum + file.summaryMarkdown.split(/\s+/).length,
+                0,
+              ) / 220,
+            ),
+          )}{' '}
+          min read
+        </span>
+        <span class="reading-separator">·</span>
+        <span>Snapshot {formatDate(wiki.generatedAt)}</span>
+      </div>
+    </div>
+    <ArticleFacts article={article} />
+  </div>
+
+  {isRepository ? (
+    <DirectoryBrowser
+      directories={directories}
+      repository={repo?.name || article.displayTitle}
+    />
+  ) : (
+    <>
+      {files.length > 0 ? (
+        <>
+          <section class="file-overview" aria-labelledby="wiki:files">
+            <div class="article-section-heading">
+              <h2 id="wiki:files">Files at a glance</h2>
+              <a
+                class="section-permalink"
+                href="#wiki:files"
+                aria-label="Link to files at a glance"
+              >
+                §
+              </a>
+            </div>
+            <div class="file-overview-wrap">
+              <table>
+                <caption class="visually-hidden">
+                  Files and their roles in {article.displayTitle}
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">File</th>
+                    <th scope="col">What it does</th>
+                    <th scope="col">Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {files.map((file) => (
+                    <tr>
+                      <td>
+                        <a href={`#${file.id}`}>{file.name}</a>
+                      </td>
+                      <td>
+                        {file.isCodeExcerpt ? (
+                          <>
+                            Recorded source excerpt
+                            {file.hasDefaultExport
+                              ? ' with a default export'
+                              : ''}
+                            .
+                          </>
+                        ) : (
+                          file.synopsis ||
+                          (file.symbols.length
+                            ? 'Documented public interface; see the symbols below.'
+                            : file.hasDefaultExport
+                              ? 'Provides the module’s default export.'
+                              : 'No description recorded in this snapshot.')
+                        )}
+                      </td>
+                      <td>
+                        <span class="file-type">
+                          {file.language || file.kind || 'File'}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section
+            class="file-descriptions"
+            aria-labelledby="wiki:descriptions"
+          >
+            <div class="article-section-heading">
+              <h2 id="wiki:descriptions">File descriptions</h2>
+              <a
+                class="section-permalink"
+                href="#wiki:descriptions"
+                aria-label="Link to file descriptions"
+              >
+                §
+              </a>
+            </div>
+            {files.map((file, index) => (
+              <section class="file-section" aria-labelledby={file.id}>
+                <div class="file-section-heading">
+                  <span class="file-number" aria-hidden="true">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <div>
+                    <h3 id={file.id}>{file.displayTitle}</h3>
+                    {file.displayTitle !== file.name && (
+                      <span class="file-filename">{file.name}</span>
+                    )}
+                  </div>
+                  <a
+                    class="section-permalink"
+                    href={`#${file.id}`}
+                    aria-label={`Link to ${file.name}`}
+                  >
+                    §
+                  </a>
+                </div>
+                <div class="file-metadata">
+                  <span>{file.language || file.kind || 'File'}</span>
+                  <span class="metadata-dot">·</span>
+                  <span
+                    title={
+                      file.bytes !== null
+                        ? `${file.bytes.toLocaleString()} bytes`
+                        : undefined
+                    }
+                  >
+                    {formatBytes(file.bytes)}
+                  </span>
+                  {file.sourceUrl && (
+                    <a href={file.sourceUrl}>
+                      View source <Icon name="external" size={12} />
+                    </a>
+                  )}
+                </div>
+                {file.isCodeExcerpt && (
+                  <p class="excerpt-notice">
+                    The snapshot records this source excerpt.{' '}
+                    {file.sourceUrl && (
+                      <>
+                        <a href={file.sourceUrl}>Open the complete file</a> for
+                        its full implementation.
+                      </>
+                    )}
+                  </p>
+                )}
+                <div
+                  class:list={[
+                    'file-description',
+                    'wiki-prose',
+                    { 'source-excerpt': file.isCodeExcerpt },
+                  ]}
+                  set:html={file.bodyHtml}
+                />
+                {file.notesHtml && (
+                  <div
+                    class="file-notes wiki-prose"
+                    set:html={file.notesHtml}
+                  />
+                )}
+                {(file.symbols.length > 0 || file.hasDefaultExport) && (
+                  <div class="file-interface">
+                    <span class="interface-heading">Public interface</span>
+                    {file.symbols.map((group) => (
+                      <div class="symbol-group">
+                        <span class="symbol-label">{group.label}</span>
+                        <div class="symbol-names">
+                          {group.names.map((name) => (
+                            <code>{name}</code>
+                          ))}
+                          {group.additionalCount && (
+                            <span class="additional-symbols">
+                              and {group.additionalCount} more in the source
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                    {file.hasDefaultExport && (
+                      <p class="default-export">
+                        <code>default</code>
+                        <span>Exported as this module’s main entry point.</span>
+                      </p>
+                    )}
+                  </div>
+                )}
+              </section>
+            ))}
+          </section>
+        </>
+      ) : (
+        <div class="empty-directory">
+          <Icon name="folder" size={25} />
+          <div>
+            <h2>No files directly in this directory</h2>
+            <p>
+              {article.children.length
+                ? 'This folder groups other directories. Explore them below to find their documented files.'
+                : 'This snapshot contains no file descriptions for this folder. Follow the source link to inspect the upstream directory.'}
+            </p>
+          </div>
+        </div>
+      )}
+      {article.children.length > 0 && (
+        <section class="child-directories" aria-labelledby="wiki:children">
+          <div class="article-section-heading">
+            <h2 id="wiki:children">Subdirectories</h2>
+            <a
+              class="section-permalink"
+              href="#wiki:children"
+              aria-label="Link to subdirectories"
+            >
+              §
+            </a>
+          </div>
+          <p class="section-description">
+            Continue into a folder to read its own file descriptions.
+          </p>
+          <ul class="related-directory-list">
+            {article.children.map((child) => (
+              <li>
+                <a href={child.href}>
+                  <Icon name="folder" size={18} />
+                  <span>{child.label}</span>
+                  <small>
+                    {child.fileCount} {child.fileCount === 1 ? 'file' : 'files'}
+                  </small>
+                  <Icon name="arrow" size={14} />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {(article.parent || nearby.length > 0) && (
+        <section class="related-articles" aria-labelledby="wiki:related">
+          <div class="article-section-heading">
+            <h2 id="wiki:related">See also</h2>
+            <a
+              class="section-permalink"
+              href="#wiki:related"
+              aria-label="Link to related directories"
+            >
+              §
+            </a>
+          </div>
+          <ul>
+            {article.parent && (
+              <li>
+                <a href={article.parent.href}>{article.parent.label}</a>
+                <span> — parent directory</span>
+              </li>
+            )}
+            {nearby.map((link) => (
+              <li>
+                <a href={link.href}>{link.label}</a>
+                <span>
+                  {' '}
+                  — {link.fileCount} documented{' '}
+                  {link.fileCount === 1 ? 'file' : 'files'}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </>
+  )}
+
+  <section class="article-provenance" aria-labelledby="wiki:provenance">
+    <div class="article-section-heading">
+      <h2 id="wiki:provenance">Sources and revisions</h2>
+      <a
+        class="section-permalink"
+        href="#wiki:provenance"
+        aria-label="Link to sources and revisions"
+      >
+        §
+      </a>
+    </div>
+    <p>
+      File descriptions are taken from the repository’s generated documentation.
+      This article presents the snapshot of{' '}
+      <strong>{formatDate(wiki.generatedAt)}</strong>; upstream files may have
+      changed since then.
+    </p>
+    <dl>
+      <dt>Documentation</dt>
+      <dd>
+        <a
+          href={`https://github.com/quirq-ai/wiki/blob/main/${page.sourcePath.split('/').map(encodeURIComponent).join('/')}`}
+        >
+          View original Markdown <Icon name="external" size={11} />
+        </a>
+      </dd>
+      {repo && (
+        <>
+          <dt>Source repository</dt>
+          <dd>
+            <a href={repo.htmlUrl}>{repo.name}</a>
+          </dd>
+          {repo.sha && (
+            <>
+              <dt>Recorded revision</dt>
+              <dd>
+                <a href={`${repo.htmlUrl}/tree/${repo.sha}`}>
+                  <code>{repo.sha.slice(0, 12)}</code>
+                </a>
+                <span> on {repo.defaultBranch}</span>
+              </dd>
+            </>
+          )}
+        </>
+      )}
+    </dl>
+  </section>
+</article>

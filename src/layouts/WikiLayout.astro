@@ -1,0 +1,387 @@
+---
+import Icon from '../components/Icon.astro';
+import Wordmark from '../components/Wordmark.astro';
+import { getWiki } from '../lib/wiki';
+import '../styles/wiki.css';
+interface Props {
+  title: string;
+  documentTitle?: string;
+  articleView?: boolean;
+  titleAnchor?: string;
+  description?: string;
+  active?: string;
+  tab?: string;
+  headings?: { id: string; text: string; depth?: number }[];
+  sourcePath?: string;
+  repo?: string | null;
+  pagefind?: boolean;
+}
+const {
+  title,
+  documentTitle,
+  articleView = false,
+  titleAnchor,
+  description = 'Explore the repositories, source directories, and file documentation of the quirq-ai organization.',
+  active = '',
+  tab = 'Article',
+  headings = [],
+  sourcePath,
+  repo,
+  pagefind = false,
+} = Astro.props;
+const wiki = await getWiki();
+const sourceUrl = sourcePath
+  ? `https://github.com/quirq-ai/wiki/blob/main/${sourcePath.split('/').map(encodeURIComponent).join('/')}`
+  : 'https://github.com/quirq-ai/wiki';
+const historyUrl = sourcePath
+  ? `https://github.com/quirq-ai/wiki/commits/main/${sourcePath.split('/').map(encodeURIComponent).join('/')}`
+  : 'https://github.com/quirq-ai/wiki/commits/main/';
+const nav = [
+  { label: 'Main page', href: '/', key: 'home' },
+  { label: 'All repositories', href: '/repositories/', key: 'repositories' },
+  { label: 'Recent changes', href: '/recent-changes/', key: 'changes' },
+];
+const popular = ['xo-space', 'quirq_ai', 'galileo', 'agent-skills', 'setup'];
+const formatDate = (value: string) =>
+  new Date(value).toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+---
+
+<!doctype html>
+<html lang="en" data-theme="light" data-font="standard" data-width="standard">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#ffffff" />
+    <title>{documentTitle || title} – Quirq Wiki</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {Astro.site && (
+      <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    )}
+    <meta
+      property="og:title"
+      content={`${documentTitle || title} – Quirq Wiki`}
+    />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <script is:inline>
+      try {
+        for (const [key, values] of Object.entries({
+          theme: ['light', 'dark', 'auto'],
+          font: ['small', 'standard', 'large'],
+          width: ['standard', 'wide'],
+        })) {
+          const value = localStorage.getItem('wiki-' + key);
+          if (values.includes(value))
+            document.documentElement.dataset[key] = value;
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <div class="header-brand">
+        <button
+          class="icon-button menu-toggle"
+          data-menu-toggle
+          aria-controls="site-navigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <Icon name="menu" />
+        </button>
+        <Wordmark />
+      </div>
+      <form
+        class="header-search"
+        action="/search/"
+        role="search"
+        data-search-form
+      >
+        <Icon name="search" size={19} />
+        <input
+          id="wiki-search"
+          type="search"
+          name="q"
+          placeholder="Search Quirq Wiki"
+          aria-label="Search Quirq Wiki"
+          autocomplete="off"
+        />
+        <kbd>/</kbd>
+        <button type="submit">Search</button>
+      </form>
+      <div class="header-links">
+        <a href="/wiki/readme/">About the wiki</a>
+        <a href="https://github.com/quirq-ai" class="github-link">
+          GitHub <Icon name="external" size={13} />
+        </a>
+        <button
+          class="icon-button appearance-toggle"
+          data-appearance-toggle
+          aria-controls="appearance"
+          aria-expanded="false"
+          aria-label="Reading appearance"
+        >
+          <Icon name="settings" />
+        </button>
+      </div>
+    </header>
+    <div class="wiki-layout">
+      <aside
+        class="left-sidebar"
+        id="site-navigation"
+        aria-label="Wiki navigation"
+      >
+        <nav class="primary-navigation" aria-label="Main navigation">
+          <div class="sidebar-heading">Explore the wiki</div>
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              class:list={{ 'nav-active': active === item.key }}
+              aria-current={active === item.key ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+          <a href={wiki.repos[0]?.href || '/repositories/'} data-random>
+            Random article <Icon name="shuffle" size={13} />
+          </a>
+        </nav>
+        <nav class="repository-navigation" aria-label="Featured repositories">
+          <div class="sidebar-heading">Repositories</div>
+          {popular
+            .map((name) => wiki.repos.find((r) => r.name === name))
+            .filter(Boolean)
+            .map(
+              (item) =>
+                item && (
+                  <a
+                    href={item.href}
+                    class:list={{ 'nav-active': repo === item.name }}
+                  >
+                    {item.name.replace('quirq_ai', 'quirq_ai')}
+                  </a>
+                ),
+            )}
+          <a class="browse-all" href="/repositories/">
+            Browse all {wiki.repos.length} <Icon name="arrow" size={14} />
+          </a>
+        </nav>
+        {headings.length > 0 && (
+          <nav class="contents-navigation" aria-label="On this page">
+            <div class="sidebar-heading contents-heading">
+              Contents{' '}
+              <button
+                data-contents-toggle
+                aria-controls="contents-list"
+                aria-expanded="true"
+              >
+                hide
+              </button>
+            </div>
+            <div id="contents-list">
+              <a href="#wiki:top" class="is-active">
+                (Top)
+              </a>
+              {headings.map((h) => (
+                <a
+                  href={`#${h.id}`}
+                  class:list={{ 'toc-subheading': (h.depth || 2) > 2 }}
+                >
+                  {h.text}
+                </a>
+              ))}
+            </div>
+          </nav>
+        )}
+        <div class="sidebar-note">
+          <Icon name="book" size={19} />
+          <p>
+            Built from the source.
+            <br />
+            Open for everyone.
+          </p>
+        </div>
+      </aside>
+      <main
+        id="main-content"
+        class="main-content"
+        data-pagefind-body={pagefind ? true : undefined}
+      >
+        <div class="page-heading" id="wiki:top">
+          <h1
+            id={titleAnchor}
+            data-pagefind-meta={
+              pagefind ? 'title[data-search-title]' : undefined
+            }
+            data-search-title={documentTitle || title}
+          >
+            {title}
+          </h1>
+          <span class="language-label">
+            <Icon name="globe" size={16} /> English
+          </span>
+        </div>
+        <div class="article-tabs" data-pagefind-ignore>
+          <div class="tabs-left">
+            <span class="tab active">{tab}</span>
+            <a
+              class="tab"
+              href={`https://github.com/quirq-ai/wiki/discussions`}
+            >
+              Discussion <Icon name="external" size={10} />
+            </a>
+          </div>
+          <div class="tabs-right">
+            {articleView ? (
+              <a
+                class="tab active"
+                href={Astro.url.pathname}
+                data-article-view="read"
+                aria-current="page"
+              >
+                Read
+              </a>
+            ) : (
+              <span class="tab active">Read</span>
+            )}
+            <a
+              class="tab"
+              href={sourceUrl}
+              data-article-view={articleView ? 'source' : undefined}
+            >
+              View source
+            </a>
+            <a class="tab history-tab" href={historyUrl}>
+              View history
+            </a>
+            <details class="tools-menu">
+              <summary>
+                Tools <Icon name="chevron" size={12} />
+              </summary>
+              <div class="tools-popover">
+                <button data-print>Print this page</button>
+                <button data-copy-link>Copy page link</button>
+                <a href={sourceUrl}>
+                  View on GitHub <Icon name="external" size={12} />
+                </a>
+                <span id="tool-status" role="status"></span>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="site-subtitle" data-pagefind-ignore>
+          From Quirq Wiki, the open knowledge base
+        </div>
+        <slot />
+        <footer class="site-footer" data-pagefind-ignore>
+          <p>
+            Content snapshot:{' '}
+            <time datetime={wiki.generatedAt}>
+              {formatDate(wiki.generatedAt)}
+            </time>
+            . Generated from public repositories in{' '}
+            <a href="https://github.com/quirq-ai">quirq-ai</a>.
+          </p>
+          <p>
+            Documentation reflects the source at the time of synchronization.
+            Refer to each repository for its license and latest changes.
+          </p>
+          <div class="footer-bottom">
+            <nav aria-label="Footer">
+              <a href="/wiki/readme/">About Quirq Wiki</a>
+              <a href="/wiki/readme/#how-a-page-is-made">How it works</a>
+              <a href="https://github.com/quirq-ai/wiki">
+                View on GitHub <Icon name="external" size={11} />
+              </a>
+            </nav>
+            <span class="footer-made">
+              <Icon name="book" size={15} /> A living map of Quirq
+            </span>
+          </div>
+        </footer>
+      </main>
+      <aside
+        class="appearance-sidebar"
+        id="appearance"
+        aria-label="Reading appearance"
+      >
+        <div class="sidebar-heading appearance-heading">Appearance</div>
+        <fieldset>
+          <legend>Text</legend>
+          {[
+            ['small', 'Small'],
+            ['standard', 'Standard'],
+            ['large', 'Large'],
+          ].map(([value, label]) => (
+            <label>
+              <input
+                type="radio"
+                name="font"
+                value={value}
+                checked={value === 'standard'}
+              />
+              <span>{label}</span>
+            </label>
+          ))}
+        </fieldset>
+        <fieldset>
+          <legend>Width</legend>
+          {[
+            ['standard', 'Standard'],
+            ['wide', 'Wide'],
+          ].map(([value, label]) => (
+            <label>
+              <input
+                type="radio"
+                name="width"
+                value={value}
+                checked={value === 'standard'}
+              />
+              <span>{label}</span>
+            </label>
+          ))}
+        </fieldset>
+        <fieldset>
+          <legend>
+            Color <span class="beta-badge">beta</span>
+          </legend>
+          {[
+            ['auto', 'Automatic'],
+            ['light', 'Light'],
+            ['dark', 'Dark'],
+          ].map(([value, label]) => (
+            <label>
+              <input
+                type="radio"
+                name="theme"
+                value={value}
+                checked={value === 'light'}
+              />
+              <span>{label}</span>
+            </label>
+          ))}
+        </fieldset>
+        <div class="source-note">
+          <span class="status-dot"></span> Open source
+          <p>
+            Public knowledge.
+            <br />
+            Always connected to code.
+          </p>
+        </div>
+      </aside>
+    </div>
+    <script>
+      import '../scripts/wiki';
+    </script>
+  </body>
+</html>

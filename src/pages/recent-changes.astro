@@ -1,0 +1,85 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Icon from '../components/Icon.astro';
+import { getWiki } from '../lib/wiki';
+const wiki = await getWiki();
+const repos = [...wiki.repos].sort((a, b) =>
+  (b.pushedAt ?? '').localeCompare(a.pushedAt ?? ''),
+);
+const date = (value: string | null) =>
+  value
+    ? new Date(value).toLocaleDateString('en-GB', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric',
+        timeZone: 'UTC',
+      })
+    : 'Date unavailable';
+const groups = [...new Set(repos.map((r) => date(r.pushedAt)))];
+---
+
+<WikiLayout title="Recent changes" active="changes" headings={[]}>
+  <p class="page-introduction">
+    Recent source activity across the Quirq ecosystem, ordered by the last push
+    recorded for each repository.
+  </p>
+  <div class="information-note">
+    <Icon name="clock" size={20} />
+    <p>
+      This is a snapshot, last synchronized on{' '}
+      <strong>{date(wiki.generatedAt)}</strong>. The dates below reflect source
+      repository pushes, not individual wiki edits.{' '}
+      <a href="https://github.com/quirq-ai/wiki/commits/main/">
+        View wiki edit history.
+      </a>
+    </p>
+  </div>
+  <div class="changes-list">
+    {groups.map((group) => (
+      <section>
+        <h2>{group}</h2>
+        <ul>
+          {repos
+            .filter((r) => date(r.pushedAt) === group)
+            .map((repo) => (
+              <li>
+                <span class="change-time">
+                  {repo.pushedAt ? (
+                    <>
+                      {new Date(repo.pushedAt).toISOString().slice(11, 16)}{' '}
+                      <span>UTC</span>
+                    </>
+                  ) : (
+                    '—'
+                  )}
+                </span>
+                <div>
+                  <a class="change-name" href={repo.href}>
+                    {repo.name}
+                  </a>
+                  <span class="change-description">{repo.description}</span>
+                  <div class="change-meta">
+                    <span>{repo.pageCount} articles</span>
+                    {repo.sha && (
+                      <>
+                        <span>·</span>
+                        <a href={`${repo.htmlUrl}/commit/${repo.sha}`}>
+                          <code>{repo.sha.slice(0, 7)}</code>
+                        </a>
+                      </>
+                    )}
+                    <span>·</span>
+                    <a
+                      href={`${repo.htmlUrl}/commits/${encodeURIComponent(repo.defaultBranch)}`}
+                    >
+                      Source history <Icon name="external" size={11} />
+                    </a>
+                  </div>
+                </div>
+              </li>
+            ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</WikiLayout>

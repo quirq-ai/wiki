@@ -6,6 +6,14 @@ Each public repo gets a folder here. Each source directory gets one markdown pag
 
 [Index](INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
 
+## Read it as a website
+
+This repository includes a Wikipedia-style interface built with Astro and TypeScript. It renders the committed documentation into static pages, with full-text search, repository browsing, source links, and adjustable reading preferences.
+
+With Node.js 24, run `npm ci` and `npm run dev` to start locally. Run `npm run build` then `npm run preview` to try the complete production site with full-text search. For Vercel, use the Astro preset, repository root, `npm run build`, and output directory `dist`.
+
+See [WEBSITE.md](WEBSITE.md) for the architecture, content pipeline, development commands, testing, and deployment guide. Generated repository pages remain the source of article content.
+
 ## Repos
 
 Public only. Forks included. Archived skipped. Private never listed. Discovery is `GET /orgs/quirq-ai/repos?type=all`, not the search API.

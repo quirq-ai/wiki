@@ -12,3 +12,11 @@ htmlcov/
 .env
 .DS_Store
 
+# Static wiki website
+node_modules/
+dist/
+.astro/
+.vercel/
+test-results/
+playwright-report/
+.env.*

@@ -1,0 +1,50 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Icon from '../components/Icon.astro';
+---
+
+<WikiLayout title="Search" tab="Search">
+  <p class="page-introduction">
+    Find a repository, source directory, or documented file across Quirq Wiki.
+    Put a phrase in quotation marks to search for an exact match.
+  </p>
+  <form
+    action="/search/"
+    class="search-page-form"
+    data-search-form
+    role="search"
+  >
+    <label for="search-query" class="visually-hidden">
+      Search articles
+    </label>
+    <Icon name="search" />
+    <input
+      type="search"
+      id="search-query"
+      name="q"
+      placeholder="Search the knowledge base"
+      autocomplete="off"
+    />
+    <button class="wiki-button primary-button" type="submit">
+      Search
+    </button>
+  </form>
+  <p class="search-status" id="search-status" role="status" aria-live="polite">
+    Enter a search term to explore the wiki.
+  </p>
+  <div id="search-results" class="search-results"></div>
+  <button class="wiki-button" id="search-more" hidden>
+    Show more results
+  </button>
+  <noscript>
+    <div class="information-note">
+      <p>
+        Full-text search needs JavaScript. You can still browse the complete{' '}
+        <a href="/repositories/">repository directory</a> and every article.
+      </p>
+    </div>
+  </noscript>
+</WikiLayout>
+<script>
+  import '../scripts/search';
+</script>

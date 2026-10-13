@@ -1,0 +1,18 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+---
+
+<WikiLayout title="Article not found">
+  <div class="not-found">
+    <span class="not-found-number">404</span>
+    <h2>This page is still uncharted.</h2>
+    <p>
+      The article may have moved, or its source directory may no longer be part
+      of the wiki.
+    </p>
+    <a class="wiki-button primary-button" href="/repositories/">
+      Browse repositories
+    </a>
+    <a href="/search/">Search the wiki →</a>
+  </div>
+</WikiLayout>

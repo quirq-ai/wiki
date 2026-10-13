@@ -29,6 +29,12 @@ RESERVED_TOP_LEVEL = frozenset(
         "tests",
         "examples",
         "scripts",
+        "src",
+        "public",
+        "node_modules",
+        "dist",
+        ".astro",
+        ".vercel",
     }
 )
 

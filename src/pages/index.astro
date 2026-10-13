@@ -1,0 +1,303 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Icon from '../components/Icon.astro';
+import { getWiki } from '../lib/wiki';
+const wiki = await getWiki();
+const repositoriesByName = new Map(wiki.repos.map((repo) => [repo.name, repo]));
+const articlesBySlug = new Map(wiki.pages.map((page) => [page.slug, page]));
+const featured = repositoriesByName.get('xo-space');
+const galileo = repositoriesByName.get('galileo');
+const galileoSource = articlesBySlug.get('galileo/src');
+const featuredLinks = [
+  { slug: 'xo-space/space_ui', label: 'User interface' },
+  {
+    slug: 'xo-space/services__cowork_agent__adapters',
+    label: 'Agent adapters',
+  },
+  { slug: 'xo-space/services', label: 'Services' },
+].flatMap((link) => {
+  const page = articlesBySlug.get(link.slug);
+  return page ? [{ href: page.href, label: link.label }] : [];
+});
+const latest = [...wiki.repos]
+  .sort((a, b) => (b.pushedAt ?? '').localeCompare(a.pushedAt ?? ''))
+  .slice(0, 4);
+const languageGroups = [
+  ...new Set(
+    wiki.repos
+      .map((r) => r.language)
+      .filter((language): language is string => Boolean(language)),
+  ),
+];
+const topics = [
+  {
+    title: 'Applications & interfaces',
+    icon: 'globe',
+    names: ['xo-space', 'quirq_ai', 'ui', 'website'],
+  },
+  {
+    title: 'Agents & intelligence',
+    icon: 'code',
+    names: ['agent-skills', 'xo-cowork-api', 'research', 'euler'],
+  },
+  {
+    title: 'Tools & infrastructure',
+    icon: 'folder',
+    names: ['galileo', 'setup', 'environment', 'monitoring'],
+  },
+]
+  .map((topic) => ({
+    ...topic,
+    repositories: topic.names.flatMap((name) => {
+      const repo = repositoriesByName.get(name);
+      return repo ? [repo] : [];
+    }),
+  }))
+  .filter((topic) => topic.repositories.length > 0);
+const headings = [
+  ...(featured ? [{ id: 'featured', text: 'Featured repository' }] : []),
+  ...(topics.length ? [{ id: 'explore', text: 'Explore by topic' }] : []),
+  ...(galileo ? [{ id: 'discover', text: 'From the repositories' }] : []),
+  { id: 'about', text: 'About this wiki' },
+];
+const shortDate = (date: string | null) =>
+  date
+    ? new Date(date).toLocaleDateString('en-GB', {
+        day: 'numeric',
+        month: 'short',
+        timeZone: 'UTC',
+      })
+    : 'Unknown';
+---
+
+<WikiLayout title="Main Page" active="home" tab="Main Page" headings={headings}>
+  <section class="welcome-panel" aria-labelledby="welcome-title">
+    <div>
+      <h2 id="welcome-title">
+        Welcome to <a href="/wiki/readme/">Quirq Wiki</a>
+      </h2>
+      <p>
+        The open knowledge base for the{' '}
+        <a href="https://github.com/quirq-ai">Quirq</a> ecosystem.
+      </p>
+      <p class="welcome-small">
+        A place to explore the code, connect the dots, and understand what lives
+        where.
+      </p>
+    </div>
+    <div class="welcome-stats">
+      <a href="/repositories/">
+        <strong>{wiki.repos.length}</strong>
+        <span>repositories</span>
+      </a>
+      <a href="/wiki/index/">
+        <strong>{wiki.pages.length.toLocaleString('en-US')}</strong>
+        <span>wiki articles</span>
+      </a>
+      <div>
+        <strong>{wiki.totalFiles.toLocaleString('en-US')}</strong>
+        <span>files documented</span>
+      </div>
+    </div>
+  </section>
+  <div class="home-columns">
+    <div class="home-column">
+      {featured && (
+        <section class="portal-panel green-panel" id="featured">
+          <h2 class="panel-heading">
+            <Icon name="book" size={19} /> Featured repository
+          </h2>
+          <div class="panel-body">
+            <div class="featured-intro">
+              <div>
+                <span class="eyebrow">THE QUIRQ ECOSYSTEM</span>
+                <h3>
+                  <a href={featured.href}>XO Space</a>
+                </h3>
+                <p class="feature-lead">{featured.description}</p>
+              </div>
+              <div class="xo-emblem" aria-hidden="true">
+                <span>xo</span>
+                <span class="orbit-dot dot-one"></span>
+                <span class="orbit-dot dot-two"></span>
+                <span class="orbit-dot dot-three"></span>
+              </div>
+            </div>
+            <p>
+              The <a href={featured.href}>xo-space</a> repository brings
+              together its user interface, agent adapters, services, and tools.
+              Explore the directory articles to see each file’s role and follow
+              it back to the source.
+            </p>
+            <div class="feature-facts">
+              {featured.language && (
+                <span>
+                  <span
+                    class:list={[
+                      'language-dot',
+                      featured.language.toLowerCase(),
+                    ]}
+                  ></span>
+                  {featured.language}
+                </span>
+              )}
+              <span>{featured.pageCount.toLocaleString()} articles</span>
+              <span>{featured.fork ? 'Public fork' : 'Public'}</span>
+            </div>
+            {featuredLinks.length > 0 && (
+              <div class="article-paths">
+                {featuredLinks.map((link, index) => (
+                  <>
+                    {index > 0 && <span>·</span>}
+                    <a href={link.href}>{link.label}</a>
+                  </>
+                ))}
+              </div>
+            )}
+            <a class="read-more" href={featured.href}>
+              Explore the repository <Icon name="arrow" size={15} />
+            </a>
+          </div>
+        </section>
+      )}
+      {topics.length > 0 && (
+        <section class="portal-panel green-panel" id="explore">
+          <h2 class="panel-heading">
+            <Icon name="globe" size={19} /> Explore by topic
+          </h2>
+          <div class="panel-body topic-body">
+            {topics.map((topic) => (
+              <div class="topic-row">
+                <span class="topic-icon">
+                  <Icon name={topic.icon} size={21} />
+                </span>
+                <div>
+                  <h3>{topic.title}</h3>
+                  <p>
+                    {topic.repositories.map((repo, i) => (
+                      <>
+                        <a href={repo.href}>{repo.name}</a>
+                        {i < topic.repositories.length - 1 && (
+                          <span class="dot-separator"> · </span>
+                        )}
+                      </>
+                    ))}
+                  </p>
+                </div>
+              </div>
+            ))}
+            <div class="panel-bottom">
+              <a href="/repositories/">
+                Browse all {wiki.repos.length} repositories{' '}
+                <Icon name="arrow" size={14} />
+              </a>
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+    <div class="home-column">
+      <section class="portal-panel blue-panel" id="recent">
+        <h2 class="panel-heading">
+          <Icon name="clock" size={19} /> Recently updated
+        </h2>
+        <div class="panel-body">
+          <p class="panel-intro">
+            The latest source activity in this snapshot.
+          </p>
+          <ul class="recent-list">
+            {latest.map((r) => (
+              <li>
+                <div class="recent-date">{shortDate(r.pushedAt)}</div>
+                <div>
+                  <a href={r.href}>{r.name}</a>
+                  <p>
+                    {r.description ||
+                      `Explore the ${r.name} repository and its source directories.`}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div class="panel-bottom">
+            <a href="/recent-changes/">
+              View all recent changes <Icon name="arrow" size={14} />
+            </a>
+          </div>
+        </div>
+      </section>
+      {galileo && (
+        <section class="portal-panel blue-panel" id="discover">
+          <h2 class="panel-heading">
+            <Icon name="search" size={18} /> From the repositories
+          </h2>
+          <div class="panel-body">
+            <h3 class="discovery-title">
+              Meet <a href={galileo.href}>galileo</a>
+            </h3>
+            <p>{galileo.description}</p>
+            {galileoSource && (
+              <p>
+                Its <a href={galileoSource.href}>source directory</a> documents
+                the server, source registry, file serving, and response
+                transformations.
+              </p>
+            )}
+            <a class="read-more" href={galileoSource?.href ?? galileo.href}>
+              Take a look inside <Icon name="arrow" size={14} />
+            </a>
+          </div>
+        </section>
+      )}
+    </div>
+  </div>
+  <section class="portal-panel neutral-panel" id="about">
+    <h2 class="panel-heading">
+      <Icon name="book" size={19} /> A map of what lives where
+    </h2>
+    <div class="panel-body about-panel">
+      <div>
+        <p>
+          <strong>Quirq Wiki is built from the code itself.</strong> Each public
+          repository gets a home here. Each source directory becomes an article,
+          with a description of the files it contains and direct links to
+          GitHub.
+        </p>
+        <p>
+          Explore {wiki.repos.length} repositories across{' '}
+          {languageGroups.length} primary languages. Content is generated from
+          the public source and refreshed by the wiki’s sync workflow.
+        </p>
+        <a href="/wiki/readme/">
+          Learn how this wiki works <Icon name="arrow" size={14} />
+        </a>
+      </div>
+      <div
+        class="convention-diagram"
+        aria-label="Repository to directory to documented files"
+      >
+        <div>
+          <Icon name="folder" size={17} />
+          <span>Repository</span>
+        </div>
+        <span class="diagram-connector"></span>
+        <div>
+          <Icon name="folder" size={17} />
+          <span>Source directory</span>
+        </div>
+        <span class="diagram-connector"></span>
+        <div>
+          <Icon name="file" size={17} />
+          <span>Files & explanations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="category-box">
+    <span>Categories:</span> <a href="/repositories/">Quirq ecosystem</a>
+    <span class="category-divider">|</span>
+    <a href="/wiki/index/">Public repositories</a>
+    <span class="category-divider">|</span>
+    <a href="/wiki/readme/">Documentation</a>
+  </div>
+</WikiLayout>
