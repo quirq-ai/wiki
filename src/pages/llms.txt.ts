@@ -11,7 +11,7 @@ export const GET: APIRoute = async ({ site }) => {
   const sections = [
     '# Quirq Wiki',
     '',
-    `> Self evolving knowledge base for the ${wiki.org} GitHub organization: one Markdown article per source directory, regenerated from the code. Every article is also served as Markdown at /wiki/<path>.md.`,
+    `> Self evolving knowledge base for the ${wiki.org} GitHub organization: one Markdown article per source directory, regenerated from the code. Every article is also served as Markdown at /wiki/<path>.md. Relative links inside an article follow the wiki repository's layout; one that is not served here resolves under https://github.com/quirq-ai/wiki/blob/main/.`,
     '',
     `Snapshot: ${wiki.generatedAt}. Repositories: ${wiki.repos.length}. Articles: ${wiki.pages.length}.`,
     '',

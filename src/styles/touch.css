@@ -47,6 +47,7 @@
   :root .article-breadcrumb a,
   :root .recent-list a,
   :root .change-meta a,
+  :root .activity-list .change-name,
   :root .activity-repos a,
   :root .file-metadata a,
   :root .site-footer nav a,

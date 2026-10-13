@@ -82,3 +82,44 @@ test('wiki links into _activity become site routes', () => {
   );
   assert.equal(activityRoute('_activity/state.json'), undefined);
 });
+
+test('bad repository names and bot state commits are left out', () => {
+  assert.equal(parseRecord(record({ repo: 'quirq-ai/..' })), undefined);
+  assert.equal(parseRecord(record({ repo: 'quirq-ai/a b' })), undefined);
+  const commit = (title: string, branches: string[]) =>
+    parseRecord(
+      record({
+        id: 'quirq-ai/demo:commit:abc',
+        kind: 'commit',
+        title,
+        details: { branches },
+      }),
+    );
+  assert.equal(commit('[wiki-bot] regenerate org wiki', ['main']), undefined);
+  assert.equal(commit('tree-status: open', ['tree-status']), undefined);
+  assert.equal(commit('record advance', ['release-state']), undefined);
+  assert.equal(commit('Fix the build', ['main'])?.kind, 'commit');
+  assert.equal(commit('Fix the build', ['results', 'main'])?.kind, 'commit');
+});
+
+test('runs recorded before and after a rename are one entry', () => {
+  const run = (repo: string, updated: string) =>
+    parseRecord(
+      record({
+        id: `${repo}:workflow:9:${updated}:abc`,
+        kind: 'workflow',
+        repo,
+        occurred_at: updated,
+        details: { conclusion: 'success' },
+      }),
+    )!;
+  const { items } = buildActivity(
+    [
+      run('quirq-ai/depot', '2026-10-07T12:00:00Z'),
+      run('quirq-ai/qq', '2026-10-07T13:00:00Z'),
+    ],
+    null,
+  );
+  assert.equal(items.length, 1);
+  assert.equal(items[0]?.repo, 'qq');
+});

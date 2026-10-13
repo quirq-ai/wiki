@@ -130,3 +130,25 @@ def test_visibility_change_before_save_discards_collection(tmp_path, monkeypatch
     result = activity.generate_activity(wiki_root=tmp_path, until=NOW)
     assert result.failed == {"quirq-ai/alpha": "No longer public"}
     assert not saved
+
+
+def test_rate_limit_stops_the_run_and_later_repos_keep_their_cursors(tmp_path, monkeypatch):
+    from urllib.error import HTTPError
+
+    monkeypatch.setattr(activity, "discover_activity_repos", lambda *a, **k: ["alpha", "beta", "gamma"])
+    asked = []
+
+    def collect(**kwargs):
+        asked.append(kwargs["repo"])
+        if kwargs["repo"] == "beta":
+            error = RuntimeError("GitHub API 403 for https://api.github.com/x: API rate limit exceeded")
+            error.__cause__ = HTTPError("https://api.github.com/x", 403, "forbidden", {}, None)
+            raise error
+        return {"records": [], "pending_runs": []}
+
+    monkeypatch.setattr(activity, "collect_activity", collect)
+    result = activity.generate_activity(wiki_root=tmp_path, until=NOW)
+    assert asked == ["alpha", "beta"]
+    assert list(result.failed) == ["quirq-ai/beta"]
+    state = json.loads((tmp_path / "_activity" / "state.json").read_text(encoding="utf-8"))
+    assert "quirq-ai/gamma" not in state["repos"]

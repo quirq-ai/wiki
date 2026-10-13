@@ -42,6 +42,18 @@ const KINDS = new Set<ActivityKind>([
   'workflow',
 ]);
 
+/** Branches that only bots write state to; commits there are not news. */
+const STATE_BRANCHES = new Set([
+  'tree-status',
+  'results',
+  'release-state',
+  'ledger',
+  'perf-data',
+]);
+
+/** A repository name as GitHub allows it, never `.` or `..`. */
+const REPO_NAME = /^(?!\.\.?$)[A-Za-z0-9_.-]+$/;
+
 /** Repositories renamed since their records were collected. */
 const FORMER_NAMES: Readonly<Record<string, string>> = { depot: 'qq' };
 
@@ -108,6 +120,18 @@ function describe(
   return { action: '', failed: false };
 }
 
+/** The wiki's own regeneration commits and bot writes to state branches. */
+function isBotStateCommit(
+  title: string | null,
+  details: Record<string, unknown>,
+): boolean {
+  if (title?.startsWith('[wiki-bot]')) return true;
+  const branches = Array.isArray(details.branches)
+    ? details.branches.filter((b): b is string => typeof b === 'string')
+    : [];
+  return branches.length > 0 && branches.every((b) => STATE_BRANCHES.has(b));
+}
+
 /** Parse one stored record; anything malformed or off GitHub is skipped. */
 export function parseRecord(line: string): ActivityItem | undefined {
   let record: unknown;
@@ -132,6 +156,10 @@ export function parseRecord(line: string): ActivityItem | undefined {
     r.details && typeof r.details === 'object'
       ? (r.details as Record<string, unknown>)
       : {};
+  const repo = repoFull.split('/').pop()!;
+  if (!REPO_NAME.test(repo)) return undefined;
+  if (kind === 'commit' && isBotStateCommit(text(r.title), details))
+    return undefined;
   const number =
     typeof details.number === 'number' && Number.isInteger(details.number)
       ? details.number
@@ -139,7 +167,7 @@ export function parseRecord(line: string): ActivityItem | undefined {
   return {
     id,
     kind,
-    repo: currentRepoName(repoFull.split('/').pop()!),
+    repo: currentRepoName(repo),
     title: text(r.title) ?? KIND_LABELS[kind],
     url,
     actor: text(r.actor),
@@ -157,8 +185,9 @@ function subjectKey(item: ActivityItem): string {
   )
     return `${item.repo}:${item.kind}:${item.number}`;
   // Runs and releases are stored once per revision: repo:kind:id:updated_at:hash.
+  // The current repo name is used, so records from before a rename still merge.
   if (item.kind === 'workflow' || item.kind === 'release')
-    return item.id.split(':').slice(0, 3).join(':');
+    return `${item.repo}:${item.kind}:${item.id.split(':')[2]}`;
   return item.id;
 }
 

@@ -70,17 +70,25 @@ The existing `quirq_wiki/` package remains the documentation generator. The webs
 
 ## Routes and interactions
 
-| URL                     | Content                                                                                          |
-| ----------------------- | ------------------------------------------------------------------------------------------------ |
-| `/`                     | Main page with an introduction, repository entry points, and snapshot information.               |
-| `/repositories/`        | Directory of repositories from the manifest.                                                     |
-| `/recent-changes/`      | Repository push dates recorded in the current snapshot. This is not a live GitHub activity feed. |
-| `/search/?q=router`     | Search results for a shareable query.                                                            |
-| `/wiki/readme/`         | This repository's original README content.                                                       |
-| `/wiki/index/`          | The generated organization-wide index.                                                           |
-| `/wiki/galileo/_index/` | An example repository overview.                                                                  |
-| `/wiki/galileo/src/`    | An example directory article.                                                                    |
-| `/articles.json`        | A compact article directory used by random navigation and fallback search.                       |
+| URL                     | Content                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------- |
+| `/`                     | Main page with an introduction, repository entry points, and snapshot information.                |
+| `/repositories/`        | Directory of repositories from the manifest.                                                      |
+| `/recent-changes/`      | Repository push dates recorded in the current snapshot. This is not a live GitHub activity feed.  |
+| `/search/?q=router`     | Search results for a shareable query.                                                             |
+| `/wiki/readme/`         | This repository's original README content.                                                        |
+| `/wiki/index/`          | The generated organization-wide index.                                                            |
+| `/wiki/galileo/_index/` | An example repository overview.                                                                   |
+| `/wiki/galileo/src/`    | An example directory article.                                                                     |
+| `/articles.json`        | A compact article directory used by random navigation and fallback search.                        |
+| `/activity/`            | Commits, pull requests, issues, releases and failed runs from the last 7 days, from `_activity/`. |
+| `/activity/qq/`         | One repository's activity for the last 30 days, linked from its repository page.                  |
+| `/wiki/galileo/src.md`  | An article's committed Markdown, for agents (every article has one).                              |
+| `/llms.txt`             | A Markdown map of every article's Markdown twin, for agents.                                      |
+| `/robots.txt`           | Allows all crawlers and names the sitemap.                                                        |
+| `/sitemap.xml`          | Every page, activity page and article.                                                            |
+
+The Tools menu on each page copies a link for agents (the article's `.md` twin) and opens Claude or ChatGPT with a prompt that names that link; opening one also copies the link.
 
 The article's View source tab shows its original committed Markdown within the site and supports browser back navigation. Without JavaScript, its link opens the source file on GitHub. Individual file source links open the original upstream files, and View history opens the article's GitHub commit history. Article edits belong in the upstream source repository or the generator; generated Markdown is overwritten by a later sync. The root `README.md` can be edited, but its generated repository-map markers must be preserved.
 
@@ -153,7 +161,7 @@ Import this Git repository into Vercel and configure the project as follows:
 
 `vercel.json` sends a Content-Security-Policy. Inline scripts are allowed only by their SHA-256 hash, so after changing an inline script, run `npm run build && npm run test:site`: the test prints any hash missing from `script-src`, and the new hash goes into `vercel.json`. Pagefind needs `'wasm-unsafe-eval'`; Mermaid needs inline styles.
 
-This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Avoid using a temporary preview URL as the permanent canonical origin.
+This follows [Astro's static deployment guidance for Vercel](https://docs.astro.build/en/guides/deploy/vercel/); a server adapter is unnecessary. No environment variables or API keys are required. Optionally set `SITE_URL` to the final absolute origin, for example `https://wiki.example.com`, to emit canonical page URLs. Without it, the build uses Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, which Vercel sets on every build, so `llms.txt`, `robots.txt` and the sitemap carry absolute links. Avoid using a temporary preview URL as the permanent canonical origin.
 
 Commit `package-lock.json` so local development, continuous integration, and Vercel use the same dependency versions. Deploy the generated `dist/` output; the source snapshots and the Python package are inputs to the build, not files served to readers. The site includes a static 404 page for unknown URLs.
 

@@ -294,20 +294,23 @@ document
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     // Also copy the link, so it can be pasted if the agent drops the prompt.
-    link.addEventListener('click', () => {
-      void copyForAgents(link);
+    link.addEventListener('click', async () => {
+      if (await copyForAgents(link))
+        announce('Link for agents copied too, in case the prompt is dropped.');
     });
   });
 
 document
   .querySelectorAll<HTMLElement>('[data-agent-copy]')
   .forEach((button) => {
+    // Copying needs this script, so the button only shows once it runs.
+    button.hidden = false;
     button.addEventListener('click', async (event) => {
       event.preventDefault();
       announce(
         (await copyForAgents(button))
           ? 'Link for agents copied to clipboard.'
-          : 'Could not copy the link. You can copy it from the address bar.',
+          : `Could not copy the link. Agents can read ${agentLink(button)}`,
       );
     });
   });

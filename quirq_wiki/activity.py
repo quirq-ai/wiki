@@ -11,6 +11,7 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode, quote
 
 from quirq_wiki.activity_collect import collect_activity
@@ -130,6 +131,14 @@ class ActivityResult:
     records_seen: int
 
 
+def _is_rate_limit(exc: BaseException) -> bool:
+    """GitHub's primary and secondary rate limits: a 429, or a 403 that says so."""
+    cause = exc.__cause__
+    if not isinstance(cause, HTTPError):
+        return False
+    return cause.code == 429 or (cause.code == 403 and "rate limit" in str(exc).lower())
+
+
 def _link_existing_indexes(wiki_root: Path, state: dict) -> list[Path]:
     """Expose the archive without regenerating every source-code page."""
     changed = []
@@ -229,9 +238,18 @@ def generate_activity(
                 result.failed[full_name] = error
                 if progress:
                     progress(f"  FAILED: {error}")
+                rate_limited = _is_rate_limit(exc)
+            else:
+                rate_limited = False
             state["repos"][full_name] = checkpoint
             state["updated_at"] = utc_timestamp(until)
             _write_json(state_path, state)
+            if rate_limited:
+                # Every later request would fail too. The repositories not reached
+                # keep their cursors and are collected on the next run.
+                if progress:
+                    progress(f"  Rate limited: stopping with {len(names) - index} repositories left for the next run")
+                break
         result.written.extend(write_activity_indexes(wiki_root, state))
         result.written.extend(_link_existing_indexes(wiki_root, state))
         result.written.append(state_path)

@@ -150,8 +150,11 @@ def collect_activity(
 
     Callers must verify repository visibility before invoking this function.
     ``request`` is an optional injectable equivalent of ``github_request``.
-    Workflow enumeration is deliberately unfiltered: creation-time filters miss
-    updates to old runs, and GitHub caps filtered searches at 1,000 results.
+    Workflow runs are listed unfiltered, newest first, and paging stops after a
+    full page in which every run was created more than a day before ``since``
+    and last updated before it: a creation-time filter would be capped by GitHub
+    at 1,000 results. Older runs still updating at the last poll are re-read
+    from ``pending_runs``; a re-run of a run deeper in history can be missed.
     """
     since, until = _utc(since), _utc(until)
     if since > until:
@@ -241,12 +244,20 @@ def collect_activity(
             raise ValueError("Invalid activity field: workflow.title")
         records.append(_record(repository=repository, kind="workflow", resource=resource, occurred=occurred, actor=_actor(item.get("triggering_actor") or item.get("actor")), title=title, url=_text(item, "html_url"), details=details))
 
-    # Only runs created in this window (plus a day of slack) are listed; older runs
-    # that were still updating at the last poll are re-read from `pending` below.
-    # Without the filter every collection pages through the repo's whole history.
-    created = f">={(since - timedelta(days=1)).date().isoformat()}"
-    for item in _pages(fetch, base, "actions/runs", token=token, params={"created": created}, result_key="workflow_runs"):
+    # GitHub lists runs newest first. Stop after a full page of runs that are all
+    # older than the window, instead of paging through the repo's whole history;
+    # older runs still updating at the last poll are re-read from `pending` below.
+    cutoff = since - timedelta(days=1)
+    page_is_old = True
+    for index, item in enumerate(_pages(fetch, base, "actions/runs", token=token, result_key="workflow_runs")):
         add_workflow(item)
+        created = _timestamp(item.get("created_at"), "workflow.created_at")
+        updated = _timestamp(item.get("updated_at"), "workflow.updated_at")
+        page_is_old = page_is_old and created < cutoff and updated < since
+        if index % 100 == 99:
+            if page_is_old:
+                break
+            page_is_old = True
     for run_id in sorted(pending - workflow_ids):
         try:
             item = _object(fetch(f"{base}/actions/runs/{run_id}", token=token), "workflow run")

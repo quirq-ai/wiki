@@ -9,7 +9,8 @@ export async function getStaticPaths() {
 }
 
 // The committed Markdown, unchanged, so agents read exactly what the article
-// renders. Relative links point at sibling .md files, which are served here too.
+// renders. Relative links are the wiki repository's own: most resolve to another
+// twin here, but some point at files that only exist in the repository on GitHub.
 export const GET: APIRoute = ({ props }) =>
   new Response((props as { page: WikiPage }).page.raw, {
     headers: { 'Content-Type': 'text/markdown; charset=utf-8' },

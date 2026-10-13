@@ -171,6 +171,8 @@ test('hidden source directories serve correctly and articles work without JavaSc
   await expect(page.locator('.structured-article')).toContainText(
     'createGalileo',
   );
+  // Copying needs JavaScript, so the button stays hidden without it.
+  await expect(page.locator('[data-agent-copy]')).toHaveAttribute('hidden', '');
   await context.close();
 });
 

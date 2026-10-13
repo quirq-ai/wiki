@@ -84,13 +84,24 @@ def test_empty_commit_message_does_not_block_repository():
     assert result["records"][0]["title"] == "(empty commit message)"
 
 
-def test_workflow_runs_are_listed_only_from_the_window():
-    seen = []
+def test_workflow_runs_page_newest_first_and_stop_before_the_window():
+    # 1,250 runs inside the window (more than GitHub's 1,000-result cap on a
+    # filtered search), then older ones that must not be fetched.
+    def run(n, created):
+        return {"id": n, "status": "completed", "created_at": created, "updated_at": created, "name": "CI", "html_url": f"https://github.com/quirq-ai/demo/actions/runs/{n}"}
+
+    inside = [run(10_000 - n, STAMP) for n in range(1250)]
+    older = [run(300 - n, "2026-09-20T00:00:00Z") for n in range(300)]
+    everything = inside + older
+    asked = []
 
     def runs(page, query):
-        seen.append(query.get("created"))
-        return {"workflow_runs": []}
+        asked.append((page, query.get("created")))
+        return {"workflow_runs": everything[(page - 1) * 100 : page * 100]}
 
-    collect({"actions/runs": runs})
-    # A day of slack before `since`; older updating runs come from `pending`.
-    assert seen == [[">=2026-09-30"]]
+    result = collect({"actions/runs": runs})
+    workflows = [r for r in result["records"] if r["kind"] == "workflow"]
+    assert len(workflows) == 1250
+    assert all(created is None for _, created in asked)
+    # Pages 1-13 hold the window, page 14 is the first all-old page; 15+ are never asked for.
+    assert [page for page, _ in asked] == list(range(1, 15))
