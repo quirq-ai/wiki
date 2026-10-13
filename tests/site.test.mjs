@@ -262,3 +262,26 @@ test('every inline script is allowed by the Content-Security-Policy hash list', 
     'Add these inline script hashes to script-src in vercel.json',
   );
 });
+
+test('only the wiki itself and quirq.dev may frame its pages', () => {
+  const vercel = JSON.parse(
+    readFileSync(path.join(root, 'vercel.json'), 'utf8'),
+  );
+  const csp = vercel.headers
+    .flatMap((rule) => rule.headers)
+    .find((header) => header.key === 'Content-Security-Policy')?.value;
+  const ancestors = csp
+    .split(';')
+    .map((directive) => directive.trim())
+    .find((directive) => directive.startsWith('frame-ancestors '));
+  assert.equal(
+    ancestors,
+    "frame-ancestors 'self' https://quirq.dev https://www.quirq.dev",
+  );
+  assert.ok(
+    !vercel.headers
+      .flatMap((rule) => rule.headers)
+      .some((header) => header.key.toLowerCase() === 'x-frame-options'),
+    'X-Frame-Options would refuse quirq.dev in browsers that read it',
+  );
+});

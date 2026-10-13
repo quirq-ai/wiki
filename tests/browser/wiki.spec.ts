@@ -176,6 +176,27 @@ test('hidden source directories serve correctly and articles work without JavaSc
   await context.close();
 });
 
+test("inside another site's frame, links to other sites open in a new tab", async ({
+  page,
+  context,
+}) => {
+  await page.setContent(
+    '<iframe src="http://127.0.0.1:4321/wiki/galileo/src/" style="width:1200px;height:800px"></iframe>',
+  );
+  const frame = page.frameLocator('iframe');
+  await expect(frame.locator('h1')).toBeVisible();
+  const github = frame.locator('.tools-popover a[href^="https://github.com/"]');
+  await frame.locator('.tools-menu summary').click();
+  const popup = context.waitForEvent('page');
+  await github.click();
+  expect((await popup).url()).toContain('github.com');
+  // Links within the wiki stay in the frame.
+  await expect(github).toHaveAttribute('target', '_blank');
+  await frame.locator('.wordmark').first().click();
+  await expect(frame.locator('h1')).toBeVisible();
+  expect(page.frames()[1]?.url()).toBe('http://127.0.0.1:4321/');
+});
+
 test('keyboard shortcut and random article navigate successfully', async ({
   page,
 }) => {

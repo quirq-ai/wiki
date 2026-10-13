@@ -146,6 +146,32 @@ document.addEventListener('click', (event) => {
   });
 });
 
+// Inside quirq.dev's app window the wiki is in a frame. Pages on other sites
+// open in a new tab there, since most of them (GitHub among them) refuse frames.
+let framed: boolean;
+try {
+  framed = window.top !== window.self;
+} catch {
+  framed = true;
+}
+if (framed) {
+  document.addEventListener(
+    'click',
+    (event) => {
+      const link =
+        event.target instanceof Element
+          ? event.target.closest('a[href]')
+          : null;
+      if (!(link instanceof HTMLAnchorElement) || link.target) return;
+      if (!/^https?:$/.test(link.protocol)) return;
+      if (link.origin === window.location.origin) return;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    },
+    true,
+  );
+}
+
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
     const open = drawers.find((drawer) =>
