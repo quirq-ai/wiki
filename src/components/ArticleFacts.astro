@@ -1,0 +1,90 @@
+---
+import Icon from './Icon.astro';
+import type { ArticleModel } from '../lib/article';
+import { formatBytes } from '../lib/presentation';
+interface Props {
+  article: ArticleModel;
+}
+const { article } = Astro.props;
+const repo = article.repository;
+const isRepository = article.kind === 'repository';
+---
+
+<aside
+  class="article-facts"
+  aria-label={isRepository ? 'Repository at a glance' : 'Directory at a glance'}
+>
+  <div class="facts-heading">
+    <Icon name={isRepository ? 'book' : 'folder'} size={19} />
+    <span>{isRepository ? 'Repository' : 'Directory'} at a glance</span>
+  </div>
+  <dl>
+    {repo && (
+      <>
+        <dt>Repository</dt>
+        <dd>
+          <a href={repo.href}>{repo.name}</a>
+        </dd>
+      </>
+    )}
+    {!isRepository && (
+      <>
+        <dt>Location</dt>
+        <dd class="facts-path">
+          {article.directory === '.' ? 'Repository root' : article.directory}
+        </dd>
+      </>
+    )}
+    <dt>{isRepository ? 'Documented files' : 'Files in this folder'}</dt>
+    <dd>
+      {(isRepository
+        ? repo?.fileCount
+        : article.stats.fileCount
+      )?.toLocaleString()}
+    </dd>
+    {isRepository && repo && (
+      <>
+        <dt>Directory articles</dt>
+        <dd>{repo.pageCount - 1}</dd>
+      </>
+    )}
+    {!isRepository && article.stats.knownSizeFiles > 0 && (
+      <>
+        <dt>
+          {article.stats.knownSizeFiles === article.stats.fileCount
+            ? 'Combined file size'
+            : 'Total known size'}
+        </dt>
+        <dd>{formatBytes(article.stats.totalBytes)}</dd>
+      </>
+    )}
+    {isRepository && repo?.language && (
+      <>
+        <dt>Primary language</dt>
+        <dd>{repo.language}</dd>
+      </>
+    )}
+    {!isRepository && article.stats.languages.length > 0 && (
+      <>
+        <dt>Languages</dt>
+        <dd>{article.stats.languages.map((item) => item.name).join(', ')}</dd>
+      </>
+    )}
+    {repo && (
+      <>
+        <dt>Branch</dt>
+        <dd>
+          <code>{repo.defaultBranch}</code>
+        </dd>
+        <dt>Visibility</dt>
+        <dd>{repo.fork ? 'Public fork' : 'Public repository'}</dd>
+      </>
+    )}
+  </dl>
+  {(article.sourceUrl || repo) && (
+    <a class="facts-source" href={article.sourceUrl || repo!.htmlUrl}>
+      Open {isRepository ? 'repository' : 'directory'} on GitHub{' '}
+      <Icon name="external" size={12} />
+    </a>
+  )}
+</aside>

@@ -1,0 +1,113 @@
+---
+import Icon from './Icon.astro';
+interface Directory {
+  sourceFolder: string;
+  fileCount: number;
+  href: string;
+}
+interface Props {
+  directories: Directory[];
+  repository: string;
+}
+const { directories, repository } = Astro.props;
+---
+
+<section class="directory-browser" aria-labelledby="wiki:directories">
+  <div class="article-section-heading">
+    <h2 id="wiki:directories">Repository contents</h2>
+    <a
+      class="section-permalink"
+      href="#wiki:directories"
+      aria-label="Link to repository contents"
+    >
+      §
+    </a>
+  </div>
+  <p class="section-description">
+    Choose a folder to read its file descriptions. Counts refer to files
+    directly inside each folder.
+  </p>
+  <div class="folder-searchbar" data-pagefind-ignore>
+    <label>
+      <Icon name="search" size={18} />
+      <input
+        type="search"
+        data-directory-filter
+        aria-label="Filter directories"
+        placeholder={`Find a folder in ${repository}…`}
+      />
+    </label>
+    <span data-directory-count role="status">
+      {directories.length} folders
+    </span>
+  </div>
+  <div class="directory-table-wrap">
+    <table class="directory-index">
+      <caption class="visually-hidden">
+        Documented directories in{repository}
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Directory</th>
+          <th scope="col">Files</th>
+          <th scope="col">
+            <span class="visually-hidden">Read article</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {directories.map((dir) => {
+          const isRoot = ['.', '(repository root)', ''].includes(
+            dir.sourceFolder,
+          );
+          const segments = dir.sourceFolder.split('/');
+          const name = isRoot ? 'Repository files' : segments.at(-1);
+          const parent =
+            segments.length > 1 ? segments.slice(0, -1).join('/') : '';
+          return (
+            <tr data-directory-row data-directory-path={dir.sourceFolder}>
+              <td>
+                <a href={dir.href} class="directory-entry">
+                  <Icon name={isRoot ? 'file' : 'folder'} size={18} />
+                  <span>
+                    <span class="directory-entry-name">{name}</span>
+                    {parent && (
+                      <span class="directory-entry-parent">{parent}/</span>
+                    )}
+                    {isRoot && (
+                      <span class="directory-entry-parent">
+                        Files at the repository root
+                      </span>
+                    )}
+                  </span>
+                </a>
+              </td>
+              <td class="file-count">
+                {dir.fileCount}
+                <span>{dir.fileCount === 1 ? 'file' : 'files'}</span>
+              </td>
+              <td>
+                <a
+                  href={dir.href}
+                  class="directory-read"
+                  aria-label={`Read ${dir.sourceFolder}`}
+                >
+                  <Icon name="arrow" size={16} />
+                </a>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+  <div class="directory-no-results" data-directory-empty hidden>
+    <p>No folders match this search.</p>
+    <button type="button" class="text-button" data-directory-reset>
+      Clear search
+    </button>
+  </div>
+  <button type="button" class="directory-load-more" data-directory-more hidden>
+    Show more folders <Icon name="chevron" size={15} />
+  </button>
+</section>

@@ -1,0 +1,184 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Icon from '../components/Icon.astro';
+import { getWiki } from '../lib/wiki';
+const wiki = await getWiki();
+const languages = [
+  ...new Set(
+    wiki.repos
+      .map((r) => r.language)
+      .filter((language): language is string => Boolean(language)),
+  ),
+].sort();
+---
+
+<WikiLayout
+  title="All repositories"
+  active="repositories"
+  sourcePath="INDEX.md"
+  headings={[
+    { id: 'repository-directory', text: 'Repository directory' },
+    { id: 'reading-the-wiki', text: 'Reading the wiki' },
+  ]}
+>
+  <p class="page-introduction">
+    A directory of the <strong>{wiki.repos.length} public repositories</strong>{' '}
+    in <a href="https://github.com/quirq-ai">quirq-ai</a>. Explore a repository
+    to discover its directories, files, and the ideas behind them.
+  </p>
+  <div class="directory-summary">
+    <span>
+      <strong>{wiki.pages.length.toLocaleString()}</strong> articles
+    </span>
+    <span>
+      <strong>{wiki.totalFiles.toLocaleString()}</strong> documented files
+    </span>
+    <span>
+      <strong>{languages.length}</strong> primary languages
+    </span>
+    <span>
+      <strong>{wiki.repos.filter((r) => r.fork).length}</strong> public forks
+    </span>
+  </div>
+  <h2 class="section-title" id="repository-directory">
+    Repository directory
+  </h2>
+  <form class="directory-filters" role="search" id="repository-filters">
+    <label class="directory-search">
+      <Icon name="search" size={18} />
+      <input
+        name="filter"
+        type="search"
+        placeholder="Find a repository…"
+        aria-label="Filter repositories"
+      />
+    </label>
+    <label class="language-filter">
+      Language{' '}
+      <select name="language" aria-label="Filter by language">
+        <option value="">All languages</option>
+        {languages.map((language) => (
+          <option value={language}>{language}</option>
+        ))}
+      </select>
+    </label>
+    <span id="repository-count" role="status">
+      {wiki.repos.length} repositories
+    </span>
+  </form>
+  <div class="table-scroll">
+    <table class="repository-table">
+      <thead>
+        <tr>
+          <th scope="col">Repository</th>
+          <th scope="col">Language</th>
+          <th scope="col" class="numeric">
+            Articles
+          </th>
+          <th scope="col" class="numeric">
+            Files
+          </th>
+          <th scope="col">Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {wiki.repos.map((repo) => (
+          <tr
+            data-repository={repo.name}
+            data-language={repo.language ?? ''}
+            data-description={repo.description}
+          >
+            <td>
+              <a class="repo-table-name" href={repo.href}>
+                {repo.name}
+              </a>
+              {repo.fork && <span class="fork-badge">fork</span>}
+              <p>
+                {repo.description || 'Source directory and file documentation.'}
+              </p>
+            </td>
+            <td>
+              <span
+                class:list={['language-dot', repo.language?.toLowerCase()]}
+              ></span>
+              {repo.language || '—'}
+            </td>
+            <td class="numeric">{repo.pageCount.toLocaleString()}</td>
+            <td class="numeric">{repo.fileCount.toLocaleString()}</td>
+            <td>
+              <a href={repo.htmlUrl} aria-label={`${repo.name} on GitHub`}>
+                <Icon name="external" size={16} />
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="empty-state" id="repository-empty" hidden>
+    <h3>No matching repositories</h3>
+    <p>Try a different name or select another language.</p>
+    <button class="wiki-button" id="reset-filters">
+      Clear filters
+    </button>
+  </div>
+  <section class="wiki-prose" id="reading-the-wiki">
+    <h2>Reading the wiki</h2>
+    <p>
+      Each repository has an index of source directories. The{' '}
+      <code>_root.md</code> article describes files at the repository root;
+      every other directory has its own article. Public forks are included,
+      while archived and private repositories are excluded from this snapshot.
+    </p>
+    <p>
+      Browse the <a href="/wiki/index/">original repository index</a> or read{' '}
+      <a href="/wiki/readme/">how the wiki is generated</a>.
+    </p>
+  </section>
+</WikiLayout>
+<script>
+  const form = document.querySelector<HTMLFormElement>('#repository-filters')!;
+  const filter = form.elements.namedItem('filter') as HTMLInputElement;
+  const language = form.elements.namedItem('language') as HTMLSelectElement;
+  const rows = [
+    ...document.querySelectorAll<HTMLTableRowElement>('[data-repository]'),
+  ];
+  const params = new URLSearchParams(location.search);
+  filter.value = params.get('filter') || '';
+  language.value = params.get('language') || '';
+  function update() {
+    let count = 0;
+    for (const row of rows) {
+      const matches =
+        `${row.dataset.repository} ${row.dataset.description}`
+          .toLowerCase()
+          .includes(filter.value.toLowerCase().trim()) &&
+        (!language.value || row.dataset.language === language.value);
+      row.hidden = !matches;
+      if (matches) count++;
+    }
+    document.querySelector('#repository-count')!.textContent =
+      `${count} ${count === 1 ? 'repository' : 'repositories'}`;
+    document.querySelector<HTMLElement>('#repository-empty')!.hidden =
+      count !== 0;
+    const params = new URLSearchParams();
+    if (filter.value) params.set('filter', filter.value);
+    if (language.value) params.set('language', language.value);
+    history.replaceState(
+      null,
+      '',
+      `${location.pathname}${params.size ? '?' + params : ''}`,
+    );
+  }
+  form.addEventListener('input', update);
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    update();
+  });
+  document.querySelector('#reset-filters')?.addEventListener('click', () => {
+    form.reset();
+    update();
+    filter.focus();
+  });
+  update();
+</script>
