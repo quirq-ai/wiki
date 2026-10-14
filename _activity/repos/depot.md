@@ -2,9 +2,9 @@
 
 [All activity](../INDEX.md)
 
-**Status:** Collected
+**Status:** Not collected
 
-**Requested from:** 2026-10-01T18:05:58Z · **Last success:** 2026-10-08T18:05:58Z
+**Requested from:** unknown · **Last success:** none
 
 **Stored records:** 154
 
