@@ -15,9 +15,9 @@ JSON document `quirq-projects.json` whose top-level keys are `organization`, `fe
 
 ### quirq-repositories.json
 
-Large text file (416.0 KB), over the generator's 256 KB parse cap. Only a prefix was
+Large text file (404.5 KB), over the generator's 256 KB parse cap. Only a prefix was
 inspected.
 
-[`src/data/quirq-repositories.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-repositories.json) · huge · 425956 bytes
+[`src/data/quirq-repositories.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-repositories.json) · huge · 414186 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

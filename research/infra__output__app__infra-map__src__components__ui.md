@@ -12,14 +12,14 @@ License text (The files in this folder are copied from shadcn/ui). Governs use,
 modification, and distribution of this repository. Read the full file in the source tree
 before depending on the project in a product or redistribution.
 
-[`infra/output/app/infra-map/src/components/ui/LICENSE`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/LICENSE) · other · 1311 bytes
+[`infra/output/app/infra-map/src/components/ui/LICENSE`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/LICENSE) · other · 1571 bytes
 
 ### accordion.tsx
 
 "use client" Notable exports: `Accordion`, `AccordionItem`, `AccordionTrigger`,
 `AccordionContent`. Marked `'use client'` so it runs in the browser.
 
-[`infra/output/app/infra-map/src/components/ui/accordion.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/accordion.tsx) · code · 2047 bytes
+[`infra/output/app/infra-map/src/components/ui/accordion.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/accordion.tsx) · code · 2044 bytes
 
 ### alert.tsx
 
@@ -35,7 +35,7 @@ import * as React from "react" import { cva, type VariantProps } from "class-var
 authority" import { cn } from "@/lib/utils" import { Slot } from "radix-ui" Notable exports:
 `Badge`, `badgeVariants`.
 
-[`infra/output/app/infra-map/src/components/ui/badge.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/badge.tsx) · code · 1775 bytes
+[`infra/output/app/infra-map/src/components/ui/badge.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/badge.tsx) · code · 1663 bytes
 
 ### button.tsx
 
@@ -43,7 +43,7 @@ import * as React from "react" import { cva, type VariantProps } from "class-var
 authority" import { cn } from "@/lib/utils" import { Slot } from "radix-ui" Notable exports:
 `Button`, `buttonVariants`.
 
-[`infra/output/app/infra-map/src/components/ui/button.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/button.tsx) · code · 2391 bytes
+[`infra/output/app/infra-map/src/components/ui/button.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/button.tsx) · code · 2197 bytes
 
 ### card.tsx
 
@@ -77,7 +77,7 @@ the browser.
 "use client" Notable exports: `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`,
 `tabsListVariants`. Marked `'use client'` so it runs in the browser.
 
-[`infra/output/app/infra-map/src/components/ui/tabs.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/tabs.tsx) · code · 3781 bytes
+[`infra/output/app/infra-map/src/components/ui/tabs.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/tabs.tsx) · code · 3452 bytes
 
 ### toggle-group.tsx
 
@@ -91,6 +91,6 @@ runs in the browser.
 "use client" Notable exports: `Toggle`, `toggleVariants`. Marked `'use client'` so it runs
 in the browser.
 
-[`infra/output/app/infra-map/src/components/ui/toggle.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/toggle.tsx) · code · 1564 bytes
+[`infra/output/app/infra-map/src/components/ui/toggle.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/toggle.tsx) · code · 1523 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

@@ -48,4 +48,4 @@ executable source.
 
 [`public/work/xo-release.svg`](https://github.com/quirq-ai/instants/blob/main/public/work/xo-release.svg) · code · 6416 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

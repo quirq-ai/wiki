@@ -49,4 +49,4 @@ background. Notable exports: `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`.
 
 [`library/website/source/src/components/ui/tabs.tsx`](https://github.com/quirq-ai/ui/blob/main/library/website/source/src/components/ui/tabs.tsx) · code · 1942 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

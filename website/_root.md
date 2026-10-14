@@ -113,7 +113,7 @@ starting from commit 4c27ff7578f24c75b40d1024e4e0cbd40c9922ba.
 
 The project README (“quirq home base”). Everything quirq builds. One little space.
 
-[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 9549 bytes
+[`README.md`](https://github.com/quirq-ai/website/blob/main/README.md) · code · 9620 bytes
 
 ### SECURITY.md
 
@@ -162,7 +162,7 @@ npm package manifest for `quirq-home-base` v1.0.0. A customizable desktop for ap
 quirq GitHub organization. Scripts: `apps:sync`, `apps:check`, `apps:prune`, `apps:test`,
 `projects:sync`, `projects:check`, `build`, `start`, `serve`, `clean`, and 6 more.
 
-[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 5004 bytes
+[`package.json`](https://github.com/quirq-ai/website/blob/main/package.json) · code · 5063 bytes
 
 ### pnpm-lock.yaml
 
@@ -194,7 +194,7 @@ JSON document `quirq.apps.json` whose top-level keys are `organization`, `name`,
 `frameOrigins`, `defaults`, `repositories`. Structured data consumed by the surrounding app
 or tooling.
 
-[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 4319 bytes
+[`quirq.apps.json`](https://github.com/quirq-ai/website/blob/main/quirq.apps.json) · code · 4383 bytes
 
 ### quirq.projects.json
 
@@ -236,4 +236,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 1002 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

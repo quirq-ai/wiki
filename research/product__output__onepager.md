@@ -13,4 +13,4 @@ a couple of minutes.
 
 [`product/output/onepager/README.md`](https://github.com/quirq-ai/research/blob/main/product/output/onepager/README.md) · code · 361 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

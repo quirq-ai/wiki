@@ -25,7 +25,7 @@ a page for each repo, and the checklist for the qq alpha.
 
 HTML document `index.html` titled “quirq infra map”. quirq infra map.
 
-[`infra/output/app/infra-map/index.html`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/index.html) · code · 320 bytes
+[`infra/output/app/infra-map/index.html`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/index.html) · code · 419 bytes
 
 ### package.json
 
@@ -47,4 +47,4 @@ one HTML file. Provides a default export as the module's public entry.
 
 [`infra/output/app/infra-map/vite.config.ts`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/vite.config.ts) · code · 539 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

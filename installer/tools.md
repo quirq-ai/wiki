@@ -37,4 +37,4 @@ rewrites). Functions: `isolate`.
 
 [`tools/hermetic.py`](https://github.com/quirq-ai/installer/blob/main/tools/hermetic.py) · code · 604 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

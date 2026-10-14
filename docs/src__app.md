@@ -14,13 +14,6 @@ blobs.
 
 [`src/app/favicon.ico`](https://github.com/quirq-ai/docs/blob/main/src/app/favicon.ico) · binary · 15086 bytes
 
-### favicon.svg
-
-SVG graphic `favicon.svg` (1.5 KB). Vector artwork used by the UI, docs, or brand; not
-executable source.
-
-[`src/app/favicon.svg`](https://github.com/quirq-ai/docs/blob/main/src/app/favicon.svg) · code · 1505 bytes
-
 ### global.css
 
 Stylesheet `global.css` for layout and visual treatment in this folder. Leading class
@@ -28,22 +21,29 @@ selectors include `dark`. Defines or consumes CSS custom properties (design toke
 
 [`src/app/global.css`](https://github.com/quirq-ai/docs/blob/main/src/app/global.css) · code · 2677 bytes
 
+### icon.svg
+
+SVG graphic `icon.svg` (349 bytes) titled “quirq”. Vector artwork used by the UI, docs, or
+brand; not executable source.
+
+[`src/app/icon.svg`](https://github.com/quirq-ai/docs/blob/main/src/app/icon.svg) · code · 349 bytes
+
 ### layout.tsx
 
 const raleway = Raleway({ subsets: ["latin"], }) Notable exports: `Layout`, `metadata`.
 Wired into a Next.js app (App Router or Next APIs).
 
-[`src/app/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/layout.tsx) · code · 1244 bytes
+[`src/app/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/layout.tsx) · code · 1263 bytes
 
 ### page.tsx
 
-export const metadata: Metadata = { title: "XO Space Docs", description: "Documentation for
-XO Space: the local control plane for AI coding agents. Run a Space locally or through XO
-Cloud.", alternates: { canonical: "https://docs.quirq.dev/", }, openGraph: { title: "XO
-Space Docs", description: "Documentation for XO Space: the local control plane for AI codi
+export const metadata: Metadata = { title: "qq docs", description: "Documentation for qq,
+quirq's build and release infrastructure: install it, build and test a repo, land a change
+and put a repo on qq.", alternates: { canonical: "https://docs.quirq.dev/", }, openGraph: {
+title: "qq docs", description: "Documentation for qq, quirq's build and release infrast
 Notable exports: `RootPage`, `metadata`.
 
-[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 667 bytes
+[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 686 bytes
 
 ### robots.ts
 
@@ -54,9 +54,8 @@ allow: "/", }, sitemap: ${siteUrl}/sitemap.xml, }; } Notable exports: `robots`.
 
 ### sitemap.ts
 
-import { apiSource, researchSource, source, templatesSource, } from "@/lib/source" Notable
-exports: `sitemap`, `revalidate`.
+export const revalidate = false Notable exports: `sitemap`, `revalidate`.
 
-[`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 737 bytes
+[`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 547 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

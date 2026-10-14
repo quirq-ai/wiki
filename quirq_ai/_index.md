@@ -81,4 +81,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/research` | 16 | [public__research.md](public__research.md) |
 | `scripts` | 2 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-13 13:02 UTC._
+_Generated 2026-10-14 10:43 UTC._

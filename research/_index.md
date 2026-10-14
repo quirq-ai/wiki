@@ -8,8 +8,8 @@ Verified, shareable research outcomes from quirq.
 - [Activity history](../_activity/repos/research.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-08T16:25:00Z`
-- Snapshot SHA: `8c5e6c5c0d3f`
+- Last push: `2026-10-14T09:46:36Z`
+- Snapshot SHA: `35dc835e4744`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -126,8 +126,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `packages` | 0 | [packages.md](packages.md) |
 | `packages/present` | 1 | [packages__present.md](packages__present.md) |
 | `packages/present/bin` | 1 | [packages__present__bin.md](packages__present__bin.md) |
-| `packages/present/lib` | 2 | [packages__present__lib.md](packages__present__lib.md) |
+| `packages/present/client` | 1 | [packages__present__client.md](packages__present__client.md) |
+| `packages/present/lib` | 5 | [packages__present__lib.md](packages__present__lib.md) |
+| `packages/present/test` | 1 | [packages__present__test.md](packages__present__test.md) |
 | `packages/theme` | 4 | [packages__theme.md](packages__theme.md) |
+| `packages/theme/licenses` | 1 | [packages__theme__licenses.md](packages__theme__licenses.md) |
 | `product` | 4 | [product.md](product.md) |
 | `product/output` | 0 | [product__output.md](product__output.md) |
 | `product/output/app` | 1 | [product__output__app.md](product__output__app.md) |
@@ -137,4 +140,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
 
-_Generated 2026-10-13 13:02 UTC._
+_Generated 2026-10-14 10:43 UTC._

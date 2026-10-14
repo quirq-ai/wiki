@@ -12,7 +12,7 @@ The alpha checklist: what each alpha user does, step by step, and what the team 
 first. Commands come from src/commands/*.sh, imported raw so the page shows exactly the
 tested text. Notable exports: `AlphaChecklist`, `BeforeAlpha`.
 
-[`infra/output/app/infra-map/src/Alpha.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/Alpha.tsx) · code · 31031 bytes
+[`infra/output/app/infra-map/src/Alpha.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/Alpha.tsx) · code · 31029 bytes
 
 ### App.tsx
 
@@ -22,7 +22,7 @@ TableHead, TableHeader, TableRow } from "@/components/ui/table" import { Tabs, T
 TabsList, TabsTrigger } from "@/components/ui/tabs" import { RepoMap } from "@/RepoMap
 Notable exports: `App`.
 
-[`infra/output/app/infra-map/src/App.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/App.tsx) · code · 11248 bytes
+[`infra/output/app/infra-map/src/App.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/App.tsx) · code · 11245 bytes
 
 ### RepoMap.tsx
 
@@ -48,7 +48,7 @@ TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table" impor
 Stylesheet `index.css` for layout and visual treatment in this folder. Defines or consumes
 CSS custom properties (design tokens).
 
-[`infra/output/app/infra-map/src/index.css`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/index.css) · code · 4120 bytes
+[`infra/output/app/infra-map/src/index.css`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/index.css) · code · 5535 bytes
 
 ### main.tsx
 
@@ -72,4 +72,4 @@ each repo's pinned dependencies (pyproject.toml, pins.toml) and README. Notable 
 
 [`infra/output/app/infra-map/src/repos.ts`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/repos.ts) · code · 8964 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

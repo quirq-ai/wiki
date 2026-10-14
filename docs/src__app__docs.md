@@ -14,4 +14,4 @@ Notable exports: `Layout`.
 
 [`src/app/docs/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/docs/layout.tsx) · code · 1078 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

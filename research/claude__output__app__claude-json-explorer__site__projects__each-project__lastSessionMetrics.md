@@ -13,4 +13,4 @@ Research”. projects[&lt;project path&gt;].lastSessionMetrics · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/projects/each-project/lastSessionMetrics/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/each-project/lastSessionMetrics/index.html) · code · 23865 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

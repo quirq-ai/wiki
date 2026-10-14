@@ -14,7 +14,7 @@ scripts/build-hub.mjs write the site to dist/ node scripts/build-hub.mjs serve t
 dist/ on $PORT (default 3000) A topic is a top-level folder with a package.json, except
 _template/ and packages/.
 
-[`scripts/build-hub.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/build-hub.mjs) · code · 6387 bytes
+[`scripts/build-hub.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/build-hub.mjs) · code · 6734 bytes
 
 ### check.mjs
 
@@ -37,4 +37,4 @@ and <!-- topics:end --> markers.
 
 [`scripts/topics-table.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/topics-table.mjs) · code · 2056 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

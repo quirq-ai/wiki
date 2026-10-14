@@ -24,6 +24,6 @@ import React, { useEffect, useMemo, useState } from 'react' import { roleKeyword
 '@posthog/icons' import { useAppActions, useAppUIState } from '../../context/App' import { q
 Notable exports: `SearchOverlay`.
 
-[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7316 bytes
+[`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7328 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

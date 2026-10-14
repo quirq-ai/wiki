@@ -5,6 +5,7 @@
 _No GitHub description; README did not yield an intro paragraph._
 
 - GitHub: [https://github.com/quirq-ai/vangogh](https://github.com/quirq-ai/vangogh)
+- [Activity history](../_activity/repos/vangogh.md)
 - Default branch: `main`
 - Last push: `2026-10-08T17:06:25Z`
 - Snapshot SHA: `ee7e4fbaeb92`
@@ -15,4 +16,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 1 | [_root.md](_root.md) |
 
-_Generated 2026-10-13 13:02 UTC._
+_Generated 2026-10-14 10:43 UTC._

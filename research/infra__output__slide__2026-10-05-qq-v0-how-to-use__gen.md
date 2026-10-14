@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Python module `gen.py`. Functions: `section`, `head`, `label`, `items`, `card`, `code`.
 Contains tests.
 
-[`infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/gen.py`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/gen.py) · code · 17504 bytes
+[`infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/gen.py`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/gen.py) · code · 17597 bytes
 
 ### render.js
 
@@ -22,4 +22,4 @@ slide per page Fonts: Inter, Poppins and JetBrains Mono from Google Fonts.
 
 [`infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/render.js`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/gen/render.js) · code · 3392 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

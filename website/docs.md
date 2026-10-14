@@ -19,7 +19,7 @@ Markdown page “quirq app mapping”. The GitHub organization is the catalog. I
 repositories become apps in Home Base, the desktop, and navigation. The shared window
 system, themes, and app-specific URLs stay available.
 
-[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 9987 bytes
+[`docs/quirq-app-mapping.md`](https://github.com/quirq-ai/website/blob/main/docs/quirq-app-mapping.md) · code · 10243 bytes
 
 ### repository-audit.md
 
@@ -30,4 +30,4 @@ inherited material.
 
 [`docs/repository-audit.md`](https://github.com/quirq-ai/website/blob/main/docs/repository-audit.md) · code · 14304 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

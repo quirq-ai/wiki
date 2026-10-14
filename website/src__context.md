@@ -12,7 +12,7 @@ eslint-disable @typescript-eslint/no-empty-function Notable exports: `MenuItem`,
 `AppActionsContextType`, `AppSettingsContextType`, `AppUIStateContextType`,
 `AppWindowsContextType`, `Context`, `ActionsContext`, and 7 more.
 
-[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 69926 bytes
+[`src/context/App.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/App.tsx) · code · 70648 bytes
 
 ### Toast.tsx
 
@@ -29,4 +29,4 @@ exports: `WindowMenuItem`, `AppWindow`, `Context`, `Provider`, `useWindow`.
 
 [`src/context/Window.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/Window.tsx) · code · 4631 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

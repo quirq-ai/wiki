@@ -6,47 +6,112 @@ Source: [content/docs](https://github.com/quirq-ai/docs/tree/main/content/docs) 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### changelog.mdx
+### add-a-repo.mdx
 
-Markdown page “Changelog”. Weekly product releases, improvements, and fixes for XO. MDX page
-(Markdown with JSX components), typically rendered by the docs site.
+Markdown page “Put a repo on qq”. Onboard a repo in two parts. First make it build and test
+with qq on your machine, then put it behind the gate so every change lands through the merge
+queue. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/changelog.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/changelog.mdx) · code · 1539 bytes
+[`content/docs/add-a-repo.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/add-a-repo.mdx) · code · 7295 bytes
+
+### after-it-lands.mdx
+
+Markdown page “After it lands”. What happens to your change on main. The post-submit build,
+the tree status, lkgr, the daily canary, installing from a channel, and the dashboard that
+shows it all. MDX page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/after-it-lands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/after-it-lands.mdx) · code · 5624 bytes
+
+### build-test-run.mdx
+
+Markdown page “Build, test and run”. The everyday loop in a repo that uses qq. What targets
+and kinds are, every option of qq build and qq test, qq run, and why CI can disagree. MDX
+page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/build-test-run.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/build-test-run.mdx) · code · 4758 bytes
+
+### commands.mdx
+
+Markdown page “Commands by type”. Every qq command grouped by what you use it for, with exit
+codes and environment variables, plus the tools behind the infra. MDX page (Markdown with
+JSX components), typically rendered by the docs site.
+
+[`content/docs/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/commands.mdx) · code · 8875 bytes
+
+### first-build.mdx
+
+Markdown page “Your first build”. Clone a real app that uses qq, see what it builds, test
+it, read the results and run it, in five commands. MDX page (Markdown with JSX components),
+typically rendered by the docs site.
+
+[`content/docs/first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/first-build.mdx) · code · 3686 bytes
 
 ### glossary.mdx
 
-Markdown page “Glossary”. Platform terms for XO Space, XO Cloud, agents, and measured work.
-MDX page (Markdown with JSX components), typically rendered by the docs site.
+Markdown page “Glossary”. The words qq uses, defined once. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/docs/glossary.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/glossary.mdx) · code · 5488 bytes
+[`content/docs/glossary.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/glossary.mdx) · code · 2198 bytes
 
 ### index.mdx
 
-Markdown page “XO Space”. The home for your AI Agent Team. MDX page (Markdown with JSX
+Markdown page “What is qq”. qq is how quirq builds, tests, lands and ships code. Start here
+to see what it does for you and which guide to read next. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 3351 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8658 bytes
+
+### infrastructure.mdx
+
+Markdown page “How the infra fits together”. The 13 repos behind qq in four stages, from
+your machine to shipping. What each one does, what state it is in today, and where to read
+more. MDX page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/infrastructure.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/infrastructure.mdx) · code · 8751 bytes
+
+### install.mdx
+
+Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-paste commands,
+check them, and know what to do on a Mac. MDX page (Markdown with JSX components), typically
+rendered by the docs site.
+
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 6303 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 346 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 381 bytes
 
-### qq.mdx
+### problems.mdx
 
-Markdown page “qq: quirq infra in one guide”. What qq is, how a change moves through it, how
-to use it on your machine, how to add a repo, and what works today. MDX page (Markdown with
-JSX components), typically rendered by the docs site.
+Markdown page “Troubleshooting”. The errors people hit with qq, what each means, and what to
+do. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/qq.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/qq.mdx) · code · 19101 bytes
+[`content/docs/problems.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/problems.mdx) · code · 2608 bytes
 
-### start.mdx
+### repo-commands.mdx
 
-Markdown page “Start here”. The main XO and quirq links on one page. MDX page (Markdown with
-JSX components), typically rendered by the docs site.
+Markdown page “Repo commands”. Give a repo its own qq commands with qq create, share them
+with your team and agents, and pass arguments safely. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/docs/start.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/start.mdx) · code · 2152 bytes
+[`content/docs/repo-commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/repo-commands.mdx) · code · 3080 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+### roadmap.mdx
+
+Markdown page “Roadmap and status”. What works today, v0's exit test row by row, and what v1
+and v2 add. MDX page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/roadmap.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/roadmap.mdx) · code · 3426 bytes
+
+### send-a-change.mdx
+
+Markdown page “Send a change”. From your branch to main. Open a pull request with qq try,
+read the gate's verdict with qq status, and land through the merge queue with qq land. MDX
+page (Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
+
+_Generated 2026-10-14 10:43 UTC from `main`._

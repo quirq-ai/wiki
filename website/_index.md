@@ -8,8 +8,8 @@ website: code and deploy of the public quirq.ai site
 - [Activity history](../_activity/repos/website.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-13T12:41:06Z`
-- Snapshot SHA: `921aaf4cacbb`
+- Last push: `2026-10-14T00:49:48Z`
+- Snapshot SHA: `d2f230671a91`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -39,7 +39,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/Editor` | 1 | [src__components__Editor.md](src__components__Editor.md) |
 | `src/components/Explorer` | 2 | [src__components__Explorer.md](src__components__Explorer.md) |
 | `src/components/FloatingModal` | 1 | [src__components__FloatingModal.md](src__components__FloatingModal.md) |
-| `src/components/HomeBase` | 2 | [src__components__HomeBase.md](src__components__HomeBase.md) |
+| `src/components/HomeBase` | 3 | [src__components__HomeBase.md](src__components__HomeBase.md) |
 | `src/components/KeyboardShortcut` | 1 | [src__components__KeyboardShortcut.md](src__components__KeyboardShortcut.md) |
 | `src/components/Link` | 2 | [src__components__Link.md](src__components__Link.md) |
 | `src/components/OSButton` | 1 | [src__components__OSButton.md](src__components__OSButton.md) |
@@ -66,7 +66,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/context` | 3 | [src__context.md](src__context.md) |
 | `src/data` | 2 | [src__data.md](src__data.md) |
 | `src/hooks` | 4 | [src__hooks.md](src__hooks.md) |
-| `src/lib` | 15 | [src__lib.md](src__lib.md) |
+| `src/lib` | 19 | [src__lib.md](src__lib.md) |
 | `src/navs` | 1 | [src__navs.md](src__navs.md) |
 | `src/pages` | 4 | [src__pages.md](src__pages.md) |
 | `src/styles` | 1 | [src__styles.md](src__styles.md) |
@@ -80,4 +80,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `static/brand/quirq` | 1 | [static__brand__quirq.md](static__brand__quirq.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-13 13:02 UTC._
+_Generated 2026-10-14 10:43 UTC._

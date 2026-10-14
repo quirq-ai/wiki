@@ -14,6 +14,6 @@ createContext void; chat: UseChatHelpers; } | null>(null) Notable exports:
 `AISearchPanelHeader`, `AISearchInputActions`, `AISearchInput`, `AISearch`,
 `AISearchTrigger`, `AISearchPanel`, `AISearchPanelList`, `useHotKey`, and 1 more.
 
-[`src/components/ai/search.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ai/search.tsx) · code · 15494 bytes
+[`src/components/ai/search.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ai/search.tsx) · code · 14605 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

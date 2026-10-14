@@ -22,4 +22,4 @@ exports: `Home`.
 
 [`app/(site)/page.tsx`](https://github.com/quirq-ai/ui/blob/main/app/(site)/page.tsx) · code · 5961 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

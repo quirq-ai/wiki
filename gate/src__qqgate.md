@@ -70,4 +70,4 @@ Classes: `Verdict`. Functions: `evaluate`.
 
 [`src/qqgate/verdict.py`](https://github.com/quirq-ai/gate/blob/main/src/qqgate/verdict.py) · code · 1952 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

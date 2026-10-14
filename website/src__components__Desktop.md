@@ -27,6 +27,6 @@ A desktop icon opens the app's website like Open app does, in its own window on 
 host, GitHub) opens its repository window instead, where Open app is one click away.
 Provides a default export as the module's public entry.
 
-[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 17230 bytes
+[`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 17019 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

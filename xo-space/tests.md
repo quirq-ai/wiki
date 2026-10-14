@@ -431,7 +431,7 @@ tests.
 Python module `test_inbox_store.py`. Runnable as a script via `if __name__ == '__main__'`.
 Classes: `InboxStoreTests`, `InboxLocationTests`. Functions: `iso`, `item`. Contains tests.
 
-[`tests/test_inbox_store.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_store.py) · code · 42149 bytes
+[`tests/test_inbox_store.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_store.py) · code · 42620 bytes
 
 ### test_install_sh.py
 
@@ -1067,4 +1067,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

@@ -71,11 +71,11 @@ docs, or brand; not executable source.
 
 ### logo.png
 
-Binary PNG asset (2.2 KB). Left unsummarized; open the file in the source repository if you
+Binary PNG asset (2.6 KB). Left unsummarized; open the file in the source repository if you
 need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
 blobs.
 
-[`public/icons/logo.png`](https://github.com/quirq-ai/docs/blob/main/public/icons/logo.png) · binary · 2248 bytes
+[`public/icons/logo.png`](https://github.com/quirq-ai/docs/blob/main/public/icons/logo.png) · binary · 2648 bytes
 
 ### lovable.svg
 
@@ -161,4 +161,4 @@ executable source.
 
 [`public/icons/xo-cowork.svg`](https://github.com/quirq-ai/docs/blob/main/public/icons/xo-cowork.svg) · code · 587 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

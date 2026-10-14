@@ -9,10 +9,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### README.md
 
 The project README (“quirq avatar”). A [Blobatar](https://blobatar.dev/) character for the
-home screen, adapted from Euler's avatar. Avatars render locally from a name (the seed) with
-the vendored renderer in src/vendor/blobatar/; nothing calls an avatar service.
+home screen, adapted from Euler's avatar. It is hidden for now: nothing on the site shows it
+until quirqy is reintroduced ([#25](https://github.com/quirq-ai/website/issues/25)), and
+scripts/check-quirq-source.mjs keeps this component as a root so the source check accepts
+it.
 
-[`src/components/QuirqAvatar/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAvatar/README.md) · code · 1521 bytes
+[`src/components/QuirqAvatar/README.md`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAvatar/README.md) · code · 1705 bytes
 
 ### index.tsx
 
@@ -24,4 +26,4 @@ useQuirqAvatar, } from 'lib/quirqAvatar' Notable exports: `QuirqAvatar`, `QuirqA
 
 [`src/components/QuirqAvatar/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAvatar/index.tsx) · code · 19992 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

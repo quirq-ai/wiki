@@ -13,7 +13,7 @@ import fs from 'node:fs' import path from 'node:path' import { builtinModules, c
 'node:crypto' import ts from 'typescript' Notable exports: `frameworkRuntimeImports`,
 `auditSource`, `frameworkAliases`.
 
-[`scripts/check-quirq-source.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/check-quirq-source.mjs) · code · 12353 bytes
+[`scripts/check-quirq-source.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/check-quirq-source.mjs) · code · 12558 bytes
 
 ### quirq-catalog.test.mjs
 
@@ -65,4 +65,4 @@ star counts, falling back to the stars in the apps snapshot. It needs no token. 
 
 [`scripts/sync-quirq-projects.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-projects.mjs) · code · 8865 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

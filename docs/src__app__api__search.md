@@ -8,9 +8,8 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### route.ts
 
-TODO: extend to search across apiSource, templatesSource, researchSource once fumadocs
-multi-source search API is confirmed.
+export const { GET } = createFromSource(source, { language: "english", }).
 
-[`src/app/api/search/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/api/search/route.ts) · code · 311 bytes
+[`src/app/api/search/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/api/search/route.ts) · code · 181 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

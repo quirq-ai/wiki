@@ -14,4 +14,4 @@ ResolvedJourney, } from "@/app/journey/defs" Notable exports: `loadDefinition`,
 
 [`components/journey/engine.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/components/journey/engine.tsx) · code · 18009 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

@@ -14,6 +14,6 @@ each built app present dev build, then serve dist/ on $PORT (default 3000) Markd
 become .html pages; any other file under those output folders (a PDF, an image, an HTML
 deck) is copied as-is.
 
-[`packages/present/bin/present.js`](https://github.com/quirq-ai/research/blob/main/packages/present/bin/present.js) · code · 7746 bytes
+[`packages/present/bin/present.js`](https://github.com/quirq-ai/research/blob/main/packages/present/bin/present.js) · code · 8819 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

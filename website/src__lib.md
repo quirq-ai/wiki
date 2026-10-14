@@ -41,6 +41,20 @@ answer from the page that frames it: a refused frame just shows the browser's ow
 
 [`src/lib/frameCheck.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/frameCheck.ts) · code · 13401 bytes
 
+### landing.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import { isLandingPath,
+startsOnDesktop } from './landing.ts' Automated test file.
+
+[`src/lib/landing.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/landing.test.ts) · code · 991 bytes
+
+### landing.ts
+
+A visit to the home page lands on the desktop with no window open; the dock's Home opens
+Home base. Notable exports: `isLandingPath`, `startsOnDesktop`, `LANDING_STATE`.
+
+[`src/lib/landing.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/landing.ts) · code · 847 bytes
+
 ### quirqAnalytics.ts
 
 PostHog analytics and error tracking, on only when the build has GATSBY_POSTHOG_KEY (a
@@ -69,7 +83,7 @@ service. Notable exports: `normalizeAvatarConfig`, `avatarSvg`, `avatarUri`,
 `loadAvatarConfig`, `saveAvatarConfig`, `useQuirqAvatar`, `AVATAR_STORAGE_KEY`,
 `QUIRQY_WINDOW`, and 8 more.
 
-[`src/lib/quirqAvatar.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAvatar.ts) · code · 6917 bytes
+[`src/lib/quirqAvatar.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqAvatar.ts) · code · 6919 bytes
 
 ### quirqDocs.test.ts
 
@@ -95,7 +109,21 @@ The organization's repository list, read live in the visitor's browser from GitH
 REST API, so a repository created, renamed, described or deleted in the organization shows
 on the desktop, in Home base and in search without a rebuild. No token or backend.
 
-[`src/lib/quirqLiveApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqLiveApps.ts) · code · 8194 bytes
+[`src/lib/quirqLiveApps.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqLiveApps.ts) · code · 9899 bytes
+
+### quirqProjectFilter.test.ts
+
+import test from 'node:test' import assert from 'node:assert/strict' import {
+projectGroupsOnly } from './quirqProjectFilter.ts' Automated test file.
+
+[`src/lib/quirqProjectFilter.test.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjectFilter.test.ts) · code · 2632 bytes
+
+### quirqProjectFilter.ts
+
+The Projects page lists only repositories whose type (the organization's `role` property) is
+project. Notable exports: `projectGroupsOnly`.
+
+[`src/lib/quirqProjectFilter.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjectFilter.ts) · code · 1336 bytes
 
 ### quirqProjects.ts
 
@@ -105,7 +133,7 @@ from '../../scripts/lib/quirq-phases.mjs' Notable exports: `getQuirqProjectGroup
 `PhaseId`, `Phase`, `QuirqProject`, `QuirqProjectGroup`, `quirqPhases`, `projectsFetchedAt`,
 `starsSource`.
 
-[`src/lib/quirqProjects.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjects.ts) · code · 1667 bytes
+[`src/lib/quirqProjects.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqProjects.ts) · code · 1812 bytes
 
 ### quirqReadmeLinks.test.ts
 
@@ -139,4 +167,4 @@ import { QUIRQ_ROLES } from '../../scripts/lib/quirq-catalog.mjs' Notable export
 
 [`src/lib/quirqRoles.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqRoles.ts) · code · 1485 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

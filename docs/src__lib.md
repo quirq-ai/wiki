@@ -14,28 +14,24 @@ export { twMerge as cn } from "tailwind-merge" Notable exports: `cn`.
 
 ### layout.shared.tsx
 
-const logo = ( Notable exports: `baseOptions`, `socialLinks`. Wired into a Next.js app (App
-Router or Next APIs).
+const logo = ( Notable exports: `baseOptions`, `socialLinks`.
 
-[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 2295 bytes
+[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 1309 bytes
 
 ### shared.ts
 
-export const appName = "XO Docs"; export const siteUrl = "https://docs.quirq.dev"; export
+export const appName = "qq docs"; export const siteUrl = "https://docs.quirq.dev"; export
 const docsRoute = "/docs"; export const docsImageRoute = "/og/docs"; export const
-docsContentRoute = "/llms.mdx/docs"; export const researchContentRoute =
-"/llms.mdx/research" Notable exports: `appName`, `siteUrl`, `docsRoute`, `docsImageRoute`,
-`docsContentRoute`, `researchContentRoute`, `gitConfig`.
+docsContentRoute = "/llms.mdx/docs" Notable exports: `appName`, `siteUrl`, `docsRoute`,
+`docsImageRoute`, `docsContentRoute`, `gitConfig`.
 
-[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 412 bytes
+[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 348 bytes
 
 ### source.ts
 
-import { docsContentRoute, docsImageRoute, docsRoute, researchContentRoute, } from
-"./shared" Notable exports: `getPageImage`, `getPageMarkdownUrl`,
-`getResearchPageMarkdownUrl`, `getResearchPageImage`, `getLLMText`, `source`, `apiSource`,
-`templatesSource`, and 1 more.
+Static map of all sidebar icon names → Phosphor CSS classes (Tailwind scans these literals)
+Notable exports: `getPageImage`, `getPageMarkdownUrl`, `getLLMText`, `source`.
 
-[`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 5788 bytes
+[`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 4897 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

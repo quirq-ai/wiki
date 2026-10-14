@@ -38,4 +38,4 @@ generated blobs.
 
 [`app/instants/docs/media/motion-lab.png`](https://github.com/quirq-ai/euler/blob/main/app/instants/docs/media/motion-lab.png) · binary · 583715 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

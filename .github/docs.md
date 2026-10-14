@@ -8,11 +8,11 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### maintaining.md
 
-Markdown page “Maintaining the Quirq GitHub presence”. The organization profile is a front
-door: explain the work environment, offer local and hosted routes, map the useful public
-repositories, and show people how to contribute or get help. Product setup detail belongs in
-the product repository. Research belongs in a clearly identified research section.
+Markdown page “Maintaining the Quirq GitHub presence”. The organization profile is a short
+front door: say what quirq is (an autonomous swarm that builds and ships software, running
+on XO Cloud), offer ways to run your own, and link the docs, the main repositories and how
+to get help. Keep it short; product setup detail belongs in the product repository.
 
-[`docs/maintaining.md`](https://github.com/quirq-ai/.github/blob/main/docs/maintaining.md) · code · 6141 bytes
+[`docs/maintaining.md`](https://github.com/quirq-ai/.github/blob/main/docs/maintaining.md) · code · 6285 bytes
 
-_Generated 2026-10-13 13:01 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

@@ -126,4 +126,4 @@ Claude Code visualizer source — tails `~/.claude/projects/*.jsonl` and reads
 
 [`services/cowork_agent/adapters/claude_code/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/visualizer_source.py) · code · 21451 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._

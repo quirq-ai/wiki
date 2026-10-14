@@ -23,10 +23,10 @@ exports: `DisplayOptions`.
 
 ### index.tsx
 
-import React from 'react' import SEO from 'components/seo' import HomeBase from
-'components/HomeBase' Notable exports: `Home`.
+import React from 'react' import HomeBase from 'components/HomeBase' import HomeBaseSEO from
+'components/HomeBase/SEO' Notable exports: `Home`.
 
-[`src/pages/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/index.tsx) · code · 311 bytes
+[`src/pages/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/index.tsx) · code · 250 bytes
 
 ### projects.tsx
 
@@ -35,4 +35,4 @@ import React from 'react' import SEO from 'components/seo' import QuirqProjects 
 
 [`src/pages/projects.tsx`](https://github.com/quirq-ai/website/blob/main/src/pages/projects.tsx) · code · 424 bytes
 
-_Generated 2026-10-13 13:02 UTC from `main`._
+_Generated 2026-10-14 10:43 UTC from `main`._
