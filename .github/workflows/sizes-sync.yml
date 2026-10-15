@@ -33,7 +33,7 @@ jobs:
         id: measure
         continue-on-error: true
         env:
-          # Read-only API token; the push below uses its own.
+          # Public read token; the fallback GITHUB_TOKEN can write. The push below uses its own.
           GITHUB_TOKEN: ${{ secrets.WIKI_ACTIVITY_TOKEN || secrets.GITHUB_TOKEN }}
         run: python -m quirq_wiki sizes --out .
       - name: Commit the snapshot
@@ -45,7 +45,7 @@ jobs:
           auth="AUTHORIZATION: basic $(printf 'x-access-token:%s' "${PUSH_TOKEN}" | base64 -w0)"
           git_auth() { git -c "http.https://github.com/.extraheader=${auth}" "$@"; }
           if [ ! -d _sizes ]; then exit 0; fi
-          git add -- _sizes
+          git add -- _sizes/history.jsonl _sizes/latest.json _sizes/README.md
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,5 +61,5 @@ jobs:
       - name: Report an incomplete snapshot
         if: steps.measure.outcome == 'failure'
         run: |
-          echo 'Some repositories could not be measured; the snapshot marks them and its totals as incomplete.'
+          echo 'Measuring failed or was incomplete; see the step above. A rate limit or listing error writes nothing.'
           exit 1

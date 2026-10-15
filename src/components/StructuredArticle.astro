@@ -4,7 +4,7 @@ import ArticleFacts from './ArticleFacts.astro';
 import DirectoryBrowser from './DirectoryBrowser.astro';
 import ActivityList from './ActivityList.astro';
 import { activityHref, getActivity } from '../lib/activity';
-import { change, getSizes, sizeHref } from '../lib/sizes';
+import { getSizes, repoChange, sizeHref } from '../lib/sizes';
 import type { ArticleModel } from '../lib/article';
 import { renderMarkdown, type Wiki, type WikiPage } from '../lib/wiki';
 import { formatBytes, formatDate, codeFence } from '../lib/presentation';
@@ -58,7 +58,7 @@ const recentActivity = (activity?.items ?? [])
 const sizes = isRepository ? await getSizes() : undefined;
 const size = sizes?.latest?.repos.find((row) => row.repo === repoName);
 const sizeBefore = sizes?.previous?.repos.find((row) => row.repo === repoName);
-const sizeChange = change(size?.bytes, sizeBefore?.bytes);
+const sizeChange = repoChange(size, sizeBefore);
 const directories = article.directories.filter(
   (dir): dir is typeof dir & { href: string } => Boolean(dir.href),
 );
@@ -212,7 +212,8 @@ const nearby = article.siblings
         {size && !size.failed && size.files !== null && size.bytes !== null ? (
           <div class="directory-summary">
             <span>
-              <strong>{size.files.toLocaleString('en-GB')}</strong> files
+              <strong>{size.files.toLocaleString('en-GB')}</strong> files in the
+              repository
             </span>
             <span>
               <strong>{formatBytes(size.bytes)}</strong> on{' '}

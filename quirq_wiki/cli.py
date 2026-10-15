@@ -53,6 +53,8 @@ def build_parser() -> argparse.ArgumentParser:
     sizes = sub.add_parser("sizes", help="Record today's file count and size of every public repository.")
     sizes.add_argument("--org", default="quirq-ai")
     sizes.add_argument("--out", type=Path, default=Path("."))
+    sizes.add_argument("--forget", default=None, metavar="REPO",
+                       help="Remove a repository (one that turned private) from every stored snapshot instead of measuring.")
     return parser
 
 
@@ -83,8 +85,17 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.cmd == "sizes":
         from quirq_wiki.github_api import _token_from_env
-        from quirq_wiki.sizes import save_snapshot, take_snapshot
+        from quirq_wiki.sizes import forget_repo, save_snapshot, take_snapshot
 
+        if args.forget:
+            try:
+                removed = forget_repo(args.out, args.forget)
+            except (ValueError, OSError) as exc:
+                print(f"Could not forget {args.forget}: {exc}", file=sys.stderr)
+                return 1
+            print(f"Removed {args.forget} from {removed} snapshot(s); Git history still holds the old rows.",
+                  file=sys.stderr)
+            return 0
         try:
             snapshot = take_snapshot(args.org, token=_token_from_env(),
                                      progress=lambda message: print(message, file=sys.stderr, flush=True))

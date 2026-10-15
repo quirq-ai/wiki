@@ -84,6 +84,7 @@ The existing `quirq_wiki/` package remains the documentation generator. The webs
 | `/activity/`            | Commits, pull requests, issues, releases and failed runs from the last 7 days, from `_activity/`. |
 | `/activity/qq/`         | One repository's activity for the last 30 days, linked from its repository page.                  |
 | `/sizes/`               | Files and size per repository and for the organization, with the daily history, from `_sizes/`.   |
+| `/sizes.md`             | `_sizes/README.md` unchanged, the Markdown twin of `/sizes/`, for agents.                         |
 | `/wiki/galileo/src.md`  | An article's committed Markdown, for agents (every article has one).                              |
 | `/llms.txt`             | A Markdown map of every article's Markdown twin, for agents.                                      |
 | `/robots.txt`           | Allows all crawlers and names the sitemap.                                                        |

@@ -1,6 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildSizes, change, parseSnapshot } from '../src/lib/sizes';
+import {
+  buildSizes,
+  change,
+  parseSnapshot,
+  repoChange,
+  totalsChange,
+} from '../src/lib/sizes';
 
 const snapshot = (fields: Record<string, unknown> = {}) =>
   JSON.stringify({
@@ -73,4 +79,59 @@ test('the latest and previous snapshots, and the change between them', () => {
   assert.equal(change(10, null), null);
   assert.equal(change(undefined, 4), null);
   assert.equal(buildSizes([]).latest, null);
+});
+
+test('changes compare with the day before only, and only figures measured in full', () => {
+  const complete = (date: string, bytes: number) =>
+    parseSnapshot(
+      snapshot({
+        taken_at: date,
+        repos: [{ repo: 'wiki', files: 1, bytes, github_kb: 1, error: null }],
+        totals: { files: 1, bytes, github_kb: 1, complete: true },
+      }),
+    )!;
+  // 10-14 is missing: 10-13 is not "the day before" 10-15.
+  const gap = buildSizes([
+    complete('2026-10-13T06:45:00Z', 5),
+    complete('2026-10-15T06:45:00Z', 9),
+  ]);
+  assert.equal(gap.previous, null);
+  assert.equal(totalsChange(gap.latest, gap.previous, 'bytes'), null);
+
+  const next = buildSizes([
+    complete('2026-10-14T23:59:00Z', 5),
+    complete('2026-10-15T00:01:00Z', 9),
+  ]);
+  assert.equal(totalsChange(next.latest, next.previous, 'bytes'), 4);
+  assert.equal(repoChange(next.latest!.repos[0], next.previous!.repos[0]), 4);
+
+  // An incomplete day on either side gives no organization change.
+  const incomplete = parseSnapshot(
+    snapshot({ taken_at: '2026-10-14T06:45:00Z' }),
+  )!;
+  assert.equal(totalsChange(next.latest, incomplete, 'bytes'), null);
+  // A failed or partly measured repository gives no change of its own.
+  assert.equal(repoChange(next.latest!.repos[0], incomplete.repos[1]), null);
+  assert.equal(
+    repoChange(
+      { ...next.latest!.repos[0]!, truncated: true },
+      next.previous!.repos[0],
+    ),
+    null,
+  );
+});
+
+test('a missing GitHub size makes the GitHub total unknown', () => {
+  const parsed = parseSnapshot(
+    snapshot({
+      totals: {
+        files: 1,
+        bytes: 1,
+        github_kb: 1,
+        github_complete: false,
+        complete: true,
+      },
+    }),
+  );
+  assert.equal(parsed?.totals.githubBytes, null);
 });

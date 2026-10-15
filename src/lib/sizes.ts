@@ -26,7 +26,8 @@ export interface SizeSnapshot {
     repos: number;
     files: number;
     bytes: number;
-    githubBytes: number;
+    /** Null when GitHub gave no size for some repository. */
+    githubBytes: number | null;
     complete: boolean;
   };
 }
@@ -35,6 +36,7 @@ export interface Sizes {
   /** Oldest first. */
   snapshots: SizeSnapshot[];
   latest: SizeSnapshot | null;
+  /** The snapshot from the UTC day before `latest`, or null when that day is missing. */
   previous: SizeSnapshot | null;
 }
 
@@ -91,20 +93,34 @@ export function parseSnapshot(line: string): SizeSnapshot | undefined {
       repos: repos.length,
       files,
       bytes,
-      githubBytes: kb * 1024,
+      githubBytes: t.github_complete === false ? null : kb * 1024,
       complete: t.complete === true,
     },
   };
+}
+
+const DAY = 86_400_000;
+
+/** The snapshot taken exactly one UTC day before `snapshot`, if there is one. */
+export function dayBefore(
+  snapshots: readonly SizeSnapshot[],
+  snapshot: SizeSnapshot,
+): SizeSnapshot | null {
+  const day = new Date(Date.parse(snapshot.takenAt.slice(0, 10)) - DAY)
+    .toISOString()
+    .slice(0, 10);
+  return snapshots.find((item) => item.takenAt.startsWith(day)) ?? null;
 }
 
 export function buildSizes(snapshots: SizeSnapshot[]): Sizes {
   const sorted = [...snapshots].sort((a, b) =>
     a.takenAt.localeCompare(b.takenAt),
   );
+  const latest = sorted.at(-1) ?? null;
   return {
     snapshots: sorted,
-    latest: sorted.at(-1) ?? null,
-    previous: sorted.at(-2) ?? null,
+    latest,
+    previous: latest ? dayBefore(sorted, latest) : null,
   };
 }
 
@@ -116,6 +132,26 @@ export function change(
   return typeof now === 'number' && typeof before === 'number'
     ? now - before
     : null;
+}
+
+/** The organization's change in one figure, only when both days were measured in full. */
+export function totalsChange(
+  now: SizeSnapshot | null | undefined,
+  before: SizeSnapshot | null | undefined,
+  figure: 'files' | 'bytes',
+): number | null {
+  return now?.totals.complete && before?.totals.complete
+    ? change(now.totals[figure], before.totals[figure])
+    : null;
+}
+
+/** A repository's change in bytes, only when both days measured it in full. */
+export function repoChange(
+  now: RepoSize | undefined,
+  before: RepoSize | undefined,
+): number | null {
+  if (!now || !before || now.truncated || before.truncated) return null;
+  return change(now.bytes, before.bytes);
 }
 
 export function sizeHref(repo?: string): string {
@@ -143,4 +179,16 @@ export function getSizes(): Promise<Sizes> {
     return buildSizes(snapshots);
   })();
   return cached;
+}
+
+/** `_sizes/README.md` unchanged, for the page's Markdown twin. */
+export async function getSizesMarkdown(): Promise<string | null> {
+  try {
+    return await readFile(
+      path.join(process.cwd(), '_sizes', 'README.md'),
+      'utf8',
+    );
+  } catch {
+    return null;
+  }
 }

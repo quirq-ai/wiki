@@ -1,7 +1,7 @@
 ---
 import WikiLayout from '../layouts/WikiLayout.astro';
 import Icon from '../components/Icon.astro';
-import { change, getSizes } from '../lib/sizes';
+import { dayBefore, getSizes, repoChange, totalsChange } from '../lib/sizes';
 import { getWiki } from '../lib/wiki';
 import { formatBytes } from '../lib/presentation';
 const [sizes, wiki] = await Promise.all([getSizes(), getWiki()]);
@@ -11,13 +11,28 @@ const before = new Map(previous?.repos.map((row) => [row.repo, row]) ?? []);
 const rows = [...(latest?.repos ?? [])].sort(
   (a, b) => (b.bytes ?? -1) - (a.bytes ?? -1) || a.repo.localeCompare(b.repo),
 );
-const history = [...sizes.snapshots].reverse().slice(0, 90);
+const history = [...sizes.snapshots]
+  .reverse()
+  .slice(0, 90)
+  .map((snapshot) => ({
+    snapshot,
+    change: totalsChange(
+      snapshot,
+      dayBefore(sizes.snapshots, snapshot),
+      'bytes',
+    ),
+  }));
 const number = (value: number | null) =>
   value === null ? 'unknown' : value.toLocaleString('en-GB');
+const bytes = (value: number | null) =>
+  value === null ? 'unknown' : formatBytes(value);
+// "—" means no figure to compare; a measured change of nothing reads "0".
 const signed = (value: number | null, format: (n: number) => string) =>
-  value === null || value === 0
+  value === null
     ? '—'
-    : `${value > 0 ? '+' : '−'}${format(Math.abs(value))}`;
+    : value === 0
+      ? '0'
+      : `${value > 0 ? '+' : '−'}${format(Math.abs(value))}`;
 const when = latest
   ? new Date(latest.takenAt).toLocaleString('en-GB', {
       day: 'numeric',
@@ -28,14 +43,15 @@ const when = latest
       timeZone: 'UTC',
     })
   : null;
-const filesChange = change(latest?.totals.files, previous?.totals.files);
-const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
+const filesChange = totalsChange(latest, previous, 'files');
+const bytesChange = totalsChange(latest, previous, 'bytes');
 ---
 
 <WikiLayout
   title="Repository sizes"
   active="sizes"
   description="Files and size of every public quirq-ai repository and the organization as a whole, recorded daily."
+  markdownPath="/sizes.md"
   headings={[
     { id: 'by-repository', text: 'By repository' },
     { id: 'history', text: 'History' },
@@ -56,8 +72,12 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
         'No sizes have been recorded yet; the first daily run fills this page.'
       )}{' '}
       Files and size count what is in each repository's default branch today.
-      “On GitHub” is GitHub's own figure, which includes the full history.
-      Private repositories are not included.{' '}
+      “On GitHub” is GitHub's own figure, which includes the full history. Files
+      are Git blobs: symlinks count as files sized by their target path, Git LFS
+      files count at pointer size, and submodules are left out. The total
+      includes forks, archived repositories and this wiki. Private repositories
+      are not included. Changes compare with the day before and show “—” when
+      either day could not be measured in full.{' '}
       <a href="https://github.com/quirq-ai/wiki/tree/main/_sizes">
         Raw daily snapshots (JSONL).
       </a>
@@ -71,14 +91,14 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
       </span>
       <span>
         <strong>{latest.totals.files.toLocaleString('en-GB')}</strong> files
-        {filesChange ? ` (${signed(filesChange, number)})` : ''}
+        {filesChange !== null ? ` (${signed(filesChange, number)})` : ''}
       </span>
       <span>
         <strong>{formatBytes(latest.totals.bytes)}</strong> in total
-        {bytesChange ? ` (${signed(bytesChange, formatBytes)})` : ''}
+        {bytesChange !== null ? ` (${signed(bytesChange, formatBytes)})` : ''}
       </span>
       <span>
-        <strong>{formatBytes(latest.totals.githubBytes)}</strong> on GitHub
+        <strong>{bytes(latest.totals.githubBytes)}</strong> on GitHub
       </span>
     </div>
   )}
@@ -116,8 +136,7 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
         </thead>
         <tbody>
           {rows.map((row) => {
-            const old = before.get(row.repo);
-            const delta = change(row.bytes, old?.bytes);
+            const delta = repoChange(row, before.get(row.repo));
             return (
               <tr id={`size-${row.repo}`}>
                 <td>
@@ -138,15 +157,9 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
                   )}
                 </td>
                 <td class="numeric">{number(row.files)}</td>
-                <td class="numeric">
-                  {row.bytes === null ? 'unknown' : formatBytes(row.bytes)}
-                </td>
+                <td class="numeric">{bytes(row.bytes)}</td>
                 <td class="numeric">{signed(delta, formatBytes)}</td>
-                <td class="numeric">
-                  {row.githubBytes === null
-                    ? 'unknown'
-                    : formatBytes(row.githubBytes)}
-                </td>
+                <td class="numeric">{bytes(row.githubBytes)}</td>
               </tr>
             );
           })}
@@ -163,13 +176,13 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
     <div class="table-scroll">
       <table class="repository-table sizes-table">
         <caption class="visually-hidden">
-          Organization totals per day, newest first
+          Organization totals per day for the last 90 days, newest first
         </caption>
         <thead>
           <tr>
             <th scope="col">Date (UTC)</th>
             <th scope="col" class="numeric">
-              Repositories
+              <abbr title="Repositories">Repos</abbr>
             </th>
             <th scope="col" class="numeric">
               Files
@@ -178,12 +191,15 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
               Size
             </th>
             <th scope="col" class="numeric">
+              Change
+            </th>
+            <th scope="col" class="numeric">
               On GitHub
             </th>
           </tr>
         </thead>
         <tbody>
-          {history.map((snapshot) => (
+          {history.map(({ snapshot, change }) => (
             <tr>
               <td>
                 {snapshot.takenAt.slice(0, 10)}
@@ -198,9 +214,8 @@ const bytesChange = change(latest?.totals.bytes, previous?.totals.bytes);
                 {snapshot.totals.files.toLocaleString('en-GB')}
               </td>
               <td class="numeric">{formatBytes(snapshot.totals.bytes)}</td>
-              <td class="numeric">
-                {formatBytes(snapshot.totals.githubBytes)}
-              </td>
+              <td class="numeric">{signed(change, formatBytes)}</td>
+              <td class="numeric">{bytes(snapshot.totals.githubBytes)}</td>
             </tr>
           ))}
         </tbody>

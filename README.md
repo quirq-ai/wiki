@@ -223,7 +223,9 @@ Also allow Actions to push to `main` (or use `commit_mode=pr`). Until A or B is 
 
 ## Daily repository sizes
 
-[Browse the size table](_sizes/README.md). Once a day the [sizes workflow](.github/workflows/sizes-sync.yml) (06:45 UTC, or run it by hand) records, for every public organization repository, the number of files and their total size in the default branch at HEAD, read from its Git tree, plus GitHub's own repository size, which includes the full history. It also records the organization-wide totals. Private repositories are never measured.
+[Browse the size table](_sizes/README.md). Once a day the [sizes workflow](.github/workflows/sizes-sync.yml) (06:45 UTC, or run it by hand) records, for every public organization repository, the number of files and their total size in the default branch at HEAD, read from its Git tree, plus GitHub's own repository size, which includes the full history. It also records the organization-wide totals. Private and internal repositories are never measured, and each measured repository is confirmed public again before its row is kept. Give `WIKI_ACTIVITY_TOKEN` public read access only (a fine-grained token with no repository access is enough), so even a filter bug cannot see a private repository.
+
+Files are Git blobs: a symlink counts as a file sized by its target path, a Git LFS file counts at its pointer size (about 130 bytes), and submodules are left out. The organization total includes forks, archived repositories and this wiki.
 
 ```sh
 python -m quirq_wiki sizes --out .
@@ -231,9 +233,17 @@ python -m quirq_wiki sizes --out .
 
 ```text
 _sizes/
-  history.jsonl   # one snapshot per UTC day; a rerun the same day replaces it
+  history.jsonl   # one snapshot per UTC day; a rerun the same day updates it
   latest.json     # the newest snapshot
   README.md       # the newest table and the daily totals
 ```
 
-A repository that cannot be read is kept in the snapshot with unknown counts, and the totals are marked incomplete. They are also marked incomplete when GitHub cuts a very large tree (over 100,000 entries). A rate limit stops the run without writing a snapshot. The website shows the table at `/sizes/` and a Size section on each repository page.
+A repository that cannot be read is kept in the snapshot with unknown counts, and the totals are marked incomplete. They are also marked incomplete when GitHub cuts a very large tree (over 100,000 entries). A same-day rerun keeps the day's earlier measurement of a repository it could not read. A rate limit stops the run without writing a snapshot.
+
+A repository that later turns private keeps its earlier public rows in history.jsonl and in Git history. To drop them from every stored snapshot (Git history still holds them):
+
+```sh
+python -m quirq_wiki sizes --forget <repo> --out .
+```
+
+The website shows the table at `/sizes/` and a Size section on each repository page.

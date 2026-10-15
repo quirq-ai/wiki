@@ -1162,7 +1162,7 @@
     vertical-align: middle;
   }
   .sizes-table tbody tr:target {
-    background: var(--surface);
+    background: #eaf3ff;
   }
   .activity-more {
     font-size: 13px;
@@ -1769,6 +1769,15 @@
     }
     .repository-table {
       min-width: 550px;
+    }
+    .repository-table.sizes-table {
+      min-width: 0;
+    }
+    .repository-table.sizes-table :is(th, td) {
+      padding: 10px 6px;
+    }
+    .repository-table.sizes-table td.numeric {
+      white-space: nowrap;
     }
     .repo-table-name {
       font-size: 13px;

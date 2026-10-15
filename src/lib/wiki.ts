@@ -135,6 +135,8 @@ export function resolveWikiLink(
   const { pathname, suffix } = splitLocalLink(href, sourcePath);
   const pageRoute = pageRoutes.get(pathname);
   if (pageRoute) return `${pageRoute}${suffix}`;
+  if (pathname === '_sizes/README.md' || pathname === '_sizes')
+    return `/sizes/${suffix}`;
   const activity = activityRoute(pathname);
   if (activity)
     return activity.includes('#') ? activity : `${activity}${suffix}`;
