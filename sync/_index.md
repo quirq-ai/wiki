@@ -8,8 +8,8 @@ sync owns the quirq infra (qq) repo manifest, infra/repo.toml: its versioned sch
 - [Activity history](../_activity/repos/sync.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-13T10:34:38Z`
-- Snapshot SHA: `1a2332352d44`
+- Last push: `2026-10-14T13:54:48Z`
+- Snapshot SHA: `9821f745690d`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -20,8 +20,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqsync` | 8 | [src__qqsync.md](src__qqsync.md) |
+| `src/qqsync/project` | 10 | [src__qqsync__project.md](src__qqsync__project.md) |
+| `src/qqsync/project/backends` | 2 | [src__qqsync__project__backends.md](src__qqsync__project__backends.md) |
+| `src/qqsync/project/strategies` | 2 | [src__qqsync__project__strategies.md](src__qqsync__project__strategies.md) |
 | `src/qqsync/schema` | 1 | [src__qqsync__schema.md](src__qqsync__schema.md) |
 | `tests` | 7 | [tests.md](tests.md) |
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
+| `tests/project` | 7 | [tests__project.md](tests__project.md) |
 
-_Generated 2026-10-14 10:43 UTC._
+_Generated 2026-10-15 10:26 UTC._

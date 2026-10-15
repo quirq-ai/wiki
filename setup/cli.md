@@ -99,4 +99,4 @@ together, with tests/fixtures/qq-guide-install.txt. Notable exports: `commandsFo
 
 [`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6261 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

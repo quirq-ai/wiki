@@ -6,6 +6,16 @@ Source: [lib/model](https://github.com/quirq-ai/monitoring/tree/main/lib/model) 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### board-view.ts
+
+/** * Whether a repo's note needs a look: anything but green, except a repo that is unknown
+only * because the GitHub API did not answer while the banner says so once for the whole
+page. */ export function needsLook(row: BoardRow, apiOk: boolean): boolean { return
+!(row.worst === "green" || (row.quiet && !apiOk)); } Notable exports: `needsLook`,
+`stateCounts`, `byConcern`, `concernOrder`.
+
+[`lib/model/board-view.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/board-view.ts) · code · 1293 bytes
+
 ### build.ts
 
 import { SNAPSHOT_SCHEMA, type BoardGroup, type BoardRow, type CanaryDay, type Cell, type
@@ -15,14 +25,13 @@ model the pages render.
 
 [`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35559 bytes
 
-### fold-runs.ts
+### calendar.ts
 
-Splits a list into runs, in order, of items that fold and items that do not, so the phone
-Board can draw a run of folded rows as one card and every other row as a card of its own.
-Every item lands in exactly one run; an empty list gives no runs. Notable exports:
-`foldRuns`.
+/** How many days the Calendar shows: the merged-PR search looks back seven days, so no
+further. */ export const CALENDAR_DAYS = 7 Notable exports: `calendarDates`, `pickDay`,
+`itemDate`, `itemsOn`, `dayCounts`, `brokenNow`, `CALENDAR_DAYS`.
 
-[`lib/model/fold-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/fold-runs.ts) · code · 655 bytes
+[`lib/model/calendar.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/calendar.ts) · code · 2278 bytes
 
 ### freshness.ts
 
@@ -67,4 +76,4 @@ Notable exports: `SNAPSHOT_SCHEMA`, `CellStateSchema`, `CellSchema`, `SourceStat
 
 [`lib/model/types.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/types.ts) · code · 7336 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

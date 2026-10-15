@@ -14,9 +14,10 @@ export default function Loading() { return ; } Notable exports: `Loading`.
 
 ### page.tsx
 
-const headClass = "h-10 px-3 text-xs font-medium text-muted-foreground" Notable exports:
-`BoardPage`. Wired into a Next.js app (App Router or Next APIs).
+A group with more repos than this gets a board of its own across the page; the smaller ones
+share a row. Products always get their own. Notable exports: `BoardPage`. Wired into a
+Next.js app (App Router or Next APIs).
 
-[`app/board/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/board/page.tsx) · code · 8589 bytes
+[`app/board/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/board/page.tsx) · code · 3118 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

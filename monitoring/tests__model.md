@@ -6,11 +6,20 @@ Source: [tests/model](https://github.com/quirq-ai/monitoring/tree/main/tests/mod
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### fold-runs.test.ts
+### board-view.test.ts
 
-const even = (n: number) => n % 2 === 0 Automated test file.
+const cell = (state: Cell["state"]): Cell => ({ state, text: state, url:
+"https://github.com/quirq-ai", source: "test" }) Automated test file.
 
-[`tests/model/fold-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/fold-runs.test.ts) · code · 1720 bytes
+[`tests/model/board-view.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/board-view.test.ts) · code · 2487 bytes
+
+### calendar.test.ts
+
+const item = (at: string, state: TodayItem["state"], extra: Partial = {}): TodayItem => ({
+kind: "merged", repo: "innernet", title: "t", at, url: https://github.com/quirq-
+ai/innernet/pull/${at}, state, ...extra, }) Automated test file.
+
+[`tests/model/calendar.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/calendar.test.ts) · code · 3199 bytes
 
 ### matrix.test.ts
 
@@ -46,4 +55,4 @@ maxAge }) Automated test file.
 
 [`tests/model/stale.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/stale.test.ts) · code · 2099 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

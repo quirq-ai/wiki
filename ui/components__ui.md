@@ -150,4 +150,4 @@ exports: `Tooltip`, `TooltipProps`.
 
 [`components/ui/tooltip.tsx`](https://github.com/quirq-ai/ui/blob/main/components/ui/tooltip.tsx) · code · 2278 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

@@ -40,6 +40,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **ui** | public | [`ui/`](ui/_index.md) | [ui](https://github.com/quirq-ai/ui) |
 | **vangogh** | public | [`vangogh/`](vangogh/_index.md) | [vangogh](https://github.com/quirq-ai/vangogh) |
 | **website**<br>website: code and deploy of the public quirq.ai site | public | [`website/`](website/_index.md) | [website](https://github.com/quirq-ai/website) |
+| **xo** | public | [`xo/`](xo/_index.md) | [xo](https://github.com/quirq-ai/xo) |
 | **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
 | **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
 
@@ -49,4 +50,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-14 10:43 UTC._
+_Generated 2026-10-15 10:26 UTC._

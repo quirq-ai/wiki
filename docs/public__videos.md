@@ -14,13 +14,13 @@ generated blobs.
 
 [`public/videos/commands-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands-phone.mp4) · binary · 212324 bytes
 
-### commands-phone.png
+### commands-phone.webp
 
-Binary PNG asset (86.8 KB). Left unsummarized; open the file in the source repository if you
-need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
-blobs.
+Binary WEBP asset (34.4 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
 
-[`public/videos/commands-phone.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands-phone.png) · binary · 88833 bytes
+[`public/videos/commands-phone.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands-phone.webp) · binary · 35272 bytes
 
 ### commands.mp4
 
@@ -30,13 +30,13 @@ generated blobs.
 
 [`public/videos/commands.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands.mp4) · binary · 256536 bytes
 
-### commands.png
+### commands.webp
 
-Binary PNG asset (110.3 KB). Left unsummarized; open the file in the source repository if
+Binary WEBP asset (48.7 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/commands.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands.png) · binary · 112941 bytes
+[`public/videos/commands.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/commands.webp) · binary · 49874 bytes
 
 ### explainer-phone.mp4
 
@@ -44,15 +44,15 @@ Binary MP4 asset (3.7 MB). Left unsummarized; open the file in the source reposi
 need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
 blobs.
 
-[`public/videos/explainer-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer-phone.mp4) · binary · 3889429 bytes
+[`public/videos/explainer-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer-phone.mp4) · binary · 3881672 bytes
 
 ### explainer.jpg
 
-Binary JPG asset (54.2 KB). Left unsummarized; open the file in the source repository if you
+Binary JPG asset (53.4 KB). Left unsummarized; open the file in the source repository if you
 need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
 blobs.
 
-[`public/videos/explainer.jpg`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer.jpg) · binary · 55539 bytes
+[`public/videos/explainer.jpg`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer.jpg) · binary · 54644 bytes
 
 ### explainer.mp4
 
@@ -60,39 +60,39 @@ Binary MP4 asset (7.4 MB). Left unsummarized; open the file in the source reposi
 need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
 blobs.
 
-[`public/videos/explainer.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer.mp4) · binary · 7708133 bytes
+[`public/videos/explainer.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/explainer.mp4) · binary · 7712706 bytes
 
 ### first-build-phone.mp4
 
-Binary MP4 asset (292.3 KB). Left unsummarized; open the file in the source repository if
+Binary MP4 asset (284.7 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/first-build-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build-phone.mp4) · binary · 299323 bytes
+[`public/videos/first-build-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build-phone.mp4) · binary · 291575 bytes
 
-### first-build-phone.png
+### first-build-phone.webp
 
-Binary PNG asset (78.0 KB). Left unsummarized; open the file in the source repository if you
-need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
-blobs.
+Binary WEBP asset (32.2 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
 
-[`public/videos/first-build-phone.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build-phone.png) · binary · 79825 bytes
+[`public/videos/first-build-phone.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build-phone.webp) · binary · 32938 bytes
 
 ### first-build.mp4
 
-Binary MP4 asset (272.2 KB). Left unsummarized; open the file in the source repository if
+Binary MP4 asset (272.5 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/first-build.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build.mp4) · binary · 278726 bytes
+[`public/videos/first-build.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build.mp4) · binary · 278998 bytes
 
-### first-build.png
+### first-build.webp
 
-Binary PNG asset (92.7 KB). Left unsummarized; open the file in the source repository if you
-need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
-blobs.
+Binary WEBP asset (38.0 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
 
-[`public/videos/first-build.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build.png) · binary · 94934 bytes
+[`public/videos/first-build.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/first-build.webp) · binary · 38920 bytes
 
 ### install-phone.mp4
 
@@ -102,13 +102,13 @@ generated blobs.
 
 [`public/videos/install-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/install-phone.mp4) · binary · 284772 bytes
 
-### install-phone.png
+### install-phone.webp
 
-Binary PNG asset (80.9 KB). Left unsummarized; open the file in the source repository if you
-need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
-blobs.
+Binary WEBP asset (33.3 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
 
-[`public/videos/install-phone.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/install-phone.png) · binary · 82860 bytes
+[`public/videos/install-phone.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/install-phone.webp) · binary · 34114 bytes
 
 ### install.mp4
 
@@ -118,13 +118,29 @@ generated blobs.
 
 [`public/videos/install.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/install.mp4) · binary · 242549 bytes
 
-### install.png
+### install.webp
 
-Binary PNG asset (124.1 KB). Left unsummarized; open the file in the source repository if
+Binary WEBP asset (60.8 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/install.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/install.png) · binary · 127122 bytes
+[`public/videos/install.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/install.webp) · binary · 62256 bytes
+
+### map-phone.mp4
+
+Binary MP4 asset (381.2 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
+
+[`public/videos/map-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/map-phone.mp4) · binary · 390400 bytes
+
+### map-phone.webp
+
+Binary WEBP asset (23.0 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
+
+[`public/videos/map-phone.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/map-phone.webp) · binary · 23600 bytes
 
 ### map.jpg
 
@@ -144,34 +160,34 @@ generated blobs.
 
 ### onboard-phone.mp4
 
-Binary MP4 asset (315.0 KB). Left unsummarized; open the file in the source repository if
+Binary MP4 asset (304.3 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/onboard-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard-phone.mp4) · binary · 322519 bytes
+[`public/videos/onboard-phone.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard-phone.mp4) · binary · 311653 bytes
 
-### onboard-phone.png
+### onboard-phone.webp
 
-Binary PNG asset (73.0 KB). Left unsummarized; open the file in the source repository if you
-need the actual bytes. Wiki pages do not copy images, fonts, archives, or other generated
-blobs.
+Binary WEBP asset (28.5 KB). Left unsummarized; open the file in the source repository if
+you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
+generated blobs.
 
-[`public/videos/onboard-phone.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard-phone.png) · binary · 74701 bytes
+[`public/videos/onboard-phone.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard-phone.webp) · binary · 29170 bytes
 
 ### onboard.mp4
 
-Binary MP4 asset (279.8 KB). Left unsummarized; open the file in the source repository if
+Binary MP4 asset (276.6 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/onboard.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard.mp4) · binary · 286480 bytes
+[`public/videos/onboard.mp4`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard.mp4) · binary · 283236 bytes
 
-### onboard.png
+### onboard.webp
 
-Binary PNG asset (102.9 KB). Left unsummarized; open the file in the source repository if
+Binary WEBP asset (43.3 KB). Left unsummarized; open the file in the source repository if
 you need the actual bytes. Wiki pages do not copy images, fonts, archives, or other
 generated blobs.
 
-[`public/videos/onboard.png`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard.png) · binary · 105398 bytes
+[`public/videos/onboard.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard.webp) · binary · 44358 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

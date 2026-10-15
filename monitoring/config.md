@@ -37,4 +37,14 @@ consumed by the surrounding app or tooling.
 
 [`config/repos.json`](https://github.com/quirq-ai/monitoring/blob/main/config/repos.json) · code · 1342 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+### settings.ts
+
+The settings files the editor (/settings) can change, and what a merged change does. The
+files themselves are owned by their repos; this list only says where they are. A file that
+does not exist yet shows as unknown with the 404, never as empty. Each edit becomes a pull
+request on the repo that owns the file, so CODEOWNERS, required approvals and the merge
+queue there decide whether it lands. Nothing here writes to main.
+
+[`config/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/settings.ts) · code · 7238 bytes
+
+_Generated 2026-10-15 10:26 UTC from `main`._

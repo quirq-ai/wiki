@@ -37,6 +37,6 @@ The dashboard is read-only and the token never leaves api.github.com. These test
 at the source level (the code) and at the wire (the fixture server counts every request).
 Automated test file.
 
-[`tests/read-only.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/read-only.test.ts) · code · 2780 bytes
+[`tests/read-only.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/read-only.test.ts) · code · 4579 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

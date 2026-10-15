@@ -65,7 +65,7 @@ const GITHUB_REPO_URL = "https://github.com/quirq-ai/qq" Notable exports: `QqHom
 into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
 browser.
 
-[`src/components/qq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/qq-home.tsx) · code · 21549 bytes
+[`src/components/qq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/qq-home.tsx) · code · 21551 bytes
 
 ### start-free-bar.tsx
 
@@ -89,6 +89,6 @@ exports: `VideoEmbed`. Marked `'use client'` so it runs in the browser.
 const BOX = "mx-auto block h-auto max-h-[70vh] w-auto max-w-full rounded-xl border border-
 fd-border bg-black" Notable exports: `Video`.
 
-[`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2232 bytes
+[`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

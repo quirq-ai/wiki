@@ -45,6 +45,6 @@ qq run and a repo's own commands: run a command in the repo's qq environment. Cl
 qq sync and qq fetch: get a repo's pinned toolchains and dependencies. Functions: `sync`,
 `run_sync`, `run_fetch`, `register`.
 
-[`src/qqdepot/commands/sync.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/commands/sync.py) · code · 6565 bytes
+[`src/qqdepot/commands/sync.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/commands/sync.py) · code · 6903 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

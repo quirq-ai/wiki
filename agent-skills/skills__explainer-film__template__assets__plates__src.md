@@ -21,4 +21,4 @@ Shared toolkit for the engraved plates. Plain Node, no dependencies, determinist
 
 [`skills/explainer-film/template/assets/plates/src/lib.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/assets/plates/src/lib.mjs) · code · 9082 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

@@ -140,6 +140,21 @@ JSON array `monitoring_pull_2_reviews.json` with 1 items; first item keys: `id`,
 
 [`tests/fixtures/api/monitoring_pull_2_reviews.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/monitoring_pull_2_reviews.json) · code · 1631 bytes
 
+### org_properties_schema.json
+
+JSON array `org_properties_schema.json` with 5 items; first item keys: `property_name`,
+`url`, `source_type`, `value_type`, `required`, `default_value`, `description`,
+`allowed_values`, and 1 more.
+
+[`tests/fixtures/api/org_properties_schema.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/org_properties_schema.json) · code · 2053 bytes
+
+### org_properties_values.json
+
+JSON array `org_properties_values.json` with 8 items; first item keys: `repository_id`,
+`repository_name`, `repository_full_name`, `properties`.
+
+[`tests/fixtures/api/org_properties_values.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/org_properties_values.json) · code · 2567 bytes
+
 ### org_repos.json
 
 JSON array `org_repos.json` with 30 items; first item keys: `name`, `full_name`, `private`,
@@ -163,10 +178,10 @@ JSON array `perf_contents_xo-space.json` with 1 items; first item keys: `name`, 
 
 ### release_contents_canary_innernet_runs.json
 
-JSON array `release_contents_canary_innernet_runs.json` with 3 items; first item keys:
+JSON array `release_contents_canary_innernet_runs.json` with 4 items; first item keys:
 `name`, `path`, `type`, `size`, `sha`, `url`, `html_url`, `download_url`.
 
-[`tests/fixtures/api/release_contents_canary_innernet_runs.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/release_contents_canary_innernet_runs.json) · code · 1459 bytes
+[`tests/fixtures/api/release_contents_canary_innernet_runs.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/release_contents_canary_innernet_runs.json) · code · 1956 bytes
 
 ### release_contents_canary_xo-space_runs.json
 
@@ -323,4 +338,4 @@ JSON array `xo-space_pull_77_reviews.json` with 1 items; first item keys: `id`, 
 
 [`tests/fixtures/api/xo-space_pull_77_reviews.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/api/xo-space_pull_77_reviews.json) · code · 1897 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

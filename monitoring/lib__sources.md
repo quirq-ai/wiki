@@ -129,6 +129,16 @@ measured yet and why. It has no schema id, so only its shape is checked. Notable
 
 [`lib/sources/scorecard.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/scorecard.ts) · code · 2006 bytes
 
+### settings.ts
+
+What the settings editor edits. The deployed site reads the files raw, like every other
+page. On a person's own machine (`pnpm editor`) it reads them through their gh login
+instead, from the contents API, so what they edit is main as it is now and not up to five
+minutes old. Notable exports: `blobSha`, `settingsCatalog`, `readSettingsFile`,
+`readProperties`, `SettingsText`, `PropertyDef`, `RepoProperties`, `Properties`.
+
+[`lib/sources/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/settings.ts) · code · 7883 bytes
+
 ### tree-history.ts
 
 gardener commits the tree-status branch only when a state changes, with a message like
@@ -153,4 +163,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

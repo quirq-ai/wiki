@@ -15,6 +15,16 @@ a Next.js app (App Router or Next APIs).
 
 [`components/api-banner.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/api-banner.tsx) · code · 1224 bytes
 
+### board-notes.tsx
+
+/** * The Board as post-it notes: an overview that indexes every repo by state, then one
+dotted board * per group with a note per repo. A note is tinted by its repo's worst state
+and pinned with a dot * in that color; unknown stays plain paper with a dashed edge, so a
+missing value never looks * like a quiet one. Products and repos that need a look are full
+Notable exports: `noteId`, `BoardOverview`, `Board`, `ShownGroup`.
+
+[`components/board-notes.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/board-notes.tsx) · code · 11466 bytes
+
 ### canary-strip.tsx
 
 One class per outcome. `unknown` (the run file could not be read) is an outlined square with
@@ -38,19 +48,28 @@ title?: string; exact?: boolean }) { return ( Notable exports: `CellView`, `Cell
 the * state color, oldest left, newest right, so a busy repo reads as a long row and a quiet
 one as a * short one. The dots are the ElevenLabs UI matrix idea (a grid of round cells)
 with the * dashboard's own state markers for cells, and the row wraps instead of scro
-Notable exports: `ChangeMatrix`. Wired into a Next.js app (App Router or Next APIs).
+Notable exports: `ChangeMatrix`, `QuietRepos`.
 
-[`components/change-matrix.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/change-matrix.tsx) · code · 6394 bytes
+[`components/change-matrix.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/change-matrix.tsx) · code · 6560 bytes
 
 ### count-tiles.tsx
 
-/** * The three numbers at the top of Today, each a link to where the items are. A count
+/** * The three numbers at the top of Blockers, each a link to where the items are. A count
 whose * sources were not all read is a floor ("3+"), and a zero built from no data is "?",
 never a * green zero. A count whose sources were read long past their window is shown stale,
-with when. * The number is the text color; the state dot next to the label carries the
-Notable exports: `CountTiles`. Wired into a Next.js app (App Router or Next APIs).
+with when. * The number is the text color; the state dot next to the label carries t Notable
+exports: `CountTiles`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/count-tiles.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/count-tiles.tsx) · code · 2729 bytes
+[`components/count-tiles.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/count-tiles.tsx) · code · 2732 bytes
+
+### day-strip.tsx
+
+const bar: Record = { green: "bg-state-green", red: "bg-state-red", held: "bg-state-held",
+pending: "bg-state-pending", stale: "bg-state-stale", unknown: "border border-state-
+unknown", } Notable exports: `dayLabel`, `dayDate`, `DayStrip`. Wired into a Next.js app
+(App Router or Next APIs).
+
+[`components/day-strip.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/day-strip.tsx) · code · 3455 bytes
 
 ### markdown.tsx
 
@@ -88,6 +107,16 @@ children?: React.ReactNode }) { return ( Notable exports: `PageTitle`.
 
 [`components/page-title.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/page-title.tsx) · code · 484 bytes
 
+### settings-link.tsx
+
+/** * The settings editor, as an icon beside the theme toggle rather than a sixth tab: six
+tabs do not * fit one row on a phone, and the second row made the sticky header 44 px taller
+on every page. */ export function SettingsLink() { const current =
+usePathname().startsWith("/settings"); return ( Notable exports: `SettingsLink`. Wired into
+a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
+
+[`components/settings-link.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/settings-link.tsx) · code · 873 bytes
+
 ### sha.tsx
 
 A 7-character commit id in mono, linked to the full commit. Notable exports: `Sha`.
@@ -96,22 +125,22 @@ A 7-character commit id in mono, linked to the full commit. Notable exports: `Sh
 
 ### site-header.tsx
 
-/** * Sticky header: the wordmark and the theme toggle at the edges, the page tabs centered
-between * them (a three-column grid, so the tabs sit in the middle of the header whatever
-the edges * measure). On a phone the tabs are their own centered row under the wordmark. */
-export function SiteHeader() { return ( Notable exports: `SiteHeader`. Wired into a Next.js
-app (App Router or Next APIs).
+/** * Sticky header: the wordmark and the settings and theme buttons at the edges, the page
+tabs * centered between them (a three-column grid, so the tabs sit in the middle of the
+header whatever * the edges measure). On a phone the tabs are their own centered row under
+the wordmark. */ export function SiteHeader() { return ( Notable exports: `SiteHeader`.
+Wired into a Next.js app (App Router or Next APIs).
 
-[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1623 bytes
+[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1756 bytes
 
 ### site-nav.tsx
 
-const pages = [ { href: "/", label: "Today" }, { href: "/waiting", label: "Waiting" }, {
-href: "/board", label: "Board" }, { href: "/release", label: "Release" }, { href: "/health",
-label: "Health" }, ] as const Notable exports: `SiteNav`. Wired into a Next.js app (App
-Router or Next APIs). Marked `'use client'` so it runs in the browser.
+const pages = [ { href: "/", label: "Calendar" }, { href: "/blockers", label: "Blockers" },
+{ href: "/board", label: "Board" }, { href: "/release", label: "Release" }, { href:
+"/health", label: "Health" }, ] as const Notable exports: `SiteNav`. Wired into a Next.js
+app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
 
-[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 1648 bytes
+[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 1670 bytes
 
 ### source-link.tsx
 
@@ -155,4 +184,4 @@ now); const utc = exactUtc(iso); return ( Notable exports: `TimeAgo`.
 
 [`components/time-ago.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/time-ago.tsx) · code · 547 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

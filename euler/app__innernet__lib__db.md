@@ -113,4 +113,4 @@ booleans. JSON goes in as a string cast in the SQL ($1::jsonb) and comes back pa
 
 [`app/innernet/lib/db/types.ts`](https://github.com/quirq-ai/euler/blob/main/app/innernet/lib/db/types.ts) · code · 2084 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

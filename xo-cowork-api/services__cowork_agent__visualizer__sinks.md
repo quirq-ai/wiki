@@ -50,4 +50,4 @@ FastAPI.
 
 [`services/cowork_agent/visualizer/sinks/todos.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/visualizer/sinks/todos.py) · code · 5189 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

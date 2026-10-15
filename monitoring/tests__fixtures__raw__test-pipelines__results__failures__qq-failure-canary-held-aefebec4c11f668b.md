@@ -15,4 +15,4 @@ tooling.
 
 [`tests/fixtures/raw/test-pipelines/results/failures/qq-failure-canary-held-aefebec4c11f668b/failure.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/test-pipelines/results/failures/qq-failure-canary-held-aefebec4c11f668b/failure.json) · code · 529 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

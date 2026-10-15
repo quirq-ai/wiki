@@ -58,4 +58,4 @@ script via `if __name__ == '__main__'`. Classes: `Watch`. Functions: `run_id`,
 
 [`src/qqdepot/watch.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/watch.py) · code · 9686 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

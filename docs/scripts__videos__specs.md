@@ -18,7 +18,7 @@ JSON document `commands.json` whose top-level keys are `title`, `home`, `cwd`, `
 JSON document `first-build.json` whose top-level keys are `title`, `home`, `cwd`, `path`,
 `steps`. Structured data consumed by the surrounding app or tooling.
 
-[`scripts/videos/specs/first-build.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/first-build.json) · code · 1127 bytes
+[`scripts/videos/specs/first-build.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/first-build.json) · code · 1124 bytes
 
 ### install.json
 
@@ -32,6 +32,6 @@ JSON document `install.json` whose top-level keys are `title`, `home`, `cwd`, `s
 JSON document `onboard.json` whose top-level keys are `title`, `home`, `cwd`, `path`,
 `steps`. Structured data consumed by the surrounding app or tooling.
 
-[`scripts/videos/specs/onboard.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/onboard.json) · code · 1018 bytes
+[`scripts/videos/specs/onboard.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/onboard.json) · code · 999 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

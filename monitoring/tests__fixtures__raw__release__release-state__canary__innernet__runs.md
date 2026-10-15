@@ -22,6 +22,14 @@ JSON document `2026-10-06.json` whose top-level keys are `commit`, `date`, `dige
 
 [`tests/fixtures/raw/release/release-state/canary/innernet/runs/2026-10-06.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/canary/innernet/runs/2026-10-06.json) · code · 1070 bytes
 
+### {{today-3d}}.json
+
+JSON document `{{today-3d}}.json` whose top-level keys are `commit`, `date`, `digest`,
+`finished_at`, `operation`, `outcome`, `previous`, `reason`, `repo`, `run_url`, `schema`,
+`stages`, and 1 more. Structured data consumed by the surrounding app or tooling.
+
+[`tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today-3d}}.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today-3d}}.json) · code · 1450 bytes
+
 ### {{today}}.json
 
 JSON document `{{today}}.json` whose top-level keys are `commit`, `date`, `digest`,
@@ -30,4 +38,4 @@ JSON document `{{today}}.json` whose top-level keys are `commit`, `date`, `diges
 
 [`tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today}}.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today}}.json) · code · 1445 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

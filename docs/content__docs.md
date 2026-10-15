@@ -12,7 +12,7 @@ Markdown page “Put a repo on qq”. Onboard a repo in two parts. First make it
 with qq on your machine, then put it behind the gate so every change lands through the merge
 queue. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/add-a-repo.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/add-a-repo.mdx) · code · 7295 bytes
+[`content/docs/add-a-repo.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/add-a-repo.mdx) · code · 7339 bytes
 
 ### after-it-lands.mdx
 
@@ -44,7 +44,7 @@ Markdown page “Your first build”. Clone a real app that uses qq, see what it
 it, read the results and run it, in five commands. MDX page (Markdown with JSX components),
 typically rendered by the docs site.
 
-[`content/docs/first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/first-build.mdx) · code · 3686 bytes
+[`content/docs/first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/first-build.mdx) · code · 3688 bytes
 
 ### glossary.mdx
 
@@ -59,7 +59,7 @@ Markdown page “What is qq”. qq is how quirq builds, tests, lands and ships c
 to see what it does for you and which guide to read next. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8658 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8912 bytes
 
 ### infrastructure.mdx
 
@@ -75,7 +75,7 @@ Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-
 check them, and know what to do on a Mac. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 6303 bytes
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 6305 bytes
 
 ### meta.json
 
@@ -97,7 +97,7 @@ Markdown page “Repo commands”. Give a repo its own qq commands with qq creat
 with your team and agents, and pass arguments safely. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/repo-commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/repo-commands.mdx) · code · 3080 bytes
+[`content/docs/repo-commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/repo-commands.mdx) · code · 3082 bytes
 
 ### roadmap.mdx
 
@@ -114,4 +114,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

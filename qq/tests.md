@@ -34,10 +34,10 @@ V0-DEP-04: qq upload, try, land and status over a fake gh and a fake qqgate. Fun
 ### test_cli.py
 
 Python module `test_cli.py`. Functions: `test_version`, `test_no_command_prints_help`,
-`test_plugin_subcommand`, `test_pin_error_exits_2`, `test_broken_plugin_is_skipped`.
-Contains tests.
+`test_plugin_subcommand`, `test_pin_error_exits_2`, `test_broken_plugin_is_skipped`,
+`test_sync_project_is_qqsync_s_and_bare_sync_is_unchanged`. Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_cli.py) · code · 1599 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_cli.py) · code · 2010 bytes
 
 ### test_codeowners.py
 
@@ -90,4 +90,4 @@ Python module `test_sync_pin.py`. Functions:
 
 [`tests/test_sync_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync_pin.py) · code · 608 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

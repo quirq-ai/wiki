@@ -8,8 +8,8 @@ The docs for qq, quirq's build and release infrastructure, are live at [docs.qui
 - [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-14T10:07:00Z`
-- Snapshot SHA: `0df73e01eb36`
+- Last push: `2026-10-14T14:16:34Z`
+- Snapshot SHA: `0094b31dd224`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -31,9 +31,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/icons` | 22 | [public__icons.md](public__icons.md) |
 | `public/images` | 2 | [public__images.md](public__images.md) |
 | `public/images/qq` | 1 | [public__images__qq.md](public__images__qq.md) |
-| `public/videos` | 21 | [public__videos.md](public__videos.md) |
+| `public/videos` | 23 | [public__videos.md](public__videos.md) |
 | `scripts` | 0 | [scripts.md](scripts.md) |
-| `scripts/videos` | 5 | [scripts__videos.md](scripts__videos.md) |
+| `scripts/videos` | 6 | [scripts__videos.md](scripts__videos.md) |
 | `scripts/videos/specs` | 4 | [scripts__videos__specs.md](scripts__videos__specs.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/app` | 7 | [src__app.md](src__app.md) |
@@ -57,4 +57,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-14 10:43 UTC._
+_Generated 2026-10-15 10:26 UTC._

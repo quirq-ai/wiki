@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-14T10:43:42.212371+00:00",
+  "generated_at": "2026-10-15T10:26:48.695138+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -40,8 +40,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/docs",
-      "pushed_at": "2026-10-14T10:07:00Z",
-      "sha": "0df73e01eb365b3b27f73e9bb135ac01568dfb1b"
+      "pushed_at": "2026-10-14T14:16:34Z",
+      "sha": "0094b31dd224ef1b38528e4208c850d689ee28ea"
     },
     {
       "name": "environment",
@@ -139,8 +139,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/monitoring",
-      "pushed_at": "2026-10-09T08:09:12Z",
-      "sha": "95a70c8e5eeabccce74120bb70c8b3872a8b9c20"
+      "pushed_at": "2026-10-15T10:25:35Z",
+      "sha": "f4b34ceadec60343c346805bfc2b1b7b8dd10c74"
     },
     {
       "name": "perf",
@@ -157,8 +157,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/qq",
-      "pushed_at": "2026-10-13T13:21:36Z",
-      "sha": "17f8ed8e2c88cf7901da3eae22ff7eddbcf7fca9"
+      "pushed_at": "2026-10-14T14:40:53Z",
+      "sha": "b205b0ecb5b528db5e582b7371ca39dba53f638a"
     },
     {
       "name": "quirq_ai",
@@ -193,8 +193,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/recipes",
-      "pushed_at": "2026-10-13T13:21:33Z",
-      "sha": "d1fd02ada9584df18207f262dee835fa2a460f2a"
+      "pushed_at": "2026-10-14T14:20:20Z",
+      "sha": "daee33320e8d06be2c86ffcd3653af606bc50ada"
     },
     {
       "name": "release",
@@ -202,7 +202,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-14T07:46:14Z",
+      "pushed_at": "2026-10-15T07:45:48Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -220,7 +220,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/research",
-      "pushed_at": "2026-10-14T09:46:36Z",
+      "pushed_at": "2026-10-14T22:55:32Z",
       "sha": "35dc835e47440d797e409152f97aafc3f38bcf87"
     },
     {
@@ -247,8 +247,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/sync",
-      "pushed_at": "2026-10-13T10:34:38Z",
-      "sha": "1a2332352d44bd89a32227d85d3d2fa2191cb4eb"
+      "pushed_at": "2026-10-14T13:54:48Z",
+      "sha": "9821f745690d5150cac70cd2eee54c97d431e6c3"
     },
     {
       "name": "test-pipelines",
@@ -256,7 +256,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-14T05:03:00Z",
+      "pushed_at": "2026-10-15T04:51:46Z",
       "sha": "0ad06a230fabf7c2d85ee4bdb5e03e0f9c828a6e"
     },
     {
@@ -294,6 +294,15 @@
       "html_url": "https://github.com/quirq-ai/website",
       "pushed_at": "2026-10-14T00:49:48Z",
       "sha": "d2f230671a91919b50cc296a40d422085401fe78"
+    },
+    {
+      "name": "xo",
+      "fork": false,
+      "archived": false,
+      "default_branch": "claude/xo-cli-5ynop4",
+      "html_url": "https://github.com/quirq-ai/xo",
+      "pushed_at": "2026-10-15T09:30:35Z",
+      "sha": "c8c4719522d9ab76c61d6cf610ab0a396eed6e58"
     },
     {
       "name": "xo-cowork-api",

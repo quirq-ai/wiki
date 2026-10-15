@@ -8,7 +8,7 @@ Verified, shareable research outcomes from quirq.
 - [Activity history](../_activity/repos/research.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-14T09:46:36Z`
+- Last push: `2026-10-14T22:55:32Z`
 - Snapshot SHA: `35dc835e4744`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -140,4 +140,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
 
-_Generated 2026-10-14 10:43 UTC._
+_Generated 2026-10-15 10:26 UTC._

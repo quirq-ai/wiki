@@ -12,7 +12,7 @@ License text (The files in this folder are copied from shadcn/ui). Governs use,
 modification, and distribution of this repository. Read the full file in the source tree
 before depending on the project in a product or redistribution.
 
-[`components/ui/LICENSE`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/LICENSE) · other · 1492 bytes
+[`components/ui/LICENSE`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/LICENSE) · other · 1643 bytes
 
 ### alert.tsx
 
@@ -39,12 +39,38 @@ import * as React from "react" import { cn } from "@/lib/utils" Notable exports:
 
 [`components/ui/card.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/card.tsx) · code · 1986 bytes
 
+### checkbox.tsx
+
+"use client" Notable exports: `Checkbox`. Marked `'use client'` so it runs in the browser.
+
+[`components/ui/checkbox.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/checkbox.tsx) · code · 1210 bytes
+
 ### collapsible.tsx
 
 "use client" Notable exports: `Collapsible`, `CollapsibleTrigger`, `CollapsibleContent`.
 Marked `'use client'` so it runs in the browser.
 
 [`components/ui/collapsible.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/collapsible.tsx) · code · 795 bytes
+
+### input.tsx
+
+import * as React from "react" import { cn } from "@/lib/utils" Notable exports: `Input`.
+
+[`components/ui/input.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/input.tsx) · code · 958 bytes
+
+### label.tsx
+
+"use client" Notable exports: `Label`. Marked `'use client'` so it runs in the browser.
+
+[`components/ui/label.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/label.tsx) · code · 605 bytes
+
+### native-select.tsx
+
+import * as React from "react" import { cn } from "@/lib/utils" import { ChevronDownIcon }
+from "lucide-react" Notable exports: `NativeSelect`, `NativeSelectOptGroup`,
+`NativeSelectOption`.
+
+[`components/ui/native-select.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/native-select.tsx) · code · 1991 bytes
 
 ### separator.tsx
 
@@ -58,6 +84,12 @@ import { cn } from "@/lib/utils" Notable exports: `Skeleton`.
 
 [`components/ui/skeleton.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/skeleton.tsx) · code · 276 bytes
 
+### switch.tsx
+
+"use client" Notable exports: `Switch`. Marked `'use client'` so it runs in the browser.
+
+[`components/ui/switch.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/switch.tsx) · code · 1404 bytes
+
 ### table.tsx
 
 "use client" Notable exports: `Table`, `TableHeader`, `TableBody`, `TableFooter`,
@@ -66,4 +98,10 @@ the browser.
 
 [`components/ui/table.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/table.tsx) · code · 2477 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+### textarea.tsx
+
+import * as React from "react" import { cn } from "@/lib/utils" Notable exports: `Textarea`.
+
+[`components/ui/textarea.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/textarea.tsx) · code · 755 bytes
+
+_Generated 2026-10-15 10:26 UTC from `main`._

@@ -17,7 +17,7 @@ qqsync: the infra/repo.toml manifest schema and the only library that reads and 
 qqsync: the quirq infra manifest tool. The only program that reads or edits infra/repo.toml.
 Runnable as a script via `if __name__ == '__main__'`. Functions: `main`.
 
-[`src/qqsync/cli.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/cli.py) · code · 8570 bytes
+[`src/qqsync/cli.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/cli.py) · code · 8928 bytes
 
 ### errors.py
 
@@ -61,4 +61,4 @@ The manifest schemas and validation against them. Functions: `schema_for`, `vali
 
 [`src/qqsync/schema.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/schema.py) · code · 7474 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

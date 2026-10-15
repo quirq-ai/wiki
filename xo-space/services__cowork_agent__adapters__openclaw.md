@@ -125,4 +125,4 @@ OpenClaw visualizer source — tails `~/.openclaw/agents//sessions/.jsonl`. Clas
 
 [`services/cowork_agent/adapters/openclaw/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/openclaw/visualizer_source.py) · code · 10272 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

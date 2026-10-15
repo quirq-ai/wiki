@@ -14,17 +14,26 @@ with timings, and record.cjs plays that output back in a drawn terminal window (
 and records the screen. Nothing in a video is typed by hand; re-record when qq's output
 changes.
 
-[`scripts/videos/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/README.md) · code · 3001 bytes
+[`scripts/videos/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/README.md) · code · 3866 bytes
+
+### map-depot-to-qq.patch
+
+Patch file `map-depot-to-qq.patch`. diff -ru a/src/Alpha.tsx b/src/Alpha.tsx ---
+a/src/Alpha.tsx +++ b/src/Alpha.tsx @@ -146,9 +146,9 @@ { id: "u3", title: "Install qq",
+sub: "One paste, safe to run again", body: <> You need git and Python 3.11.4 or newer. Paste
+this into a terminal (macOS or Linux, bash or zsh). It runs in a subshell, so it never
+changes your current folder or shell.
+
+[`scripts/videos/map-depot-to-qq.patch`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/map-depot-to-qq.patch) · code · 18210 bytes
 
 ### map.cjs
 
 const { chromium } = require(process.env.PLAYWRIGHT_CORE || "playwright-core"); const fs =
-require("node:fs"); const out = process.argv[2]; (async () => { const b = await
-chromium.launch({ executablePath: process.env.CHROMIUM_PATH, }); const ctx = await
-b.newContext({ viewport: { width: 1100, height: 980 }, colorScheme: "dark", recordVideo: {
-dir: out, size.
+require("node:fs"); node map.cjs OUT_DIR [NAME WIDTH HEIGHT]: map.webm at 1100x980, or a
+phone cut such as map-phone 400 760. Below 768 px the map is wider than the screen, so the
+phone cut keeps the map and the step text in view and slides the map sideways to the lane.
 
-[`scripts/videos/map.cjs`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/map.cjs) · code · 1169 bytes
+[`scripts/videos/map.cjs`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/map.cjs) · code · 2676 bytes
 
 ### player.html
 
@@ -49,4 +58,4 @@ Run a scripted terminal session for real and record its output with timings. Fun
 
 [`scripts/videos/recorder.py`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/recorder.py) · code · 2532 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

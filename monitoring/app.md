@@ -27,10 +27,10 @@ blobs.
 ### globals.css
 
 Stylesheet `globals.css` for layout and visual treatment in this folder. Leading class
-selectors include `brand-wordmark`, `markdown`. Defines or consumes CSS custom properties
-(design tokens).
+selectors include `brand-wordmark`, `board-surface`, `note`, `note-pin`, `note-chip`,
+`markdown`. Defines or consumes CSS custom properties (design tokens).
 
-[`app/globals.css`](https://github.com/quirq-ai/monitoring/blob/main/app/globals.css) · code · 6728 bytes
+[`app/globals.css`](https://github.com/quirq-ai/monitoring/blob/main/app/globals.css) · code · 9822 bytes
 
 ### layout.tsx
 
@@ -48,4 +48,4 @@ Next.js app (App Router or Next APIs).
 
 [`app/not-found.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/not-found.tsx) · code · 517 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

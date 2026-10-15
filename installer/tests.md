@@ -56,4 +56,4 @@ Python module `test_manifest.py`. Functions: `test_resolves_commit_and_digest`,
 
 [`tests/test_manifest.py`](https://github.com/quirq-ai/installer/blob/main/tests/test_manifest.py) · code · 5974 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._

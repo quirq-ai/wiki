@@ -46,4 +46,4 @@ progress bar. Notable exports: `readingLayout`.
 
 [`packages/present/lib/reading.js`](https://github.com/quirq-ai/research/blob/main/packages/present/lib/reading.js) · code · 5800 bytes
 
-_Generated 2026-10-14 10:43 UTC from `main`._
+_Generated 2026-10-15 10:26 UTC from `main`._
