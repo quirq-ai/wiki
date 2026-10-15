@@ -4,7 +4,7 @@ A map of **what lives where** across every public repository in [`quirq-ai`](htt
 
 Each public repo gets a folder here. Each source directory gets one markdown page. File-level pages are generated — edit the generator or this README, not those pages. This `wiki` repo is not documented as content (no `wiki/` folder).
 
-[Index](INDEX.md) · [Activity](_activity/INDEX.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
+[Index](INDEX.md) · [Activity](_activity/INDEX.md) · [Sizes](_sizes/README.md) · [generator](quirq_wiki/) · [sync workflow](.github/workflows/wiki-sync.yml)
 
 ## Read it as a website
 
@@ -220,3 +220,20 @@ jobs:
 **B. Org webhook / GitHub App** — subscribe to public `push`, then POST [`repos/quirq-ai/wiki/dispatches`](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event) with `event_type: quirq-wiki-sync` and `client_payload: { "repo": "<name>", "ref": "<sha>", "changed_paths": [...] }`. Prefer a GitHub App over a personal PAT. This covers every public repo without a workflow in each one.
 
 Also allow Actions to push to `main` (or use `commit_mode=pr`). Until A or B is wired, daily schedule + manual dispatch keep the snapshot from going stale.
+
+## Daily repository sizes
+
+[Browse the size table](_sizes/README.md). Once a day the [sizes workflow](.github/workflows/sizes-sync.yml) (06:45 UTC, or run it by hand) records, for every public organization repository, the number of files and their total size in the default branch at HEAD, read from its Git tree, plus GitHub's own repository size, which includes the full history. It also records the organization-wide totals. Private repositories are never measured.
+
+```sh
+python -m quirq_wiki sizes --out .
+```
+
+```text
+_sizes/
+  history.jsonl   # one snapshot per UTC day; a rerun the same day replaces it
+  latest.json     # the newest snapshot
+  README.md       # the newest table and the daily totals
+```
+
+A repository that cannot be read is kept in the snapshot with unknown counts, and the totals are marked incomplete. They are also marked incomplete when GitHub cuts a very large tree (over 100,000 entries). A rate limit stops the run without writing a snapshot. The website shows the table at `/sizes/` and a Size section on each repository page.

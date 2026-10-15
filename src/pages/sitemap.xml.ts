@@ -12,6 +12,7 @@ export const GET: APIRoute = async ({ site }) => {
     '/',
     '/repositories/',
     '/recent-changes/',
+    '/sizes/',
     activityHref(),
     ...[
       ...new Set([...activity.repos, ...wiki.repos.map((repo) => repo.name)]),

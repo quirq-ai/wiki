@@ -4,6 +4,7 @@ import ArticleFacts from './ArticleFacts.astro';
 import DirectoryBrowser from './DirectoryBrowser.astro';
 import ActivityList from './ActivityList.astro';
 import { activityHref, getActivity } from '../lib/activity';
+import { change, getSizes, sizeHref } from '../lib/sizes';
 import type { ArticleModel } from '../lib/article';
 import { renderMarkdown, type Wiki, type WikiPage } from '../lib/wiki';
 import { formatBytes, formatDate, codeFence } from '../lib/presentation';
@@ -53,6 +54,11 @@ const recentActivity = (activity?.items ?? [])
       item.repo === repoName && (item.kind !== 'workflow' || item.failed),
   )
   .slice(0, 10);
+// And its size from the latest daily snapshot.
+const sizes = isRepository ? await getSizes() : undefined;
+const size = sizes?.latest?.repos.find((row) => row.repo === repoName);
+const sizeBefore = sizes?.previous?.repos.find((row) => row.repo === repoName);
+const sizeChange = change(size?.bytes, sizeBefore?.bytes);
 const directories = article.directories.filter(
   (dir): dir is typeof dir & { href: string } => Boolean(dir.href),
 );
@@ -189,6 +195,50 @@ const nearby = article.siblings
         <p class="read-more">
           <a href={activityHref(repoName)}>
             All activity for {repoName} <Icon name="arrow" size={14} />
+          </a>
+        </p>
+      </section>
+      <section class="repo-size" aria-labelledby="wiki:size">
+        <div class="article-section-heading">
+          <h2 id="wiki:size">Size</h2>
+          <a
+            class="section-permalink"
+            href="#wiki:size"
+            aria-label="Link to size"
+          >
+            §
+          </a>
+        </div>
+        {size && !size.failed && size.files !== null && size.bytes !== null ? (
+          <div class="directory-summary">
+            <span>
+              <strong>{size.files.toLocaleString('en-GB')}</strong> files
+            </span>
+            <span>
+              <strong>{formatBytes(size.bytes)}</strong> on{' '}
+              {size.defaultBranch ?? 'the default branch'}
+              {sizeChange
+                ? ` (${sizeChange > 0 ? '+' : '−'}${formatBytes(Math.abs(sizeChange))} since the day before)`
+                : ''}
+            </span>
+            {size.githubBytes !== null && (
+              <span>
+                <strong>{formatBytes(size.githubBytes)}</strong> on GitHub, with
+                history
+              </span>
+            )}
+            {size.truncated && <span>Partly measured: a lower bound</span>}
+          </div>
+        ) : (
+          <p>
+            {size?.failed
+              ? 'The latest daily measurement could not read this repository.'
+              : 'This repository has not been measured yet.'}
+          </p>
+        )}
+        <p class="read-more">
+          <a href={sizeHref(repoName)}>
+            All repository sizes <Icon name="arrow" size={14} />
           </a>
         </p>
       </section>

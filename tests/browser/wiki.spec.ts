@@ -263,6 +263,7 @@ test('phone controls are at least 44px tall and the open menu stays in the page'
     '/repositories/',
     '/recent-changes/',
     '/activity/',
+    '/sizes/',
     '/search/?q=release',
   ]) {
     await page.goto(url);

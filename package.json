@@ -11,7 +11,7 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
-    "test": "tsx --test tests/content.test.ts tests/article.test.ts tests/rich-markdown.test.ts tests/activity.test.ts",
+    "test": "tsx --test tests/content.test.ts tests/article.test.ts tests/rich-markdown.test.ts tests/activity.test.ts tests/sizes.test.ts",
     "test:site": "node --test tests/site.test.mjs",
     "test:browser": "playwright test",
     "format": "prettier --write src tests/browser tests/*.test.ts tests/site.test.mjs astro.config.mjs playwright.config.ts",

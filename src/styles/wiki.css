@@ -1148,6 +1148,22 @@
     color: #b32424;
     font-weight: 600;
   }
+  .sizes-flag {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #b32424;
+  }
+  .sizes-incomplete {
+    color: #b32424;
+  }
+  .sizes-table td {
+    vertical-align: middle;
+  }
+  .sizes-table tbody tr:target {
+    background: var(--surface);
+  }
   .activity-more {
     font-size: 13px;
     color: var(--muted);
