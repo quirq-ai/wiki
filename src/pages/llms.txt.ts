@@ -20,6 +20,7 @@ export const GET: APIRoute = async ({ site }) => {
     line('About Quirq Wiki', 'readme', 'what the wiki is and how it is built'),
     line('Repository index', 'index', 'every repository and its pages'),
     `- [Activity](${absolute('/activity/', site)}): commits, pull requests, issues, releases and failed runs, day by day; raw daily JSONL batches are in https://github.com/quirq-ai/wiki/tree/main/_activity`,
+    `- [Repository sizes](${absolute('/sizes.md', site)}): files and bytes per repository and for the whole organization, recorded daily; raw snapshots are in https://github.com/quirq-ai/wiki/tree/main/_sizes`,
   ];
   for (const repo of wiki.repos) {
     const pages = wiki.pages.filter((page) => page.repo === repo.name);

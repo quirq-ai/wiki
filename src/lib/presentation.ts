@@ -23,7 +23,9 @@ export function formatBytes(bytes: number | null): string {
   if (bytes < 1000) return `${bytes} B`;
   if (bytes < 1_000_000)
     return `${new Intl.NumberFormat('en', { maximumFractionDigits: 1 }).format(bytes / 1000)} kB`;
-  return `${new Intl.NumberFormat('en', { maximumFractionDigits: 1 }).format(bytes / 1_000_000)} MB`;
+  if (bytes < 1_000_000_000)
+    return `${new Intl.NumberFormat('en', { maximumFractionDigits: 1 }).format(bytes / 1_000_000)} MB`;
+  return `${new Intl.NumberFormat('en', { maximumFractionDigits: 1 }).format(bytes / 1_000_000_000)} GB`;
 }
 
 export function formatDate(value: string): string {

@@ -63,6 +63,11 @@ test('local links retain their original Markdown context, query, and anchor', ()
   );
   assert.equal(resolveWikiLink('#local', 'README.md', routes), '#local');
   assert.equal(
+    resolveWikiLink('_sizes/README.md', 'README.md', routes),
+    '/sizes/',
+  );
+  assert.equal(resolveWikiLink('_sizes/', 'README.md', routes), '/sizes/');
+  assert.equal(
     resolveWikiLink('https://example.com/a.md#b', 'README.md', routes),
     'https://example.com/a.md#b',
   );

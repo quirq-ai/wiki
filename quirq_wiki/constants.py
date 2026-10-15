@@ -36,6 +36,7 @@ RESERVED_TOP_LEVEL = frozenset(
         ".astro",
         ".vercel",
         "_activity",
+        "_sizes",
     }
 )
 

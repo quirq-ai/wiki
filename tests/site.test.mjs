@@ -190,8 +190,9 @@ test('ships rendered pages without exposing source files or development tooling'
           filename,
         ) ||
         /\.(?:py|toml)$/.test(filename) ||
-        // Markdown ships only as the agent twin of a published article.
+        // Markdown ships only as the agent twin of a published page.
         (filename.endsWith('.md') &&
+          filename !== 'sizes.md' &&
           !(
             filename.startsWith('wiki/') &&
             existsSync(path.join(dist, filename.slice(0, -3), 'index.html'))
@@ -229,6 +230,32 @@ test('agents get llms.txt, robots.txt, a sitemap and a Markdown twin of every ar
   assert.equal(
     readFileSync(path.join(dist, 'wiki/monitoring/_index.md'), 'utf8'),
     readFileSync(path.join(root, 'monitoring/_index.md'), 'utf8'),
+  );
+});
+
+test('repository sizes have a Markdown twin served as text/markdown', () => {
+  const twin = readFileSync(path.join(dist, 'sizes.md'), 'utf8');
+  const source = path.join(root, '_sizes', 'README.md');
+  if (existsSync(source)) assert.equal(twin, readFileSync(source, 'utf8'));
+  else assert.match(twin, /No sizes have been recorded yet/);
+  assert.match(
+    readFileSync(path.join(dist, 'sizes', 'index.html'), 'utf8'),
+    /<link rel="alternate" type="text\/markdown" href="\/sizes\.md"/,
+  );
+  assert.match(
+    readFileSync(path.join(dist, 'llms.txt'), 'utf8'),
+    /\[Repository sizes\]\([^)]*\/sizes\.md\)/,
+  );
+  const vercel = JSON.parse(
+    readFileSync(path.join(root, 'vercel.json'), 'utf8'),
+  );
+  const markdown = vercel.headers.find((rule) => rule.source === '/(.*)\\.md');
+  assert.ok(
+    markdown?.headers.some(
+      (header) =>
+        header.key === 'Content-Type' &&
+        header.value.startsWith('text/markdown'),
+    ),
   );
 });
 
