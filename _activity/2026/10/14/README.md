@@ -2,10 +2,245 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-206 observed records. commit: 15, issue: 2, pull request: 5, workflow: 184.
+441 observed records. commit: 37, issue: 5, pull request: 13, workflow: 386.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
+| 23:58:29 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38656846709) | success |
+| 23:53:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38656401166) | success |
+| 23:49:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38655958151) | success |
+| 23:48:06 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/actions/runs/38656232236) | success |
+| 23:47:30 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: audit round 3 fixes](https://github.com/quirq-ai/xo/commit/276ecee05b7e9a9915420ce3d04db25d7877d9cf) |  |
+| 23:44:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38655511031) | success |
+| 23:40:25 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38655055150) | success |
+| 23:35:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38654586070) | success |
+| 23:31:22 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38654121443) | success |
+| 23:26:51 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38653646881) | success |
+| 23:22:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38653180601) | success |
+| 23:17:49 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38652713729) | success |
+| 23:13:16 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38652252777) | success |
+| 23:08:45 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38651776729) | success |
+| 23:06:13 | [research](../../../repos/research.md) | pull request | yash-wecan | [marketing: publish the Reddit agent-builder threads report](https://github.com/quirq-ai/research/pull/64) | closed |
+| 23:04:52 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/actions/runs/38651806794) | success |
+| 23:04:14 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38651286548) | success |
+| 23:02:56 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: audit round 2 fixes](https://github.com/quirq-ai/xo/commit/cf793e05e73ef7febdb3844ec4105b28fb868174) |  |
+| 22:59:42 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38650819469) | success |
+| 22:55:55 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/actions/runs/38650872874) | success |
+| 22:55:46 | [research](../../../repos/research.md) | pull request | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/pull/63) | open |
+| 22:55:30 | [research](../../../repos/research.md) | commit | claude | [marketing: add Reddit agent-builder threads report](https://github.com/quirq-ai/research/commit/77fe3ee67e236a56cc8fa88b6db7d8835a4bfb49) |  |
+| 22:55:09 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38650347800) | success |
+| 22:54:17 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: publish the Reddit agent-builder threads report](https://github.com/quirq-ai/research/actions/runs/38650693448) | success |
+| 22:50:40 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38649860191) | success |
+| 22:46:09 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38649364009) | success |
+| 22:44:27 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where …](https://github.com/quirq-ai/monitoring/actions/runs/38649471840) | success |
+| 22:43:19 | [monitoring](../../../repos/monitoring.md) | issue | quirq-gates | [Settings editor follow-ups](https://github.com/quirq-ai/monitoring/issues/13) | open |
+| 22:42:29 | [monitoring](../../../repos/monitoring.md) | pull request | quirq-gates | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where GitHub requires code-owner review](https://github.com/quirq-ai/monitoring/pull/12) | merged |
+| 22:42:29 | [monitoring](../../../repos/monitoring.md) | commit | quirq-gates | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where GitHub requires code-owner review (#12)](https://github.com/quirq-ai/monitoring/commit/784b2176c2393983005d63b8cdb87d546f4f78ed) |  |
+| 22:41:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38648860319) | success |
+| 22:40:08 | [research](../../../repos/research.md) | commit | yash-wecan | [marketing: publish the Reddit agent-builder threads report](https://github.com/quirq-ai/research/commit/0a0f3a78b489ba67701291e48bcae2b7e9d80f85) |  |
+| 22:37:05 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38648351704) | success |
+| 22:36:52 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/actions/runs/38648809659) | success |
+| 22:36:39 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where GitHub requires code-owner review](https://github.com/quirq-ai/monitoring/actions/runs/38648615673) | success |
+| 22:36:18 | [research](../../../repos/research.md) | commit | claude | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/commit/6bc82cfc4f35241c99e3da2ae4a421c2c802305f) |  |
+| 22:34:35 | [monitoring](../../../repos/monitoring.md) | commit | claude | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where GitHub requires code-owner review](https://github.com/quirq-ai/monitoring/commit/f7c78098110ea1a7e044a88f801d3dbc10ed42dc) |  |
+| 22:33:12 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/actions/runs/38648385982) | success |
+| 22:32:42 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: one command per endpoint, named after its path](https://github.com/quirq-ai/xo/commit/9fc7157f7607fe4b734bfaebbde1875ecf203c8e) |  |
+| 22:32:34 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38647831420) | success |
+| 22:32:02 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties thr…](https://github.com/quirq-ai/monitoring/actions/runs/38648115634) | success |
+| 22:30:25 | [monitoring](../../../repos/monitoring.md) | pull request | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties through your gh login](https://github.com/quirq-ai/monitoring/pull/11) | merged |
+| 22:30:25 | [monitoring](../../../repos/monitoring.md) | commit | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties through your gh login (#11)](https://github.com/quirq-ai/monitoring/commit/8b019e76448c7a233979286af0ac589574800196) |  |
+| 22:28:13 | [release](../../../repos/release.md) | workflow | quirq-gates | [lkgr](https://github.com/quirq-ai/release/actions/runs/38647796804) | success |
+| 22:28:04 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38647309816) | success |
+| 22:23:32 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38646775102) | success |
+| 22:21:17 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties through your gh login](https://github.com/quirq-ai/monitoring/actions/runs/38646867306) | success |
+| 22:20:58 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/actions/runs/38646979635) | success |
+| 22:20:31 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: audit round 1 fixes](https://github.com/quirq-ai/xo/commit/bc313aba062ffcb8de7e410640fc9f191e62e174) |  |
+| 22:19:00 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38646235386) | success |
+| 22:14:28 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38645694662) | success |
+| 22:09:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38645148028) | success |
+| 22:05:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38644589888) | success |
+| 22:00:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38644034753) | success |
+| 21:56:21 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38643475589) | success |
+| 21:52:01 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties through your gh login](https://github.com/quirq-ai/monitoring/actions/runs/38643275203) | success |
+| 21:51:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38642918248) | success |
+| 21:48:43 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf-publish](https://github.com/quirq-ai/perf/actions/runs/38643070107) | success |
+| 21:48:37 | [test-pipelines](../../../repos/test-pipelines.md) | workflow | quirq-gates | [scorecard](https://github.com/quirq-ai/test-pipelines/actions/runs/38642981503) | success |
+| 21:48:32 | [test-pipelines](../../../repos/test-pipelines.md) | commit | github-actions\[bot\] | [results: collect at 0ad06a230fab (run 38642981503)](https://github.com/quirq-ai/test-pipelines/commit/cd1be610c17fa42ddcb35599aa4b944c1aebac0b) |  |
+| 21:48:28 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf](https://github.com/quirq-ai/perf/actions/runs/38642896996) | failure |
+| 21:47:19 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38642343564) | success |
+| 21:45:06 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/actions/runs/38642612009) | success |
+| 21:43:36 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: a command line for the XO Cloud API](https://github.com/quirq-ai/xo/commit/ac79e1568c10d72f7dfeec9213106a99cc1b8f79) |  |
+| 21:43:35 | [xo](../../../repos/xo.md) | commit | quirq-gates | [Apache-2.0 license](https://github.com/quirq-ai/xo/commit/ac76716aecd76f921d1b4d525c9b9adc713811de) |  |
+| 21:42:48 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38641771286) | success |
+| 21:38:35 | [installer](../../../repos/installer.md) | workflow | quirq-gates | [live-manifest](https://github.com/quirq-ai/installer/actions/runs/38641787812) | success |
+| 21:38:17 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38641204742) | success |
+| 21:33:45 | [gardener](../../../repos/gardener.md) | workflow | quirq-gates | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38641193519) | cancelled |
+| 21:33:45 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38640625760) | success |
+| 21:29:15 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38640045723) | success |
+| 21:24:43 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38639448447) | success |
+| 21:20:12 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38638852383) | success |
+| 21:15:41 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38638253846) | success |
+| 21:11:10 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38637642444) | success |
+| 21:09:22 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: edit gates, policies, owners and repo properties through your gh login](https://github.com/quirq-ai/monitoring/actions/runs/38637778212) | success |
+| 21:06:39 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38637041698) | success |
+| 21:02:08 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38636423796) | success |
+| 20:57:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38635792346) | success |
+| 20:53:04 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38635165987) | success |
+| 20:48:31 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38634537314) | success |
+| 20:44:00 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38633910140) | success |
+| 20:39:28 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38633277953) | success |
+| 20:34:57 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38632641843) | success |
+| 20:30:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38631996491) | success |
+| 20:25:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38631350593) | success |
+| 20:21:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38630709689) | success |
+| 20:16:52 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38630066964) | success |
+| 20:12:21 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38629433736) | success |
+| 20:07:48 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38628803749) | success |
+| 20:03:18 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38628161294) | success |
+| 19:58:45 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38627539966) | success |
+| 19:54:14 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38626924677) | success |
+| 19:49:43 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38626297791) | success |
+| 19:45:13 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38625674357) | success |
+| 19:40:41 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38625050075) | success |
+| 19:36:10 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38624413636) | success |
+| 19:31:38 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38623768110) | success |
+| 19:27:07 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38623131116) | success |
+| 19:22:36 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38622495760) | success |
+| 19:21:29 | [release](../../../repos/release.md) | workflow | quirq-gates | [lkgr](https://github.com/quirq-ai/release/actions/runs/38622920700) | success |
+| 19:18:05 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38621846317) | success |
+| 19:13:33 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38621209816) | success |
+| 19:09:00 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38620572239) | success |
+| 19:04:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38619920691) | success |
+| 18:59:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38619281420) | success |
+| 18:55:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38618638253) | success |
+| 18:50:57 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38617990150) | success |
+| 18:46:26 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38617340230) | success |
+| 18:41:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38616704215) | success |
+| 18:37:22 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38616070977) | success |
+| 18:32:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38615426937) | success |
+| 18:28:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38614783584) | success |
+| 18:23:48 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38614140841) | success |
+| 18:19:17 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38613496900) | success |
+| 18:14:46 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38612858622) | success |
+| 18:10:33 | [release](../../../repos/release.md) | workflow | quirq-gates | [canary-watchdog](https://github.com/quirq-ai/release/actions/runs/38612867658) | success |
+| 18:10:15 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38612223659) | success |
+| 18:05:44 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38611584220) | success |
+| 18:05:04 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf-publish](https://github.com/quirq-ai/perf/actions/runs/38612104603) | success |
+| 18:04:48 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf](https://github.com/quirq-ai/perf/actions/runs/38611881879) | failure |
+| 18:01:12 | [gardener](../../../repos/gardener.md) | workflow | quirq-gates | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38611211970) | cancelled |
+| 18:01:11 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38610939382) | success |
+| 17:56:41 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38610300876) | success |
+| 17:52:08 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38609655725) | success |
+| 17:47:38 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38609013676) | success |
+| 17:47:12 | [docs](../../../repos/docs.md) | issue | KrishBhimani | [Install page: qqsync command pins an old sync commit (no \`qqsync project\`)](https://github.com/quirq-ai/docs/issues/14) | open |
+| 17:43:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38608375244) | success |
+| 17:38:36 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38607730993) | success |
+| 17:34:04 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38607083718) | success |
+| 17:29:33 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38606455995) | success |
+| 17:25:01 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38605815957) | success |
+| 17:20:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38605172908) | success |
+| 17:20:16 | [test-pipelines](../../../repos/test-pipelines.md) | workflow | quirq-gates | [scorecard](https://github.com/quirq-ai/test-pipelines/actions/runs/38605722830) | success |
+| 17:20:12 | [test-pipelines](../../../repos/test-pipelines.md) | commit | github-actions\[bot\] | [results: collect at 0ad06a230fab (run 38605722830)](https://github.com/quirq-ai/test-pipelines/commit/14fd4536988ee7a53df6c28192d580919311f4e3) |  |
+| 17:15:57 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38604518938) | success |
+| 17:11:26 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38603863172) | success |
+| 17:07:25 | [installer](../../../repos/installer.md) | workflow | quirq-gates | [live-manifest](https://github.com/quirq-ai/installer/actions/runs/38603915374) | success |
+| 17:06:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38603211642) | success |
+| 17:02:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38602552873) | success |
+| 16:57:53 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38601894072) | success |
+| 16:53:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38601247836) | success |
+| 16:48:49 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38600604009) | success |
+| 16:44:18 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38599969319) | success |
+| 16:40:03 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38599333473) | success |
+| 16:35:14 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38598685006) | success |
+| 16:30:42 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38598041585) | success |
+| 16:26:11 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38597407107) | success |
+| 16:21:40 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38596753984) | success |
+| 16:17:08 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38596099115) | success |
+| 16:12:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38595442607) | success |
+| 16:08:05 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38594786538) | success |
+| 16:03:34 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38594114823) | success |
+| 15:59:00 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38593450895) | success |
+| 15:54:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38592783751) | success |
+| 15:49:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38592117550) | success |
+| 15:45:26 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38591443798) | success |
+| 15:40:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38590797403) | success |
+| 15:36:23 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38590123741) | success |
+| 15:31:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38589444307) | success |
+| 15:27:19 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38588771965) | success |
+| 15:22:46 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38588129567) | success |
+| 15:18:14 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38587464626) | success |
+| 15:13:41 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38586800342) | success |
+| 15:09:10 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38586130802) | success |
+| 15:07:12 | [release](../../../repos/release.md) | workflow | quirq-gates | [lkgr](https://github.com/quirq-ai/release/actions/runs/38586444279) | success |
+| 15:04:38 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38585514551) | success |
+| 15:00:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38584849367) | success |
+| 14:55:33 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38584181894) | success |
+| 14:51:03 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38583508974) | success |
+| 14:46:32 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38582837106) | success |
+| 14:43:42 | [qq](../../../repos/qq.md) | workflow | github-merge-queue\[bot\] | [qq sync project: working clones, from qqsync.project (#30)](https://github.com/quirq-ai/qq/actions/runs/38582684893) | success |
+| 14:41:59 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38582164289) | success |
+| 14:40:53 | [qq](../../../repos/qq.md) | pull request | KrishBhimani | [qq sync project: working clones, from qqsync.project](https://github.com/quirq-ai/qq/pull/30) | merged |
+| 14:40:44 | [qq](../../../repos/qq.md) | workflow | KrishBhimani | [presubmit](https://github.com/quirq-ai/qq/actions/runs/38582268130) | success |
+| 14:40:25 | [release](../../../repos/release.md) | workflow | quirq-gates | [canary-watchdog](https://github.com/quirq-ai/release/actions/runs/38582554340) | success |
+| 14:37:46 | [qq](../../../repos/qq.md) | commit | KrishBhimani | [qq sync project: working clones, from qqsync.project (#30)](https://github.com/quirq-ai/qq/commit/b205b0ecb5b528db5e582b7371ca39dba53f638a) |  |
+| 14:37:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38581485606) | success |
+| 14:32:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38580804815) | success |
+| 14:29:40 | [qq](../../../repos/qq.md) | workflow | KrishBhimani | [qq sync project: working clones, from qqsync.project](https://github.com/quirq-ai/qq/actions/runs/38580580569) | success |
+| 14:28:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38580132957) | success |
+| 14:25:20 | [recipes](../../../repos/recipes.md) | workflow | github-merge-queue\[bot\] | [Bump qqsync to the commit that adds qqsync project (#16)](https://github.com/quirq-ai/recipes/actions/runs/38579679210) | success |
+| 14:23:51 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38579460854) | success |
+| 14:20:58 | [qq](../../../repos/qq.md) | commit | KrishBhimani | [Point the qqsync and qqrecipes pins at main (sync #16, recipes #16)](https://github.com/quirq-ai/qq/commit/0c81087eafb584b88a08003c72c8261e9ac4092a) |  |
+| 14:20:20 | [recipes](../../../repos/recipes.md) | pull request | KrishBhimani | [Bump qqsync to the commit that adds qqsync project](https://github.com/quirq-ai/recipes/pull/16) | merged |
+| 14:20:13 | [recipes](../../../repos/recipes.md) | workflow | KrishBhimani | [presubmit](https://github.com/quirq-ai/recipes/actions/runs/38578825348) | success |
+| 14:19:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38578784145) | success |
+| 14:16:35 | [docs](../../../repos/docs.md) | pull request | quirq-gates | [Polish the docs videos after the #12 audit](https://github.com/quirq-ai/docs/pull/13) | merged |
+| 14:16:34 | [docs](../../../repos/docs.md) | commit | quirq-gates | [Polish the docs videos after the #12 audit (#13)](https://github.com/quirq-ai/docs/commit/0094b31dd224ef1b38528e4208c850d689ee28ea) |  |
+| 14:14:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38578123082) | success |
+| 14:14:44 | [recipes](../../../repos/recipes.md) | commit | KrishBhimani | [Bump qqsync to the commit that adds qqsync project (#16)](https://github.com/quirq-ai/recipes/commit/daee33320e8d06be2c86ffcd3653af606bc50ada) |  |
+| 14:10:19 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38577455403) | success |
+| 14:05:47 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38576788017) | success |
+| 14:01:24 | [recipes](../../../repos/recipes.md) | workflow | KrishBhimani | [Bump qqsync to the commit that adds qqsync project](https://github.com/quirq-ai/recipes/actions/runs/38576162142) | success |
+| 14:01:15 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38576118942) | success |
+| 13:56:43 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38575461860) | success |
+| 13:55:59 | [recipes](../../../repos/recipes.md) | commit | KrishBhimani | [Point the qqsync pin at sync main 9821f74 (#16)](https://github.com/quirq-ai/recipes/commit/25e8249588c3872f991ba40b6c938006a5f296f5) |  |
+| 13:55:24 | [sync](../../../repos/sync.md) | workflow | github-merge-queue\[bot\] | [Add qqsync project: keep working clones up to date, manage access (#16)](https://github.com/quirq-ai/sync/actions/runs/38575852404) | success |
+| 13:54:48 | [sync](../../../repos/sync.md) | pull request | KrishBhimani | [Add qqsync project: keep working clones up to date, manage access](https://github.com/quirq-ai/sync/pull/16) | merged |
+| 13:54:16 | [sync](../../../repos/sync.md) | workflow | KrishBhimani | [presubmit](https://github.com/quirq-ai/sync/actions/runs/38575689360) | success |
+| 13:53:24 | [sync](../../../repos/sync.md) | commit | KrishBhimani | [Add qqsync project: keep working clones up to date, manage access (#16)](https://github.com/quirq-ai/sync/commit/9821f745690d5150cac70cd2eee54c97d431e6c3) |  |
+| 13:52:12 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38574802985) | success |
+| 13:47:41 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38574144105) | success |
+| 13:46:03 | [xo-space](../../../repos/xo-space.md) | issue | dwivedi-ai | [Reconsider xo-projects scaffolding: reduce it to its minimum](https://github.com/quirq-ai/xo-space/issues/241) | open |
+| 13:43:10 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38573497139) | success |
+| 13:38:39 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38572855979) | success |
+| 13:34:09 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38572223471) | success |
+| 13:29:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38571598650) | success |
+| 13:25:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38570974135) | success |
+| 13:20:34 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38570353647) | success |
+| 13:16:02 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38569735667) | success |
+| 13:11:32 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38569123509) | success |
+| 13:08:36 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf-publish](https://github.com/quirq-ai/perf/actions/runs/38569310874) | success |
+| 13:08:18 | [perf](../../../repos/perf.md) | workflow | quirq-gates | [perf](https://github.com/quirq-ai/perf/actions/runs/38569120047) | failure |
+| 13:06:58 | [gardener](../../../repos/gardener.md) | workflow | quirq-gates | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38568795725) | cancelled |
+| 13:06:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38568510495) | success |
+| 13:02:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38567893428) | success |
+| 12:57:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38567286540) | success |
+| 12:53:25 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38566696774) | success |
+| 12:48:52 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38566110131) | success |
+| 12:44:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38565523872) | success |
+| 12:39:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38564944299) | success |
+| 12:35:18 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38564354050) | success |
+| 12:30:46 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38563775700) | success |
+| 12:26:27 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38563209363) | success |
+| 12:21:43 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38562653960) | success |
+| 12:17:11 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38562101824) | success |
+| 12:12:39 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38561545652) | success |
+| 12:08:07 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38560996563) | success |
+| 12:05:17 | [test-pipelines](../../../repos/test-pipelines.md) | workflow | quirq-gates | [scorecard](https://github.com/quirq-ai/test-pipelines/actions/runs/38561126801) | success |
+| 12:05:12 | [test-pipelines](../../../repos/test-pipelines.md) | commit | github-actions\[bot\] | [results: collect at 0ad06a230fab (run 38561126801)](https://github.com/quirq-ai/test-pipelines/commit/765687a10374d2d1a1839c622654ec8f6eb38767) |  |
+| 12:03:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38560436631) | success |
+| 12:02:50 | [wiki](../../../repos/wiki.md) | workflow | quirq-gates | [Daily activity index](https://github.com/quirq-ai/wiki/actions/runs/38560123818) | success |
+| 12:02:46 | [wiki](../../../repos/wiki.md) | commit | github-actions\[bot\] | [\[wiki-bot\] batch public repository activity](https://github.com/quirq-ai/wiki/commit/cc78c0e5d1d09264fab7aa14af9278377b897316) |  |
+| 11:59:04 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38559902613) | success |
 | 11:56:23 | [wiki](../../../repos/wiki.md) | workflow | quirq-gates | [Daily activity index](https://github.com/quirq-ai/wiki/actions/runs/38560123818) | in\_progress |
 | 11:54:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38559902613) | in\_progress |
 | 11:54:33 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38559356227) | success |
