@@ -22,4 +22,4 @@ surrounding app or tooling.
 
 [`library/website/source/quirq.projects.json`](https://github.com/quirq-ai/ui/blob/main/library/website/source/quirq.projects.json) · code · 5264 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

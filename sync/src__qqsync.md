@@ -61,4 +61,4 @@ The manifest schemas and validation against them. Functions: `schema_for`, `vali
 
 [`src/qqsync/schema.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/schema.py) · code · 7474 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

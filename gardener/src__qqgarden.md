@@ -22,10 +22,10 @@ Classes: `Probe`, `Result`, `CommandProbe`. Functions: `bisect`.
 ### cli.py
 
 qqgarden: the gardener's command line. Runnable as a script via `if __name__ == '__main__'`.
-Functions: `statuses`, `summary`, `cmd_status`, `cmd_groups`, `cmd_bisect`, `cmd_cycle`,
-`cmd_revert`, `main`.
+Functions: `statuses`, `summary`, `cmd_status`, `cmd_groups`, `publish_groups`,
+`cmd_bisect`, `cmd_cycle`, `cmd_revert`, and 1 more.
 
-[`src/qqgarden/cli.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/cli.py) · code · 18759 bytes
+[`src/qqgarden/cli.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/cli.py) · code · 20934 bytes
 
 ### config.py
 
@@ -75,6 +75,15 @@ V0-GAR-02, first half: group failures by regression range (Sheriff-o-Matic's gro
 Classes: `Group`, `Evidence`. Functions: `classify`, `group`.
 
 [`src/qqgarden/groups.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/groups.py) · code · 4189 bytes
+
+### groupsfile.py
+
+The failure groups the tree-status job publishes as groups/groups.json on the tree-status
+branch, so the monitoring dashboard can say why each red range broke (build, test or infra).
+Classes: `AttemptSteps`. Functions: `attempts_to_read`, `span_steps`, `key`, `carried`,
+`build`, `to_json`, `read_statuses`, `read_previous`, and 1 more.
+
+[`src/qqgarden/groupsfile.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/groupsfile.py) · code · 6157 bytes
 
 ### ledger.py
 
@@ -126,4 +135,4 @@ Classes: `GitHubTracker`, `LocalTracker`.
 
 [`src/qqgarden/tracker.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/tracker.py) · code · 4072 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

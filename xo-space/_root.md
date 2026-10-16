@@ -178,4 +178,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

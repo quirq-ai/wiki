@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/gardener.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-13T13:20:53Z`
-- Snapshot SHA: `1eb981e22e33`
+- Last push: `2026-10-15T23:58:43Z`
+- Snapshot SHA: `eba46ad55004`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -20,10 +20,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github/workflows` | 2 | [.github__workflows.md](.github__workflows.md) |
 | `requirements` | 1 | [requirements.md](requirements.md) |
 | `src` | 0 | [src.md](src.md) |
-| `src/qqgarden` | 17 | [src__qqgarden.md](src__qqgarden.md) |
+| `src/qqgarden` | 18 | [src__qqgarden.md](src__qqgarden.md) |
 | `src/qqgarden/backends` | 4 | [src__qqgarden__backends.md](src__qqgarden__backends.md) |
-| `tests` | 16 | [tests.md](tests.md) |
+| `tests` | 17 | [tests.md](tests.md) |
 | `tests/fixtures` | 2 | [tests__fixtures.md](tests__fixtures.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-15 10:26 UTC._
+_Generated 2026-10-16 10:13 UTC._

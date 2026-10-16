@@ -14,6 +14,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **docs** | public fork | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
 | **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
+| **experiments** | public | [`experiments/`](experiments/_index.md) | [experiments](https://github.com/quirq-ai/experiments) |
 | **galileo** | public | [`galileo/`](galileo/_index.md) | [galileo](https://github.com/quirq-ai/galileo) |
 | **gardener** | public | [`gardener/`](gardener/_index.md) | [gardener](https://github.com/quirq-ai/gardener) |
 | **gate** | public | [`gate/`](gate/_index.md) | [gate](https://github.com/quirq-ai/gate) |
@@ -40,7 +41,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **ui** | public | [`ui/`](ui/_index.md) | [ui](https://github.com/quirq-ai/ui) |
 | **vangogh** | public | [`vangogh/`](vangogh/_index.md) | [vangogh](https://github.com/quirq-ai/vangogh) |
 | **website**<br>website: code and deploy of the public quirq.ai site | public | [`website/`](website/_index.md) | [website](https://github.com/quirq-ai/website) |
-| **xo** | public | [`xo/`](xo/_index.md) | [xo](https://github.com/quirq-ai/xo) |
+| **xo**<br>product: xo, the command line for the XO Cloud API | public | [`xo/`](xo/_index.md) | [xo](https://github.com/quirq-ai/xo) |
 | **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
 | **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
 
@@ -50,4 +51,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-15 10:26 UTC._
+_Generated 2026-10-16 10:14 UTC._

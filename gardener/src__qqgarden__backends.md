@@ -10,14 +10,14 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Backends: where commits and post-submit runs come from. Functions: `load`.
 
-[`src/qqgarden/backends/__init__.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/__init__.py) · code · 940 bytes
+[`src/qqgarden/backends/__init__.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/__init__.py) · code · 1041 bytes
 
 ### github.py
 
 GitHub backend. History comes from a public git clone; post-submit runs from the Actions
 API. Classes: `Backend`. Functions: `workflow_file`.
 
-[`src/qqgarden/backends/github.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/github.py) · code · 14621 bytes
+[`src/qqgarden/backends/github.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/github.py) · code · 15627 bytes
 
 ### localforge.py
 
@@ -29,6 +29,6 @@ A forge on local bare git repos, for tests and CI's done-when demos. Classes: `L
 
 An offline backend: commits and runs from a JSON snapshot. Classes: `Backend`.
 
-[`src/qqgarden/backends/snapshot.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/snapshot.py) · code · 3138 bytes
+[`src/qqgarden/backends/snapshot.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/backends/snapshot.py) · code · 3705 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

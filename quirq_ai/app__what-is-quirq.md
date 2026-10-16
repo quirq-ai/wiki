@@ -23,4 +23,4 @@ and V x B quirqs are minted. Same stage, the explainer cut.", } Notable exports:
 
 [`app/what-is-quirq/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/what-is-quirq/page.tsx) · code · 1272 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

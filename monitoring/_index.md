@@ -8,8 +8,8 @@ The quirq-ai monitoring dashboard: one page that says **what changed across the 
 - [Activity history](../_activity/repos/monitoring.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-15T10:25:35Z`
-- Snapshot SHA: `f4b34ceadec6`
+- Last push: `2026-10-15T23:51:17Z`
+- Snapshot SHA: `dcadbf2360c9`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,6 +24,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `app/api/snapshot` | 1 | [app__api__snapshot.md](app__api__snapshot.md) |
 | `app/blockers` | 2 | [app__blockers.md](app__blockers.md) |
 | `app/board` | 2 | [app__board.md](app__board.md) |
+| `app/gardener` | 2 | [app__gardener.md](app__gardener.md) |
 | `app/health` | 2 | [app__health.md](app__health.md) |
 | `app/release` | 2 | [app__release.md](app__release.md) |
 | `app/repos` | 0 | [app__repos.md](app__repos.md) |
@@ -36,8 +37,8 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `docs` | 1 | [docs.md](docs.md) |
 | `lib` | 5 | [lib.md](lib.md) |
 | `lib/editor` | 14 | [lib__editor.md](lib__editor.md) |
-| `lib/model` | 8 | [lib__model.md](lib__model.md) |
-| `lib/sources` | 19 | [lib__sources.md](lib__sources.md) |
+| `lib/model` | 9 | [lib__model.md](lib__model.md) |
+| `lib/sources` | 21 | [lib__sources.md](lib__sources.md) |
 | `public` | 0 | [public.md](public.md) |
 | `public/brand` | 0 | [public__brand.md](public__brand.md) |
 | `public/brand/quirq` | 3 | [public__brand__quirq.md](public__brand__quirq.md) |
@@ -47,19 +48,23 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/fixtures/api` | 47 | [tests__fixtures__api.md](tests__fixtures__api.md) |
+| `tests/fixtures/captured` | 1 | [tests__fixtures__captured.md](tests__fixtures__captured.md) |
 | `tests/fixtures/raw` | 0 | [tests__fixtures__raw.md](tests__fixtures__raw.md) |
 | `tests/fixtures/raw/gardener` | 0 | [tests__fixtures__raw__gardener.md](tests__fixtures__raw__gardener.md) |
 | `tests/fixtures/raw/gardener/ledger` | 0 | [tests__fixtures__raw__gardener__ledger.md](tests__fixtures__raw__gardener__ledger.md) |
 | `tests/fixtures/raw/gardener/ledger/reverts` | 1 | [tests__fixtures__raw__gardener__ledger__reverts.md](tests__fixtures__raw__gardener__ledger__reverts.md) |
 | `tests/fixtures/raw/gardener/main` | 1 | [tests__fixtures__raw__gardener__main.md](tests__fixtures__raw__gardener__main.md) |
 | `tests/fixtures/raw/gardener/tree-status` | 0 | [tests__fixtures__raw__gardener__tree-status.md](tests__fixtures__raw__gardener__tree-status.md) |
-| `tests/fixtures/raw/gardener/tree-status/status` | 2 | [tests__fixtures__raw__gardener__tree-status__status.md](tests__fixtures__raw__gardener__tree-status__status.md) |
+| `tests/fixtures/raw/gardener/tree-status/groups` | 1 | [tests__fixtures__raw__gardener__tree-status__groups.md](tests__fixtures__raw__gardener__tree-status__groups.md) |
+| `tests/fixtures/raw/gardener/tree-status/status` | 3 | [tests__fixtures__raw__gardener__tree-status__status.md](tests__fixtures__raw__gardener__tree-status__status.md) |
 | `tests/fixtures/raw/gate` | 0 | [tests__fixtures__raw__gate.md](tests__fixtures__raw__gate.md) |
 | `tests/fixtures/raw/gate/main` | 1 | [tests__fixtures__raw__gate__main.md](tests__fixtures__raw__gate__main.md) |
 | `tests/fixtures/raw/gate/main/.github` | 1 | [tests__fixtures__raw__gate__main__.github.md](tests__fixtures__raw__gate__main__.github.md) |
 | `tests/fixtures/raw/gate/main/guard` | 1 | [tests__fixtures__raw__gate__main__guard.md](tests__fixtures__raw__gate__main__guard.md) |
 | `tests/fixtures/raw/gate/main/settings` | 1 | [tests__fixtures__raw__gate__main__settings.md](tests__fixtures__raw__gate__main__settings.md) |
 | `tests/fixtures/raw/infra-config` | 0 | [tests__fixtures__raw__infra-config.md](tests__fixtures__raw__infra-config.md) |
+| `tests/fixtures/raw/infra-config/bf3ad29834d85489c49aa6d41ec3c7e59474b746` | 0 | [tests__fixtures__raw__infra-config__bf3ad29834d85489c49aa6d41ec3c7e59474b746.md](tests__fixtures__raw__infra-config__bf3ad29834d85489c49aa6d41ec3c7e59474b746.md) |
+| `tests/fixtures/raw/infra-config/bf3ad29834d85489c49aa6d41ec3c7e59474b746/config` | 1 | [tests__fixtures__raw__infra-config__bf3ad29834d85489c49aa6d41ec3c7e59474b746__config.md](tests__fixtures__raw__infra-config__bf3ad29834d85489c49aa6d41ec3c7e59474b746__config.md) |
 | `tests/fixtures/raw/infra-config/main` | 0 | [tests__fixtures__raw__infra-config__main.md](tests__fixtures__raw__infra-config__main.md) |
 | `tests/fixtures/raw/infra-config/main/.github` | 1 | [tests__fixtures__raw__infra-config__main__.github.md](tests__fixtures__raw__infra-config__main__.github.md) |
 | `tests/fixtures/raw/infra-config/main/config` | 13 | [tests__fixtures__raw__infra-config__main__config.md](tests__fixtures__raw__infra-config__main__config.md) |
@@ -100,7 +105,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/raw/wiki` | 0 | [tests__fixtures__raw__wiki.md](tests__fixtures__raw__wiki.md) |
 | `tests/fixtures/raw/wiki/main` | 1 | [tests__fixtures__raw__wiki__main.md](tests__fixtures__raw__wiki__main.md) |
 | `tests/helpers` | 2 | [tests__helpers.md](tests__helpers.md) |
-| `tests/model` | 6 | [tests__model.md](tests__model.md) |
-| `tests/sources` | 18 | [tests__sources.md](tests__sources.md) |
+| `tests/model` | 7 | [tests__model.md](tests__model.md) |
+| `tests/sources` | 20 | [tests__sources.md](tests__sources.md) |
 
-_Generated 2026-10-15 10:26 UTC._
+_Generated 2026-10-16 10:13 UTC._

@@ -26,4 +26,4 @@ Functions: `create`.
 
 [`src/qqrbe/backends/local.py`](https://github.com/quirq-ai/remote-build/blob/main/src/qqrbe/backends/local.py) · code · 1408 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

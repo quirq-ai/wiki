@@ -29,7 +29,7 @@ Runs every source once against the live branches and prints one line each: count
 states, never whole files. `pnpm live` (set GITHUB_TOKEN for the API sources). Nothing here
 asserts: a source that is down prints its reason, which is the point.
 
-[`tests/live-check.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/live-check.ts) · code · 5436 bytes
+[`tests/live-check.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/live-check.ts) · code · 6002 bytes
 
 ### read-only.test.ts
 
@@ -39,4 +39,4 @@ Automated test file.
 
 [`tests/read-only.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/read-only.test.ts) · code · 4579 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

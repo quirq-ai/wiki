@@ -32,7 +32,7 @@ Functions: `sha`, `history`.
 
 Python module `test_backends.py`.
 
-[`tests/test_backends.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_backends.py) · code · 5655 bytes
+[`tests/test_backends.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_backends.py) · code · 7131 bytes
 
 ### test_backfill.py
 
@@ -92,6 +92,13 @@ Contains tests.
 
 [`tests/test_groups.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_groups.py) · code · 2027 bytes
 
+### test_groupsfile.py
+
+groups/groups.json: why each red range broke, published next to the status files for the
+dashboard. Classes: `Reader`.
+
+[`tests/test_groupsfile.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_groupsfile.py) · code · 10154 bytes
+
 ### test_package.py
 
 Python module `test_package.py`. Functions: `test_version`. Contains tests.
@@ -127,11 +134,8 @@ Python module `test_records.py`. Classes: `CountingTracker`.
 ### test_workflows.py
 
 The tree-status workflow holds write tokens: what runs next to them stays pinned (audit S5,
-S6). Functions: `steps_using`, `test_no_checkout_keeps_credentials`,
-`test_only_hash_checked_wheels_are_installed`, `test_the_lock_pins_what_pyproject_pins`,
-`test_qqresults_runs_at_the_pinned_commit`, `test_tokens_reach_only_the_steps_that_push`,
-`test_each_run_on_main_dispatches_the_next`, `test_an_empty_ledger_needs_a_person`.
+S6).
 
-[`tests/test_workflows.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_workflows.py) · code · 4416 bytes
+[`tests/test_workflows.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_workflows.py) · code · 6917 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

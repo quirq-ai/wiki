@@ -18,4 +18,4 @@ Jsonl file `innernet-search.jsonl`.
 
 [`tests/fixtures/raw/perf/perf-data/innernet/innernet-search.jsonl`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/perf/perf-data/innernet/innernet-search.jsonl) · code · 10519 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

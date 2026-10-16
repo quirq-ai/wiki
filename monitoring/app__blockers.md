@@ -18,6 +18,6 @@ const kindWords: Record = { review: "review requested", assigned: "assigned to y
 approval": "approval on an older head", held: "canary held", failure: "open failure", }
 Notable exports: `BlockersPage`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/blockers/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/blockers/page.tsx) · code · 6851 bytes
+[`app/blockers/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/blockers/page.tsx) · code · 6869 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

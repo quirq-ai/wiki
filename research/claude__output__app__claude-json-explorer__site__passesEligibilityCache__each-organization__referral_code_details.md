@@ -14,4 +14,4 @@ id&gt;].referral_code_details · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/passesEligibilityCache/each-organization/referral_code_details/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/passesEligibilityCache/each-organization/referral_code_details/index.html) · code · 16364 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

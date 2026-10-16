@@ -39,7 +39,7 @@ across quirq-ai, and what state everything is in.", icons: { icon: "/brand/quirq
 icon.svg" }, } Notable exports: `RootLayout`, `metadata`. Wired into a Next.js app (App
 Router or Next APIs).
 
-[`app/layout.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/layout.tsx) · code · 1306 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/layout.tsx) · code · 1315 bytes
 
 ### not-found.tsx
 
@@ -48,4 +48,4 @@ Next.js app (App Router or Next APIs).
 
 [`app/not-found.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/not-found.tsx) · code · 517 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

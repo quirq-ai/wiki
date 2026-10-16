@@ -19,10 +19,10 @@ Notable exports: `parseColor`, `contrast`, `parseTokenBlocks`, `contrastFailures
 ### fetch.ts
 
 Every network read in the app goes through this file or lib/github.ts. Pages never fetch.
-Notable exports: `rawBase`, `rawUrl`, `blobUrl`, `treeUrl`, `rememberMissing`,
-`isRememberedMissing`, `rememberedMissingMessage`, `forgetMissing`, and 9 more.
+Notable exports: `rawBase`, `rawUrl`, `rawCommitUrl`, `isCommitId`, `blobUrl`, `treeUrl`,
+`rememberMissing`, `isRememberedMissing`, and 12 more.
 
-[`lib/fetch.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/fetch.ts) · code · 5624 bytes
+[`lib/fetch.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/fetch.ts) · code · 6467 bytes
 
 ### github.ts
 
@@ -50,4 +50,4 @@ exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/utils.ts) · code · 169 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

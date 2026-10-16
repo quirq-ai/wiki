@@ -137,6 +137,12 @@ const RAW = "release/release-state/channels.json" Automated test file.
 
 [`tests/sources/release-channels.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/release-channels.test.ts) · code · 2321 bytes
 
+### revert-policy.test.ts
+
+const PIN = "bf3ad29834d85489c49aa6d41ec3c7e59474b746" Automated test file.
+
+[`tests/sources/revert-policy.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/revert-policy.test.ts) · code · 3351 bytes
+
 ### scorecard.test.ts
 
 describe("scorecard", () => { it("reads the captured scorecard with its not-measured list",
@@ -147,6 +153,12 @@ expect(Object.keys(signal.value.repos).length).toBeGreaterThan(0); expect(signal
 
 [`tests/sources/scorecard.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/scorecard.test.ts) · code · 1246 bytes
 
+### tree-groups.test.ts
+
+const RAW = "gardener/tree-status/groups/groups.json" Automated test file.
+
+[`tests/sources/tree-groups.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/tree-groups.test.ts) · code · 1654 bytes
+
 ### tree-history.test.ts
 
 describe("tree history", () => { it("derives the open and close events from the commit log",
@@ -155,7 +167,7 @@ expect(signal.ok).toBe(true); if (!signal.ok) return; expect(signal.value.length
 expect(signal.value[0].changed).toEqual(["innernet"]);
 expect(signal.value[0].states.innernet).toBe Automated test file.
 
-[`tests/sources/tree-history.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/tree-history.test.ts) · code · 1702 bytes
+[`tests/sources/tree-history.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/tree-history.test.ts) · code · 2386 bytes
 
 ### tree-status.test.ts
 
@@ -165,7 +177,7 @@ withFixtures(); const xo = await readTreeStatus("xo-space"); expect(xo.ok).toBe(
 expect(Object.keys(xo.value.builders)).toContain("xo-space-postsubmit");
 expect(xo.value.coverage?.commits).toBe(11); const in Automated test file.
 
-[`tests/sources/tree-status.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/tree-status.test.ts) · code · 1900 bytes
+[`tests/sources/tree-status.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/tree-status.test.ts) · code · 2780 bytes
 
 ### writer-runs.test.ts
 
@@ -174,4 +186,4 @@ file.
 
 [`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 4765 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

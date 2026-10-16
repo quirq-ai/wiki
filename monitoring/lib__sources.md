@@ -121,6 +121,15 @@ exports: `readReleaseChannels`, `ChannelEntry`, `ReleaseChannels`.
 
 [`lib/sources/release-channels.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/release-channels.ts) · code · 1737 bytes
 
+### revert-policy.ts
+
+The revert caps the gardener runs with: infra-config `config/auto_revert.toml` at the commit
+the gardener pins in its `pins.toml`, never at infra-config main (the gardener reads the
+pin, so main may say something the gardener does not do yet). Two raw reads, no token.
+Notable exports: `readRevertPolicy`, `Limit`, `RevertPolicy`.
+
+[`lib/sources/revert-policy.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/revert-policy.ts) · code · 3817 bytes
+
 ### scorecard.ts
 
 test-pipelines results scorecard.json: the weekly numbers per repo, plus what is not
@@ -139,21 +148,31 @@ minutes old. Notable exports: `blobSha`, `settingsCatalog`, `readSettingsFile`,
 
 [`lib/sources/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/settings.ts) · code · 7883 bytes
 
+### tree-groups.ts
+
+gardener tree-status groups/groups.json (qq-gardener-groups/1, gardener
+src/qqgarden/groupsfile.py): per red range, its builders, first red runs, failure type and
+failed steps.
+
+[`lib/sources/tree-groups.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/tree-groups.ts) · code · 2075 bytes
+
 ### tree-history.ts
 
-gardener commits the tree-status branch only when a state changes, with a message like
-`tree-status: innernet open, xo-space closed`. The last 20 commits are the open/close log.
-Notable exports: `readTreeHistory`, `parseMessage`, `TreeChange`.
+gardener commits the tree-status branch only when a status file changes (a state, a head, a
+coverage hole), with a message like `tree-status: innernet open, xo-space closed`, so most
+commits change no state. The last 100 commits (one request, about a month at today's rate)
+are read, and an open/close event is a commit whose message names a state that differs from
+the commit before it.
 
-[`lib/sources/tree-history.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/tree-history.ts) · code · 2913 bytes
+[`lib/sources/tree-history.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/tree-history.ts) · code · 3329 bytes
 
 ### tree-status.ts
 
 gardener tree-status status/<repo>.json: open, closed or unknown, with the builders' newest
 verdicts and the red ranges. The file carries no timestamp; its writer's run says if it is
-alive. Notable exports: `readTreeStatus`, `TreeStatus`.
+alive. Notable exports: `readTreeStatus`, `readTreeIndex`, `parseIndex`, `TreeStatus`.
 
-[`lib/sources/tree-status.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/tree-status.ts) · code · 2460 bytes
+[`lib/sources/tree-status.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/tree-status.ts) · code · 4434 bytes
 
 ### writer-runs.ts
 
@@ -163,4 +182,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

@@ -14,4 +14,4 @@ unchanged. cli/tools.mjs must print exactly these; update both together.
 
 [`tests/fixtures/qq-guide-install.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/qq-guide-install.txt) · code · 1121 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

@@ -21,6 +21,14 @@ ai/innernet/pull/${at}, state, ...extra, }) Automated test file.
 
 [`tests/model/calendar.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/calendar.test.ts) · code · 3199 bytes
 
+### gardener.test.ts
+
+const A = "1111111111111111111111111111111111111111"; const B =
+"2222222222222222222222222222222222222222"; const C =
+"3333333333333333333333333333333333333333" Automated test file.
+
+[`tests/model/gardener.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/gardener.test.ts) · code · 15914 bytes
+
 ### matrix.test.ts
 
 function item(repo: string, at: string, state: TodayItem["state"] = "green"): TodayItem {
@@ -55,4 +63,4 @@ maxAge }) Automated test file.
 
 [`tests/model/stale.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/stale.test.ts) · code · 2099 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

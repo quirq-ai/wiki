@@ -23,7 +23,7 @@ and pinned with a dot * in that color; unknown stays plain paper with a dashed e
 missing value never looks * like a quiet one. Products and repos that need a look are full
 Notable exports: `noteId`, `BoardOverview`, `Board`, `ShownGroup`.
 
-[`components/board-notes.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/board-notes.tsx) · code · 11466 bytes
+[`components/board-notes.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/board-notes.tsx) · code · 11502 bytes
 
 ### canary-strip.tsx
 
@@ -115,7 +115,7 @@ on every page. */ export function SettingsLink() { const current =
 usePathname().startsWith("/settings"); return ( Notable exports: `SettingsLink`. Wired into
 a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
 
-[`components/settings-link.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/settings-link.tsx) · code · 873 bytes
+[`components/settings-link.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/settings-link.tsx) · code · 882 bytes
 
 ### sha.tsx
 
@@ -127,20 +127,21 @@ A 7-character commit id in mono, linked to the full commit. Notable exports: `Sh
 
 /** * Sticky header: the wordmark and the settings and theme buttons at the edges, the page
 tabs * centered between them (a three-column grid, so the tabs sit in the middle of the
-header whatever * the edges measure). On a phone the tabs are their own centered row under
-the wordmark. */ export function SiteHeader() { return ( Notable exports: `SiteHeader`.
-Wired into a Next.js app (App Router or Next APIs).
+header whatever * the edges measure). Below 900 px, where six tabs and the wordmark do not
+fit one row, the tabs * are their own centered row under the wordmark. */ export function
+Notable exports: `SiteHeader`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1756 bytes
+[`components/site-header.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-header.tsx) · code · 1877 bytes
 
 ### site-nav.tsx
 
 const pages = [ { href: "/", label: "Calendar" }, { href: "/blockers", label: "Blockers" },
 { href: "/board", label: "Board" }, { href: "/release", label: "Release" }, { href:
-"/health", label: "Health" }, ] as const Notable exports: `SiteNav`. Wired into a Next.js
-app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
+"/gardener", label: "Gardener" }, { href: "/health", label: "Health" }, ] as const Notable
+exports: `SiteNav`. Wired into a Next.js app (App Router or Next APIs). Marked `'use
+client'` so it runs in the browser.
 
-[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 1670 bytes
+[`components/site-nav.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/site-nav.tsx) · code · 2005 bytes
 
 ### source-link.tsx
 
@@ -173,7 +174,7 @@ State`.
 const oneYear = 60 * 60 * 24 * 365 Notable exports: `ThemeToggle`. Marked `'use client'` so
 it runs in the browser.
 
-[`components/theme-toggle.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/theme-toggle.tsx) · code · 1021 bytes
+[`components/theme-toggle.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/theme-toggle.tsx) · code · 1030 bytes
 
 ### time-ago.tsx
 
@@ -184,4 +185,4 @@ now); const utc = exactUtc(iso); return ( Notable exports: `TimeAgo`.
 
 [`components/time-ago.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/time-ago.tsx) · code · 547 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

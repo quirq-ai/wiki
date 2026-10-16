@@ -22,4 +22,4 @@ Next.js app (App Router or Next APIs).
 
 [`app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/app/layout.tsx) · code · 1102 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

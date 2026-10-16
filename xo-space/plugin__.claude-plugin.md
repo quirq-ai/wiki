@@ -14,4 +14,4 @@ consumed by the surrounding app or tooling.
 
 [`plugin/.claude-plugin/plugin.json`](https://github.com/quirq-ai/xo-space/blob/main/plugin/.claude-plugin/plugin.json) · code · 518 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

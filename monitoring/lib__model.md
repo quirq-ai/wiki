@@ -23,7 +23,7 @@ ReleaseRepo, type SectionRead, type Snapshot, type SourceStatus, type TodayItem,
 WaitingItem, type WriterHealth, } from "@/lib/model/types"; Joins every Signal into the one
 model the pages render.
 
-[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35559 bytes
+[`lib/model/build.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/build.ts) · code · 35621 bytes
 
 ### calendar.ts
 
@@ -42,6 +42,15 @@ function judgeWriter(writer: Writer, runs: Signal, now: Date): WriterHealth { co
 Notable exports: `judgeWriter`.
 
 [`lib/model/freshness.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/freshness.ts) · code · 1791 bytes
+
+### gardener.ts
+
+The Gardener page's model: is main green in the repos the gardener watches, and is the
+gardener working? Everything comes from the gardener's own published files, its workflow's
+runs and the caps it pins. Read-only, like every page; a culprit or suspect is shown by its
+sha only, never its commit title.
+
+[`lib/model/gardener.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/gardener.ts) · code · 16223 bytes
 
 ### matrix.ts
 
@@ -76,4 +85,4 @@ Notable exports: `SNAPSHOT_SCHEMA`, `CellStateSchema`, `CellSchema`, `SourceStat
 
 [`lib/model/types.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/types.ts) · code · 7336 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

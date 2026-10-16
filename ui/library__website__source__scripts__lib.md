@@ -24,4 +24,4 @@ exports: `projectRuleText`, `ungroupedRepositories`, `countPeople`, `isNoteFile`
 
 [`library/website/source/scripts/lib/quirq-phases.mjs`](https://github.com/quirq-ai/ui/blob/main/library/website/source/scripts/lib/quirq-phases.mjs) · code · 10284 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:14 UTC from `main`._

@@ -6,6 +6,15 @@ Source: [tests/fixtures/raw/gardener/tree-status/status](https://github.com/quir
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### README.md
+
+The project README (“Tree status”). | Repo | Tree | Why | Commits checked | Missing |
+Cancelled | |---|---|---|---|---|---| | xo-space | open | every post-submit builder's newest
+verdict is green | 25 | 0 | 0 | | innernet | open | every post-submit builder's newest
+verdict is green | 10 | 0 | 0 |.
+
+[`tests/fixtures/raw/gardener/tree-status/status/README.md`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gardener/tree-status/status/README.md) · code · 285 bytes
+
 ### innernet.json
 
 JSON document `innernet.json` whose top-level keys are `branch`, `builders`, `coverage`,
@@ -22,4 +31,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/raw/gardener/tree-status/status/xo-space.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gardener/tree-status/status/xo-space.json) · code · 714 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._

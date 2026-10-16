@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-15T10:26:48.695138+00:00",
+  "generated_at": "2026-10-16T10:14:06.048291+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -62,6 +62,15 @@
       "sha": "b36a5c466d8d7de47b223e97ebc112b8bb260016"
     },
     {
+      "name": "experiments",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/experiments",
+      "pushed_at": "2026-10-16T01:36:08Z",
+      "sha": "a60faf2764e9de4477ad00fa590cf0dcd975e9e9"
+    },
+    {
       "name": "galileo",
       "fork": false,
       "archived": false,
@@ -76,8 +85,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-10-13T13:20:53Z",
-      "sha": "1eb981e22e33bd76fca376dcd1f107e655be8e81"
+      "pushed_at": "2026-10-15T23:58:43Z",
+      "sha": "eba46ad55004c850c4897c26b9bfabefbb20b528"
     },
     {
       "name": "gate",
@@ -139,8 +148,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/monitoring",
-      "pushed_at": "2026-10-15T10:25:35Z",
-      "sha": "f4b34ceadec60343c346805bfc2b1b7b8dd10c74"
+      "pushed_at": "2026-10-15T23:51:17Z",
+      "sha": "dcadbf2360c9e2fd821d9dd727a386e04ad6f024"
     },
     {
       "name": "perf",
@@ -202,7 +211,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-15T07:45:48Z",
+      "pushed_at": "2026-10-16T07:41:30Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -220,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/research",
-      "pushed_at": "2026-10-14T22:55:32Z",
+      "pushed_at": "2026-10-15T20:57:40Z",
       "sha": "35dc835e47440d797e409152f97aafc3f38bcf87"
     },
     {
@@ -256,7 +265,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-15T04:51:46Z",
+      "pushed_at": "2026-10-16T04:42:09Z",
       "sha": "0ad06a230fabf7c2d85ee4bdb5e03e0f9c828a6e"
     },
     {
@@ -299,10 +308,10 @@
       "name": "xo",
       "fork": false,
       "archived": false,
-      "default_branch": "claude/xo-cli-5ynop4",
+      "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo",
-      "pushed_at": "2026-10-15T09:30:35Z",
-      "sha": "c8c4719522d9ab76c61d6cf610ab0a396eed6e58"
+      "pushed_at": "2026-10-16T07:32:57Z",
+      "sha": "7912a5424a599dcebc81a352591748a275df804b"
     },
     {
       "name": "xo-cowork-api",
@@ -319,7 +328,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-10-14T07:45:48Z",
+      "pushed_at": "2026-10-15T20:38:46Z",
       "sha": "3bb8687307144ab604723e7c13f49753b22dc0e0"
     }
   ]

@@ -25,4 +25,4 @@ custom properties (design tokens).
 
 [`src/ui/styles.css`](https://github.com/quirq-ai/quitter/blob/main/src/ui/styles.css) · code · 39828 bytes
 
-_Generated 2026-10-15 10:26 UTC from `main`._
+_Generated 2026-10-16 10:13 UTC from `main`._
