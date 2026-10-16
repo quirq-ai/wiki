@@ -2,7 +2,7 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-441 observed records. commit: 37, issue: 5, pull request: 13, workflow: 386.
+443 observed records. commit: 37, issue: 5, pull request: 13, workflow: 388.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@
 | 23:02:56 | [xo](../../../repos/xo.md) | commit | quirq-gates | [xo: audit round 2 fixes](https://github.com/quirq-ai/xo/commit/cf793e05e73ef7febdb3844ec4105b28fb868174) |  |
 | 22:59:42 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38650819469) | success |
 | 22:55:55 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/actions/runs/38650872874) | success |
+| 22:55:55 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: Reddit research (ongoing)](https://github.com/quirq-ai/research/actions/runs/38650872874) | success |
 | 22:55:46 | [research](../../../repos/research.md) | pull request | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/pull/63) | open |
 | 22:55:30 | [research](../../../repos/research.md) | commit | claude | [marketing: add Reddit agent-builder threads report](https://github.com/quirq-ai/research/commit/77fe3ee67e236a56cc8fa88b6db7d8835a4bfb49) |  |
 | 22:55:09 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38650347800) | success |
@@ -39,6 +40,7 @@
 | 22:41:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38648860319) | success |
 | 22:40:08 | [research](../../../repos/research.md) | commit | yash-wecan | [marketing: publish the Reddit agent-builder threads report](https://github.com/quirq-ai/research/commit/0a0f3a78b489ba67701291e48bcae2b7e9d80f85) |  |
 | 22:37:05 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38648351704) | success |
+| 22:36:52 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: Reddit research (ongoing)](https://github.com/quirq-ai/research/actions/runs/38648809659) | success |
 | 22:36:52 | [research](../../../repos/research.md) | workflow | yash-wecan | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/actions/runs/38648809659) | success |
 | 22:36:39 | [monitoring](../../../repos/monitoring.md) | workflow | quirq-gates | [Settings editor: lock the rest of qqcfg generate&#x27;s inputs, say where GitHub requires code-owner review](https://github.com/quirq-ai/monitoring/actions/runs/38648615673) | success |
 | 22:36:18 | [research](../../../repos/research.md) | commit | claude | [marketing: publish report on starting quirq on Reddit](https://github.com/quirq-ai/research/commit/6bc82cfc4f35241c99e3da2ae4a421c2c802305f) |  |
