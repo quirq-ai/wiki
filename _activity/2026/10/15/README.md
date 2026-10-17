@@ -2,7 +2,7 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-675 observed records. commit: 143, issue: 4, pull request: 36, workflow: 492.
+680 observed records. commit: 148, issue: 4, pull request: 36, workflow: 492.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
@@ -37,10 +37,12 @@
 | 23:17:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38822219670) | success |
 | 23:13:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38821749207) | success |
 | 23:08:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38821262198) | success |
+| 23:07:26 | [xo-space](../../../repos/xo-space.md) | commit | dwivedi-ai | [fix(claude\_code): last nits from the final check of 37ab161](https://github.com/quirq-ai/xo-space/commit/7285bab8c79a347cddc966b117e36db668253493) |  |
 | 23:04:04 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38820758265) | success |
 | 23:03:07 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Add ./rename, and let experiment names be paths](https://github.com/quirq-ai/experiments/commit/9585da058245aafe4eb6353e1ee637a400abeb5d) |  |
 | 23:00:00 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [xo login, one address for every command, and the server passes creates on to XO](https://github.com/quirq-ai/xo/actions/runs/38820732372) | success |
 | 22:59:32 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38820282797) | success |
+| 22:56:16 | [xo-space](../../../repos/xo-space.md) | commit | dwivedi-ai | [fix(claude\_code): a cancelled restart stops; byte-offset transcript cursor](https://github.com/quirq-ai/xo-space/commit/37ab1619de7e53d5a77ab0a1d67ffd88ac5dfacb) |  |
 | 22:55:01 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38819799308) | success |
 | 22:51:12 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Archive linear-clone](https://github.com/quirq-ai/experiments/commit/48fea30c1103e2aa5bf2125c50e44ef606d0547c) |  |
 | 22:51:08 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Archive linear-clone](https://github.com/quirq-ai/experiments/commit/1fe9d9c94c2b123d799a8ed368dfdd4b0332c3c7) |  |
@@ -57,6 +59,7 @@
 | 22:41:28 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38818305973) | success |
 | 22:36:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38817794559) | success |
 | 22:32:25 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38817271966) | success |
+| 22:30:16 | [xo-space](../../../repos/xo-space.md) | commit | dwivedi-ai | [fix(claude\_code): review fixes: restart races, coordinator limits, env, isolation](https://github.com/quirq-ai/xo-space/commit/91b6945c55152a4be31290d720db03efcf47fe2e) |  |
 | 22:30:05 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Rewrite the archive as one commit per experiment](https://github.com/quirq-ai/experiments/commit/42a54d27a825a57baea39960ea1c0a39ee09fd03) |  |
 | 22:28:03 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Make ./archive a stack: one squashed commit per experiment](https://github.com/quirq-ai/experiments/commit/d5a5f0d18271e1311e3f8d46864c784ae397bf53) |  |
 | 22:27:53 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38816757796) | success |
@@ -66,6 +69,7 @@
 | 22:18:52 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38815711289) | success |
 | 22:14:21 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38815181869) | success |
 | 22:09:49 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38814656151) | success |
+| 22:08:18 | [xo-space](../../../repos/xo-space.md) | commit | dwivedi-ai | [fix(claude\_code): close the gaps a self-review of the runtime found](https://github.com/quirq-ai/xo-space/commit/2dacf77b348e5fe5e8b826473918c2af53099c05) |  |
 | 22:05:17 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38814103467) | success |
 | 22:03:42 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Archive computing-age](https://github.com/quirq-ai/experiments/commit/754dca3314aa69bf328fc7a0cabc30c960945595) |  |
 | 22:03:39 | [experiments](../../../repos/experiments.md) | commit | sharmasuraj0123 | [Archive computing-age](https://github.com/quirq-ai/experiments/commit/e3caeedc48a478f2ba5dd53486aef48ea8b7b679) |  |
@@ -75,6 +79,7 @@
 | 22:00:46 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38813561969) | success |
 | 22:00:38 | [xo](../../../repos/xo.md) | pull request | quirq-gates | [Rollback wording, audit clerk field on key checks, space redaction](https://github.com/quirq-ai/xo/pull/9) | merged |
 | 22:00:36 | [xo](../../../repos/xo.md) | commit | quirq-gates | [Rollback wording, audit clerk field on key checks, space redaction (#8 delta) (#9)](https://github.com/quirq-ai/xo/commit/15da2c536d41524d1f1e831394c32e164db47385) |  |
+| 22:00:12 | [xo-space](../../../repos/xo-space.md) | commit | dwivedi-ai | [feat(claude\_code): storm runtime on the stream-json control protocol](https://github.com/quirq-ai/xo-space/commit/8d3042f1c203f9540d89647e453e99153506adc7) |  |
 | 21:56:15 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38813022298) | success |
 | 21:51:43 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38812474946) | success |
 | 21:47:11 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/38811917505) | success |
