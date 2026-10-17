@@ -26,7 +26,7 @@ Python module `adapter.py`. Classes: `ClaudeCodeAdapter`. Functions: `make_sessi
 `find_session_id_by_key`, `get_native_session_id`, `get_session_directory`,
 `write_preliminary_entry`, `find_session_key_for_session_id`.
 
-[`services/cowork_agent/adapters/claude_code/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/adapter.py) · code · 23838 bytes
+[`services/cowork_agent/adapters/claude_code/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/adapter.py) · code · 23840 bytes
 
 ### agents.py
 
@@ -126,4 +126,4 @@ Claude Code visualizer source — tails `~/.claude/projects/*.jsonl` and reads
 
 [`services/cowork_agent/adapters/claude_code/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/visualizer_source.py) · code · 21451 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

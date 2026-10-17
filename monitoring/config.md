@@ -47,4 +47,4 @@ queue there decide whether it lands. Nothing here writes to main.
 
 [`config/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/settings.ts) · code · 7238 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

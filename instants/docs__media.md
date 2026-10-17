@@ -46,4 +46,4 @@ generated blobs.
 
 [`docs/media/motion-lab.png`](https://github.com/quirq-ai/instants/blob/main/docs/media/motion-lab.png) · binary · 583715 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

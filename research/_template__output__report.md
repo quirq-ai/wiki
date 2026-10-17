@@ -12,4 +12,4 @@ The project README (“report”). A long-form write-up of the research.
 
 [`_template/output/report/README.md`](https://github.com/quirq-ai/research/blob/main/_template/output/report/README.md) · code · 335 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

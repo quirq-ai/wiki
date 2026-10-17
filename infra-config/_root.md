@@ -63,4 +63,4 @@ annotate -o requirements.txt.
 
 [`requirements.txt`](https://github.com/quirq-ai/infra-config/blob/main/requirements.txt) · code · 18298 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

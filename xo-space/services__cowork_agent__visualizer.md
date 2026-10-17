@@ -103,10 +103,10 @@ Dynamic loader for the active agent's visualizer source module. Functions:
 
 ### space_index.py
 
-Space graph builder — maps `~/xo-projects` to the xo-atlas space.json shape. Functions:
+Space graph builder — maps ```` to the xo-atlas space.json shape. Functions:
 `build_space_data`, `materialize`.
 
-[`services/cowork_agent/visualizer/space_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/space_index.py) · code · 21602 bytes
+[`services/cowork_agent/visualizer/space_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/space_index.py) · code · 21604 bytes
 
 ### state.py
 
@@ -177,6 +177,6 @@ Workspace discovery — every project the watcher should track. Functions:
 `project_index_scope`, `list_project_pids`, `list_project_ids`, `iter_project_xo_dirs`,
 `workspace_root`. Built with FastAPI.
 
-[`services/cowork_agent/visualizer/workspace_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace_index.py) · code · 3266 bytes
+[`services/cowork_agent/visualizer/workspace_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace_index.py) · code · 3268 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

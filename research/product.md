@@ -32,4 +32,4 @@ npm package manifest for `product`. Scripts: `build`, `dev`.
 
 [`product/package.json`](https://github.com/quirq-ai/research/blob/main/product/package.json) · code · 175 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

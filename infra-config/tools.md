@@ -14,4 +14,4 @@ qqcfg: validate and generate quirq infra (qq) config. Runnable as a script via `
 
 [`tools/qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tools/qqcfg.py) · code · 53603 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

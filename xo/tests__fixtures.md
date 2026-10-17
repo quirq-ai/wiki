@@ -18,6 +18,6 @@ like an OpenAPI 3.1 export. It is not a copy of the XO API spec and names no rea
 JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `paths`,
 `components`. Looks like a route or path table.
 
-[`tests/fixtures/openapi.json`](https://github.com/quirq-ai/xo/blob/main/tests/fixtures/openapi.json) · code · 3378 bytes
+[`tests/fixtures/openapi.json`](https://github.com/quirq-ai/xo/blob/main/tests/fixtures/openapi.json) · code · 3368 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

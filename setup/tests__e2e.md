@@ -22,4 +22,4 @@ on a Mac, where qq fetch stops after cloning. const GET = process.platform === "
 
 [`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 17949 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

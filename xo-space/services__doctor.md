@@ -39,7 +39,7 @@ Documents that parse but that their owning store can't use. Functions: `check`.
 What one doctor run knows: the roots, the time, and what it already read. Classes:
 `Context`. Functions: `_components_snapshot`, `_root`.
 
-[`services/doctor/context.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/context.py) · code · 5004 bytes
+[`services/doctor/context.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/context.py) · code · 4992 bytes
 
 ### history.py
 
@@ -106,4 +106,4 @@ Run every check with error isolation and assemble the report (architecture §5).
 
 [`services/doctor/run.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/run.py) · code · 6838 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

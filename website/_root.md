@@ -236,4 +236,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/website/blob/main/vercel.json) · code · 1002 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

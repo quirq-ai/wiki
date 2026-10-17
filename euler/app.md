@@ -21,4 +21,4 @@ tooling.
 
 [`app/upstream.json`](https://github.com/quirq-ai/euler/blob/main/app/upstream.json) · code · 5788 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

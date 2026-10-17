@@ -148,7 +148,7 @@ Project sharing: the data half of the Sharing pane (views/sharing.js is Notable 
 `shortId`, `sharingStatus`, `sharingStatusRes`, `refreshSharingStatus`, `startSharingPoll`,
 `refreshSoon`, `anyCloning`, `consumeNewClone`, and 20 more.
 
-[`space_ui/js/views/sharing_data.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/sharing_data.js) · code · 8543 bytes
+[`space_ui/js/views/sharing_data.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/sharing_data.js) · code · 8531 bytes
 
 ### tree.js
 
@@ -164,4 +164,4 @@ module's public entry.
 
 [`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8251 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

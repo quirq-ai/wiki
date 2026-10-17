@@ -72,7 +72,7 @@ The developer guide (“Developing xo-space”). A practical guide to working in
 how it's wired, where things live, how to run and validate it, and how to add a new agent
 backend without touching core code.
 
-[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 57701 bytes
+[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 57703 bytes
 
 ### Dockerfile
 
@@ -89,7 +89,7 @@ marketplace add quirq-ai/xo-space, then open Plugins → Quirq → XO Space and 
 In a new Codex task, say “Open XO Space” or “Install XO Space in ~/work.” The plugin handles
 first setup and opens the local UI; fresh installs use the Codex backend.
 
-[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12815 bytes
+[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12516 bytes
 
 ### LICENSE
 
@@ -167,7 +167,7 @@ script via `if __name__ == '__main__'`. Defines the `app` application object. HT
 `GET /`, `GET /health`, `GET /debug/ai-auth`, `GET /sessions`, `DELETE
 /sessions/{project_id}`, `POST /gateway/restart`, and 4 more. Classes: `AskQuestionRequest`.
 
-[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 51956 bytes
+[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 51958 bytes
 
 ### uninstall.sh
 
@@ -178,4 +178,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

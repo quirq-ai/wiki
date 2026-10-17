@@ -14,11 +14,10 @@ xo: the command line for the XO Cloud API.
 
 ### cli.py
 
-xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the xo
-server). Runnable as a script via `if __name__ == '__main__'`. Classes: `_Parser`.
-Functions: `safe_error`, `main`.
+"""xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
+xo server).
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 48280 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 74393 bytes
 
 ### client.py
 
@@ -27,7 +26,7 @@ The network door to XO and Coder. Classes: `XoError`, `Response`, `_NoRedirect`,
 `api_key`, `read_key`, `check_key`, `credentials_path`, `saved_login`, `save_login`, and 2
 more.
 
-[`src/xo/client.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/client.py) · code · 30708 bytes
+[`src/xo/client.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/client.py) · code · 31025 bytes
 
 ### coder.py
 
@@ -39,25 +38,45 @@ Functions: `github_parameters`.
 ### commands.py
 
 One command per API endpoint, generated from the spec. Classes: `Flag`. Functions: `kebab`,
-`command_of`, `verb_of`, `plan`, `register`, `values`, `flag_for`.
+`command_of`, `verb_of`, `plan`, `register`, `add_operation`, `values`, `flag_for`.
 
-[`src/xo/commands.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/commands.py) · code · 8118 bytes
+[`src/xo/commands.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/commands.py) · code · 8881 bytes
+
+### github.py
+
+GitHub through the gh CLI: log in, check the login works, and log out, on github.com only.
+Classes: `GhUnsure`, `GhClient`. Functions: `installed`, `token_env`.
+
+[`src/xo/github.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/github.py) · code · 7341 bytes
+
+### gitops.py
+
+The git xo runs for projects: the user's own git, with their own login, never a token of
+xo's. Functions: `environment`, `run`, `clone`, `set_origin`, `init`, `own_checkout`,
+`fetch`, `dirty`, and 9 more.
+
+[`src/xo/gitops.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/gitops.py) · code · 11809 bytes
+
+### names.py
+
+The names and refs xo's projects and spaces may hold. Functions: `is_github`, `project_ok`,
+`space_ok`, `xo_name_ok`, `ref_ok`, `from_github_url`.
+
+[`src/xo/names.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/names.py) · code · 3566 bytes
 
 ### openapi.json
 
 JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `servers`,
 `security`, `components`, `paths`. Looks like a route or path table.
 
-[`src/xo/openapi.json`](https://github.com/quirq-ai/xo/blob/main/src/xo/openapi.json) · code · 35771 bytes
+[`src/xo/openapi.json`](https://github.com/quirq-ai/xo/blob/main/src/xo/openapi.json) · code · 36002 bytes
 
 ### server.py
 
-xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs them.
-Classes: `Config`, `ClerkError`, `_NoRedirect`, `_Bucket`, `Clerk`, `Core`, `_Forwarded`,
-`_Reply`, and 2 more. Functions: `services_list`, `is_config`, `is_page`, `wsgi_app`,
-`make_server`, `serve`.
+"""xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
+them.
 
-[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 40237 bytes
+[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 110768 bytes
 
 ### services.json
 
@@ -89,4 +108,11 @@ Functions: `_hash`.
 
 [`src/xo/status_page.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/status_page.py) · code · 8229 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+### workspace.py
+
+xo install, xo update and xo sync: a space's projects on this machine, kept in step with the
+space recorded in your private metadata. Functions: `target`, `install`, `update`, `sync`.
+
+[`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 13109 bytes
+
+_Generated 2026-10-17 09:48 UTC from `main`._

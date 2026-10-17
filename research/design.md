@@ -34,4 +34,4 @@ npm package manifest for `design`. Scripts: `build`, `dev`.
 
 [`design/package.json`](https://github.com/quirq-ai/research/blob/main/design/package.json) · code · 174 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

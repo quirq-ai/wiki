@@ -55,6 +55,6 @@ Cross-check xo-project intent against the live OpenClaw install. Runnable as a s
 `parse_env_file`, `dig`, `enabled_keys`, `check_install`, `check_config_file`,
 `check_env_file`, and 3 more.
 
-[`config/agents/openclaw/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/troubleshoot.py) · code · 9147 bytes
+[`config/agents/openclaw/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/troubleshoot.py) · code · 9135 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

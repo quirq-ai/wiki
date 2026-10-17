@@ -20,4 +20,4 @@ exports: `slugify`.
 
 [`examples/node-app/lib/slug.ts`](https://github.com/quirq-ai/recipes/blob/main/examples/node-app/lib/slug.ts) · code · 329 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

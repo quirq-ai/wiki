@@ -81,7 +81,7 @@ usage_sync.py: Daily usage sync to xo-swarm-api. Functions: `usage_reporting_sta
 xo.json — agent capability + live-status manifest. Functions: `build_static_manifest`,
 `resolve_agent_name`, `write_static_manifest`, `patch_status`, `seed_agent_status`.
 
-[`services/xo_manifest.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_manifest.py) · code · 9193 bytes
+[`services/xo_manifest.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_manifest.py) · code · 9195 bytes
 
 ### xo_structure.py
 
@@ -90,4 +90,4 @@ The canonical `.xo/` directory every xo-project carries. Classes: `EnsureReport`
 
 [`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 10075 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

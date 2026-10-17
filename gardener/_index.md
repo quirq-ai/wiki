@@ -8,7 +8,7 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/gardener.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-15T23:58:43Z`
+- Last push: `2026-10-16T11:43:55Z`
 - Snapshot SHA: `eba46ad55004`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -26,4 +26,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures` | 2 | [tests__fixtures.md](tests__fixtures.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-16 10:13 UTC._
+_Generated 2026-10-17 09:47 UTC._

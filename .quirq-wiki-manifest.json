@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-16T10:14:06.048291+00:00",
+  "generated_at": "2026-10-17T09:48:05.818637+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -85,7 +85,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-10-15T23:58:43Z",
+      "pushed_at": "2026-10-16T11:43:55Z",
       "sha": "eba46ad55004c850c4897c26b9bfabefbb20b528"
     },
     {
@@ -103,7 +103,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/infra-config",
-      "pushed_at": "2026-10-09T07:08:21Z",
+      "pushed_at": "2026-10-16T15:27:50Z",
       "sha": "b344eaf848b43f6096b0247c9b21ca6ed10b08a8"
     },
     {
@@ -211,7 +211,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-16T07:41:30Z",
+      "pushed_at": "2026-10-17T07:47:29Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -265,7 +265,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-16T04:42:09Z",
+      "pushed_at": "2026-10-17T04:39:41Z",
       "sha": "0ad06a230fabf7c2d85ee4bdb5e03e0f9c828a6e"
     },
     {
@@ -310,8 +310,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo",
-      "pushed_at": "2026-10-16T07:32:57Z",
-      "sha": "7912a5424a599dcebc81a352591748a275df804b"
+      "pushed_at": "2026-10-16T22:22:22Z",
+      "sha": "516638cb5f966320d93be7add8ac6b465752d275"
     },
     {
       "name": "xo-cowork-api",
@@ -328,8 +328,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-10-15T20:38:46Z",
-      "sha": "3bb8687307144ab604723e7c13f49753b22dc0e0"
+      "pushed_at": "2026-10-17T07:47:04Z",
+      "sha": "577850bfe9363b04e17c012ebe2c014df9490bc1"
     }
   ]
 }

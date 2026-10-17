@@ -8,35 +8,42 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### conftest.py
 
-A fake XO API on 127.0.0.1: tests never reach the real one. Classes: `FakeXo`. Functions:
-`loopback_only`, `config_home`, `fake`. Contains tests.
+A fake XO API on 127.0.0.1: tests never reach the real one. Classes: `FakeXo`, `Hub`.
+Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `no_real_coder`,
+`config_home`, `fake`, `no_real_github`, `git`, and 1 more. Contains tests.
 
-[`tests/conftest.py`](https://github.com/quirq-ai/xo/blob/main/tests/conftest.py) · code · 4142 bytes
+[`tests/conftest.py`](https://github.com/quirq-ai/xo/blob/main/tests/conftest.py) · code · 10448 bytes
 
 ### test_cli.py
 
-from __future__ import annotations Contains tests.
+Python module `test_cli.py`. Functions: `run`, `test_no_key_is_one_actionable_line`,
+`test_key_goes_as_a_bearer_token`, `test_flag_key_wins_over_the_variable`,
+`test_an_echoed_key_is_redacted`, `test_an_error_body_echoing_the_key_is_redacted`,
+`test_redirects_are_never_followed`,
+`test_a_sign_in_redirect_says_the_route_wants_a_browser`, and 127 more. Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 78020 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 100242 bytes
 
 ### test_coder.py
 
 Coder is a fake executable/runner here; tests never reach a Coder deployment. Classes:
 `Calls`. Functions: `record`, `cmd`, `whoami`, `runner`, `invoke`, `parameters`,
 `test_launch_uses_native_login_safe_defaults_and_actual_app_url`,
-`test_url_flag_wins_at_each_level`, and 46 more. Contains tests.
+`test_url_flag_wins_at_each_level`, and 47 more. Contains tests.
 
-[`tests/test_coder.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_coder.py) · code · 28708 bytes
+[`tests/test_coder.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_coder.py) · code · 29473 bytes
+
+### test_github.py
+
+gh is a fake here: tests never run the real gh or reach GitHub. Classes: `FakeGh`.
+
+[`tests/test_github.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_github.py) · code · 10162 bytes
 
 ### test_server.py
 
-xo serve against a fake Clerk Backend API on 127.0.0.1. Classes: `FakeClerk`. Functions:
-`clerk`, `xo_server`, `call`, `audits`, `test_health_needs_no_key_and_no_clerk_call`,
-`test_me_verifies_the_key_and_returns_the_fixed_fields`,
-`test_me_never_returns_email_or_metadata`, `test_bad_keys_get_401`, and 77 more. Contains
-tests.
+"""xo serve against a fake Clerk Backend API on 127.0.0.1. Contains tests.
 
-[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 52188 bytes
+[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 130495 bytes
 
 ### test_services.py
 
@@ -44,4 +51,11 @@ The services list: what xo accepts from a server, and what it falls back to.
 
 [`tests/test_services.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_services.py) · code · 9177 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+### test_workspace.py
+
+xo install, update and sync against the real server code (with a fake Clerk) and local git
+repositories standing in for GitHub. Classes: `_Client`.
+
+[`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 13613 bytes
+
+_Generated 2026-10-17 09:48 UTC from `main`._

@@ -8,10 +8,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### __init__.py
 
-Workspace-tier sinks — aggregate per-project `.xo/` files into `~/xo-projects/.xo/`
-workspace state.
+Workspace-tier sinks — aggregate per-project `.xo/` files into `/.xo/` workspace state.
 
-[`services/cowork_agent/visualizer/workspace/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace/__init__.py) · code · 423 bytes
+[`services/cowork_agent/visualizer/workspace/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace/__init__.py) · code · 425 bytes
 
 ### activity.py
 
@@ -68,4 +67,4 @@ Functions: `refresh_seconds`, `view_path`, `graph_path`, `sweep_abandoned`, `sca
 
 [`services/cowork_agent/visualizer/workspace/views.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace/views.py) · code · 11597 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

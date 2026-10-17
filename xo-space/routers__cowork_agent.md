@@ -46,7 +46,7 @@ HTTP routes: `POST /api/config/providers/{provider_id}/key`, `DELETE
 /api/config/providers/{provider_id}/key`, `GET /api/models`, `GET /api/config/api-key`, `GET
 /api/config/providers`, `GET /api/config/openai-subscription`, and 5 more.
 
-[`routers/cowork_agent/config.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/config.py) · code · 12334 bytes
+[`routers/cowork_agent/config.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/config.py) · code · 12310 bytes
 
 ### doctor.py
 
@@ -174,4 +174,4 @@ xo-projects backup/restore router. Defines the `router` application object. HTTP
 
 [`routers/cowork_agent/xo_projects_sync.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/xo_projects_sync.py) · code · 13060 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

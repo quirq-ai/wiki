@@ -63,7 +63,7 @@ The project README (“xo”). xo is the command line for the [XO
 Cloud](https://dev.xo.builders) core API. Every endpoint is a command, and xo sends your XO
 API key on each request without ever printing it.
 
-[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 18370 bytes
+[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 21745 bytes
 
 ### app.py
 
@@ -81,4 +81,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/xo/blob/main/pyproject.toml) · code · 880 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

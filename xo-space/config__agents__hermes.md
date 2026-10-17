@@ -55,6 +55,6 @@ __name__ == '__main__'`. Classes: `Report`. Functions: `expand`, `load_json`,
 `parse_env_file`, `dig`, `enabled_keys`, `env_var_present`, `check_install`,
 `check_config_file`, and 5 more.
 
-[`config/agents/hermes/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/hermes/troubleshoot.py) · code · 12184 bytes
+[`config/agents/hermes/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/hermes/troubleshoot.py) · code · 12172 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

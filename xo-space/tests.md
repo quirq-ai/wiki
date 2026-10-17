@@ -194,7 +194,7 @@ Python module `test_connections_docs.py`. Runnable as a script via `if __name__ 
 '__main__'`. Classes: `ConnectionsDocsTests`, `Pr97ConnectionsDocsTests`. Functions: `read`,
 `squash`, `lines_with`. Contains tests.
 
-[`tests/test_connections_docs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_connections_docs.py) · code · 19380 bytes
+[`tests/test_connections_docs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_connections_docs.py) · code · 18579 bytes
 
 ### test_connections_mcp_client.py
 
@@ -415,7 +415,7 @@ Python module `test_inbox_docs.py`. Runnable as a script via `if __name__ == '__
 Classes: `InboxDocsTests`, `BatchRouteAndAutoCloseDocsTests`. Functions: `read`, `squash`.
 Built with FastAPI. Contains tests.
 
-[`tests/test_inbox_docs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_docs.py) · code · 14088 bytes
+[`tests/test_inbox_docs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_inbox_docs.py) · code · 11264 bytes
 
 ### test_inbox_feeders_issues_connections.py
 
@@ -846,7 +846,7 @@ Python module `test_space_project_sharing.py`. Runnable as a script via `if __na
 '__main__'`. Classes: `SpaceProjectSharingCompositionTests`. Functions: `read`. Contains
 tests.
 
-[`tests/test_space_project_sharing.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_project_sharing.py) · code · 6963 bytes
+[`tests/test_space_project_sharing.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_project_sharing.py) · code · 6951 bytes
 
 ### test_space_restart.py
 
@@ -1067,4 +1067,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

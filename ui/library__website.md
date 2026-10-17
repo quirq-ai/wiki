@@ -50,4 +50,4 @@ JSON document `manifest.json` whose top-level keys are `source`, `copied`, `refe
 
 [`library/website/manifest.json`](https://github.com/quirq-ai/ui/blob/main/library/website/manifest.json) · code · 12062 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

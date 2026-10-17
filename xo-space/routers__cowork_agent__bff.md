@@ -105,13 +105,13 @@ projects/{project_id}/todos/{todo_id}`, and 18 more.
 
 ### workspace_visualizer.py
 
-Workspace-scope BFF endpoints over `~/xo-projects/.xo/`. Defines the `router` application
-object. HTTP routes: `GET /api/xo-projects/usage`, `GET /api/xo-
-projects/usage/summary/card`, `GET /api/xo-projects/usage/analytics`, `GET /api/xo-
-projects/usage/sessions`, `GET /api/xo-projects/usage/summary`, `GET /api/xo-
-projects/usage/sessions/{session_id}`, and 3 more.
+Workspace-scope BFF endpoints over `/.xo/`. Defines the `router` application object. HTTP
+routes: `GET /api/xo-projects/usage`, `GET /api/xo-projects/usage/summary/card`, `GET
+/api/xo-projects/usage/analytics`, `GET /api/xo-projects/usage/sessions`, `GET /api/xo-
+projects/usage/summary`, `GET /api/xo-projects/usage/sessions/{session_id}`, and 3 more.
+Classes: `WorkspaceWorkitem`, `SkippedProject`, `WorkspaceWorkitemsResponse`.
 
-[`routers/cowork_agent/bff/workspace_visualizer.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/workspace_visualizer.py) · code · 34337 bytes
+[`routers/cowork_agent/bff/workspace_visualizer.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/workspace_visualizer.py) · code · 34339 bytes
 
 ### xo_projects.py
 
@@ -123,4 +123,4 @@ projects/{project_id}/file`, `GET /api/xo-projects/{project_id}/file-history`. C
 
 [`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 17650 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

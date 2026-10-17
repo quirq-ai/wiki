@@ -12,4 +12,4 @@ House rule: no em or en dashes in source, copy or docs. Run with `pnpm check`.
 
 [`scripts/check-dashes.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/check-dashes.mjs) · code · 1126 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

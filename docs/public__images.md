@@ -22,4 +22,4 @@ blobs.
 
 [`public/images/system-local.png`](https://github.com/quirq-ai/docs/blob/main/public/images/system-local.png) · binary · 1928542 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

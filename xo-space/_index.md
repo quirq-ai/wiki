@@ -8,8 +8,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-15T20:38:46Z`
-- Snapshot SHA: `3bb868730714`
+- Last push: `2026-10-17T07:47:04Z`
+- Snapshot SHA: `577850bfe936`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,8 +24,6 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.agents/skills/debugger` | 1 | [.agents__skills__debugger.md](.agents__skills__debugger.md) |
 | `.agents/skills/default` | 1 | [.agents__skills__default.md](.agents__skills__default.md) |
 | `.agents/skills/reviewer` | 1 | [.agents__skills__reviewer.md](.agents__skills__reviewer.md) |
-| `.agents/skills/xo-projects` | 1 | [.agents__skills__xo-projects.md](.agents__skills__xo-projects.md) |
-| `.agents/skills/xo-projects/references` | 3 | [.agents__skills__xo-projects__references.md](.agents__skills__xo-projects__references.md) |
 | `.claude-plugin` | 1 | [.claude-plugin.md](.claude-plugin.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/ISSUE_TEMPLATE` | 4 | [.github__ISSUE_TEMPLATE.md](.github__ISSUE_TEMPLATE.md) |
@@ -163,4 +161,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-16 10:14 UTC._
+_Generated 2026-10-17 09:48 UTC._

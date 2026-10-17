@@ -14,4 +14,4 @@ rollers move these pins. Sections: `infra-config`, `sync`.
 
 [`tests/fixtures/raw/gate/main/pins.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gate/main/pins.toml) · code · 517 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

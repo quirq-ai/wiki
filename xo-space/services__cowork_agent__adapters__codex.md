@@ -18,7 +18,7 @@ Python module `adapter.py`. Classes: `CodexAdapter`. Functions: `make_session_ke
 `find_session_id_by_key`, `get_native_session_id`, `get_session_directory`,
 `write_preliminary_entry`, `find_session_key_for_session_id`.
 
-[`services/cowork_agent/adapters/codex/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/adapter.py) · code · 23153 bytes
+[`services/cowork_agent/adapters/codex/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/adapter.py) · code · 23155 bytes
 
 ### agents.py
 
@@ -128,4 +128,4 @@ Classes: `Source`. Functions: `_uuid_from_rollout`.
 
 [`services/cowork_agent/adapters/codex/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/visualizer_source.py) · code · 17436 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

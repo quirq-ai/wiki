@@ -17,14 +17,14 @@ Broker status endpoints (/models/status, /channels/status, /providers/status).
 Channels status API router. Defines the `router` application object. HTTP routes: `GET
 /status`. Functions: `channels_status`.
 
-[`routers/status/channels.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/channels.py) · code · 2384 bytes
+[`routers/status/channels.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/channels.py) · code · 2386 bytes
 
 ### models.py
 
 Models status API router. Defines the `router` application object. HTTP routes: `GET
 /status`. Functions: `models_status`.
 
-[`routers/status/models.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/models.py) · code · 2581 bytes
+[`routers/status/models.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/models.py) · code · 2583 bytes
 
 ### providers.py
 
@@ -33,4 +33,4 @@ Providers status API router. Defines the `router` application object. HTTP route
 
 [`routers/status/providers.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/providers.py) · code · 1928 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

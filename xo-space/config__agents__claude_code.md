@@ -20,7 +20,7 @@ JSON document `manifest.json` whose top-level keys are `name`, `binary`, `instal
 `precreate_home_for_skills`, `cwd`, `cli_timeout_seconds`, and 8 more. Structured data
 consumed by the surrounding app or tooling.
 
-[`config/agents/claude_code/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/manifest.json) · code · 2169 bytes
+[`config/agents/claude_code/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/manifest.json) · code · 2157 bytes
 
 ### settings.json
 
@@ -46,4 +46,4 @@ Check the live claude_code install against its commands.json paths. Runnable as 
 
 [`config/agents/claude_code/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/troubleshoot.py) · code · 5192 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

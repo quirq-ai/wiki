@@ -114,4 +114,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

@@ -19,4 +19,4 @@ Centralized Claude Code client with Claude-native skills support. Classes:
 
 [`config/models/claude_code/client.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/models/claude_code/client.py) · code · 11121 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

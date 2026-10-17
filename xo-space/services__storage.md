@@ -57,4 +57,4 @@ Pure JSON readers for visualizer and watcher state. Functions: `read_json`,
 
 [`services/storage/reader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/reader.py) · code · 8221 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

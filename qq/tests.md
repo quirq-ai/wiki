@@ -90,4 +90,4 @@ Python module `test_sync_pin.py`. Functions:
 
 [`tests/test_sync_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync_pin.py) · code · 608 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._

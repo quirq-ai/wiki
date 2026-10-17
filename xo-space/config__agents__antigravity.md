@@ -20,7 +20,7 @@ JSON document `manifest.json` whose top-level keys are `name`, `binary`, `instal
 `cwd`, `cli_timeout_seconds`, `api`, and 6 more. Structured data consumed by the surrounding
 app or tooling.
 
-[`config/agents/antigravity/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/manifest.json) · code · 1835 bytes
+[`config/agents/antigravity/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/manifest.json) · code · 1823 bytes
 
 ### settings.json
 
@@ -37,4 +37,4 @@ Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_warn`, `log
 
 [`config/agents/antigravity/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/setup.sh) · code · 10033 bytes
 
-_Generated 2026-10-16 10:14 UTC from `main`._
+_Generated 2026-10-17 09:48 UTC from `main`._

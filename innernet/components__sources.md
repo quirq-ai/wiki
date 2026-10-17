@@ -52,4 +52,4 @@ knows which tab this is, so the row is drawn here, after the page loads. Notable
 
 [`components/sources/this-tab.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/sources/this-tab.tsx) · code · 1240 bytes
 
-_Generated 2026-10-16 10:13 UTC from `main`._
+_Generated 2026-10-17 09:47 UTC from `main`._
