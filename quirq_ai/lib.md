@@ -98,4 +98,4 @@ The whitepaper, as readable content. Notable exports: `WHITEPAPER`, `PaperSectio
 
 [`lib/whitepaper.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/lib/whitepaper.ts) · code · 45642 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

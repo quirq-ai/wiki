@@ -20,4 +20,4 @@ xo.json — agent capability + live-status manifest. Functions: `build_static_ma
 
 [`services/xo_manifest.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/xo_manifest.py) · code · 9193 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

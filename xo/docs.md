@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 HTML document `architecture.html` titled “xo Architecture”. xo Architecture.
 
-[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 159733 bytes
+[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 157640 bytes
 
 ### architecture.md
 
@@ -19,15 +19,7 @@ machine, and the xo server (xo serve, on Vercel at xo.quirq.dev through app.py),
 the Clerk Secret Key so the CLI never needs it. Standard library only. Setup is in
 [quickstart.md](quickstart.md); the server's settings in [server.md](server.md).
 
-[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 37399 bytes
-
-### coder.md
-
-Markdown page “Deploy a GitHub repository”. xo coder github creates and starts a workspace
-from the xo-github Coder template, then prints its dashboard and public app URLs. This is
-separate from XO Cloud's core API.
-
-[`docs/coder.md`](https://github.com/quirq-ai/xo/blob/main/docs/coder.md) · code · 4273 bytes
+[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 39002 bytes
 
 ### deploy-vercel.md
 
@@ -37,14 +29,14 @@ app.py, which serves the same routes as a Python function, on Python 3.12 (pinne
 .python-version). Vercel's GitHub integration deploys it: every commit on main goes to
 production by itself, so every merge to main ships xo.quirq.dev.
 
-[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 13550 bytes
+[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 13582 bytes
 
 ### guide.md
 
-Markdown page “xo user guide”. xo is one command line for three XO services and GitHub. One
-xo login logs you in to all of them.
+Markdown page “xo user guide”. xo is one command line for two XO services and GitHub. One xo
+login logs you in to all of them.
 
-[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 12828 bytes
+[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 12876 bytes
 
 ### quickstart.md
 
@@ -52,19 +44,19 @@ Markdown page “xo quickstart”. Use this to set up xo, the command line for X
 own Mac or Linux machine. It works the same for every user. Once it is set up, the [user
 guide](guide.md) lists the commands.
 
-[`docs/quickstart.md`](https://github.com/quirq-ai/xo/blob/main/docs/quickstart.md) · code · 7554 bytes
+[`docs/quickstart.md`](https://github.com/quirq-ai/xo/blob/main/docs/quickstart.md) · code · 7354 bytes
 
 ### server.md
 
 Markdown page “xo server mode”. One package, two deployments.
 
-[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 33255 bytes
+[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 33384 bytes
 
 ### test-xo-server.sh
 
 Test a deployed xo server (docs/deploy-vercel.md, step 5). Run it from the checkout you
 deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect`.
 
-[`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 7842 bytes
+[`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

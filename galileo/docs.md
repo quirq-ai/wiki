@@ -40,4 +40,4 @@ other docs.
 
 [`docs/ROADMAP.md`](https://github.com/quirq-ai/galileo/blob/main/docs/ROADMAP.md) · code · 2569 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

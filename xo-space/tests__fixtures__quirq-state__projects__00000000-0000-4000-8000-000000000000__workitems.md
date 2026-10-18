@@ -13,4 +13,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`tests/fixtures/quirq-state/projects/00000000-0000-4000-8000-000000000000/workitems/claims.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/projects/00000000-0000-4000-8000-000000000000/workitems/claims.json) · code · 265 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

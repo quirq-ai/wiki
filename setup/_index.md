@@ -8,7 +8,7 @@ One command to set up qq for a GitHub org
 - [Activity history](../_activity/repos/setup.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-10T10:23:33Z`
+- Last push: `2026-10-17T11:57:30Z`
 - Snapshot SHA: `8466e4b8a996`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -39,4 +39,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-17 09:47 UTC._
+_Generated 2026-10-18 10:00 UTC._

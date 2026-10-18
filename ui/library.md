@@ -24,4 +24,4 @@ rest.
 
 [`library/README.md`](https://github.com/quirq-ai/ui/blob/main/library/README.md) · code · 2388 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

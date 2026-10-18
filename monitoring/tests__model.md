@@ -63,4 +63,4 @@ maxAge }) Automated test file.
 
 [`tests/model/stale.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/stale.test.ts) · code · 2099 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

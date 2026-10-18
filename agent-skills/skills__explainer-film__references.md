@@ -14,4 +14,4 @@ Copies of the brief, storyboard, script, timing and four scenes are in examples/
 
 [`skills/explainer-film/references/craft.md`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/craft.md) · code · 5170 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

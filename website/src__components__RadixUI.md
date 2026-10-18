@@ -73,4 +73,4 @@ cn } from '../../utils' Notable exports: `TooltipProps`.
 
 [`src/components/RadixUI/Tooltip.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/RadixUI/Tooltip.tsx) · code · 2598 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

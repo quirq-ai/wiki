@@ -16,4 +16,4 @@ Notable exports: `generateStaticParams`, `generateMetadata`, `ReadInteractively`
 
 [`app/journey/read/[slug]/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/journey/read/[slug]/page.tsx) · code · 3731 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

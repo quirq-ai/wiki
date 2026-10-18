@@ -13,4 +13,4 @@ Research”. replBridgePlaceholders[&lt;session id&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/replBridgePlaceholders/each-session/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/replBridgePlaceholders/each-session/index.html) · code · 16171 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

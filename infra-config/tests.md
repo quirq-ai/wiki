@@ -14,4 +14,4 @@ The seed config passes, and known-bad changes fail. Runnable as a script via `if
 
 [`tests/test_qqcfg.py`](https://github.com/quirq-ai/infra-config/blob/main/tests/test_qqcfg.py) · code · 59006 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

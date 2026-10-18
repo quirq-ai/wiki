@@ -182,4 +182,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

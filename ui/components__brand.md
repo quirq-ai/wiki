@@ -14,4 +14,4 @@ title?: string }) { return ( Notable exports: `Mark`, `Wordmark`, `Lockup`, `Eye
 
 [`components/brand/mark.tsx`](https://github.com/quirq-ai/ui/blob/main/components/brand/mark.tsx) · code · 4122 bytes
 
-_Generated 2026-10-17 09:48 UTC from `main`._
+_Generated 2026-10-18 10:00 UTC from `main`._

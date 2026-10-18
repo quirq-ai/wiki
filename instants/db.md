@@ -21,4 +21,4 @@ database. See examples/d1/db/schema.ts for an opt-in example.
 
 [`db/schema.ts`](https://github.com/quirq-ai/instants/blob/main/db/schema.ts) · code · 169 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._

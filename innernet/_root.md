@@ -140,4 +140,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/innernet/blob/main/tsconfig.json) · code · 711 bytes
 
-_Generated 2026-10-17 09:47 UTC from `main`._
+_Generated 2026-10-18 09:59 UTC from `main`._
