@@ -2,7 +2,7 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-429 observed records. commit: 30, issue: 3, pull request: 7, workflow: 389.
+431 observed records. commit: 30, issue: 3, pull request: 7, workflow: 391.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
@@ -229,6 +229,7 @@
 | 12:04:13 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39030779029) | success |
 | 12:02:10 | [docs](../../../repos/docs.md) | commit | claude | [Install page: pip&#x27;s cache, and qq-setup&#x27;s Python check](https://github.com/quirq-ai/docs/commit/a1aeb1dcdc7736c94fb8427c711a5bfcf21ce30e) |  |
 | 11:59:42 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39030507189) | success |
+| 11:58:49 | [setup](../../../repos/setup.md) | workflow | quirq-gates | [Install qq on a Mac right, and qq-setup install: install, update or remove qq and xo](https://github.com/quirq-ai/setup/actions/runs/39030656865) | success |
 | 11:58:49 | [setup](../../../repos/setup.md) | workflow | quirq-gates | [Install qq on a Mac: the qq guide&#x27;s Python step first, QQ\_PYTHON in preflight, sync 9821f74](https://github.com/quirq-ai/setup/actions/runs/39030656865) | success |
 | 11:57:46 | [setup](../../../repos/setup.md) | pull request | quirq-gates | [Install qq on a Mac: the qq guide&#x27;s Python step first, QQ\_PYTHON in preflight, sync 9821f74](https://github.com/quirq-ai/setup/pull/11) | open |
 | 11:57:28 | [setup](../../../repos/setup.md) | commit | quirq-gates | [On a Mac, print the qq guide&#x27;s Python step first; preflight checks QQ\_PYTHON at 3.11.4](https://github.com/quirq-ai/setup/commit/d34dbedeba43ec612eaa16b5240c9eb77b2b3d5d) |  |
@@ -239,6 +240,7 @@
 | 11:41:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39029381960) | success |
 | 11:37:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39029097036) | success |
 | 11:32:37 | [setup](../../../repos/setup.md) | workflow | quirq-gates | [Install qq on a Mac: the qq guide&#x27;s Python step first, QQ\_PYTHON in preflight, sync 9821f74](https://github.com/quirq-ai/setup/actions/runs/39029014716) | success |
+| 11:32:37 | [setup](../../../repos/setup.md) | workflow | quirq-gates | [Install qq on a Mac right, and qq-setup install: install, update or remove qq and xo](https://github.com/quirq-ai/setup/actions/runs/39029014716) | success |
 | 11:32:36 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39028798354) | success |
 | 11:30:53 | [setup](../../../repos/setup.md) | commit | quirq-gates | [Install qqsync with ${QQ\_PYTHON:-python3} at sync 9821f74, as docs #15 does](https://github.com/quirq-ai/setup/commit/c10d6fc8b864f61192ebbc0fc6d3fa165ca12dc2) |  |
 | 11:28:19 | [setup](../../../repos/setup.md) | commit | quirq-gates | [Merge remote-tracking branch &#x27;origin/main&#x27; into claude/one-command-setup-nr5dkc](https://github.com/quirq-ai/setup/commit/61351e2c7e175d4ef57b235b2e491a559acdb52a) |  |
