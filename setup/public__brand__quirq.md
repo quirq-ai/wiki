@@ -27,4 +27,4 @@ executable source.
 
 [`public/brand/quirq/wordmark.svg`](https://github.com/quirq-ai/setup/blob/main/public/brand/quirq/wordmark.svg) · code · 2063 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

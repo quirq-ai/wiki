@@ -8,8 +8,8 @@ One command to set up qq for a GitHub org
 - [Activity history](../_activity/repos/setup.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-17T11:57:30Z`
-- Snapshot SHA: `8466e4b8a996`
+- Last push: `2026-10-19T11:20:45Z`
+- Snapshot SHA: `ac2bfa3a809c`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -19,9 +19,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github` | 0 | [.github.md](.github.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
 | `app` | 3 | [app.md](app.md) |
-| `cli` | 11 | [cli.md](cli.md) |
-| `components` | 1 | [components.md](components.md) |
-| `components/ui` | 12 | [components__ui.md](components__ui.md) |
+| `cli` | 13 | [cli.md](cli.md) |
+| `components` | 5 | [components.md](components.md) |
+| `components/ui` | 13 | [components__ui.md](components__ui.md) |
 | `lib` | 2 | [lib.md](lib.md) |
 | `out` | 8 | [out.md](out.md) |
 | `out/_next` | 0 | [out___next.md](out___next.md) |
@@ -34,9 +34,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public` | 0 | [public.md](public.md) |
 | `public/brand` | 0 | [public__brand.md](public__brand.md) |
 | `public/brand/quirq` | 3 | [public__brand__quirq.md](public__brand__quirq.md) |
-| `tests` | 1 | [tests.md](tests.md) |
-| `tests/e2e` | 2 | [tests__e2e.md](tests__e2e.md) |
+| `scripts` | 1 | [scripts.md](scripts.md) |
+| `tests` | 3 | [tests.md](tests.md) |
+| `tests/e2e` | 1 | [tests__e2e.md](tests__e2e.md) |
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
-| `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
+| `tests/fixtures` | 3 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-18 10:00 UTC._
+_Generated 2026-10-19 11:22 UTC._

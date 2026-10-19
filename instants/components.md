@@ -23,4 +23,4 @@ const DataContext = createContext(null) Notable exports: `DataProvider`, `useDat
 
 [`components/data-provider.tsx`](https://github.com/quirq-ai/instants/blob/main/components/data-provider.tsx) · code · 1296 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

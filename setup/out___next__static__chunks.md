@@ -6,13 +6,6 @@ Source: [out/_next/static/chunks](https://github.com/quirq-ai/setup/tree/main/ou
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### 09uz-g817e69y.css
-
-Stylesheet `09uz-g817e69y.css` for layout and visual treatment in this folder. Defines or
-consumes CSS custom properties (design tokens).
-
-[`out/_next/static/chunks/09uz-g817e69y.css`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/09uz-g817e69y.css) · code · 31804 bytes
-
 ### 0cz1d0mv5g_q7.js
 
 !function(){var t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof
@@ -22,6 +15,13 @@ t&&t.Math===Math&&t},i=o("object"==typeof globalThis&&globalThis)||o("object"==t
 window&&window)||o(.
 
 [`out/_next/static/chunks/0cz1d0mv5g_q7.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/0cz1d0mv5g_q7.js) · code · 112594 bytes
+
+### 0m_gvjuji7-ia.css
+
+Stylesheet `0m_gvjuji7-ia.css` for layout and visual treatment in this folder. Defines or
+consumes CSS custom properties (design tokens).
+
+[`out/_next/static/chunks/0m_gvjuji7-ia.css`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/0m_gvjuji7-ia.css) · code · 33015 bytes
 
 ### 1inwntv0b4r-7.js
 
@@ -53,15 +53,15 @@ e?r:t})(e)}r._=function(e,t){if(!t&&e&&e.__esModule)return e;if(null===e||"objec
 
 [`out/_next/static/chunks/2k-8irj2ezsy-.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/2k-8irj2ezsy-.js) · code · 178839 bytes
 
-### 326dw0lnml7b1.js
+### 3_ph9yvgvgg9j.js
 
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
-document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,o,n,s;var
+document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,n,o,s;var
 a,i=e.i(43476),l=e.i(71645);let c=e=>{let
 t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,r)=>r?r.toUpperCase():t.toLowerCase());return
 t.charAt(0).toUpperCase()+t.slice(1)},d=(...e)=>e.filter((e,t,r)=>!!e&&""!==e.
 
-[`out/_next/static/chunks/326dw0lnml7b1.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/326dw0lnml7b1.js) · code · 87559 bytes
+[`out/_next/static/chunks/3_ph9yvgvgg9j.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/3_ph9yvgvgg9j.js) · code · 100919 bytes
 
 ### 3fntmmi971322.js
 
@@ -83,4 +83,4 @@ e;if(!Array.isArray(globalThis.TURBOPACK))return;var
 
 [`out/_next/static/chunks/turbopack-1y655n96lhfxa.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/turbopack-1y655n96lhfxa.js) · code · 9688 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

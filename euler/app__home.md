@@ -13,7 +13,7 @@ lifecycle controls, workspace statistics, and avatar customization. It owns Eule
 UI, including the shared dock shown on mounted app pages. Its source lives beside the other
 apps in app/home, and its page remains at / on Euler's address.
 
-[`app/home/README.md`](https://github.com/quirq-ai/euler/blob/main/app/home/README.md) · code · 3365 bytes
+[`app/home/README.md`](https://github.com/quirq-ai/euler/blob/main/app/home/README.md) · code · 3341 bytes
 
 ### assets.mjs
 
@@ -50,4 +50,4 @@ interface after enforcing its request security policy. Notable exports: `homeApp
 
 [`app/home/server.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/server.mjs) · code · 1996 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

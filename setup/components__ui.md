@@ -12,7 +12,7 @@ License text (The files in this folder are copied from shadcn/ui). Governs use,
 modification, and distribution of this repository. Read the full file in the source tree
 before depending on the project in a product or redistribution.
 
-[`components/ui/LICENSE`](https://github.com/quirq-ai/setup/blob/main/components/ui/LICENSE) · other · 1549 bytes
+[`components/ui/LICENSE`](https://github.com/quirq-ai/setup/blob/main/components/ui/LICENSE) · other · 1656 bytes
 
 ### alert.tsx
 
@@ -20,7 +20,7 @@ import * as React from "react" import { cva, type VariantProps } from "class-var
 authority" import { cn } from "@/lib/utils" Notable exports: `Alert`, `AlertTitle`,
 `AlertDescription`.
 
-[`components/ui/alert.tsx`](https://github.com/quirq-ai/setup/blob/main/components/ui/alert.tsx) · code · 1613 bytes
+[`components/ui/alert.tsx`](https://github.com/quirq-ai/setup/blob/main/components/ui/alert.tsx) · code · 1600 bytes
 
 ### badge.tsx
 
@@ -54,6 +54,14 @@ import * as React from "react" import { cn } from "@/lib/utils" Notable exports:
 "use client" Notable exports: `Checkbox`. Marked `'use client'` so it runs in the browser.
 
 [`components/ui/checkbox.tsx`](https://github.com/quirq-ai/setup/blob/main/components/ui/checkbox.tsx) · code · 1213 bytes
+
+### collapsible.tsx
+
+function Collapsible({ ...props }: React.ComponentProps) { return ; } Notable exports:
+`Collapsible`, `CollapsibleTrigger`, `CollapsibleContent`. Marked `'use client'` so it runs
+in the browser.
+
+[`components/ui/collapsible.tsx`](https://github.com/quirq-ai/setup/blob/main/components/ui/collapsible.tsx) · code · 743 bytes
 
 ### input.tsx
 
@@ -95,4 +103,4 @@ import { cn } from "@/lib/utils" import { Loader2Icon } from "lucide-react" Nota
 
 [`components/ui/spinner.tsx`](https://github.com/quirq-ai/setup/blob/main/components/ui/spinner.tsx) · code · 330 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

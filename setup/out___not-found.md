@@ -10,17 +10,17 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Txt file `__next._full.txt`.
 
-[`out/_not-found/__next._full.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._full.txt) · code · 5780 bytes
+[`out/_not-found/__next._full.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._full.txt) · code · 5820 bytes
 
 ### __next._not-found.__PAGE__.txt
 
 Txt file `__next._not-found.__PAGE__.txt`.
 
-[`out/_not-found/__next._not-found.__PAGE__.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._not-found.__PAGE__.txt) · code · 4818 bytes
+[`out/_not-found/__next._not-found.__PAGE__.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._not-found.__PAGE__.txt) · code · 4858 bytes
 
 ### __next._tree.txt
 
-Txt file `__next._tree.txt`. :HL["/_next/static/chunks/09uz-g817e69y.css","style"]
+Txt file `__next._tree.txt`. :HL["/_next/static/chunks/0m_gvjuji7-ia.css","style"]
 :HL["/brand/quirq/wordmark.svg","image"]
 0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-fo
 und","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"
@@ -28,4 +28,4 @@ prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"qq-setup"}.
 
 [`out/_not-found/__next._tree.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._tree.txt) · code · 355 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

@@ -13,23 +13,23 @@ Set up qq body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1
 rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-
 error-h1{border-right:1px solid rgba(255,255,255,.3)}} 404 This page could not be found.
 
-[`out/404.html`](https://github.com/quirq-ai/setup/blob/main/out/404.html) · code · 9075 bytes
+[`out/404.html`](https://github.com/quirq-ai/setup/blob/main/out/404.html) · code · 9155 bytes
 
 ### __next.__PAGE__.txt
 
 Txt file `__next.__PAGE__.txt`.
 
-[`out/__next.__PAGE__.txt`](https://github.com/quirq-ai/setup/blob/main/out/__next.__PAGE__.txt) · code · 3876 bytes
+[`out/__next.__PAGE__.txt`](https://github.com/quirq-ai/setup/blob/main/out/__next.__PAGE__.txt) · code · 3916 bytes
 
 ### __next._full.txt
 
 Txt file `__next._full.txt`.
 
-[`out/__next._full.txt`](https://github.com/quirq-ai/setup/blob/main/out/__next._full.txt) · code · 4378 bytes
+[`out/__next._full.txt`](https://github.com/quirq-ai/setup/blob/main/out/__next._full.txt) · code · 4418 bytes
 
 ### __next._tree.txt
 
-Txt file `__next._tree.txt`. :HL["/_next/static/chunks/09uz-g817e69y.css","style"]
+Txt file `__next._tree.txt`. :HL["/_next/static/chunks/0m_gvjuji7-ia.css","style"]
 :HL["/brand/quirq/wordmark.svg","image"] 0:{"tree":{"name":"","param":null,"prefetchHints":4
 176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}
 ,"staleTime":300,"buildId":"qq-setup"}.
@@ -41,24 +41,24 @@ Txt file `__next._tree.txt`. :HL["/_next/static/chunks/09uz-g817e69y.css","style
 HTML document `_not-found.html` titled “Set up qq”. Set up qq 404: This page could not be
 found.
 
-[`out/_not-found.html`](https://github.com/quirq-ai/setup/blob/main/out/_not-found.html) · code · 9075 bytes
+[`out/_not-found.html`](https://github.com/quirq-ai/setup/blob/main/out/_not-found.html) · code · 9155 bytes
 
 ### _not-found.txt
 
 Txt file `_not-found.txt`.
 
-[`out/_not-found.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found.txt) · code · 5780 bytes
+[`out/_not-found.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found.txt) · code · 5820 bytes
 
 ### index.html
 
 HTML document `index.html` titled “Set up qq”.
 
-[`out/index.html`](https://github.com/quirq-ai/setup/blob/main/out/index.html) · code · 6714 bytes
+[`out/index.html`](https://github.com/quirq-ai/setup/blob/main/out/index.html) · code · 6794 bytes
 
 ### index.txt
 
 Txt file `index.txt`.
 
-[`out/index.txt`](https://github.com/quirq-ai/setup/blob/main/out/index.txt) · code · 4378 bytes
+[`out/index.txt`](https://github.com/quirq-ai/setup/blob/main/out/index.txt) · code · 4418 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

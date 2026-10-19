@@ -8,17 +8,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“Euler application sources”). These directories contain ordinary source
-code tracked by the Euler repository.
+The project README (“Euler application sources”). - [home](./home/README.md) - Euler's Home,
+app controls, and avatar editor. - innernet - local search and the personal encyclopedia. -
+quitter — the agent activity workspace. - instants — the visual workspace and replies.
 
-[`app/README.md`](https://github.com/quirq-ai/euler/blob/main/app/README.md) · code · 2326 bytes
+[`app/README.md`](https://github.com/quirq-ai/euler/blob/main/app/README.md) · code · 1733 bytes
 
-### upstream.json
-
-JSON document `upstream.json` whose top-level keys are `version`, `description`,
-`synchronization`, `applications`. Structured data consumed by the surrounding app or
-tooling.
-
-[`app/upstream.json`](https://github.com/quirq-ai/euler/blob/main/app/upstream.json) · code · 5788 bytes
-
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

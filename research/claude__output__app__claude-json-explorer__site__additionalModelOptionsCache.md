@@ -13,4 +13,4 @@ additionalModelOptionsCache · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/additionalModelOptionsCache/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/additionalModelOptionsCache/index.html) · code · 17060 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

@@ -23,4 +23,4 @@ Functions: `ok`, `bad`, `step`, `cleanup`, `wait_log`, `as`.
 
 [`e2e/run.sh`](https://github.com/quirq-ai/lan/blob/main/e2e/run.sh) · code · 6006 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

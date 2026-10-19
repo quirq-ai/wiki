@@ -13,4 +13,4 @@ TOML config `user-org-settings.toml`. A user org's gate settings, for the one-co
 
 [`templates/user-org-settings.toml`](https://github.com/quirq-ai/gate/blob/main/templates/user-org-settings.toml) · code · 1459 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

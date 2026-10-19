@@ -20,7 +20,7 @@ Markdown page “After it lands”. What happens to your change on main. The pos
 the tree status, lkgr, the daily canary, installing from a channel, and the dashboard that
 shows it all. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/after-it-lands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/after-it-lands.mdx) · code · 5624 bytes
+[`content/docs/after-it-lands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/after-it-lands.mdx) · code · 5640 bytes
 
 ### build-test-run.mdx
 
@@ -71,11 +71,11 @@ more. MDX page (Markdown with JSX components), typically rendered by the docs si
 
 ### install.mdx
 
-Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-paste commands,
-check them, and know what to do on a Mac. MDX page (Markdown with JSX components), typically
-rendered by the docs site.
+Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-paste commands
+(four on a Mac), check them, and know what to do on a Mac. MDX page (Markdown with JSX
+components), typically rendered by the docs site.
 
-[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 6305 bytes
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 7572 bytes
 
 ### meta.json
 
@@ -114,4 +114,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

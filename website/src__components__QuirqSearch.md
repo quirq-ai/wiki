@@ -26,4 +26,4 @@ Notable exports: `SearchOverlay`.
 
 [`src/components/QuirqSearch/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqSearch/index.tsx) · code · 7328 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:23 UTC from `main`._

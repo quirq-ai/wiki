@@ -25,7 +25,7 @@ JSON document `first-build.json` whose top-level keys are `title`, `home`, `cwd`
 JSON document `install.json` whose top-level keys are `title`, `home`, `cwd`, `steps`,
 `env`, `path`. Structured data consumed by the surrounding app or tooling.
 
-[`scripts/videos/specs/install.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/install.json) · code · 1483 bytes
+[`scripts/videos/specs/install.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/install.json) · code · 1501 bytes
 
 ### onboard.json
 
@@ -34,4 +34,4 @@ JSON document `onboard.json` whose top-level keys are `title`, `home`, `cwd`, `p
 
 [`scripts/videos/specs/onboard.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/onboard.json) · code · 999 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

@@ -42,4 +42,4 @@ Python module `wrong_kind.py`. Classes: `Wrong`.
 
 [`tests/fake_adapters/wrong_kind.py`](https://github.com/quirq-ai/recipes/blob/main/tests/fake_adapters/wrong_kind.py) · code · 111 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

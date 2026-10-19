@@ -53,4 +53,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/e2e` | 1 | [tests__e2e.md](tests__e2e.md) |
 | `vendor` | 2 | [vendor.md](vendor.md) |
 
-_Generated 2026-10-18 09:59 UTC._
+_Generated 2026-10-19 11:22 UTC._

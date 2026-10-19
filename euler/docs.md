@@ -13,16 +13,15 @@ theme it with CSS, or provide its own interface. Home always uses the standard d
 app's choice applies only while that app is open; navigation still uses Euler's running
 apps, saved routes, avatar, opacity preference, and connection state.
 
-[`docs/app-docks.md`](https://github.com/quirq-ai/euler/blob/main/docs/app-docks.md) · code · 7067 bytes
+[`docs/app-docks.md`](https://github.com/quirq-ai/euler/blob/main/docs/app-docks.md) · code · 7347 bytes
 
 ### app-updates.md
 
-Markdown page “Maintaining Euler's app sources”. Euler includes Innernet, Quitter, and
-Instants as ordinary tracked directories under app/. Each directory is a Git subtree
-connected to its standalone upstream repository. You choose when to check for updates and
-which app to merge.
+Markdown page “Maintaining Euler's app sources”. Euler does not carry the sources of
+Innernet, Quitter, and Instants. Each app keeps its own repository, and Euler pins one
+commit of it in [infra/repo.toml](../infra/repo.toml), read through qq's sync.
 
-[`docs/app-updates.md`](https://github.com/quirq-ai/euler/blob/main/docs/app-updates.md) · code · 10191 bytes
+[`docs/app-updates.md`](https://github.com/quirq-ai/euler/blob/main/docs/app-updates.md) · code · 5949 bytes
 
 ### architecture.md
 
@@ -32,7 +31,7 @@ lives in app/home alongside innernet, quitter, and instants. Home owns Euler's b
 including the dock and shared browser resources; app-specific dock extensions live with
 their apps.
 
-[`docs/architecture.md`](https://github.com/quirq-ai/euler/blob/main/docs/architecture.md) · code · 12260 bytes
+[`docs/architecture.md`](https://github.com/quirq-ai/euler/blob/main/docs/architecture.md) · code · 12416 bytes
 
 ### euler.md
 
@@ -41,6 +40,6 @@ ai/euler](https://github.com/quirq-ai/euler), with Home and the bundled applicat
 maintained in app/. Follow the [repository setup instructions](../README.md) to install,
 build, and launch it at http://localhost:2713.
 
-[`docs/euler.md`](https://github.com/quirq-ai/euler/blob/main/docs/euler.md) · code · 5812 bytes
+[`docs/euler.md`](https://github.com/quirq-ai/euler/blob/main/docs/euler.md) · code · 5865 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

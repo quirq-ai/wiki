@@ -13,4 +13,4 @@ JSON document `inbox.json` whose top-level keys are `schema`, `updated_at`, `sou
 
 [`tests/fixtures/quirq-state/inbox/inbox.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/inbox/inbox.json) · code · 1424 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:23 UTC from `main`._

@@ -8,18 +8,20 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .gitattributes
 
-Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.patch -whitespace.
+Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.patch -whitespace
+app/adapters/*.patch -text.
 
-[`.gitattributes`](https://github.com/quirq-ai/euler/blob/main/.gitattributes) · other · 52 bytes
+[`.gitattributes`](https://github.com/quirq-ai/euler/blob/main/.gitattributes) · other · 79 bytes
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 16 pattern(s)
-including `node_modules/`, `/apps/`, `.workspace-state/`, `.workspace-tmp/`, `.nx/`,
-`coverage/`, `.env`, `.env.*`, and 8 more. Generated and secret files matching these
-patterns are not in the clone the wiki summarizes.
+`.gitignore` tells git or Docker which paths to omit. It currently lists 24 pattern(s)
+including `node_modules/`, `/apps/`, `/.qq/`, `/app/innernet/*`,
+`!/app/innernet/project.json`, `/app/quitter/*`, `!/app/quitter/project.json`,
+`/app/instants/*`, and 16 more. Generated and secret files matching these patterns are not
+in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/euler/blob/main/.gitignore) · other · 230 bytes
+[`.gitignore`](https://github.com/quirq-ai/euler/blob/main/.gitignore) · other · 477 bytes
 
 ### .node-version
 
@@ -31,7 +33,7 @@ Extensionless file `.node-version`. 24.
 
 The project README (“Quick start”). Euler Your apps. One home. One dock.
 
-[`README.md`](https://github.com/quirq-ai/euler/blob/main/README.md) · code · 20454 bytes
+[`README.md`](https://github.com/quirq-ai/euler/blob/main/README.md) · code · 21749 bytes
 
 ### euler.workspace.json
 
@@ -46,7 +48,7 @@ JSON document `nx.json` whose top-level keys are `$schema`, `defaultBase`, `anal
 `neverConnectToCloud`, `useDaemonProcess`, `targetDefaults`, `tui`. Structured data consumed
 by the surrounding app or tooling.
 
-[`nx.json`](https://github.com/quirq-ai/euler/blob/main/nx.json) · code · 505 bytes
+[`nx.json`](https://github.com/quirq-ai/euler/blob/main/nx.json) · code · 430 bytes
 
 ### package-lock.json
 
@@ -61,8 +63,8 @@ of this file.
 
 npm package manifest for `@quirq-ai/euler` v1.0.0. Euler: a local app home with one server,
 a shared dock, and directly mounted applications. CLI bins: `euler`. Scripts: `start`,
-`dev`, `setup`, `migrate:app-data`, `apps:check`, `apps:sync`, `build`, `test`, `nx`.
+`dev`, `setup`, `migrate:app-data`, `build`, `test`, `nx`.
 
-[`package.json`](https://github.com/quirq-ai/euler/blob/main/package.json) · code · 990 bytes
+[`package.json`](https://github.com/quirq-ai/euler/blob/main/package.json) · code · 857 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

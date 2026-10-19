@@ -30,4 +30,4 @@ the open. Provides a default export as the module's public entry.
 
 [`skills/explainer-film/template/src/scenes/04-close.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/src/scenes/04-close.mjs) · code · 2113 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

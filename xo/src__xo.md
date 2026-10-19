@@ -17,7 +17,7 @@ xo: the command line for the XO Cloud API.
 """xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
 xo server).
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 73496 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 79517 bytes
 
 ### client.py
 
@@ -108,4 +108,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 17923 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:23 UTC from `main`._

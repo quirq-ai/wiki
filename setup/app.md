@@ -17,11 +17,12 @@ selectors include `brand-wordmark`, `state-badge`, `state-green`, `state-red`, `
 
 ### layout.tsx
 
-export const metadata: Metadata = { title: "Set up qq", description: "Pick the GitHub org
-and repos qq-setup should set up.", icons: { icon: "/brand/quirq/app-icon.svg" }, robots: {
-index: false, follow: false }, } Notable exports: `RootLayout`, `metadata`.
+export const metadata: Metadata = { title: "Set up qq", description: "Install qq and xo on
+this machine, then pick the GitHub org and repos qq-setup should set up.", icons: { icon:
+"/brand/quirq/app-icon.svg" }, robots: { index: false, follow: false }, } Notable exports:
+`RootLayout`, `metadata`.
 
-[`app/layout.tsx`](https://github.com/quirq-ai/setup/blob/main/app/layout.tsx) · code · 1196 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/setup/blob/main/app/layout.tsx) · code · 1236 bytes
 
 ### page.tsx
 
@@ -29,4 +30,4 @@ export default function Page() { return ; } Notable exports: `Page`.
 
 [`app/page.tsx`](https://github.com/quirq-ai/setup/blob/main/app/page.tsx) · code · 113 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

@@ -18,7 +18,7 @@ Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `config_home`, 
 
 from __future__ import annotations Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 105647 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 117124 bytes
 
 ### test_github.py
 
@@ -45,4 +45,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23461 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:23 UTC from `main`._

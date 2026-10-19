@@ -8,12 +8,13 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### bin.mjs
 
-@ts-check qq-setup: set up quirq infra (qq) for a GitHub org, or put qq on this machine to
-work on a repo that already uses it. The terminal checks your tools, a local form in your
-browser asks which, and the terminal shows the plan or prints the install commands. THIS
-BUILD IS READ-ONLY: it reads GitHub through your gh login and writes nothing anywhere.
+@ts-check qq-setup: set up quirq infra (qq) for a GitHub org, or install, update or remove
+qq and xo on this machine. The terminal checks your tools and a local form in your browser
+asks what to do: the form's "This machine" panel runs the install, update or remove steps
+you pick (cli/machine.mjs), and the terminal shows the plan for an org. `qq-setup install`
+does the same for this machine in the terminal.
 
-[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 11275 bytes
+[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 14213 bytes
 
 ### detect.mjs
 
@@ -38,13 +39,30 @@ reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `enc
 
 [`cli/gh.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/gh.mjs) · code · 4621 bytes
 
+### install.mjs
+
+@ts-check qq-setup install: install, update or remove qq (with qqsync) and xo on this
+machine. It looks at what is already here, asks what to do with each, shows the exact
+commands, and runs them only after a yes.
+
+[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 33745 bytes
+
+### machine.mjs
+
+@ts-check The form's "This machine" panel: the same install, update and remove as `qq-setup
+install` (cli/install.mjs), chosen on the page and run here. The page never sends a command.
+It sends a choice per tool, which must be one the tool's state offers (choices()), with the
+signature of the look it is showing. The server turns it into steps with planSteps and keeps
+that plan. A run takes only the id of the latest plan.
+
+[`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 12278 bytes
+
 ### names.mjs
 
 @ts-check Names: pure functions with no Node imports, so the form imports this same file
-(one copy of the rules). Notable exports: `isName`, `normalizeRepo`, `isBlankRepo`,
-`parseRepo`.
+(one copy of the rules). Notable exports: `isName`.
 
-[`cli/names.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/names.mjs) · code · 1206 bytes
+[`cli/names.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/names.mjs) · code · 362 bytes
 
 ### opener.mjs
 
@@ -70,7 +88,7 @@ exports: `checkAnswers`, `buildPlan`, `CONFIG_REPO`, `STARTERS`.
 and its scopes. Each failing check says the one thing to do about it. Notable exports:
 `checks`, `preflight`, `NEEDED_SCOPES`, `LATER_SCOPES`.
 
-[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5423 bytes
+[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5812 bytes
 
 ### protection.mjs
 
@@ -87,16 +105,16 @@ these warnings are for.
 @ts-check The form's local server. It listens on 127.0.0.1 only, serves the static form from
 out/, and answers /api/* only to the one tab that traded the link's key for a session.
 
-[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 10190 bytes
+[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 11207 bytes
 
 ### tools.mjs
 
-@ts-check The second way in: put qq on this machine and work on a repo that already uses it.
-qq-setup only prints these commands; it runs none of them. They are copied from the qq guide
-(quirq-ai/docs content/docs/qq.mdx, "Use qq on your machine", at bb9a832); change both
-together, with tests/fixtures/qq-guide-install.txt. Notable exports: `commandsFor`,
-`getLine`, `checkTools`, `toolsText`, `INSTALL`, `USE`, `USE_MAC`, `USE_NOTE`, and 3 more.
+@ts-check qq's install commands, which `qq-setup install` and the page's "This machine"
+steps run (cli/install.mjs). They are copied from the qq guide (quirq-ai/docs
+content/docs/install.mdx, "Install qq", at d02c27f); change both together, with
+tests/fixtures/qq-guide-install.txt. MAC_PYTHON is that page's "On a Mac, set up Python
+first" command. Notable exports: `installFor`, `qqPython`, `INSTALL`, `MAC_PYTHON`, `MAC`.
 
-[`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 6261 bytes
+[`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 3399 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

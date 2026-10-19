@@ -8,10 +8,27 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### qq-guide-install.txt
 
-Txt file `qq-guide-install.txt`. The three install commands in quirq-ai/docs
-content/docs/qq.mdx at bb9a832d9528a5b565d2123b6e26c037a14db789, lines 84, 88 and 92, copied
-unchanged. cli/tools.mjs must print exactly these; update both together.
+Txt file `qq-guide-install.txt`. The install commands in quirq-ai/docs
+content/docs/install.mdx at d02c27f5f3bd563b136f7d3cf8d0bc54bd178d9a, lines 40, 58, 71 and
+86, copied unchanged (line 40, a Mac's Python step, without its two-space indent).
+cli/tools.mjs must print exactly these; update both together.
 
-[`tests/fixtures/qq-guide-install.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/qq-guide-install.txt) · code · 1121 bytes
+[`tests/fixtures/qq-guide-install.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/qq-guide-install.txt) · code · 1315 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+### qq-guide-remove.txt
+
+Txt file `qq-guide-remove.txt`. The remove commands in quirq-ai/docs
+content/docs/install.mdx at d02c27f5f3bd563b136f7d3cf8d0bc54bd178d9a, lines 153 and 161,
+copied unchanged. cli/install.mjs must run exactly these; update both together.
+
+[`tests/fixtures/qq-guide-remove.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/qq-guide-remove.txt) · code · 906 bytes
+
+### xo-quickstart.txt
+
+Txt file `xo-quickstart.txt`. The xo commands in quirq-ai/xo docs/quickstart.md at
+b61bc4cac605679c2a97def9b64ef56456cb0827, lines 18, 102, 110 and 111, copied unchanged (line
+18 without its two-space indent). cli/install.mjs must match these; update both together.
+
+[`tests/fixtures/xo-quickstart.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/xo-quickstart.txt) · code · 485 bytes
+
+_Generated 2026-10-19 11:22 UTC from `main`._

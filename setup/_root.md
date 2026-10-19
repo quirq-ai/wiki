@@ -38,12 +38,11 @@ product or redistribution.
 
 ### README.md
 
-The project README (“qq-setup”). One command to set up quirq infra (qq) for your GitHub org,
-or to put qq on your machine and work on a repo that already uses it: the terminal checks
-your tools, a short form in your browser asks which, and the terminal shows what it will do
-or prints the commands.
+The project README (“qq-setup”). One command to install, update or remove qq and xo on your
+machine, and to set up quirq infra (qq) for your GitHub org: the terminal checks your tools
+and opens one page in your browser, qq on this machine first, then your org's repos.
 
-[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 7673 bytes
+[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 13092 bytes
 
 ### eslint.config.mjs
 
@@ -100,4 +99,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/setup/blob/main/tsconfig.json) · code · 779 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

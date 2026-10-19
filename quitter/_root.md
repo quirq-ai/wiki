@@ -82,4 +82,4 @@ export default defineConfig({ plugins: [react()], server: { watch: { usePolling:
 
 [`vite.config.ts`](https://github.com/quirq-ai/quitter/blob/main/vite.config.ts) · code · 179 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

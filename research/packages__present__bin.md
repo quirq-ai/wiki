@@ -16,4 +16,4 @@ deck) is copied as-is.
 
 [`packages/present/bin/present.js`](https://github.com/quirq-ai/research/blob/main/packages/present/bin/present.js) · code · 8819 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

@@ -78,8 +78,10 @@ Python module `test_store.py`. Functions: `rec`, `test_put_and_read`,
 ### test_workflows.py
 
 Python module `test_workflows.py`. Functions: `test_tools_qqperf_runs_from_source`,
-`test_publish_uses_the_qqresults_pin`, `test_trusted_jobs_install_nothing`. Contains tests.
+`test_publish_uses_the_qqresults_pin`, `test_trusted_jobs_install_nothing`,
+`test_store_downloads_each_leg_by_name`, `test_store_skips_an_empty_ledger_directory`.
+Contains tests.
 
-[`tests/test_workflows.py`](https://github.com/quirq-ai/perf/blob/main/tests/test_workflows.py) · code · 1121 bytes
+[`tests/test_workflows.py`](https://github.com/quirq-ai/perf/blob/main/tests/test_workflows.py) · code · 2649 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

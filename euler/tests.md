@@ -6,13 +6,6 @@ Source: [tests](https://github.com/quirq-ai/euler/tree/main/tests) in [euler](ht
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### apps-sync.test.mjs
-
-const script = fileURLToPath(new URL('../scripts/apps-sync.mjs', import.meta.url)); const
-manifestPath = 'app/upstream.json'; const appPath = 'app/innernet' Automated test file.
-
-[`tests/apps-sync.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/apps-sync.test.mjs) · code · 20686 bytes
-
 ### cli.test.mjs
 
 const executable = fileURLToPath(new URL('../bin/euler.mjs', import.meta.url)) Automated
@@ -44,7 +37,7 @@ writeFile(join(root, path), value); } async function fixture(t) { const root = a
 mkdtemp(join(tmpdir(), 'Euler migration with spaces ')); t.after(() => rm(root, { recursive:
 true, fo Automated test file.
 
-[`tests/migrate-app-data.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/migrate-app-data.test.mjs) · code · 6783 bytes
+[`tests/migrate-app-data.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/migrate-app-data.test.mjs) · code · 6719 bytes
 
 ### server.test.mjs
 
@@ -65,6 +58,13 @@ assert.throws(() => setupApps(['../innernet']), /Unknown app/); }) Automated tes
 
 [`tests/setup.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/setup.test.mjs) · code · 2254 bytes
 
+### sources.test.mjs
+
+const quiet = { log() {} } Provides a default export as the module's public entry. Automated
+test file.
+
+[`tests/sources.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/sources.test.mjs) · code · 15468 bytes
+
 ### workspace.test.mjs
 
 const repositoryRoot = fileURLToPath(new URL('..', import.meta.url)) Provides a default
@@ -72,4 +72,4 @@ export as the module's public entry. Automated test file.
 
 [`tests/workspace.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/workspace.test.mjs) · code · 9451 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

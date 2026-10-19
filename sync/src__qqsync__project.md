@@ -74,4 +74,4 @@ Functions: `update_clone`, `update`.
 
 [`src/qqsync/project/update.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/project/update.py) · code · 3185 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

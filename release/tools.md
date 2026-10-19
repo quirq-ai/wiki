@@ -21,4 +21,4 @@ Runnable as a script via `if __name__ == '__main__'`. Functions: `git`, `digest`
 
 [`tools/rollback_drill.py`](https://github.com/quirq-ai/release/blob/main/tools/rollback_drill.py) · code · 4994 bytes
 
-_Generated 2026-10-18 09:59 UTC from `main`._
+_Generated 2026-10-19 11:22 UTC from `main`._

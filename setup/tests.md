@@ -10,6 +10,20 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 @ts-check Automated test file.
 
-[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 34150 bytes
+[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 33531 bytes
 
-_Generated 2026-10-18 10:00 UTC from `main`._
+### install.test.mjs
+
+@ts-check Automated test file.
+
+[`tests/install.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/install.test.mjs) · code · 31343 bytes
+
+### machine.test.mjs
+
+@ts-check The "This machine" panel's runner (cli/machine.mjs): only choices the state offers
+are planned, a run takes only the latest plan's id, once, and it refuses when the machine
+changed after the plan. Automated test file.
+
+[`tests/machine.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/machine.test.mjs) · code · 15694 bytes
+
+_Generated 2026-10-19 11:22 UTC from `main`._
