@@ -64,4 +64,4 @@ Python module `test_project_update.py`.
 
 [`tests/project/test_project_update.py`](https://github.com/quirq-ai/sync/blob/main/tests/project/test_project_update.py) · code · 5980 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

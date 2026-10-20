@@ -25,4 +25,4 @@ Notable exports: `cn`.
 
 [`src/utils.ts`](https://github.com/quirq-ai/website/blob/main/src/utils.ts) · code · 176 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

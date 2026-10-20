@@ -35,4 +35,4 @@ YAML file `docker-compose.yml`. Top-level keys: `# lan server stack`, `# Setup`,
 
 [`deploy/docker-compose.yml`](https://github.com/quirq-ai/lan/blob/main/deploy/docker-compose.yml) · code · 1260 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

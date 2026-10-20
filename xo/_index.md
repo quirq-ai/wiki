@@ -8,8 +8,8 @@ product: xo, the command line for the XO Cloud API
 - [Activity history](../_activity/repos/xo.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-18T14:23:17Z`
-- Snapshot SHA: `b61bc4cac605`
+- Last push: `2026-10-19T13:59:19Z`
+- Snapshot SHA: `262f3749a088`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,4 +24,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests` | 6 | [tests.md](tests.md) |
 | `tests/fixtures` | 2 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-19 11:23 UTC._
+_Generated 2026-10-20 10:30 UTC._

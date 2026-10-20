@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 HTML document `architecture.html` titled “xo Architecture”. xo Architecture.
 
-[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 159692 bytes
+[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 159702 bytes
 
 ### architecture.md
 
@@ -19,7 +19,7 @@ machine, and the xo server (xo serve, on Vercel at xo.quirq.dev through app.py),
 the Clerk Secret Key so the CLI never needs it. Standard library only. Setup is in
 [quickstart.md](quickstart.md); the server's settings in [server.md](server.md).
 
-[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 39804 bytes
+[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 39814 bytes
 
 ### deploy-vercel.md
 
@@ -59,4 +59,4 @@ deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect
 
 [`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

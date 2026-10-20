@@ -12,7 +12,7 @@ Markdown page “Put a repo on qq”. Onboard a repo in two parts. First make it
 with qq on your machine, then put it behind the gate so every change lands through the merge
 queue. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/add-a-repo.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/add-a-repo.mdx) · code · 7339 bytes
+[`content/docs/add-a-repo.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/add-a-repo.mdx) · code · 7340 bytes
 
 ### after-it-lands.mdx
 
@@ -67,7 +67,7 @@ Markdown page “How the infra fits together”. The 13 repos behind qq in four 
 your machine to shipping. What each one does, what state it is in today, and where to read
 more. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/infrastructure.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/infrastructure.mdx) · code · 8751 bytes
+[`content/docs/infrastructure.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/infrastructure.mdx) · code · 8769 bytes
 
 ### install.mdx
 
@@ -75,7 +75,7 @@ Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-
 (four on a Mac), check them, and know what to do on a Mac. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 7572 bytes
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 9784 bytes
 
 ### meta.json
 
@@ -114,4 +114,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

@@ -42,7 +42,7 @@ The project README (“qq-setup”). One command to install, update or remove qq
 machine, and to set up quirq infra (qq) for your GitHub org: the terminal checks your tools
 and opens one page in your browser, qq on this machine first, then your org's repos.
 
-[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 13092 bytes
+[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 13523 bytes
 
 ### eslint.config.mjs
 
@@ -99,4 +99,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/setup/blob/main/tsconfig.json) · code · 779 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

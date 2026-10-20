@@ -30,4 +30,4 @@ QUIRQ_GLYPHS, type QuirqIcon } from './glyphs' Notable exports: `QuirqAppIcon`, 
 
 [`library/website/source/src/components/QuirqAppIcon/index.tsx`](https://github.com/quirq-ai/ui/blob/main/library/website/source/src/components/QuirqAppIcon/index.tsx) · code · 2217 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

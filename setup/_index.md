@@ -8,8 +8,8 @@ One command to set up qq for a GitHub org
 - [Activity history](../_activity/repos/setup.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-19T11:20:45Z`
-- Snapshot SHA: `ac2bfa3a809c`
+- Last push: `2026-10-20T10:13:23Z`
+- Snapshot SHA: `bc613a543fbf`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -19,7 +19,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github` | 0 | [.github.md](.github.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
 | `app` | 3 | [app.md](app.md) |
-| `cli` | 13 | [cli.md](cli.md) |
+| `cli` | 15 | [cli.md](cli.md) |
 | `components` | 5 | [components.md](components.md) |
 | `components/ui` | 13 | [components__ui.md](components__ui.md) |
 | `lib` | 2 | [lib.md](lib.md) |
@@ -35,9 +35,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/brand` | 0 | [public__brand.md](public__brand.md) |
 | `public/brand/quirq` | 3 | [public__brand__quirq.md](public__brand__quirq.md) |
 | `scripts` | 1 | [scripts.md](scripts.md) |
-| `tests` | 3 | [tests.md](tests.md) |
+| `tests` | 4 | [tests.md](tests.md) |
 | `tests/e2e` | 1 | [tests__e2e.md](tests__e2e.md) |
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 3 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-19 11:22 UTC._
+_Generated 2026-10-20 10:30 UTC._

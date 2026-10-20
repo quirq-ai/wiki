@@ -14,4 +14,4 @@ import debounce from 'lodash/debounce' Notable exports: `SearchBar`.
 
 [`src/components/Editor/SearchBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Editor/SearchBar.tsx) · code · 4615 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

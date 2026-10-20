@@ -8,8 +8,8 @@ The docs for qq, quirq's build and release infrastructure, are live at [docs.qui
 - [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-18T23:02:18Z`
-- Snapshot SHA: `c8bc48512b49`
+- Last push: `2026-10-19T14:27:39Z`
+- Snapshot SHA: `0cf0bc4f3b88`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -57,4 +57,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
 | `src/lib` | 4 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-19 11:22 UTC._
+_Generated 2026-10-20 10:30 UTC._

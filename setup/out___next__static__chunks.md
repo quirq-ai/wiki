@@ -43,6 +43,16 @@ Symbol.prototype||Object.defineProperty(Symbo.
 
 [`out/_next/static/chunks/1rj7ns8rte9vc.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/1rj7ns8rte9vc.js) · code · 229156 bytes
 
+### 2enygu0nkhqt3.js
+
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
+document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,n,o,s;var
+a,i=e.i(43476),l=e.i(71645);let c=e=>{let
+t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,r)=>r?r.toUpperCase():t.toLowerCase());return
+t.charAt(0).toUpperCase()+t.slice(1)},d=(...e)=>e.filter((e,t,r)=>!!e&&""!==e.
+
+[`out/_next/static/chunks/2enygu0nkhqt3.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/2enygu0nkhqt3.js) · code · 101412 bytes
+
 ### 2k-8irj2ezsy-.js
 
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
@@ -52,16 +62,6 @@ WeakMap;return(n=function(e){return
 e?r:t})(e)}r._=function(e,t){if(!t&&e&&e.__esModule)return e;if(null===e||"object"!=typeof
 
 [`out/_next/static/chunks/2k-8irj2ezsy-.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/2k-8irj2ezsy-.js) · code · 178839 bytes
-
-### 3_ph9yvgvgg9j.js
-
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
-document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,n,o,s;var
-a,i=e.i(43476),l=e.i(71645);let c=e=>{let
-t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,r)=>r?r.toUpperCase():t.toLowerCase());return
-t.charAt(0).toUpperCase()+t.slice(1)},d=(...e)=>e.filter((e,t,r)=>!!e&&""!==e.
-
-[`out/_next/static/chunks/3_ph9yvgvgg9j.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/3_ph9yvgvgg9j.js) · code · 100919 bytes
 
 ### 3fntmmi971322.js
 
@@ -83,4 +83,4 @@ e;if(!Array.isArray(globalThis.TURBOPACK))return;var
 
 [`out/_next/static/chunks/turbopack-1y655n96lhfxa.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/turbopack-1y655n96lhfxa.js) · code · 9688 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

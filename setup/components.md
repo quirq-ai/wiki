@@ -36,7 +36,7 @@ Marked `'use client'` so it runs in the browser.
 type Tool = "qq" | "xo"; type Run = NonNullable Notable exports: `MachinePanel`. Marked
 `'use client'` so it runs in the browser.
 
-[`components/machine-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/machine-panel.tsx) · code · 15464 bytes
+[`components/machine-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/machine-panel.tsx) · code · 15925 bytes
 
 ### setup-form.tsx
 
@@ -45,6 +45,6 @@ StarterKind, type Machine, type State, } from "@/lib/api"; What closed the form:
 machine" Done button, or the org answers. type Mode = "machine" | "repos" Notable exports:
 `SetupForm`. Marked `'use client'` so it runs in the browser.
 
-[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 19438 bytes
+[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 19811 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

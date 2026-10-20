@@ -29,4 +29,4 @@ export const metadata: Metadata = { title: "Settings · quirq monitoring" } Nota
 
 [`app/settings/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/settings/page.tsx) · code · 2740 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

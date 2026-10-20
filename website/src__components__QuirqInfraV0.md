@@ -44,4 +44,4 @@ each file for up to 5 minutes. Notable exports: `getJson`, `recentDays`, `useLiv
 
 [`src/components/QuirqInfraV0/live.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqInfraV0/live.ts) · code · 3872 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

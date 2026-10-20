@@ -13,4 +13,4 @@ how-to knowledge. Read only via the skill-finder subagent.
 
 [`memory/procedural/README.md`](https://github.com/quirq-ai/lan/blob/main/memory/procedural/README.md) · code · 1219 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

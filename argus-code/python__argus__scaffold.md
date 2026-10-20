@@ -36,4 +36,4 @@ Locate and resolve argus claude project-scaffolding templates. Functions:
 
 [`python/argus/scaffold/storage.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/scaffold/storage.py) · code · 2741 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._

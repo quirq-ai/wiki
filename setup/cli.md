@@ -8,13 +8,13 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### bin.mjs
 
-@ts-check qq-setup: set up quirq infra (qq) for a GitHub org, or install, update or remove
-qq and xo on this machine. The terminal checks your tools and a local form in your browser
-asks what to do: the form's "This machine" panel runs the install, update or remove steps
-you pick (cli/machine.mjs), and the terminal shows the plan for an org. `qq-setup install`
-does the same for this machine in the terminal.
+qq-setup's entry. It is written so that an old Node can still read it (Node 10, and 12.17
+and up, which covers Ubuntu 20.04's and 22.04's own packages), and says plainly that it
+needs Node 22 instead of failing on newer syntax in the rest of qq-setup. Keep it that way:
+no static imports, nothing newer than ES2019 plus import(). CI's old-node job runs it on a
+real Node 12.
 
-[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 14213 bytes
+[`cli/bin.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/bin.mjs) · code · 808 bytes
 
 ### detect.mjs
 
@@ -45,7 +45,7 @@ reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `enc
 machine. It looks at what is already here, asks what to do with each, shows the exact
 commands, and runs them only after a yes.
 
-[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 33745 bytes
+[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 33829 bytes
 
 ### machine.mjs
 
@@ -56,6 +56,16 @@ signature of the look it is showing. The server turns it into steps with planSte
 that plan. A run takes only the id of the latest plan.
 
 [`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 12278 bytes
+
+### main.mjs
+
+@ts-check qq-setup: set up quirq infra (qq) for a GitHub org, or install, update or remove
+qq and xo on this machine. The terminal checks your tools and a local form in your browser
+asks what to do: the form's "This machine" panel runs the install, update or remove steps
+you pick (cli/machine.mjs), and the terminal shows the plan for an org. `qq-setup install`
+does the same for this machine in the terminal.
+
+[`cli/main.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/main.mjs) · code · 14435 bytes
 
 ### names.mjs
 
@@ -88,7 +98,7 @@ exports: `checkAnswers`, `buildPlan`, `CONFIG_REPO`, `STARTERS`.
 and its scopes. Each failing check says the one thing to do about it. Notable exports:
 `checks`, `preflight`, `NEEDED_SCOPES`, `LATER_SCOPES`.
 
-[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5812 bytes
+[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5936 bytes
 
 ### protection.mjs
 
@@ -111,10 +121,20 @@ out/, and answers /api/* only to the one tab that traded the link's key for a se
 
 @ts-check qq's install commands, which `qq-setup install` and the page's "This machine"
 steps run (cli/install.mjs). They are copied from the qq guide (quirq-ai/docs
-content/docs/install.mdx, "Install qq", at d02c27f); change both together, with
+content/docs/install.mdx, "Install qq", at 3f8df0d); change both together, with
 tests/fixtures/qq-guide-install.txt. MAC_PYTHON is that page's "On a Mac, set up Python
 first" command. Notable exports: `installFor`, `qqPython`, `INSTALL`, `MAC_PYTHON`, `MAC`.
 
 [`cli/tools.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/tools.mjs) · code · 3399 bytes
 
-_Generated 2026-10-19 11:22 UTC from `main`._
+### windows.mjs
+
+@ts-check What qq-setup says on Windows, where its install steps (sh commands for Linux and
+macOS) cannot run. A common trap: in WSL with no Linux Node, the shell finds Windows' npx,
+because WSL adds Windows' PATH by default, so qq-setup runs on Windows' Node. npx then
+starts in \\wsl.localhost\<distro>\... (or \\wsl$\... on older WSL), or in C:\... when
+started under /mnt/c.
+
+[`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2554 bytes
+
+_Generated 2026-10-20 10:30 UTC from `main`._

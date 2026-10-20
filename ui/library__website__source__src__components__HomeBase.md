@@ -25,4 +25,4 @@ QuirqWordmark } from 'components/QuirqBrand' import { QuirqAvatarTile } from
 
 [`library/website/source/src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/ui/blob/main/library/website/source/src/components/HomeBase/index.tsx) · code · 23695 bytes
 
-_Generated 2026-10-19 11:23 UTC from `main`._
+_Generated 2026-10-20 10:30 UTC from `main`._
