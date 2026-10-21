@@ -14,18 +14,25 @@ export { twMerge as cn } from "tailwind-merge" Notable exports: `cn`.
 
 ### layout.shared.tsx
 
-const logo = ( Notable exports: `baseOptions`, `socialLinks`.
+const logo = ( Notable exports: `socialLinksFor`, `baseOptions`, `socialLinks`.
 
-[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 1309 bytes
+[`src/lib/layout.shared.tsx`](https://github.com/quirq-ai/docs/blob/main/src/lib/layout.shared.tsx) · code · 1756 bytes
+
+### sections.ts
+
+The site's two sections. qq's pages sit at /docs/*, xo's at /docs/xo/*. Notable exports:
+`inXo`, `sectionOf`, `splitTree`, `xoRoute`, `sections`.
+
+[`src/lib/sections.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/sections.ts) · code · 1328 bytes
 
 ### shared.ts
 
-export const appName = "qq docs"; export const siteUrl = "https://docs.quirq.dev"; export
+export const appName = "quirq docs"; export const siteUrl = "https://docs.quirq.dev"; export
 const docsRoute = "/docs"; export const docsImageRoute = "/og/docs"; export const
 docsContentRoute = "/llms.mdx/docs" Notable exports: `appName`, `siteUrl`, `docsRoute`,
 `docsImageRoute`, `docsContentRoute`, `gitConfig`.
 
-[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 348 bytes
+[`src/lib/shared.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/shared.ts) · code · 351 bytes
 
 ### source.ts
 
@@ -34,4 +41,4 @@ Notable exports: `getPageImage`, `getPageMarkdownUrl`, `getLLMText`, `source`.
 
 [`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 4897 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

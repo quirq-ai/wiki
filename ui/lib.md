@@ -26,4 +26,4 @@ Everything a new project renames lives here: name, copy, links. Notable exports:
 
 [`lib/site.ts`](https://github.com/quirq-ai/ui/blob/main/lib/site.ts) · code · 390 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

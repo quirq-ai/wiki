@@ -58,4 +58,4 @@ Run a scripted terminal session for real and record its output with timings. Fun
 
 [`scripts/videos/recorder.py`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/recorder.py) · code · 2532 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

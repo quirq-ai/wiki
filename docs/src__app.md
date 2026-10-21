@@ -33,7 +33,7 @@ brand; not executable source.
 const raleway = Raleway({ subsets: ["latin"], }) Notable exports: `Layout`, `metadata`.
 Wired into a Next.js app (App Router or Next APIs).
 
-[`src/app/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/layout.tsx) · code · 1263 bytes
+[`src/app/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/layout.tsx) · code · 1293 bytes
 
 ### page.tsx
 
@@ -58,4 +58,4 @@ export const revalidate = false Notable exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 547 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

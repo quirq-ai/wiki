@@ -16,9 +16,13 @@ Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `config_home`, 
 
 ### test_cli.py
 
-from __future__ import annotations Contains tests.
+Python module `test_cli.py`. Functions: `run`, `test_no_key_is_one_actionable_line`,
+`test_key_goes_as_a_bearer_token`, `test_flag_key_wins_over_the_variable`,
+`test_an_echoed_key_is_redacted`, `test_an_error_body_echoing_the_key_is_redacted`,
+`test_redirects_are_never_followed`,
+`test_a_sign_in_redirect_says_the_route_wants_a_browser`, and 127 more. Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 117124 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 130129 bytes
 
 ### test_github.py
 
@@ -28,9 +32,13 @@ gh is a fake here: tests never run the real gh or reach GitHub. Classes: `FakeGh
 
 ### test_server.py
 
-"""xo serve against a fake Clerk Backend API on 127.0.0.1. Contains tests.
+xo serve against a fake Clerk Backend API on 127.0.0.1. Classes: `FakeClerk`. Functions:
+`clerk`, `browser_on`, `xo_server`, `call`, `audits`,
+`test_health_needs_no_key_and_no_clerk_call`,
+`test_me_verifies_the_key_and_returns_the_profile`,
+`test_me_with_no_metadata_or_email_says_so`, and 93 more. Contains tests.
 
-[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 131335 bytes
+[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 150573 bytes
 
 ### test_services.py
 
@@ -45,4 +53,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23461 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

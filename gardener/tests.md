@@ -138,4 +138,4 @@ S6).
 
 [`tests/test_workflows.py`](https://github.com/quirq-ai/gardener/blob/main/tests/test_workflows.py) · code · 6917 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

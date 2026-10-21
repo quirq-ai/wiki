@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### layout.tsx
 
 export default function Layout({ children }: { children: React.ReactNode }) { const
-sidebarLinks: LinkItemType[] = socialLinks.map((l) => ({ ...l, on: "menu" as const, }))
-Notable exports: `Layout`.
+sidebarLinks = (repo: string): LinkItemType[] => socialLinksFor(repo).map((l) => ({ ...l,
+on: "menu" as const })) Notable exports: `Layout`.
 
-[`src/app/docs/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/docs/layout.tsx) · code · 1078 bytes
+[`src/app/docs/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/docs/layout.tsx) · code · 1370 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

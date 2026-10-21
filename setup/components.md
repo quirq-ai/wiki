@@ -12,7 +12,7 @@ What qq and xo are, in the words of their own guides (docs.quirq.dev "What is qq
 README and quickstart). Each says a line and links out; the guides stay the place to read
 more. Notable exports: `AboutQq`, `AboutXo`, `AboutOrgSetup`, `AboutTogether`.
 
-[`components/about.tsx`](https://github.com/quirq-ai/setup/blob/main/components/about.tsx) · code · 3589 bytes
+[`components/about.tsx`](https://github.com/quirq-ai/setup/blob/main/components/about.tsx) · code · 3645 bytes
 
 ### command.tsx
 
@@ -36,7 +36,7 @@ Marked `'use client'` so it runs in the browser.
 type Tool = "qq" | "xo"; type Run = NonNullable Notable exports: `MachinePanel`. Marked
 `'use client'` so it runs in the browser.
 
-[`components/machine-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/machine-panel.tsx) · code · 15925 bytes
+[`components/machine-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/machine-panel.tsx) · code · 15997 bytes
 
 ### setup-form.tsx
 
@@ -45,6 +45,6 @@ StarterKind, type Machine, type State, } from "@/lib/api"; What closed the form:
 machine" Done button, or the org answers. type Mode = "machine" | "repos" Notable exports:
 `SetupForm`. Marked `'use client'` so it runs in the browser.
 
-[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 19811 bytes
+[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 19988 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

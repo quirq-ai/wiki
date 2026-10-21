@@ -10,13 +10,13 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 @ts-check Automated test file.
 
-[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 34636 bytes
+[`tests/cli.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/cli.test.mjs) · code · 37661 bytes
 
 ### install.test.mjs
 
 @ts-check Automated test file.
 
-[`tests/install.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/install.test.mjs) · code · 32078 bytes
+[`tests/install.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/install.test.mjs) · code · 50083 bytes
 
 ### machine.test.mjs
 
@@ -30,6 +30,6 @@ changed after the plan. Automated test file.
 
 @ts-check Automated test file.
 
-[`tests/windows.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/windows.test.mjs) · code · 3467 bytes
+[`tests/windows.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/windows.test.mjs) · code · 3408 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

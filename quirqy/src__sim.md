@@ -42,4 +42,4 @@ stable. Collisions merge the smaller body into the larger one, conserving moment
 
 [`src/sim/nbody.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/sim/nbody.js) · code · 8307 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

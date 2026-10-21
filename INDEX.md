@@ -12,7 +12,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **agent-skills** | public | [`agent-skills/`](agent-skills/_index.md) | [agent-skills](https://github.com/quirq-ai/agent-skills) |
 | **argus-code**<br>See what Claude Code and Codex actually did. Local-first observability for every session: which tools ran, what each sub-agent was told, which turn blew the budget. Cost, tokens, error alerts, full-text search. SQLite on your machine, nothing leaves it. | public fork | [`argus-code/`](argus-code/_index.md) | [argus-code](https://github.com/quirq-ai/argus-code) |
 | **cli-console** | public | [`cli-console/`](cli-console/_index.md) | [cli-console](https://github.com/quirq-ai/cli-console) |
-| **docs** | public fork | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
+| **docs** | public | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
 | **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
 | **experiments** | public | [`experiments/`](experiments/_index.md) | [experiments](https://github.com/quirq-ai/experiments) |
@@ -53,4 +53,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-20 10:30 UTC._
+_Generated 2026-10-21 10:42 UTC._

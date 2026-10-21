@@ -59,13 +59,47 @@ export function getMDXComponents(components?: MDXComponents) { return {
 
 [`src/components/mdx.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/mdx.tsx) · code · 705 bytes
 
+### phone-page-list.tsx
+
+Below md the sidebar is a drawer: this bar opens it with the section's pages. Like fumadocs'
+own docs header it stays under the site header as you scroll (the site header is h-14, hence
+the banner height), and it sets the header height so the "On this page" bar stacks below it.
+Notable exports: `PhonePageList`. Wired into a Next.js app (App Router or Next APIs). Marked
+`'use client'` so it runs in the browser.
+
+[`src/components/phone-page-list.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/phone-page-list.tsx) · code · 1223 bytes
+
 ### qq-home.tsx
 
 const GITHUB_REPO_URL = "https://github.com/quirq-ai/qq" Notable exports: `QqHome`. Wired
 into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
 browser.
 
-[`src/components/qq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/qq-home.tsx) · code · 21551 bytes
+[`src/components/qq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/qq-home.tsx) · code · 21449 bytes
+
+### section-docs-layout.tsx
+
+type PerSection = { qq: T; xo: T } Notable exports: `SectionDocsLayout`. Wired into a
+Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
+
+[`src/components/section-docs-layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/section-docs-layout.tsx) · code · 762 bytes
+
+### section-github-link.tsx
+
+The header's GitHub icon: the qq repo in the qq section, xo's in xo. Drawn as fumadocs draws
+`githubUrl` (a ghost icon button with the GitHub mark, 20px in a 32px button), so only the
+address changes. Notable exports: `SectionGithubLink`. Wired into a Next.js app (App Router
+or Next APIs). Marked `'use client'` so it runs in the browser.
+
+[`src/components/section-github-link.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/section-github-link.tsx) · code · 884 bytes
+
+### section-tabs.tsx
+
+The header's qq and xo tabs: one per section, the current one underlined. Notable exports:
+`SectionTabs`. Wired into a Next.js app (App Router or Next APIs). Marked `'use client'` so
+it runs in the browser.
+
+[`src/components/section-tabs.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/section-tabs.tsx) · code · 1128 bytes
 
 ### start-free-bar.tsx
 
@@ -75,7 +109,7 @@ content can scroll clear of the bar. */ const BAR_HEIGHT_PX = 60 Notable exports
 `StartFreeBar`. Wired into a Next.js app (App Router or Next APIs). Marked `'use client'` so
 it runs in the browser.
 
-[`src/components/start-free-bar.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/start-free-bar.tsx) · code · 3493 bytes
+[`src/components/start-free-bar.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/start-free-bar.tsx) · code · 3729 bytes
 
 ### video-embed.tsx
 
@@ -91,4 +125,4 @@ fd-border bg-black" Notable exports: `Video`.
 
 [`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

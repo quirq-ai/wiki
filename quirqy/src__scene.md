@@ -39,6 +39,22 @@ to a starfield millions of units away). Notable exports: `makeEarthMaterial`,
 
 [`src/scene/materials.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/scene/materials.js) · code · 9699 bytes
 
+### render-on-demand.js
+
+Render on demand: the repository labs only redraw while something can change. A frame is
+drawn while the lab reports it is busy (playback), for a grace period after any invalidation
+(input, camera movement, data or view changes, late texture loads), and otherwise at most
+once per keep-alive interval as a safety net for an update that forgot to invalidate.
+
+[`src/scene/render-on-demand.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/scene/render-on-demand.js) · code · 2591 bytes
+
+### render-on-demand.test.js
+
+function clock(start = 0) { let time = start; return { now: () => time, advance: ms => {
+time += ms; return time; } }; } Automated test file.
+
+[`src/scene/render-on-demand.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/scene/render-on-demand.test.js) · code · 4661 bytes
+
 ### setup.js
 
 Renderer, camera, post-processing chain, starfield and base lighting. Notable exports:
@@ -60,4 +76,4 @@ Fading motion trails for experiment mode, so orbital divergence from the real ep
 
 [`src/scene/trails.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/scene/trails.js) · code · 3006 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

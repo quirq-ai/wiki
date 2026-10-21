@@ -20,4 +20,4 @@ const root = fileURLToPath(new URL('../', import.meta.url)); const modes = ['dat
 
 [`scripts/repository-build.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/repository-build.test.js) · code · 5192 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

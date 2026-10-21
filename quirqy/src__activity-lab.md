@@ -14,7 +14,7 @@ const KINDS = [ ['pull_request', 'Pull requests', '#a6baf0', 'Proposed changes a
 around the work'], ['fork', 'Forks', '#c6a5dd', 'Repositories branching outward'],
 ['contribu Notable exports: `mountActivityLab`.
 
-[`src/activity-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/app.js) · code · 39945 bytes
+[`src/activity-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/app.js) · code · 40290 bytes
 
 ### constellation-enclosure.js
 
@@ -43,7 +43,7 @@ canvas.width = canvas.height = 256; const context = canvas.getContext('2d'); con
 background = context.createLinearGradient(0, 0, 256, 256); background.addColorStop(0,
 '#344663' Notable exports: `createContributorPortrait`.
 
-[`src/activity-lab/contributor-portrait.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/contributor-portrait.js) · code · 2004 bytes
+[`src/activity-lab/contributor-portrait.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/contributor-portrait.js) · code · 2083 bytes
 
 ### contributor-profile.js
 
@@ -148,7 +148,7 @@ THREE.Color('#edf3ff'); const easing = value => value * value * (3 - 2 * value);
 value => new THREE.Vector3(...value); const clamp = (value, min, max) => Math.max(min, Ma
 Notable exports: `ActivityScene`, `ACTIVITY_KIND_COLORS`, `ACTIVITY_KIND_LABELS`.
 
-[`src/activity-lab/scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/scene.js) · code · 56634 bytes
+[`src/activity-lab/scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/scene.js) · code · 56719 bytes
 
 ### style.css
 
@@ -160,4 +160,4 @@ button`, `activity-guide-actions`, and 20 more. Defines or consumes CSS custom p
 
 [`src/activity-lab/style.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/style.css) · code · 14586 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

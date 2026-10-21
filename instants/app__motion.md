@@ -14,4 +14,4 @@ Notable exports: `MotionPage`, `metadata`.
 
 [`app/motion/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/motion/page.tsx) · code · 387 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

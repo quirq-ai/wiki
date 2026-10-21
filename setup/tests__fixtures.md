@@ -26,9 +26,9 @@ copied unchanged. cli/install.mjs must run exactly these; update both together.
 ### xo-quickstart.txt
 
 Txt file `xo-quickstart.txt`. The xo commands in quirq-ai/xo docs/quickstart.md at
-b61bc4cac605679c2a97def9b64ef56456cb0827, lines 18, 102, 110 and 111, copied unchanged (line
+f35ded98f8c91f38ca99a557487d257985efda98, lines 18, 102, 110 and 111, copied unchanged (line
 18 without its two-space indent). cli/install.mjs must match these; update both together.
 
 [`tests/fixtures/xo-quickstart.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/xo-quickstart.txt) · code · 485 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

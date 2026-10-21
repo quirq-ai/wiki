@@ -59,7 +59,7 @@ Markdown page “What is qq”. qq is how quirq builds, tests, lands and ships c
 to see what it does for you and which guide to read next. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8912 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8957 bytes
 
 ### infrastructure.mdx
 
@@ -75,14 +75,14 @@ Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-
 (four on a Mac), check them, and know what to do on a Mac. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 9784 bytes
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 9807 bytes
 
 ### meta.json
 
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 381 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 394 bytes
 
 ### problems.mdx
 
@@ -114,4 +114,4 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

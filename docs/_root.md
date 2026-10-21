@@ -52,7 +52,7 @@ tooling.
 
 const withMDX = createMDX() Provides a default export as the module's public entry.
 
-[`next.config.mjs`](https://github.com/quirq-ai/docs/blob/main/next.config.mjs) · code · 3361 bytes
+[`next.config.mjs`](https://github.com/quirq-ai/docs/blob/main/next.config.mjs) · code · 3343 bytes
 
 ### package-lock.json
 
@@ -115,4 +115,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/docs/blob/main/tsconfig.json) · code · 740 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

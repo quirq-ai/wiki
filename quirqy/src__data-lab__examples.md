@@ -28,4 +28,4 @@ for the full document.
 
 [`src/data-lab/examples/xo.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples/xo.json) · code · 127513 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

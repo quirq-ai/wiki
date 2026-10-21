@@ -86,7 +86,7 @@ Python module `test_sink.py`. Functions: `good_reports`, `test_bundle_round_trip
 
 Python module `test_store.py`.
 
-[`tests/test_store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_store.py) · code · 54081 bytes
+[`tests/test_store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_store.py) · code · 54450 bytes
 
 ### test_verdict.py
 
@@ -97,4 +97,4 @@ Python module `test_verdict.py`. Functions: `res`, `test_all_pass_passes`,
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_verdict.py) · code · 1328 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

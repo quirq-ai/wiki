@@ -42,4 +42,4 @@ Functions: `run_foreground`.
 
 [`python/argus/daemon/service.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/daemon/service.py) · code · 2707 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

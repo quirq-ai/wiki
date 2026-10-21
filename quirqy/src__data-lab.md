@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Data Lab uses Quirqy's stage and HUD, with its own repository state. Notable exports:
 `mountDataLab`.
 
-[`src/data-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/app.js) · code · 21616 bytes
+[`src/data-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/app.js) · code · 22193 bytes
 
 ### author-profile.js
 
@@ -413,7 +413,7 @@ const DURATION = 1.6; const WHITE = new THREE.Color(0xf0f4ff); const ROOT_POSITI
 THREE.Vector3(); const ease = value => value value instanceof Set ? value : new Set(value ||
 []) Notable exports: `RepositoryScene`.
 
-[`src/data-lab/scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/scene.js) · code · 27159 bytes
+[`src/data-lab/scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/scene.js) · code · 27244 bytes
 
 ### style.css
 
@@ -470,4 +470,4 @@ exports: `createLeafGeometry`, `TreeScene`.
 
 [`src/data-lab/tree-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-scene.js) · code · 44759 bytes
 
-_Generated 2026-10-20 10:30 UTC from `quirq`._
+_Generated 2026-10-21 10:42 UTC from `quirq`._

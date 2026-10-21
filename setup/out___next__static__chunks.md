@@ -43,7 +43,7 @@ Symbol.prototype||Object.defineProperty(Symbo.
 
 [`out/_next/static/chunks/1rj7ns8rte9vc.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/1rj7ns8rte9vc.js) · code · 229156 bytes
 
-### 2enygu0nkhqt3.js
+### 1vpbw00zag-7k.js
 
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof
 document?document.currentScript:void 0,95922,e=>{"use strict";let t,r,n,o,s;var
@@ -51,7 +51,7 @@ a,i=e.i(43476),l=e.i(71645);let c=e=>{let
 t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,r)=>r?r.toUpperCase():t.toLowerCase());return
 t.charAt(0).toUpperCase()+t.slice(1)},d=(...e)=>e.filter((e,t,r)=>!!e&&""!==e.
 
-[`out/_next/static/chunks/2enygu0nkhqt3.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/2enygu0nkhqt3.js) · code · 101412 bytes
+[`out/_next/static/chunks/1vpbw00zag-7k.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/1vpbw00zag-7k.js) · code · 101559 bytes
 
 ### 2k-8irj2ezsy-.js
 
@@ -83,4 +83,4 @@ e;if(!Array.isArray(globalThis.TURBOPACK))return;var
 
 [`out/_next/static/chunks/turbopack-1y655n96lhfxa.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/turbopack-1y655n96lhfxa.js) · code · 9688 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

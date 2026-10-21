@@ -45,7 +45,7 @@ reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `enc
 machine. It looks at what is already here, asks what to do with each, shows the exact
 commands, and runs them only after a yes.
 
-[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 33829 bytes
+[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 46886 bytes
 
 ### machine.mjs
 
@@ -55,7 +55,7 @@ It sends a choice per tool, which must be one the tool's state offers (choices()
 signature of the look it is showing. The server turns it into steps with planSteps and keeps
 that plan. A run takes only the id of the latest plan.
 
-[`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 12278 bytes
+[`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 12548 bytes
 
 ### main.mjs
 
@@ -65,7 +65,7 @@ asks what to do: the form's "This machine" panel runs the install, update or rem
 you pick (cli/machine.mjs), and the terminal shows the plan for an org. `qq-setup install`
 does the same for this machine in the terminal.
 
-[`cli/main.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/main.mjs) · code · 14435 bytes
+[`cli/main.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/main.mjs) · code · 14424 bytes
 
 ### names.mjs
 
@@ -96,9 +96,9 @@ exports: `checkAnswers`, `buildPlan`, `CONFIG_REPO`, `STARTERS`.
 
 @ts-check Checks before anything opens: the tools the full setup needs, the user's gh login
 and its scopes. Each failing check says the one thing to do about it. Notable exports:
-`checks`, `preflight`, `NEEDED_SCOPES`, `LATER_SCOPES`.
+`checks`, `version`, `pythonAt`, `preflight`, `NEEDED_SCOPES`, `LATER_SCOPES`.
 
-[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 5936 bytes
+[`cli/preflight.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/preflight.mjs) · code · 7842 bytes
 
 ### protection.mjs
 
@@ -129,12 +129,12 @@ first" command. Notable exports: `installFor`, `qqPython`, `INSTALL`, `MAC_PYTHO
 
 ### windows.mjs
 
-@ts-check What qq-setup says on Windows, where its install steps (sh commands for Linux and
-macOS) cannot run. A common trap: in WSL with no Linux Node, the shell finds Windows' npx,
-because WSL adds Windows' PATH by default, so qq-setup runs on Windows' Node. npx then
-starts in \\wsl.localhost\<distro>\... (or \\wsl$\... on older WSL), or in C:\... when
-started under /mnt/c.
+@ts-check What qq-setup says about qq on Windows: qq runs on Linux and macOS only, so on
+Windows qq-setup installs xo (in cmd.exe) but not qq, and points to WSL for qq. A common
+trap: in WSL with no Linux Node, the shell finds Windows' npx, because WSL adds Windows'
+PATH by default, so qq-setup runs on Windows' Node. npx then starts in
+\\wsl.localhost\<distro>\... (or \\wsl$\... on older WSL), or in C:\.
 
-[`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2554 bytes
+[`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2604 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

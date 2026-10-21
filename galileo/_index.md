@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `telescope` | 6 | [telescope.md](telescope.md) |
 | `test` | 4 | [test.md](test.md) |
 
-_Generated 2026-10-20 10:30 UTC._
+_Generated 2026-10-21 10:42 UTC._

@@ -53,7 +53,7 @@ const fixture = (path: string) => readFileSync(new URL(../fixtures/${path},
 import.meta.url), "utf8"); const today = () => new Date().toISOString().slice(0, 10)
 Automated test file.
 
-[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 31565 bytes
+[`tests/model/snapshot.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/snapshot.test.ts) · code · 31738 bytes
 
 ### stale.test.ts
 
@@ -63,4 +63,4 @@ maxAge }) Automated test file.
 
 [`tests/model/stale.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/model/stale.test.ts) · code · 2099 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

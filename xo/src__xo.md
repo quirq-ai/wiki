@@ -17,7 +17,7 @@ xo: the command line for the XO Cloud API.
 """xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
 xo server).
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 79517 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 80468 bytes
 
 ### client.py
 
@@ -68,7 +68,7 @@ JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `server
 """xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
 them.
 
-[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 110756 bytes
+[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 127908 bytes
 
 ### services.json
 
@@ -100,6 +100,13 @@ Functions: `_hash`.
 
 [`src/xo/status_page.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/status_page.py) · code · 8229 bytes
 
+### weblogin.py
+
+xo login in a browser: Clerk's sign-in (OAuth with PKCE), caught on this machine's loopback.
+Functions: `settings`, `login`.
+
+[`src/xo/weblogin.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/weblogin.py) · code · 8936 bytes
+
 ### workspace.py
 
 xo install, xo update and xo sync: a space's projects on this machine, kept in step with the
@@ -108,4 +115,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 17923 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

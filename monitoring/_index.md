@@ -8,8 +8,8 @@ The quirq-ai monitoring dashboard: one page that says **what changed across the 
 - [Activity history](../_activity/repos/monitoring.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-15T23:51:17Z`
-- Snapshot SHA: `dcadbf2360c9`
+- Last push: `2026-10-20T23:44:50Z`
+- Snapshot SHA: `e5d51030d9fc`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -33,7 +33,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `components` | 20 | [components.md](components.md) |
 | `components/settings` | 4 | [components__settings.md](components__settings.md) |
 | `components/ui` | 14 | [components__ui.md](components__ui.md) |
-| `config` | 5 | [config.md](config.md) |
+| `config` | 6 | [config.md](config.md) |
 | `docs` | 1 | [docs.md](docs.md) |
 | `lib` | 5 | [lib.md](lib.md) |
 | `lib/editor` | 14 | [lib__editor.md](lib__editor.md) |
@@ -108,4 +108,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/model` | 7 | [tests__model.md](tests__model.md) |
 | `tests/sources` | 20 | [tests__sources.md](tests__sources.md) |
 
-_Generated 2026-10-20 10:30 UTC._
+_Generated 2026-10-21 10:42 UTC._

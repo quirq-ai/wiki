@@ -36,7 +36,7 @@ The check runs on a branch's head commit, rolled up into one state. Branch names
 the registry, never from a visitor. Notable exports: `readBranchChecks`, `rollup`,
 `CheckRun`, `BranchChecks`.
 
-[`lib/sources/checks.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/checks.ts) · code · 4518 bytes
+[`lib/sources/checks.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/checks.ts) · code · 6387 bytes
 
 ### deployments.ts
 
@@ -182,4 +182,4 @@ model judges the newest run that remains. Notable exports: `readWriterRuns`, `Wo
 
 [`lib/sources/writer-runs.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/sources/writer-runs.ts) · code · 2708 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

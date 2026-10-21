@@ -33,7 +33,7 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 44047 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 44777 bytes
 
 ### CLAUDE.md
 
@@ -137,4 +137,4 @@ import.meta.url)), }, }, test: { include: process.env.LIVE ? ["tests/live-check.
 
 [`vitest.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/vitest.config.ts) · code · 567 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

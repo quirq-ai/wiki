@@ -6,6 +6,16 @@ Source: [config](https://github.com/quirq-ai/monitoring/tree/main/config) in [mo
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### checks.ts
+
+Check runs on a repo's head commit that are not that repo's own CI. test-pipelines'
+compatibility check (compat.yml) runs every org repo's code from test-pipelines and names
+each per-repo job `compat (<repo>)`; a red one is that repo's verdict, not test-pipelines',
+so the "CI on main" rollup leaves those runs out. compat's other jobs, and compat-publish,
+still count.
+
+[`config/checks.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/checks.ts) · code · 885 bytes
+
 ### demo.ts
 
 Failure records planted on purpose to exercise the pipeline. They carry no demo flag, so the
@@ -47,4 +57,4 @@ queue there decide whether it lands. Nothing here writes to main.
 
 [`config/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/settings.ts) · code · 7238 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._

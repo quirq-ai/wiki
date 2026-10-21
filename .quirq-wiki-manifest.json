@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-20T10:30:48.068828+00:00",
+  "generated_at": "2026-10-21T10:42:38.999035+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -45,12 +45,12 @@
     },
     {
       "name": "docs",
-      "fork": true,
+      "fork": false,
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/docs",
-      "pushed_at": "2026-10-19T14:27:39Z",
-      "sha": "0cf0bc4f3b88e5e6291d4a2dad3aa68d6afe5cf7"
+      "pushed_at": "2026-10-20T22:30:30Z",
+      "sha": "5e14b352c5c0c5e73ad90d306f922b6ea59706b1"
     },
     {
       "name": "environment",
@@ -94,7 +94,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-10-16T11:43:55Z",
+      "pushed_at": "2026-10-20T15:19:56Z",
       "sha": "eba46ad55004c850c4897c26b9bfabefbb20b528"
     },
     {
@@ -112,7 +112,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/infra-config",
-      "pushed_at": "2026-10-16T15:27:50Z",
+      "pushed_at": "2026-10-20T22:17:11Z",
       "sha": "b344eaf848b43f6096b0247c9b21ca6ed10b08a8"
     },
     {
@@ -166,8 +166,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/monitoring",
-      "pushed_at": "2026-10-15T23:51:17Z",
-      "sha": "dcadbf2360c9e2fd821d9dd727a386e04ad6f024"
+      "pushed_at": "2026-10-20T23:44:50Z",
+      "sha": "e5d51030d9fca61c90490ae4c2364aae323652c9"
     },
     {
       "name": "perf",
@@ -175,7 +175,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/perf",
-      "pushed_at": "2026-10-20T10:10:20Z",
+      "pushed_at": "2026-10-20T19:22:44Z",
       "sha": "21b71683136a641e9ab60ffeaf331b7274bf516b"
     },
     {
@@ -202,8 +202,8 @@
       "archived": false,
       "default_branch": "quirq",
       "html_url": "https://github.com/quirq-ai/quirqy",
-      "pushed_at": "2026-10-20T09:27:54Z",
-      "sha": "a3866047734ff3cf1687366c7241a9b5e3b8df01"
+      "pushed_at": "2026-10-20T15:35:02Z",
+      "sha": "262ff7d284b91f6a76dc22114ce5e3ec4f92ca71"
     },
     {
       "name": "quitter",
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-20T07:42:17Z",
+      "pushed_at": "2026-10-21T07:41:34Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -265,8 +265,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/setup",
-      "pushed_at": "2026-10-20T10:13:23Z",
-      "sha": "bc613a543fbfdbe79ad955c7ade89deedf2eb0ef"
+      "pushed_at": "2026-10-20T21:49:54Z",
+      "sha": "8f4d7fd6934330c31e2724ea0f3ca8d8932fdf14"
     },
     {
       "name": "sync",
@@ -283,8 +283,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-20T05:00:37Z",
-      "sha": "0ad06a230fabf7c2d85ee4bdb5e03e0f9c828a6e"
+      "pushed_at": "2026-10-21T05:00:24Z",
+      "sha": "1d7cacbba932f382749832069421ecf54863c848"
     },
     {
       "name": "toolchains",
@@ -328,8 +328,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo",
-      "pushed_at": "2026-10-19T13:59:19Z",
-      "sha": "262f3749a088fcab705f2b6398b274718e4a46c4"
+      "pushed_at": "2026-10-20T22:01:13Z",
+      "sha": "bd63fa27e038fb973754c2e2692992e14b9e2c0c"
     },
     {
       "name": "xo-cowork-api",
@@ -346,7 +346,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-10-19T16:10:22Z",
+      "pushed_at": "2026-10-21T09:09:36Z",
       "sha": "577850bfe9363b04e17c012ebe2c014df9490bc1"
     }
   ]

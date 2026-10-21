@@ -44,7 +44,7 @@ expect(signal.ok).toBe(true); if (!signal.ok) return;
 expect(signal.value.state).toBe("green");
 expect(signal.value.headSha).toBe("dd0e680b761429093de688446802256c18bfc540"); expect(signa
 
-[`tests/sources/checks.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/checks.test.ts) · code · 3944 bytes
+[`tests/sources/checks.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/checks.test.ts) · code · 10666 bytes
 
 ### deployments.test.ts
 
@@ -186,4 +186,4 @@ file.
 
 [`tests/sources/writer-runs.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/sources/writer-runs.test.ts) · code · 4765 bytes
 
-_Generated 2026-10-20 10:30 UTC from `main`._
+_Generated 2026-10-21 10:42 UTC from `main`._
