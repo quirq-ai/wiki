@@ -8,8 +8,8 @@ The quirq-ai monitoring dashboard: one page that says **what changed across the 
 - [Activity history](../_activity/repos/monitoring.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-20T23:44:50Z`
-- Snapshot SHA: `e5d51030d9fc`
+- Last push: `2026-10-21T19:05:52Z`
+- Snapshot SHA: `8f14f4afd16d`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -33,8 +33,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `components` | 20 | [components.md](components.md) |
 | `components/settings` | 4 | [components__settings.md](components__settings.md) |
 | `components/ui` | 14 | [components__ui.md](components__ui.md) |
-| `config` | 6 | [config.md](config.md) |
+| `config` | 7 | [config.md](config.md) |
 | `docs` | 1 | [docs.md](docs.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `lib` | 5 | [lib.md](lib.md) |
 | `lib/editor` | 14 | [lib__editor.md](lib__editor.md) |
 | `lib/model` | 9 | [lib__model.md](lib__model.md) |
@@ -43,7 +44,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/brand` | 0 | [public__brand.md](public__brand.md) |
 | `public/brand/quirq` | 3 | [public__brand__quirq.md](public__brand__quirq.md) |
 | `tests` | 4 | [tests.md](tests.md) |
-| `tests/e2e` | 4 | [tests__e2e.md](tests__e2e.md) |
+| `tests/e2e` | 5 | [tests__e2e.md](tests__e2e.md) |
 | `tests/editor` | 5 | [tests__editor.md](tests__editor.md) |
 | `tests/fake-gh` | 1 | [tests__fake-gh.md](tests__fake-gh.md) |
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
@@ -108,4 +109,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/model` | 7 | [tests__model.md](tests__model.md) |
 | `tests/sources` | 20 | [tests__sources.md](tests__sources.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

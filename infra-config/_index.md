@@ -8,8 +8,8 @@ Configuration as code for quirq infra (qq), the CI/CD system for every quirq-ai 
 - [Activity history](../_activity/repos/infra-config.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-20T22:17:11Z`
-- Snapshot SHA: `b344eaf848b4`
+- Last push: `2026-10-21T18:16:19Z`
+- Snapshot SHA: `30cc327c33e1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -17,13 +17,14 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 7 | [_root.md](_root.md) |
 | `.github` | 1 | [.github.md](.github.md) |
-| `.github/workflows` | 5 | [.github__workflows.md](.github__workflows.md) |
+| `.github/workflows` | 6 | [.github__workflows.md](.github__workflows.md) |
 | `config` | 13 | [config.md](config.md) |
 | `docs` | 2 | [docs.md](docs.md) |
 | `generated` | 0 | [generated.md](generated.md) |
 | `generated/github` | 0 | [generated__github.md](generated__github.md) |
 | `generated/github/innernet` | 2 | [generated__github__innernet.md](generated__github__innernet.md) |
 | `generated/github/website` | 2 | [generated__github__website.md](generated__github__website.md) |
+| `generated/github/xo` | 2 | [generated__github__xo.md](generated__github__xo.md) |
 | `generated/github/xo-space` | 2 | [generated__github__xo-space.md](generated__github__xo-space.md) |
 | `schema` | 14 | [schema.md](schema.md) |
 | `templates` | 1 | [templates.md](templates.md) |
@@ -39,4 +40,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/golden/generated/github/xo-space` | 2 | [tests__golden__generated__github__xo-space.md](tests__golden__generated__github__xo-space.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

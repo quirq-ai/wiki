@@ -55,4 +55,4 @@ Notable exports: `PLATE_CSS`, `plateHtml`.
 
 [`skills/explainer-film/references/examples/quirq-infra/scenes/_plate.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/quirq-infra/scenes/_plate.mjs) · code · 597 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

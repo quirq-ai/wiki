@@ -33,7 +33,7 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 44777 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/monitoring/blob/main/AGENTS.md) · code · 45665 bytes
 
 ### CLAUDE.md
 
@@ -55,7 +55,7 @@ The project README (“monitoring”). The quirq-ai monitoring dashboard: one pa
 **what changed across the org and what state everything is in**, on a phone or a desktop.
 suraj's Vercel project serves it at [monitoring.quirq.dev](https://monitoring.quirq.dev/).
 
-[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 16707 bytes
+[`README.md`](https://github.com/quirq-ai/monitoring/blob/main/README.md) · code · 17801 bytes
 
 ### eslint.config.mjs
 
@@ -70,10 +70,11 @@ public entry. Wired into a Next.js app (App Router or Next APIs).
 
 const nextConfig: NextConfig = { Waiting on you became the Blockers page (2026-10-15); old
 links and bookmarks land there. async redirects() { return [{ source: "/waiting",
-destination: "/blockers", permanent: true }]; }, } Provides a default export as the module's
-public entry.
+destination: "/blockers", permanent: true }]; }, Every response, pages, the API, static
+files and 404s alike, may be framed only by the quirq.dev website (config/framing.ts). async
+header Provides a default export as the module's public entry.
 
-[`next.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/next.config.ts) · code · 307 bytes
+[`next.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/next.config.ts) · code · 619 bytes
 
 ### package.json
 
@@ -115,10 +116,11 @@ the module's public entry.
 
 Only does anything when the settings editor runs on a person's machine (`pnpm editor`): then
 every page may read through their gh login, so a request whose Host is not loopback (a DNS
-rebinding page) gets a 403 before any page renders. On Vercel and in `pnpm dev` it passes.
+rebinding page) gets a 403 before any page renders, and no page may frame it (the website's
+frame-ancestors from next.config.ts is replaced). On Vercel and in `pnpm dev` it passes.
 Notable exports: `proxy`, `config`. Wired into a Next.js app (App Router or Next APIs).
 
-[`proxy.ts`](https://github.com/quirq-ai/monitoring/blob/main/proxy.ts) · code · 753 bytes
+[`proxy.ts`](https://github.com/quirq-ai/monitoring/blob/main/proxy.ts) · code · 1029 bytes
 
 ### tsconfig.json
 
@@ -137,4 +139,4 @@ import.meta.url)), }, }, test: { include: process.env.LIVE ? ["tests/live-check.
 
 [`vitest.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/vitest.config.ts) · code · 567 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

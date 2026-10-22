@@ -8,8 +8,8 @@ Quirq's GitHub organization profile and shared community guidelines.
 - [Activity history](../_activity/repos/.github.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-13T20:21:56Z`
-- Snapshot SHA: `1a098080b10f`
+- Last push: `2026-10-21T15:21:35Z`
+- Snapshot SHA: `ec7abfb8478e`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,4 +24,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `profile/assets` | 2 | [profile__assets.md](profile__assets.md) |
 | `scripts` | 1 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

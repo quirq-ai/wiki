@@ -19,7 +19,7 @@ blobs.
 Stylesheet `global.css` for layout and visual treatment in this folder. Leading class
 selectors include `dark`. Defines or consumes CSS custom properties (design tokens).
 
-[`src/app/global.css`](https://github.com/quirq-ai/docs/blob/main/src/app/global.css) · code · 2677 bytes
+[`src/app/global.css`](https://github.com/quirq-ai/docs/blob/main/src/app/global.css) · code · 3162 bytes
 
 ### icon.svg
 
@@ -43,7 +43,7 @@ and put a repo on qq.", alternates: { canonical: "https://docs.quirq.dev/", }, o
 title: "qq docs", description: "Documentation for qq, quirq's build and release infrast
 Notable exports: `RootPage`, `metadata`.
 
-[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 686 bytes
+[`src/app/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/page.tsx) · code · 692 bytes
 
 ### robots.ts
 
@@ -58,4 +58,4 @@ export const revalidate = false Notable exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 547 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

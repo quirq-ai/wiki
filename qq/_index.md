@@ -8,8 +8,8 @@ qq is the quirq infra command line (this repo was quirq-ai/depot until 2026-10-0
 - [Activity history](../_activity/repos/qq.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-14T14:40:53Z`
-- Snapshot SHA: `b205b0ecb5b5`
+- Last push: `2026-10-21T19:09:24Z`
+- Snapshot SHA: `aa5fe8aeca67`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -19,6 +19,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/workflows` | 2 | [.github__workflows.md](.github__workflows.md) |
 | `bin` | 1 | [bin.md](bin.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqdepot` | 7 | [src__qqdepot.md](src__qqdepot.md) |
 | `src/qqdepot/backends` | 2 | [src__qqdepot__backends.md](src__qqdepot__backends.md) |
@@ -29,4 +30,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/parity_adapters` | 3 | [tests__parity_adapters.md](tests__parity_adapters.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

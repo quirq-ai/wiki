@@ -8,8 +8,8 @@ rollers moves pinned dependencies and toolchains forward for quirq infra (qq), t
 - [Activity history](../_activity/repos/rollers.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-07T16:45:13Z`
-- Snapshot SHA: `631361042aa6`
+- Last push: `2026-10-21T19:07:33Z`
+- Snapshot SHA: `70972dfcd750`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -26,6 +26,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `generated/github/xo-space` | 0 | [generated__github__xo-space.md](generated__github__xo-space.md) |
 | `generated/github/xo-space/.github` | 1 | [generated__github__xo-space__.github.md](generated__github__xo-space__.github.md) |
 | `generated/github/xo-space/.github/workflows` | 1 | [generated__github__xo-space__.github__workflows.md](generated__github__xo-space__.github__workflows.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `requirements` | 2 | [requirements.md](requirements.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqroll` | 8 | [src__qqroll.md](src__qqroll.md) |
@@ -33,4 +34,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests` | 9 | [tests.md](tests.md) |
 | `tests/fixtures` | 3 | [tests__fixtures.md](tests__fixtures.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

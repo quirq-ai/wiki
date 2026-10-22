@@ -76,4 +76,4 @@ Fading motion trails for experiment mode, so orbital divergence from the real ep
 
 [`src/scene/trails.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/scene/trails.js) · code · 3006 bytes
 
-_Generated 2026-10-21 10:42 UTC from `quirq`._
+_Generated 2026-10-22 10:44 UTC from `quirq`._

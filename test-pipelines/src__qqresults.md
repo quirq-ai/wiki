@@ -23,9 +23,18 @@ Functions: `dirname`, `write`, `read`.
 
 qqresults: test results, verdicts and failure records for quirq infra (qq). Runnable as a
 script via `if __name__ == '__main__'`. Functions: `cmd_sink`, `cmd_show`, `cmd_import`,
-`cmd_collect`, `cmd_query`, `cmd_scorecard`, `cmd_failure`, `build_parser`, and 1 more.
+`cmd_collect`, `cmd_query`, `cmd_scorecard`, `cmd_compat`, `cmd_failure`, and 2 more.
 
-[`src/qqresults/cli.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/cli.py) · code · 23540 bytes
+[`src/qqresults/cli.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/cli.py) · code · 29064 bytes
+
+### compat.py
+
+The compatibility check: does every repo of the org work with qq, without being onboarded?
+Runnable as a script via `if __name__ == '__main__'`. Classes: `CompatError`. Functions:
+`job_name`, `plan_artifact`, `read_skip`, `plan`, `read_plan`, `kind_commands`,
+`run_kind_commands`, `run_jobs`, and 8 more.
+
+[`src/qqresults/compat.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/compat.py) · code · 26013 bytes
 
 ### errors.py
 
@@ -55,7 +64,7 @@ The records of the results store (plan §5.4, §5.10). Classes: `Status`, `RunKi
 `VerdictStatus`, `_Record`, `Change`, `Run`, `Result`, `CaseVerdict`, and 3 more. Functions:
 `is_time`, `canonical_json`, `digest`.
 
-[`src/qqresults/model.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/model.py) · code · 12829 bytes
+[`src/qqresults/model.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/model.py) · code · 12864 bytes
 
 ### policy.py
 
@@ -78,7 +87,7 @@ Scorecard v0: plan §8's metrics, computed from the results store, never typed b
 Classes: `Metric`, `Scorecard`. Functions: `red`, `parse_time`, `fmt_time`, `job_key`,
 `workflow_key`, `gate_time`, `push_before`, `push_order`, and 10 more.
 
-[`src/qqresults/scorecard.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/scorecard.py) · code · 25715 bytes
+[`src/qqresults/scorecard.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/scorecard.py) · code · 25989 bytes
 
 ### sink.py
 
@@ -92,7 +101,7 @@ Functions: `find_reports`, `sink`.
 The results store v0: write-once run bundles in a directory tree, with simple queries.
 Classes: `StoreError`, `RunFilter`, `FileStore`. Functions: `open_store`.
 
-[`src/qqresults/store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/store.py) · code · 8779 bytes
+[`src/qqresults/store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/store.py) · code · 8842 bytes
 
 ### verdict.py
 
@@ -101,4 +110,4 @@ Verdicts, computed mechanically from Results (plan §5.4). Functions: `by_test`,
 
 [`src/qqresults/verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/verdict.py) · code · 1957 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

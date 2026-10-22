@@ -8,8 +8,8 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### README.md
 
-The project README (“How it works”). quirq.
+The project README (“How it grows”). quirq.
 
-[`profile/README.md`](https://github.com/quirq-ai/.github/blob/main/profile/README.md) · code · 1836 bytes
+[`profile/README.md`](https://github.com/quirq-ai/.github/blob/main/profile/README.md) · code · 2045 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

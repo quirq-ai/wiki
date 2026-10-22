@@ -13,4 +13,4 @@ const Mono = ({ children }: { children: string }) => {children} Notable exports:
 
 [`dashboard/src/features/settings/SettingsPage.tsx`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/settings/SettingsPage.tsx) · code · 5098 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

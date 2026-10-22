@@ -24,6 +24,15 @@ Notable exports: `isDemoSubject`, `DEMO_SUBJECTS`.
 
 [`config/demo.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/demo.ts) · code · 403 bytes
 
+### framing.ts
+
+Which pages may show the dashboard inside an iframe (suraj's ask of 2026-10-21): the
+quirq.dev website, which shows it in a Live apps window, and the dashboard itself. Exact
+origins only, never a wildcard or a preview host, so no other site can frame it under a
+lookalike page. Notable exports: `FRAME_ANCESTORS`, `FRAMING_CSP`, `NO_FRAMING_CSP`.
+
+[`config/framing.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/framing.ts) · code · 877 bytes
+
 ### freshness.ts
 
 Writers that keep state on a branch, and how long the dashboard waits before calling one
@@ -57,4 +66,4 @@ queue there decide whether it lands. Nothing here writes to main.
 
 [`config/settings.ts`](https://github.com/quirq-ai/monitoring/blob/main/config/settings.ts) · code · 7238 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

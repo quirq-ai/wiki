@@ -6,6 +6,13 @@ Source: [tests/e2e](https://github.com/quirq-ai/monitoring/tree/main/tests/e2e) 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### framing.spec.ts
+
+The quirq.dev website shows the dashboard in an iframe (config/framing.ts). Only that site
+and the dashboard itself may frame it; the local settings editor may not be framed at all.
+
+[`tests/e2e/framing.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/framing.spec.ts) · code · 5107 bytes
+
 ### origin.ts
 
 export const origin = "http://127.0.0.1:3010" Notable exports: `origin`, `editorOrigin`,
@@ -35,4 +42,4 @@ height: 844 }, { name: "1280", width: 1280, height: 800 }, ] as const.
 
 [`tests/e2e/shell.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/shell.spec.ts) · code · 2805 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

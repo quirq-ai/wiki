@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/recipes.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-14T14:20:20Z`
-- Snapshot SHA: `daee33320e8d`
+- Last push: `2026-10-21T19:12:16Z`
+- Snapshot SHA: `c72b0846bb54`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -29,6 +29,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `examples/python-service` | 4 | [examples__python-service.md](examples__python-service.md) |
 | `examples/python-service/infra` | 1 | [examples__python-service__infra.md](examples__python-service__infra.md) |
 | `examples/python-service/tests` | 3 | [examples__python-service__tests.md](examples__python-service__tests.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqrecipes` | 9 | [src__qqrecipes.md](src__qqrecipes.md) |
 | `src/qqrecipes/adapters` | 2 | [src__qqrecipes__adapters.md](src__qqrecipes__adapters.md) |
@@ -39,4 +40,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fake_adapters` | 6 | [tests__fake_adapters.md](tests__fake_adapters.md) |
 | `tools` | 2 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

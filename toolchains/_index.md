@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/toolchains.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-07T16:19:21Z`
-- Snapshot SHA: `f45c239330bf`
+- Last push: `2026-10-21T19:07:07Z`
+- Snapshot SHA: `c401fb18fa87`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -18,10 +18,11 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | (repository root) | 7 | [_root.md](_root.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/workflows` | 3 | [.github__workflows.md](.github__workflows.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `tests` | 3 | [tests.md](tests.md) |
 | `toolchains` | 0 | [toolchains.md](toolchains.md) |
 | `toolchains/node` | 2 | [toolchains__node.md](toolchains__node.md) |
 | `toolchains/python` | 2 | [toolchains__python.md](toolchains__python.md) |
 | `tools` | 3 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

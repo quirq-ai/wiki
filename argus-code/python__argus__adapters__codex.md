@@ -55,4 +55,4 @@ Functions: `scan`, `window_for`.
 
 [`python/argus/adapters/codex/state.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/adapters/codex/state.py) · code · 6145 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

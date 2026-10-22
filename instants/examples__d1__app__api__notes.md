@@ -15,4 +15,4 @@ exports: `GET`, `POST`.
 
 [`examples/d1/app/api/notes/route.ts`](https://github.com/quirq-ai/instants/blob/main/examples/d1/app/api/notes/route.ts) · code · 1700 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

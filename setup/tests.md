@@ -32,4 +32,4 @@ changed after the plan. Automated test file.
 
 [`tests/windows.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/windows.test.mjs) · code · 3408 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

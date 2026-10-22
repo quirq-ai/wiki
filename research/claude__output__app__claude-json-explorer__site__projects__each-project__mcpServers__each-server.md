@@ -14,4 +14,4 @@ XO Research.
 
 [`claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers/each-server/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers/each-server/index.html) · code · 19727 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

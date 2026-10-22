@@ -32,6 +32,12 @@ A partial collect must not publish a scorecard that looks complete (AUDIT N7). C
 
 [`tests/test_collect_report.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_collect_report.py) · code · 12959 bytes
 
+### test_compat.py
+
+Python module `test_compat.py`.
+
+[`tests/test_compat.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_compat.py) · code · 22992 bytes
+
 ### test_explicit_base.py
 
 An explicit base (--base, the sink's base input) must be a full commit id (AUDIT N6).
@@ -86,7 +92,7 @@ Python module `test_sink.py`. Functions: `good_reports`, `test_bundle_round_trip
 
 Python module `test_store.py`.
 
-[`tests/test_store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_store.py) · code · 54450 bytes
+[`tests/test_store.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_store.py) · code · 54539 bytes
 
 ### test_verdict.py
 
@@ -97,4 +103,11 @@ Python module `test_verdict.py`. Functions: `res`, `test_all_pass_passes`,
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_verdict.py) · code · 1328 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+### test_workflows.py
+
+What the workflows must keep true for the compatibility check (compat.yml, compat-
+publish.yml).
+
+[`tests/test_workflows.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/test_workflows.py) · code · 5483 bytes
+
+_Generated 2026-10-22 10:44 UTC from `main`._

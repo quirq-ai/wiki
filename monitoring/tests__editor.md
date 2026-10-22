@@ -35,7 +35,7 @@ In gh mode every page reads through the person's gh login, so a DNS-rebinding pa
 that is not loopback) is refused before anything renders or reads. Wired into a Next.js app
 (App Router or Next APIs). Automated test file.
 
-[`tests/editor/proxy.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/editor/proxy.test.ts) · code · 1136 bytes
+[`tests/editor/proxy.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/editor/proxy.test.ts) · code · 1609 bytes
 
 ### toml-fields.test.ts
 
@@ -45,4 +45,4 @@ Automated test file.
 
 [`tests/editor/toml-fields.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/editor/toml-fields.test.ts) · code · 5137 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

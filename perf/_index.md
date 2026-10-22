@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/perf.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-20T19:22:44Z`
-- Snapshot SHA: `21b71683136a`
+- Last push: `2026-10-21T19:08:07Z`
+- Snapshot SHA: `d2d594b6464f`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -18,9 +18,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | (repository root) | 5 | [_root.md](_root.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/workflows` | 3 | [.github__workflows.md](.github__workflows.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqperf` | 8 | [src__qqperf.md](src__qqperf.md) |
 | `tests` | 10 | [tests.md](tests.md) |
 | `tools` | 3 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

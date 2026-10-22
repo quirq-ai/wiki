@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/installer.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-07T16:41:25Z`
-- Snapshot SHA: `ca288255da24`
+- Last push: `2026-10-21T19:07:04Z`
+- Snapshot SHA: `d7087aaa6f2f`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -19,9 +19,10 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/workflows` | 2 | [.github__workflows.md](.github__workflows.md) |
 | `docs` | 1 | [docs.md](docs.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqinstall` | 6 | [src__qqinstall.md](src__qqinstall.md) |
 | `tests` | 6 | [tests.md](tests.md) |
 | `tools` | 4 | [tools.md](tools.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

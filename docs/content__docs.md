@@ -59,7 +59,7 @@ Markdown page “What is qq”. qq is how quirq builds, tests, lands and ships c
 to see what it does for you and which guide to read next. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 8957 bytes
+[`content/docs/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/index.mdx) · code · 9152 bytes
 
 ### infrastructure.mdx
 
@@ -82,7 +82,7 @@ components), typically rendered by the docs site.
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 394 bytes
+[`content/docs/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/meta.json) · code · 417 bytes
 
 ### problems.mdx
 
@@ -114,4 +114,12 @@ page (Markdown with JSX components), typically rendered by the docs site.
 
 [`content/docs/send-a-change.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/send-a-change.mdx) · code · 4113 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+### try-first-build.mdx
+
+Markdown page “Try it: your first build”. Follow the first build step by step beside a
+terminal that replays a real run. MDX page (Markdown with JSX components), typically
+rendered by the docs site.
+
+[`content/docs/try-first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/try-first-build.mdx) · code · 2602 bytes
+
+_Generated 2026-10-22 10:44 UTC from `main`._

@@ -24,6 +24,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **installer** | public | [`installer/`](installer/_index.md) | [installer](https://github.com/quirq-ai/installer) |
 | **instants** | public | [`instants/`](instants/_index.md) | [instants](https://github.com/quirq-ai/instants) |
 | **lan** | public | [`lan/`](lan/_index.md) | [lan](https://github.com/quirq-ai/lan) |
+| **library** | public | [`library/`](library/_index.md) | [library](https://github.com/quirq-ai/library) |
 | **marketing**<br>marketing: campaign copy, launch posts and brand assets | public | [`marketing/`](marketing/_index.md) | [marketing](https://github.com/quirq-ai/marketing) |
 | **monitoring** | public | [`monitoring/`](monitoring/_index.md) | [monitoring](https://github.com/quirq-ai/monitoring) |
 | **perf** | public | [`perf/`](perf/_index.md) | [perf](https://github.com/quirq-ai/perf) |
@@ -53,4 +54,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

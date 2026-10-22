@@ -16,13 +16,9 @@ Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `config_home`, 
 
 ### test_cli.py
 
-Python module `test_cli.py`. Functions: `run`, `test_no_key_is_one_actionable_line`,
-`test_key_goes_as_a_bearer_token`, `test_flag_key_wins_over_the_variable`,
-`test_an_echoed_key_is_redacted`, `test_an_error_body_echoing_the_key_is_redacted`,
-`test_redirects_are_never_followed`,
-`test_a_sign_in_redirect_says_the_route_wants_a_browser`, and 127 more. Contains tests.
+from __future__ import annotations Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 130129 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 144307 bytes
 
 ### test_github.py
 
@@ -38,13 +34,20 @@ xo serve against a fake Clerk Backend API on 127.0.0.1. Classes: `FakeClerk`. Fu
 `test_me_verifies_the_key_and_returns_the_profile`,
 `test_me_with_no_metadata_or_email_says_so`, and 93 more. Contains tests.
 
-[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 150573 bytes
+[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 150722 bytes
 
 ### test_services.py
 
 The services list: what xo accepts from a server, and what it falls back to.
 
 [`tests/test_services.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_services.py) · code · 8588 bytes
+
+### test_spacerepo.py
+
+xo create space NAME with no KIND (xo/spacerepo.py): each folder here a branch, main the
+index, pushed to a local stand-in for GitHub.
+
+[`tests/test_spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_spacerepo.py) · code · 34419 bytes
 
 ### test_workspace.py
 
@@ -53,4 +56,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23461 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

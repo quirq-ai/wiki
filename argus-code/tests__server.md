@@ -76,4 +76,4 @@ Regression tests for `_week_of` (Trends granularity=week). Functions:
 
 [`tests/server/test_week_of.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/server/test_week_of.py) · code · 2503 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 HTML document `architecture.html` titled “xo Architecture”. xo Architecture.
 
-[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 165447 bytes
+[`docs/architecture.html`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.html) · code · 167625 bytes
 
 ### architecture.md
 
@@ -19,7 +19,7 @@ machine, and the xo server (xo serve, on Vercel at xo.quirq.dev through app.py),
 the Clerk Secret Key so the CLI never needs it. Standard library only. Setup is in
 [quickstart.md](quickstart.md); the server's settings in [server.md](server.md).
 
-[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 41685 bytes
+[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 47276 bytes
 
 ### deploy-vercel.md
 
@@ -36,7 +36,7 @@ production by itself, so every merge to main ships xo.quirq.dev.
 Markdown page “xo user guide”. xo is one command line for two XO services and GitHub. One xo
 login logs you in to all of them.
 
-[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 13864 bytes
+[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 19076 bytes
 
 ### quickstart.md
 
@@ -44,7 +44,7 @@ Markdown page “xo quickstart”. Use this to set up xo, the command line for X
 own Mac or Linux machine. It works the same for every user. Once it is set up, the [user
 guide](guide.md) lists the commands.
 
-[`docs/quickstart.md`](https://github.com/quirq-ai/xo/blob/main/docs/quickstart.md) · code · 7574 bytes
+[`docs/quickstart.md`](https://github.com/quirq-ai/xo/blob/main/docs/quickstart.md) · code · 7751 bytes
 
 ### server.md
 
@@ -59,4 +59,4 @@ deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect
 
 [`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

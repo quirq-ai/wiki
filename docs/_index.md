@@ -7,9 +7,9 @@ The docs for qq, quirq's build and release infrastructure, are live at [docs.qui
 - GitHub: [https://github.com/quirq-ai/docs](https://github.com/quirq-ai/docs)
 - [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
-- Primary language (GitHub): MDX
-- Last push: `2026-10-20T22:30:30Z`
-- Snapshot SHA: `5e14b352c5c0`
+- Primary language (GitHub): TypeScript
+- Last push: `2026-10-22T08:35:02Z`
+- Snapshot SHA: `22908c8893a0`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -26,7 +26,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.xo` | 5 | [.xo.md](.xo.md) |
 | `.xo/sessions` | 1 | [.xo__sessions.md](.xo__sessions.md) |
 | `content` | 0 | [content.md](content.md) |
-| `content/docs` | 14 | [content__docs.md](content__docs.md) |
+| `content/docs` | 15 | [content__docs.md](content__docs.md) |
 | `content/docs/xo` | 8 | [content__docs__xo.md](content__docs__xo.md) |
 | `public` | 0 | [public.md](public.md) |
 | `public/icons` | 22 | [public__icons.md](public__icons.md) |
@@ -34,6 +34,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/images/qq` | 1 | [public__images__qq.md](public__images__qq.md) |
 | `public/videos` | 23 | [public__videos.md](public__videos.md) |
 | `scripts` | 0 | [scripts.md](scripts.md) |
+| `scripts/journeys` | 6 | [scripts__journeys.md](scripts__journeys.md) |
 | `scripts/videos` | 6 | [scripts__videos.md](scripts__videos.md) |
 | `scripts/videos/specs` | 4 | [scripts__videos__specs.md](scripts__videos__specs.md) |
 | `src` | 0 | [src.md](src.md) |
@@ -51,11 +52,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/app/og` | 0 | [src__app__og.md](src__app__og.md) |
 | `src/app/og/docs` | 0 | [src__app__og__docs.md](src__app__og__docs.md) |
 | `src/app/og/docs/[...slug]` | 1 | [src__app__og__docs__[...slug].md](src__app__og__docs__[...slug].md) |
-| `src/components` | 15 | [src__components.md](src__components.md) |
+| `src/components` | 17 | [src__components.md](src__components.md) |
 | `src/components/ai` | 1 | [src__components__ai.md](src__components__ai.md) |
 | `src/components/google-analytics` | 2 | [src__components__google-analytics.md](src__components__google-analytics.md) |
 | `src/components/posthog` | 3 | [src__components__posthog.md](src__components__posthog.md) |
 | `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
+| `src/journeys` | 4 | [src__journeys.md](src__journeys.md) |
 | `src/lib` | 5 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

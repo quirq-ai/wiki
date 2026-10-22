@@ -20,6 +20,14 @@ export function Cards(props: HTMLAttributes) { return ( Notable exports: `Cards`
 
 [`src/components/card.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/card.tsx) · code · 1479 bytes
 
+### docs-home.tsx
+
+const GITHUB_REPO_URL = "https://github.com/quirq-ai/qq" Notable exports: `DocsHome`. Wired
+into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
+browser.
+
+[`src/components/docs-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/docs-home.tsx) · code · 9202 bytes
+
 ### figure.tsx
 
 Research figures and data tables. Theme-aware (fd-* tokens), no external deps, no second
@@ -34,6 +42,23 @@ import { Dither, FlowingGradient, Shader, SolidColor, Tritone, } from "shaders/r
 Notable exports: `ShaderBackground`. Marked `'use client'` so it runs in the browser.
 
 [`src/components/hero-shader.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/hero-shader.tsx) · code · 1980 bytes
+
+### home-terminal.tsx
+
+import { type Line, type Recording, type Replay, replays, Terminal, } from
+"@/components/journey"; import { type Command, commands, examples, type Source, tools, }
+from "@/journeys/home-commands"; The docs home page: one big terminal that replays every qq
+and xo command. Tap a command and it types itself and plays back what it printed; or type
+one. Nothing t Notable exports: `HomeTerminal`, `SOURCE_LABEL`.
+
+[`src/components/home-terminal.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-terminal.tsx) · code · 16457 bytes
+
+### journey.tsx
+
+import { createContext, type ReactNode, useCallback, useContext, useEffect, useMemo, useRef,
+useState, } from "react"; A guided journey: numbered steps beside a terminal.
+
+[`src/components/journey.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/journey.tsx) · code · 15000 bytes
 
 ### lead.tsx
 
@@ -53,11 +78,11 @@ Promise; } Notable exports: `rehypeWrapWords`, `Markdown`, `Processor`.
 ### mdx.tsx
 
 export function getMDXComponents(components?: MDXComponents) { return {
-...defaultMdxComponents, BrandIcon, Card, Cards, Video, VideoEmbed, Lead, ...Figure,
-...components, } satisfies MDXComponents; } Notable exports: `getMDXComponents`,
-`useMDXComponents`.
+...defaultMdxComponents, BrandIcon, Card, Cards, Journey, JourneyStep, Video, VideoEmbed,
+Lead, ...Figure, ...components, } satisfies MDXComponents; } Notable exports:
+`getMDXComponents`, `useMDXComponents`.
 
-[`src/components/mdx.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/mdx.tsx) · code · 705 bytes
+[`src/components/mdx.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/mdx.tsx) · code · 785 bytes
 
 ### phone-page-list.tsx
 
@@ -68,14 +93,6 @@ Notable exports: `PhonePageList`. Wired into a Next.js app (App Router or Next A
 `'use client'` so it runs in the browser.
 
 [`src/components/phone-page-list.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/phone-page-list.tsx) · code · 1223 bytes
-
-### qq-home.tsx
-
-const GITHUB_REPO_URL = "https://github.com/quirq-ai/qq" Notable exports: `QqHome`. Wired
-into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
-browser.
-
-[`src/components/qq-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/qq-home.tsx) · code · 21449 bytes
 
 ### section-docs-layout.tsx
 
@@ -125,4 +142,4 @@ fd-border bg-black" Notable exports: `Video`.
 
 [`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

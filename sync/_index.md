@@ -8,8 +8,8 @@ sync owns the quirq infra (qq) repo manifest, infra/repo.toml: its versioned sch
 - [Activity history](../_activity/repos/sync.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-14T13:54:48Z`
-- Snapshot SHA: `9821f745690d`
+- Last push: `2026-10-21T19:06:56Z`
+- Snapshot SHA: `5b12be6458e9`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -18,6 +18,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | (repository root) | 5 | [_root.md](_root.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
+| `infra` | 1 | [infra.md](infra.md) |
 | `src` | 0 | [src.md](src.md) |
 | `src/qqsync` | 8 | [src__qqsync.md](src__qqsync.md) |
 | `src/qqsync/project` | 10 | [src__qqsync__project.md](src__qqsync__project.md) |
@@ -28,4 +29,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/project` | 7 | [tests__project.md](tests__project.md) |
 
-_Generated 2026-10-21 10:42 UTC._
+_Generated 2026-10-22 10:44 UTC._

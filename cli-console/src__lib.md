@@ -60,4 +60,4 @@ token, pat Notable exports: `token`, `flagSchema`, `commandSchema`, `Command`, `
 
 [`src/lib/schema.ts`](https://github.com/quirq-ai/cli-console/blob/main/src/lib/schema.ts) · code · 1200 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

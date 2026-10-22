@@ -14,4 +14,4 @@ JSON document `gardener-tree-status-d78ccf3-xo-space.json` whose top-level keys 
 
 [`tests/fixtures/captured/gardener-tree-status-d78ccf3-xo-space.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/captured/gardener-tree-status-d78ccf3-xo-space.json) · code · 788 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

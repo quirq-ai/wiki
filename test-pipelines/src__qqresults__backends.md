@@ -20,7 +20,7 @@ The GitHub backend: a Run described from a GitHub Actions job's environment. Cla
 `_LinksWaiting`, `_NoRedirect`, `Trust`, and 1 more. Functions: `kind_for`, `run_from_env`,
 `http_get`, `list_result_artifacts`, `collect`, `api`, `mirror_issue`.
 
-[`src/qqresults/backends/github.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/backends/github.py) · code · 42830 bytes
+[`src/qqresults/backends/github.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/backends/github.py) · code · 44579 bytes
 
 ### local.py
 
@@ -29,4 +29,4 @@ Functions: `run_from_args`.
 
 [`src/qqresults/backends/local.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/backends/local.py) · code · 605 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._

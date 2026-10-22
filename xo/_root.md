@@ -16,11 +16,12 @@ Generated and secret files matching these patterns are not in the clone the wiki
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 7 pattern(s)
-including `__pycache__/`, `*.pyc`, `*.egg-info/`, `build/`, `dist/`, `.venv/`, `.qq/`.
-Generated and secret files matching these patterns are not in the clone the wiki summarizes.
+`.gitignore` tells git or Docker which paths to omit. It currently lists 8 pattern(s)
+including `__pycache__/`, `*.pyc`, `*.egg-info/`, `build/`, `dist/`, `.venv/`, `.qq/`,
+`results/`. Generated and secret files matching these patterns are not in the clone the wiki
+summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/xo/blob/main/.gitignore) · other · 56 bytes
+[`.gitignore`](https://github.com/quirq-ai/xo/blob/main/.gitignore) · other · 65 bytes
 
 ### .python-version
 
@@ -39,7 +40,7 @@ Extensionless file `.vercelignore`. Never upload local secrets or build leftover
 
 The agent/workspace instructions (“Agent guide”). Read README.md first.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo/blob/main/AGENTS.md) · code · 1940 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo/blob/main/AGENTS.md) · code · 2094 bytes
 
 ### Dockerfile
 
@@ -63,7 +64,7 @@ The project README (“xo”). xo is the command line for the [XO
 Cloud](https://dev.xo.builders) core API. Every endpoint is a command, and xo sends your XO
 API key on each request without ever printing it.
 
-[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 18035 bytes
+[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 18562 bytes
 
 ### app.py
 
@@ -81,4 +82,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/xo/blob/main/pyproject.toml) · code · 880 bytes
 
-_Generated 2026-10-21 10:42 UTC from `main`._
+_Generated 2026-10-22 10:44 UTC from `main`._
