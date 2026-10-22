@@ -2,7 +2,7 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-510 observed records. commit: 79, issue: 11, pull request: 17, release: 1, workflow: 402.
+532 observed records. commit: 81, issue: 11, pull request: 17, release: 1, workflow: 422.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
@@ -50,20 +50,34 @@
 | 22:29:10 | [docs](../../../repos/docs.md) | commit | claude | [Docs: sticky phone page bar, header GitHub icon as on main, 44 px tabs](https://github.com/quirq-ai/docs/commit/28a68da4f1d5eb90e4e0a80af9c4a85c8379022c) |  |
 | 22:26:29 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39507559065) | success |
 | 22:21:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39507001766) | success |
+| 22:17:34 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39506984116) | success |
 | 22:17:28 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39506434310) | success |
+| 22:17:27 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39507006123) | skipped |
+| 22:17:17 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39506984096) | skipped |
 | 22:12:56 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39505861939) | success |
 | 22:08:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39505283219) | success |
+| 22:04:13 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39505311730) | skipped |
+| 22:03:58 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39505271843) | success |
 | 22:03:52 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39504698220) | success |
+| 22:03:45 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [kinds: add npm-app for npm projects](https://github.com/quirq-ai/infra-config/actions/runs/39505271766) | skipped |
 | 22:02:57 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Deploy guide: tick openid, use the Frontend API URL (not the Discover…](https://github.com/quirq-ai/xo/actions/runs/39504956189) | success |
 | 22:01:14 | [xo](../../../repos/xo.md) | pull request | quirq-gates | [Deploy guide: tick openid, use the Frontend API URL (not the Discovery URL)](https://github.com/quirq-ai/xo/pull/59) | merged |
 | 22:01:11 | [xo](../../../repos/xo.md) | commit | quirq-gates | [Deploy guide: tick openid, use the Frontend API URL (not the Discovery URL) (#59)](https://github.com/quirq-ai/xo/commit/bd63fa27e038fb973754c2e2692992e14b9e2c0c) |  |
+| 22:00:29 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504817992) | success |
+| 22:00:24 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504818108) | skipped |
 | 22:00:24 | [docs](../../../repos/docs.md) | commit | claude | [Docs: phone page list, qq and xo tabs on the home page, GitHub link per section](https://github.com/quirq-ai/docs/commit/a90b59f15ffb4c366ad2348e099d60a62989ba48) |  |
+| 22:00:15 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504818138) | skipped |
+| 22:00:15 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504818124) | skipped |
+| 22:00:15 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504818017) | skipped |
+| 22:00:15 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39504817895) | skipped |
+| 22:00:07 | [infra-config](../../../repos/infra-config.md) | commit | claude | [Onboard xo: audit fixes (App note, compileall guard, Vercel Python note)](https://github.com/quirq-ai/infra-config/commit/ba1111933c226de71e65b3dccd9cd5f0f97f24a8) |  |
 | 21:59:25 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Deploy guide: tick openid, use the Frontend API URL (not the Discovery URL)](https://github.com/quirq-ai/xo/actions/runs/39504501388) | success |
 | 21:59:20 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39504134368) | success |
 | 21:55:54 | [docs](../../../repos/docs.md) | pull request | quirq-gates | [Docs: separate qq and xo sections, with an xo guide](https://github.com/quirq-ai/docs/pull/19) | merged |
 | 21:55:53 | [docs](../../../repos/docs.md) | commit | quirq-gates | [Docs: separate qq and xo sections, with an xo guide (#19)](https://github.com/quirq-ai/docs/commit/fe9c5f9c1927913b2894ad85ce13d85f72227cb1) |  |
 | 21:54:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39503553080) | success |
 | 21:53:46 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Add the qq manifest (infra/repo.toml) for onboarding xo to qq](https://github.com/quirq-ai/xo/actions/runs/39503807164) | success |
+| 21:53:46 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Onboard xo to qq: manifest and generated workflows](https://github.com/quirq-ai/xo/actions/runs/39503807164) | success |
 | 21:52:23 | [xo](../../../repos/xo.md) | pull request | quirq-gates | [Add the qq manifest (infra/repo.toml) for onboarding xo to qq](https://github.com/quirq-ai/xo/pull/58) | open |
 | 21:52:07 | [xo](../../../repos/xo.md) | commit | claude | [infra/repo.toml: correct the pin comment, list every input the target reads](https://github.com/quirq-ai/xo/commit/d0d1b78bdd6b2784322be1c39e81f6d32b019a34) |  |
 | 21:51:28 | [setup](../../../repos/setup.md) | workflow | quirq-gates | [Say xo login opens the browser, and stop a xo update without git (#26)](https://github.com/quirq-ai/setup/actions/runs/39503476130) | success |
@@ -81,6 +95,14 @@
 | 21:36:46 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39501155790) | success |
 | 21:34:44 | [installer](../../../repos/installer.md) | workflow | quirq-gates | [live-manifest](https://github.com/quirq-ai/installer/actions/runs/39501463834) | success |
 | 21:32:15 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39500534409) | success |
+| 21:30:05 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813118) | success |
+| 21:29:55 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813119) | skipped |
+| 21:29:46 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813320) | skipped |
+| 21:29:45 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813408) | skipped |
+| 21:29:45 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813267) | skipped |
+| 21:29:45 | [infra-config](../../../repos/infra-config.md) | workflow | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/actions/runs/39500813235) | skipped |
+| 21:29:24 | [infra-config](../../../repos/infra-config.md) | commit | quirq-gates | [Onboard xo: python-package kind, registry entry and builders](https://github.com/quirq-ai/infra-config/commit/185d85a1f73b105105734fb7cb61060248739a96) |  |
+| 21:28:15 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Onboard xo to qq: manifest and generated workflows](https://github.com/quirq-ai/xo/actions/runs/39500386026) | success |
 | 21:28:15 | [xo](../../../repos/xo.md) | workflow | quirq-gates | [Add the qq manifest (infra/repo.toml) for onboarding xo to qq](https://github.com/quirq-ai/xo/actions/runs/39500386026) | success |
 | 21:27:44 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/39499916357) | success |
 | 21:26:16 | [xo](../../../repos/xo.md) | commit | quirq-gates | [Add the qq manifest (infra/repo.toml) for onboarding xo to qq](https://github.com/quirq-ai/xo/commit/f777d22bae2289dfaf40ea92bc070d22481f675b) |  |
