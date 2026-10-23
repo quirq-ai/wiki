@@ -28,4 +28,4 @@ Defines the `app` application object. Functions: `start`, `pricing_refresh`,
 
 [`python/argus/cli.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/cli.py) · code · 19626 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:35 UTC from `main`._

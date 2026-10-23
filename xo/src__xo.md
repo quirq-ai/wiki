@@ -14,18 +14,18 @@ xo: the command line for the XO Cloud API.
 
 ### cli.py
 
-xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the xo
-server). Classes: `_Parser`, `_KindOrName`. Functions: `safe_error`.
+"""xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
+xo server).
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 90976 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 91172 bytes
 
 ### client.py
 
 The network door to XO. Classes: `XoError`, `Response`, `_NoRedirect`, `Login`, `Client`.
 Functions: `xo_url`, `api_key`, `read_key`, `check_key`, `credentials_path`, `saved_login`,
-`save_login`, `forget_login`, and 1 more.
+`save_login`, `forget_login`, and 2 more.
 
-[`src/xo/client.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/client.py) · code · 17568 bytes
+[`src/xo/client.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/client.py) · code · 18593 bytes
 
 ### commands.py
 
@@ -63,6 +63,14 @@ JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `server
 
 [`src/xo/openapi.json`](https://github.com/quirq-ai/xo/blob/main/src/xo/openapi.json) · code · 32400 bytes
 
+### selfupdate.py
+
+Auto-update: keep an xo that qq-setup installed at setup's newest reviewed commit. Runnable
+as a script via `if __name__ == '__main__'`. Functions: `marker_path`, `state_path`,
+`log_path`, `lock_path`, `installed_commit`, `pin_from`, `check`, `install`, and 2 more.
+
+[`src/xo/selfupdate.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/selfupdate.py) · code · 14497 bytes
+
 ### server.py
 
 """xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
@@ -92,7 +100,7 @@ with one branch per git repository under it. Classes: `Space`, `_HereIgnore`. Fu
 `refuse_here`, `folders`, `size`, `shown`, `digest`, `build`, `on_github`, `heads`, and 4
 more.
 
-[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 53207 bytes
+[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 54997 bytes
 
 ### spec.py
 
@@ -124,4 +132,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 17679 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

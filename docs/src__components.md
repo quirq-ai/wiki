@@ -20,13 +20,21 @@ export function Cards(props: HTMLAttributes) { return ( Notable exports: `Cards`
 
 [`src/components/card.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/card.tsx) · code · 1479 bytes
 
+### copy-button.tsx
+
+Copies text to the clipboard and says so for two seconds. Where the clipboard is refused (an
+insecure page, an old browser), it says that instead of pretending. Notable exports:
+`CopyButton`. Marked `'use client'` so it runs in the browser.
+
+[`src/components/copy-button.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/copy-button.tsx) · code · 1618 bytes
+
 ### docs-home.tsx
 
 const GITHUB_REPO_URL = "https://github.com/quirq-ai/qq" Notable exports: `DocsHome`. Wired
 into a Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the
 browser.
 
-[`src/components/docs-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/docs-home.tsx) · code · 9202 bytes
+[`src/components/docs-home.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/docs-home.tsx) · code · 7722 bytes
 
 ### figure.tsx
 
@@ -43,15 +51,24 @@ Notable exports: `ShaderBackground`. Marked `'use client'` so it runs in the bro
 
 [`src/components/hero-shader.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/hero-shader.tsx) · code · 1980 bytes
 
+### home-extras.tsx
+
+Two parts of the docs home that drive its terminal: a builder that turns your own names into
+commands to copy, and use cases that play a few commands in a row. Nothing here runs
+anything. Notable exports: `CommandBuilder`, `UseCases`. Wired into a Next.js app (App
+Router or Next APIs). Marked `'use client'` so it runs in the browser.
+
+[`src/components/home-extras.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-extras.tsx) · code · 8891 bytes
+
 ### home-terminal.tsx
 
-import { type Line, type Recording, type Replay, replays, Terminal, } from
+import { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState, } from
+"react"; import { type Line, type Recording, type Replay, replays, Terminal, } from
 "@/components/journey"; import { type Command, commands, examples, type Source, tools, }
 from "@/journeys/home-commands"; The docs home page: one big terminal that replays every qq
-and xo command. Tap a command and it types itself and plays back what it printed; or type
-one. Nothing t Notable exports: `HomeTerminal`, `SOURCE_LABEL`.
+and xo Notable exports: `HomeTerminal`, `SOURCE_LABEL`, `TerminalControl`.
 
-[`src/components/home-terminal.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-terminal.tsx) · code · 16457 bytes
+[`src/components/home-terminal.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-terminal.tsx) · code · 18340 bytes
 
 ### journey.tsx
 
@@ -142,4 +159,4 @@ fd-border bg-black" Notable exports: `Video`.
 
 [`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

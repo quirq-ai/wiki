@@ -44,7 +44,7 @@ Markdown page “Your first build”. Clone a real app that uses qq, see what it
 it, read the results and run it, in five commands. MDX page (Markdown with JSX components),
 typically rendered by the docs site.
 
-[`content/docs/first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/first-build.mdx) · code · 3688 bytes
+[`content/docs/first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/first-build.mdx) · code · 3691 bytes
 
 ### glossary.mdx
 
@@ -122,4 +122,4 @@ rendered by the docs site.
 
 [`content/docs/try-first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/try-first-build.mdx) · code · 2602 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

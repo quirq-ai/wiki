@@ -8,64 +8,89 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 8 pattern(s)
-including `node_modules/`, `.next/`, `out/`, `build/`, `*.tsbuildinfo`, `next-env.d.ts`,
-`.env*`, `.DS_Store`. Generated and secret files matching these patterns are not in the
-clone the wiki summarizes.
+`.gitignore` tells git or Docker which paths to omit. It currently lists 23 pattern(s)
+including `/node_modules`, `/.pnp`, `.pnp.*`, `.yarn/*`, `!.yarn/patches`, `!.yarn/plugins`,
+`!.yarn/releases`, `!.yarn/versions`, and 15 more. Generated and secret files matching these
+patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/ui/blob/main/.gitignore) · other · 77 bytes
+[`.gitignore`](https://github.com/quirq-ai/ui/blob/main/.gitignore) · other · 568 bytes
+
+### .mcp.json
+
+JSON document `.mcp.json` whose top-level keys are `mcpServers`. Structured data consumed by
+the surrounding app or tooling.
+
+[`.mcp.json`](https://github.com/quirq-ai/ui/blob/main/.mcp.json) · code · 128 bytes
+
+### AGENTS.md
+
+The agent/workspace instructions (“This is NOT the Next.js you know”). This version has
+breaking changes — APIs, conventions, and file structure may all differ from your training
+data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from this file's
+directory; in monorepos the next package may not be visible from the repo root) before
+writing any code. Heed deprecation notices.
+
+[`AGENTS.md`](https://github.com/quirq-ai/ui/blob/main/AGENTS.md) · code · 4286 bytes
 
 ### README.md
 
-The project README (“quirq template”). A stripped-down Next.js starter for new quirq repos.
-The quirq design tokens, brand marks and UI primitives are already wired; the rest is yours.
+The project README (“XO UI registry”). A shadcn registry (plus docs site) for every Astryx
+component, block template and page template, built with Next.js.
 
-[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 3468 bytes
+[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 3486 bytes
 
-### eslint.config.mjs
+### biome.json
 
-const eslintConfig = [ ...nextCoreWebVitals, ...nextTypescript, { ignores: ["node_modules/",
-".next/", "out/", "build/", "next-env.d.ts", "library/*/source/**"], }, ] Provides a default
-export as the module's public entry. Wired into a Next.js app (App Router or Next APIs).
+JSON document `biome.json` whose top-level keys are `$schema`, `vcs`, `files`, `formatter`,
+`css`, `linter`, `assist`. Structured data consumed by the surrounding app or tooling.
 
-[`eslint.config.mjs`](https://github.com/quirq-ai/ui/blob/main/eslint.config.mjs) · code · 347 bytes
+[`biome.json`](https://github.com/quirq-ai/ui/blob/main/biome.json) · code · 863 bytes
 
-### next.config.ts
+### bun.lock
 
-const nextConfig: NextConfig = { turbopack: { root: __dirname }, devIndicators: false, }
-Provides a default export as the module's public entry.
-
-[`next.config.ts`](https://github.com/quirq-ai/ui/blob/main/next.config.ts) · code · 163 bytes
-
-### package.json
-
-npm package manifest for `quirq-template` v0.1.0. A stripped-down Next.js starter with the
-quirq design tokens, brand marks and UI primitives. Scripts: `dev`, `build`, `start`,
-`lint`, `typecheck`, `check`.
-
-[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 944 bytes
-
-### pnpm-lock.yaml
-
-Package-manager lockfile (pnpm-lock.yaml, 135.3 KB). It pins the exact dependency tree for
+Package-manager lockfile (bun.lock, 112.0 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`pnpm-lock.yaml`](https://github.com/quirq-ai/ui/blob/main/pnpm-lock.yaml) · lockfile · 138502 bytes
+[`bun.lock`](https://github.com/quirq-ai/ui/blob/main/bun.lock) · lockfile · 114641 bytes
 
-### postcss.config.mjs
+### next.config.ts
 
-const config = { plugins: { "@tailwindcss/postcss": {}, }, } Provides a default export as
-the module's public entry.
+Registry items are installed from (and depend on) this origin, so docs commands use it too.
+Provides a default export as the module's public entry.
 
-[`postcss.config.mjs`](https://github.com/quirq-ai/ui/blob/main/postcss.config.mjs) · code · 94 bytes
+[`next.config.ts`](https://github.com/quirq-ai/ui/blob/main/next.config.ts) · code · 2285 bytes
+
+### package.json
+
+npm package manifest for `registryv2` v0.1.0. Scripts: `dev`, `predev`, `build`, `prebuild`,
+`start`, `lint`, `format`, `typecheck`, `registry:generate`, `registry:build`.
+
+[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 1463 bytes
+
+### registry.json
+
+Large text file (474.0 KB), over the generator's 256 KB parse cap. Only a prefix was
+inspected. Opening lines: { "$schema": "https://ui.shadcn.com/schema/registry.json", "name":
+"xo-ui-registry", "homepage": "https://ui.quirq.dev", "items": [ { "name": "astryx-base",
+"type": "registry:item", "title": "XO UI base", "description": "Installs XO UI core + the
+neutral theme packages.
+
+[`registry.json`](https://github.com/quirq-ai/ui/blob/main/registry.json) · huge · 485365 bytes
+
+### theme.template.ts
+
+Astryx theme template — every `defineTheme` field, with a note on what it does and when to
+reach for it. Notable exports: `myTheme`.
+
+[`theme.template.ts`](https://github.com/quirq-ai/ui/blob/main/theme.template.ts) · code · 18904 bytes
 
 ### tsconfig.json
 
 TypeScript compiler configuration for this package or app (paths, JSX mode, and strictness).
 Downstream `tsc` and bundlers read it to typecheck and emit.
 
-[`tsconfig.json`](https://github.com/quirq-ai/ui/blob/main/tsconfig.json) · code · 610 bytes
+[`tsconfig.json`](https://github.com/quirq-ai/ui/blob/main/tsconfig.json) · code · 670 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

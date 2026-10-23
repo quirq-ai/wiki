@@ -48,4 +48,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/textures` | 1 | [src__textures.md](src__textures.md) |
 | `src/ui` | 29 | [src__ui.md](src__ui.md) |
 
-_Generated 2026-10-22 10:44 UTC._
+_Generated 2026-10-23 10:36 UTC._

@@ -22,4 +22,4 @@ Pydantic model construction smoke tests. Functions: `test_session_has_all_requir
 
 [`tests/schema/test_types.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/schema/test_types.py) · code · 2199 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:35 UTC from `main`._

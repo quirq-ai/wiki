@@ -20,7 +20,7 @@ with one line on what it did and where to read more. Where the output comes from
 below): - "recorded": a real run, recorded by scripts/videos/recorder.py from
 scripts/journeys/home-qq.json into home-qq.json.
 
-[`src/journeys/home-commands.ts`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-commands.ts) · code · 20026 bytes
+[`src/journeys/home-commands.ts`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-commands.ts) · code · 20282 bytes
 
 ### home-qq.json
 
@@ -29,11 +29,21 @@ consumed by the surrounding app or tooling.
 
 [`src/journeys/home-qq.json`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-qq.json) · code · 22537 bytes
 
+### home-use-cases.ts
+
+The docs home's use cases (each plays a few replayed commands in the terminal) and its
+command builder (fill in your own names, get the commands to copy). Every command here is
+one the terminal replays, in home-commands.ts; the builder only swaps in your names, checked
+first, so what it prints can be pasted into a shell as it is. Notable exports: `UseCase`,
+`useCases`, `Field`, `Recipe`, `recipes`.
+
+[`src/journeys/home-use-cases.ts`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-use-cases.ts) · code · 8556 bytes
+
 ### home-xo.json
 
 JSON document `home-xo.json` whose top-level keys are `title`, `events`. Structured data
 consumed by the surrounding app or tooling.
 
-[`src/journeys/home-xo.json`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-xo.json) · code · 11512 bytes
+[`src/journeys/home-xo.json`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-xo.json) · code · 11765 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

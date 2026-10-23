@@ -13,4 +13,4 @@ Research”. cachedGrowthBookFeatures[&lt;flag name&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/index.html) · code · 16564 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

@@ -45,7 +45,7 @@ reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `enc
 machine. It looks at what is already here, asks what to do with each, shows the exact
 commands, and runs them only after a yes.
 
-[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 46886 bytes
+[`cli/install.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/install.mjs) · code · 56972 bytes
 
 ### machine.mjs
 
@@ -55,7 +55,7 @@ It sends a choice per tool, which must be one the tool's state offers (choices()
 signature of the look it is showing. The server turns it into steps with planSteps and keeps
 that plan. A run takes only the id of the latest plan.
 
-[`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 12548 bytes
+[`cli/machine.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/machine.mjs) · code · 13018 bytes
 
 ### main.mjs
 
@@ -137,4 +137,4 @@ PATH by default, so qq-setup runs on Windows' Node. npx then starts in
 
 [`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2604 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

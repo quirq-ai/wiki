@@ -16,4 +16,4 @@ Notable exports: `ActiveWindowsPanel`.
 
 [`src/components/ActiveWindowsPanel/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/ActiveWindowsPanel/index.tsx) · code · 6142 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

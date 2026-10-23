@@ -31,4 +31,4 @@ can map over it; the client renderer imports the type. Notable exports: `STORY`.
 
 [`app/dynamic/story.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/dynamic/story.ts) · code · 4049 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

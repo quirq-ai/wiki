@@ -32,4 +32,4 @@ the container. Shebang `#!/bin/sh`. Fails fast (`set -e`).
 
 [`deploy/headscale/entrypoint.sh`](https://github.com/quirq-ai/lan/blob/main/deploy/headscale/entrypoint.sh) · code · 2391 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

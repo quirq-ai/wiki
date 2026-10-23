@@ -18,13 +18,20 @@ Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `config_home`, 
 
 from __future__ import annotations Contains tests.
 
-[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 144307 bytes
+[`tests/test_cli.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_cli.py) · code · 145986 bytes
 
 ### test_github.py
 
 gh is a fake here: tests never run the real gh or reach GitHub. Classes: `FakeGh`.
 
 [`tests/test_github.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_github.py) · code · 9454 bytes
+
+### test_selfupdate.py
+
+Auto-update (src/xo/selfupdate.py): off without setup's marker, a background check at most
+once a day, the update first on the next run, and never a hand-installed xo.
+
+[`tests/test_selfupdate.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_selfupdate.py) · code · 12430 bytes
 
 ### test_server.py
 
@@ -47,7 +54,7 @@ The services list: what xo accepts from a server, and what it falls back to.
 xo create space NAME with no KIND (xo/spacerepo.py): each folder here a branch, main the
 index, pushed to a local stand-in for GitHub.
 
-[`tests/test_spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_spacerepo.py) · code · 34419 bytes
+[`tests/test_spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_spacerepo.py) · code · 36014 bytes
 
 ### test_workspace.py
 
@@ -56,4 +63,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23461 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

@@ -15,10 +15,11 @@ qqdepot: qq, the quirq infra command line.
 ### bootstrap.py
 
 The qq bootstrap, run by bin/qq straight from a depot checkout, before anything is
-installed. Runnable as a script via `if __name__ == '__main__'`. Functions: `qq_home`,
-`head`, `export`, `ensure_launcher`, `main`.
+installed. Runnable as a script via `if __name__ == '__main__'`. Classes: `_NoRedirect`.
+Functions: `qq_home`, `head`, `export`, `ensure_launcher`, `tools_dir`, `get_pins`,
+`pins_from`, `check`, and 3 more.
 
-[`src/qqdepot/bootstrap.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/bootstrap.py) · code · 4366 bytes
+[`src/qqdepot/bootstrap.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/bootstrap.py) · code · 19008 bytes
 
 ### cli.py
 
@@ -58,4 +59,4 @@ script via `if __name__ == '__main__'`. Classes: `Watch`. Functions: `run_id`,
 
 [`src/qqdepot/watch.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/watch.py) · code · 9686 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

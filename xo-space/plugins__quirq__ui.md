@@ -26,4 +26,4 @@ XO Space ↔ MCP Apps host bridge.
 
 [`plugins/quirq/ui/space-bridge.js`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/ui/space-bridge.js) · code · 26143 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

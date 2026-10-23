@@ -8,8 +8,8 @@ qq is the quirq infra command line (this repo was quirq-ai/depot until 2026-10-0
 - [Activity history](../_activity/repos/qq.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-21T19:09:24Z`
-- Snapshot SHA: `aa5fe8aeca67`
+- Last push: `2026-10-22T13:16:46Z`
+- Snapshot SHA: `af16f390a8b8`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -25,9 +25,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/qqdepot/backends` | 2 | [src__qqdepot__backends.md](src__qqdepot__backends.md) |
 | `src/qqdepot/commands` | 6 | [src__qqdepot__commands.md](src__qqdepot__commands.md) |
 | `src/qqdepot/locks` | 2 | [src__qqdepot__locks.md](src__qqdepot__locks.md) |
-| `tests` | 10 | [tests.md](tests.md) |
+| `tests` | 11 | [tests.md](tests.md) |
 | `tests/fakes` | 2 | [tests__fakes.md](tests__fakes.md) |
 | `tests/parity_adapters` | 3 | [tests__parity_adapters.md](tests__parity_adapters.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-22 10:44 UTC._
+_Generated 2026-10-23 10:36 UTC._

@@ -8,8 +8,8 @@ The docs for qq, quirq's build and release infrastructure, are live at [docs.qui
 - [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-22T08:35:02Z`
-- Snapshot SHA: `22908c8893a0`
+- Last push: `2026-10-23T06:38:26Z`
+- Snapshot SHA: `73482077621c`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -52,12 +52,12 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/app/og` | 0 | [src__app__og.md](src__app__og.md) |
 | `src/app/og/docs` | 0 | [src__app__og__docs.md](src__app__og__docs.md) |
 | `src/app/og/docs/[...slug]` | 1 | [src__app__og__docs__[...slug].md](src__app__og__docs__[...slug].md) |
-| `src/components` | 17 | [src__components.md](src__components.md) |
+| `src/components` | 19 | [src__components.md](src__components.md) |
 | `src/components/ai` | 1 | [src__components__ai.md](src__components__ai.md) |
 | `src/components/google-analytics` | 2 | [src__components__google-analytics.md](src__components__google-analytics.md) |
 | `src/components/posthog` | 3 | [src__components__posthog.md](src__components__posthog.md) |
-| `src/components/ui` | 1 | [src__components__ui.md](src__components__ui.md) |
-| `src/journeys` | 4 | [src__journeys.md](src__journeys.md) |
+| `src/components/ui` | 2 | [src__components__ui.md](src__components__ui.md) |
+| `src/journeys` | 5 | [src__journeys.md](src__journeys.md) |
 | `src/lib` | 5 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-22 10:44 UTC._
+_Generated 2026-10-23 10:36 UTC._

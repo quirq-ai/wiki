@@ -16,7 +16,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 @ts-check Automated test file.
 
-[`tests/install.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/install.test.mjs) · code · 50083 bytes
+[`tests/install.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/install.test.mjs) · code · 57160 bytes
 
 ### machine.test.mjs
 
@@ -24,7 +24,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 are planned, a run takes only the latest plan's id, once, and it refuses when the machine
 changed after the plan. Automated test file.
 
-[`tests/machine.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/machine.test.mjs) · code · 15694 bytes
+[`tests/machine.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/machine.test.mjs) · code · 16518 bytes
 
 ### windows.test.mjs
 
@@ -32,4 +32,4 @@ changed after the plan. Automated test file.
 
 [`tests/windows.test.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/windows.test.mjs) · code · 3408 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

@@ -24,4 +24,4 @@ Notable exports: `GET`, `dynamic`.
 
 [`app/whitepaper/pdf/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/whitepaper/pdf/route.ts) · code · 1020 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

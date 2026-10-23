@@ -12,6 +12,14 @@ Python module `conftest.py`. Functions: `_isolated`. Contains tests.
 
 [`tests/conftest.py`](https://github.com/quirq-ai/qq/blob/main/tests/conftest.py) · code · 274 bytes
 
+### test_auto_update.py
+
+Auto-update in the bootstrap (src/qqdepot/bootstrap.py): off without qq-setup's marker, a
+background check at most once a day, the update first on the next run, and never a changed
+checkout. Classes: `Ran`.
+
+[`tests/test_auto_update.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_auto_update.py) · code · 10911 bytes
+
 ### test_build.py
 
 V0-DEP-03: qq build and qq test run the same adapter actions as CI. Functions:
@@ -90,4 +98,4 @@ Python module `test_sync_pin.py`. Functions:
 
 [`tests/test_sync_pin.py`](https://github.com/quirq-ai/qq/blob/main/tests/test_sync_pin.py) · code · 608 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

@@ -26,4 +26,4 @@ sha256:789d05a3b9383df691506844f7e43e3175e1ba60e10305de575aa29fc40c4af2.
 
 [`generated/github/xo/qq-xo-presubmit.yml`](https://github.com/quirq-ai/infra-config/blob/main/generated/github/xo/qq-xo-presubmit.yml) · code · 2334 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

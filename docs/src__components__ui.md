@@ -16,4 +16,10 @@ exports: `buttonVariants`, `ButtonProps`.
 
 [`src/components/ui/button.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ui/button.tsx) · code · 1159 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+### input.tsx
+
+shadcn's Input (new-york v4), in the docs' fumadocs colors. Notable exports: `Input`.
+
+[`src/components/ui/input.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ui/input.tsx) · code · 788 bytes
+
+_Generated 2026-10-23 10:36 UTC from `main`._

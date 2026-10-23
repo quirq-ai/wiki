@@ -38,6 +38,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **research** | public | [`research/`](research/_index.md) | [research](https://github.com/quirq-ai/research) |
 | **rollers** | public | [`rollers/`](rollers/_index.md) | [rollers](https://github.com/quirq-ai/rollers) |
 | **setup**<br>One command to set up qq for a GitHub org | public | [`setup/`](setup/_index.md) | [setup](https://github.com/quirq-ai/setup) |
+| **space-hub** | public | [`space-hub/`](space-hub/_index.md) | [space-hub](https://github.com/quirq-ai/space-hub) |
 | **sync** | public | [`sync/`](sync/_index.md) | [sync](https://github.com/quirq-ai/sync) |
 | **test-pipelines** | public | [`test-pipelines/`](test-pipelines/_index.md) | [test-pipelines](https://github.com/quirq-ai/test-pipelines) |
 | **toolchains** | public | [`toolchains/`](toolchains/_index.md) | [toolchains](https://github.com/quirq-ai/toolchains) |
@@ -54,4 +55,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-22 10:44 UTC._
+_Generated 2026-10-23 10:36 UTC._

@@ -13,7 +13,7 @@ key from the link's fragment (which browsers never send anywhere) for an HttpOnl
 cookie and a token. The token lives in this tab's sessionStorage (scoped to this port,
 unlike cookies) and goes in the x-qq-setup header of every later call, with the cookie.
 
-[`lib/api.ts`](https://github.com/quirq-ai/setup/blob/main/lib/api.ts) · code · 6030 bytes
+[`lib/api.ts`](https://github.com/quirq-ai/setup/blob/main/lib/api.ts) · code · 6202 bytes
 
 ### utils.ts
 
@@ -22,4 +22,4 @@ exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/setup/blob/main/lib/utils.ts) · code · 169 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

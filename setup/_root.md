@@ -42,7 +42,7 @@ The project README (“qq-setup”). One command to install, update or remove qq
 machine, and to set up quirq infra (qq) for your GitHub org: the terminal checks your tools
 and opens one page in your browser, qq on this machine first, then your org's repos.
 
-[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 15045 bytes
+[`README.md`](https://github.com/quirq-ai/setup/blob/main/README.md) · code · 16385 bytes
 
 ### eslint.config.mjs
 
@@ -76,7 +76,14 @@ npm package manifest for `qq-setup` v0.1.0. Set up quirq infra (qq) for a GitHub
 one command and a short form. CLI bins: `qq-setup`. Scripts: `build`, `dev`, `lint`,
 `typecheck`, `test`, `e2e`, `check-form`.
 
-[`package.json`](https://github.com/quirq-ai/setup/blob/main/package.json) · code · 1293 bytes
+[`package.json`](https://github.com/quirq-ai/setup/blob/main/package.json) · code · 1310 bytes
+
+### pins.json
+
+JSON document `pins.json` whose top-level keys are `schema`, `xo`, `qq`, `qqsync`.
+Structured data consumed by the surrounding app or tooling.
+
+[`pins.json`](https://github.com/quirq-ai/setup/blob/main/pins.json) · code · 194 bytes
 
 ### playwright.config.ts
 
@@ -99,4 +106,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/setup/blob/main/tsconfig.json) · code · 779 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

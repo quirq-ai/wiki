@@ -12,7 +12,7 @@ Markdown page “Commands”. Every xo command on one page, the settings it read
 go for the lower-level API commands. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/xo/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/commands.mdx) · code · 3890 bytes
+[`content/docs/xo/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/commands.mdx) · code · 3915 bytes
 
 ### index.mdx
 
@@ -20,7 +20,7 @@ Markdown page “What is xo”. xo is the command line for XO Cloud. It creates 
 your projects in them, and shares them, with one login. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/xo/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/index.mdx) · code · 2557 bytes
+[`content/docs/xo/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/index.mdx) · code · 3057 bytes
 
 ### install.mdx
 
@@ -51,7 +51,7 @@ Markdown page “Projects in a space”. Add your GitHub repos as projects, conn
 space at a branch, tag or commit, and install, update and sync them with your own git. MDX
 page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/xo/projects.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/projects.mdx) · code · 4537 bytes
+[`content/docs/xo/projects.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/projects.mdx) · code · 5064 bytes
 
 ### share.mdx
 
@@ -59,7 +59,7 @@ Markdown page “Share”. Invite another XO user to a copy of a space or a proj
 the invite, accept it into their own spaces, or reject it. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/xo/share.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/share.mdx) · code · 1793 bytes
+[`content/docs/xo/share.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/share.mdx) · code · 1825 bytes
 
 ### spaces.mdx
 
@@ -67,6 +67,6 @@ Markdown page “Create a space”. Preview a create with --dry-run, then create
 Codex or other space on XO Cloud, or make a folder of your git repositories a space on
 GitHub. MDX page (Markdown with JSX components), typically rendered by the docs site.
 
-[`content/docs/xo/spaces.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/spaces.mdx) · code · 8447 bytes
+[`content/docs/xo/spaces.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/spaces.mdx) · code · 9107 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+_Generated 2026-10-23 10:36 UTC from `main`._

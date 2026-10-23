@@ -8,9 +8,16 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### favicon.svg
 
-SVG graphic `favicon.svg` (328 bytes). Vector artwork used by the UI, docs, or brand; not
+SVG graphic `favicon.svg` (9.3 KB). Vector artwork used by the UI, docs, or brand; not
 executable source.
 
-[`public/favicon.svg`](https://github.com/quirq-ai/ui/blob/main/public/favicon.svg) · code · 328 bytes
+[`public/favicon.svg`](https://github.com/quirq-ai/ui/blob/main/public/favicon.svg) · code · 9522 bytes
 
-_Generated 2026-10-22 10:44 UTC from `main`._
+### icons.svg
+
+SVG graphic `icons.svg` (4.9 KB). Vector artwork used by the UI, docs, or brand; not
+executable source.
+
+[`public/icons.svg`](https://github.com/quirq-ai/ui/blob/main/public/icons.svg) · code · 5031 bytes
+
+_Generated 2026-10-23 10:36 UTC from `main`._
