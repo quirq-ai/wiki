@@ -4,14 +4,15 @@
 
 Commits, pull requests, issues, releases and workflows, batched by UTC day.
 
-**Stored records:** 11,621 · **Repositories:** 41 · **Last collection:** 2026-10-22T11:56:22Z
+**Stored records:** 12,366 · **Repositories:** 42 · **Last collection:** 2026-10-23T11:42:20Z
 
 ## Daily batches
 
 | Date (UTC) | Records | Coverage |
 | --- | ---: | --- |
-| [2026-10-22](2026/10/22/README.md) | 252 | commit: 32, issue: 4, pull request: 12, workflow: 204 |
-| [2026-10-21](2026/10/21/README.md) | 646 | commit: 100, issue: 17, pull request: 40, workflow: 489 |
+| [2026-10-23](2026/10/23/README.md) | 207 | commit: 22, issue: 2, pull request: 5, workflow: 178 |
+| [2026-10-22](2026/10/22/README.md) | 626 | commit: 121, issue: 9, pull request: 45, workflow: 451 |
+| [2026-10-21](2026/10/21/README.md) | 810 | commit: 264, issue: 17, pull request: 40, workflow: 489 |
 | [2026-10-20](2026/10/20/README.md) | 532 | commit: 81, issue: 11, pull request: 17, release: 1, workflow: 422 |
 | [2026-10-19](2026/10/19/README.md) | 464 | commit: 71, issue: 6, pull request: 14, workflow: 373 |
 | [2026-10-18](2026/10/18/README.md) | 518 | commit: 73, issue: 3, pull request: 21, workflow: 421 |
@@ -36,47 +37,48 @@ Commits, pull requests, issues, releases and workflows, batched by UTC day.
 
 | Repository | Records | Requested from (UTC) | Last success (UTC) | Status |
 | --- | ---: | --- | --- | --- |
-| [quirq-ai/.github](repos/.github.md) | 14 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/agent-skills](repos/agent-skills.md) | 16 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/argus-code](repos/argus-code.md) | 0 | 2026-10-12T13:21:02Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/cli-console](repos/cli-console.md) | 2 | 2026-10-07T11:56:28Z | 2026-10-22T11:56:22Z | Collected |
+| [quirq-ai/.github](repos/.github.md) | 14 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/agent-skills](repos/agent-skills.md) | 16 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/argus-code](repos/argus-code.md) | 0 | 2026-10-12T13:21:02Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/cli-console](repos/cli-console.md) | 2 | 2026-10-07T11:56:28Z | 2026-10-23T11:42:20Z | Collected |
 | [quirq-ai/depot](repos/depot.md) | 154 | unknown | none | Not collected |
-| [quirq-ai/docs](repos/docs.md) | 108 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/environment](repos/environment.md) | 0 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/euler](repos/euler.md) | 52 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/experiments](repos/experiments.md) | 53 | 2026-10-09T11:27:42Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/galileo](repos/galileo.md) | 0 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/gardener](repos/gardener.md) | 5,751 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/gate](repos/gate.md) | 344 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/infra-config](repos/infra-config.md) | 444 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/innernet](repos/innernet.md) | 193 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/installer](repos/installer.md) | 139 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/instants](repos/instants.md) | 11 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/lan](repos/lan.md) | 2 | 2026-10-11T11:09:45Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/library](repos/library.md) | 6 | 2026-10-15T11:56:22Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/marketing](repos/marketing.md) | 4 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/monitoring](repos/monitoring.md) | 128 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/perf](repos/perf.md) | 359 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/qq](repos/qq.md) | 79 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/quirq\_ai](repos/quirq_ai.md) | 17 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/quirqy](repos/quirqy.md) | 54 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/quitter](repos/quitter.md) | 2 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/recipes](repos/recipes.md) | 126 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/release](repos/release.md) | 531 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/remote-build](repos/remote-build.md) | 80 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/research](repos/research.md) | 278 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/rollers](repos/rollers.md) | 155 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/setup](repos/setup.md) | 186 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/sync](repos/sync.md) | 138 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/test-pipelines](repos/test-pipelines.md) | 553 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/toolchains](repos/toolchains.md) | 172 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/ui](repos/ui.md) | 7 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/vangogh](repos/vangogh.md) | 1 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/website](repos/website.md) | 183 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/wiki](repos/wiki.md) | 156 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/xo](repos/xo.md) | 355 | 2026-10-08T11:33:02Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/xo-cowork-api](repos/xo-cowork-api.md) | 3 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
-| [quirq-ai/xo-space](repos/xo-space.md) | 765 | 2026-10-01T18:05:58Z | 2026-10-22T11:56:22Z | Collected |
+| [quirq-ai/docs](repos/docs.md) | 120 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/environment](repos/environment.md) | 0 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/euler](repos/euler.md) | 52 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/experiments](repos/experiments.md) | 53 | 2026-10-09T11:27:42Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/galileo](repos/galileo.md) | 0 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/gardener](repos/gardener.md) | 6,103 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/gate](repos/gate.md) | 347 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/infra-config](repos/infra-config.md) | 444 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/innernet](repos/innernet.md) | 193 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/installer](repos/installer.md) | 143 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/instants](repos/instants.md) | 11 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/lan](repos/lan.md) | 2 | 2026-10-11T11:09:45Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/library](repos/library.md) | 7 | 2026-10-15T11:56:22Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/marketing](repos/marketing.md) | 4 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/monitoring](repos/monitoring.md) | 128 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/perf](repos/perf.md) | 369 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/qq](repos/qq.md) | 97 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/quirq\_ai](repos/quirq_ai.md) | 17 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/quirqy](repos/quirqy.md) | 54 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/quitter](repos/quitter.md) | 2 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/recipes](repos/recipes.md) | 126 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/release](repos/release.md) | 550 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/remote-build](repos/remote-build.md) | 80 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/research](repos/research.md) | 278 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/rollers](repos/rollers.md) | 155 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/setup](repos/setup.md) | 203 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/space-hub](repos/space-hub.md) | 15 | 2026-10-16T11:42:20Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/sync](repos/sync.md) | 138 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/test-pipelines](repos/test-pipelines.md) | 563 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/toolchains](repos/toolchains.md) | 172 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/ui](repos/ui.md) | 10 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/vangogh](repos/vangogh.md) | 1 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/website](repos/website.md) | 183 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/wiki](repos/wiki.md) | 163 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/xo](repos/xo.md) | 389 | 2026-10-08T11:33:02Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/xo-cowork-api](repos/xo-cowork-api.md) | 3 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
+| [quirq-ai/xo-space](repos/xo-space.md) | 1,005 | 2026-10-01T18:05:58Z | 2026-10-23T11:42:20Z | Collected |
 
 ## Coverage
 
