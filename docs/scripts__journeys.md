@@ -12,7 +12,7 @@ The project README (“Journeys”). A journey page (such as content/docs/try-fi
 puts a guide's steps beside a terminal that replays a real run. The run is recorded with the
 video recorder, from a spec here.
 
-[`scripts/journeys/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/README.md) · code · 3694 bytes
+[`scripts/journeys/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/README.md) · code · 4158 bytes
 
 ### first-build.json
 
@@ -43,7 +43,7 @@ record-home-xo.sh XO_VENV OUT.json (XO_VENV: a venv with xo installed, e.g. ~/.x
 recording home is /home/xo-demo (the spec's "home"); it must not exist yet. Shebang
 `#!/usr/bin/env bash`. Functions: `pick`. Fails fast (`set -e`).
 
-[`scripts/journeys/record-home-xo.sh`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/record-home-xo.sh) · code · 2166 bytes
+[`scripts/journeys/record-home-xo.sh`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/record-home-xo.sh) · code · 2189 bytes
 
 ### xo-standin.py
 
@@ -53,4 +53,4 @@ home page's xo commands. Runnable as a script via `if __name__ == '__main__'`. C
 
 [`scripts/journeys/xo-standin.py`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/xo-standin.py) · code · 6457 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

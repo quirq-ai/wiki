@@ -36,4 +36,4 @@ required copy for quirq-ai/xo-space: a ruleset pins this file by commit and runs
 
 [`tests/golden/.github/workflows/qq-required-xo-space-presubmit.yml`](https://github.com/quirq-ai/infra-config/blob/main/tests/golden/.github/workflows/qq-required-xo-space-presubmit.yml) · code · 1963 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

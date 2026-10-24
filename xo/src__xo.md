@@ -17,7 +17,7 @@ xo: the command line for the XO Cloud API.
 """xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
 xo server).
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 91172 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 95801 bytes
 
 ### client.py
 
@@ -45,9 +45,9 @@ Classes: `GhUnsure`, `GhClient`. Functions: `installed`, `token_env`.
 
 The git xo runs for projects: the user's own git, with their own login, never a token of
 xo's. Functions: `environment`, `run`, `clone`, `set_origin`, `origin_is`, `init`,
-`own_checkout`, `fetch`, and 10 more.
+`own_checkout`, `fetch`, and 21 more.
 
-[`src/xo/gitops.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/gitops.py) · code · 12659 bytes
+[`src/xo/gitops.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/gitops.py) · code · 18672 bytes
 
 ### names.py
 
@@ -63,6 +63,14 @@ JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `server
 
 [`src/xo/openapi.json`](https://github.com/quirq-ai/xo/blob/main/src/xo/openapi.json) · code · 32400 bytes
 
+### quirq.py
+
+The quirq hub: where a space's projects meet while people and their agents work on them.
+Classes: `Hub`. Functions: `name`, `hub_path`, `parse`, `settings`, `save`, `forget`,
+`installed`, `ready`, and 3 more.
+
+[`src/xo/quirq.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/quirq.py) · code · 8573 bytes
+
 ### selfupdate.py
 
 Auto-update: keep an xo that qq-setup installed at setup's newest reviewed commit. Runnable
@@ -73,10 +81,12 @@ as a script via `if __name__ == '__main__'`. Functions: `marker_path`, `state_pa
 
 ### server.py
 
-"""xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
-them.
+xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs them.
+Classes: `Config`, `ClerkError`, `_NoRedirect`, `_Bucket`, `Clerk`, `HubError`,
+`HubConflict`, `Hub`, and 5 more. Functions: `_list_env`, `_int_env`, `_upstream`,
+`_browser_login`, `_hub_error`, `_secret_name`, `_mask`, `_mask_secrets`, and 20 more.
 
-[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 127908 bytes
+[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 142362 bytes
 
 ### services.json
 
@@ -96,11 +106,11 @@ The list of services one xo login covers, and the addresses xo last logged in to
 ### spacerepo.py
 
 xo create space [NAME] with no KIND: a folder becomes a space, a git repository on GitHub
-with one branch per git repository under it. Classes: `Space`, `_HereIgnore`. Functions:
-`refuse_here`, `folders`, `size`, `shown`, `digest`, `build`, `on_github`, `heads`, and 4
-more.
+(or on the quirq hub) with one branch per git repository under it. Classes: `Space`,
+`_HereIgnore`. Functions: `refuse_here`, `folders`, `size`, `shown`, `digest`, `build`,
+`published`, `on_github`, and 8 more.
 
-[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 54997 bytes
+[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 67124 bytes
 
 ### spec.py
 
@@ -130,6 +140,6 @@ xo install, xo update and xo sync: a space's projects on this machine, kept in s
 space recorded in your private metadata. Functions: `target`, `dest`, `resolve`, `install`,
 `update`, `sync`.
 
-[`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 17679 bytes
+[`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

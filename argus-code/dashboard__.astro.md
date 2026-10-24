@@ -34,4 +34,4 @@ import('astro').MarkdownHeading[]; remarkPluginFrontmatter: Record; } interface 
 
 [`dashboard/.astro/types.d.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/.astro/types.d.ts) · code · 76 bytes
 
-_Generated 2026-10-23 10:35 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

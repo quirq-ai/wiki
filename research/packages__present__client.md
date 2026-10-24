@@ -12,4 +12,4 @@ import { getDocument, GlobalWorkerOptions } from "./pdf.min.mjs".
 
 [`packages/present/client/pdf-reader.js`](https://github.com/quirq-ai/research/blob/main/packages/present/client/pdf-reader.js) · code · 5993 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

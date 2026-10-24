@@ -8,8 +8,8 @@ A shadcn registry (plus docs site) for every Astryx component, block template an
 - [Activity history](../_activity/repos/ui.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-23T09:57:49Z`
-- Snapshot SHA: `978b4fa1db94`
+- Last push: `2026-10-23T10:37:40Z`
+- Snapshot SHA: `2834d85141ae`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -257,4 +257,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/docs` | 15 | [src__docs.md](src__docs.md) |
 | `src/registry` | 3 | [src__registry.md](src__registry.md) |
 
-_Generated 2026-10-23 10:36 UTC._
+_Generated 2026-10-24 09:54 UTC._

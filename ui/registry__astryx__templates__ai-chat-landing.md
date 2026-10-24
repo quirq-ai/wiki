@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `AIChatTempl
 
 [`registry/astryx/templates/ai-chat-landing/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/ai-chat-landing/page.tsx) · code · 15587 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

@@ -6,6 +6,12 @@ Source: [cli/bin](https://github.com/quirq-ai/space-hub/tree/main/cli/bin) in [s
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### git-remote-quirq
+
+Extensionless file `git-remote-quirq`. import("../dist/remote.mjs").
+
+[`cli/bin/git-remote-quirq`](https://github.com/quirq-ai/space-hub/blob/main/cli/bin/git-remote-quirq) · other · 50 bytes
+
 ### git-remote-spacehub
 
 Extensionless file `git-remote-spacehub`. import("../dist/remote.mjs").
@@ -18,4 +24,4 @@ Extensionless file `spacehub`. import("../dist/cli.mjs").
 
 [`cli/bin/spacehub`](https://github.com/quirq-ai/space-hub/blob/main/cli/bin/spacehub) · other · 47 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

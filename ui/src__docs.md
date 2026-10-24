@@ -11,14 +11,14 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 /** The catalog fields the index table needs. */ export type CatalogRow = Pick Notable
 exports: `CatalogIndexPage`, `CatalogRow`. Marked `'use client'` so it runs in the browser.
 
-[`src/docs/catalog-index-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/catalog-index-page.tsx) · code · 4411 bytes
+[`src/docs/catalog-index-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/catalog-index-page.tsx) · code · 4420 bytes
 
 ### catalog-page.tsx
 
 const BASE_DEPS = [ "@astryxdesign/core", "@astryxdesign/theme-neutral", "@stylexjs/stylex",
 ] Notable exports: `Page`, `CatalogPage`. Marked `'use client'` so it runs in the browser.
 
-[`src/docs/catalog-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/catalog-page.tsx) · code · 6434 bytes
+[`src/docs/catalog-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/catalog-page.tsx) · code · 6440 bytes
 
 ### catalog-routes.ts
 
@@ -33,7 +33,7 @@ export const KIND_ROUTES: Record = { component: "components", block: "blocks", t
 function InstallTabs({ item, source, }: Readonly) { const [tab, setTab] = useState("cli");
 return ( Notable exports: `ComponentPage`. Marked `'use client'` so it runs in the browser.
 
-[`src/docs/component-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/component-page.tsx) · code · 4867 bytes
+[`src/docs/component-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/component-page.tsx) · code · 4873 bytes
 
 ### doc-loading.tsx
 
@@ -57,7 +57,7 @@ import { SideNav, SideNavItem, SideNavSection, } from "@astryxdesign/core/SideNa
 KINDS = Object.keys(KIND_ROUTES) as CatalogKind[] Notable exports: `DocsShell`. Wired into a
 Next.js app (App Router or Next APIs). Marked `'use client'` so it runs in the browser.
 
-[`src/docs/docs-shell.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/docs-shell.tsx) · code · 3007 bytes
+[`src/docs/docs-shell.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/docs-shell.tsx) · code · 3010 bytes
 
 ### featured.ts
 
@@ -74,7 +74,7 @@ import { REGISTRY_NAMESPACE, REGISTRY_URL, registryItemUrl, } from "./registry-c
 Notable exports: `InstallationPage`, `RootLayout`, `Page`. Marked `'use client'` so it runs
 in the browser.
 
-[`src/docs/installation-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/installation-page.tsx) · code · 9291 bytes
+[`src/docs/installation-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/installation-page.tsx) · code · 9300 bytes
 
 ### introduction-page.tsx
 
@@ -83,7 +83,7 @@ id: "how-it-works", label: "How it works", level: 2 }, { id: "catalog", label: "
 included", level: 2 }, { id: "components", label: "Featured", level: 2 }, ] Notable exports:
 `IntroductionPage`. Marked `'use client'` so it runs in the browser.
 
-[`src/docs/introduction-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/introduction-page.tsx) · code · 4504 bytes
+[`src/docs/introduction-page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/introduction-page.tsx) · code · 4519 bytes
 
 ### package-manager.tsx
 
@@ -113,7 +113,7 @@ in the browser.
 Optional namespace consumers can register in components.json for short `add` commands.
 Notable exports: `registryItemUrl`, `REGISTRY_NAMESPACE`, `REGISTRY_URL`.
 
-[`src/docs/registry-config.ts`](https://github.com/quirq-ai/ui/blob/main/src/docs/registry-config.ts) · code · 540 bytes
+[`src/docs/registry-config.ts`](https://github.com/quirq-ai/ui/blob/main/src/docs/registry-config.ts) · code · 543 bytes
 
 ### registry-items.tsx
 
@@ -123,4 +123,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`src/docs/registry-items.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/registry-items.tsx) · code · 11924 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

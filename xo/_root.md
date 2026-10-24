@@ -40,7 +40,7 @@ Extensionless file `.vercelignore`. Never upload local secrets or build leftover
 
 The agent/workspace instructions (“Agent guide”). Read README.md first.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo/blob/main/AGENTS.md) · code · 2094 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo/blob/main/AGENTS.md) · code · 2223 bytes
 
 ### Dockerfile
 
@@ -64,7 +64,7 @@ The project README (“xo”). xo is the command line for the [XO
 Cloud](https://dev.xo.builders) core API. Every endpoint is a command, and xo sends your XO
 API key on each request without ever printing it.
 
-[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 18587 bytes
+[`README.md`](https://github.com/quirq-ai/xo/blob/main/README.md) · code · 18770 bytes
 
 ### app.py
 
@@ -82,4 +82,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/xo/blob/main/pyproject.toml) · code · 880 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

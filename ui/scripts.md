@@ -8,18 +8,18 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### build-registry.mjs
 
-Builds public/r/*.json from registry.json. node scripts/build-registry.mjs (or: bun run
-registry:build — runs before dev and build) `homepage` in registry.json is the one place the
+Builds public/r/*.json from registry.json. bun run registry:build (or: bun scripts/build-
+registry.mjs — runs before dev and build) `homepage` in registry.json is the one place the
 registry URL lives. Items that depend on other items in this registry need full URLs (so
 `shadcn add <url>` works with no setup), so this rewrites every such registryDependency to
 `${homepage}/r/<name>.json` before building.
 
-[`scripts/build-registry.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/build-registry.mjs) · code · 1922 bytes
+[`scripts/build-registry.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/build-registry.mjs) · code · 1921 bytes
 
 ### generate-registry.mjs
 
 Generates registry items for every Astryx component, block template and page template.
 
-[`scripts/generate-registry.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/generate-registry.mjs) · code · 12831 bytes
+[`scripts/generate-registry.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/generate-registry.mjs) · code · 12842 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

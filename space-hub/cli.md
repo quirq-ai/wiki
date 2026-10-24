@@ -13,15 +13,16 @@ reproducible installs. Treat this as a generated blob: read the companion manife
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`cli/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package-lock.json) · lockfile · 20235 bytes
+[`cli/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package-lock.json) · lockfile · 20287 bytes
 
 ### package.json
 
 npm package manifest for `spacehub` v0.1.0. spacehub client: a gh-style CLI plus the git
-remote helper (git clone/push/fetch spacehub://owner/space). CLI bins: `spacehub`, `git-
-remote-spacehub`. Scripts: `build`, `typecheck`, `generate`.
+remote helper (git clone/push/fetch quirq://hub.quirq.dev/owner/space). CLI bins:
+`spacehub`, `git-remote-quirq`, `git-remote-spacehub`. Scripts: `build`, `typecheck`,
+`generate`, `test`.
 
-[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 878 bytes
+[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 1006 bytes
 
 ### tsconfig.json
 
@@ -30,4 +31,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`cli/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/tsconfig.json) · code · 224 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

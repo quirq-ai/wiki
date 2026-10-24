@@ -179,4 +179,4 @@ Workspace discovery — every project the watcher should track. Functions:
 
 [`services/cowork_agent/visualizer/workspace_index.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace_index.py) · code · 3268 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

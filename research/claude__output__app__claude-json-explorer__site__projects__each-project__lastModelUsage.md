@@ -13,4 +13,4 @@ Research”. projects[&lt;project path&gt;].lastModelUsage · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage/index.html) · code · 16134 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

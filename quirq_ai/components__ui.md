@@ -95,4 +95,4 @@ export const SOCIAL_LINKS = [ { label: "X", href: "https://x.com/quirq_ai" }, { 
 
 [`components/ui/social-links.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/components/ui/social-links.tsx) · code · 2714 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

@@ -19,6 +19,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **galileo** | public | [`galileo/`](galileo/_index.md) | [galileo](https://github.com/quirq-ai/galileo) |
 | **gardener** | public | [`gardener/`](gardener/_index.md) | [gardener](https://github.com/quirq-ai/gardener) |
 | **gate** | public | [`gate/`](gate/_index.md) | [gate](https://github.com/quirq-ai/gate) |
+| **github-activity**<br>Public activity dashboard for quirq-ai's public GitHub repos | public | [`github-activity/`](github-activity/_index.md) | [github-activity](https://github.com/quirq-ai/github-activity) |
 | **infra-config** | public | [`infra-config/`](infra-config/_index.md) | [infra-config](https://github.com/quirq-ai/infra-config) |
 | **innernet** | public | [`innernet/`](innernet/_index.md) | [innernet](https://github.com/quirq-ai/innernet) |
 | **installer** | public | [`installer/`](installer/_index.md) | [installer](https://github.com/quirq-ai/installer) |
@@ -44,6 +45,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **toolchains** | public | [`toolchains/`](toolchains/_index.md) | [toolchains](https://github.com/quirq-ai/toolchains) |
 | **ui** | public | [`ui/`](ui/_index.md) | [ui](https://github.com/quirq-ai/ui) |
 | **vangogh** | public | [`vangogh/`](vangogh/_index.md) | [vangogh](https://github.com/quirq-ai/vangogh) |
+| **vercel-activity**<br>Public dashboard of Vercel deployment activity for the projects deployed from our workspace | public | [`vercel-activity/`](vercel-activity/_index.md) | [vercel-activity](https://github.com/quirq-ai/vercel-activity) |
 | **website**<br>website: code and deploy of the public quirq.ai site | public | [`website/`](website/_index.md) | [website](https://github.com/quirq-ai/website) |
 | **xo**<br>product: xo, the command line for the XO Cloud API | public | [`xo/`](xo/_index.md) | [xo](https://github.com/quirq-ai/xo) |
 | **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
@@ -55,4 +57,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-23 10:36 UTC._
+_Generated 2026-10-24 09:54 UTC._

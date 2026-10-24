@@ -16,4 +16,4 @@ Automated test file.
 
 [`test/core.test.ts`](https://github.com/quirq-ai/cli-console/blob/main/test/core.test.ts) · code · 8073 bytes
 
-_Generated 2026-10-23 10:35 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

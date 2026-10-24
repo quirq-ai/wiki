@@ -8,19 +8,19 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### package-lock.json
 
-Package-manager lockfile (package-lock.json, 5.4 KB). It pins the exact dependency tree for
+Package-manager lockfile (package-lock.json, 55.5 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`module/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package-lock.json) · lockfile · 5525 bytes
+[`module/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package-lock.json) · lockfile · 56869 bytes
 
 ### package.json
 
 npm package manifest for `spacehub-module` v0.1.0. SpacetimeDB module for spacehub: owners,
-spaces, refs and git objects. Scripts: `build`, `typecheck`.
+spaces, refs and git objects. Scripts: `build`, `typecheck`, `test`.
 
-[`module/package.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package.json) · code · 355 bytes
+[`module/package.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package.json) · code · 405 bytes
 
 ### tsconfig.json
 
@@ -29,4 +29,11 @@ file for the full document.
 
 [`module/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/module/tsconfig.json) · code · 597 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+### vitest.config.ts
+
+export default defineConfig({ plugins: [spacetimedbModuleTestPlugin()], test: { include:
+['test/**/*.test.ts'] } }) Provides a default export as the module's public entry.
+
+[`module/vitest.config.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/vitest.config.ts) · code · 248 bytes
+
+_Generated 2026-10-24 09:54 UTC from `main`._

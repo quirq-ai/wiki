@@ -31,4 +31,4 @@ argus pricing refresh writes into the user's data dir, not the package. Function
 
 [`tests/cli/test_pricing_refresh_cli.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/cli/test_pricing_refresh_cli.py) · code · 1902 bytes
 
-_Generated 2026-10-23 10:35 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

@@ -12,4 +12,4 @@ HTML document `index.html` titled “mcpServers · XO Research”. mcpServers ·
 
 [`claude/output/app/claude-json-explorer/site/mcpServers/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/mcpServers/index.html) · code · 15747 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

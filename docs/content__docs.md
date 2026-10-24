@@ -75,7 +75,7 @@ Markdown page “Install qq”. Put qq and qqsync on your machine in three copy-
 (four on a Mac), check them, and know what to do on a Mac. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 9807 bytes
+[`content/docs/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/install.mdx) · code · 10767 bytes
 
 ### meta.json
 
@@ -122,4 +122,4 @@ rendered by the docs site.
 
 [`content/docs/try-first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/try-first-build.mdx) · code · 2602 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

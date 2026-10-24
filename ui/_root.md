@@ -30,14 +30,14 @@ data. Read the relevant guide in node_modules/next/dist/docs/ (resolved from thi
 directory; in monorepos the next package may not be visible from the repo root) before
 writing any code. Heed deprecation notices.
 
-[`AGENTS.md`](https://github.com/quirq-ai/ui/blob/main/AGENTS.md) · code · 4286 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/ui/blob/main/AGENTS.md) · code · 4292 bytes
 
 ### README.md
 
-The project README (“XO UI registry”). A shadcn registry (plus docs site) for every Astryx
-component, block template and page template, built with Next.js.
+The project README (“Quirq UI registry”). A shadcn registry (plus docs site) for every
+Astryx component, block template and page template, built with Next.js.
 
-[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 3486 bytes
+[`README.md`](https://github.com/quirq-ai/ui/blob/main/README.md) · code · 3489 bytes
 
 ### biome.json
 
@@ -67,17 +67,17 @@ Provides a default export as the module's public entry.
 npm package manifest for `registryv2` v0.1.0. Scripts: `dev`, `predev`, `build`, `prebuild`,
 `start`, `lint`, `format`, `typecheck`, `registry:generate`, `registry:build`.
 
-[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 1463 bytes
+[`package.json`](https://github.com/quirq-ai/ui/blob/main/package.json) · code · 1461 bytes
 
 ### registry.json
 
-Large text file (474.0 KB), over the generator's 256 KB parse cap. Only a prefix was
+Large text file (474.2 KB), over the generator's 256 KB parse cap. Only a prefix was
 inspected. Opening lines: { "$schema": "https://ui.shadcn.com/schema/registry.json", "name":
-"xo-ui-registry", "homepage": "https://ui.quirq.dev", "items": [ { "name": "astryx-base",
-"type": "registry:item", "title": "XO UI base", "description": "Installs XO UI core + the
-neutral theme packages.
+"quirq-ui-registry", "homepage": "https://ui.quirq.dev", "items": [ { "name": "astryx-base",
+"type": "registry:item", "title": "Quirq UI base", "description": "Installs Quirq UI core +
+the neutral theme packages.
 
-[`registry.json`](https://github.com/quirq-ai/ui/blob/main/registry.json) · huge · 485365 bytes
+[`registry.json`](https://github.com/quirq-ai/ui/blob/main/registry.json) · huge · 485545 bytes
 
 ### theme.template.ts
 
@@ -93,4 +93,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`tsconfig.json`](https://github.com/quirq-ai/ui/blob/main/tsconfig.json) · code · 670 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

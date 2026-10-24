@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-10-23T10:36:28.036172+00:00",
+  "generated_at": "2026-10-24T09:54:20.056219+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -49,8 +49,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/docs",
-      "pushed_at": "2026-10-23T06:38:26Z",
-      "sha": "73482077621ca4df3669401f5f0406eb5d1a6e4c"
+      "pushed_at": "2026-10-24T06:30:49Z",
+      "sha": "2c4e7d084635f696b65bc686e48e5ffa77b31ec0"
     },
     {
       "name": "environment",
@@ -94,7 +94,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-10-22T17:11:09Z",
+      "pushed_at": "2026-10-23T21:04:10Z",
       "sha": "8681a0562de4197aec801371ed18f9ab75686e0f"
     },
     {
@@ -105,6 +105,15 @@
       "html_url": "https://github.com/quirq-ai/gate",
       "pushed_at": "2026-10-22T13:16:57Z",
       "sha": "d7234b758aaf111db7cffe062567b92cf6a4857d"
+    },
+    {
+      "name": "github-activity",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/github-activity",
+      "pushed_at": "2026-10-23T20:36:38Z",
+      "sha": "d4a8271f3ab2f4c703daf4379abf8087a52dc63b"
     },
     {
       "name": "infra-config",
@@ -211,7 +220,7 @@
       "archived": false,
       "default_branch": "quirq",
       "html_url": "https://github.com/quirq-ai/quirqy",
-      "pushed_at": "2026-10-21T16:16:46Z",
+      "pushed_at": "2026-10-23T19:33:03Z",
       "sha": "262ff7d284b91f6a76dc22114ce5e3ec4f92ca71"
     },
     {
@@ -238,7 +247,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-10-23T07:41:29Z",
+      "pushed_at": "2026-10-24T07:42:06Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -274,8 +283,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/setup",
-      "pushed_at": "2026-10-22T13:08:08Z",
-      "sha": "2680a55ab10ac6c09de8cc1e2be62164fe790afc"
+      "pushed_at": "2026-10-23T21:00:44Z",
+      "sha": "945d8d001c6fc3d0ad4868cdcce47d50d27d819a"
     },
     {
       "name": "space-hub",
@@ -283,8 +292,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/space-hub",
-      "pushed_at": "2026-10-23T07:19:20Z",
-      "sha": "7526bc3bd50f3870a41508f77cbd8d473fa2f7e3"
+      "pushed_at": "2026-10-24T09:48:58Z",
+      "sha": "d6eaae942b60896588de549fb39f6a1dd114b5d6"
     },
     {
       "name": "sync",
@@ -301,7 +310,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-10-23T05:02:42Z",
+      "pushed_at": "2026-10-24T04:47:30Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {
@@ -319,8 +328,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/ui",
-      "pushed_at": "2026-10-23T09:57:49Z",
-      "sha": "978b4fa1db949edbe82d2f7e8f1270b6d2efad0c"
+      "pushed_at": "2026-10-23T10:37:40Z",
+      "sha": "2834d85141ae81ad8be53e2adb88256fb1fb8853"
     },
     {
       "name": "vangogh",
@@ -330,6 +339,15 @@
       "html_url": "https://github.com/quirq-ai/vangogh",
       "pushed_at": "2026-10-08T17:06:25Z",
       "sha": "ee7e4fbaeb92fc97fa4427085c039a547bade0c4"
+    },
+    {
+      "name": "vercel-activity",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/vercel-activity",
+      "pushed_at": "2026-10-23T20:38:36Z",
+      "sha": "89336e0d5d21754b44f11ab3bc09ad7f76ac470a"
     },
     {
       "name": "website",
@@ -346,8 +364,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo",
-      "pushed_at": "2026-10-22T12:52:09Z",
-      "sha": "0546efd2f6f0839496ba5c64e9785fdd6c55d7c8"
+      "pushed_at": "2026-10-23T20:57:45Z",
+      "sha": "593cda7523d13cffb68fb34cfd75cc5448d920c9"
     },
     {
       "name": "xo-cowork-api",

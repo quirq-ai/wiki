@@ -13,4 +13,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`app/instants/project.json`](https://github.com/quirq-ai/euler/blob/main/app/instants/project.json) · code · 584 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:53 UTC from `main`._

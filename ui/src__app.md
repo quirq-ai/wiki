@@ -22,11 +22,11 @@ Astryx + Tailwind v4 layer order.
 
 ### layout.tsx
 
-export const metadata: Metadata = { title: { default: "XO UI registry", template: "%s · XO
-UI registry" }, description: "Every XO UI component, block and page template, distributed
-through a shadcn registry.", icons: { icon: "/favicon.svg" }, } Notable exports:
+export const metadata: Metadata = { title: { default: "Quirq UI registry", template: "%s ·
+Quirq UI registry" }, description: "Every Quirq UI component, block and page template,
+distributed through a shadcn registry.", icons: { icon: "/favicon.svg" }, } Notable exports:
 `RootLayout`, `metadata`.
 
-[`src/app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/layout.tsx) · code · 587 bytes
+[`src/app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/layout.tsx) · code · 596 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

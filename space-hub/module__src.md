@@ -13,11 +13,22 @@ Line diffs for the web UI: Myers' O(ND) algorithm plus unified hunks. Notable ex
 
 [`module/src/diff.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/diff.ts) · code · 3275 bytes
 
+### guide.ts
+
+The hub's guide: what it is, who can use it, how to use it, use cases. One source for both
+the full page (/-/guide) and the short version at the top of the home page. Keep it plain
+and short; the README has the rest. HUB is the remote name and URL scheme git uses (quirq,
+quirq://<host>/<space>/<project>). TODO: the sign-in wording still says anyone can register;
+on a hub that serves xo (SPACEHUB_XO_KEY), builders come from xo login instead.
+
+[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 10468 bytes
+
 ### index.ts
 
-spacehub: GitHub-shaped git hosting where the database is the server.
+spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
+two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 18050 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 46174 bytes
 
 ### markdown.ts
 
@@ -38,9 +49,10 @@ Notable exports: `objectHeader`, `Sha1`.
 ### store.ts
 
 Reading git data back out of the tables; shared by the push rules and the web UI. Notable
-exports: `objectKey`, `refKey`, `readObject`, `commitParents`, `Db`, `CHUNK_SIZE`.
+exports: `objectKey`, `refKey`, `memberKey`, `roleKey`, `ownsSpace`, `inSpace`,
+`readObject`, `commitParents`, and 3 more.
 
-[`module/src/store.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/store.ts) · code · 1589 bytes
+[`module/src/store.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/store.ts) · code · 2793 bytes
 
 ### style.ts
 
@@ -48,13 +60,15 @@ Look and page shell shared by the module's web UI and the web service (sign in, 
 import), so both halves of the site match. Notable exports: `shell`, `navFor`, `esc`, `CSS`,
 `PAGE_CSP`.
 
-[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 8205 bytes
+[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 10082 bytes
 
 ### ui.ts
 
 The web UI: a GitHub-like view of everything in the database, rendered to HTML inside the
-module. No JavaScript.
+module. Pages work without JavaScript; behind the server's proxy, live pages (home, spaces,
+projects) also load /-/live.js, which swaps in each new rendering the web service streams
+when their data changes.
 
-[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 49090 bytes
+[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 63756 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

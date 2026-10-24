@@ -97,4 +97,4 @@ not executable source.
 
 [`claude/output/report/2026-10-08-claude-code-session/fig-17-session-os.svg`](https://github.com/quirq-ai/research/blob/main/claude/output/report/2026-10-08-claude-code-session/fig-17-session-os.svg) · code · 7354 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._

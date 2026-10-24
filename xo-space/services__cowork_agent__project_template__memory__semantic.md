@@ -27,4 +27,4 @@ structural rules. One claim per line. No narrative.
 
 [`services/cowork_agent/project_template/memory/semantic/project-facts.md`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_template/memory/semantic/project-facts.md) · code · 141 bytes
 
-_Generated 2026-10-23 10:36 UTC from `main`._
+_Generated 2026-10-24 09:54 UTC from `main`._
