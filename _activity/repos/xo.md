@@ -4,7 +4,7 @@
 
 **Status:** Collected
 
-**Requested from:** 2026-10-08T11:33:02Z · **Last success:** 2026-10-24T11:04:40Z
+**Requested from:** 2026-10-08T11:33:02Z · **Last success:** 2026-10-25T11:33:57Z
 
 **Stored records:** 440
 
