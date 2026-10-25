@@ -46,4 +46,4 @@ Check the live claude_code install against its commands.json paths. Runnable as 
 
 [`config/agents/claude_code/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/troubleshoot.py) · code · 5192 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

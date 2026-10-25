@@ -72,4 +72,4 @@ export as the module's public entry. Automated test file.
 
 [`tests/workspace.test.mjs`](https://github.com/quirq-ai/euler/blob/main/tests/workspace.test.mjs) · code · 9451 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

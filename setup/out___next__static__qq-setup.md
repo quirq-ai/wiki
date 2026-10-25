@@ -27,4 +27,4 @@ self.__SSG_MANIFEST=new Set([]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
 
 [`out/_next/static/qq-setup/_ssgManifest.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/qq-setup/_ssgManifest.js) · code · 80 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

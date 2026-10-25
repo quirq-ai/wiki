@@ -42,4 +42,4 @@ its one layer. Only linux-x86_64 is built so far. Sections: `qq`, `toolchains.py
 
 [`tests/fixtures/xo-space.repo.toml`](https://github.com/quirq-ai/sync/blob/main/tests/fixtures/xo-space.repo.toml) · code · 982 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

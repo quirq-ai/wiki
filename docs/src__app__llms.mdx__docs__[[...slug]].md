@@ -13,4 +13,4 @@ export const revalidate = false Notable exports: `GET`, `generateStaticParams`,
 
 [`src/app/llms.mdx/docs/[[...slug]]/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/llms.mdx/docs/[[...slug]]/route.ts) · code · 646 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

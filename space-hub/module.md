@@ -36,4 +36,4 @@ export default defineConfig({ plugins: [spacetimedbModuleTestPlugin()], test: { 
 
 [`module/vitest.config.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/vitest.config.ts) · code · 248 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

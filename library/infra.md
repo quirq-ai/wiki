@@ -15,4 +15,4 @@ builds. Not onboarded: infra-config repos.toml does not list library. Sections: 
 
 [`infra/repo.toml`](https://github.com/quirq-ai/library/blob/claude/project-thread-152nwx/infra/repo.toml) · code · 513 bytes
 
-_Generated 2026-10-24 09:54 UTC from `claude/project-thread-152nwx`._
+_Generated 2026-10-25 10:15 UTC from `claude/project-thread-152nwx`._

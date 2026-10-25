@@ -60,4 +60,4 @@ Notable exports: `RepositoryApp`.
 
 [`src/components/QuirqApp/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqApp/index.tsx) · code · 10385 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

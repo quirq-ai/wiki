@@ -167,4 +167,4 @@ import { QUIRQ_ROLES } from '../../scripts/lib/quirq-catalog.mjs' Notable export
 
 [`src/lib/quirqRoles.ts`](https://github.com/quirq-ai/website/blob/main/src/lib/quirqRoles.ts) · code · 1485 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

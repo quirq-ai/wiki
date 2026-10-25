@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Spaces, collaborators and presence, run in SpacetimeDB's in-process module harness (no
 server needed): npm test. Automated test file.
 
-[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 11570 bytes
+[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 19272 bytes
 
 ### xo.test.ts
 
@@ -20,4 +20,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 4472 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

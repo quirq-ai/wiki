@@ -48,4 +48,4 @@ Window; hasErrors: boolean; agent?: string | null } Notable exports: `applyFilte
 
 [`dashboard/src/features/sessions/filters.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/sessions/filters.ts) · code · 1089 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

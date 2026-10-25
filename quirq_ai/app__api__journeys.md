@@ -23,4 +23,4 @@ deliberatel Notable exports: `GET`, `POST`, `dynamic`.
 
 [`app/api/journeys/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/api/journeys/route.ts) · code · 3380 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

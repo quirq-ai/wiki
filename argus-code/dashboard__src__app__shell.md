@@ -59,4 +59,4 @@ export type Crumb = string | { label: string; to: string } Notable exports: `Top
 
 [`dashboard/src/app/shell/TopBar.tsx`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/app/shell/TopBar.tsx) · code · 1236 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

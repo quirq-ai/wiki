@@ -16,4 +16,4 @@ action: z.literal("import") Notable exports: `GET`, `POST`, `runtime`, `dynamic`
 
 [`src/app/api/console/route.ts`](https://github.com/quirq-ai/cli-console/blob/main/src/app/api/console/route.ts) · code · 2534 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

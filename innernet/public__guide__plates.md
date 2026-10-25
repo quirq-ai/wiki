@@ -69,4 +69,4 @@ executable source.
 
 [`public/guide/plates/search.svg`](https://github.com/quirq-ai/innernet/blob/main/public/guide/plates/search.svg) · code · 49638 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

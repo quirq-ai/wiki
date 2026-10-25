@@ -20,4 +20,4 @@ dispatches. Notable exports: `GardenerPage`.
 
 [`app/gardener/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/gardener/page.tsx) · code · 14086 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

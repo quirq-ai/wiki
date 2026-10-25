@@ -46,4 +46,4 @@ consumed by the surrounding app or tooling.
 
 [`src/journeys/home-xo.json`](https://github.com/quirq-ai/docs/blob/main/src/journeys/home-xo.json) · code · 11700 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

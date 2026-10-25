@@ -21,14 +21,14 @@ and short; the README has the rest. HUB is the remote name and URL scheme git us
 quirq://<host>/<space>/<project>). TODO: the sign-in wording still says anyone can register;
 on a hub that serves xo (SPACEHUB_XO_KEY), builders come from xo login instead.
 
-[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 10468 bytes
+[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 12401 bytes
 
 ### index.ts
 
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 46174 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 60726 bytes
 
 ### markdown.ts
 
@@ -52,7 +52,7 @@ Reading git data back out of the tables; shared by the push rules and the web UI
 exports: `objectKey`, `refKey`, `memberKey`, `roleKey`, `ownsSpace`, `inSpace`,
 `readObject`, `commitParents`, and 3 more.
 
-[`module/src/store.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/store.ts) · code · 2793 bytes
+[`module/src/store.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/store.ts) · code · 2921 bytes
 
 ### style.ts
 
@@ -69,6 +69,6 @@ module. Pages work without JavaScript; behind the server's proxy, live pages (ho
 projects) also load /-/live.js, which swaps in each new rendering the web service streams
 when their data changes.
 
-[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 63756 bytes
+[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 71811 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

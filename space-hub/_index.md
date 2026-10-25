@@ -8,8 +8,8 @@ Git hosting stored in SpacetimeDB, laid out like GitHub
 - [Activity history](../_activity/repos/space-hub.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-24T09:48:58Z`
-- Snapshot SHA: `d6eaae942b60`
+- Last push: `2026-10-24T11:55:47Z`
+- Snapshot SHA: `5a3c65e004e1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -18,14 +18,14 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | (repository root) | 6 | [_root.md](_root.md) |
 | `cli` | 3 | [cli.md](cli.md) |
 | `cli/bin` | 3 | [cli__bin.md](cli__bin.md) |
-| `cli/src` | 11 | [cli__src.md](cli__src.md) |
-| `cli/src/module_bindings` | 41 | [cli__src__module_bindings.md](cli__src__module_bindings.md) |
+| `cli/src` | 16 | [cli__src.md](cli__src.md) |
+| `cli/src/module_bindings` | 55 | [cli__src__module_bindings.md](cli__src__module_bindings.md) |
 | `cli/src/module_bindings/types` | 2 | [cli__src__module_bindings__types.md](cli__src__module_bindings__types.md) |
-| `cli/test` | 4 | [cli__test.md](cli__test.md) |
+| `cli/test` | 6 | [cli__test.md](cli__test.md) |
 | `docker` | 4 | [docker.md](docker.md) |
 | `module` | 4 | [module.md](module.md) |
 | `module/src` | 8 | [module__src.md](module__src.md) |
 | `module/test` | 2 | [module__test.md](module__test.md) |
 | `scripts` | 3 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-24 09:54 UTC._
+_Generated 2026-10-25 10:15 UTC._

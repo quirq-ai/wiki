@@ -24,4 +24,4 @@ To rebuild the same release (a build-script change): bump revision. Sections: `t
 
 [`toolchains/python/toolchain.toml`](https://github.com/quirq-ai/toolchains/blob/main/toolchains/python/toolchain.toml) · code · 2330 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

@@ -36,4 +36,4 @@ script via `if __name__ == '__main__'`. Functions: `runtime_mounts`.
 
 [`scripts/list_runtime_mounts.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/list_runtime_mounts.py) · code · 2160 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

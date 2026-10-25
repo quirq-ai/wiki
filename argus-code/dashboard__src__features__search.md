@@ -32,4 +32,4 @@ untouched). Notable exports: `cleanSnippet`, `splitMarks`.
 
 [`dashboard/src/features/search/cleanSnippet.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/search/cleanSnippet.ts) · code · 947 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

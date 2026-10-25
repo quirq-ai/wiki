@@ -15,4 +15,4 @@ show, qqsync pin, or the qqsync.manifest library); never parse it any other way.
 
 [`infra/repo.toml`](https://github.com/quirq-ai/website/blob/main/infra/repo.toml) · code · 2014 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

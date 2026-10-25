@@ -15,4 +15,4 @@ Next APIs).
 
 [`src/app/docs/[[...slug]]/page.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/docs/[[...slug]]/page.tsx) · code · 2496 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

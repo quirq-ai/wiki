@@ -20,4 +20,4 @@ Shared core runtime: DB + repo + first-pass ingest + watcher + scheduler. Classe
 
 [`python/argus/core/runtime.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/core/runtime.py) · code · 7659 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

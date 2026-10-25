@@ -47,4 +47,4 @@ one HTML file. Provides a default export as the module's public entry.
 
 [`infra/output/app/infra-map/vite.config.ts`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/vite.config.ts) · code · 539 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

@@ -40,7 +40,7 @@ Container build file `Dockerfile`. Base image `--platform=$BUILDPLATFORM`. Expos
 
 The project README (“spacehub”). Git hosting stored in SpacetimeDB, laid out like GitHub.
 
-[`README.md`](https://github.com/quirq-ai/space-hub/blob/main/README.md) · code · 24234 bytes
+[`README.md`](https://github.com/quirq-ai/space-hub/blob/main/README.md) · code · 31512 bytes
 
 ### docker-compose.yml
 
@@ -51,4 +51,4 @@ server behind a Caddy TLS front.
 
 [`docker-compose.yml`](https://github.com/quirq-ai/space-hub/blob/main/docker-compose.yml) · code · 1202 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

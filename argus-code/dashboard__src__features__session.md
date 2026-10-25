@@ -62,4 +62,4 @@ cumulative(turns.ma Notable exports: `toolMix`, `orderTurns`, `turnTokens`, `tur
 
 [`dashboard/src/features/session/model.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/session/model.ts) · code · 1617 bytes
 
-_Generated 2026-10-24 09:53 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

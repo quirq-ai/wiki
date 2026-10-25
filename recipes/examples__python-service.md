@@ -32,4 +32,4 @@ __name__ == '__main__'`. Classes: `Handler`.
 
 [`examples/python-service/server.py`](https://github.com/quirq-ai/recipes/blob/main/examples/python-service/server.py) · code · 979 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

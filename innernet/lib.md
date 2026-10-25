@@ -208,4 +208,4 @@ is plain JSON so the index can be inspected by hand. Notable exports: `PageKind`
 
 [`lib/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/types.ts) · code · 7948 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._

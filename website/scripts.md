@@ -65,4 +65,4 @@ star counts, falling back to the stars in the apps snapshot. It needs no token. 
 
 [`scripts/sync-quirq-projects.mjs`](https://github.com/quirq-ai/website/blob/main/scripts/sync-quirq-projects.mjs) · code · 8865 bytes
 
-_Generated 2026-10-24 09:54 UTC from `main`._
+_Generated 2026-10-25 10:15 UTC from `main`._
