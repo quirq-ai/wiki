@@ -14,4 +14,4 @@ planets, Pluto, Ceres, comet nuclei). Notable exports: `proceduralTexture`,
 
 [`src/textures/procedural.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/textures/procedural.js) · code · 11016 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

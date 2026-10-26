@@ -81,4 +81,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23418 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:40 UTC from `main`._

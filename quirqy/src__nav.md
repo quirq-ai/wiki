@@ -12,12 +12,12 @@ Path routes for Quirqy instruments. Each section has a stable URL so it can be b
 and shared. Notable exports: `pathForMode`, `titleForMode`, `modeFromLocation`, `syncUrl`,
 `bindPopState`, `ROUTES`.
 
-[`src/nav/routes.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/nav/routes.js) · code · 2652 bytes
+[`src/nav/routes.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/nav/routes.js) · code · 2737 bytes
 
 ### routes.test.js
 
 const location = path => new URL(path, 'https://quirqy.example') Automated test file.
 
-[`src/nav/routes.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/nav/routes.test.js) · code · 2640 bytes
+[`src/nav/routes.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/nav/routes.test.js) · code · 3173 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

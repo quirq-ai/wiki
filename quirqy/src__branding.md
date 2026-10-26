@@ -13,7 +13,7 @@ selectors include `brand-logo-button`, `brand-logo-edit`, `brand-mark`, `logo-ed
 header`, `logo-editor-close`, `logo-editor-preview`, `logo-editor-formats`, `logo-editor-
 actions`. Defines or consumes CSS custom properties (design tokens).
 
-[`src/branding/logo-editor.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-editor.css) · code · 3460 bytes
+[`src/branding/logo-editor.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-editor.css) · code · 3489 bytes
 
 ### logo-editor.js
 
@@ -21,7 +21,7 @@ import { DEFAULT_LOGO_URL, MAX_LOGO_DATA_URL_LENGTH, getLogoUrl, hasCustomLogo,
 saveCustomLogo, resetCustomLogo, subscribeLogo, } from './logo-preference.js' Notable
 exports: `prepareLogo`, `mountLogoEditor`.
 
-[`src/branding/logo-editor.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-editor.js) · code · 8431 bytes
+[`src/branding/logo-editor.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-editor.js) · code · 8497 bytes
 
 ### logo-preference.js
 
@@ -41,4 +41,4 @@ Automated test file.
 
 [`src/branding/logo-preference.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-preference.test.js) · code · 9310 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

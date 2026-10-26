@@ -23,4 +23,4 @@ tests.
 
 [`tests/adapters/test_registry.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/adapters/test_registry.py) · code · 2029 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

@@ -11,13 +11,14 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Build metadata-only example snapshots from precloned, public bare repositories. This script
 reads Git objects; it never checks out or executes repository code.
 
-[`scripts/build-data-examples.mjs`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/build-data-examples.mjs) · code · 12990 bytes
+[`scripts/build-data-examples.mjs`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/build-data-examples.mjs) · code · 13700 bytes
 
 ### repository-build.test.js
 
 const root = fileURLToPath(new URL('../', import.meta.url)); const modes = ['data',
-'activity']; let output, directory, entry Notable exports: `mount`. Automated test file.
+'activity', 'about']; let output, directory, entry Notable exports: `mount`. Automated test
+file.
 
-[`scripts/repository-build.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/repository-build.test.js) · code · 5192 bytes
+[`scripts/repository-build.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/repository-build.test.js) · code · 5236 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

@@ -74,4 +74,4 @@ pydantic schemas for one line of a Claude Code JSONL session log. Classes: `_Pas
 
 [`python/argus/adapters/claude_code/schemas.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/adapters/claude_code/schemas.py) · code · 2095 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

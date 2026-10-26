@@ -14,4 +14,4 @@ exports: `MetricStrip`, `Metric`, `MetricStripProps`.
 
 [`registry/astryx/metric-strip/metric-strip.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/metric-strip/metric-strip.tsx) · code · 1977 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

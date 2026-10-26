@@ -88,4 +88,4 @@ transpile("../engine/workspa Automated test file.
 
 [`tests/workspace.test.mjs`](https://github.com/quirq-ai/instants/blob/main/tests/workspace.test.mjs) · code · 5577 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

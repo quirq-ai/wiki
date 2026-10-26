@@ -13,4 +13,4 @@ type Params = PageProps["params"] Notable exports: `generateStaticParams`,
 
 [`src/app/docs/[kind]/[name]/page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/docs/[kind]/[name]/page.tsx) · code · 2263 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

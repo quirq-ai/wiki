@@ -21,7 +21,7 @@ session. The small pointer can be saved synchronously on seek. Notable exports:
 `saveRepositoryDataset`, `updateRepositorySelection`, `flushRepositorySession`,
 `clearRepositorySession`.
 
-[`src/repository/session.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/repository/session.js) · code · 20112 bytes
+[`src/repository/session.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/repository/session.js) · code · 23090 bytes
 
 ### session.test.js
 
@@ -31,6 +31,6 @@ fullName: 'owner/repo', url: 'https://github.com/owner/repo', branch: 'main', so
 'github', headSha: ref(seed + 1) }, files: [{ path: 'src/a.js', size: 123, existsAtHead:
 true }], commits: [seed Automated test file.
 
-[`src/repository/session.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/repository/session.test.js) · code · 19699 bytes
+[`src/repository/session.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/repository/session.test.js) · code · 22723 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

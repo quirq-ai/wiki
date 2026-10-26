@@ -31,4 +31,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/golden` | 1 | [tests__golden.md](tests__golden.md) |
 | `timing` | 1 | [timing.md](timing.md) |
 
-_Generated 2026-10-25 10:15 UTC._
+_Generated 2026-10-26 11:39 UTC._

@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `LoginTwoCol
 
 [`registry/astryx/templates/login-split/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/login-split/page.tsx) · code · 10267 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

@@ -16,4 +16,4 @@ Notable exports: `Console`. Marked `'use client'` so it runs in the browser.
 
 [`src/components/console.tsx`](https://github.com/quirq-ai/cli-console/blob/main/src/components/console.tsx) · code · 22904 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

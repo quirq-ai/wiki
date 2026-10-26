@@ -446,4 +446,4 @@ public entry.
 
 [`cli/src/module_bindings/xo_put_record_reducer.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/module_bindings/xo_put_record_reducer.ts) · code · 428 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

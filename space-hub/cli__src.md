@@ -145,4 +145,4 @@ xo.quirq.dev's door to the hub, served by the web service at /-/api/xo/v1/.
 
 [`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 8619 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

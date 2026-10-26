@@ -8,7 +8,7 @@ Git hosting stored in SpacetimeDB, laid out like GitHub
 - [Activity history](../_activity/repos/space-hub.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-24T11:55:47Z`
+- Last push: `2026-10-26T10:41:12Z`
 - Snapshot SHA: `5a3c65e004e1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -28,4 +28,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `module/test` | 2 | [module__test.md](module__test.md) |
 | `scripts` | 3 | [scripts.md](scripts.md) |
 
-_Generated 2026-10-25 10:15 UTC._
+_Generated 2026-10-26 11:39 UTC._

@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Data Lab uses Quirqy's stage and HUD, with its own repository state. Notable exports:
 `mountDataLab`.
 
-[`src/data-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/app.js) · code · 22193 bytes
+[`src/data-lab/app.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/app.js) · code · 24995 bytes
 
 ### author-profile.js
 
@@ -49,7 +49,14 @@ bubbleHeight: 220 } Automated test file.
 Internal state used by the pinned Three.js TrackballControls implementation. Notable
 exports: `DataLabControls`.
 
-[`src/data-lab/data-controls.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/data-controls.js) · code · 12265 bytes
+[`src/data-lab/data-controls.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/data-controls.js) · code · 12655 bytes
+
+### data-controls.test.js
+
+A small DOM event surface, with capture ordering and abort cleanup. The real Three controls
+receive the pointer events and update an actual camera. Automated test file.
+
+[`src/data-lab/data-controls.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/data-controls.test.js) · code · 10376 bytes
 
 ### encoding.js
 
@@ -64,7 +71,7 @@ Both snapshots ship with Data Lab: choosing an example never fetches GitHub. Not
 exports: `getExampleDataset`, `DEFAULT_EXAMPLE_URL`, `DEFAULT_EXAMPLE_COMMIT_LIMIT`,
 `EXAMPLE_REPOSITORIES`.
 
-[`src/data-lab/examples.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples.js) · code · 2268 bytes
+[`src/data-lab/examples.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples.js) · code · 2539 bytes
 
 ### examples.test.js
 
@@ -74,21 +81,34 @@ test('the only built-in examples are the two requested repositories, with XO as 
 assert.equal(DEFAULT_EXAMPLE_URL, EXAMPLE_REPOSITORIES[0].url);
 assert.equal(getExampleDataset().repository.fullNam Automated test file.
 
-[`src/data-lab/examples.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples.test.js) · code · 4647 bytes
+[`src/data-lab/examples.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples.test.js) · code · 6441 bytes
+
+### github-size-history.test.js
+
+const response = data => ({ ok: true, headers: new Headers(), json: async () => data });
+const commit = (sha, parent, tree, files = [{ filename: 'a', status: 'modified', additions:
+0, deletions: 0 }]) => ({ sha, parents: parent ? [{ sha: parent }] : [], files, commit: {
+tree: { sha: tree }, message: sha, author: { name: 'Example' } }, }); const tree = size =
+Automated test file.
+
+[`src/data-lab/github-size-history.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/github-size-history.test.js) · code · 5267 bytes
 
 ### github.js
 
 Public GitHub metadata only. No source execution, credentials or backend. Notable exports:
 `parseRepositoryUrl`, `loadRepository`, `DEFAULT_REPOSITORY_COMMIT_LIMIT`.
 
-[`src/data-lab/github.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/github.js) · code · 10045 bytes
+[`src/data-lab/github.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/github.js) · code · 12751 bytes
 
 ### guide.js
 
-const hex = value => #${value.toString(16).padStart(6, '0')}; const icons = { trunk: '',
-branch: '', roots: '', leaf: '', atom: '', carbon: 'C', } Notable exports: `DataGuide`.
+const formatBytes = value => { const bytes = Math.max(0, Number(value) || 0); const units =
+['B', 'KiB', 'MiB', 'GiB', 'TiB']; const unit = Math.min(units.length - 1, bytes ?
+Math.floor(Math.log(bytes) / Math.log(1024)) : 0); return ${(bytes / 1024 **
+unit).toLocaleString(undefined, { maximumFractionDigits: 2 })} ${units[unit]}; } Notable
+exports: `DataGuide`.
 
-[`src/data-lab/guide.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/guide.js) · code · 26987 bytes
+[`src/data-lab/guide.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/guide.js) · code · 30719 bytes
 
 ### layout.js
 
@@ -112,7 +132,7 @@ Automated test file.
 Deterministic file identities and replay states, shared by both visualizations. Notable
 exports: `buildModel`, `stateAt`, `activityInsights`.
 
-[`src/data-lab/model.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/model.js) · code · 8332 bytes
+[`src/data-lab/model.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/model.js) · code · 11443 bytes
 
 ### model.test.js
 
@@ -122,7 +142,7 @@ const repository = { name: 'sample', fullName: 'example/sample', source: 'demo',
 date: '', url: '', files }); const dataset = (files, commits) => ({ repository, files, co
 Automated test file.
 
-[`src/data-lab/model.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/model.test.js) · code · 11131 bytes
+[`src/data-lab/model.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/model.test.js) · code · 11467 bytes
 
 ### molecule-activity.js
 
@@ -218,12 +238,12 @@ new Se Notable exports: `MoleculeScene`.
 ### panel.js
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '':
-'&gt;', '"': '&quot;', "'": '&#39;' }[char])); const fmt = value => Number(value ||
-0).toLocaleString(); const fmtLength = value => Number(value || 0).toLocaleString(undefined,
-{ maximumFractionDigits: 2 }); const rootGrowthStep = layout =>
-layout?.lengthGrowth?.lengthP Notable exports: `DataPanel`.
+'&gt;', '"': '&quot;', "'": '&#39;' }[char])); const formatBytes = value => { const bytes =
+Math.max(0, Number(value) || 0); const units = ['B', 'KiB', 'MiB', 'GiB', 'TiB']; const unit
+= Math.min(units.length - 1, bytes ? Math.floor(Math.log(bytes) / Math.log(1024)) : 0
+Notable exports: `DataPanel`.
 
-[`src/data-lab/panel.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/panel.js) · code · 31582 bytes
+[`src/data-lab/panel.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/panel.js) · code · 34670 bytes
 
 ### root-activity.js
 
@@ -242,6 +262,43 @@ buildRootActivityHistory(model) }; }; const idFor = (model, path) => model.nodes
 => n Automated test file.
 
 [`src/data-lab/root-activity.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-activity.test.js) · code · 18036 bytes
+
+### root-attention.js
+
+Classification colors encode the latest touched-file byte comparison, not file type, diff
+line counts, or how much horizontal attention it has received. Notable exports:
+`buildRootAttentionHistory`, `rootAttentionAt`, `ROOT_ATTENTION_COLORS`.
+
+[`src/data-lab/root-attention.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-attention.js) · code · 7637 bytes
+
+### root-attention.test.js
+
+const change = (path, status = 'modified', extra = {}) => ({ path, status, ...extra });
+const snapshot = (sha, entries) => createSizeSnapshot(entries.map(([path, size]) => ({ path,
+size })), { sha }); function fixture(commits, trees) { return { repository: { name: 'root-
+attention' }, files: trees.at(-1).map(([path, size]) => ({ path, size })), commits, sizeH
+Automated test file.
+
+[`src/data-lab/root-attention.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-attention.test.js) · code · 14538 bytes
+
+### root-classification-layout.js
+
+const compare = (a, b) => a b ? 1 : 0; const compareEntry = (a, b) => compare(a.path,
+b.path) || compare(a.id || '', b.id || '') Notable exports:
+`createRootClassificationLayout`, `ROOT_CLASSIFICATION_ROW_PITCH`,
+`ROOT_CLASSIFICATION_TIER_PITCH`, `ROOT_CLASSIFICATION_LABEL_SCALE`.
+
+[`src/data-lab/root-classification-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-classification-layout.js) · code · 7929 bytes
+
+### root-classification-layout.test.js
+
+const make = paths => ({ repository: { name: 'classification' }, nodes: paths.map((path,
+index) => ({ id: f${index}, path })) }); const parentOf = path => path.includes('/') ?
+path.slice(0, path.lastIndexOf('/')) : ''; function assertHierarchy(layout) { const folders
+= new Map(layout.folders.map(folder => [folder.path, folder])); assert.deepEqual(folders.get
+Automated test file.
+
+[`src/data-lab/root-classification-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-classification-layout.test.js) · code · 11853 bytes
 
 ### root-geometry.js
 
@@ -262,27 +319,34 @@ Automated test file.
 
 const compare = (a, b) => String(a) String(b) ? 1 : 0; const clamp = (value, low, high) =>
 Math.max(low, Math.min(high, value)); Half a CSS pixel of clearance avoids touching glyph
-rows and browser rounding turning an exact shared edge into a visible overlap. const
-intersects = (a, b) => a.left b.left && a.top b.top; const overlapArea = (a, b) => { const
-hei Notable exports: `placeRootLabels`, `placeReadableRootLabels`.
+rows and browser rounding turning an exact shared edge into a visible overlap.
 
-[`src/data-lab/root-label-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-label-layout.js) · code · 14707 bytes
+[`src/data-lab/root-label-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-label-layout.js) · code · 17019 bytes
 
 ### root-label-layout.test.js
 
 const overlaps = (a, b) => a.left b.left && a.top b.top; const file = (key, x, y, width =
 80) => ({ key, kind: 'file', x, y, width, height: 22 }) Automated test file.
 
-[`src/data-lab/root-label-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-label-layout.test.js) · code · 10009 bytes
+[`src/data-lab/root-label-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-label-layout.test.js) · code · 13453 bytes
 
 ### root-labels.js
 
 const basename = path => String(path || '').split('/').filter(Boolean).pop() || ''; const
 finite = value => Number.isFinite(value); const FILE_FONT = 11; const FILE_LINE = 14; const
-FONT_FAMILY = 'ui-monospace,SFMono-Regular,Consolas,monospace' Notable exports:
-`RootLabels`.
+FONT_FAMILY = 'ui-monospace,SFMono-Regular,Consolas,monospace'; const ATTENTION_TEXT_COLORS
+= Object.fromEntries(Object.entries(ROOT_ATTENTION_COLORS) .map(([direction, color]) =
+Notable exports: `RootLabels`.
 
-[`src/data-lab/root-labels.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-labels.js) · code · 11562 bytes
+[`src/data-lab/root-labels.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-labels.js) · code · 16948 bytes
+
+### root-labels.test.js
+
+RootLabels needs text measurement and CSS2D element ownership, not a browser renderer. Keep
+the DOM stub local to each test and retain the real placement, camera projection and
+CSS2DObject lifecycle. Automated test file.
+
+[`src/data-lab/root-labels.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-labels.test.js) · code · 8761 bytes
 
 ### root-layout.js
 
@@ -305,7 +369,7 @@ path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '' Automated test fi
 export { ROOT_LENGTH_PER_TOUCH } from './root-proportions.js'; const DEFAULT_PADDING = 2
 Notable exports: `rootCurveLength`, `createRootLengthLayout`, `ROOT_LENGTH_PER_TOUCH`.
 
-[`src/data-lab/root-length-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-length-layout.js) · code · 6823 bytes
+[`src/data-lab/root-length-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-length-layout.js) · code · 8681 bytes
 
 ### root-length-layout.test.js
 
@@ -315,7 +379,7 @@ row.kind, id: row.id, path: row.path, position: row.position, curve: row.curve }
 near = (actual, expected, tolerance = 1e-7) => assert.ok(Math.abs(actual - expected)
 Automated test file.
 
-[`src/data-lab/root-length-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-length-layout.test.js) · code · 13747 bytes
+[`src/data-lab/root-length-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-length-layout.test.js) · code · 21964 bytes
 
 ### root-proportions.js
 
@@ -343,7 +407,7 @@ new Map(); const touchValue = value => Math.max(0, Number(value) || 0); const sc
 value => { const scale = Number(value); if (!Number.isFinite(scale) || scale Array.from
 Notable exports: `rootRopeRadius`, `createRootRopeBatch`, `setRootRopeShape`
 
-[`src/data-lab/root-rope-geometry.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-rope-geometry.js) · code · 18879 bytes
+[`src/data-lab/root-rope-geometry.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-rope-geometry.js) · code · 19756 bytes
 
 ### root-rope-geometry.test.js
 
@@ -351,17 +415,27 @@ import { ROOT_VINE_RADIUS, ROOT_ROPE_PITCH, rootRopeRadius, createRootRopeBatch,
 setRootRopeShape, setRootRopeColor, finishRootRopeUpdate, } from './root-rope-geometry.js'
 Automated test file.
 
-[`src/data-lab/root-rope-geometry.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-rope-geometry.test.js) · code · 17731 bytes
+[`src/data-lab/root-rope-geometry.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-rope-geometry.test.js) · code · 21355 bytes
 
 ### root-scene.js
 
 const asVector = point => new THREE.Vector3(...point); const toSet = value => value
 instanceof Set ? value : new Set(value || []); const makeCurve = points => new
 THREE.CubicBezierCurve3(...points.map(asVector)); const STRAND_COLOR = new
-THREE.Color(0xb0926f); const SELECTED_COLOR = new THREE.Color(0xe1eefc); const ease = value
-=> value * value * (3 - 2 * va Notable exports: `RepositoryRoots`.
+THREE.Color(0xb0926f); const SELECTED_COLOR = new THREE.Color(0xe1eefc); export const
+ROOT_NEUTRAL_ALPHA = 0.18; const hig Notable exports: `RepositoryRoots`
 
-[`src/data-lab/root-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-scene.js) · code · 26290 bytes
+[`src/data-lab/root-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-scene.js) · code · 34006 bytes
+
+### root-scene.test.js
+
+function renderer() { const roots = Object.create(RepositoryRoots.prototype); const labels =
+{ records: [], files: [], mode: 'organic', clear() { this.records = []; this.files = []; },
+setFocusFolder(path) { this.focusedPath = path || null; }, setPresentationMode(mode) {
+this.mode = mode; }, setLayout(folders, files) { this.files = [...files].map(([key, sour
+Automated test file.
+
+[`src/data-lab/root-scene.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/root-scene.test.js) · code · 20033 bytes
 
 ### root-surface.js
 
@@ -415,6 +489,23 @@ THREE.Vector3(); const ease = value => value value instanceof Set ? value : new 
 
 [`src/data-lab/scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/scene.js) · code · 27244 bytes
 
+### size-history.js
+
+Git blob sizes are bytes. Null means unknown; an empty file is exactly zero. Notable
+exports: `createSizeSnapshot`, `sizeSummary`, `fileBytes`.
+
+[`src/data-lab/size-history.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/size-history.js) · code · 2011 bytes
+
+### size-history.test.js
+
+const tree = (sha, entries, options) => createSizeSnapshot(entries.map(([path, size]) => ({
+path, size })), { sha, ...options }); const change = (path, status = 'modified', extra = {})
+=> ({ path, status, additions: 0, deletions: 0, ...extra }); const commit = (sha, files) =>
+({ sha, files }); const bytes = frame => Object.fromEntries(frame.files.filter(file
+Automated test file.
+
+[`src/data-lab/size-history.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/size-history.test.js) · code · 7436 bytes
+
 ### style.css
 
 Data Lab uses Observatory's shared HUD primitives and leaves the scene full-screen. Leading
@@ -438,7 +529,7 @@ const headLayout = createRootLayout(model, { activeIds: head.activeIds, paths: n
 Map(head.files.map(file => [file.id, file.path])) }); const repositoryWidth =
 headLayout.footp Automated test file.
 
-[`src/data-lab/tree-framing.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-framing.test.js) · code · 18986 bytes
+[`src/data-lab/tree-framing.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-framing.test.js) · code · 26691 bytes
 
 ### tree-layout.js
 
@@ -446,9 +537,9 @@ const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5)); const TAU = Math.PI * 2; cons
 b) => a.map((value, index) => value + b[index]); const scale = (value, factor) =>
 value.map(component => component * factor); const lerp = (a, b, amount) => a.map((value,
 index) => value + (b[index] - value) * amount); const normalize = value => scale(value, 1 /
-(Math Notable exports: `leafSizing`, `leafScale`, `trunkRadius`, `createTreeLayout`
+(Math Notable exports: `leafSizing`, `leafScale`, `treeByteScale`, `trunkRadius`
 
-[`src/data-lab/tree-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-layout.js) · code · 12905 bytes
+[`src/data-lab/tree-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-layout.js) · code · 11861 bytes
 
 ### tree-layout.test.js
 
@@ -458,16 +549,16 @@ createTreeLayout(model); assert.equal(layout.nodes.length, model.nodes.length);
 assert.equal(new Set(layout.nodes.map(node => node.id)).size, model.nodes.length); const
 folders = new Map(lay Automated test file.
 
-[`src/data-lab/tree-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-layout.test.js) · code · 10699 bytes
+[`src/data-lab/tree-layout.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-layout.test.js) · code · 15399 bytes
 
 ### tree-scene.js
 
 const DURATION = 1.6; const GROUND_Y = -40; const PRESENTATION = { tree: { canopy: 1, roots:
 0.32 }, roots: { canopy: 0.24, roots: 1 } }; const FLAT_GROUND = { height: 0, radiusX: 50,
 radiusZ: 30, depthWeight: 0.2, active: false }; const UP = new THREE.Vector3(0, 1, 0); const
-WHITE = new THREE.Color(0xf2f0d8); const FOLIAGE = [0x83a974, 0xa1b775, 0x67a489, 0 Notable
-exports: `createLeafGeometry`, `TreeScene`.
+WHITE = new THREE.Color(0xf2f0d8); const UNKNOWN_COLOR = new THREE.Color(0x99aba0) Notable
+exports: `createLeafGeometry`, `rootReadableViewport`, `TreeScene`.
 
-[`src/data-lab/tree-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-scene.js) · code · 44759 bytes
+[`src/data-lab/tree-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-scene.js) · code · 53961 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

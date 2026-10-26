@@ -20,4 +20,4 @@ JSON document `openapi.json` whose top-level keys are `openapi`, `info`, `paths`
 
 [`tests/fixtures/openapi.json`](https://github.com/quirq-ai/xo/blob/main/tests/fixtures/openapi.json) · code · 3368 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:40 UTC from `main`._

@@ -16,4 +16,4 @@ Notable exports: `generateStaticParams`, `generateMetadata`, `ResearchIndexPage`
 
 [`app/research/page/[page]/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/research/page/[page]/page.tsx) · code · 1566 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

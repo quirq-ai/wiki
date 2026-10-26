@@ -23,4 +23,4 @@ adds that setup file.
 
 [`src/qqrecipes/adapters/node_app/qq_property_setup.mjs`](https://github.com/quirq-ai/recipes/blob/main/src/qqrecipes/adapters/node_app/qq_property_setup.mjs) · code · 1919 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

@@ -64,4 +64,4 @@ Tar.gz building + extraction for project snapshots. Functions: `build_tarball`,
 
 [`services/cowork_agent/xo_projects_sync/tarball.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_projects_sync/tarball.py) · code · 8580 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:40 UTC from `main`._

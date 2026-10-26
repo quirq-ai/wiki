@@ -54,4 +54,4 @@ object = (valu Notable exports: `validateManifest`, `loadWorkspace`, `manifestNa
 
 [`src/workspace.mjs`](https://github.com/quirq-ai/euler/blob/main/src/workspace.mjs) · code · 7128 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

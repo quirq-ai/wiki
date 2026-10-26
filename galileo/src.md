@@ -39,4 +39,4 @@ galileo's sources: what it inspects, by name. A source is one of two kinds: Nota
 
 [`src/sources.mjs`](https://github.com/quirq-ai/galileo/blob/main/src/sources.mjs) · code · 7963 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

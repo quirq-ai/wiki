@@ -35,4 +35,4 @@ caches each file for up to 5 minutes. Notable exports: `useProfileReadme`,
 
 [`src/components/QuirqProfile/useProfileReadme.ts`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProfile/useProfileReadme.ts) · code · 2829 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:40 UTC from `main`._

@@ -39,4 +39,4 @@ hub admin. server.Caddyfile takes the port over after that.
 
 [`docker/starting.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/starting.Caddyfile) · code · 406 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

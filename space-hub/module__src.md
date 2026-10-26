@@ -71,4 +71,4 @@ when their data changes.
 
 [`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 71811 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

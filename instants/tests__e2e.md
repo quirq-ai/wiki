@@ -16,4 +16,4 @@ route.abort(), ); }); const dock = (page.
 
 [`tests/e2e/instants.spec.ts`](https://github.com/quirq-ai/instants/blob/main/tests/e2e/instants.spec.ts) · code · 38839 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

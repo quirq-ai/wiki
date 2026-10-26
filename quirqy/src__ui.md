@@ -12,7 +12,7 @@ Stylesheet `apps-launcher.css` for layout and visual treatment in this folder. L
 selectors include `repository-apps-heading`, `repository-apps-grid`. Defines or consumes CSS
 custom properties (design tokens).
 
-[`src/ui/apps-launcher.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/apps-launcher.css) · code · 1829 bytes
+[`src/ui/apps-launcher.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/apps-launcher.css) · code · 1645 bytes
 
 ### apps-launcher.js
 
@@ -22,7 +22,7 @@ const GRID_ICON = ''; const PRESENTATION = { solar: { name: 'Solar system', colo
 '' }, earth: { name: 'Earth lab', colors: ['#489d89', '#245a50'], icon: '' }, light: { name:
 'Light Notable exports: `mountAppsLauncher`.
 
-[`src/ui/apps-launcher.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/apps-launcher.js) · code · 8620 bytes
+[`src/ui/apps-launcher.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/apps-launcher.js) · code · 8657 bytes
 
 ### dock-disclosure.js
 
@@ -31,6 +31,16 @@ activation is immediate; all controls keep their original DOM/state. Notable exp
 `mountDockDisclosure`.
 
 [`src/ui/dock-disclosure.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/dock-disclosure.js) · code · 4819 bytes
+
+### dock-material.css
+
+Dock material contract: one inherited opacity for every painted surface. Scope is automatic
+inside .panel-dock; detached menus use data-dock-material. Custom cards use data-dock-
+surface and may set --dock-tint (RGB channels). Content, focus indicators and native
+disabled/disclosure states stay readable. Defines or consumes CSS custom properties (design
+tokens).
+
+[`src/ui/dock-material.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/dock-material.css) · code · 6590 bytes
 
 ### dock-motion.js
 
@@ -66,7 +76,7 @@ state readout. Notable exports: `EquationPanel`.
 
 Floating glass panels share small, discoverable grab handles.
 
-[`src/ui/floating-layout.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/floating-layout.css) · code · 8158 bytes
+[`src/ui/floating-layout.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/floating-layout.css) · code · 8721 bytes
 
 ### floating-layout.js
 
@@ -75,7 +85,7 @@ function mountFloatingLayout() { const panels = new Map(); const watched = new M
 dockIds = [...REPOSITORY_LABS.map(lab => lab.dockId), 'timebar', 'math-timebar']; let
 repositoryControls = null Notable exports: `mountFloatingLayout`.
 
-[`src/ui/floating-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/floating-layout.js) · code · 7189 bytes
+[`src/ui/floating-layout.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/floating-layout.js) · code · 7219 bytes
 
 ### fractalPanel.js
 
@@ -101,7 +111,7 @@ its content. Thin edge reflections remain visible when the glass is completely c
 popover ID also keeps this shared treatment above lazily loaded lab CSS. Defines or consumes
 CSS custom properties (design tokens).
 
-[`src/ui/glass-surfaces.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/glass-surfaces.css) · code · 11711 bytes
+[`src/ui/glass-surfaces.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/glass-surfaces.css) · code · 11786 bytes
 
 ### gravityPanel.js
 
@@ -133,14 +143,14 @@ selectors include `glass-opacity-trigger`, `glass-opacity-value`, `glass-popover
 `glass-popover-footer`, and 1 more. Defines or consumes CSS custom properties (design
 tokens).
 
-[`src/ui/panel-appearance.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/panel-appearance.css) · code · 7743 bytes
+[`src/ui/panel-appearance.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/panel-appearance.css) · code · 8014 bytes
 
 ### panel-appearance.js
 
 const STORAGE_KEY = 'quirq-observatory.panel-opacity.v1'; const DEFAULT_OPACITY = 62; const
 ICON = ''; const OPACITY_APP_ICON = '' Notable exports: `mountPanelAppearance`.
 
-[`src/ui/panel-appearance.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/panel-appearance.js) · code · 17335 bytes
+[`src/ui/panel-appearance.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/panel-appearance.js) · code · 18243 bytes
 
 ### photoPanel.js
 
@@ -151,46 +161,54 @@ Photo Lab panel: photoelectric effect workbench + photosynthesis explorer. Notab
 
 ### repository-dock-apps.css
 
-Small app tiles retain normal anchor behavior inside the shared glass dock.
+Small app tiles retain normal anchor behavior inside the shared glass dock. Defines or
+consumes CSS custom properties (design tokens).
 
-[`src/ui/repository-dock-apps.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-dock-apps.css) · code · 8220 bytes
+[`src/ui/repository-dock-apps.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-dock-apps.css) · code · 9298 bytes
 
 ### repository-dock-apps.js
 
 const APPS = [ { mode: 'data', label: 'Data Lab', name: 'Data', icon: '' }, { mode:
-'activity', label: 'Activity Lab', name: 'Activity', icon: '' }, ]; const ATTRIBUTES =
-['class', 'aria-label', 'aria-current', 'data-repository-app', 'data-tooltip-dismissed']
-Notable exports: `mountRepositoryDockApps`.
+'activity', label: 'Activity Lab', name: 'Activity', icon: '' }, { mode: 'about', label:
+'About · README', name: 'About', icon: '' }, ]; const ATTRIBUTES = ['class', 'aria-label',
+'aria-current', 'data-repository-app', 'data-tooltip-dismissed'] Notable exports:
+`mountRepositoryDockApps`.
 
-[`src/ui/repository-dock-apps.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-dock-apps.js) · code · 3721 bytes
+[`src/ui/repository-dock-apps.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-dock-apps.js) · code · 3890 bytes
 
 ### repository-github.css
 
 The repository connection lives beside the other apps, using its original form. Defines or
 consumes CSS custom properties (design tokens).
 
-[`src/ui/repository-github.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-github.css) · code · 5082 bytes
+[`src/ui/repository-github.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-github.css) · code · 5656 bytes
 
 ### repository-github.js
 
-Present the lab's original repository connection controls in the dock. Notable exports:
-`mountRepositoryGithub`.
+/** Present the lab's original repository connection controls in the dock. */ export
+function mountRepositoryGithub(dock, panel, mode) { if (!dock || !panel ||
+!REPOSITORY_LABS.some(lab => lab.mode === mode)) return null; const title =
+panel.querySelector(#${mode}-source-kind)?.closest('.section-title'); const form =
+panel.querySelector(#${mode}-source-form) Notable exports: `mountRepositoryGithub`.
 
-[`src/ui/repository-github.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-github.js) · code · 5616 bytes
+[`src/ui/repository-github.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-github.js) · code · 5667 bytes
 
 ### repository-labs.js
 
-Shared controls register each repository lab through the same small contract. Notable
+Shared controls register each repository page through the same small contract. Notable
 exports: `REPOSITORY_LABS`.
 
-[`src/ui/repository-labs.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-labs.js) · code · 347 bytes
+[`src/ui/repository-labs.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-labs.js) · code · 516 bytes
 
 ### repository-timeline.js
 
-Move the existing playback controls into an independent dock disclosure. Notable exports:
-`mountRepositoryTimeline`.
+/** Move the existing playback controls into an independent dock disclosure. */ export
+function mountRepositoryTimeline(dock, mode) { if (!dock || !REPOSITORY_LABS.some(lab =>
+lab.mode === mode && lab.timeline)) return null; const controls = [#${mode}-prev,
+#${mode}-play, '.t-mid', #${mode}-next, .${mode}-speed] .map(selector =>
+dock.querySelector(:scope > $ Notable exports: `mountRepositoryTimeline`.
 
-[`src/ui/repository-timeline.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-timeline.js) · code · 5706 bytes
+[`src/ui/repository-timeline.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-timeline.js) · code · 5826 bytes
 
 ### repository-view-connection.js
 
@@ -203,7 +221,7 @@ Draw the view card's connector toward its existing active app link. Notable expo
 
 App icons form the base; their original controls expand in the layer above.
 
-[`src/ui/repository-view-nav.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-view-nav.css) · code · 18648 bytes
+[`src/ui/repository-view-nav.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/repository-view-nav.css) · code · 22240 bytes
 
 ### spmPanel.js
 
@@ -227,4 +245,4 @@ keyboard shortcuts. Notable exports: `fmtMass`, `fmtExp`, `fmtKm`, `fmtAU`, `fmt
 
 [`src/ui/ui.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/ui.js) · code · 42933 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

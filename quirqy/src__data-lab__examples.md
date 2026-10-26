@@ -16,16 +16,16 @@ tooling.
 
 ### xo-space.json
 
-Large text file (352.1 KB), over the generator's 256 KB parse cap. Only a prefix was
+Large text file (4.5 MB), over the generator's 256 KB parse cap. Only a prefix was
 inspected.
 
-[`src/data-lab/examples/xo-space.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples/xo-space.json) · huge · 360541 bytes
+[`src/data-lab/examples/xo-space.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples/xo-space.json) · huge · 4695427 bytes
 
 ### xo.json
 
-JSON file `xo.json` that did not parse from the prefix that was read. Open the source file
-for the full document.
+Large text file (279.3 KB), over the generator's 256 KB parse cap. Only a prefix was
+inspected.
 
-[`src/data-lab/examples/xo.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples/xo.json) · code · 127513 bytes
+[`src/data-lab/examples/xo.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/examples/xo.json) · huge · 285980 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

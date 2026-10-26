@@ -13,4 +13,4 @@ via the memory-archivist subagent.
 
 [`memory/episodic/README.md`](https://github.com/quirq-ai/lan/blob/main/memory/episodic/README.md) · code · 1157 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

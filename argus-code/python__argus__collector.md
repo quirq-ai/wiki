@@ -78,4 +78,4 @@ Watchdog-based live file tailing. Classes: `_DebouncedHandler`, `WatcherHandle`.
 
 [`python/argus/collector/watcher.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/collector/watcher.py) · code · 5867 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

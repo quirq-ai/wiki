@@ -159,4 +159,4 @@ fd-border bg-black" Notable exports: `Video`.
 
 [`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

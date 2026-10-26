@@ -186,4 +186,4 @@ Notable exports: `SERIES`, `AXIS`, `hexA`.
 
 [`dashboard/src/components/charts/uplotTheme.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/components/charts/uplotTheme.ts) · code · 504 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

@@ -16,4 +16,4 @@ into sfx/<name>.mp3 A take that sounds wrong: generate it again (TAKES=3 node .
 
 [`skills/explainer-film/template/assets/audio/sfx/sfx.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/assets/audio/sfx/sfx.mjs) · code · 8535 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._

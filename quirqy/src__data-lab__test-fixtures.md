@@ -14,4 +14,4 @@ timeline stable for regression tests. Notable exports: `createRepositoryFixture`
 
 [`src/data-lab/test-fixtures/repository.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/test-fixtures/repository.js) · code · 6883 bytes
 
-_Generated 2026-10-25 10:15 UTC from `quirq`._
+_Generated 2026-10-26 11:39 UTC from `quirq`._

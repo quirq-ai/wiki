@@ -115,4 +115,4 @@ emits normalised activity events. Classes: `Source`.
 
 [`services/cowork_agent/adapters/antigravity/visualizer_source.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/adapters/antigravity/visualizer_source.py) · code · 7338 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:40 UTC from `main`._

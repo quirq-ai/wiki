@@ -15,4 +15,4 @@ never change them. workflows and this file.
 
 [`tests/fixtures/raw/qq/main/.github/CODEOWNERS`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/qq/main/.github/CODEOWNERS) · other · 650 bytes
 
-_Generated 2026-10-25 10:15 UTC from `main`._
+_Generated 2026-10-26 11:39 UTC from `main`._
