@@ -2,7 +2,7 @@
 
 Files and bytes in each public repository's default branch at HEAD, measured daily from its Git tree. GitHub's size counts the whole history as stored on GitHub.
 
-**Snapshot:** 2026-10-25T12:01:27Z · **Repositories:** 43 · **Files:** 7,316 · **Size:** 244.9 MB · **On GitHub:** 976.1 MB
+**Snapshot:** 2026-10-26T13:36:21Z · **Repositories:** 43 · **Files:** 7,352 · **Size:** 250.2 MB · **On GitHub:** 976.4 MB
 
 Files are Git blobs: a symlink counts as a file sized by its target path, a Git LFS file at its pointer size, and submodules are left out. The total includes forks, archived repositories and this wiki. Private repositories are never measured; one that later turns private keeps its earlier public rows in history.jsonl and in Git history until removed with `python -m quirq_wiki sizes --forget <repo>`.
 
@@ -11,12 +11,12 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | Repository | Files | Size | On GitHub | Default branch |
 | --- | ---: | ---: | ---: | --- |
 | [innernet](https://github.com/quirq-ai/innernet) | 361 | 103.3 MB | 100.7 MB | main |
-| [quirqy](https://github.com/quirq-ai/quirqy) | 205 | 29.8 MB | 26.9 MB | quirq |
+| [quirqy](https://github.com/quirq-ai/quirqy) | 233 | 34.7 MB | 26.9 MB | quirq |
 | [docs](https://github.com/quirq-ai/docs) | 163 | 20.6 MB | 162.3 MB | main |
 | [quirq_ai](https://github.com/quirq-ai/quirq_ai) | 285 | 17.9 MB | 19.5 MB | main |
-| [wiki](https://github.com/quirq-ai/wiki) | 1,633 | 15.5 MB | 7.2 MB | main |
+| [wiki](https://github.com/quirq-ai/wiki) | 1,637 | 15.9 MB | 7.5 MB | main |
 | [argus-code](https://github.com/quirq-ai/argus-code) | 398 | 13.6 MB | 27.4 MB | main |
-| [xo-space](https://github.com/quirq-ai/xo-space) | 796 | 12.4 MB | 11.2 MB | main |
+| [xo-space](https://github.com/quirq-ai/xo-space) | 796 | 12.4 MB | 11.3 MB | main |
 | [research](https://github.com/quirq-ai/research) | 263 | 5.4 MB | 17.2 MB | main |
 | [instants](https://github.com/quirq-ai/instants) | 202 | 3.9 MB | 7.4 MB | main |
 | [ui](https://github.com/quirq-ai/ui) | 926 | 3.7 MB | 10.3 MB | main |
@@ -28,7 +28,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | [.github](https://github.com/quirq-ai/.github) | 17 | 1.3 MB | 1.3 MB | main |
 | [xo](https://github.com/quirq-ai/xo) | 52 | 1.3 MB | 801.8 kB | main |
 | [quitter](https://github.com/quirq-ai/quitter) | 41 | 690.4 kB | 500.7 kB | main |
-| [space-hub](https://github.com/quirq-ai/space-hub) | 112 | 615.3 kB | 827.4 kB | main |
+| [space-hub](https://github.com/quirq-ai/space-hub) | 116 | 637.4 kB | 805.9 kB | main |
 | [test-pipelines](https://github.com/quirq-ai/test-pipelines) | 58 | 602.5 kB | 3.0 MB | main |
 | [infra-config](https://github.com/quirq-ai/infra-config) | 76 | 444.3 kB | 303.1 kB | main |
 | [rollers](https://github.com/quirq-ai/rollers) | 38 | 431.2 kB | 254.0 kB | main |
@@ -36,7 +36,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | [agent-skills](https://github.com/quirq-ai/agent-skills) | 68 | 378.7 kB | 718.8 kB | main |
 | [gardener](https://github.com/quirq-ai/gardener) | 52 | 310.5 kB | 232.4 kB | main |
 | [github-activity](https://github.com/quirq-ai/github-activity) | 24 | 302.3 kB | 73.7 kB | main |
-| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 306.2 kB | main |
+| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 311.3 kB | main |
 | [vercel-activity](https://github.com/quirq-ai/vercel-activity) | 24 | 292.3 kB | 72.7 kB | main |
 | [qq](https://github.com/quirq-ai/qq) | 44 | 278.8 kB | 236.5 kB | main |
 | [sync](https://github.com/quirq-ai/sync) | 49 | 247.9 kB | 163.8 kB | main |
@@ -58,6 +58,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 
 | Date (UTC) | Repositories | Files | Size | On GitHub |
 | --- | ---: | ---: | ---: | ---: |
+| 2026-10-26 | 43 | 7,352 | 250.2 MB | 976.4 MB |
 | 2026-10-25 | 43 | 7,316 | 244.9 MB | 976.1 MB |
 | 2026-10-24 | 43 | 7,314 | 244.5 MB | 975.7 MB |
 | 2026-10-23 | 41 | 7,187 | 243.0 MB | 976.2 MB |
