@@ -12,12 +12,19 @@ xo: the command line for the XO Cloud API.
 
 [`src/xo/__init__.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/__init__.py) · code · 72 bytes
 
+### attach.py
+
+Other CLIs, run through xo while xo is connected to them: xo gh ... Classes: `Tool`.
+Functions: `run`.
+
+[`src/xo/attach.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/attach.py) · code · 2372 bytes
+
 ### cli.py
 
-"""xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the
-xo server).
+xo: the command line for the XO Cloud core API (dev.xo.builders/api/core/v1, through the xo
+server). Classes: `_Parser`, `_KindOrName`. Functions: `safe_error`.
 
-[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 95801 bytes
+[`src/xo/cli.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/cli.py) · code · 96437 bytes
 
 ### client.py
 
@@ -142,4 +149,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

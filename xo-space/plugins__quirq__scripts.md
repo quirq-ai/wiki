@@ -38,6 +38,6 @@ virtualenv and state belong to the chosen workspace. Shebang `#!/usr/bin/env bas
 Functions: `fail`, `usage`, `absolute_directory`, `check_codex`, `install_space`,
 `start_space`, `report_ready`, `start_status`, `json_quote`, `launch_server`.
 
-[`plugins/quirq/scripts/space.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/scripts/space.sh) · code · 9583 bytes
+[`plugins/quirq/scripts/space.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/scripts/space.sh) · code · 9490 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

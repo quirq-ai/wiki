@@ -15,18 +15,18 @@ Empty file `__init__.py` in the source tree. It is present (often as a placehold
 
 ### _project_encoding.py
 
-Claude Code's encoded-cwd jsonl directory ↔ xo-project id helpers. Functions:
-`project_id_for_encoded_cwd`.
+Claude Code's encoding of a working directory into its transcript folder name. Functions:
+`encode_path`.
 
-[`services/cowork_agent/adapters/claude_code/_project_encoding.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/_project_encoding.py) · code · 3180 bytes
+[`services/cowork_agent/adapters/claude_code/_project_encoding.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/_project_encoding.py) · code · 1510 bytes
 
 ### adapter.py
 
-Python module `adapter.py`. Classes: `ClaudeCodeAdapter`. Functions: `make_session_key`,
-`find_session_id_by_key`, `get_native_session_id`, `get_session_directory`,
-`write_preliminary_entry`, `find_session_key_for_session_id`.
+claude's adapter class: its name, its manifest, and the auth rules every spawned `claude
+runs with (cli_env() for the /providers/status` probe, `apply_auth` for storm's runtime and
+remote control). Classes: `ClaudeCodeAdapter`.
 
-[`services/cowork_agent/adapters/claude_code/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/adapter.py) · code · 23840 bytes
+[`services/cowork_agent/adapters/claude_code/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/adapter.py) · code · 5702 bytes
 
 ### agents.py
 
@@ -41,18 +41,12 @@ Claude Code channels-status view. Functions: `build_status_view`, `get_channels_
 
 [`services/cowork_agent/adapters/claude_code/channels_status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/channels_status.py) · code · 1390 bytes
 
-### mcp_config.py
-
-Per-session MCP config injection for the Claude CLI. Functions: `write_session_mcp_config`,
-`cleanup_session_mcp_config`.
-
-[`services/cowork_agent/adapters/claude_code/mcp_config.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/mcp_config.py) · code · 3839 bytes
-
 ### models.py
 
-claude_code model listing (/api/models).
+claude_code model listing (/api/models). Functions: `model_rows`, `list_models`. Built with
+FastAPI.
 
-[`services/cowork_agent/adapters/claude_code/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/models.py) · code · 550 bytes
+[`services/cowork_agent/adapters/claude_code/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/models.py) · code · 1667 bytes
 
 ### models_status.py
 
@@ -60,6 +54,13 @@ Claude Code models-status view. Functions: `build_status_view`, `fetch_raw_statu
 `get_models_status`.
 
 [`services/cowork_agent/adapters/claude_code/models_status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/models_status.py) · code · 3600 bytes
+
+### oneshot_prompt.py
+
+Capability `oneshot_prompt`: one tool-free claude completion (storm ch 01 §4.7, ch 10 §8).
+Classes: `ClaudeOneshot`. Functions: `build_argv`, `oneshot`.
+
+[`services/cowork_agent/adapters/claude_code/oneshot_prompt.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/oneshot_prompt.py) · code · 4628 bytes
 
 ### providers_status.py
 
@@ -102,13 +103,7 @@ Read-only Space session telemetry for the Claude Code runtime. Functions:
 Claude Code sessions capability. Functions: `enrich_project_session`, `resolve_native_file`,
 `list_native_sessions`, `owns_session`, `get_messages`, `set_session_directory`.
 
-[`services/cowork_agent/adapters/claude_code/sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/sessions.py) · code · 5286 bytes
-
-### streaming.py
-
-Python module `streaming.py`. Functions: `parse_stream_line`.
-
-[`services/cowork_agent/adapters/claude_code/streaming.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/streaming.py) · code · 4319 bytes
+[`services/cowork_agent/adapters/claude_code/sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/sessions.py) · code · 5392 bytes
 
 ### usage.py
 
@@ -124,6 +119,6 @@ Claude Code visualizer source — tails `~/.claude/projects/*.jsonl` and reads
 `~/.claude/sessions/.json` for live presence. Classes: `Source`. Functions:
 `_is_duplicate_turn_event`, `_pid_alive`.
 
-[`services/cowork_agent/adapters/claude_code/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/visualizer_source.py) · code · 21451 bytes
+[`services/cowork_agent/adapters/claude_code/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/visualizer_source.py) · code · 21522 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

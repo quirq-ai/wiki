@@ -20,4 +20,4 @@ const location = path => new URL(path, 'https://quirqy.example') Automated test 
 
 [`src/nav/routes.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/nav/routes.test.js) · code · 3173 bytes
 
-_Generated 2026-10-26 11:39 UTC from `quirq`._
+_Generated 2026-10-27 11:08 UTC from `quirq`._

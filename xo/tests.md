@@ -12,7 +12,13 @@ A fake XO API on 127.0.0.1: tests never reach the real one. Classes: `FakeXo`, `
 Functions: `pytest_runtest_call`, `loopback_only`, `no_real_gh`, `config_home`, `fake`,
 `no_real_github`, `git`, `github`. Contains tests.
 
-[`tests/conftest.py`](https://github.com/quirq-ai/xo/blob/main/tests/conftest.py) · code · 9050 bytes
+[`tests/conftest.py`](https://github.com/quirq-ai/xo/blob/main/tests/conftest.py) · code · 9216 bytes
+
+### test_attach.py
+
+xo gh and xo sh: other CLIs run through xo.
+
+[`tests/test_attach.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_attach.py) · code · 3569 bytes
 
 ### test_cli.py
 
@@ -81,4 +87,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23418 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

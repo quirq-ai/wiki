@@ -65,4 +65,4 @@ Functions: `read_request`, `run`, `source_outputs`.
 
 [`src/qqrbe/worker.py`](https://github.com/quirq-ai/remote-build/blob/main/src/qqrbe/worker.py) · code · 4088 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

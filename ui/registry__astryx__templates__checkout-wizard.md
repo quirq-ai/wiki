@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/checkout-wizard/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/checkout-wizard/page.tsx) · code · 46582 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

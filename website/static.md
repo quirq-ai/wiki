@@ -25,4 +25,4 @@ Txt file `robots.txt`. User-agent: * Allow: /.
 
 [`static/robots.txt`](https://github.com/quirq-ai/website/blob/main/static/robots.txt) · code · 23 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

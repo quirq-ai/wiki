@@ -17,10 +17,10 @@ JSON document `capabilities.json` whose top-level keys are `models`, `data`, `ch
 
 JSON document `manifest.json` whose top-level keys are `name`, `binary`, `install_url`,
 `home_dir`, `env_file`, `config_file`, `agents_dir`, `workspace_dir`, `provisioning_log`,
-`precreate_home_for_skills`, `cwd`, `cli_timeout_seconds`, and 5 more. Structured data
+`precreate_home_for_skills`, `cwd`, `project_config_paths`, and 6 more. Structured data
 consumed by the surrounding app or tooling.
 
-[`config/agents/codex/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/manifest.json) · code · 1016 bytes
+[`config/agents/codex/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/manifest.json) · code · 1004 bytes
 
 ### settings.json
 
@@ -46,4 +46,4 @@ __name__ == '__main__'`. Classes: `Report`. Functions: `expand`, `load_json`,
 
 [`config/agents/codex/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/codex/troubleshoot.py) · code · 5749 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

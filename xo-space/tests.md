@@ -12,12 +12,38 @@ XO Cowork API tests.
 
 [`tests/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/__init__.py) · code · 205 bytes
 
+### chat_today_probe.py
+
+Today's `/api/chat` for agents without a storm runtime, as a client sees it through
+`server.app` (H4, ch 17 §5; sedc 09 #6): the prompt's answer, the stream's bytes, a
+reconnect's, abort, and what each agent's chat code was handed. Runnable as a script via `if
+__name__ == '__main__'`. Functions: `observe`, `main`. Contains tests.
+
+[`tests/chat_today_probe.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/chat_today_probe.py) · code · 8915 bytes
+
 ### doctor_sandbox.py
 
 A healthy Space built from the two golden samples, for xo-doctor tests. Classes:
 `DoctorSandbox`. Functions: `snapshot`. Contains tests.
 
 [`tests/doctor_sandbox.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/doctor_sandbox.py) · code · 4183 bytes
+
+### frozen_probe.py
+
+What the frozen-surface test reads in one agent's sealed interpreter (storm ch 17 §4; sedc
+04 §5): every frozen route answered through `server.app` (without its lifespan), the daily
+usage report as it would be sent, the provider-key and secrets writes over fake values, and
+observation over one session row in today's `/api/chat` shape. Runnable as a script via `if
+__name__ == '__main__'`. Functions: `main`. Contains tests.
+
+[`tests/frozen_probe.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/frozen_probe.py) · code · 12491 bytes
+
+### frozen_sandbox.py
+
+A sealed machine for the frozen-surface tests (storm ch 05 §6, ch 06 §2). Classes:
+`Sandbox`. Functions: `agents`, `scrub_env`.
+
+[`tests/frozen_sandbox.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/frozen_sandbox.py) · code · 5000 bytes
 
 ### install_sh_harness.sh
 
@@ -35,12 +61,64 @@ The external tools the repo-wide checks shell out to (bash, git, node). Function
 
 [`tests/required_tools.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/required_tools.py) · code · 3049 bytes
 
+### storm_comms_kit.py
+
+Storm's conversation layer on the fake claude CLI: the engine, the review queue with the
+conversation's hooks, the chats and the jobs (the scheduler's agent runner, in the kit's
+state root), and storm's routes served by a real server on a free loopback port, so a fake
+CLI calls `xo_comms` over HTTP exactly as the real one does (`tests/fakes mcp` step).
+Classes: `Commits`, `CommsTestCase`. Functions: `app`. Built with FastAPI. Contains tests.
+
+[`tests/storm_comms_kit.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/storm_comms_kit.py) · code · 8531 bytes
+
+### storm_engine_kit.py
+
+A storm engine on the fake claude CLI, in a temp state root, home and projects root, with a
+manual clock (no real sleeps for timers) and a memory reader the test controls. Classes:
+`ManualClock`, `Recorder`, `Desk`, `Kit`. Functions: `message`. Contains tests.
+
+[`tests/storm_engine_kit.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/storm_engine_kit.py) · code · 14260 bytes
+
+### storm_review_kit.py
+
+The review queue on an engine on the fake claude CLI, with its routes served in the engine's
+own event loop (`tests/storm_engine_kit.py`). Classes: `ReviewTestCase`. Functions: `app`.
+Built with FastAPI. Contains tests.
+
+[`tests/storm_review_kit.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/storm_review_kit.py) · code · 3591 bytes
+
+### storm_stream_kit.py
+
+A client of storm's stream, for tests: it folds frames into blocks by the rules every UI
+follows (ch 09 §3, §5), so a test can compare what a person would see live, after a
+reconnect, and in history. Classes: `Client`. Functions: `parse_sse`, `place`, `follow`,
+`replayed`.
+
+[`tests/storm_stream_kit.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/storm_stream_kit.py) · code · 7431 bytes
+
+### storm_worktrees_kit.py
+
+Real git repositories in a temp folder for storm's worktree tests (git is not an agent CLI).
+Functions: `git_env`, `sh`, `repo`, `head`, `branches`, `worktree_paths`. Contains tests.
+
+[`tests/storm_worktrees_kit.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/storm_worktrees_kit.py) · code · 1915 bytes
+
 ### test_activity_state.py
 
 Python module `test_activity_state.py`. Runnable as a script via `if __name__ ==
 '__main__'`. Classes: `ActivityStateTests`. Contains tests.
 
 [`tests/test_activity_state.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_activity_state.py) · code · 5986 bytes
+
+### test_adapter_chat_default.py
+
+An adapter whose agent chats on a storm runtime has no chat of its own (storm PR 19; sedc 09
+#5): it still constructs (`/providers/status` and the runtime build `ClaudeCodeAdapter({})),
+its run and stream` refuse, and `chats()` says so from the class alone. Runnable as a script
+via `if __name__ == '__main__'`. Classes: `NoChat`, `Chats`, `DefaultChatTests`. Contains
+tests.
+
+[`tests/test_adapter_chat_default.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_adapter_chat_default.py) · code · 1704 bytes
 
 ### test_agent_env.py
 
@@ -82,6 +160,14 @@ with FastAPI. Contains tests.
 
 [`tests/test_browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_browser_guard.py) · code · 9877 bytes
 
+### test_chat_without_runtime.py
+
+H4 (ch 17 §5; sedc 09 #6): an agent without a storm runtime chats exactly as it did before
+the chat API switch. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`ChatWithoutRuntimeTests`. Contains tests.
+
+[`tests/test_chat_without_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_chat_without_runtime.py) · code · 2261 bytes
+
 ### test_checkout_hygiene.py
 
 What the checkout itself may carry, so data files cannot steer the suite. Runnable as a
@@ -90,12 +176,22 @@ script via `if __name__ == '__main__'`. Classes: `CheckoutHygiene`. Functions:
 
 [`tests/test_checkout_hygiene.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_checkout_hygiene.py) · code · 3110 bytes
 
-### test_claude_stream_deltas.py
+### test_claude_project_encoding.py
 
-The Claude Code adapter streams text live. Classes: `StreamDeltaTests`. Functions: `line`,
-`forward`. Contains tests.
+Claude Code's transcript-folder encoding, and observation finding sessions whose working
+directory holds `. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`EncodePathTests`, `_Tree`, `NativeFileTests`, `DiscoveryTests`, `ProjectIdTests`. Contains
+tests.
 
-[`tests/test_claude_stream_deltas.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_claude_stream_deltas.py) · code · 9228 bytes
+[`tests/test_claude_project_encoding.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_claude_project_encoding.py) · code · 4810 bytes
+
+### test_claude_runtime.py
+
+The claude_code runtime against its fake CLI (storm ch 02; ch 18 §2 PR 6). Classes:
+`CommandLineTests`, `CheckAndFeaturesTests`, `BinaryTests`, `EnvTests`, `FakeClaude`,
+`SessionTests`, `AccountTests`. Functions: `files_for`, `argv_for`. Contains tests.
+
+[`tests/test_claude_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_claude_runtime.py) · code · 112274 bytes
 
 ### test_codex_plugin_package.py
 
@@ -109,7 +205,16 @@ script via `if __name__ == '__main__'`. Classes: `CodexPluginPackageTests`. Cont
 Exercise the shipped plugin launcher without network, login or a live server. Runnable as a
 script via `if __name__ == '__main__'`. Classes: `CodexPluginRuntimeTests`. Contains tests.
 
-[`tests/test_codex_plugin_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_plugin_runtime.py) · code · 13369 bytes
+[`tests/test_codex_plugin_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_plugin_runtime.py) · code · 13336 bytes
+
+### test_codex_protocol.py
+
+The part of codex's app-server protocol the codex runtime codes against, checked against the
+installed CLI's own schema (storm ch 03 §1, §11). Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `ProtocolTests`. Functions: `_methods`, `_enum_values`. Contains
+tests.
+
+[`tests/test_codex_protocol.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_protocol.py) · code · 6725 bytes
 
 ### test_codex_remote_control.py
 
@@ -131,13 +236,28 @@ Contains tests.
 
 [`tests/test_codex_rollout_messages.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_rollout_messages.py) · code · 12581 bytes
 
+### test_codex_runtime.py
+
+"""The codex runtime against its fake app-server (storm ch 03; C1). Contains tests.
+
+[`tests/test_codex_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_runtime.py) · code · 78784 bytes
+
 ### test_command_executor.py
 
 Python module `test_command_executor.py`. Classes: `CommandSpecTests`, `SafeArgTests`,
 `RunSpecTests`, `SkillCatalogArgvTests`, `OneExecutorTests`. Functions: `run`. Contains
 tests.
 
-[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 34657 bytes
+[`tests/test_command_executor.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_executor.py) · code · 34569 bytes
+
+### test_command_stream.py
+
+The executor's process ownership: run kills on cancel, spawn_stream starts long-lived
+processes that are listed until they exit, and reap_orphan stops only the exact process a
+registry row names. Runnable as a script via `if __name__ == '__main__'`. Classes: `_Async`,
+`RunCancelTests`, `SpawnStreamTests`, `ReapOrphanTests`. Functions: `alive`. Contains tests.
+
+[`tests/test_command_stream.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_command_stream.py) · code · 16424 bytes
 
 ### test_command_sync_lifecycle.py
 
@@ -170,6 +290,14 @@ via `if __name__ == '__main__'`. Classes: `_TempConfig`, `ManifestBlockTests`,
 `_target_with_legacy`. Contains tests.
 
 [`tests/test_composio_mcp.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_composio_mcp.py) · code · 30270 bytes
+
+### test_connect_routes.py
+
+The connect flows' routes exist under every AGENT_NAME, hidden aliases included (storm ch 05
+§6, ch 06 §2; the swarm contract §0.1). Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `ConnectRoutesTests`. Contains tests.
+
+[`tests/test_connect_routes.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_connect_routes.py) · code · 1989 bytes
 
 ### test_connections_bff.py
 
@@ -293,7 +421,7 @@ Liveness: the task record and what each component leaves on disk. Classes:
 `ConnectionsTests`, `GitHubTests`, `SchedulerTests`, `UsageTests`, and 1 more. Functions:
 `_stamp`. Contains tests.
 
-[`tests/test_doctor_liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_liveness.py) · code · 28654 bytes
+[`tests/test_doctor_liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_doctor_liveness.py) · code · 32066 bytes
 
 ### test_doctor_model.py
 
@@ -370,6 +498,21 @@ Blank exports must not shadow real `.env` values. Runnable as a script via `if _
 
 [`tests/test_env_blank_shadow.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_env_blank_shadow.py) · code · 3857 bytes
 
+### test_env_whitelist.py
+
+The agent-neutral env whitelist every storm runtime builds on (storm ch 16 §1). Runnable as
+a script via `if __name__ == '__main__'`. Classes: `BaseEnvTests`. Contains tests.
+
+[`tests/test_env_whitelist.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_env_whitelist.py) · code · 6866 bytes
+
+### test_fake_clis.py
+
+The fake CLIs speak their protocols (storm ch 06 §1). Runnable as a script via `if __name__
+== '__main__'`. Classes: `_FakeTest`, `EngineTests`, `ClaudeFakeTests`, `CodexFakeTests`,
+`AgyFakeTests`. Contains tests.
+
+[`tests/test_fake_clis.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_fake_clis.py) · code · 10534 bytes
+
 ### test_files_paths.py
 
 Path containment for `/api/files/*` (routers/cowork_agent/files.py). Runnable as a script
@@ -377,6 +520,14 @@ via `if __name__ == '__main__'`. Classes: `FilePathContainmentTests`. Built with
 Contains tests.
 
 [`tests/test_files_paths.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_files_paths.py) · code · 6624 bytes
+
+### test_frozen_surfaces.py
+
+Frozen surfaces stay byte for byte (storm ch 05 §6, ch 06 §2, ch 17 §4; decision §0.79).
+Runnable as a script via `if __name__ == '__main__'`. Classes: `FrozenSurfaceTests`.
+Functions: `observe`, `leaked`. Contains tests.
+
+[`tests/test_frozen_surfaces.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_frozen_surfaces.py) · code · 6024 bytes
 
 ### test_grokbot_adapter.py
 
@@ -401,6 +552,13 @@ Gateway history regressions with no host files or network access. Classes: `Hist
 Functions: `row`. Built with FastAPI. Contains tests.
 
 [`tests/test_grokbot_history.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_grokbot_history.py) · code · 8587 bytes
+
+### test_health_route.py
+
+`/health` and the routes left after Plane A's removal. Runnable as a script via `if __name__
+== '__main__'`. Classes: `HealthRouteTests`. Contains tests.
+
+[`tests/test_health_route.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_health_route.py) · code · 1216 bytes
 
 ### test_inbox_bff.py
 
@@ -462,6 +620,14 @@ Python module `test_local_state.py`. Runnable as a script via `if __name__ == '_
 Classes: `LocalStateTests`. Contains tests.
 
 [`tests/test_local_state.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_local_state.py) · code · 4099 bytes
+
+### test_no_skip_flags.py
+
+ch 15 §8: no session XO starts runs with a CLI's skip or bypass flag. Runnable as a script
+via `if __name__ == '__main__'`. Classes: `NoSkipFlagTests`. Functions: `sources`. Contains
+tests.
+
+[`tests/test_no_skip_flags.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_no_skip_flags.py) · code · 1892 bytes
 
 ### test_opentelemetry_exporter.py
 
@@ -582,6 +748,14 @@ via `if __name__ == '__main__'`. Classes: `ProjectTreeListingTests`. Contains te
 
 [`tests/test_project_tree_listing.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_project_tree_listing.py) · code · 3527 bytes
 
+### test_pty_process.py
+
+utils.commands.spawn_pty / PtyProcess on a real pseudo-terminal. Runnable as a script via
+`if __name__ == '__main__'`. Classes: `_Harness`, `PtyProcessTests`,
+`PtyProcessUvloopTests`. Functions: `_alive`. Built with FastAPI. Contains tests.
+
+[`tests/test_pty_process.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_pty_process.py) · code · 10272 bytes
+
 ### test_quirq_bridge.py
 
 Runs tests/quirq/check_bridge.cjs: the quirq plugin's Space bridge (plugins/quirq/ui/space-
@@ -620,7 +794,7 @@ __name__ == '__main__'`. Classes: `_Sandbox`, `SampleTests`, `StorePathTests`,
 `MigrationTests`, `ExampleRuleTests`, `ExampleSchemaTests`, `ExampleStoreTests`. Functions:
 `_sample_folders`, `_examples`, `_rel`, `_documents`, `_strings`. Contains tests.
 
-[`tests/test_quirq_state_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_state_layout.py) · code · 15512 bytes
+[`tests/test_quirq_state_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_quirq_state_layout.py) · code · 15723 bytes
 
 ### test_repo_checks.py
 
@@ -633,10 +807,10 @@ script via `if __name__ == '__main__'`. Classes: `RepoCheckCase`, `RouteParity`,
 ### test_root_sessions.py
 
 Sessions started with no project (issue #146). Runnable as a script via `if __name__ ==
-'__main__'`. Classes: `_Sandbox`, `IndexWriteTests`, `ReaderTests`, `AdapterTests`.
-Functions: `_row`. Contains tests.
+'__main__'`. Classes: `_Sandbox`, `IndexWriteTests`, `ReaderTests`. Functions: `_row`.
+Contains tests.
 
-[`tests/test_root_sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_root_sessions.py) · code · 9321 bytes
+[`tests/test_root_sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_root_sessions.py) · code · 6388 bytes
 
 ### test_runtime_config.py
 
@@ -645,6 +819,23 @@ Python module `test_runtime_config.py`. Runnable as a script via `if __name__ ==
 Built with FastAPI. Contains tests.
 
 [`tests/test_runtime_config.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_config.py) · code · 19932 bytes
+
+### test_runtime_conformance.py
+
+Conformance: every runtime, run against its fake CLI, behaves as its `check()` and feature
+list say (storm ch 01 §7, ch 06 §2). Runnable as a script via `if __name__ == '__main__'`.
+Classes: `Binding`, `ConformanceTests`, `FamilyProblemsTests`, `SessionConformanceTests`,
+`TranscriptConformanceTests`, `TranscriptProblemsTests`, `EventOrderTests`.
+
+[`tests/test_runtime_conformance.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_conformance.py) · code · 45124 bytes
+
+### test_runtime_contract.py
+
+The runtime contract's shape (storm ch 01; its rules in §2, amendments §9A). Runnable as a
+script via `if __name__ == '__main__'`. Classes: `ImportTests`, `DataTests`, `EventTests`,
+`SupportTests`, `ProtocolTests`. Functions: `_contract_dataclasses`. Contains tests.
+
+[`tests/test_runtime_contract.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_contract.py) · code · 10911 bytes
 
 ### test_safe_read.py
 
@@ -660,6 +851,15 @@ Tests for utils/commands/scheduler.py. Runnable as a script via `if __name__ == 
 Classes: `SchedulerTests`. Functions: `_cmd`, `_job`, `_at`. Contains tests.
 
 [`tests/test_scheduler.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_scheduler.py) · code · 27991 bytes
+
+### test_scheduler_agent.py
+
+The scheduler's `agent` kind (storm design ch 10 §4.5, ch 12 §9, ch 17 §2.8), with a runner
+the test controls: what storm registers at its boot is tested in `tests/test_storm_jobs.py`.
+Runnable as a script via `if __name__ == '__main__'`. Classes: `Runner`, `AgentKindTests`,
+`AgentRouteTests`. Functions: `_at`, `_agent`. Built with FastAPI. Contains tests.
+
+[`tests/test_scheduler_agent.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_scheduler_agent.py) · code · 17117 bytes
 
 ### test_scheduler_api.py
 
@@ -826,6 +1026,14 @@ via `if __name__ == '__main__'`. Classes: `PreviewNavigationTests`. Contains tes
 
 [`tests/test_space_preview_navigation.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_preview_navigation.py) · code · 13008 bytes
 
+### test_space_project_image.py
+
+/api/xo-projects/{id}/image: one image's bytes for the image viewer. Runnable as a script
+via `if __name__ == '__main__'`. Classes: `ProjectImageTests`. Built with FastAPI. Contains
+tests.
+
+[`tests/test_space_project_image.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_project_image.py) · code · 4327 bytes
+
 ### test_space_project_pins.py
 
 Project pins share browser-local state without requiring a DOM or server. Runnable as a
@@ -954,20 +1162,337 @@ Contains tests.
 
 [`tests/test_storage_migrations.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storage_migrations.py) · code · 13021 bytes
 
-### test_stream_events.py
+### test_storm_attachments.py
 
-One stream vocabulary for every chat adapter. Runnable as a script via `if __name__ ==
-'__main__'`. Classes: `VocabularyTests`, `CodexParserSpeaksTheVocabulary`. Functions:
-`line`. Contains tests.
+Files the owner attaches to a message (hub #30): the upload and read routes, what they
+refuse, the message that names them, what each agent is handed, forwarding, the sweep, and
+the read policy. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`_Attachments`, `UploadTests`, `MessageTests`, `SweepTests`, `ImageInputTests`,
+`ReadPolicyTests`. Contains tests.
 
-[`tests/test_stream_events.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_stream_events.py) · code · 4052 bytes
+[`tests/test_storm_attachments.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_attachments.py) · code · 18734 bytes
+
+### test_storm_chats.py
+
+Storm's chats beyond the PoC flows (design ch 11, ch 17 §2.2, §2.6): the routes' shapes, the
+router's setting and decision models, a project made on the person's Allow, new projects
+announced, pins, pauses and memory. Classes: `ChatRouteTests`, `RouterTests`,
+`DecisionRoutingTests`, `ProjectCreationTests`, `PauseTests`. Functions: `_choice`,
+`_request`. Contains tests.
+
+[`tests/test_storm_chats.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_chats.py) · code · 25828 bytes
+
+### test_storm_chats_failures.py
+
+Storm's conversation under failure and races (design ch 11 §2, §3.1, §5, §6.2, §9, §16.2;
+sedc 09 #12): when an input ends, which calls answer it, a pause on an idle thread, a
+coordinator recycled only between inputs, a decision model's routing that survives a retry
+and a restart, and a project created under the name its folder gets.
+
+[`tests/test_storm_chats_failures.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_chats_failures.py) · code · 45152 bytes
+
+### test_storm_chats_flows.py
+
+The PoC's flows on the fake claude CLI, through storm's routes and the real `xo_comms`
+endpoint (design ch 11 §12; ch 18 §8: "workspace → project → thread, the reply gate,
+resolve/reopen, hops"). Classes: `FlowTestCase`, `WorkspaceFlowTests`, `GateTests`,
+`SecondThreadFlowTests`, `ThreadFlowTests`, `RecycleTests`. Functions: `start`,
+`next_input`, `done`. Contains tests.
+
+[`tests/test_storm_chats_flows.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_chats_flows.py) · code · 19174 bytes
+
+### test_storm_chats_units.py
+
+The conversation's pure pieces (design ch 11 §4, §6.2, §7.3): envelopes with their escaping,
+the handoff, and the card rule. Classes: `EnvelopeTests`, `CardTests`. Functions: `row`.
+Contains tests.
+
+[`tests/test_storm_chats_units.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_chats_units.py) · code · 5769 bytes
+
+### test_storm_comms.py
+
+`xo_comms` (storm design ch 12): the endpoint and its tokens, each role's tools, the lines
+of talk, one transaction per call, and each tool's effect. Classes: `TokenTests`,
+`RoleTests`, `LinesOfTalkTests`, `OwnerToolTests`, `ConversationHookTests`, `FenceTests`,
+`WorkToolTests`, `ChatIdentityTests`, and 1 more. Functions: `_wake`, `_request`. Contains
+tests.
+
+[`tests/test_storm_comms.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_comms.py) · code · 50676 bytes
+
+### test_storm_composio.py
+
+Composio in a plain chat on storm (owner §0.108; ch 10 §4.1): the stored spec names it only;
+when the process starts it becomes exactly the entry today's per-turn `--mcp-config` file
+held, behind the same gate (a Composio key configured), or is left out. Runnable as a script
+via `if __name__ == '__main__'`. Classes: `FilledTests`, `EngineStartTests`. Functions:
+`spec`. Contains tests.
+
+[`tests/test_storm_composio.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_composio.py) · code · 5963 bytes
+
+### test_storm_decision_models.py
+
+Decision models for storm's router (design ch 11 §3, §14.3; §0.81): Sage and Jev behind one
+interface, keys only in `router.env`, and the router's decision from their answers (the
+PoC's tests, on storm's key store). Classes: `_StateRoot`, `KeyStoreTests`, `LevantoTests`,
+`ProviderTests`, `DecideTests`. Contains tests.
+
+[`tests/test_storm_decision_models.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_decision_models.py) · code · 9873 bytes
+
+### test_storm_emulated_auto.py
+
+`auto` on a runtime whose CLI can't decide for itself (§0.80, §0.122). Runnable as a script
+via `if __name__ == '__main__'`. Classes: `EmulatedAutoRuntime`, `EmulatedAutoTests`.
+Functions: `bash`. Contains tests.
+
+[`tests/test_storm_emulated_auto.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_emulated_auto.py) · code · 7501 bytes
+
+### test_storm_engine.py
+
+Storm's session engine on the fake claude CLI (design ch 07; ch 18 §2's proof for PR 7): one
+turn end to end, idle release at 10 minutes, Stop, hold and answer, park and wake, epochs
+fencing a stale process, boot recovery, wake idempotency and batching, the admission gates.
+Runnable as a script via `if __name__ == '__main__'`.
+
+[`tests/test_storm_engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine.py) · code · 49180 bytes
+
+### test_storm_engine_failures.py
+
+"""Storm's engine on its failure paths, and the seams PR 8 and PR 9 use (the PR 7 review's
+must-fixes, should-fixes and seams). Contains tests.
+
+[`tests/test_storm_engine_failures.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine_failures.py) · code · 85985 bytes
+
+### test_storm_engine_inputs.py
+
+Storm's engine: an input ends at the runtime's `SessionIdle`, not when the engine sees no
+turn running (storm PR 20; ch 07 §2, §4.2, §5.2, §7, §8; ch 01 §5.2; ch 02 §4.3). Runnable
+as a script via `if __name__ == '__main__'`. Classes: `Case`, `GapTests`,
+`WorkerRunningTests`, `HeldCheck`, `LookAgainBeforeSendTests`, `StopInTheGapTests`,
+`MissedIdleTests`, `EndTests`.
+
+[`tests/test_storm_engine_inputs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine_inputs.py) · code · 24019 bytes
+
+### test_storm_engine_routes.py
+
+Storm's first routes (ch 17 §2.1, §2.7; sedc 09 #9): /api/chat/status, /api/chat/sessions*,
+/api/chat/runtimes*. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`NoEffortChange`, `RouteTests`. Functions: `app`. Built with FastAPI. Contains tests.
+
+[`tests/test_storm_engine_routes.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine_routes.py) · code · 10135 bytes
+
+### test_storm_integrity.py
+
+The integrity check on disk (design ch 16 §2.1–§2.2; S16-2, the watched-path corpus): real
+git in temp repositories, no engine and no model. Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `Case`, `WorktreeCorpus`, `GitOwnCorpus`, `MainCheckout`, `Unwatched`,
+`Snapshots`, `Reports`, `Failures`, and 2 more. Functions: `write`. Contains tests.
+
+[`tests/test_storm_integrity.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_integrity.py) · code · 39398 bytes
+
+### test_storm_integrity_engine.py
+
+The integrity check in the engine's life (design ch 16 §2.3–§2.4; owner §11.2) on the fake
+claude CLI, with the real review queue and conversation, the worktrees' preparer and a real
+temp git project. Runnable as a script via `if __name__ == '__main__'`. Classes: `Case`,
+`ThreadTests`, `PlainAndCoordinatorTests`. Functions: `started`, `turn`, `writes_settings`,
+`write_file`. Contains tests.
+
+[`tests/test_storm_integrity_engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_integrity_engine.py) · code · 26566 bytes
+
+### test_storm_jobs.py
+
+Agent jobs (storm design ch 10 §4.5, ch 11 §7.1, §14.6, ch 12 §5.8, ch 17 §2.8; §0.44,
+§0.51, §0.107): the scheduler's `agent` kind run by storm, the job tools, the `create_job`
+review item and its decision. Classes: `JobsTestCase`, `RunTests`, `PersonJobTests`,
+`ToolTests`, `FlowTests`. Functions: `_request`. Built with FastAPI. Contains tests.
+
+[`tests/test_storm_jobs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_jobs.py) · code · 48093 bytes
+
+### test_storm_plain_chat.py
+
+Plain chat on storm through `/api/chat` (storm PR 19; ch 17 §2.1, §3; ch 10 §4.1; owner
+§0.108, §0.109; sedc 09 #6, #12), on the fake claude CLI: create and continue, add / now /
+409, abort, active, a paused session resumed, a retried `client_id`, a pre-switch chat
+continued, the folder rule, the model rule, Composio in the process's MCP config and not in
+the store, and the branch itself: an agent without a runtime never reaches storm, and claude
+
+[`tests/test_storm_plain_chat.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_plain_chat.py) · code · 45184 bytes
+
+### test_storm_policy.py
+
+The policy engine's pieces (storm ch 15 §2–§4, ch 16 §2.1): the parser's refusals, where a
+path lands, rules and their limits, the order of checks, grants, coordinators, and failing
+closed. Runnable as a script via `if __name__ == '__main__'`. Classes: `_Tree`,
+`ParserTests`, `ActionHashTests`, `SedScriptTests`, `OptionsTests`, `PlacesTests`,
+`RuleTests`, `OrderTests`, and 1 more. Contains tests.
+
+[`tests/test_storm_policy.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_policy.py) · code · 26345 bytes
+
+### test_storm_policy_corpus.py
+
+The policy corpus (storm ch 15 §2.2; R4): every bypass form of R-E F6/F7 lands at "ask" or
+higher, unparseable means ask, protected paths are denied whatever the rules say, and XO's
+default rules allow routine work. Runnable as a script via `if __name__ == '__main__'`.
+Classes: `CorpusTests`. Functions: `rule_from`, `run`. Contains tests.
+
+[`tests/test_storm_policy_corpus.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_policy_corpus.py) · code · 3801 bytes
+
+### test_storm_presets.py
+
+Storm's presets (design ch 10): each preset's spec, read against a runtime's feature list
+and checked by its runtime, never by its name. Runnable as a script via `if __name__ ==
+'__main__'`. Classes: `PresetSpecTests`, `PluggableTests`, `FingerprintTests`. Functions:
+`ctx`, `build`. Contains tests.
+
+[`tests/test_storm_presets.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_presets.py) · code · 14118 bytes
+
+### test_storm_redact.py
+
+Redaction of what storm stores (design ch 16 §3; §0.76) and the raw per-turn CLI logs (ch 08
+§4; §0.106). Runnable as a script via `if __name__ == '__main__'`. Classes: `SecretsCase`,
+`RedactTests`, `StoredRecordTests`, `LogTests`, `RawTurnLogTests`, `EngineTests`,
+`WakeScrubTests`, `TypedTextTests`, and 3 more. Functions: `leaky`, `consume`. Contains
+tests.
+
+[`tests/test_storm_redact.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_redact.py) · code · 49406 bytes
+
+### test_storm_retention.py
+
+The daily retention prune (design ch 08 §6, §0.106; storm B4 PR 22). Runnable as a script
+via `if __name__ == '__main__'`. Classes: `_Store`, `EventsTests`, `RowsTests`,
+`KeptAlwaysTests`, `BatchesAndFailuresTests`, `ResumeTests`, `DailyTaskTests`. Functions:
+`ago`. Contains tests.
+
+[`tests/test_storm_retention.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_retention.py) · code · 22990 bytes
+
+### test_storm_review.py
+
+The review queue end to end on the fake claude CLI through the engine and the decision route
+(design ch 15 §5–§7; ch 18 §2's proof for PR 9): a held call's item opens in one transaction
+and the route's decision goes into the call; `decided_by` is the server's; a decision is
+single-use and bound to its input's hash; a call that is gone gets a grant the retry spends
+once; scope limits by tier; "make it a rule" needs the server's sentence; revoking a default
+
+[`tests/test_storm_review.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_review.py) · code · 25165 bytes
+
+### test_storm_review_queue.py
+
+The review queue's own rules (design ch 15 §3, §5, §9; ch 07 §5.1; ch 17 §2.5): expiry, the
+queue's order and paging, the person's rules and XO's default rules over the routes, paid
+usage, the loop breaker's counts, and the routes' refusals (503, 404, 422, the browser write
+guard). Runnable as a script via `if __name__ == '__main__'`.
+
+[`tests/test_storm_review_queue.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_review_queue.py) · code · 35913 bytes
+
+### test_storm_routing_setup.py
+
+Routing chooses every new thread's model and effort (design ch 11 §3.3, ch 10 §3.3, ch 12
+§4; owner §0.103, §0.105; B4 PR 21). Classes: `SetupTestCase`, `CoordinatorChoosesTests`,
+`CatalogToolTests`, `PersonsPinTests`, `DecisionModelChoosesTests`,
+`SlowCatalogRoutingTests`, `SetupDecisionTests`. Functions: `_pc_starting`, `_choice`,
+`_catalog`. Contains tests.
+
+[`tests/test_storm_routing_setup.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_routing_setup.py) · code · 41795 bytes
+
+### test_storm_runs.py
+
+Storm's sub-agent runs on the fake claude CLI (design ch 14; ch 18 §2's proof for PR 14):
+the run tree from fake events at depth 2 with its ancestry, progress coalesced to one
+aggregate a second, a sub-agent's held call moving its run to `waiting` and back, one run
+stopped and confirmed only by its end event, a runtime without `runs.stop`, boot after a
+crash (lost runs, the resume note), reconcile with the CLI's files, and transcript paging
+
+[`tests/test_storm_runs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_runs.py) · code · 43189 bytes
+
+### test_storm_runs_routes.py
+
+Storm's run routes (ch 17 §2.3): every route's shape and errors, on the fake claude CLI,
+driven in the engine's own event loop. Runnable as a script via `if __name__ == '__main__'`.
+Classes: `NoRunControl`, `RunRouteTests`. Functions: `app`. Built with FastAPI. Contains
+tests.
+
+[`tests/test_storm_runs_routes.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_runs_routes.py) · code · 12959 bytes
+
+### test_storm_store.py
+
+Storm's store, the engine lock and boot recovery (design ch 08; ch 07 §9). Runnable as a
+script via `if __name__ == '__main__'`. Classes: `_Temp`, `SchemaTests`, `TransactionTests`,
+`HandBackTests`, `WriteAheadLogTests`, `LockTests`, `RecoveryTests`. Functions:
+`load_sample`, `schema_of`, `digest`. Contains tests.
+
+[`tests/test_storm_store.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_store.py) · code · 36322 bytes
+
+### test_storm_stream.py
+
+Storm's stream on real turns (ch 09; ch 18 §2 PR 8: "snapshots rebuild the same blocks as
+the live stream"): real turns on the fake claude through the engine, and three views of each
+compared Classes: `StreamCase`, `LiveHistoryReconnectTests`, `ResumeTests`,
+`ShutdownSignalTests`, `ExactlyOnceTests`. Functions: `rich_turn`. Contains tests.
+
+[`tests/test_storm_stream.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_stream.py) · code · 22774 bytes
+
+### test_storm_stream_bus.py
+
+The bus (ch 09 §3, §4) on its own: coalescing on an injectable clock, file sizes at most
+four a second, a slow subscriber (live frames dropped first, then `reset`; the queue never
+grows past its bound), heartbeats, and filters. Classes: `StubSource`, `Feed`, `BusCase`,
+`CoalescingTests`, `BackPressureTests`, `EngineViewTests`, `HeartbeatTests`, `FilterTests`,
+and 1 more. Functions: `_until_closed`. Contains tests.
+
+[`tests/test_storm_stream_bus.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_stream_bus.py) · code · 13247 bytes
+
+### test_storm_stream_presenter.py
+
+The turn presenter and its wording table (ch 09 §2, §2.1), as a pure fold: the same stored
+events always give the same blocks, whatever came live in between. Runnable as a script via
+`if __name__ == '__main__'`. Classes: `Turn`, `WordingTests`, `FoldTests`, `DegradeTests`,
+`MoreWordingTests`, `StoredStepsTests`, `TurnsTests`. Functions: `fold`. Contains tests.
+
+[`tests/test_storm_stream_presenter.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_stream_presenter.py) · code · 21569 bytes
+
+### test_storm_stream_routes.py
+
+Storm's stream routes (ch 17 §2.4): GET /api/chat/stream, /api/chat/sessions/{id}/stream and
+/api/chat/events. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`SseResponse`, `StreamRouteTests`. Functions: `app`. Built with FastAPI. Contains tests.
+
+[`tests/test_storm_stream_routes.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_stream_routes.py) · code · 14798 bytes
+
+### test_storm_worktree_guards.py
+
+The guards today's code gains for thread worktrees (design ch 13 §7): a backup never carries
+a checkout (W3), `ensure_xo_structure` and the doctor never look inside `.xo/worktrees/`,
+and project removal offers XO's clean worktrees first, then lists what blocks it. Runnable
+as a script via `if __name__ == '__main__'`. Classes: `Case`, `BackupTests`,
+`StructureTests`, `DoctorTests`, `ProjectRemovalTests`. Contains tests.
+
+[`tests/test_storm_worktree_guards.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_worktree_guards.py) · code · 7297 bytes
+
+### test_storm_worktrees.py
+
+A thread's worktree on disk (design ch 13 §1–§6), on real temp git repositories: where it
+goes, creating and reusing it, the refusals, a rename of the project folder, bringing it
+back after a removal, what removal would lose, the removal itself, and the project's other
+worktrees. Runnable as a script via `if __name__ == '__main__'`.
+
+[`tests/test_storm_worktrees.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_worktrees.py) · code · 22918 bytes
+
+### test_storm_worktrees_engine.py
+
+Storm's worktrees in the engine's life (design ch 13 §2, §4–§6) on the fake claude CLI and a
+real temp git project: the preparer makes and records a thread's tree before its process
+starts (and its failure paths), a tree removed while the thread was resolved comes back at
+the same path, a worktree a CLI made is reported once, the 7-day sweep, and the routes.
+Runnable as a script via `if __name__ == '__main__'`.
+
+[`tests/test_storm_worktrees_engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_worktrees_engine.py) · code · 27749 bytes
 
 ### test_swarm_api.py
 
 Python module `test_swarm_api.py`. Classes: `ClientPatch`, `TransportTests`,
 `FeatureModuleTests`, `OneDoorTests`. Functions: `run`, `fake_response`. Contains tests.
 
-[`tests/test_swarm_api.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_swarm_api.py) · code · 9140 bytes
+[`tests/test_swarm_api.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_swarm_api.py) · code · 8729 bytes
 
 ### test_telemetry_sources.py
 
@@ -978,6 +1503,22 @@ switch the Agents tab's Configure page drives. Runnable as a script via `if __na
 tests.
 
 [`tests/test_telemetry_sources.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_telemetry_sources.py) · code · 8923 bytes
+
+### test_terminal_api.py
+
+routers/cowork_agent/terminal.py over HTTP and WebSocket. Runnable as a script via `if
+__name__ == '__main__'`. Classes: `_Server`, `TerminalApiTests`, `WebsocketGuardTests`.
+Functions: `_app`, `_read_until`. Built with FastAPI. Contains tests.
+
+[`tests/test_terminal_api.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_terminal_api.py) · code · 20412 bytes
+
+### test_terminal_service.py
+
+services/terminal: scrollback, environment, starting folder, registry rules. Runnable as a
+script via `if __name__ == '__main__'`. Classes: `ScrollbackTests`, `EnvironmentTests`,
+`StartFolderTests`, `NameTests`, `RegistryTests`. Contains tests.
+
+[`tests/test_terminal_service.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_terminal_service.py) · code · 15955 bytes
 
 ### test_theme.py
 
@@ -1056,7 +1597,7 @@ Every xo-project carries the same `.xo/`. Runnable as a script via `if __name__ 
 `SafetyTests`, `StoreCompatibilityTests`, `WatcherCheckTests`, `GitTests`. Functions:
 `_files`, `_fixture`. Contains tests.
 
-[`tests/test_xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_xo_structure.py) · code · 16803 bytes
+[`tests/test_xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_xo_structure.py) · code · 17313 bytes
 
 ### uninstall_sh_harness.sh
 
@@ -1067,4 +1608,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

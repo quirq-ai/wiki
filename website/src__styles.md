@@ -15,4 +15,4 @@ selectors include `app-scrollbar`, `app-scrollbar-thumb`, `app-scrollbar-corner`
 
 [`src/styles/global.css`](https://github.com/quirq-ai/website/blob/main/src/styles/global.css) · code · 23632 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

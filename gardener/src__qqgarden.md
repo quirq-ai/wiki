@@ -135,4 +135,4 @@ Classes: `GitHubTracker`, `LocalTracker`.
 
 [`src/qqgarden/tracker.py`](https://github.com/quirq-ai/gardener/blob/main/src/qqgarden/tracker.py) · code · 4072 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

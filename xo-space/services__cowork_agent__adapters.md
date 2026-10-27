@@ -17,7 +17,7 @@ Empty file `__init__.py` in the source tree. It is present (often as a placehold
 
 Python module `base.py`. Classes: `BaseAgentAdapter`.
 
-[`services/cowork_agent/adapters/base.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/base.py) · code · 3021 bytes
+[`services/cowork_agent/adapters/base.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/base.py) · code · 3500 bytes
 
 ### cli_status.py
 
@@ -26,12 +26,28 @@ Shared CLI invocation for the per-agent status adapters. Classes: `CliStatusErro
 
 [`services/cowork_agent/adapters/cli_status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/cli_status.py) · code · 4068 bytes
 
+### contract.py
+
+The runtime contract: the one interface storm's core runs any session through. Classes:
+`SystemPrompt`, `ToolPolicy`, `PermissionPolicy`, `CliLimits`, `McpServer`, `HostTool`,
+`AgentDef`, `SessionSpec`, and 57 more.
+
+[`services/cowork_agent/adapters/contract.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/contract.py) · code · 32174 bytes
+
+### env_whitelist.py
+
+The shared part of every storm runtime's process environment (storm ch 16 §1). Classes:
+`NeverList`. Functions: `stored_env`, `decision_model_key_names`, `never_list`, `base_env`,
+`referenced_vars`, `log_dropped`.
+
+[`services/cowork_agent/adapters/env_whitelist.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/env_whitelist.py) · code · 9277 bytes
+
 ### loader.py
 
 Dynamic capability resolver — the single seam every agent-specific module is reached
 through. Functions: `load_capability`, `try_load_capability`, `list_capability_providers`.
 
-[`services/cowork_agent/adapters/loader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/loader.py) · code · 3862 bytes
+[`services/cowork_agent/adapters/loader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/loader.py) · code · 4040 bytes
 
 ### usage_common.py
 
@@ -41,4 +57,4 @@ Shared usage aggregation over normalized usage entries. Classes: `Source`. Funct
 
 [`services/cowork_agent/adapters/usage_common.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/usage_common.py) · code · 30100 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

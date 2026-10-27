@@ -20,4 +20,4 @@ for the full document.
 
 [`src/activity-lab/examples/xo.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/examples/xo.json) · code · 87613 bytes
 
-_Generated 2026-10-26 11:39 UTC from `quirq`._
+_Generated 2026-10-27 11:08 UTC from `quirq`._

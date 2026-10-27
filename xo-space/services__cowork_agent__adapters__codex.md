@@ -8,17 +8,15 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### __init__.py
 
-Telemetry-only Codex integration.
+The codex adapter (`AGENT_NAME=codex`).
 
-[`services/cowork_agent/adapters/codex/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/__init__.py) · code · 195 bytes
+[`services/cowork_agent/adapters/codex/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/__init__.py) · code · 48 bytes
 
 ### adapter.py
 
-Python module `adapter.py`. Classes: `CodexAdapter`. Functions: `make_session_key`,
-`find_session_id_by_key`, `get_native_session_id`, `get_session_directory`,
-`write_preliminary_entry`, `find_session_key_for_session_id`.
+codex's adapter class: its name, its manifest and its health probe. Classes: `CodexAdapter`.
 
-[`services/cowork_agent/adapters/codex/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/adapter.py) · code · 23155 bytes
+[`services/cowork_agent/adapters/codex/adapter.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/adapter.py) · code · 1460 bytes
 
 ### agents.py
 
@@ -42,9 +40,10 @@ Codex channels-status view. Functions: `build_status_view`, `get_channels_status
 
 ### models.py
 
-codex model listing (/api/models).
+codex model listing (/api/models). Functions: `model_rows`, `list_models`. Built with
+FastAPI.
 
-[`services/cowork_agent/adapters/codex/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/models.py) · code · 1182 bytes
+[`services/cowork_agent/adapters/codex/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/models.py) · code · 1681 bytes
 
 ### models_status.py
 
@@ -52,6 +51,13 @@ Codex models-status view (Twin A — CLI exit-code probe). Functions: `build_sta
 `get_models_status`.
 
 [`services/cowork_agent/adapters/codex/models_status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/models_status.py) · code · 3181 bytes
+
+### oneshot_prompt.py
+
+Capability `oneshot_prompt`: one tool-free codex completion (storm ch 01 §4.7, ch 03 §10, ch
+10 §8). Classes: `CodexOneshot`. Functions: `build_argv`, `result`, `oneshot`.
+
+[`services/cowork_agent/adapters/codex/oneshot_prompt.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/oneshot_prompt.py) · code · 6683 bytes
 
 ### paths.py
 
@@ -106,12 +112,6 @@ Codex sessions capability. Functions: `resolve_native_file`, `enrich_project_ses
 
 [`services/cowork_agent/adapters/codex/sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/sessions.py) · code · 20462 bytes
 
-### streaming.py
-
-Python module `streaming.py`. Functions: `parse_stream_line`.
-
-[`services/cowork_agent/adapters/codex/streaming.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/streaming.py) · code · 7637 bytes
-
 ### usage.py
 
 Codex CLI usage — discovery + parser + dashboard aggregator. Functions: `get_session_files`,
@@ -128,4 +128,4 @@ Classes: `Source`. Functions: `_uuid_from_rollout`.
 
 [`services/cowork_agent/adapters/codex/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/visualizer_source.py) · code · 17436 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

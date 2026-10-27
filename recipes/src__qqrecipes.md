@@ -74,4 +74,4 @@ Classes: `Probe`, `Deployment`, `_SameHostRedirects`. Functions: `free_port`, `g
 
 [`src/qqrecipes/service.py`](https://github.com/quirq-ai/recipes/blob/main/src/qqrecipes/service.py) · code · 9195 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

@@ -47,4 +47,4 @@ exports: `overviewTiles`, `useOverviewModel`, `Tiles`.
 
 [`dashboard/src/features/overview/useOverviewModel.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/overview/useOverviewModel.ts) · code · 2687 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

@@ -40,4 +40,4 @@ Pricing-table model — direct port of src/pricing/types.ts. Classes: `ModelPric
 
 [`python/argus/pricing/types.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/pricing/types.py) · code · 531 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

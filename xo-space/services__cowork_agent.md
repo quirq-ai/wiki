@@ -62,9 +62,9 @@ OpenTelemetry GenAI Semantic Conventions & OTLP Exporter implementation. Functio
 
 Canonical project layout for //. Functions: `xo_projects_root`, `workspace_xo_dir`,
 `workspace_runtime_dir`, `workspace_sessions_dir`, `workspace_timeline_path`,
-`xo_runtime_root`, `runtime_dir`, `runtime_sessions_dir`, and 27 more.
+`xo_runtime_root`, `runtime_dir`, `runtime_sessions_dir`, and 28 more.
 
-[`services/cowork_agent/project_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_layout.py) · code · 30867 bytes
+[`services/cowork_agent/project_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_layout.py) · code · 32047 bytes
 
 ### providers_status_lib.py
 
@@ -129,4 +129,4 @@ Quirq machine-local UI/installation state. Functions: `get_state`, `update_state
 
 [`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 2499 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

@@ -38,4 +38,4 @@ Sources: names, where a source is, which source a Host means, and the list galil
 
 [`test/sources.test.mjs`](https://github.com/quirq-ai/galileo/blob/main/test/sources.test.mjs) · code · 7000 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

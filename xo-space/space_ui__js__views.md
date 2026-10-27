@@ -95,7 +95,7 @@ Set(['image/png','image/jpeg','image/webp']) Notable exports: `mountBranding`.
 Setup's Jobs panel uses the scheduler's definitions, executor and history. Notable exports:
 `mountCommands`.
 
-[`space_ui/js/views/setup-commands.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/setup-commands.js) · code · 29169 bytes
+[`space_ui/js/views/setup-commands.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/setup-commands.js) · code · 29307 bytes
 
 ### setup-identity.js
 
@@ -132,7 +132,7 @@ exports: `mountTheme`.
 
 Setup controller. Notable exports: `createSetupViews`.
 
-[`space_ui/js/views/setup.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/setup.js) · code · 37617 bytes
+[`space_ui/js/views/setup.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/setup.js) · code · 37619 bytes
 
 ### sharing.js
 
@@ -164,4 +164,4 @@ module's public entry.
 
 [`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8251 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

@@ -11,13 +11,21 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Spaces, collaborators and presence, run in SpacetimeDB's in-process module harness (no
 server needed): npm test. Automated test file.
 
-[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 19272 bytes
+[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 22044 bytes
+
+### sizes.test.ts
+
+How much each project stores, run in SpacetimeDB's in-process module harness (no server
+needed): npm test. Measuring older projects scans an index the harness cannot, so
+scripts/e2e.sh and the upgrade rehearsal cover that part. Automated test file.
+
+[`module/test/sizes.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/sizes.test.ts) · code · 3330 bytes
 
 ### xo.test.ts
 
 The admin claim and the xo store, run in SpacetimeDB's in-process module harness (no server
 needed): npm test. Automated test file.
 
-[`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 4472 bytes
+[`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7902 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

@@ -20,10 +20,10 @@ summarizes.
 Environment template `.env.example` (values omitted from the wiki). XO Space: environment
 variables. Keys: `HOST`, `PORT`, `STAGE`, `UVICORN_RELOAD`, `QUIRQ_SKIP_BOOT_INSTALL`,
 `AGENT_NAME`, `XO_PROJECTS_ROOT`, `QUIRQ_STATE_ROOT`, `AI_WORKSPACE_ROOT`,
-`QUIRQ_WATCHER_SOURCE_MODE`, `XO_RC_DIR`, `CLAUDE_CLI_PATH`, and 13 more. Copy to `.env`
+`QUIRQ_WATCHER_SOURCE_MODE`, `XO_RC_DIR`, `CLAUDE_CLI_PATH`, and 9 more. Copy to `.env`
 locally; never commit real credentials.
 
-[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 18045 bytes
+[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 17857 bytes
 
 ### .gitattributes
 
@@ -47,7 +47,7 @@ The agent/workspace instructions (“XO Cowork API - Codex Project Instructions�
 backend that brokers chat and auth flows. - Uses local coding CLIs (claude or codex) for
 assistant responses. - Keep API behavior backward compatible by default.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4348 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4146 bytes
 
 ### CLAUDE.md
 
@@ -55,7 +55,7 @@ The Claude Code instructions (“XO Cowork API - Project Memory”). - FastAPI b
 brokers chat and auth flows. - Uses local claude CLI for coding/assistant responses. -
 Primary API behavior should remain backward compatible.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4442 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4225 bytes
 
 ### CONTRIBUTING.md
 
@@ -64,7 +64,7 @@ open-source local control plane for AI coding agents — Claude Code, Codex, Ope
 Antigravity, and Cursor for telemetry — plus the Space UI that shows what those agents did
 to your projects. This guide is the short path from "I found something" to "it's merged".
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17770 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17721 bytes
 
 ### DEVELOPING.md
 
@@ -72,7 +72,7 @@ The developer guide (“Developing xo-space”). A practical guide to working in
 how it's wired, where things live, how to run and validate it, and how to add a new agent
 backend without touching core code.
 
-[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 57703 bytes
+[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 67680 bytes
 
 ### Dockerfile
 
@@ -89,7 +89,7 @@ marketplace add quirq-ai/xo-space, then open Plugins → Quirq → XO Space and 
 In a new Codex task, say “Open XO Space” or “Install XO Space in ~/work.” The plugin handles
 first setup and opens the local UI; fresh installs use the Codex backend.
 
-[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12516 bytes
+[`INSTALLATION.md`](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · code · 12510 bytes
 
 ### LICENSE
 
@@ -104,7 +104,7 @@ redistribution.
 The project README (“XO Space”). Build, observe and measure agentic work — locally, across
 every coding agent you use.
 
-[`README.md`](https://github.com/quirq-ai/xo-space/blob/main/README.md) · code · 27063 bytes
+[`README.md`](https://github.com/quirq-ai/xo-space/blob/main/README.md) · code · 27485 bytes
 
 ### RELEASING.md
 
@@ -140,7 +140,7 @@ install.sh — set up and run Quirq natively. Shebang `#!/usr/bin/env bash`. Fun
 `is_shared_tmp`, `dir_writable_by_others`, `filesystem_type`, `on_permissionless_fs`,
 `writable_problem`, and 23 more.
 
-[`install.sh`](https://github.com/quirq-ai/xo-space/blob/main/install.sh) · code · 37870 bytes
+[`install.sh`](https://github.com/quirq-ai/xo-space/blob/main/install.sh) · code · 37867 bytes
 
 ### pytest.ini
 
@@ -164,10 +164,11 @@ Txt file `requirements.txt`. XO Space API Dependencies.
 
 XO Space API Server FastAPI server that interfaces with local Claude Code CLI. Runnable as a
 script via `if __name__ == '__main__'`. Defines the `app` application object. HTTP routes:
-`GET /`, `GET /health`, `GET /debug/ai-auth`, `GET /sessions`, `DELETE
-/sessions/{project_id}`, `POST /gateway/restart`, and 4 more. Classes: `AskQuestionRequest`.
+`GET /`, `GET /health`, `GET /debug/ai-auth`, `POST /gateway/restart`, `POST /app/restart`,
+`POST /app/update`. Functions: `lifespan`, `root`, `health_check`, `debug_ai_auth`,
+`gateway_restart`, `app_restart`, `app_update`. Built with FastAPI.
 
-[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 51958 bytes
+[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 42869 bytes
 
 ### uninstall.sh
 
@@ -178,4 +179,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

@@ -42,17 +42,10 @@ Session-file I/O, and the per-project session index itself. Functions: `shard_fi
 
 [`services/cowork_agent/engine/sessions_io.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/engine/sessions_io.py) · code · 14707 bytes
 
-### stream_events.py
-
-The one vocabulary an adapter's `stream()` speaks. Functions: `is_known_label`, `token`,
-`activity`, `running`, `session_id`, `result`, `error`.
-
-[`services/cowork_agent/engine/stream_events.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/engine/stream_events.py) · code · 3870 bytes
-
 ### usage_loader.py
 
 Dynamic loader for the active agent's usage module. Functions: `load_usage_module`.
 
 [`services/cowork_agent/engine/usage_loader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/engine/usage_loader.py) · code · 1198 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

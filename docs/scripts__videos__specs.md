@@ -34,4 +34,4 @@ JSON document `onboard.json` whose top-level keys are `title`, `home`, `cwd`, `p
 
 [`scripts/videos/specs/onboard.json`](https://github.com/quirq-ai/docs/blob/main/scripts/videos/specs/onboard.json) · code · 999 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

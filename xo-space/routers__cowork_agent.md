@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Router aggregation for the cowork_agent subpackage. Functions: `_active_agent_routes`. Built
 with FastAPI.
 
-[`routers/cowork_agent/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/__init__.py) · code · 3211 bytes
+[`routers/cowork_agent/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/__init__.py) · code · 3333 bytes
 
 ### agents.py
 
@@ -32,12 +32,13 @@ Channel provisioning endpoints. Defines the `router` application object. HTTP ro
 
 ### chat.py
 
-Chat prompt / streaming / abort routes. Defines the `router` application object. HTTP
-routes: `POST /api/chat/prompt`, `GET /api/chat/stream/{stream_id}`, `POST /api/chat/abort`,
-`POST /api/chat/respond`. Functions: `chat_prompt`, `chat_stream`, `chat_abort`,
-`chat_respond`.
+Plain chat: `POST /api/chat/prompt, POST /api/chat/abort`, `GET /api/chat/active and GET
+/api/chat/stream/{stream_id}` (storm ch 17 §2.1, §3; sedc 09 #6, #7). Defines the `router`
+application object. HTTP routes: `POST /api/chat/prompt`, `GET
+/api/chat/stream/{stream_id}`, `POST /api/chat/abort`, `GET /api/chat/active`. Classes:
+`PlainPrompt`, `AbortSession`, `_OneTarget`.
 
-[`routers/cowork_agent/chat.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/chat.py) · code · 16758 bytes
+[`routers/cowork_agent/chat.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/chat.py) · code · 21186 bytes
 
 ### config.py
 
@@ -46,7 +47,7 @@ HTTP routes: `POST /api/config/providers/{provider_id}/key`, `DELETE
 /api/config/providers/{provider_id}/key`, `GET /api/models`, `GET /api/config/api-key`, `GET
 /api/config/providers`, `GET /api/config/openai-subscription`, and 5 more.
 
-[`routers/cowork_agent/config.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/config.py) · code · 12310 bytes
+[`routers/cowork_agent/config.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/config.py) · code · 12333 bytes
 
 ### doctor.py
 
@@ -77,12 +78,12 @@ object. HTTP routes: `GET /api/fts/index/{workspace:path}`, `POST
 ### misc.py
 
 Miscellaneous status / listing endpoints. Defines the `router` application object. HTTP
-routes: `GET /api/tools`, `GET /api/skills`, `GET /api/chat/active`, `GET /api/mcp/status`,
-`GET /api/connectors`, `GET /api/channels`, and 3 more. Functions: `list_tools`,
-`list_skills`, `chat_active`, `mcp_status`, `list_connectors`, `list_channels`,
-`list_automations`, `plugins_status`, and 1 more.
+routes: `GET /api/tools`, `GET /api/skills`, `GET /api/mcp/status`, `GET /api/connectors`,
+`GET /api/channels`, `GET /api/automations`, and 2 more. Functions: `list_tools`,
+`list_skills`, `mcp_status`, `list_connectors`, `list_channels`, `list_automations`,
+`plugins_status`, `ollama_status`.
 
-[`routers/cowork_agent/misc.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/misc.py) · code · 3929 bytes
+[`routers/cowork_agent/misc.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/misc.py) · code · 3862 bytes
 
 ### onboarding.py
 
@@ -145,6 +146,16 @@ Skill install catalog endpoints. Defines the `router` application object. HTTP r
 
 [`routers/cowork_agent/skills.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/skills.py) · code · 1826 bytes
 
+### terminal.py
+
+`/api/terminal/*`: shells in the browser, kept alive and tracked. Defines the `router`
+application object. HTTP routes: `GET /api/terminal/status`, `GET /api/terminal/sessions`,
+`GET /api/terminal/sessions/{terminal_id}`, `POST /api/terminal/sessions`, `POST
+/api/terminal/sessions/{terminal_id}/attach`, `PATCH /api/terminal/sessions/{terminal_id}`,
+and 2 more. Classes: `CreateTerminal`, `RenameTerminal`.
+
+[`routers/cowork_agent/terminal.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/terminal.py) · code · 11507 bytes
+
 ### usage.py
 
 Canonical usage router — /api/usage/*. Defines the `router` application object. HTTP routes:
@@ -174,4 +185,4 @@ xo-projects backup/restore router. Defines the `router` application object. HTTP
 
 [`routers/cowork_agent/xo_projects_sync.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/xo_projects_sync.py) · code · 13060 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

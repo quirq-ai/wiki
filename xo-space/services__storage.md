@@ -16,10 +16,10 @@ File primitives every part of a Space builds on.
 
 Atomic file writes for the records this system keeps on disk. Classes:
 `CorruptDocumentError`, `_Unset`, `ChangeGate`. Functions: `write_json_atomic`,
-`create_file_exclusive`, `create_json_exclusive`, `append_jsonl`, `read_stamped_document`,
-`unsupported_schema_message`, `write_json_owned`, `write_json_atomic_if_changed`.
+`write_text_durable`, `create_file_exclusive`, `create_json_exclusive`, `append_jsonl`,
+`read_stamped_document`, `unsupported_schema_message`, `write_json_owned`, and 1 more.
 
-[`services/storage/atomic_write.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/atomic_write.py) · code · 13810 bytes
+[`services/storage/atomic_write.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/atomic_write.py) · code · 14664 bytes
 
 ### flock.py
 
@@ -32,9 +32,9 @@ endpoints. Functions: `locked`.
 
 The folders of the machine-local state root (`~/.quirq/`). Functions: `projects_dir`,
 `sessions_dir`, `inbox_dir`, `connections_dir`, `sharing_dir`, `usage_dir`, `settings_dir`,
-`secrets_dir`, and 4 more.
+`secrets_dir`, and 7 more.
 
-[`services/storage/layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/layout.py) · code · 2967 bytes
+[`services/storage/layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/layout.py) · code · 3862 bytes
 
 ### migrations.py
 
@@ -57,4 +57,4 @@ Pure JSON readers for visualizer and watcher state. Functions: `read_json`,
 
 [`services/storage/reader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/reader.py) · code · 8221 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

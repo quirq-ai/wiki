@@ -79,4 +79,4 @@ Functions: `get_oauth_client`, `register_oauth_client`, `ensure_oauth_client`,
 
 [`services/cowork_agent/connectors/vercel_connector.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/connectors/vercel_connector.py) · code · 15607 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

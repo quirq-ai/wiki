@@ -26,7 +26,7 @@ The doctor's checks. Each takes a Context, returns findings, and writes nothing.
 `roots`, `disk_space`, `reads`, `space_identity`, `duplicate_ids`, `stale_temps`,
 `private_permissions`, `layout_moves`, and 2 more.
 
-[`services/doctor/checks.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/checks.py) · code · 38901 bytes
+[`services/doctor/checks.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/checks.py) · code · 39099 bytes
 
 ### content.py
 
@@ -54,7 +54,7 @@ The state files the doctor knows: where they live, how much they matter, and whi
 versions this xo-space reads (architecture §7.2-7.3). Classes: `Spec`. Functions:
 `spec_for`, `schema_file_versions`, `stamp_required`, `accepted`, `names`, `walk_files`.
 
-[`services/doctor/inventory.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/inventory.py) · code · 11888 bytes
+[`services/doctor/inventory.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/inventory.py) · code · 12075 bytes
 
 ### leftovers.py
 
@@ -69,7 +69,7 @@ Is each background part of the Space alive and succeeding? Functions: `watcher_e
 `stale_after`, `heartbeat_age`, `watcher_dead`, `watcher_alive`, `usage_state_path`,
 `watcher`, `components`, and 6 more.
 
-[`services/doctor/liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/liveness.py) · code · 40038 bytes
+[`services/doctor/liveness.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/liveness.py) · code · 43473 bytes
 
 ### model.py
 
@@ -106,4 +106,4 @@ Run every check with error isolation and assemble the report (architecture §5).
 
 [`services/doctor/run.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/run.py) · code · 6838 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

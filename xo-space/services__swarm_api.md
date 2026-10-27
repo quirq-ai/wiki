@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 xo-space's one client for xo-swarm-api.
 
-[`services/swarm_api/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/__init__.py) · code · 1026 bytes
+[`services/swarm_api/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/__init__.py) · code · 959 bytes
 
 ### _http.py
 
@@ -27,13 +27,6 @@ validation. Functions: `browser_auth_start`, `browser_auth_status`, `browser_aut
 
 [`services/swarm_api/auth.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/auth.py) · code · 1543 bytes
 
-### chat.py
-
-Swarm calls for Plane-A chat storage (/ask_question saves the exchange). Classes:
-`ChatAPIClient`.
-
-[`services/swarm_api/chat.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/chat.py) · code · 1982 bytes
-
 ### project_sharing.py
 
 Swarm calls for project sharing (the commit relay). Functions: `report_commits`, `poll`,
@@ -47,4 +40,4 @@ Swarm calls for the daily usage report. Functions: `probe_key`, `report`.
 
 [`services/swarm_api/usage.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/usage.py) · code · 600 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

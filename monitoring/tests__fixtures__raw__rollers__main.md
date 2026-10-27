@@ -12,4 +12,4 @@ Commit file `infra-config.commit`. 2db0ce1c4e606d998d4aa8c4635dd5da5bcec840.
 
 [`tests/fixtures/raw/rollers/main/infra-config.commit`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/rollers/main/infra-config.commit) · code · 41 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:08 UTC from `main`._

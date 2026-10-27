@@ -17,10 +17,10 @@ JSON document `capabilities.json` whose top-level keys are `models`, `data`, `ch
 
 JSON document `manifest.json` whose top-level keys are `name`, `binary`, `install_url`,
 `home_dir`, `env_file`, `config_file`, `agents_dir`, `workspace_dir`, `provisioning_log`,
-`precreate_home_for_skills`, `cwd`, `cli_timeout_seconds`, and 8 more. Structured data
+`precreate_home_for_skills`, `cwd`, `project_config_paths`, and 8 more. Structured data
 consumed by the surrounding app or tooling.
 
-[`config/agents/claude_code/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/manifest.json) · code · 2157 bytes
+[`config/agents/claude_code/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/manifest.json) · code · 2008 bytes
 
 ### settings.json
 
@@ -36,7 +36,7 @@ config/agents/claude_code/setup.sh — install + configure the claude_code agent
 `install_apt_prereqs`, `install_node`, `write_env_file`, `ensure_claude_cli`,
 `install_login_guard`, `claude`, and 1 more.
 
-[`config/agents/claude_code/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/setup.sh) · code · 13614 bytes
+[`config/agents/claude_code/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/setup.sh) · code · 13699 bytes
 
 ### troubleshoot.py
 
@@ -46,4 +46,4 @@ Check the live claude_code install against its commands.json paths. Runnable as 
 
 [`config/agents/claude_code/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/claude_code/troubleshoot.py) · code · 5192 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

@@ -52,7 +52,7 @@ SSE event stream the frontend expects. Functions: `find_session_id_by_key`,
 
 OpenClaw model listing (/api/models). Functions: `list_models`.
 
-[`services/cowork_agent/adapters/openclaw/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/openclaw/models.py) · code · 2364 bytes
+[`services/cowork_agent/adapters/openclaw/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/openclaw/models.py) · code · 2336 bytes
 
 ### models_status.py
 
@@ -125,4 +125,4 @@ OpenClaw visualizer source — tails `~/.openclaw/agents//sessions/.jsonl`. Clas
 
 [`services/cowork_agent/adapters/openclaw/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/openclaw/visualizer_source.py) · code · 10272 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

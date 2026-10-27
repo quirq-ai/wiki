@@ -86,4 +86,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js/views` | 4 | [space_ui__js__views.md](space_ui__js__views.md) |
 | `utils` | 2 | [utils.md](utils.md) |
 
-_Generated 2026-10-26 11:40 UTC._
+_Generated 2026-10-27 11:09 UTC._

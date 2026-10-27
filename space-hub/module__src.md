@@ -18,17 +18,17 @@ Line diffs for the web UI: Myers' O(ND) algorithm plus unified hunks. Notable ex
 The hub's guide: what it is, who can use it, how to use it, use cases. One source for both
 the full page (/-/guide) and the short version at the top of the home page. Keep it plain
 and short; the README has the rest. HUB is the remote name and URL scheme git uses (quirq,
-quirq://<host>/<space>/<project>). TODO: the sign-in wording still says anyone can register;
-on a hub that serves xo (SPACEHUB_XO_KEY), builders come from xo login instead.
+quirq://<host>/<space>/<project>). The sign-up wording follows the hub's accounts setting:
+open (register a name) or github (sign up with GitHub from the CLI).
 
-[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 12401 bytes
+[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 13775 bytes
 
 ### index.ts
 
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 60726 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 67493 bytes
 
 ### markdown.ts
 
@@ -69,6 +69,6 @@ module. Pages work without JavaScript; behind the server's proxy, live pages (ho
 projects) also load /-/live.js, which swaps in each new rendering the web service streams
 when their data changes.
 
-[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 71811 bytes
+[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 73052 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

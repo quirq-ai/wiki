@@ -23,9 +23,10 @@ HTTP routes: `GET /logo`. Functions: `get_branding`, `save_branding`, `get_logo`
 
 Which browser requests may change things in Space. Classes: `RecordTransportClient`,
 `BrowserWriteGuard`. Functions: `add_forwarding_middleware`, `is_loopback_peer`,
-`origin_allowed`, `write_allowed`, `add_browser_write_guard`, `is_local_mutation`.
+`origin_allowed`, `write_allowed`, `add_browser_write_guard`, `websocket_allowed`,
+`is_local_mutation`.
 
-[`routers/browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/browser_guard.py) · code · 10057 bytes
+[`routers/browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/browser_guard.py) · code · 11739 bytes
 
 ### schedules.py
 
@@ -34,7 +35,7 @@ application object. HTTP routes: `GET /api/schedules`, `POST /api/schedules`, `G
 /api/schedules/{job_id}`, `PUT /api/schedules/{job_id}`, `DELETE /api/schedules/{job_id}`,
 `POST /api/schedules/{job_id}/run`, and 1 more.
 
-[`routers/schedules.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/schedules.py) · code · 3267 bytes
+[`routers/schedules.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/schedules.py) · code · 4520 bytes
 
 ### space.py
 
@@ -69,4 +70,4 @@ application object. HTTP routes: `GET /space.json`, `GET /dashboard.json`, `GET
 
 [`routers/xo_data.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/xo_data.py) · code · 2720 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

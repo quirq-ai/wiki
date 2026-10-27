@@ -6,6 +6,16 @@ Source: [cli/src](https://github.com/quirq-ai/space-hub/tree/main/cli/src) in [s
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### admin.ts
+
+The web service acting as the hub admin (the identity that owns the database, whose token
+the entrypoint hands it), over SpacetimeDB's HTTP API on the internal port: SQL reads of
+private tables, reducer calls and new identities. Shared by the xo API (xo.ts) and GitHub
+sign-in (signin.ts), with their small JSON-over-HTTP helpers. Notable exports: `json`,
+`readJson`, `stdb`, `select`, `call`, `newIdentity`, `Reply`, `AdminHttp`.
+
+[`cli/src/admin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/admin.ts) · code · 3617 bytes
+
 ### agentrun.ts
 
 spacehub agent run: an agent at work. One folder holds the agent's own space (its
@@ -42,7 +52,7 @@ spaces), and `project` (alias `repo`) manages the git projects inside them. Movi
 plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 54114 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 63411 bytes
 
 ### config.ts
 
@@ -61,6 +71,23 @@ subscriptions: subscribe, take what arrived, unsubscribe. Notable exports: `quie
 `projectsIn`, and 6 more.
 
 [`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 4903 bytes
+
+### device.ts
+
+GitHub's device flow, run by the hub for its OAuth App (signin.ts): the hub asks GitHub for
+a code, the CLI shows it, the person enters it on github.com and says yes, and the hub,
+polling GitHub with the device code only it holds, receives a token with no scopes. The
+token never leaves the hub, so no other server can be handed it to replay here.
+
+[`cli/src/device.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/device.ts) · code · 3977 bytes
+
+### devicelogin.ts
+
+The CLI's side of a hub's device sign-in (signin.ts): ask the hub for a GitHub code, show
+it, then ask the hub until GitHub has said yes. GitHub gives the token to the hub; it never
+passes through here. Notable exports: `deviceSignIn`.
+
+[`cli/src/devicelogin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/devicelogin.ts) · code · 2999 bytes
 
 ### git.ts
 
@@ -88,7 +115,7 @@ new <main> on every change The service keeps one subscription to the hub's small
 (builders, spaces and their members, projects, refs, collaborators, presence, imports,
 builder credits).
 
-[`cli/src/live.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/live.ts) · code · 11605 bytes
+[`cli/src/live.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/live.ts) · code · 11971 bytes
 
 ### livepage.ts
 
@@ -114,6 +141,12 @@ clones) and speaks the remote helper protocol on stdin/stdout (see `man gitremot
 
 [`cli/src/remote.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/remote.ts) · code · 11499 bytes
 
+### signin.ts
+
+Sign up and sign in with GitHub, served by the web service.
+
+[`cli/src/signin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/signin.ts) · code · 13565 bytes
+
 ### spacesync.ts
 
 A whole space in one folder: a clone of every project of a space side by side, like quirq's
@@ -131,18 +164,18 @@ quirq://hub.quirq.dev/alice/notes a space on a named hub quirq://alice/notes a s
 hub you are logged in to (hub.quirq.dev unless you chose another) URLs we write always name
 the host, so a clone keeps working whatever server the CLI is logged in to later.
 
-[`cli/src/url.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/url.ts) · code · 2197 bytes
+[`cli/src/url.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/url.ts) · code · 3110 bytes
 
 ### web.ts
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 21866 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 24221 bytes
 
 ### xo.ts
 
 xo.quirq.dev's door to the hub, served by the web service at /-/api/xo/v1/.
 
-[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 8619 bytes
+[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 5742 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

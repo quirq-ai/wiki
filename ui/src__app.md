@@ -29,4 +29,4 @@ distributed through a shadcn registry.", icons: { icon: "/favicon.svg" }, } Nota
 
 [`src/app/layout.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/layout.tsx) · code · 596 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

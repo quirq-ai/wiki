@@ -19,6 +19,19 @@ file.
 
 [`cli/test/autosync.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/autosync.test.ts) · code · 5980 bytes
 
+### device.test.ts
+
+GitHub's device flow (run by the hub) against a stand-in for github.com (npm test).
+Automated test file.
+
+[`cli/test/device.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/device.test.ts) · code · 3549 bytes
+
+### devicelogin.test.ts
+
+The CLI's device sign-in against a stand-in hub (npm test). Automated test file.
+
+[`cli/test/devicelogin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/devicelogin.test.ts) · code · 4163 bytes
+
 ### livepage.test.ts
 
 Which pages are live and what the live stream carries (npm test). Automated test file.
@@ -31,11 +44,18 @@ The GitHub sync's rules, on a plain git repository (npm test). Automated test fi
 
 [`cli/test/refplan.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/refplan.test.ts) · code · 4243 bytes
 
+### signin.test.ts
+
+GitHub sign-in in front of stand-ins for GitHub's API and SpacetimeDB's HTTP API (npm test).
+Automated test file.
+
+[`cli/test/signin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/signin.test.ts) · code · 13323 bytes
+
 ### url.test.ts
 
 quirq:// URLs and which token goes where (npm test). Automated test file.
 
-[`cli/test/url.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/url.test.ts) · code · 2300 bytes
+[`cli/test/url.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/url.test.ts) · code · 3163 bytes
 
 ### xo.test.ts
 
@@ -44,4 +64,4 @@ file.
 
 [`cli/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xo.test.ts) · code · 5650 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

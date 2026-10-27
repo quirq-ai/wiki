@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `Counter`,
 
 [`registry/astryx/templates/ide/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/ide/page.tsx) · code · 16236 bytes
 
-_Generated 2026-10-26 11:39 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._

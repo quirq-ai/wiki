@@ -20,7 +20,7 @@ JSON document `agent.schema.json` whose top-level keys are `$schema`, `$id`, `ti
 `description`, `type`, `additionalProperties`, `properties`. Structured data consumed by the
 surrounding app or tooling.
 
-[`services/cowork_agent/visualizer/schema/agent.schema.json`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/schema/agent.schema.json) · code · 3207 bytes
+[`services/cowork_agent/visualizer/schema/agent.schema.json`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/schema/agent.schema.json) · code · 3182 bytes
 
 ### github-issues.schema.json
 
@@ -126,4 +126,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`services/cowork_agent/visualizer/schema/workitems.schema.json`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/schema/workitems.schema.json) · code · 10095 bytes
 
-_Generated 2026-10-26 11:40 UTC from `main`._
+_Generated 2026-10-27 11:09 UTC from `main`._
