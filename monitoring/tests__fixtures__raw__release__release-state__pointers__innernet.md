@@ -14,4 +14,4 @@ JSON document `lkgr.json` whose top-level keys are `commit`, `digest`, `generati
 
 [`tests/fixtures/raw/release/release-state/pointers/innernet/lkgr.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/pointers/innernet/lkgr.json) · code · 737 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

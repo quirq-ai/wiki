@@ -50,4 +50,4 @@ interface after enforcing its request security policy. Notable exports: `homeApp
 
 [`app/home/server.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/server.mjs) · code · 1996 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

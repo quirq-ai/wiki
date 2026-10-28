@@ -97,4 +97,4 @@ temporary project; no running app is changed.
 
 [`scripts/try-sources.ts`](https://github.com/quirq-ai/innernet/blob/main/scripts/try-sources.ts) · code · 9123 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

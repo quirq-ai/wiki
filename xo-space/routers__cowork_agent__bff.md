@@ -122,4 +122,4 @@ projects/{project_id}/file-history`.
 
 [`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 21130 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

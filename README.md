@@ -45,6 +45,7 @@ flowchart LR
     monitoring["monitoring"]
     perf["perf"]
     qq["qq"]
+    quirq["quirq"]
     quirq_ai["quirq_ai"]
     quirqy["quirqy"]
     quitter["quitter"]
@@ -88,6 +89,7 @@ flowchart LR
   click monitoring "./monitoring/_index.md"
   click perf "./perf/_index.md"
   click qq "./qq/_index.md"
+  click quirq "./quirq/_index.md"
   click quirq_ai "./quirq_ai/_index.md"
   click quirqy "./quirqy/_index.md"
   click quitter "./quitter/_index.md"
@@ -110,7 +112,7 @@ flowchart LR
   click xo_space "./xo-space/_index.md"
 ```
 
-[`.github`](.github/_index.md) · [`agent-skills`](agent-skills/_index.md) · [`argus-code`](argus-code/_index.md)* · [`cli-console`](cli-console/_index.md) · [`docs`](docs/_index.md) · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`experiments`](experiments/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`github-activity`](github-activity/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`lan`](lan/_index.md) · [`library`](library/_index.md) · [`marketing`](marketing/_index.md) · [`monitoring`](monitoring/_index.md) · [`perf`](perf/_index.md) · [`qq`](qq/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`setup`](setup/_index.md) · [`space-hub`](space-hub/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`ui`](ui/_index.md) · [`vangogh`](vangogh/_index.md) · [`vercel-activity`](vercel-activity/_index.md) · [`website`](website/_index.md) · [`xo`](xo/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
+[`.github`](.github/_index.md) · [`agent-skills`](agent-skills/_index.md) · [`argus-code`](argus-code/_index.md)* · [`cli-console`](cli-console/_index.md) · [`docs`](docs/_index.md) · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`experiments`](experiments/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`github-activity`](github-activity/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`lan`](lan/_index.md) · [`library`](library/_index.md) · [`marketing`](marketing/_index.md) · [`monitoring`](monitoring/_index.md) · [`perf`](perf/_index.md) · [`qq`](qq/_index.md) · [`quirq`](quirq/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`setup`](setup/_index.md) · [`space-hub`](space-hub/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`ui`](ui/_index.md) · [`vangogh`](vangogh/_index.md) · [`vercel-activity`](vercel-activity/_index.md) · [`website`](website/_index.md) · [`xo`](xo/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
 
 \* public fork
 <!-- quirq-wiki:repos:end -->

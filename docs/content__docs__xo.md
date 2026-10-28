@@ -12,7 +12,15 @@ Markdown page “Commands”. Every xo command on one page, the settings it read
 go for the lower-level API commands. MDX page (Markdown with JSX components), typically
 rendered by the docs site.
 
-[`content/docs/xo/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/commands.mdx) · code · 4140 bytes
+[`content/docs/xo/commands.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/commands.mdx) · code · 4796 bytes
+
+### hub.mdx
+
+Markdown page “The quirq hub”. The quirq hub keeps a space's work in step while people and
+agents work on it. xo sh runs the hub's client there, and xo gh runs GitHub's gh. MDX page
+(Markdown with JSX components), typically rendered by the docs site.
+
+[`content/docs/xo/hub.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/hub.mdx) · code · 4129 bytes
 
 ### index.mdx
 
@@ -20,7 +28,7 @@ Markdown page “What is xo”. xo is the command line for XO Cloud. It creates 
 your projects in them, and shares them, with one login. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/xo/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/index.mdx) · code · 3378 bytes
+[`content/docs/xo/index.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/index.mdx) · code · 3579 bytes
 
 ### install.mdx
 
@@ -28,7 +36,7 @@ Markdown page “Install xo”. Install xo with qq-setup's one command, on Linux
 Windows, or by hand with one paste. Then update or remove it. MDX page (Markdown with JSX
 components), typically rendered by the docs site.
 
-[`content/docs/xo/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/install.mdx) · code · 5635 bytes
+[`content/docs/xo/install.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/install.mdx) · code · 6084 bytes
 
 ### login.mdx
 
@@ -43,7 +51,7 @@ components), typically rendered by the docs site.
 JSON document `meta.json` whose top-level keys are `title`, `pages`. Structured data
 consumed by the surrounding app or tooling.
 
-[`content/docs/xo/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/meta.json) · code · 205 bytes
+[`content/docs/xo/meta.json`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/meta.json) · code · 216 bytes
 
 ### projects.mdx
 
@@ -68,6 +76,6 @@ Codex or other space on XO Cloud, or make a folder of your git repositories a sp
 quirq hub or GitHub. MDX page (Markdown with JSX components), typically rendered by the docs
 site.
 
-[`content/docs/xo/spaces.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/spaces.mdx) · code · 10933 bytes
+[`content/docs/xo/spaces.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/spaces.mdx) · code · 10963 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

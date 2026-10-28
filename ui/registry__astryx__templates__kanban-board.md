@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/kanban-board/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/kanban-board/page.tsx) · code · 20544 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

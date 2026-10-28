@@ -26,4 +26,4 @@ sha256:7da5a0c174403b143262535108fa23a21b9b22f3dc0300f3a155e987e87ed287.
 
 [`tests/golden/generated/github/website/qq-website-presubmit.yml`](https://github.com/quirq-ai/infra-config/blob/main/tests/golden/generated/github/website/qq-website-presubmit.yml) · code · 3077 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

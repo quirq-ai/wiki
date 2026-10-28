@@ -16,4 +16,4 @@ Notable exports: `generateStaticParams`, `generateMetadata`, `WritingEssay`.
 
 [`app/writing/[slug]/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/writing/[slug]/page.tsx) · code · 6614 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

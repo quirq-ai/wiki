@@ -68,7 +68,7 @@ import { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState,
 from "@/journeys/home-commands"; The docs home page: one big terminal that replays every qq
 and xo Notable exports: `HomeTerminal`, `SOURCE_LABEL`, `TerminalControl`.
 
-[`src/components/home-terminal.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-terminal.tsx) · code · 18340 bytes
+[`src/components/home-terminal.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/home-terminal.tsx) · code · 18400 bytes
 
 ### journey.tsx
 
@@ -159,4 +159,4 @@ fd-border bg-black" Notable exports: `Video`.
 
 [`src/components/video.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/video.tsx) · code · 2342 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

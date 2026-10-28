@@ -30,6 +30,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **monitoring** | public | [`monitoring/`](monitoring/_index.md) | [monitoring](https://github.com/quirq-ai/monitoring) |
 | **perf** | public | [`perf/`](perf/_index.md) | [perf](https://github.com/quirq-ai/perf) |
 | **qq** | public | [`qq/`](qq/_index.md) | [qq](https://github.com/quirq-ai/qq) |
+| **quirq** | public | [`quirq/`](quirq/_index.md) | [quirq](https://github.com/quirq-ai/quirq) |
 | **quirq_ai** | public | [`quirq_ai/`](quirq_ai/_index.md) | [quirq_ai](https://github.com/quirq-ai/quirq_ai) |
 | **quirqy** | public | [`quirqy/`](quirqy/_index.md) | [quirqy](https://github.com/quirq-ai/quirqy) |
 | **quitter** | public | [`quitter/`](quitter/_index.md) | [quitter](https://github.com/quirq-ai/quitter) |
@@ -57,4 +58,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-27 11:09 UTC._
+_Generated 2026-10-28 11:44 UTC._

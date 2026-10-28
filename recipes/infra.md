@@ -16,4 +16,4 @@ pins: toolchains move only with qqsync pin, and [qq] only by hand.
 
 [`infra/repo.toml`](https://github.com/quirq-ai/recipes/blob/main/infra/repo.toml) · code · 1514 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

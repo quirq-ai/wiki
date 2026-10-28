@@ -47,4 +47,4 @@ built so far. Sections: `qq`, `toolchains.python`, `[targets`.
 
 [`tests/fixtures/xo-space.repo.toml`](https://github.com/quirq-ai/gate/blob/main/tests/fixtures/xo-space.repo.toml) · code · 869 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

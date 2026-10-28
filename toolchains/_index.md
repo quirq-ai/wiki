@@ -25,4 +25,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `toolchains/python` | 2 | [toolchains__python.md](toolchains__python.md) |
 | `tools` | 3 | [tools.md](tools.md) |
 
-_Generated 2026-10-27 11:09 UTC._
+_Generated 2026-10-28 11:43 UTC._

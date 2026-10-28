@@ -130,4 +130,4 @@ Functions: `list_worktrees`, `remove_worktree`.
 
 [`routers/cowork_agent/storm/worktrees.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/worktrees.py) · code · 1759 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

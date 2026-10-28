@@ -245,4 +245,4 @@ keyboard shortcuts. Notable exports: `fmtMass`, `fmtExp`, `fmtKm`, `fmtAU`, `fmt
 
 [`src/ui/ui.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/ui/ui.js) · code · 42933 bytes
 
-_Generated 2026-10-27 11:08 UTC from `quirq`._
+_Generated 2026-10-28 11:43 UTC from `quirq`._

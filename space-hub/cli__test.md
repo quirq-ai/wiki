@@ -19,6 +19,13 @@ file.
 
 [`cli/test/autosync.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/autosync.test.ts) · code · 5980 bytes
 
+### avatar.test.ts
+
+Avatars: GitHub pictures fetched by the hub, initials for everyone else. Automated test
+file.
+
+[`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 2434 bytes
+
 ### device.test.ts
 
 GitHub's device flow (run by the hub) against a stand-in for github.com (npm test).
@@ -55,7 +62,7 @@ Automated test file.
 
 quirq:// URLs and which token goes where (npm test). Automated test file.
 
-[`cli/test/url.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/url.test.ts) · code · 3163 bytes
+[`cli/test/url.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/url.test.ts) · code · 3171 bytes
 
 ### xo.test.ts
 
@@ -64,4 +71,4 @@ file.
 
 [`cli/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xo.test.ts) · code · 5650 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

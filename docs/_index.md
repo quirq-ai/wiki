@@ -8,8 +8,8 @@ The docs for qq, quirq's build and release infrastructure, are live at [docs.qui
 - [Activity history](../_activity/repos/docs.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-24T06:30:49Z`
-- Snapshot SHA: `2c4e7d084635`
+- Last push: `2026-10-27T15:35:45Z`
+- Snapshot SHA: `fe0349a25557`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -27,7 +27,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.xo/sessions` | 1 | [.xo__sessions.md](.xo__sessions.md) |
 | `content` | 0 | [content.md](content.md) |
 | `content/docs` | 15 | [content__docs.md](content__docs.md) |
-| `content/docs/xo` | 8 | [content__docs__xo.md](content__docs__xo.md) |
+| `content/docs/xo` | 9 | [content__docs__xo.md](content__docs__xo.md) |
 | `public` | 0 | [public.md](public.md) |
 | `public/icons` | 22 | [public__icons.md](public__icons.md) |
 | `public/images` | 2 | [public__images.md](public__images.md) |
@@ -60,4 +60,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/journeys` | 5 | [src__journeys.md](src__journeys.md) |
 | `src/lib` | 5 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-10-27 11:08 UTC._
+_Generated 2026-10-28 11:43 UTC._

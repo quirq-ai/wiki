@@ -13,4 +13,4 @@ agent working here.
 
 [`services/cowork_agent/project_template/AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_template/AGENTS.md) · code · 510 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

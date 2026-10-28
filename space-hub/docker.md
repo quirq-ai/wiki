@@ -21,14 +21,14 @@ import). A starting proxy holds the public port at once, so platform probes see 
 answers 503 to everything: nobody reaches SpacetimeDB until the module is published and the
 hub admin claimed. Only then does the real allowlist proxy Shebang `#!/bin/sh`.
 
-[`docker/server-entrypoint.sh`](https://github.com/quirq-ai/space-hub/blob/main/docker/server-entrypoint.sh) · code · 6625 bytes
+[`docker/server-entrypoint.sh`](https://github.com/quirq-ai/space-hub/blob/main/docker/server-entrypoint.sh) · code · 7248 bytes
 
 ### server.Caddyfile
 
 Caddyfile file `server.Caddyfile`. Built into the server image. SpacetimeDB listens only
 inside the container; this is the one public port.
 
-[`docker/server.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/server.Caddyfile) · code · 1589 bytes
+[`docker/server.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/server.Caddyfile) · code · 2109 bytes
 
 ### starting.Caddyfile
 
@@ -39,4 +39,4 @@ hub admin. server.Caddyfile takes the port over after that.
 
 [`docker/starting.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/starting.Caddyfile) · code · 406 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

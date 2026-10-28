@@ -26,4 +26,4 @@ sha256:51c4cd74453bce29a5f9cac8710645e91db731555ba9dcf8bbbe21c8421b9200.
 
 [`tests/golden/generated/github/innernet/qq-innernet-presubmit.yml`](https://github.com/quirq-ai/infra-config/blob/main/tests/golden/generated/github/innernet/qq-innernet-presubmit.yml) · code · 2964 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

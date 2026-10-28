@@ -8,7 +8,7 @@ Explore repositories, their history, and the people around them in interactive 3
 - [Activity history](../_activity/repos/quirqy.md)
 - Default branch: `quirq`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-26T09:03:50Z`
+- Last push: `2026-10-27T14:22:44Z`
 - Snapshot SHA: `4aa401f8d018`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -50,4 +50,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/textures` | 1 | [src__textures.md](src__textures.md) |
 | `src/ui` | 30 | [src__ui.md](src__ui.md) |
 
-_Generated 2026-10-27 11:08 UTC._
+_Generated 2026-10-28 11:43 UTC._

@@ -76,7 +76,7 @@ The quirq hub: where a space's projects meet while people and their agents work 
 Classes: `Hub`. Functions: `name`, `hub_path`, `parse`, `settings`, `save`, `forget`,
 `installed`, `ready`, and 3 more.
 
-[`src/xo/quirq.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/quirq.py) · code · 8573 bytes
+[`src/xo/quirq.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/quirq.py) · code · 9105 bytes
 
 ### selfupdate.py
 
@@ -149,4 +149,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

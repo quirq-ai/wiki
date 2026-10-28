@@ -21,4 +21,4 @@ ordinary tests in every gate run, deterministic and bounded (plan §5.9). Functi
 
 [`src/qqrecipes/adapters/pytest/qq_hypothesis.py`](https://github.com/quirq-ai/recipes/blob/main/src/qqrecipes/adapters/pytest/qq_hypothesis.py) · code · 1535 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

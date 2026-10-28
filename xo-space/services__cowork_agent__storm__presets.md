@@ -40,4 +40,4 @@ A thread, and a job run, which is a thread (design ch 10 §4.4, §4.5). Function
 
 [`services/cowork_agent/storm/presets/thread.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/presets/thread.py) · code · 1762 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

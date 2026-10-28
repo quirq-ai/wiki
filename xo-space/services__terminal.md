@@ -40,4 +40,4 @@ The terminals this server is running: create, attach, rename, close, reap. Class
 
 [`services/terminal/sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/terminal/sessions.py) · code · 16322 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

@@ -41,7 +41,7 @@ gh is a fake here: tests never run the real gh or reach GitHub. Classes: `FakeGh
 A space's GitHub projects through the quirq hub: xo login finds the hub, install adds the
 quirq remote, update and sync push to and rebase on the hub and never on GitHub.
 
-[`tests/test_quirq.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_quirq.py) · code · 25525 bytes
+[`tests/test_quirq.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_quirq.py) · code · 27863 bytes
 
 ### test_selfupdate.py
 
@@ -87,4 +87,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23418 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

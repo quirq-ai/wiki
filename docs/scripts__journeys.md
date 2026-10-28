@@ -12,7 +12,7 @@ The project README (“Journeys”). A journey page (such as content/docs/try-fi
 puts a guide's steps beside a terminal that replays a real run. The run is recorded with the
 video recorder, from a spec here.
 
-[`scripts/journeys/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/README.md) · code · 4158 bytes
+[`scripts/journeys/README.md`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/README.md) · code · 4643 bytes
 
 ### first-build.json
 
@@ -33,7 +33,7 @@ JSON document `home-qq.json` whose top-level keys are `title`, `home`, `cwd`, `p
 JSON document `home-xo.json` whose top-level keys are `title`, `home`, `cwd`, `path`, `env`,
 `replace`, `steps`. Structured data consumed by the surrounding app or tooling.
 
-[`scripts/journeys/home-xo.json`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/home-xo.json) · code · 1744 bytes
+[`scripts/journeys/home-xo.json`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/home-xo.json) · code · 1793 bytes
 
 ### record-home-xo.sh
 
@@ -53,4 +53,4 @@ home page's xo commands. Runnable as a script via `if __name__ == '__main__'`. C
 
 [`scripts/journeys/xo-standin.py`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/xo-standin.py) · code · 6457 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

@@ -23,4 +23,4 @@ i.e. 1440x880 @2x) for every raw PNG in <dir>, plus assets/hero.png = the framed
 
 [`scripts/screenshots/frame.mjs`](https://github.com/quirq-ai/argus-code/blob/main/scripts/screenshots/frame.mjs) · code · 3310 bytes
 
-_Generated 2026-10-27 11:08 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

@@ -22,4 +22,4 @@ exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/setup/blob/main/lib/utils.ts) · code · 169 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._

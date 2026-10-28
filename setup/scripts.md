@@ -15,4 +15,4 @@ have the commits: node scripts/check-guide.mjs [DOCS_CLONE [XO_CLONE]].
 
 [`scripts/check-guide.mjs`](https://github.com/quirq-ai/setup/blob/main/scripts/check-guide.mjs) · code · 2351 bytes
 
-_Generated 2026-10-27 11:09 UTC from `main`._
+_Generated 2026-10-28 11:43 UTC from `main`._
