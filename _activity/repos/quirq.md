@@ -4,12 +4,14 @@
 
 **Status:** Collected
 
-**Requested from:** 2026-10-20T12:15:34Z · **Last success:** 2026-10-28T12:58:44Z
+**Requested from:** 2026-10-20T12:15:34Z · **Last success:** 2026-10-29T13:05:29Z
 
-**Stored records:** 25
+**Stored records:** 71
 
 | Date (UTC) | Records | Kinds |
 | --- | ---: | --- |
+| [2026-10-29](../2026/10/29/README.md) | 40 | commit: 26, pull request: 6, workflow: 8 |
+| [2026-10-28](../2026/10/28/README.md) | 6 | commit: 3, pull request: 1, workflow: 2 |
 | [2026-10-27](../2026/10/27/README.md) | 25 | commit: 13, pull request: 4, workflow: 8 |
 
 These are observed public metadata revisions, not an exhaustive event audit. Commits use commit dates and current branches; deleted history and changes between polls may be unavailable. Issue/PR actors are the authors, not necessarily the latest editors. The requested first window and last successful collection are shown below. Daily dates are UTC source timestamps; observed_at records the collection time.
