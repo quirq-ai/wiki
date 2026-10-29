@@ -109,4 +109,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/model` | 7 | [tests__model.md](tests__model.md) |
 | `tests/sources` | 20 | [tests__sources.md](tests__sources.md) |
 
-_Generated 2026-10-28 11:43 UTC._
+_Generated 2026-10-29 11:51 UTC._

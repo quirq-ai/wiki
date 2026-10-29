@@ -157,4 +157,4 @@ ActivityEntry[]; diagnostics: LogDiagnostic[]; revision: string; } Notable expor
 
 [`engine/workspace.ts`](https://github.com/quirq-ai/instants/blob/main/engine/workspace.ts) · code · 8734 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

@@ -13,4 +13,4 @@ persistent data files for each private profile.
 
 [`session/README.md`](https://github.com/quirq-ai/instants/blob/main/session/README.md) · code · 1329 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

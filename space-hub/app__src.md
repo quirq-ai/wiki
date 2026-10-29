@@ -18,17 +18,17 @@ space: string; project: string } Notable exports: `viewUrl`, `codeUrl`, `placeUr
 
 The hub's app: one neutral palette, one accent, an 4px spacing grid. Light and dark follow
 data-theme (theme.js). Leading class selectors include `quiet`, `small`, `strong`, `shell`,
-`progress`, `topbar`, `logo`, `search-trigger`, and 155 more. Defines or consumes CSS custom
+`progress`, `topbar`, `logo`, `search-trigger`, and 175 more. Defines or consumes CSS custom
 properties (design tokens).
 
-[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 32785 bytes
+[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 37383 bytes
 
 ### app.tsx
 
-const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1"; const
-INSPECTOR = "spacehub:inspector:v1" Notable exports: `App`.
+const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1"; const RAIL =
+"spacehub:rail:v1" Notable exports: `App`.
 
-[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 10421 bytes
+[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 10524 bytes
 
 ### content.css
 
@@ -55,4 +55,4 @@ pa Notable exports: `parseRoute`, `hashOf`, `navigate`, `useRoute`, `onLink`, `R
 
 [`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 4016 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

@@ -47,21 +47,21 @@ const SECTION_ORDER = ["chat", "activity", "insights", "vision", "library", "ide
 export function HomePage({ view, me }: { view: View | undefined; me: string | null }) { if
 (!view) return ; const spaces = [...view.snapshot.directory.entries].sort((a, b) =>
 b.modifiedAt.localeCompare(a.modifiedAt)); const recent = view.meta.allProjects.slice(0, 8);
-return New project : How it works} /> Notable exports: `HomePage`.
+return New project : }> Push your first project Install the CLI with scripts/install-cli.sh
+Notable exports: `HomePage`.
 
-[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 2577 bytes
+[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 3393 bytes
 
 ### project.tsx
 
-type ProjectRoute = Extract Notable exports: `ProjectPage`, `ProjectInspector`,
-`SpaceInspector`, `HubInspector`.
+type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
-[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 7561 bytes
+[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 5616 bytes
 
 ### space.tsx
 
 const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`.
 
-[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 4737 bytes
+[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 5348 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

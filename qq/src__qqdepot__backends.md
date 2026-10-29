@@ -20,4 +20,4 @@ GitHub backend: thin wrappers over the gh command line. Functions: `repo`, `defa
 
 [`src/qqdepot/backends/github.py`](https://github.com/quirq-ai/qq/blob/main/src/qqdepot/backends/github.py) · code · 7041 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

@@ -77,7 +77,7 @@ Look and page shell shared by the module's web UI and the web service (sign in, 
 import), so both halves of the site match. Notable exports: `shell`, `navFor`, `sideFor`,
 `esc`, `CSS`, `PAGE_CSP`.
 
-[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 19254 bytes
+[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 20208 bytes
 
 ### ui.ts
 
@@ -97,4 +97,4 @@ open-chat does.
 
 [`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 24156 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `GalleryHero
 
 [`registry/astryx/templates/gallery-hero/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/gallery-hero/page.tsx) · code · 3155 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

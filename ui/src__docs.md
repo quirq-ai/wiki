@@ -123,4 +123,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`src/docs/registry-items.tsx`](https://github.com/quirq-ai/ui/blob/main/src/docs/registry-items.tsx) · code · 11924 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

@@ -13,4 +13,4 @@ skillUsage[&lt;skill name&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/skillUsage/each-skill/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/skillUsage/each-skill/index.html) · code · 15833 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

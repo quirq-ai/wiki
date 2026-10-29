@@ -13,4 +13,4 @@ run against them through file:// URLs. Automated test file.
 
 [`test/library.test.js`](https://github.com/quirq-ai/library/blob/claude/project-thread-152nwx/test/library.test.js) · code · 13223 bytes
 
-_Generated 2026-10-28 11:43 UTC from `claude/project-thread-152nwx`._
+_Generated 2026-10-29 11:51 UTC from `claude/project-thread-152nwx`._

@@ -15,4 +15,4 @@ surface), so it needs suraj. Sections: `terms`, `[allow`.
 
 [`tests/fixtures/raw/gate/main/guard/terms.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gate/main/guard/terms.toml) · code · 4846 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

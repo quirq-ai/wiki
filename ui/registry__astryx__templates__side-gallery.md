@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/side-gallery/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/side-gallery/page.tsx) · code · 4709 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

@@ -13,4 +13,4 @@ browser.
 
 [`registry/astryx/templates/table-inbox/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/table-inbox/page.tsx) · code · 113371 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

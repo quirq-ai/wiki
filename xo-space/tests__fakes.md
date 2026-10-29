@@ -29,4 +29,4 @@ A `Host` for runtime tests: the contract's callbacks with scripted answers. Clas
 
 [`tests/fakes/host.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/host.py) · code · 2682 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

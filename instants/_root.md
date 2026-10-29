@@ -170,4 +170,4 @@ a default export as the module's public entry.
 
 [`vite.config.ts`](https://github.com/quirq-ai/instants/blob/main/vite.config.ts) · code · 3135 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

@@ -80,4 +80,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `static/brand/quirq` | 1 | [static__brand__quirq.md](static__brand__quirq.md) |
 | `static/scripts` | 1 | [static__scripts.md](static__scripts.md) |
 
-_Generated 2026-10-28 11:43 UTC._
+_Generated 2026-10-29 11:52 UTC._

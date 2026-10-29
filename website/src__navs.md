@@ -13,4 +13,4 @@ Picks the sidebar section a URL belongs to. Notable exports: `getActiveMenuSecti
 
 [`src/navs/activeMenu.ts`](https://github.com/quirq-ai/website/blob/main/src/navs/activeMenu.ts) · code · 1294 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

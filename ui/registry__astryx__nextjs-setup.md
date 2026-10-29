@@ -21,4 +21,4 @@ Astryx + Tailwind v4 layer order.
 
 [`registry/astryx/nextjs-setup/globals.css`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/nextjs-setup/globals.css) · code · 884 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._

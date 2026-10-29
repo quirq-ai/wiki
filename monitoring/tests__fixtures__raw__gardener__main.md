@@ -14,4 +14,4 @@ config`, `test-pipelines`, `gate`.
 
 [`tests/fixtures/raw/gardener/main/pins.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gardener/main/pins.toml) · code · 699 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:51 UTC from `main`._

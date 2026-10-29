@@ -12,8 +12,8 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 */ export function Avatar({ name, size = 24, kind, title }: { name: string; size?: number;
 kind?: string; title?: string }) { if (name === "quirqy") return ; const square = kind ===
 "org" || kind === "agent"; return ; } Notable exports: `Avatar`, `AvatarStack`,
-`PersonLink`, `Ago`, `Skeleton`, `SkeletonRows`, `SkeletonText`, `CopyButton`, and 3 more.
+`PersonLink`, `Ago`, `Skeleton`, `SkeletonRows`, `SkeletonText`, `CopyButton`, and 5 more.
 
-[`app/src/ui/primitives.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/ui/primitives.tsx) · code · 4599 bytes
+[`app/src/ui/primitives.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/ui/primitives.tsx) · code · 6662 bytes
 
-_Generated 2026-10-28 11:43 UTC from `main`._
+_Generated 2026-10-29 11:52 UTC from `main`._
