@@ -85,4 +85,4 @@ Notable exports: `SNAPSHOT_SCHEMA`, `CellStateSchema`, `CellSchema`, `SourceStat
 
 [`lib/model/types.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/model/types.ts) · code · 7336 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

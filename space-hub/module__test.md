@@ -13,6 +13,14 @@ Spaces, projects, collaborators and presence, run in SpacetimeDB's in-process mo
 
 [`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 22437 bytes
 
+### coord.test.ts
+
+Repositories that coordinate others (a DEPS file, AGENTS.md, work items) and content
+workspaces made of channels (folders with a README), as the app's workspace API shows them:
+npm test. Automated test file.
+
+[`module/test/coord.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/coord.test.ts) · code · 11648 bytes
+
 ### sizes.test.ts
 
 How much each project stores, run in SpacetimeDB's in-process module harness (no server
@@ -25,7 +33,7 @@ needed): npm test. Automated test file.
 The app's workspace API and the append_chat reducer, in SpacetimeDB's in-process module
 harness (no server needed): npm test. Automated test file.
 
-[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 16246 bytes
+[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 18178 bytes
 
 ### xo.test.ts
 
@@ -34,4 +42,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7898 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

@@ -4,23 +4,5 @@
 
 Source: [components](https://github.com/quirq-ai/instants/tree/main/components) in [instants](https://github.com/quirq-ai/instants).
 
-Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
-
-### connector-error.tsx
-
-/** Render in the affected feature, leaving the rest of the Site usable. */ export function
-ConnectorError({ error, connectorName, reconnectHref, }: { error: { status: string; message:
-string }; connectorName: string; reconnectHref: string; }) { const recovery =
-connectorErrorRecovery(error, connectorName, reconnectHref); return ( Notable exports:
-`ConnectorError`.
-
-[`components/connector-error.tsx`](https://github.com/quirq-ai/instants/blob/main/components/connector-error.tsx) · code · 1082 bytes
-
-### data-provider.tsx
-
-const DataContext = createContext(null) Notable exports: `DataProvider`, `useData`. Marked
-`'use client'` so it runs in the browser.
-
-[`components/data-provider.tsx`](https://github.com/quirq-ai/instants/blob/main/components/data-provider.tsx) · code · 1296 bytes
-
-_Generated 2026-10-29 11:51 UTC from `main`._
+This directory exists in the source repository but has no files of its own.
+Nested folders are documented in their own wiki pages, not here.

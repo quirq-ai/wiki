@@ -16,4 +16,4 @@ Notable exports: `AlertsPage`.
 
 [`dashboard/src/features/alerts/AlertsPage.tsx`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/alerts/AlertsPage.tsx) · code · 5906 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

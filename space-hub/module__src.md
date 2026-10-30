@@ -21,7 +21,15 @@ The app's code views as JSON: branches and tags, a folder or file at any ref, hi
 commit with its diffs, and every path of a project (for search). They reuse the git helpers
 of the server-rendered pages (ui.ts), so both views of a project always agree.
 
-[`module/src/code.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/code.ts) · code · 9649 bytes
+[`module/src/code.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/code.ts) · code · 9656 bytes
+
+### deps.ts
+
+A project's DEPS file: the other repositories it pins, by path, each to a commit. Workspaces
+that coordinate several repositories keep one at their root, as an ordered JSON object: {
+"<path>": { "url": "https://github.com/<owner>/<repo>", "commit-hash": "<40 hex>" }, .
+
+[`module/src/deps.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/deps.ts) · code · 7100 bytes
 
 ### diff.ts
 
@@ -32,20 +40,28 @@ Line diffs for the web UI: Myers' O(ND) algorithm plus unified hunks. Notable ex
 
 ### guide.ts
 
-The hub's guide: what it is, who can use it, how to use it, use cases. One source for both
-the full page (/-/guide) and the short version at the top of the home page. Keep it plain
-and short; the README has the rest. HUB is the remote name and URL scheme git uses (quirq,
-quirq://<host>/<space>/<project>). The sign-up wording follows the hub's accounts setting:
-open (register a name) or github (sign up with GitHub from the CLI).
+The hub's guide: get started in five steps, the words it uses, then one section per thing
+people do (work together, agents, GitHub, plain git) and what to do when something goes
+wrong. One source for both the full page (/-/guide) and the short version at the top of the
+module's home page. Keep it plain and short; the README has the rest.
 
-[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 13943 bytes
+[`module/src/guide.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/guide.ts) · code · 12306 bytes
+
+### howto.ts
+
+Pieces for pages that show how to do something: command blocks, numbered steps, and the ways
+to sign in. One source for the guide (module) and the web service's sign-in and sign-up
+pages, so they never disagree. They are drawn with the app's classes (style.ts);
+/-/app/copy.js adds the copy button to every .command.
+
+[`module/src/howto.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/howto.ts) · code · 4494 bytes
 
 ### index.ts
 
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 66612 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 67095 bytes
 
 ### markdown.ts
 
@@ -54,6 +70,16 @@ HTML in the source is shown as text, and links only keep http(s), mailto, #ancho
 inside the repository. Notable exports: `renderMarkdown`, `Resolve`.
 
 [`module/src/markdown.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/markdown.ts) · code · 5625 bytes
+
+### protocol.ts
+
+The client protocol: what a spacehub CLI and the hub it talks to must agree on. The CLI asks
+for it (the client_protocol procedure) whenever it connects, and stops with an "update it"
+message on a mismatch instead of failing on a table it cannot read. Bump PROTOCOL when a
+change breaks clients built before it: a table, column, reducer or procedure they use is
+renamed, removed or changes type, or a table gains a column.
+
+[`module/src/protocol.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/protocol.ts) · code · 988 bytes
 
 ### sha1.ts
 
@@ -77,7 +103,7 @@ Look and page shell shared by the module's web UI and the web service (sign in, 
 import), so both halves of the site match. Notable exports: `shell`, `navFor`, `sideFor`,
 `esc`, `CSS`, `PAGE_CSP`.
 
-[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 20208 bytes
+[`module/src/style.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/style.ts) · code · 23036 bytes
 
 ### ui.ts
 
@@ -86,7 +112,7 @@ module. Pages work without JavaScript; behind the server's proxy, live pages (ho
 projects) also load /-/live.js, which swaps in each new rendering the web service streams
 when their data changes.
 
-[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 74046 bytes
+[`module/src/ui.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/ui.ts) · code · 74062 bytes
 
 ### workspace.ts
 
@@ -95,6 +121,6 @@ service serves at /, /<space> and /<space>/<project>. It speaks open-chat's snap
 so the app renders conversations, collections, feeds, documents and previews exactly as
 open-chat does.
 
-[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 24156 bytes
+[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 32831 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

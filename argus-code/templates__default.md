@@ -13,4 +13,4 @@ Built with [stack]. Deployed on [platform].
 
 [`templates/default/CLAUDE.md`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/CLAUDE.md) · code · 1015 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

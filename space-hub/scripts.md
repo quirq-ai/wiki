@@ -21,7 +21,7 @@ drives the spacehub CLI and real git through git-remote-quirq (and git-remote-sp
 old spacehub:// URLs). scripts/e2e.sh (needs: spacetime, git, node 22+, python3)
 SPACEHUB_E2E_SERVER=ws://127.0.0.1:3000 scripts/e2e.sh against a running server, e.g.
 
-[`scripts/e2e.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/e2e.sh) · code · 57243 bytes
+[`scripts/e2e.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/e2e.sh) · code · 65137 bytes
 
 ### install-cli.sh
 
@@ -41,4 +41,4 @@ defaults to "spacehub"; override with SPACEHUB_DB. Shebang `#!/usr/bin/env bash`
 
 [`scripts/setup.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/setup.sh) · code · 1086 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

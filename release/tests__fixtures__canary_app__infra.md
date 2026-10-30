@@ -13,4 +13,4 @@ Python it runs on.
 
 [`tests/fixtures/canary_app/infra/repo.toml.in`](https://github.com/quirq-ai/release/blob/main/tests/fixtures/canary_app/infra/repo.toml.in) · code · 621 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

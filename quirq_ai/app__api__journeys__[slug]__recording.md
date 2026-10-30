@@ -16,4 +16,4 @@ exports: `POST`, `dynamic`.
 
 [`app/api/journeys/[slug]/recording/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/api/journeys/[slug]/recording/route.ts) · code · 2881 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

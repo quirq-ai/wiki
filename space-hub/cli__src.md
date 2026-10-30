@@ -16,6 +16,16 @@ sign-in (signin.ts), with their small JSON-over-HTTP helpers. Notable exports: `
 
 [`cli/src/admin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/admin.ts) · code · 3617 bytes
 
+### agenthub.ts
+
+Agenthub: worker agents launched from a project's chat, served by the web service at
+/-/api/agenthub/. A member writes a message in a channel and presses Launch instead of Send:
+the service starts a task on the org's Agents Hub (a sandbox and an agent that works on
+GitHub), and saves the message to the channel's chat with the task's id, so everyone in the
+channel sees the worker and follows it there.
+
+[`cli/src/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agenthub.ts) · code · 14120 bytes
+
 ### agentrun.ts
 
 spacehub agent run: an agent at work. One folder holds the agent's own space (its
@@ -50,7 +60,7 @@ commit; 2. if the hub's branch holds commits this copy lacks, rebases the local 
 it (git pull --rebase); 3. pushes when this copy is ahead. `space sync --watch --auto` runs
 a step every few seconds and on every push the hub reports.
 
-[`cli/src/autosync.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/autosync.ts) · code · 10519 bytes
+[`cli/src/autosync.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/autosync.ts) · code · 11152 bytes
 
 ### avatar.ts
 
@@ -70,7 +80,16 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 63490 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 63523 bytes
+
+### compat.ts
+
+Does this CLI match the hub it talks to? The hub reports the client protocol it speaks
+(module/src/protocol.ts, through the client_protocol procedure). On a mismatch the CLI stops
+with what to do, instead of failing on a table or column it cannot read. Notable exports:
+`protocolProblem`, `unreadableData`, `isDecodeError`, `UPDATE_COMMAND`, `HubProtocol`.
+
+[`cli/src/compat.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/compat.ts) · code · 2039 bytes
 
 ### config.ts
 
@@ -86,9 +105,9 @@ issues its own identities. Notable exports: `configFile`, `normalizeServer`, `lo
 One connection to the spacehub database plus small read helpers. Reads are short-lived
 subscriptions: subscribe, take what arrived, unsubscribe. Notable exports: `quietSdkLogs`,
 `connectTo`, `connect`, `snapshot`, `findProject`, `findSpace`, `spaceRoles`, `projectsIn`,
-and 6 more.
+and 7 more.
 
-[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 4898 bytes
+[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 6790 bytes
 
 ### device.ts
 
@@ -188,12 +207,22 @@ name the host, so a clone keeps working whatever server the CLI is logged in to 
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 24678 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 29115 bytes
 
 ### xo.ts
 
 xo.quirq.dev's door to the hub, served by the web service at /-/api/xo/v1/.
 
-[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 5742 bytes
+[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 5836 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+### xosignin.ts
+
+Sign in to this website with xo, served by the web service: GET /-/login/xo?next=/path off
+to XO's own sign-in (Clerk), the one xo login uses GET /-/login/xo/callback back from it,
+signed in as the visitor's xo builder This hub is a client of xo login's Clerk OAuth
+application (public, with PKCE), and the xo server swaps the code: POST <xo>/login/hub, with
+this hub's xo key, answers the Clerk user id and their builder, which the xo server makes on
+
+[`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 9340 bytes
+
+_Generated 2026-10-30 11:44 UTC from `main`._

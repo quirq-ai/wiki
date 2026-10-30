@@ -8,7 +8,7 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-29T11:12:35Z`
+- Last push: `2026-10-30T09:17:22Z`
 - Snapshot SHA: `0b8b860a9bfc`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -185,4 +185,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-10-29 11:52 UTC._
+_Generated 2026-10-30 11:44 UTC._

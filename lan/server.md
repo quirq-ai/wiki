@@ -45,4 +45,4 @@ Go file `store.go`. package main.
 
 [`server/store.go`](https://github.com/quirq-ai/lan/blob/main/server/store.go) · code · 2353 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports:
 
 [`registry/astryx/templates/documentation/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/documentation/page.tsx) · code · 10435 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

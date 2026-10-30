@@ -14,4 +14,4 @@ config`, `gate`.
 
 [`tests/fixtures/raw/release/main/pins.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/main/pins.toml) · code · 438 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

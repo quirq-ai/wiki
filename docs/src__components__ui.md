@@ -22,4 +22,4 @@ shadcn's Input (new-york v4), in the docs' fumadocs colors. Notable exports: `In
 
 [`src/components/ui/input.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/ui/input.tsx) · code · 788 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

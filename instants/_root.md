@@ -6,6 +6,15 @@ Source: [(repository root)](https://github.com/quirq-ai/instants/tree/main) in [
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### .dockerignore
+
+`.dockerignore` tells git or Docker which paths to omit. It currently lists 10 pattern(s)
+including `node_modules`, `.next`, `.git`, `npm-debug.log*`, `.env`, `.env.*`,
+`!.env*.example`, `.research-cache/*`, and 2 more. Generated and secret files matching these
+patterns are not in the clone the wiki summarizes.
+
+[`.dockerignore`](https://github.com/quirq-ai/instants/blob/main/.dockerignore) · other · 199 bytes
+
 ### .gitattributes
 
 Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.webm binary.
@@ -14,12 +23,12 @@ Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.webm binary
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 35 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 38 pattern(s)
 including `/node_modules`, `/.pnp`, `.pnp.*`, `.yarn/*`, `!.yarn/patches`, `!.yarn/plugins`,
-`!.yarn/releases`, `!.yarn/versions`, and 27 more. Generated and secret files matching these
+`!.yarn/releases`, `!.yarn/versions`, and 30 more. Generated and secret files matching these
 patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 853 bytes
+[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 1077 bytes
 
 ### .npmrc
 
@@ -51,6 +60,14 @@ run, imported history readable, interactions accessible, and source capabilities
 
 [`CONTRIBUTING.md`](https://github.com/quirq-ai/instants/blob/main/CONTRIBUTING.md) · code · 5120 bytes
 
+### Dockerfile
+
+Container build file `Dockerfile`. Base image `node:22-bookworm-slim`. Exposes ports `3000`.
+Starts with `["npx", "next", "start", "--hostname", "0.0.0.0", "--port", "3000"]`.
+Instructions used: `FROM`, `WORKDIR`, `COPY`, `RUN`, `ENV`, `EXPOSE`, `CMD`.
+
+[`Dockerfile`](https://github.com/quirq-ai/instants/blob/main/Dockerfile) · other · 1145 bytes
+
 ### LICENSE
 
 License text (MIT License). Governs use, modification, and distribution of this repository.
@@ -61,9 +78,11 @@ redistribution.
 
 ### README.md
 
-The project README (“Instants”). Your agent activity, in one place.
+The project README (“Recall”). Recall turns folders of past research and experiments into
+Instagram-style carousel posts, so you can browse, rediscover and showcase your work. Drop
+in new data in any format (notes, CSV, JSON, images, code) and it becomes a new post.
 
-[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 13378 bytes
+[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 1550 bytes
 
 ### SECURITY.md
 
@@ -80,12 +99,6 @@ vendored materials, or external assets.
 
 [`THIRD_PARTY_NOTICES.md`](https://github.com/quirq-ai/instants/blob/main/THIRD_PARTY_NOTICES.md) · code · 3103 bytes
 
-### cloudflare-env.d.ts
-
-declare namespace Cloudflare { interface Env { DB?: D1Database; BUCKET?: R2Bucket; } }.
-
-[`cloudflare-env.d.ts`](https://github.com/quirq-ai/instants/blob/main/cloudflare-env.d.ts) · code · 99 bytes
-
 ### components.json
 
 JSON document `components.json` whose top-level keys are `$schema`, `style`, `rsc`, `tsx`,
@@ -94,52 +107,38 @@ tooling.
 
 [`components.json`](https://github.com/quirq-ai/instants/blob/main/components.json) · code · 420 bytes
 
-### drizzle.config.ts
-
-export default defineConfig({ out: "./drizzle", schema: "./db/schema.ts", dialect: "sqlite",
-}) Provides a default export as the module's public entry.
-
-[`drizzle.config.ts`](https://github.com/quirq-ai/instants/blob/main/drizzle.config.ts) · code · 148 bytes
-
 ### eslint.config.mjs
 
 const eslintConfig = defineConfig([ ...nextVitals, ...nextTs, Generated state and vendored
-build tooling are outside application lint. globalIgnores([ ".next/**", ".vinext/**",
-".wrangler/**", ".sites-runtime/**", "dist/**", "out/**", "build/**", "vendor/**", "test-
-results/**", "playwright-report/**", "next-env.d.ts", ]), { rules: { React Compiler is not
-ena Provides a default export as the module's public entry.
+build tooling are outside application lint. globalIgnores([ ".next/**", "dist/**", "out/**",
+"build/**", "vendor/**", "next-env.d.ts", ]), { rules: { React Compiler is not enabled.
+These compiler diagnostics flag our client hydration effects, event-time clocks, and lat
+Provides a default export as the module's public entry.
 
-[`eslint.config.mjs`](https://github.com/quirq-ai/instants/blob/main/eslint.config.mjs) · code · 1631 bytes
+[`eslint.config.mjs`](https://github.com/quirq-ai/instants/blob/main/eslint.config.mjs) · code · 1246 bytes
 
 ### next.config.ts
 
 const projectRoot = fileURLToPath(new URL(".", import.meta.url)) Provides a default export
 as the module's public entry.
 
-[`next.config.ts`](https://github.com/quirq-ai/instants/blob/main/next.config.ts) · code · 604 bytes
+[`next.config.ts`](https://github.com/quirq-ai/instants/blob/main/next.config.ts) · code · 599 bytes
 
 ### package-lock.json
 
-Package-manager lockfile (package-lock.json, 493.8 KB). It pins the exact dependency tree
+Package-manager lockfile (package-lock.json, 347.3 KB). It pins the exact dependency tree
 for reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`package-lock.json`](https://github.com/quirq-ai/instants/blob/main/package-lock.json) · lockfile · 505605 bytes
+[`package-lock.json`](https://github.com/quirq-ai/instants/blob/main/package-lock.json) · lockfile · 355588 bytes
 
 ### package.json
 
-npm package manifest for `instants` v0.1.0. Scripts: `install:ci`, `dev`, `build`, `start`,
-`dev:sites`, `build:sites`, `start:sites`, `lint`, `typecheck`, `test`, and 2 more.
+npm package manifest for `recall` v0.1.0. Scripts: `dev`, `build`, `research`, `video`,
+`start`, `lint`, `typecheck`.
 
-[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 2391 bytes
-
-### playwright.config.ts
-
-const existingServer = process.env.PLAYWRIGHT_BASE_URL; const baseURL = existingServer ||
-"http://127.0.0.1:5180" Provides a default export as the module's public entry.
-
-[`playwright.config.ts`](https://github.com/quirq-ai/instants/blob/main/playwright.config.ts) · code · 1136 bytes
+[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 1486 bytes
 
 ### postcss.config.mjs
 
@@ -148,12 +147,21 @@ the module's public entry.
 
 [`postcss.config.mjs`](https://github.com/quirq-ai/instants/blob/main/postcss.config.mjs) · code · 94 bytes
 
+### proxy.ts
+
+Unknown post slugs and topics must answer 404. The root loading.tsx streams the shell (and a
+200 status) before a page can call notFound(), so the existence check runs here, before
+rendering starts, and rewrites misses to an unmatched path that Next serves with a real 404.
+Notable exports: `proxy`, `config`. Wired into a Next.js app (App Router or Next APIs).
+
+[`proxy.ts`](https://github.com/quirq-ai/instants/blob/main/proxy.ts) · code · 1396 bytes
+
 ### tsconfig.json
 
 TypeScript compiler configuration for this package or app (paths, JSX mode, and strictness).
 Downstream `tsc` and bundlers read it to typecheck and emit.
 
-[`tsconfig.json`](https://github.com/quirq-ai/instants/blob/main/tsconfig.json) · code · 800 bytes
+[`tsconfig.json`](https://github.com/quirq-ai/instants/blob/main/tsconfig.json) · code · 765 bytes
 
 ### vercel.json
 
@@ -163,11 +171,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/instants/blob/main/vercel.json) · code · 177 bytes
 
-### vite.config.ts
-
-const SITE_CREATOR_PLACEHOLDER_DATABASE_ID = "00000000-0000-4000-8000-000000000000" Provides
-a default export as the module's public entry.
-
-[`vite.config.ts`](https://github.com/quirq-ai/instants/blob/main/vite.config.ts) · code · 3135 bytes
-
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

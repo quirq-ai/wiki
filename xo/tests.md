@@ -41,7 +41,7 @@ gh is a fake here: tests never run the real gh or reach GitHub. Classes: `FakeGh
 A space's GitHub projects through the quirq hub: xo login finds the hub, install adds the
 quirq remote, update and sync push to and rebase on the hub and never on GitHub.
 
-[`tests/test_quirq.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_quirq.py) · code · 27863 bytes
+[`tests/test_quirq.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_quirq.py) · code · 28635 bytes
 
 ### test_selfupdate.py
 
@@ -58,14 +58,14 @@ xo serve against a fake Clerk Backend API on 127.0.0.1. Classes: `FakeClerk`. Fu
 `test_me_verifies_the_key_and_returns_the_profile`,
 `test_me_with_no_metadata_or_email_says_so`, and 93 more. Contains tests.
 
-[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 150722 bytes
+[`tests/test_server.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server.py) · code · 150818 bytes
 
 ### test_server_hub.py
 
 xo serve with the hub on (XO_HUB_URL and XO_HUB_KEY): what xo keeps for a user lives in the
 hub's record, not in Clerk's private metadata. Classes: `FakeHub`.
 
-[`tests/test_server_hub.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server_hub.py) · code · 14804 bytes
+[`tests/test_server_hub.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server_hub.py) · code · 20366 bytes
 
 ### test_services.py
 
@@ -78,7 +78,7 @@ The services list: what xo accepts from a server, and what it falls back to.
 xo create space NAME with no KIND (xo/spacerepo.py): each folder here a branch, main the
 index, pushed to a local stand-in for GitHub.
 
-[`tests/test_spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_spacerepo.py) · code · 36014 bytes
+[`tests/test_spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_spacerepo.py) · code · 37606 bytes
 
 ### test_workspace.py
 
@@ -87,4 +87,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23418 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

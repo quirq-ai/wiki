@@ -6,6 +6,12 @@ Source: [cli/test](https://github.com/quirq-ai/space-hub/tree/main/cli/test) in 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### agenthub.test.ts
+
+Agenthub in front of a stand-in for an Agents Hub (npm test). Automated test file.
+
+[`cli/test/agenthub.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/agenthub.test.ts) · code · 11482 bytes
+
 ### agenttemplate.test.ts
 
 The starter definition of an agent (npm test). Automated test file.
@@ -26,6 +32,12 @@ file.
 
 [`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 2434 bytes
 
+### compat.test.ts
+
+The CLI and hub protocol check (npm test). Automated test file.
+
+[`cli/test/compat.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/compat.test.ts) · code · 3846 bytes
+
 ### device.test.ts
 
 GitHub's device flow (run by the hub) against a stand-in for github.com (npm test).
@@ -38,6 +50,14 @@ Automated test file.
 The CLI's device sign-in against a stand-in hub (npm test). Automated test file.
 
 [`cli/test/devicelogin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/devicelogin.test.ts) · code · 4163 bytes
+
+### dockerfile.test.ts
+
+The image builds the CLI with only the module files it imports, copied one by one
+(Dockerfile, the cli stage). A new import must be copied too (npm test). Automated test
+file.
+
+[`cli/test/dockerfile.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/dockerfile.test.ts) · code · 1092 bytes
 
 ### livepage.test.ts
 
@@ -71,4 +91,11 @@ file.
 
 [`cli/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xo.test.ts) · code · 5650 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+### xosignin.test.ts
+
+Sign in to the website with xo, against stand-ins for the xo server (and Clerk behind it)
+and for SpacetimeDB's HTTP API (npm test). Automated test file.
+
+[`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 11499 bytes
+
+_Generated 2026-10-30 11:44 UTC from `main`._

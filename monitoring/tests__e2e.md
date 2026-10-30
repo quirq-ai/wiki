@@ -42,4 +42,4 @@ height: 844 }, { name: "1280", width: 1280, height: 800 }, ] as const.
 
 [`tests/e2e/shell.spec.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/e2e/shell.spec.ts) · code · 2805 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

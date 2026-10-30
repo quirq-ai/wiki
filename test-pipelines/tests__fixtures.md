@@ -12,4 +12,4 @@ A stand-in test runner for the retry tests: reads cases.txt in the current direc
 
 [`tests/fixtures/fake_runner.py`](https://github.com/quirq-ai/test-pipelines/blob/main/tests/fixtures/fake_runner.py) · code · 1358 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

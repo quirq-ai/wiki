@@ -88,12 +88,10 @@ as a script via `if __name__ == '__main__'`. Functions: `marker_path`, `state_pa
 
 ### server.py
 
-xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs them.
-Classes: `Config`, `ClerkError`, `_NoRedirect`, `_Bucket`, `Clerk`, `HubError`,
-`HubConflict`, `Hub`, and 5 more. Functions: `_list_env`, `_int_env`, `_upstream`,
-`_browser_login`, `_hub_error`, `_secret_name`, `_mask`, `_mask_secrets`, and 20 more.
+"""xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
+them.
 
-[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 142362 bytes
+[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 147756 bytes
 
 ### services.json
 
@@ -112,12 +110,10 @@ The list of services one xo login covers, and the addresses xo last logged in to
 
 ### spacerepo.py
 
-xo create space [NAME] with no KIND: a folder becomes a space, a git repository on GitHub
-(or on the quirq hub) with one branch per git repository under it. Classes: `Space`,
-`_HereIgnore`. Functions: `refuse_here`, `folders`, `size`, `shown`, `digest`, `build`,
-`published`, `on_github`, and 8 more.
+"""xo create space [NAME] with no KIND: a folder becomes a space, a git repository on GitHub
+(or on the quirq hub) with one branch per git repository under it.
 
-[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 67124 bytes
+[`src/xo/spacerepo.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/spacerepo.py) · code · 68738 bytes
 
 ### spec.py
 
@@ -149,4 +145,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

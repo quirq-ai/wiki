@@ -19,7 +19,7 @@ machine, and the xo server (xo serve, on Vercel at xo.quirq.dev through app.py),
 the Clerk Secret Key so the CLI never needs it. Standard library only. Setup is in
 [quickstart.md](quickstart.md); the server's settings in [server.md](server.md).
 
-[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 48169 bytes
+[`docs/architecture.md`](https://github.com/quirq-ai/xo/blob/main/docs/architecture.md) · code · 48457 bytes
 
 ### deploy-vercel.md
 
@@ -29,7 +29,7 @@ app.py, which serves the same routes as a Python function, on Python 3.12 (pinne
 .python-version). Vercel's GitHub integration deploys it: every commit on main goes to
 production by itself, so every merge to main ships xo.quirq.dev.
 
-[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 22436 bytes
+[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 23680 bytes
 
 ### guide.md
 
@@ -50,7 +50,7 @@ guide](guide.md) lists the commands.
 
 Markdown page “xo server mode”. One package, two deployments.
 
-[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 41834 bytes
+[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 44094 bytes
 
 ### test-xo-server.sh
 
@@ -59,4 +59,4 @@ deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect
 
 [`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

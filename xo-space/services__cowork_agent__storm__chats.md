@@ -112,4 +112,4 @@ What the `/api/chat/chats*` routes show and change (design ch 17 §2.2; ch 10 §
 
 [`services/cowork_agent/storm/chats/views.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/chats/views.py) · code · 12237 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

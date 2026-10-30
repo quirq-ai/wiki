@@ -48,4 +48,4 @@ V0-INS-01: read the channel manifest and resolve a channel to a commit and diges
 
 [`src/qqinstall/manifest.py`](https://github.com/quirq-ai/installer/blob/main/src/qqinstall/manifest.py) · code · 8501 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

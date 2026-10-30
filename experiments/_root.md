@@ -27,7 +27,7 @@ says.
 The project README (“experiments”). One repo, one branch per experiment. This branch, main,
 is the index, and archive keeps the finished ones.
 
-[`README.md`](https://github.com/quirq-ai/experiments/blob/main/README.md) · code · 11927 bytes
+[`README.md`](https://github.com/quirq-ai/experiments/blob/main/README.md) · code · 12072 bytes
 
 ### archive
 
@@ -44,7 +44,7 @@ experiment; each commit back is the one archived before it.
 JSON document `experiments.json` whose top-level keys are `owners`, `skip`, `experiments`,
 `archived`. Structured data consumed by the surrounding app or tooling.
 
-[`experiments.json`](https://github.com/quirq-ai/experiments/blob/main/experiments.json) · code · 8392 bytes
+[`experiments.json`](https://github.com/quirq-ai/experiments/blob/main/experiments.json) · code · 8737 bytes
 
 ### publish
 
@@ -64,4 +64,4 @@ ai/autoquirq.
 
 [`rename`](https://github.com/quirq-ai/experiments/blob/main/rename) · other · 5778 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

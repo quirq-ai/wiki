@@ -69,4 +69,4 @@ Two-tier template storage: bundled (read-only) + user (~/.argus/templates).
 
 [`tests/scaffold/test_storage.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/scaffold/test_storage.py) · code · 1861 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

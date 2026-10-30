@@ -24,4 +24,4 @@ Extensionless file `spacehub`. import("../dist/cli.mjs").
 
 [`cli/bin/spacehub`](https://github.com/quirq-ai/space-hub/blob/main/cli/bin/spacehub) · other · 47 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

@@ -13,4 +13,4 @@ Markdown page “Example Skill”. Placeholder skill — replace with your own. 
 
 [`templates/default/.claude/skills/example/SKILL.md`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/.claude/skills/example/SKILL.md) · code · 412 bytes
 
-_Generated 2026-10-29 11:51 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._

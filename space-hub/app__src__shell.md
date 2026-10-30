@@ -17,6 +17,6 @@ string; href: string; name?: string } Notable exports: `SearchPalette`.
 
 /** A thin bar across the top while the reader waits for something to load.
 
-[`app/src/shell/shell.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/shell.tsx) · code · 11518 bytes
+[`app/src/shell/shell.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/shell.tsx) · code · 12281 bytes
 
-_Generated 2026-10-29 11:52 UTC from `main`._
+_Generated 2026-10-30 11:44 UTC from `main`._
