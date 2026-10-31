@@ -14,6 +14,6 @@ hook: string; topic: string; kind: string; tags: string[]; accent: string; } Not
 exports: `CommandPalette`, `PaletteItem`. Wired into a Next.js app (App Router or Next
 APIs). Marked `'use client'` so it runs in the browser.
 
-[`components/search/command-palette.tsx`](https://github.com/quirq-ai/instants/blob/main/components/search/command-palette.tsx) · code · 3616 bytes
+[`components/search/command-palette.tsx`](https://github.com/quirq-ai/instants/blob/main/components/search/command-palette.tsx) · code · 3618 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

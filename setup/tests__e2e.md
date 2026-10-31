@@ -13,4 +13,4 @@ join(ROOT, "test-results", "screenshots").
 
 [`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 52427 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

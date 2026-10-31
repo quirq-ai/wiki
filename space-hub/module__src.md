@@ -61,7 +61,7 @@ pages, so they never disagree. They are drawn with the app's classes (style.ts);
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 67095 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 69438 bytes
 
 ### markdown.ts
 
@@ -88,6 +88,25 @@ The module runtime has no crypto library, so this is a plain implementation of F
 Notable exports: `objectHeader`, `Sha1`.
 
 [`module/src/sha1.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/sha1.ts) · code · 2987 bytes
+
+### space.ts
+
+SPACE.md: what a project is for, at its root. Its goal, the outcomes that show the goal is
+met (a Markdown task list), who owns it, the rules and routines everyone (people and agents)
+follows, and, on a template, when to start from it. The app shows it above everything else,
+so a space opens on its goal and how far along it is, and cards show the same in one line.
+
+[`module/src/space.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/space.ts) · code · 10168 bytes
+
+### spacetemplate.ts
+
+The built-in template every hub offers: a goal space, the shape quirq/quirq grew into. One
+goal and the outcomes that prove it (SPACE.md), channels that each deliver one output
+(Chat/), and rules and routines an agent follows to keep it moving with little help.
+Placeholders are filled when a project starts from it (space.ts, instantiate). Notable
+exports: `BUILTIN_TEMPLATE`, `BUILTIN_TITLE`, `BUILTIN_ABOUT`, `BUILTIN_FILES`.
+
+[`module/src/spacetemplate.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/spacetemplate.ts) · code · 6705 bytes
 
 ### store.ts
 
@@ -121,6 +140,6 @@ service serves at /, /<space> and /<space>/<project>. It speaks open-chat's snap
 so the app renders conversations, collections, feeds, documents and previews exactly as
 open-chat does.
 
-[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 32831 bytes
+[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 37462 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

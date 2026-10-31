@@ -16,4 +16,4 @@ from 'compo Notable exports: `HeaderBar`.
 
 [`src/components/OSChrome/HeaderBar.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSChrome/HeaderBar.tsx) · code · 5931 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

@@ -11,6 +11,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **.github**<br>Quirq's GitHub organization profile and shared community guidelines. | public | [`.github/`](.github/_index.md) | [.github](https://github.com/quirq-ai/.github) |
 | **agent-skills** | public | [`agent-skills/`](agent-skills/_index.md) | [agent-skills](https://github.com/quirq-ai/agent-skills) |
 | **argus-code**<br>See what Claude Code and Codex actually did. Local-first observability for every session: which tools ran, what each sub-agent was told, which turn blew the budget. Cost, tokens, error alerts, full-text search. SQLite on your machine, nothing leaves it. | public fork | [`argus-code/`](argus-code/_index.md) | [argus-code](https://github.com/quirq-ai/argus-code) |
+| **claude-code** | public | [`claude-code/`](claude-code/_index.md) | [claude-code](https://github.com/quirq-ai/claude-code) |
 | **cli-console** | public | [`cli-console/`](cli-console/_index.md) | [cli-console](https://github.com/quirq-ai/cli-console) |
 | **docs** | public | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
@@ -59,4 +60,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:18 UTC._

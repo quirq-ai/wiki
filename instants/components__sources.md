@@ -23,7 +23,17 @@ AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, 
 Folder = SourceStatus["folders"][number] & { root: string } Notable exports: `SourcesView`,
 `STATE_STYLE`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/sources/sources-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/sources/sources-view.tsx) · code · 12995 bytes
+[`components/sources/sources-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/sources/sources-view.tsx) · code · 12997 bytes
+
+### space-card.tsx
+
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent,
+AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, } from
+"@/components/ui/alert-dialog"; export type SpaceSnapshot = { config: { project: string |
+null; autoGenerate: boolean; connectedAt?: string }; status: SpaceStatus; hubUrl: string |
+null; genera Notable exports: `useSpace`, `SpaceCard`, `SyncDot`, `SpaceSnapshot`.
+
+[`components/sources/space-card.tsx`](https://github.com/quirq-ai/instants/blob/main/components/sources/space-card.tsx) · code · 14723 bytes
 
 ### use-generate.ts
 
@@ -34,4 +44,4 @@ browser.
 
 [`components/sources/use-generate.ts`](https://github.com/quirq-ai/instants/blob/main/components/sources/use-generate.ts) · code · 4966 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

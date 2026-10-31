@@ -80,7 +80,7 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 63523 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 68141 bytes
 
 ### compat.ts
 
@@ -104,10 +104,10 @@ issues its own identities. Notable exports: `configFile`, `normalizeServer`, `lo
 
 One connection to the spacehub database plus small read helpers. Reads are short-lived
 subscriptions: subscribe, take what arrived, unsubscribe. Notable exports: `quietSdkLogs`,
-`connectTo`, `connect`, `snapshot`, `findProject`, `findSpace`, `spaceRoles`, `projectsIn`,
-and 7 more.
+`connectTo`, `hubProtocol`, `connect`, `snapshot`, `findProject`, `findSpace`, `spaceRoles`,
+and 8 more.
 
-[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 6790 bytes
+[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 6797 bytes
 
 ### device.ts
 
@@ -125,6 +125,16 @@ it, then ask the hub until GitHub has said yes. GitHub gives the token to the hu
 passes through here. Notable exports: `deviceSignIn`.
 
 [`cli/src/devicelogin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/devicelogin.ts) · code · 2999 bytes
+
+### doctor.ts
+
+spacehub doctor: is this machine set up? Where the CLI is installed, whether the shell finds
+it, whether the install survives a restart, whether it matches the hub, and who it is signed
+in as. Each check says what to run when it fails. The checks are pure (tested); cli.ts
+gathers the facts. Notable exports: `binDir`, `isInside`, `findOnPath`, `shellRc`,
+`pathFix`, `pathCheck`, `restartCheck`, `hubCheck`, and 6 more.
+
+[`cli/src/doctor.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/doctor.ts) · code · 7353 bytes
 
 ### git.ts
 
@@ -161,6 +171,14 @@ script, which pages are live, and the parts of a rendered page that the script s
 live.ts. Notable exports: `liveTopic`, `pageParts`, `LIVE_JS`.
 
 [`cli/src/livepage.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/livepage.ts) · code · 2997 bytes
+
+### permission.ts
+
+The hub refuses with "permission denied: only owners of "quirq" can do this". The CLI adds
+who it is signed in as and who could do it instead, so the refusal says where to go next.
+Notable exports: `spacesNamed`, `permissionHelp`, `SpaceOwners`.
+
+[`cli/src/permission.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/permission.ts) · code · 1370 bytes
 
 ### refplan.ts
 
@@ -207,7 +225,7 @@ name the host, so a clone keeps working whatever server the CLI is logged in to 
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 29115 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 31738 bytes
 
 ### xo.ts
 
@@ -225,4 +243,4 @@ this hub's xo key, answers the Clerk user id and their builder, which the xo ser
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 9340 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

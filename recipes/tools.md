@@ -22,4 +22,4 @@ test. Runnable as a script via `if __name__ == '__main__'`. Functions: `run_test
 
 [`tools/check_planted_bug.py`](https://github.com/quirq-ai/recipes/blob/main/tools/check_planted_bug.py) · code · 2658 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

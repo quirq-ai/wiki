@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 export const runtime = "nodejs"; export const dynamic = "force-dynamic" Notable exports:
 `GET`, `POST`, `DELETE`, `runtime`, `dynamic`.
 
-[`app/api/video/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/video/route.ts) · code · 2588 bytes
+[`app/api/video/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/video/route.ts) · code · 2900 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

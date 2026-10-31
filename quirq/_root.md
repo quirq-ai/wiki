@@ -33,7 +33,7 @@ The Claude Code instructions (“CLAUDE.md”). This repository is a content wor
 open-chat, not an application. Follow [CONTRIBUTING.md](CONTRIBUTING.md); it is the source
 of truth for layout, naming, and formats.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/quirq/blob/main/CLAUDE.md) · code · 2917 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/quirq/blob/main/CLAUDE.md) · code · 3124 bytes
 
 ### CONTRIBUTING.md
 
@@ -42,7 +42,7 @@ not code. The app reads these files directly, so the layout below is the contrac
 .github/scripts/check_structure.py enforces every rule marked (checked), and the Structure
 workflow runs it on each pull request and on pushes to main.
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/quirq/blob/main/CONTRIBUTING.md) · code · 12948 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/quirq/blob/main/CONTRIBUTING.md) · code · 13384 bytes
 
 ### LICENSE
 
@@ -58,6 +58,14 @@ The project README (“quirq”). A small, filesystem-first workspace for quirqy
 [open-chat](https://github.com/sharmasuraj0123/open-chat). This repository contains content,
 not the Next.js application.
 
-[`README.md`](https://github.com/quirq-ai/quirq/blob/main/README.md) · code · 2493 bytes
+[`README.md`](https://github.com/quirq-ai/quirq/blob/main/README.md) · code · 2741 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+### SPACE.md
+
+Markdown page “quirq”. Run the quirq team's work in the open: every workstream is a channel
+with an owner, an input and one delivered output, moved forward by people and agents
+together.
+
+[`SPACE.md`](https://github.com/quirq-ai/quirq/blob/main/SPACE.md) · code · 1839 bytes
+
+_Generated 2026-10-31 11:17 UTC from `main`._

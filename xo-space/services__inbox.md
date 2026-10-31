@@ -36,4 +36,4 @@ Functions: `is_project_id`, `is_pid`, `pid_for`, `is_url`, `is_link_path`, `vali
 
 [`services/inbox/store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/inbox/store.py) · code · 20027 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

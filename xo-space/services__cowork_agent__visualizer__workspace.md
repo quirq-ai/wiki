@@ -67,4 +67,4 @@ Functions: `refresh_seconds`, `view_path`, `graph_path`, `sweep_abandoned`, `sca
 
 [`services/cowork_agent/visualizer/workspace/views.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/workspace/views.py) · code · 11597 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

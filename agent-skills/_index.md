@@ -36,4 +36,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `skills/explainer-film/template/src/scenes` | 3 | [skills__explainer-film__template__src__scenes.md](skills__explainer-film__template__src__scenes.md) |
 | `skills/explainer-film/template/src/themes` | 3 | [skills__explainer-film__template__src__themes.md](skills__explainer-film__template__src__themes.md) |
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:17 UTC._

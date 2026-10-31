@@ -46,4 +46,4 @@ Environment, paths, and constants for the cowork_agent subsystem. Functions:
 
 [`services/cowork_agent/registry/settings.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/registry/settings.py) · code · 3267 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

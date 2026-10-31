@@ -19,4 +19,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `infra` | 1 | [infra.md](infra.md) |
 | `test` | 1 | [test.md](test.md) |
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:17 UTC._

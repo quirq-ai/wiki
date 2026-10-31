@@ -137,4 +137,4 @@ document-label`, and 15 more. Defines or consumes CSS custom properties (design 
 
 [`src/about-lab/style.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/about-lab/style.css) · code · 16582 bytes
 
-_Generated 2026-10-30 11:44 UTC from `quirq`._
+_Generated 2026-10-31 11:18 UTC from `quirq`._

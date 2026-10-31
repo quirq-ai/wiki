@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Reveal a post's source folder in the OS file browser. Local only; the path always comes from
 the stored record, never from the client. Notable exports: `POST`.
 
-[`app/api/open/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/open/route.ts) · code · 1412 bytes
+[`app/api/open/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/open/route.ts) · code · 1502 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

@@ -51,7 +51,7 @@ function Pill({ label, onClick, active = false, children, }: { label: string; on
 void; active?: boolean; children: React.ReactNode; }) { return ( Notable exports: `Section`,
 `PostView`. Marked `'use client'` so it runs in the browser.
 
-[`components/post/post-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/post-view.tsx) · code · 9560 bytes
+[`components/post/post-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/post-view.tsx) · code · 10351 bytes
 
 ### regenerate.tsx
 
@@ -62,4 +62,13 @@ client'` so it runs in the browser.
 
 [`components/post/regenerate.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/regenerate.tsx) · code · 2746 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+### share.tsx
+
+Share a post to X, to Instagram (through the system share sheet, the only way a web page can
+hand Instagram a photo or video) or to any other app. Notable exports: `videoMedia`,
+`shareToX`, `shareToInstagram`, `shareElsewhere`, `XIcon`, `InstagramIcon`, `MediaSource`.
+Marked `'use client'` so it runs in the browser.
+
+[`components/post/share.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/share.tsx) · code · 4268 bytes
+
+_Generated 2026-10-31 11:17 UTC from `main`._

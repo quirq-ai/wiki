@@ -41,4 +41,4 @@ Notable exports: `getPageImage`, `getPageMarkdownUrl`, `getLLMText`, `source`.
 
 [`src/lib/source.ts`](https://github.com/quirq-ai/docs/blob/main/src/lib/source.ts) · code · 4897 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

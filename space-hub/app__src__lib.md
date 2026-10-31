@@ -23,7 +23,7 @@ and "## Output format"), a conversation chat.json * with the hub's chat.log.json
 inputs/, output/, and * sub-channels one level down in the same shape. Agents and people get
 * channels named after them.
 
-[`app/src/lib/channels.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/channels.ts) · code · 4872 bytes
+[`app/src/lib/channels.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/channels.ts) · code · 5310 bytes
 
 ### chat-log.ts
 
@@ -84,7 +84,7 @@ without its leading dot; empty for folders. */ extension: string; size: number; 
 string; /** A short line shown instead of "Folder": for spaces and projects, and for fol
 Notable exports: `Entry`, `Doc`, `FileView`, `WorkspaceSnapshot`, `PreviewResult`.
 
-[`app/src/lib/types.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/types.ts) · code · 1359 bytes
+[`app/src/lib/types.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/types.ts) · code · 1538 bytes
 
 ### url-file.ts
 
@@ -93,4 +93,4 @@ exports: `parseUrlFile`.
 
 [`app/src/lib/url-file.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/url-file.ts) · code · 979 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

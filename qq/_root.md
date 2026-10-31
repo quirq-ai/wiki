@@ -46,4 +46,4 @@ Python project metadata and tool configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/qq/blob/main/pyproject.toml) · code · 968 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

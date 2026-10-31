@@ -21,4 +21,4 @@ routes: `GET /server/status`, `POST /server/stop`, `GET /data/space.json`, `GET
 
 [`routers/space.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/routers/space.py) · code · 5057 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

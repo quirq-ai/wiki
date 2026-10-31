@@ -34,6 +34,13 @@ Notable exports: `useChat`.
 
 [`app/src/hooks/use-chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-chat.ts) · code · 6279 bytes
 
+### use-folders.ts
+
+export type FolderSummary = { items: number; channels: number } Notable exports:
+`useFolderSummaries`, `FolderSummary`.
+
+[`app/src/hooks/use-folders.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-folders.ts) · code · 1959 bytes
+
 ### use-live.ts
 
 Loads in flight that the reader is waiting for (not background re-checks): the progress bar
@@ -52,4 +59,4 @@ Notable exports: `useMe`, `recentProjects`, `rememberProject`.
 
 [`app/src/hooks/use-me.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-me.ts) · code · 1386 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

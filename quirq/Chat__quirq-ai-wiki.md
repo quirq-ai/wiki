@@ -31,6 +31,6 @@ each a sub-channel with its one-pager, and the index groups them into products, 
 sites, hub, collections and placeholders. Private repos get a short page because quirq/quirq
 is public on GitHub. Next: say which repo pages should go deeper.", "time": "2026-10-.
 
-[`Chat/quirq-ai-wiki/chat.log.jsonl`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/chat.log.jsonl) · code · 525 bytes
+[`Chat/quirq-ai-wiki/chat.log.jsonl`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/chat.log.jsonl) · code · 1987 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

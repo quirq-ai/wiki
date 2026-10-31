@@ -24,4 +24,4 @@ additive sprites; ejected electrons and O2 bubbles are particles. Notable export
 
 [`src/photo/photolab.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/photo/photolab.js) · code · 18328 bytes
 
-_Generated 2026-10-30 11:44 UTC from `quirq`._
+_Generated 2026-10-31 11:18 UTC from `quirq`._

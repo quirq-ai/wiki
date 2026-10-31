@@ -19,4 +19,4 @@ const Pending = () => ( Notable exports: `router`.
 
 [`dashboard/src/app/router.tsx`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/app/router.tsx) · code · 639 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

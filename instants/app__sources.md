@@ -24,6 +24,6 @@ export default function Loading() { return ( Notable exports: `Loading`.
 export const metadata = { title: "Sources" }; export const dynamic = "force-dynamic" Notable
 exports: `SourcesPage`, `metadata`, `dynamic`.
 
-[`app/sources/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/sources/page.tsx) · code · 818 bytes
+[`app/sources/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/sources/page.tsx) · code · 901 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

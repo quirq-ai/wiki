@@ -38,4 +38,4 @@ it runs in the browser.
 
 [`components/settings/review.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/settings/review.tsx) · code · 11170 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

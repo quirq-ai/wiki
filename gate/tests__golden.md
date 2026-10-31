@@ -13,4 +13,4 @@ the source file for the full document.
 
 [`tests/golden/quirq-settings-plan.json`](https://github.com/quirq-ai/gate/blob/main/tests/golden/quirq-settings-plan.json) · code · 67620 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

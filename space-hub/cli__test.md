@@ -59,6 +59,13 @@ file.
 
 [`cli/test/dockerfile.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/dockerfile.test.ts) · code · 1092 bytes
 
+### doctor.test.ts
+
+spacehub doctor's checks, the PATH lines install-cli.sh prints, and the help added under a
+permission refusal (npm test). Automated test file.
+
+[`cli/test/doctor.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/doctor.test.ts) · code · 9374 bytes
+
 ### livepage.test.ts
 
 Which pages are live and what the live stream carries (npm test). Automated test file.
@@ -98,4 +105,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 11499 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

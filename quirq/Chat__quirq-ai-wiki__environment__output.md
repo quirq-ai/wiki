@@ -12,4 +12,4 @@ Markdown page “environment”. Empty since its first commit.
 
 [`Chat/quirq-ai-wiki/environment/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/environment/output/one-pager.md) · code · 959 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

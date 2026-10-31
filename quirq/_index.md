@@ -8,14 +8,14 @@ A small, filesystem-first workspace for quirqy, viewed with [open-chat](https://
 - [Activity history](../_activity/repos/quirq.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-29T23:19:07Z`
-- Snapshot SHA: `c233d213043a`
+- Last push: `2026-10-30T18:29:59Z`
+- Snapshot SHA: `a369deea003c`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 7 | [_root.md](_root.md) |
+| (repository root) | 8 | [_root.md](_root.md) |
 | `.github` | 0 | [.github.md](.github.md) |
 | `.github/scripts` | 3 | [.github__scripts.md](.github__scripts.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
@@ -140,4 +140,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `Library` | 2 | [Library.md](Library.md) |
 | `Vision` | 2 | [Vision.md](Vision.md) |
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:17 UTC._

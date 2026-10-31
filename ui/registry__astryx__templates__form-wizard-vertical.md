@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports:
 
 [`registry/astryx/templates/form-wizard-vertical/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/form-wizard-vertical/page.tsx) · code · 58454 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

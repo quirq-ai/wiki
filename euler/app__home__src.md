@@ -14,4 +14,4 @@ must retain their exact response bytes and cache metadata. Notable exports:
 
 [`app/home/src/dock.mjs`](https://github.com/quirq-ai/euler/blob/main/app/home/src/dock.mjs) · code · 9698 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

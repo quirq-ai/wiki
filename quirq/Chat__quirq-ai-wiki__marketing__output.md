@@ -12,4 +12,4 @@ Markdown page “marketing”. Meant for campaign copy and brand assets; empty s
 
 [`Chat/quirq-ai-wiki/marketing/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/marketing/output/one-pager.md) · code · 854 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`templates/default/.claude/settings.json`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/.claude/settings.json) · code · 583 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

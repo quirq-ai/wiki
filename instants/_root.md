@@ -13,7 +13,7 @@ including `node_modules`, `.next`, `.git`, `npm-debug.log*`, `.env`, `.env.*`,
 `!.env*.example`, `.research-cache/*`, and 2 more. Generated and secret files matching these
 patterns are not in the clone the wiki summarizes.
 
-[`.dockerignore`](https://github.com/quirq-ai/instants/blob/main/.dockerignore) · other · 199 bytes
+[`.dockerignore`](https://github.com/quirq-ai/instants/blob/main/.dockerignore) · other · 215 bytes
 
 ### .gitattributes
 
@@ -23,12 +23,12 @@ Extensionless file `.gitattributes`. text=auto eol=lf *.png binary *.webm binary
 
 ### .gitignore
 
-`.gitignore` tells git or Docker which paths to omit. It currently lists 38 pattern(s)
+`.gitignore` tells git or Docker which paths to omit. It currently lists 37 pattern(s)
 including `/node_modules`, `/.pnp`, `.pnp.*`, `.yarn/*`, `!.yarn/patches`, `!.yarn/plugins`,
-`!.yarn/releases`, `!.yarn/versions`, and 30 more. Generated and secret files matching these
+`!.yarn/releases`, `!.yarn/versions`, and 29 more. Generated and secret files matching these
 patterns are not in the clone the wiki summarizes.
 
-[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 1077 bytes
+[`.gitignore`](https://github.com/quirq-ai/instants/blob/main/.gitignore) · other · 1204 bytes
 
 ### .npmrc
 
@@ -63,10 +63,10 @@ run, imported history readable, interactions accessible, and source capabilities
 ### Dockerfile
 
 Container build file `Dockerfile`. Base image `node:22-bookworm-slim`. Exposes ports `3000`.
-Starts with `["npx", "next", "start", "--hostname", "0.0.0.0", "--port", "3000"]`.
-Instructions used: `FROM`, `WORKDIR`, `COPY`, `RUN`, `ENV`, `EXPOSE`, `CMD`.
+Starts with `["/usr/local/bin/docker-entrypoint.sh"]`. Instructions used: `FROM`, `WORKDIR`,
+`COPY`, `RUN`, `ENV`, `EXPOSE`, `ENTRYPOINT`, `CMD`.
 
-[`Dockerfile`](https://github.com/quirq-ai/instants/blob/main/Dockerfile) · other · 1145 bytes
+[`Dockerfile`](https://github.com/quirq-ai/instants/blob/main/Dockerfile) · other · 1644 bytes
 
 ### LICENSE
 
@@ -78,11 +78,11 @@ redistribution.
 
 ### README.md
 
-The project README (“Recall”). Recall turns folders of past research and experiments into
-Instagram-style carousel posts, so you can browse, rediscover and showcase your work. Drop
-in new data in any format (notes, CSV, JSON, images, code) and it becomes a new post.
+The project README (“Instants”). Instants turns folders of past research and experiments
+into Instagram-style carousel posts, so you can browse, rediscover and showcase your work.
+Drop in new data in any format (notes, CSV, JSON, images, code) and it becomes a new post.
 
-[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 1550 bytes
+[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 6250 bytes
 
 ### SECURITY.md
 
@@ -107,6 +107,13 @@ tooling.
 
 [`components.json`](https://github.com/quirq-ai/instants/blob/main/components.json) · code · 420 bytes
 
+### docker-entrypoint.sh
+
+Log the spacehub CLI in from SPACEHUB_TOKEN (print one with spacehub auth token), give git
+an identity for sync commits, then start Next. Shebang `#!/bin/sh`. Fails fast (`set -e`).
+
+[`docker-entrypoint.sh`](https://github.com/quirq-ai/instants/blob/main/docker-entrypoint.sh) · code · 1093 bytes
+
 ### eslint.config.mjs
 
 const eslintConfig = defineConfig([ ...nextVitals, ...nextTs, Generated state and vendored
@@ -116,6 +123,13 @@ These compiler diagnostics flag our client hydration effects, event-time clocks,
 Provides a default export as the module's public entry.
 
 [`eslint.config.mjs`](https://github.com/quirq-ai/instants/blob/main/eslint.config.mjs) · code · 1246 bytes
+
+### instrumentation.ts
+
+On server boot (Node runtime only): migrate the content store and resume the Spacehub
+autosync and source watcher if a space is configured. Notable exports: `register`.
+
+[`instrumentation.ts`](https://github.com/quirq-ai/instants/blob/main/instrumentation.ts) · code · 445 bytes
 
 ### next.config.ts
 
@@ -131,14 +145,14 @@ for reproducible installs. Treat this as a generated blob: read the companion ma
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`package-lock.json`](https://github.com/quirq-ai/instants/blob/main/package-lock.json) · lockfile · 355588 bytes
+[`package-lock.json`](https://github.com/quirq-ai/instants/blob/main/package-lock.json) · lockfile · 355592 bytes
 
 ### package.json
 
-npm package manifest for `recall` v0.1.0. Scripts: `dev`, `build`, `research`, `video`,
-`start`, `lint`, `typecheck`.
+npm package manifest for `instants` v0.1.0. Scripts: `dev`, `build`, `research`, `video`,
+`start`, `lint`, `typecheck`, `migrate-store`, `vendor:spacehub`.
 
-[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 1486 bytes
+[`package.json`](https://github.com/quirq-ai/instants/blob/main/package.json) · code · 1602 bytes
 
 ### postcss.config.mjs
 
@@ -154,7 +168,7 @@ Unknown post slugs and topics must answer 404. The root loading.tsx streams the 
 rendering starts, and rewrites misses to an unmatched path that Next serves with a real 404.
 Notable exports: `proxy`, `config`. Wired into a Next.js app (App Router or Next APIs).
 
-[`proxy.ts`](https://github.com/quirq-ai/instants/blob/main/proxy.ts) · code · 1396 bytes
+[`proxy.ts`](https://github.com/quirq-ai/instants/blob/main/proxy.ts) · code · 1376 bytes
 
 ### tsconfig.json
 
@@ -171,4 +185,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/instants/blob/main/vercel.json) · code · 177 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

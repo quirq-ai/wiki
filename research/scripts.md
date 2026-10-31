@@ -37,4 +37,4 @@ and <!-- topics:end --> markers.
 
 [`scripts/topics-table.mjs`](https://github.com/quirq-ai/research/blob/main/scripts/topics-table.mjs) · code · 2056 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

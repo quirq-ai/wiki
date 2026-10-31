@@ -10,6 +10,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Markdown page “euler”. Keeps quirq organized and in sync.
 
-[`Chat/euler/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/euler/output/one-pager.md) · code · 868 bytes
+[`Chat/euler/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/euler/output/one-pager.md) · code · 883 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

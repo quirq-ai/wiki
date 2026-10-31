@@ -14,7 +14,7 @@ Sun, } from "lucide-react"; const NAV = [ { href: "/", label: "Feed", icon: Home
 Shapes }, { href: "/videos", label: "Videos", icon: Clapperboard }, { href: "/insigh Notable
 exports: `Logo`, `AppShell`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/shell/app-shell.tsx`](https://github.com/quirq-ai/instants/blob/main/components/shell/app-shell.tsx) · code · 8382 bytes
+[`components/shell/app-shell.tsx`](https://github.com/quirq-ai/instants/blob/main/components/shell/app-shell.tsx) · code · 9128 bytes
 
 ### page-header.tsx
 
@@ -31,4 +31,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`components/shell/relative-time.tsx`](https://github.com/quirq-ai/instants/blob/main/components/shell/relative-time.tsx) · code · 810 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

@@ -16,4 +16,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 1 | [_root.md](_root.md) |
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:18 UTC._

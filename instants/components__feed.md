@@ -14,7 +14,7 @@ const pin = useActivityFlag(slug, pinned, "pin", "unpin", { on: "Pinned to the t
 Latest", off: "Unpinned" }); return { save, pin }; } Notable exports: `useCardFlags`,
 `ActionButton`, `FeedCard`. Wired into a Next.js app (App Router or Next APIs).
 
-[`components/feed/feed-card.tsx`](https://github.com/quirq-ai/instants/blob/main/components/feed/feed-card.tsx) · code · 7441 bytes
+[`components/feed/feed-card.tsx`](https://github.com/quirq-ai/instants/blob/main/components/feed/feed-card.tsx) · code · 8741 bytes
 
 ### feed-list.tsx
 
@@ -33,4 +33,4 @@ Feed ordering. Pure functions, used by the server page. Notable exports: `parseT
 
 [`components/feed/order.ts`](https://github.com/quirq-ai/instants/blob/main/components/feed/order.ts) · code · 2626 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

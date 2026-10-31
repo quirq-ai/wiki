@@ -12,4 +12,4 @@ HTML document `index.html` titled “Mooring Lab wiki”.
 
 [`Chat/tanker-mooring-simulator/wiki/output/index.html`](https://github.com/quirq-ai/quirq/blob/main/Chat/tanker-mooring-simulator/wiki/output/index.html) · code · 53500 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

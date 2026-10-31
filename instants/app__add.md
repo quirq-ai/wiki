@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 export const metadata = { title: "Add research" } Notable exports: `AddPage`, `metadata`.
 Wired into a Next.js app (App Router or Next APIs).
 
-[`app/add/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/add/page.tsx) · code · 1999 bytes
+[`app/add/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/add/page.tsx) · code · 2003 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

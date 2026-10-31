@@ -10,25 +10,25 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 /** Where the page is: the hub (no space), a space, or a project. */ export type Place = {
 space: string; project: string } Notable exports: `viewUrl`, `codeUrl`, `placeUrl`,
-`avatarUrl`, `rawUrl`, `count`, `size`, `ago`, and 29 more.
+`avatarUrl`, `rawUrl`, `count`, `size`, `ago`, and 33 more.
 
-[`app/src/api.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/api.ts) · code · 9592 bytes
+[`app/src/api.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/api.ts) · code · 11144 bytes
 
 ### app.css
 
 The hub's app: one neutral palette, one accent, an 4px spacing grid. Light and dark follow
 data-theme (theme.js). Leading class selectors include `quiet`, `small`, `strong`, `shell`,
-`progress`, `topbar`, `logo`, `search-trigger`, and 247 more. Defines or consumes CSS custom
+`progress`, `topbar`, `logo`, `search-trigger`, and 262 more. Defines or consumes CSS custom
 properties (design tokens).
 
-[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 55853 bytes
+[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 60430 bytes
 
 ### app.tsx
 
 const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1"; const RAIL =
 "spacehub:rail:v1"; const ACTIVITY = "spacehub:activity:v1" Notable exports: `App`.
 
-[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 14061 bytes
+[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 12915 bytes
 
 ### content.css
 
@@ -55,4 +55,4 @@ Notable exports: `parseRoute`, `hashOf`, `navigate`, `useRoute`, `onLink`, `Rout
 
 [`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 4197 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

@@ -28,6 +28,13 @@ needed): npm test. Automated test file.
 
 [`module/test/sizes.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/sizes.test.ts) · code · 2867 bytes
 
+### space.test.ts
+
+SPACE.md goals and starting projects from templates (space.ts), in SpacetimeDB's in-process
+module harness: npm test. Automated test file.
+
+[`module/test/space.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/space.test.ts) · code · 11617 bytes
+
 ### workspace.test.ts
 
 The app's workspace API and the append_chat reducer, in SpacetimeDB's in-process module
@@ -42,4 +49,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7898 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

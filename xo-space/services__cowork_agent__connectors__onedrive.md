@@ -19,4 +19,4 @@ Microsoft OneDrive connector via rclone (rclone backend type onedrive). Function
 
 [`services/cowork_agent/connectors/onedrive/provider.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/onedrive/provider.py) · code · 5146 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

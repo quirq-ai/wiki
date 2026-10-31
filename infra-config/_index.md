@@ -8,7 +8,7 @@ Configuration as code for quirq infra (qq), the CI/CD system for every quirq-ai 
 - [Activity history](../_activity/repos/infra-config.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-21T18:16:19Z`
+- Last push: `2026-10-30T12:43:11Z`
 - Snapshot SHA: `30cc327c33e1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -40,4 +40,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/golden/generated/github/xo-space` | 2 | [tests__golden__generated__github__xo-space.md](tests__golden__generated__github__xo-space.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-10-30 11:44 UTC._
+_Generated 2026-10-31 11:17 UTC._

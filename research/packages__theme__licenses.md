@@ -14,4 +14,4 @@ United States and/or other countries.
 
 [`packages/theme/licenses/source-serif-4-OFL.txt`](https://github.com/quirq-ai/research/blob/main/packages/theme/licenses/source-serif-4-OFL.txt) · code · 4491 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

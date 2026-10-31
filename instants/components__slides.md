@@ -12,7 +12,7 @@ Native scroll-snap carousel for a post's slides: swipe on touch, buttons and arr
 desktop, a segment indicator labeled with slide types. Notable exports: `SlideCarousel`,
 `SlideCarouselHandle`, `SlideCarouselApi`. Marked `'use client'` so it runs in the browser.
 
-[`components/slides/carousel.tsx`](https://github.com/quirq-ai/instants/blob/main/components/slides/carousel.tsx) · code · 7575 bytes
+[`components/slides/carousel.tsx`](https://github.com/quirq-ai/instants/blob/main/components/slides/carousel.tsx) · code · 8000 bytes
 
 ### chart.tsx
 
@@ -32,16 +32,16 @@ Python, Rust, Go, shell, SQL and JSON at a glance. Notable exports: `tokenize`, 
 ### export.ts
 
 PNG export for live slides. Renders the slide node at its 1080x1350 design size. Notable
-exports: `exportSlidePng`, `downloadSlide`.
+exports: `exportSlidePng`, `downloadSlide`, `slideFile`.
 
-[`components/slides/export.ts`](https://github.com/quirq-ai/instants/blob/main/components/slides/export.ts) · code · 1247 bytes
+[`components/slides/export.ts`](https://github.com/quirq-ai/instants/blob/main/components/slides/export.ts) · code · 1948 bytes
 
 ### fixtures.ts
 
 Fixtures for the /dev/slides visual QA gallery. Covers every slide type plus edge cases.
 Notable exports: `FIXTURE_ACCENTS`, `FIXTURE_SOURCES`, `FIXTURES`.
 
-[`components/slides/fixtures.ts`](https://github.com/quirq-ai/instants/blob/main/components/slides/fixtures.ts) · code · 9762 bytes
+[`components/slides/fixtures.ts`](https://github.com/quirq-ai/instants/blob/main/components/slides/fixtures.ts) · code · 9773 bytes
 
 ### index.ts
 
@@ -78,4 +78,4 @@ string }) { return ( Notable exports: `SlideThumb`.
 
 [`components/slides/thumb.tsx`](https://github.com/quirq-ai/instants/blob/main/components/slides/thumb.tsx) · code · 651 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

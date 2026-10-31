@@ -21,4 +21,4 @@ Markdown page “XO Launchpad user guide”. For installation and a quick start,
 
 [`docs/guide.md`](https://github.com/quirq-ai/launchpad/blob/main/docs/guide.md) · code · 13944 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

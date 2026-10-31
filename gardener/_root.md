@@ -55,4 +55,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/gardener/blob/main/pyproject.toml) · code · 880 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

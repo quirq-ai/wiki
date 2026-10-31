@@ -18,6 +18,6 @@ into a Next.js app (App Router or Next APIs).
 type Props = { params: Promise } Notable exports: `generateMetadata`, `PostPage`. Wired into
 a Next.js app (App Router or Next APIs).
 
-[`app/p/[slug]/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/p/[slug]/page.tsx) · code · 7680 bytes
+[`app/p/[slug]/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/p/[slug]/page.tsx) · code · 7994 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

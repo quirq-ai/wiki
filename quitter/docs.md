@@ -70,4 +70,4 @@ blobs.
 
 [`docs/responsive-tablet.jpg`](https://github.com/quirq-ai/quitter/blob/main/docs/responsive-tablet.jpg) · binary · 68193 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._

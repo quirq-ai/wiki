@@ -14,4 +14,4 @@ generated blobs.
 
 [`public/images/qq/how-it-fits.png`](https://github.com/quirq-ai/docs/blob/main/public/images/qq/how-it-fits.png) · binary · 109188 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:17 UTC from `main`._

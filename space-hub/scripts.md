@@ -30,7 +30,7 @@ quirq (plus git-remote-spacehub, for older clones) on your PATH. Needs Node 22+ 
 scripts/install-cli.sh (npm's global prefix) scripts/install-cli.sh --prefix ~/.local
 Shebang `#!/usr/bin/env bash`. Fails fast (`set -e`).
 
-[`scripts/install-cli.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/install-cli.sh) · code · 847 bytes
+[`scripts/install-cli.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/install-cli.sh) · code · 2105 bytes
 
 ### setup.sh
 
@@ -41,4 +41,4 @@ defaults to "spacehub"; override with SPACEHUB_DB. Shebang `#!/usr/bin/env bash`
 
 [`scripts/setup.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/setup.sh) · code · 1086 bytes
 
-_Generated 2026-10-30 11:44 UTC from `main`._
+_Generated 2026-10-31 11:18 UTC from `main`._
