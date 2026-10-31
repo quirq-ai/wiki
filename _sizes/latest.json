@@ -40,11 +40,11 @@
     {
       "archived": false,
       "bytes": 15978,
-      "default_branch": "claude/sweet-johnson-zcgizc",
+      "default_branch": "main",
       "error": null,
       "files": 5,
       "fork": false,
-      "github_kb": 0,
+      "github_kb": 7,
       "repo": "claude-code",
       "sha": "2b7fda8cef5198b7137b78e43994ff8a440ad357",
       "truncated": false
@@ -140,7 +140,7 @@
       "error": null,
       "files": 43,
       "fork": false,
-      "github_kb": 384,
+      "github_kb": 388,
       "repo": "gate",
       "sha": "d7234b758aaf111db7cffe062567b92cf6a4857d",
       "truncated": false
@@ -164,7 +164,7 @@
       "error": null,
       "files": 76,
       "fork": false,
-      "github_kb": 296,
+      "github_kb": 313,
       "repo": "infra-config",
       "sha": "30cc327c33e1293dbad984a3dc4250f16de4c247",
       "truncated": false
@@ -195,14 +195,14 @@
     },
     {
       "archived": false,
-      "bytes": 3574703,
+      "bytes": 3606005,
       "default_branch": "main",
       "error": null,
-      "files": 196,
+      "files": 202,
       "fork": false,
-      "github_kb": 33760,
+      "github_kb": 33833,
       "repo": "instants",
-      "sha": "f1adc12555c080508ed69ee02add72ce3bee9286",
+      "sha": "bbbcb8bc245ce2acf6f737be008bab2c8eb600be",
       "truncated": false
     },
     {
@@ -291,14 +291,14 @@
     },
     {
       "archived": false,
-      "bytes": 321406,
+      "bytes": 327992,
       "default_branch": "main",
       "error": null,
-      "files": 155,
+      "files": 160,
       "fork": false,
-      "github_kb": 239,
+      "github_kb": 218,
       "repo": "quirq",
-      "sha": "c233d213043ac089026d8022ee8ab6f5a5f6163d",
+      "sha": "ddfcd4fcd8d30ace2d4c60869c6229cfa7806609",
       "truncated": false
     },
     {
@@ -356,7 +356,7 @@
       "error": null,
       "files": 55,
       "fork": false,
-      "github_kb": 307,
+      "github_kb": 312,
       "repo": "release",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147",
       "truncated": false
@@ -411,14 +411,14 @@
     },
     {
       "archived": false,
-      "bytes": 1324991,
+      "bytes": 1414179,
       "default_branch": "main",
       "error": null,
-      "files": 192,
+      "files": 202,
       "fork": false,
-      "github_kb": 4488,
+      "github_kb": 5784,
       "repo": "space-hub",
-      "sha": "211200525643d2f35b691ddd23c61c00a8f4fbd3",
+      "sha": "589e57c94a2f866869a8c287195c9cfdc86e5cb1",
       "truncated": false
     },
     {
@@ -440,7 +440,7 @@
       "error": null,
       "files": 58,
       "fork": false,
-      "github_kb": 3329,
+      "github_kb": 3504,
       "repo": "test-pipelines",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539",
       "truncated": false
@@ -507,14 +507,14 @@
     },
     {
       "archived": false,
-      "bytes": 17832215,
+      "bytes": 18172666,
       "default_branch": "main",
       "error": null,
-      "files": 1842,
+      "files": 1832,
       "fork": false,
-      "github_kb": 8531,
+      "github_kb": 8890,
       "repo": "wiki",
-      "sha": "84f6d52f06fffbb0274ea2dcedaaebc30fcfa974",
+      "sha": "7dff00bec1d4a3da3d118a4c403405557785c1f5",
       "truncated": false
     },
     {
@@ -548,20 +548,20 @@
       "error": null,
       "files": 992,
       "fork": true,
-      "github_kb": 11445,
+      "github_kb": 11536,
       "repo": "xo-space",
       "sha": "0b8b860a9bfc4be2892754b8634acd6e8da3d7fa",
       "truncated": false
     }
   ],
   "schema_version": 1,
-  "taken_at": "2026-10-30T13:36:52Z",
+  "taken_at": "2026-10-31T13:05:55Z",
   "totals": {
-    "bytes": 256367450,
+    "bytes": 256834977,
     "complete": true,
-    "files": 8003,
+    "files": 8014,
     "github_complete": true,
-    "github_kb": 1006049,
+    "github_kb": 1008055,
     "left_out": 0,
     "repos": 46
   }
