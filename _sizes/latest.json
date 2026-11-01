@@ -128,21 +128,21 @@
       "error": null,
       "files": 52,
       "fork": false,
-      "github_kb": 235,
+      "github_kb": 236,
       "repo": "gardener",
       "sha": "8681a0562de4197aec801371ed18f9ab75686e0f",
       "truncated": false
     },
     {
       "archived": false,
-      "bytes": 420061,
+      "bytes": 425127,
       "default_branch": "main",
       "error": null,
       "files": 43,
       "fork": false,
       "github_kb": 388,
       "repo": "gate",
-      "sha": "d7234b758aaf111db7cffe062567b92cf6a4857d",
+      "sha": "766b94b54786b7821e3a14ac380508c0e021e3af",
       "truncated": false
     },
     {
@@ -159,14 +159,14 @@
     },
     {
       "archived": false,
-      "bytes": 444266,
+      "bytes": 461685,
       "default_branch": "main",
       "error": null,
       "files": 76,
       "fork": false,
-      "github_kb": 313,
+      "github_kb": 314,
       "repo": "infra-config",
-      "sha": "30cc327c33e1293dbad984a3dc4250f16de4c247",
+      "sha": "36fdd2b566004b680712a2209be34edec99eddce",
       "truncated": false
     },
     {
@@ -291,14 +291,14 @@
     },
     {
       "archived": false,
-      "bytes": 327992,
+      "bytes": 332971,
       "default_branch": "main",
       "error": null,
       "files": 160,
       "fork": false,
-      "github_kb": 218,
+      "github_kb": 235,
       "repo": "quirq",
-      "sha": "ddfcd4fcd8d30ace2d4c60869c6229cfa7806609",
+      "sha": "c602eff5d7fc106a467711c8687131fb88ba6036",
       "truncated": false
     },
     {
@@ -356,7 +356,7 @@
       "error": null,
       "files": 55,
       "fork": false,
-      "github_kb": 312,
+      "github_kb": 317,
       "repo": "release",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147",
       "truncated": false
@@ -399,26 +399,26 @@
     },
     {
       "archived": false,
-      "bytes": 1511595,
+      "bytes": 1675935,
       "default_branch": "main",
       "error": null,
-      "files": 90,
+      "files": 111,
       "fork": false,
-      "github_kb": 917,
+      "github_kb": 920,
       "repo": "setup",
-      "sha": "c4ea5323fbe5824e3f282602f27fafa9c0013e5e",
+      "sha": "ef23f28700f61c499b024042676fd0c49a18a174",
       "truncated": false
     },
     {
       "archived": false,
-      "bytes": 1414179,
+      "bytes": 1839062,
       "default_branch": "main",
       "error": null,
-      "files": 202,
+      "files": 232,
       "fork": false,
-      "github_kb": 5784,
+      "github_kb": 5475,
       "repo": "space-hub",
-      "sha": "589e57c94a2f866869a8c287195c9cfdc86e5cb1",
+      "sha": "1aa7fc9bde1e9eceaa39cf144f0343019a01b37d",
       "truncated": false
     },
     {
@@ -440,7 +440,7 @@
       "error": null,
       "files": 58,
       "fork": false,
-      "github_kb": 3504,
+      "github_kb": 3240,
       "repo": "test-pipelines",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539",
       "truncated": false
@@ -507,26 +507,26 @@
     },
     {
       "archived": false,
-      "bytes": 18172666,
+      "bytes": 18613684,
       "default_branch": "main",
       "error": null,
-      "files": 1832,
+      "files": 1846,
       "fork": false,
-      "github_kb": 8890,
+      "github_kb": 9200,
       "repo": "wiki",
-      "sha": "7dff00bec1d4a3da3d118a4c403405557785c1f5",
+      "sha": "a990a6c03493954a6853e5f0593b3e0270f4fb18",
       "truncated": false
     },
     {
       "archived": false,
-      "bytes": 1322318,
+      "bytes": 1329492,
       "default_branch": "main",
       "error": null,
       "files": 54,
       "fork": false,
-      "github_kb": 964,
+      "github_kb": 1056,
       "repo": "xo",
-      "sha": "1a344573b546cd828a72b5b643a41116dedb379a",
+      "sha": "14ae1bd3ba1089e919540944805730cd2139a2ac",
       "truncated": false
     },
     {
@@ -555,13 +555,13 @@
     }
   ],
   "schema_version": 1,
-  "taken_at": "2026-10-31T13:05:55Z",
+  "taken_at": "2026-11-01T13:48:02Z",
   "totals": {
-    "bytes": 256834977,
+    "bytes": 257899856,
     "complete": true,
-    "files": 8014,
+    "files": 8079,
     "github_complete": true,
-    "github_kb": 1008055,
+    "github_kb": 1007911,
     "left_out": 0,
     "repos": 46
   }
