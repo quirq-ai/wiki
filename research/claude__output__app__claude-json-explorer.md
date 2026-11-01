@@ -28,4 +28,4 @@ npm package manifest for `claude-json-explorer`. Scripts: `build`.
 
 [`claude/output/app/claude-json-explorer/package.json`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/package.json) · code · 106 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

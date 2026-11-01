@@ -13,4 +13,4 @@ exports: `UnlockPage`, `dynamic`, `metadata`.
 
 [`app/unlock/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/unlock/page.tsx) · code · 1378 bytes
 
-_Generated 2026-10-31 11:17 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

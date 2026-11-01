@@ -38,6 +38,25 @@ type Tool = "qq" | "xo"; type Run = NonNullable Notable exports: `MachinePanel`.
 
 [`components/machine-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/machine-panel.tsx) · code · 17043 bytes
 
+### policies-panel.tsx
+
+Step 3: quirq-ai's repos with their testing pipelines and merge policies, read from the
+files that own them and checked against GitHub's live rulesets. Changes go through
+PolicyChange, as pull requests the person opens and merges. Notable exports:
+`PoliciesPanel`. Marked `'use client'` so it runs in the browser.
+
+[`components/policies-panel.tsx`](https://github.com/quirq-ai/setup/blob/main/components/policies-panel.tsx) · code · 9557 bytes
+
+### policy-change.tsx
+
+Step 3's writes: add a product repo, change a gated repo's merge rules, or take a product
+out of qq. Planning clones gate and infra-config and runs their own tools on this machine;
+nothing is written until Open, which makes one branch and one pull request through the
+person's gh login. Merging, and applying gate's settings on GitHub, stay with people.
+Notable exports: `PolicyChange`. Marked `'use client'` so it runs in the browser.
+
+[`components/policy-change.tsx`](https://github.com/quirq-ai/setup/blob/main/components/policy-change.tsx) · code · 15283 bytes
+
 ### setup-form.tsx
 
 import { api, ApiError, keyFromHash, KIND_LABELS, STARTER_LABELS, type RepoList, type
@@ -45,6 +64,6 @@ StarterKind, type Machine, type State, } from "@/lib/api"; What closed the form:
 machine" Done button, or the org answers. type Mode = "machine" | "repos" Notable exports:
 `SetupForm`. Marked `'use client'` so it runs in the browser.
 
-[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 19988 bytes
+[`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 20780 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

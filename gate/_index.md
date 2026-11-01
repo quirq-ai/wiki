@@ -8,8 +8,8 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/gate.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-30T12:39:40Z`
-- Snapshot SHA: `d7234b758aaf`
+- Last push: `2026-10-31T22:26:47Z`
+- Snapshot SHA: `766b94b54786`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -31,4 +31,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/golden` | 1 | [tests__golden.md](tests__golden.md) |
 | `timing` | 1 | [timing.md](timing.md) |
 
-_Generated 2026-10-31 11:17 UTC._
+_Generated 2026-11-01 12:08 UTC._

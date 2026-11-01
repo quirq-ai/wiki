@@ -14,7 +14,7 @@ messages, steps, links and notes. A launch is a chat turn that ends with the tas
 The Agents Hub's event kinds: user · message · thinking · tool / tool_done · command /
 command_done · link · env · status · turn · note · error.
 
-[`app/src/lib/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/agenthub.ts) · code · 11276 bytes
+[`app/src/lib/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/agenthub.ts) · code · 11295 bytes
 
 ### channels.ts
 
@@ -51,6 +51,15 @@ Notable exports: `parseDemoReplies`, `sampleReply`, `restoreDemoSession`, `DemoM
 
 [`app/src/lib/demo-chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/demo-chat.ts) · code · 2722 bytes
 
+### instance-recovery.ts
+
+export const INSTANCE_RECOVERY_API = "/-/api/instance-recovery"; export type
+InstanceCoverage = { data: boolean; runtime: boolean; configuration: boolean }; /** A
+stopped Docker deployment captured whole, or the hub's own copy of its data made while it
+runs.
+
+[`app/src/lib/instance-recovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/instance-recovery.ts) · code · 6323 bytes
+
 ### jsonl.ts
 
 export type JsonlRecord = { line: number; value: unknown; error?: never } | { line: number;
@@ -66,6 +75,13 @@ turns "Chat/<login>/tasks/" into "Chat//tasks/": the placeholder parses as a tag
 disappears. Nothing is rendered as HTML. Notable exports: `remarkHtmlAsText`.
 
 [`app/src/lib/markdown.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/markdown.ts) · code · 903 bytes
+
+### media.ts
+
+Files the browser shows itself: images in an <img>, video in a <video>. Notable exports:
+`mediaOf`, `localLink`, `IMAGE`, `VIDEO`.
+
+[`app/src/lib/media.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/media.ts) · code · 1040 bytes
 
 ### theme.ts
 
@@ -84,7 +100,7 @@ without its leading dot; empty for folders. */ extension: string; size: number; 
 string; /** A short line shown instead of "Folder": for spaces and projects, and for fol
 Notable exports: `Entry`, `Doc`, `FileView`, `WorkspaceSnapshot`, `PreviewResult`.
 
-[`app/src/lib/types.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/types.ts) · code · 1538 bytes
+[`app/src/lib/types.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/types.ts) · code · 1548 bytes
 
 ### url-file.ts
 
@@ -93,4 +109,4 @@ exports: `parseUrlFile`.
 
 [`app/src/lib/url-file.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/url-file.ts) · code · 979 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

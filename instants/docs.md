@@ -23,4 +23,4 @@ imported data does not need a photograph or invented reactions.
 
 [`docs/ui.md`](https://github.com/quirq-ai/instants/blob/main/docs/ui.md) · code · 9126 bytes
 
-_Generated 2026-10-31 11:17 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

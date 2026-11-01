@@ -41,6 +41,16 @@ export type FolderSummary = { items: number; channels: number } Notable exports:
 
 [`app/src/hooks/use-folders.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-folders.ts) · code · 1959 bytes
 
+### use-instance-recovery.ts
+
+export function useInstanceRecovery(path: string) { const [revision, setRevision] =
+useState(0); const [state, setState] = useState({ path, error: "", loading: true });
+useEffect(() => { let closed = false, running = false; let controller: AbortController |
+undefined; setState(previous => ({ path, data: previous.path === path ? previous.data :
+undefined, err Notable exports: `useInstanceRecovery`.
+
+[`app/src/hooks/use-instance-recovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-instance-recovery.ts) · code · 1913 bytes
+
 ### use-live.ts
 
 Loads in flight that the reader is waiting for (not background re-checks): the progress bar
@@ -57,6 +67,6 @@ function useMe() { const [me, setMe] = useState(); useEffect(() => { void fetch(
 })).then(setMe).catch(() => setMe({ name: null })); }, []); const profile = useLive>(me?.
 Notable exports: `useMe`, `recentProjects`, `rememberProject`.
 
-[`app/src/hooks/use-me.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-me.ts) · code · 1386 bytes
+[`app/src/hooks/use-me.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-me.ts) · code · 1471 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

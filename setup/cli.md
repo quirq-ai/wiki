@@ -33,11 +33,12 @@ they fit. Read-only: every call here is a GET through gh (cli/gh.mjs). Notable e
 ### gh.mjs
 
 @ts-check Every GitHub call goes through the user's own `gh` login: this command never
-reads, stores or prints the token, because gh makes the HTTP request itself. This build only
-reads (GET). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`, `encodeRef`,
-`GhError`, `TOKEN_VARS`, and 1 more.
+reads, stores or prints the token, because gh makes the HTTP request itself. Reads are GETs;
+the only writes are `ghWrite`'s, which step 3 uses to open pull requests in quirq-ai
+(cli/policy-write.mjs). Notable exports: `ghEnv`, `gh`, `getJson`, `getAll`, `whoami`,
+`encodeRef`, `ghWrite`, `GhError`, and 2 more.
 
-[`cli/gh.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/gh.mjs) · code · 4621 bytes
+[`cli/gh.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/gh.mjs) · code · 6480 bytes
 
 ### install.mjs
 
@@ -63,9 +64,9 @@ that plan. A run takes only the id of the latest plan.
 qq and xo on this machine. The terminal checks your tools and a local form in your browser
 asks what to do: the form's "This machine" panel runs the install, update or remove steps
 you pick (cli/machine.mjs), and the terminal shows the plan for an org. `qq-setup install`
-does the same for this machine in the terminal.
+does the same for this machine in the terminal. It reads GitHub through your gh login.
 
-[`cli/main.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/main.mjs) · code · 14424 bytes
+[`cli/main.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/main.mjs) · code · 16458 bytes
 
 ### names.mjs
 
@@ -92,6 +93,34 @@ exports: `checkAnswers`, `buildPlan`, `CONFIG_REPO`, `STARTERS`.
 
 [`cli/plan.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/plan.mjs) · code · 5769 bytes
 
+### policies.mjs
+
+@ts-check Step 3 of the form: quirq-ai's repos and the pipelines and policies each one is
+set up with, read from the files that own them (gate settings/github.toml, infra-config
+config/repos.toml and config/pipelines.toml, each repo's CODEOWNERS) and from GitHub's live
+rulesets. GETs only. This step shows where each value lives and whether GitHub matches it;
+cli/policy-write.mjs turns an add, edit or remove into pull requests.
+
+[`cli/policies.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/policies.mjs) · code · 12059 bytes
+
+### policy-edit.mjs
+
+@ts-check Text edits to gate's settings/github.toml and pins.toml for step 3's writes. Pure:
+text in, text out. Each edit touches only the lines it must, keeps every other byte and
+comment, and is checked by parsing both sides: anything but the intended change throws, so a
+file this cannot edit safely is refused, never written half. Notable exports: `checkFields`,
+`editRepo`, `addProduct`, `otherUses`, `removeRepo`, `repin`, `EditError`.
+
+[`cli/policy-edit.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/policy-edit.mjs) · code · 10886 bytes
+
+### policy-write.mjs
+
+@ts-check Step 3's writes: add a product repo to qq, change a gated repo's merge rules, or
+take a repo out of qq, as pull requests in quirq-ai that the person reviews and merges.
+Nothing here merges, applies a ruleset, deletes one, or touches main.
+
+[`cli/policy-write.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/policy-write.mjs) · code · 32044 bytes
+
 ### preflight.mjs
 
 @ts-check Checks before anything opens: the tools the full setup needs, the user's gh login
@@ -115,7 +144,16 @@ these warnings are for.
 @ts-check The form's local server. It listens on 127.0.0.1 only, serves the static form from
 out/, and answers /api/* only to the one tab that traded the link's key for a session.
 
-[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 11207 bytes
+[`cli/server.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/server.mjs) · code · 11682 bytes
+
+### toml.mjs
+
+@ts-check A reader for the small part of TOML that quirq-ai's settings files use (gate
+settings/github.toml, infra-config config/*.toml): tables, arrays of tables, dotted table
+names, and keys holding a string, a number, a boolean or an array of those (arrays may span
+lines).
+
+[`cli/toml.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/toml.mjs) · code · 7908 bytes
 
 ### tools.mjs
 
@@ -137,4 +175,4 @@ PATH by default, so qq-setup runs on Windows' Node. npx then starts in
 
 [`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2604 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

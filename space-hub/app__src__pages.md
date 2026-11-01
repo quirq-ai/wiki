@@ -19,15 +19,14 @@ type Message = { id: string; role: string; author: string; content: string; link
 string; path: string }[]; time?: string; saving?: boolean }; type Conversation = { title?:
 unknown; subtitle?: unknown; messages: Record[] } Notable exports: `ChatView`.
 
-[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 10845 bytes
+[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 11152 bytes
 
 ### code.tsx
 
-const IMAGES = /\.(png|jpe?g|gif|webp)$/i; const href = (place: Place, tab: string, params:
-Record) => placeUrl(place, hashOf(tab, params)) Notable exports: `CodeTab`, `CommitsTab`,
-`CommitTab`, `BranchesTab`.
+const href = (place: Place, tab: string, params: Record) => placeUrl(place, hashOf(tab,
+params)) Notable exports: `CodeTab`, `CommitsTab`, `CommitTab`, `BranchesTab`.
 
-[`app/src/pages/code.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/code.tsx) · code · 14127 bytes
+[`app/src/pages/code.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/code.tsx) · code · 14784 bytes
 
 ### common.tsx
 
@@ -56,7 +55,7 @@ Lightbulb], ["goals", SquareCheck], ["files", FolderOpen], ["apps", Shapes], ]);
 const SECTION_ORDER = ["chat", "activity", "insights", "vision", "library", "ideas",
 "goals", "f Notable exports: `entryIcon`, `isChannel`, `FilesTab`, `SECTION_ICONS`
 
-[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 10140 bytes
+[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 10214 bytes
 
 ### goal.tsx
 
@@ -71,18 +70,47 @@ const kindOf = (detail = "") => detail.startsWith("org") ? "org" :
 detail.startsWith("agent") ? "agent" : "personal" Notable exports: `HomePage`,
 `ActivityFeed`.
 
-[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 6332 bytes
+[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9406 bytes
+
+### instance-recovery.tsx
+
+type Section = "overview" | "backups" | "restore"; const messageOf = (error: unknown) =>
+error instanceof Error ? error.message : "The full-instance recovery request could not be
+completed."; function commandOf(build: () => string) { try { return build(); } catch {
+return ""; } } const iso = (at: number) => new Date(at).toISOString(); const took = (ms:
+numbe Notable exports: `InstanceRecoveryPage`, `SubhubConnectionCard`
+
+[`app/src/pages/instance-recovery.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/instance-recovery.tsx) · code · 21704 bytes
 
 ### project.tsx
 
 type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
-[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 6894 bytes
+[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 7070 bytes
+
+### settings.tsx
+
+export function SettingsPage({ onConnectionState }: { onConnectionState?: (state: "live" |
+"offline" | "loading") => void }) { return } title="Settings" subtitle="Manage this Spacehub
+instance." /> Notable exports: `SettingsPage`.
+
+[`app/src/pages/settings.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/settings.tsx) · code · 543 bytes
 
 ### space.tsx
 
-const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`.
+const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`,
+`AgentList`.
 
-[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 10559 bytes
+[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 10893 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+### subhub.tsx
+
+/** What a connected sub-hub says about its storage right now (instanceruntime.ts answers
+it). */ type Storage = { name: string; keep: number; intervalSeconds: number; snapshots:
+InstanceSnapshot[]; bytes: number; freeBytes: number }; type SubhubView = { connection:
+InstanceConnection; live: Storage | null; error?: string }; type BackupFiles = { snapshot:
+In Notable exports: `SubhubPage`.
+
+[`app/src/pages/subhub.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/subhub.tsx) · code · 6253 bytes
+
+_Generated 2026-11-01 12:08 UTC from `main`._

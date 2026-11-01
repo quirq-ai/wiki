@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", ".."); const SHOTS =
 join(ROOT, "test-results", "screenshots").
 
-[`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 52427 bytes
+[`tests/e2e/form.spec.ts`](https://github.com/quirq-ai/setup/blob/main/tests/e2e/form.spec.ts) · code · 61570 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

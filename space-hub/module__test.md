@@ -6,6 +6,14 @@ Source: [module/test](https://github.com/quirq-ai/space-hub/tree/main/module/tes
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### accounts.test.ts
+
+Signing in with xo as the GitHub account connected to XO (xoLinkGithub), and second names: a
+builder's xo username, or the name xo gave it before, shows the same space and works
+wherever a name does (npm test). Automated test file.
+
+[`module/test/accounts.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/accounts.test.ts) · code · 10721 bytes
+
 ### collab.test.ts
 
 Spaces, projects, collaborators and presence, run in SpacetimeDB's in-process module harness
@@ -40,7 +48,7 @@ module harness: npm test. Automated test file.
 The app's workspace API and the append_chat reducer, in SpacetimeDB's in-process module
 harness (no server needed): npm test. Automated test file.
 
-[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 18178 bytes
+[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 22162 bytes
 
 ### xo.test.ts
 
@@ -49,4 +57,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7898 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

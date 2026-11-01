@@ -24,4 +24,27 @@ path.split("/").pop()!, path, kind, extension: kind === "file" ? path.split(".")
 
 [`app/test/channels.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/channels.test.ts) · code · 3501 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+### instance-recovery.test.ts
+
+const id = "ab".repeat(16) Automated test file.
+
+[`app/test/instance-recovery.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/instance-recovery.test.ts) · code · 5692 bytes
+
+### media.test.ts
+
+test("images and video by extension", () => { assert.equal(mediaOf("Library/logo.PNG"),
+"image"); assert.equal(mediaOf("art/mark.svg"), "image");
+assert.equal(mediaOf("Chat/demo/output/walkthrough.mp4"), "video");
+assert.equal(mediaOf("clips/take.mov"), "video"); assert.equal(mediaOf("notes.md"),
+undefined); assert.equal(mediaOf("mp4"), undefined); }) Automated test file.
+
+[`app/test/media.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/media.test.ts) · code · 1142 bytes
+
+### recovery-shell.test.ts
+
+Exercise the actual shell components without browser effects or production data. Automated
+test file.
+
+[`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 4884 bytes
+
+_Generated 2026-11-01 12:08 UTC from `main`._

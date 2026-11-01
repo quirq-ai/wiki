@@ -91,7 +91,7 @@ as a script via `if __name__ == '__main__'`. Functions: `marker_path`, `state_pa
 """xo serve: the server half of xo, holding the Clerk credentials so the CLI never needs
 them.
 
-[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 147756 bytes
+[`src/xo/server.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/server.py) · code · 150627 bytes
 
 ### services.json
 
@@ -145,4 +145,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

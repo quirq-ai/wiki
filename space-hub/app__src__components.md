@@ -11,9 +11,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 type ObjectValue = Record; type Navigate = (path: string) => void; const object = (value:
 unknown): value is ObjectValue => value !== null && typeof value === "object" &&
 !Array.isArray(value); const string = (value: unknown) => typeof value === "string" ? value
-: "" Notable exports: `Markdown`, `FileContent`, `isConversation`.
+: "" Notable exports: `MarkdownMedia`, `Markdown`, `FileContent`, `RawFiles`,
+`isConversation`.
 
-[`app/src/components/content-view.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/content-view.tsx) · code · 13696 bytes
+[`app/src/components/content-view.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/content-view.tsx) · code · 14977 bytes
 
 ### file-preview.tsx
 
@@ -40,4 +41,4 @@ status === "failed" ? "fail" : "stop") Notable exports: `WorkerCard`.
 
 [`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 7078 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

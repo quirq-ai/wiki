@@ -65,7 +65,7 @@ xo serve against a fake Clerk Backend API on 127.0.0.1. Classes: `FakeClerk`. Fu
 xo serve with the hub on (XO_HUB_URL and XO_HUB_KEY): what xo keeps for a user lives in the
 hub's record, not in Clerk's private metadata. Classes: `FakeHub`.
 
-[`tests/test_server_hub.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server_hub.py) · code · 20366 bytes
+[`tests/test_server_hub.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_server_hub.py) · code · 23282 bytes
 
 ### test_services.py
 
@@ -87,4 +87,4 @@ repositories standing in for GitHub. Classes: `_Client`.
 
 [`tests/test_workspace.py`](https://github.com/quirq-ai/xo/blob/main/tests/test_workspace.py) · code · 23418 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

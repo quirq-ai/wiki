@@ -29,7 +29,7 @@ Txt file `__next._full.txt`.
 
 ### __next._tree.txt
 
-Txt file `__next._tree.txt`. :HL["/_next/static/chunks/0m_gvjuji7-ia.css","style"]
+Txt file `__next._tree.txt`. :HL["/_next/static/chunks/2g-iy3f2ls9xe.css","style"]
 :HL["/brand/quirq/wordmark.svg","image"] 0:{"tree":{"name":"","param":null,"prefetchHints":4
 176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}
 ,"staleTime":300,"buildId":"qq-setup"}.
@@ -61,4 +61,4 @@ Txt file `index.txt`.
 
 [`out/index.txt`](https://github.com/quirq-ai/setup/blob/main/out/index.txt) · code · 4418 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

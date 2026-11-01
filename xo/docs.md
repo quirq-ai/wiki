@@ -29,14 +29,14 @@ app.py, which serves the same routes as a Python function, on Python 3.12 (pinne
 .python-version). Vercel's GitHub integration deploys it: every commit on main goes to
 production by itself, so every merge to main ships xo.quirq.dev.
 
-[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 23680 bytes
+[`docs/deploy-vercel.md`](https://github.com/quirq-ai/xo/blob/main/docs/deploy-vercel.md) · code · 24161 bytes
 
 ### guide.md
 
 Markdown page “xo user guide”. xo is one command line for two XO services and GitHub. One xo
 login logs you in to all of them.
 
-[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 25575 bytes
+[`docs/guide.md`](https://github.com/quirq-ai/xo/blob/main/docs/guide.md) · code · 25740 bytes
 
 ### quickstart.md
 
@@ -50,7 +50,7 @@ guide](guide.md) lists the commands.
 
 Markdown page “xo server mode”. One package, two deployments.
 
-[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 44094 bytes
+[`docs/server.md`](https://github.com/quirq-ai/xo/blob/main/docs/server.md) · code · 44835 bytes
 
 ### test-xo-server.sh
 
@@ -59,4 +59,4 @@ deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect
 
 [`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

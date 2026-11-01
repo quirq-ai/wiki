@@ -8,8 +8,8 @@ A small, filesystem-first workspace for quirqy, viewed with [open-chat](https://
 - [Activity history](../_activity/repos/quirq.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-10-30T18:29:59Z`
-- Snapshot SHA: `a369deea003c`
+- Last push: `2026-11-01T10:19:42Z`
+- Snapshot SHA: `0628628cf84d`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -25,6 +25,8 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `Chat/euler/output` | 1 | [Chat__euler__output.md](Chat__euler__output.md) |
 | `Chat/hello-world` | 3 | [Chat__hello-world.md](Chat__hello-world.md) |
 | `Chat/hello-world/output` | 1 | [Chat__hello-world__output.md](Chat__hello-world__output.md) |
+| `Chat/jobs` | 3 | [Chat__jobs.md](Chat__jobs.md) |
+| `Chat/jobs/output` | 1 | [Chat__jobs__output.md](Chat__jobs__output.md) |
 | `Chat/organize-quirq-repo` | 2 | [Chat__organize-quirq-repo.md](Chat__organize-quirq-repo.md) |
 | `Chat/organize-quirq-repo/checker-tests` | 3 | [Chat__organize-quirq-repo__checker-tests.md](Chat__organize-quirq-repo__checker-tests.md) |
 | `Chat/organize-quirq-repo/checker-tests/output` | 1 | [Chat__organize-quirq-repo__checker-tests__output.md](Chat__organize-quirq-repo__checker-tests__output.md) |
@@ -140,4 +142,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `Library` | 2 | [Library.md](Library.md) |
 | `Vision` | 2 | [Vision.md](Vision.md) |
 
-_Generated 2026-10-31 11:17 UTC._
+_Generated 2026-11-01 12:08 UTC._

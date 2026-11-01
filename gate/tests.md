@@ -66,7 +66,7 @@ Python module `test_required.py`.
 
 Python module `test_settings.py`.
 
-[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 58892 bytes
+[`tests/test_settings.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_settings.py) · code · 60902 bytes
 
 ### test_timing.py
 
@@ -91,4 +91,4 @@ Contains tests.
 
 [`tests/test_verdict.py`](https://github.com/quirq-ai/gate/blob/main/tests/test_verdict.py) · code · 1519 bytes
 
-_Generated 2026-10-31 11:17 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

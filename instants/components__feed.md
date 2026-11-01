@@ -33,4 +33,4 @@ Feed ordering. Pure functions, used by the server page. Notable exports: `parseT
 
 [`components/feed/order.ts`](https://github.com/quirq-ai/instants/blob/main/components/feed/order.ts) · code · 2626 bytes
 
-_Generated 2026-10-31 11:17 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

@@ -13,4 +13,4 @@ client'` so it runs in the browser.
 
 [`registry/astryx/templates/blank/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/blank/page.tsx) · code · 358 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._

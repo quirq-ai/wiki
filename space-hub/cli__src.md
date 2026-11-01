@@ -24,7 +24,7 @@ the service starts a task on the org's Agents Hub (a sandbox and an agent that w
 GitHub), and saves the message to the channel's chat with the task's id, so everyone in the
 channel sees the worker and follows it there.
 
-[`cli/src/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agenthub.ts) · code · 14120 bytes
+[`cli/src/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agenthub.ts) · code · 14786 bytes
 
 ### agentrun.ts
 
@@ -50,7 +50,7 @@ The hub's app: open-chat's interface over the whole hub. The proxy sends the hub
 here; the module still renders the code views (tree, blob, raw, commits, commit, refs,
 activity) and the guide.
 
-[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 9821 bytes
+[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 10266 bytes
 
 ### autosync.ts
 
@@ -80,7 +80,7 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 68141 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 69014 bytes
 
 ### compat.ts
 
@@ -104,10 +104,10 @@ issues its own identities. Notable exports: `configFile`, `normalizeServer`, `lo
 
 One connection to the spacehub database plus small read helpers. Reads are short-lived
 subscriptions: subscribe, take what arrived, unsubscribe. Notable exports: `quietSdkLogs`,
-`connectTo`, `hubProtocol`, `connect`, `snapshot`, `findProject`, `findSpace`, `spaceRoles`,
-and 8 more.
+`connectTo`, `hubProtocol`, `connect`, `snapshot`, `findProject`, `findSpace`, `spaceOf`,
+and 9 more.
 
-[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 6797 bytes
+[`cli/src/conn.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/conn.ts) · code · 7818 bytes
 
 ### device.ts
 
@@ -116,7 +116,7 @@ a code, the CLI shows it, the person enters it on github.com and says yes, and t
 polling GitHub with the device code only it holds, receives a token with no scopes. The
 token never leaves the hub, so no other server can be handed it to replay here.
 
-[`cli/src/device.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/device.ts) · code · 3977 bytes
+[`cli/src/device.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/device.ts) · code · 4772 bytes
 
 ### devicelogin.ts
 
@@ -153,6 +153,78 @@ linked to a GitHub user or organization in step, as the hub admin, on request an
 often.
 
 [`cli/src/github.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/github.ts) · code · 14318 bytes
+
+### githubsignin.ts
+
+Sign up and sign in to this website with GitHub, served by the web service: GET
+/-/login/github?next=/path off to GitHub, to approve the hub's OAuth App GET
+/-/login/github/callback back from it, signed in as that account's builder The same OAuth
+App and the same builders as the CLI's sign-in (signin.ts): a GitHub account's builder is
+named after its login, made on the first sign-in, and its hub token goes only into the
+
+[`cli/src/githubsignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/githubsignin.ts) · code · 5007 bytes
+
+### hubbackup.ts
+
+The hub backs itself up, with no downtime: on a schedule the web service copies the hub's
+data folder (SPACEHUB_DATA_ROOT, /data in the server image) while SpacetimeDB runs, and
+keeps the newest copies in a vault that connected sub-hubs copy off the machine
+(instanceruntime.ts).
+
+[`cli/src/hubbackup.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/hubbackup.ts) · code · 11933 bytes
+
+### instancecapture.ts
+
+Capture the explicitly selected Docker deployment while every selected container is stopped.
+Private inspect configuration belongs only in the snapshot, never in its public summary. No
+restore starts a container here. Notable exports: `captureDeployment`,
+`CaptureDeploymentOptions`, `CaptureDeploymentDeps`.
+
+[`cli/src/instancecapture.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancecapture.ts) · code · 17196 bytes
+
+### instanceconnections.ts
+
+Global full-instance backup machines. Credentials are private hashes; reports cannot confer
+org, project, session or execution authority. Notable exports: `InstanceConnections`,
+`ConnectionState`, `ConnectionReport`, `InstanceConnection`.
+
+[`cli/src/instanceconnections.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instanceconnections.ts) · code · 13733 bytes
+
+### instancerecovery.ts
+
+Full-instance recovery is a separate, global operator surface. It never inherits authority
+from an org, project, agent, or work queue. Notable exports: `recoveryRemote`,
+`restoreTarget`, `handleInstanceRecovery`, `InstanceRecoveryDeps`.
+
+[`cli/src/instancerecovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancerecovery.ts) · code · 15359 bytes
+
+### instanceruntime.ts
+
+A connected Sub-hub copies already-complete instance snapshots. Creating a consistent source
+backup is a separate server concern, never a client guess. Notable exports:
+`runInstanceSubhub`, `InstanceRuntimeState`, `InstanceRuntimeStatus`,
+`InstanceRuntimeOptions`, `InstanceRuntimeDeps`.
+
+[`cli/src/instanceruntime.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instanceruntime.ts) · code · 27047 bytes
+
+### instancesubhub.ts
+
+const HELP = `spacehub subhub run --storage [--name ] [--interval ] [--keep ] spacehub
+subhub backup --storage spacehub subhub snapshots --storage spacehub subhub verify --storage
+spacehub subhub restore --storage spacehub subhub serve --storage [--listen 127.0.0.1:4092]
+[--restore-root ] [--source ] [--token-file ] spacehub subhub capture --container [--con
+Notable exports: `instanceSubhubCommand`.
+
+[`cli/src/instancesubhub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancesubhub.ts) · code · 11711 bytes
+
+### instancevault.ts
+
+Immutable full-deployment bundles. The capture adapter establishes cold consistency; this
+layer preserves and verifies every prepared private byte. Notable exports: `backupKind`,
+`canonicalPath`, `InstanceVaultError`, `InstanceVault`, `DEFAULT_INSTANCE_VAULT_BYTES`,
+`MAX_INSTANCE_FILES`, `Coverage`, `Consistency`, and 8 more.
+
+[`cli/src/instancevault.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancevault.ts) · code · 40364 bytes
 
 ### live.ts
 
@@ -200,7 +272,7 @@ clones) and speaks the remote helper protocol on stdin/stdout (see `man gitremot
 
 Sign up and sign in with GitHub, served by the web service.
 
-[`cli/src/signin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/signin.ts) · code · 13565 bytes
+[`cli/src/signin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/signin.ts) · code · 13684 bytes
 
 ### spacesync.ts
 
@@ -212,6 +284,15 @@ does it on every push; --auto runs autosync in every project.
 
 [`cli/src/spacesync.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/spacesync.ts) · code · 8848 bytes
 
+### subhubrelay.ts
+
+Live requests from the hub to a connected sub-hub machine, for its page at /subhub/<name>. A
+sub-hub usually sits behind NAT, so the hub cannot call it: the machine keeps one request
+open (poll), the hub hands it whatever a recovery operator asked for (ask), and the machine
+posts the answer back (answer), which goes to the waiting operator.
+
+[`cli/src/subhubrelay.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/subhubrelay.ts) · code · 4012 bytes
+
 ### url.ts
 
 Hub URLs. A hub remote is always called "quirq" and always points at a quirq URL:
@@ -221,17 +302,26 @@ name the host, so a clone keeps working whatever server the CLI is logged in to 
 
 [`cli/src/url.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/url.ts) · code · 3125 bytes
 
+### visitor.ts
+
+Where a visitor who is not signed in lands from the hub's own address (/): the space or
+project SPACEHUB_VISITOR_HOME names, by default quirq/quirq, once it is on this hub; "off"
+keeps the hub's home page for everyone. Signed in, / is the hub's home page as before.
+Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
+
+[`cli/src/visitor.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/visitor.ts) · code · 1941 bytes
+
 ### web.ts
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 31738 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 39407 bytes
 
 ### xo.ts
 
 xo.quirq.dev's door to the hub, served by the web service at /-/api/xo/v1/.
 
-[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 5836 bytes
+[`cli/src/xo.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xo.ts) · code · 10301 bytes
 
 ### xosignin.ts
 
@@ -239,8 +329,8 @@ Sign in to this website with xo, served by the web service: GET /-/login/xo?next
 to XO's own sign-in (Clerk), the one xo login uses GET /-/login/xo/callback back from it,
 signed in as the visitor's xo builder This hub is a client of xo login's Clerk OAuth
 application (public, with PKCE), and the xo server swaps the code: POST <xo>/login/hub, with
-this hub's xo key, answers the Clerk user id and their builder, which the xo server makes on
+this hub's xo key, answers the Clerk user id and their builder: the builder of the GitHub
 
-[`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 9340 bytes
+[`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-10-31 11:18 UTC from `main`._
+_Generated 2026-11-01 12:08 UTC from `main`._
