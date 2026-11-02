@@ -166,12 +166,23 @@ named after its login, made on the first sign-in, and its hub token goes only in
 
 ### hubbackup.ts
 
-The hub backs itself up, with no downtime: on a schedule the web service copies the hub's
-data folder (SPACEHUB_DATA_ROOT, /data in the server image) while SpacetimeDB runs, and
-keeps the newest copies in a vault that connected sub-hubs copy off the machine
-(instanceruntime.ts).
+Optionally, the hub also keeps backups of itself on its own disk, with no downtime: on a
+schedule the web service copies the hub's data folder (SPACEHUB_DATA_ROOT, /data in the
+server image) while SpacetimeDB runs, and keeps the newest copies in a vault that connected
+sub-hubs copy too (instanceruntime.ts). Off by default: backups are kept off the hub, by
+sub-hubs that copy its data folder live (hubdata.ts).
 
-[`cli/src/hubbackup.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/hubbackup.ts) · code · 11933 bytes
+[`cli/src/hubbackup.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/hubbackup.ts) · code · 11743 bytes
+
+### hubdata.ts
+
+The hub's data folder (SPACEHUB_DATA_ROOT, /data in the server image), read live while
+SpacetimeDB runs, for backups kept off the hub: a sub-hub lists it and downloads what
+changed (instanceruntime.ts), so the hub needs no disk for copies of its own. SpacetimeDB
+keeps each database as an append-only commit log beside its snapshots, so a copy taken while
+it writes is like the state after a crash: it starts from the last whole transaction.
+
+[`cli/src/hubdata.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/hubdata.ts) · code · 5370 bytes
 
 ### instancecapture.ts
 
@@ -196,26 +207,26 @@ Full-instance recovery is a separate, global operator surface. It never inherits
 from an org, project, agent, or work queue. Notable exports: `recoveryRemote`,
 `restoreTarget`, `handleInstanceRecovery`, `InstanceRecoveryDeps`.
 
-[`cli/src/instancerecovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancerecovery.ts) · code · 15359 bytes
+[`cli/src/instancerecovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancerecovery.ts) · code · 16540 bytes
 
 ### instanceruntime.ts
 
 A connected Sub-hub copies already-complete instance snapshots. Creating a consistent source
-backup is a separate server concern, never a client guess. Notable exports:
-`runInstanceSubhub`, `InstanceRuntimeState`, `InstanceRuntimeStatus`,
-`InstanceRuntimeOptions`, `InstanceRuntimeDeps`.
+backup is a separate server concern, never a client guess. A hub that keeps no backups of
+its own serves its data folder live instead (hubdata.ts): then the Sub-hub makes the
+backups, a copy of that folder on a schedule, and the hub needs no disk for them.
 
-[`cli/src/instanceruntime.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instanceruntime.ts) · code · 27047 bytes
+[`cli/src/instanceruntime.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instanceruntime.ts) · code · 36165 bytes
 
 ### instancesubhub.ts
 
-const HELP = `spacehub subhub run --storage [--name ] [--interval ] [--keep ] spacehub
-subhub backup --storage spacehub subhub snapshots --storage spacehub subhub verify --storage
-spacehub subhub restore --storage spacehub subhub serve --storage [--listen 127.0.0.1:4092]
-[--restore-root ] [--source ] [--token-file ] spacehub subhub capture --container [--con
-Notable exports: `instanceSubhubCommand`.
+const HELP = `spacehub subhub run --storage [--name ] [--interval ] [--keep ] [--every ]
+spacehub subhub backup --storage spacehub subhub snapshots --storage spacehub subhub verify
+--storage spacehub subhub restore --storage spacehub subhub serve --storage [--listen
+127.0.0.1:4092] [--restore-root ] [--source ] [--token-file ] spacehub subhub capture
+--conta Notable exports: `instanceSubhubCommand`.
 
-[`cli/src/instancesubhub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancesubhub.ts) · code · 11711 bytes
+[`cli/src/instancesubhub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/instancesubhub.ts) · code · 12013 bytes
 
 ### instancevault.ts
 
@@ -315,7 +326,7 @@ Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 39407 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 39575 bytes
 
 ### xo.ts
 
@@ -333,4 +344,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -36,4 +36,4 @@ simulated agent, tiny test mp4.
 
 [`scripts/video.mjs`](https://github.com/quirq-ai/instants/blob/main/scripts/video.mjs) · code · 1284 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

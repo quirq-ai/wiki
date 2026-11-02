@@ -12,4 +12,4 @@ The project README (“app”). A runnable demo that shows the findings in actio
 
 [`infra/output/app/README.md`](https://github.com/quirq-ai/research/blob/main/infra/output/app/README.md) · code · 537 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -12,4 +12,4 @@ Markdown page “_claude”. Archive of the quirq Claude project's conversations
 
 [`Chat/quirq-ai-wiki/claude/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/claude/output/one-pager.md) · code · 1668 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

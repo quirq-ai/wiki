@@ -13,4 +13,4 @@ export const metadata: Metadata = { title: "Library" } Notable exports: `Library
 
 [`app/library/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/library/page.tsx) · code · 1485 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

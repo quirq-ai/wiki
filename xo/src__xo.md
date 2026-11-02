@@ -145,4 +145,4 @@ space recorded in your private metadata. Functions: `target`, `dest`, `resolve`,
 
 [`src/xo/workspace.py`](https://github.com/quirq-ai/xo/blob/main/src/xo/workspace.py) · code · 22362 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -13,6 +13,14 @@ filters paths, so this only terminates HTTPS and forwards.
 
 [`docker/Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/Caddyfile) · other · 314 bytes
 
+### backup.Caddyfile
+
+Caddyfile file `backup.Caddyfile`. Built into the server image. In a backup container
+(SPACEHUB_BACKUP_OF, see server-entrypoint.sh) nothing is served: the public port only
+answers the platform's health checks.
+
+[`docker/backup.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/backup.Caddyfile) · code · 376 bytes
+
 ### server-entrypoint.sh
 
 Start SpacetimeDB on an internal port and the allowlist proxy on the public port, publish
@@ -21,7 +29,7 @@ import). A starting proxy holds the public port at once, so platform probes see 
 answers 503 to everything: nobody reaches SpacetimeDB until the module is published and the
 hub admin claimed. Only then does the real allowlist proxy Shebang `#!/bin/sh`.
 
-[`docker/server-entrypoint.sh`](https://github.com/quirq-ai/space-hub/blob/main/docker/server-entrypoint.sh) · code · 7457 bytes
+[`docker/server-entrypoint.sh`](https://github.com/quirq-ai/space-hub/blob/main/docker/server-entrypoint.sh) · code · 8566 bytes
 
 ### server.Caddyfile
 
@@ -39,4 +47,4 @@ hub admin. server.Caddyfile takes the port over after that.
 
 [`docker/starting.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/starting.Caddyfile) · code · 406 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -47,4 +47,4 @@ test file.
 
 [`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 4884 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -15,4 +15,4 @@ perihelion (varpi), node is longitude of ascending node.
 
 [`src/data/bodies.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data/bodies.js) · code · 20931 bytes
 
-_Generated 2026-11-01 12:08 UTC from `quirq`._
+_Generated 2026-11-02 13:57 UTC from `quirq`._

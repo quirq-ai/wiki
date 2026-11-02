@@ -11,6 +11,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 The project README (“Chat”). Chat is organized in channels. Each channel is an open
 workstream, and anyone can also have a personal channel named after their GitHub login.
 
-[`Chat/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/README.md) · code · 1487 bytes
+[`Chat/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/README.md) · code · 1501 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -21,4 +21,4 @@ file.
 
 [`scripts/repository-build.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/scripts/repository-build.test.js) · code · 5236 bytes
 
-_Generated 2026-11-01 12:08 UTC from `quirq`._
+_Generated 2026-11-02 13:57 UTC from `quirq`._

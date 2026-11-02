@@ -78,7 +78,14 @@ SpacetimeDB's HTTP API (npm test). Automated test file.
 The hub backs up its own data folder while it runs, keeps the newest, and sub-hubs copy
 those off the machine with a --keep window (npm test). Automated test file.
 
-[`cli/test/hubbackup.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/hubbackup.test.ts) · code · 14093 bytes
+[`cli/test/hubbackup.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/hubbackup.test.ts) · code · 14372 bytes
+
+### hubdata.test.ts
+
+A hub that keeps no backups serves its data folder live, and a sub-hub (the backup
+container, or any machine) copies it, only what changed (npm test). Automated test file.
+
+[`cli/test/hubdata.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/hubdata.test.ts) · code · 9277 bytes
 
 ### instancecapture.test.ts
 
@@ -160,7 +167,7 @@ Automated test file.
 A connected sub-hub's storage, read live through the hub: the relay, and the whole path from
 an operator through the hub to a running machine (npm test). Automated test file.
 
-[`cli/test/subhubrelay.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/subhubrelay.test.ts) · code · 6124 bytes
+[`cli/test/subhubrelay.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/subhubrelay.test.ts) · code · 6155 bytes
 
 ### url.test.ts
 
@@ -189,4 +196,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

@@ -19,4 +19,4 @@ Source protocol — what every runtime source must implement. Classes: `Presence
 
 [`services/cowork_agent/visualizer/sources/base.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/visualizer/sources/base.py) · code · 1462 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

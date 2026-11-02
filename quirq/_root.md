@@ -33,7 +33,7 @@ The Claude Code instructions (“CLAUDE.md”). This repository is a content wor
 open-chat, not an application. Follow [CONTRIBUTING.md](CONTRIBUTING.md); it is the source
 of truth for layout, naming, and formats.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/quirq/blob/main/CLAUDE.md) · code · 3124 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/quirq/blob/main/CLAUDE.md) · code · 3138 bytes
 
 ### CONTRIBUTING.md
 
@@ -42,7 +42,7 @@ not code. The app reads these files directly, so the layout below is the contrac
 .github/scripts/check_structure.py enforces every rule marked (checked), and the Structure
 workflow runs it on each pull request and on pushes to main.
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/quirq/blob/main/CONTRIBUTING.md) · code · 13384 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/quirq/blob/main/CONTRIBUTING.md) · code · 13476 bytes
 
 ### LICENSE
 
@@ -68,4 +68,4 @@ together.
 
 [`SPACE.md`](https://github.com/quirq-ai/quirq/blob/main/SPACE.md) · code · 1839 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

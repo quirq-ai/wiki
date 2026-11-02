@@ -38,4 +38,4 @@ remote-control` so you can drive the session from claude.ai/code or the Claude a
 
 [`server.mjs`](https://github.com/quirq-ai/claude-code/blob/main/server.mjs) · code · 10712 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

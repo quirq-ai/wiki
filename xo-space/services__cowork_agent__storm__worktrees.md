@@ -37,4 +37,4 @@ more. Contains tests.
 
 [`services/cowork_agent/storm/worktrees/trees.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/trees.py) · code · 29074 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._

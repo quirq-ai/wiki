@@ -14,4 +14,4 @@ const routes: [string, string][] = [ ['/', 'Overview'], ['/alerts', 'Alerts'], [
 
 [`dashboard/e2e/smoke.spec.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/e2e/smoke.spec.ts) · code · 1551 bytes
 
-_Generated 2026-11-01 12:08 UTC from `main`._
+_Generated 2026-11-02 13:57 UTC from `main`._
