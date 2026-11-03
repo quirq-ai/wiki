@@ -42,4 +42,4 @@ document](architecture.md).*.
 
 [`docs/architecture/data.md`](https://github.com/quirq-ai/innernet/blob/main/docs/architecture/data.md) · code · 34618 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

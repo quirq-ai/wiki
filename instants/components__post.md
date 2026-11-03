@@ -51,7 +51,7 @@ function Pill({ label, onClick, active = false, children, }: { label: string; on
 void; active?: boolean; children: React.ReactNode; }) { return ( Notable exports: `Section`,
 `PostView`. Marked `'use client'` so it runs in the browser.
 
-[`components/post/post-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/post-view.tsx) · code · 10351 bytes
+[`components/post/post-view.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/post-view.tsx) · code · 10651 bytes
 
 ### regenerate.tsx
 
@@ -71,4 +71,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`components/post/share.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/share.tsx) · code · 4268 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

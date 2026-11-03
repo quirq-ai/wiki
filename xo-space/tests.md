@@ -127,6 +127,43 @@ Classes: `AgentEnvTests`. Contains tests.
 
 [`tests/test_agent_env.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_agent_env.py) · code · 2339 bytes
 
+### test_agy_plugin.py
+
+XO's agy plugin (storm ch 04 §2–§3): its installer, and its hook and MCP relay outside an XO
+session (they must do nothing there) and when XO doesn't answer (the hook refuses). Runnable
+as a script via `if __name__ == '__main__'`. Classes: `InstallTests`. Contains tests.
+
+[`tests/test_agy_plugin.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_agy_plugin.py) · code · 3428 bytes
+
+### test_agy_protocol.py
+
+The part of agy the agy runtime codes against, checked against the installed CLI, model-free
+(storm ch 04 §11; ch 06: the last known good revision). Runnable as a script via `if
+__name__ == '__main__'`. Classes: `AgyProtocolTests`. Functions: `_binary`, `_env`. Contains
+tests.
+
+[`tests/test_agy_protocol.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_agy_protocol.py) · code · 3314 bytes
+
+### test_agy_runtime.py
+
+The agy runtime (storm ch 04) against its fake CLI: XO's hook answers per mode, the role
+prompt and hidden context, idle, interrupts, updates, plans, sub-agents, the comms relay;
+and what it supports. Runnable as a script via `if __name__ == '__main__'`. Classes:
+`SupportTests`, `FindBinaryTests`, `ModelsTests`, `SessionCase`, `ModeTests`,
+`LifecycleTests`, `_McpServer`, `RelayTests`, and 6 more.
+
+[`tests/test_agy_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_agy_runtime.py) · code · 40251 bytes
+
+### test_agy_wire.py
+
+The agy runtime's wire and its pure parts (storm ch 04 §7–§10): agy 1.4.10's stream-json as
+events, its tools in neutral terms, its command line, its account and usage report, and its
+transcripts. Runnable as a script via `if __name__ == '__main__'`. Classes: `WireTests`,
+`ToolTests`, `ArgvTests`, `AccountTests`, `TranscriptTests`. Functions: `argv_for`,
+`write_transcripts`, `names`. Contains tests.
+
+[`tests/test_agy_wire.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_agy_wire.py) · code · 26990 bytes
+
 ### test_background.py
 
 services/background.py: records, never raises, never leaks secrets. Runnable as a script via
@@ -193,6 +230,20 @@ The claude_code runtime against its fake CLI (storm ch 02; ch 18 §2 PR 6). Clas
 
 [`tests/test_claude_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_claude_runtime.py) · code · 112274 bytes
 
+### test_codex_native_optimizations.py
+
+Model-free smoke tests against the installed app-server, with isolated config. Classes:
+`NativeTests`. Contains tests.
+
+[`tests/test_codex_native_optimizations.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_native_optimizations.py) · code · 4462 bytes
+
+### test_codex_optimizations.py
+
+Regression cases for startup, readiness, and session-lifetime buffering. Classes:
+`RetentionTests`, `StartupTests`. Functions: `feed`. Contains tests.
+
+[`tests/test_codex_optimizations.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_optimizations.py) · code · 11462 bytes
+
 ### test_codex_plugin_package.py
 
 The marketplace must install a complete, relocatable Codex plugin bundle. Runnable as a
@@ -214,7 +265,7 @@ installed CLI's own schema (storm ch 03 §1, §11). Runnable as a script via `if
 '__main__'`. Classes: `ProtocolTests`. Functions: `_methods`, `_enum_values`. Contains
 tests.
 
-[`tests/test_codex_protocol.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_protocol.py) · code · 6725 bytes
+[`tests/test_codex_protocol.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_protocol.py) · code · 7024 bytes
 
 ### test_codex_remote_control.py
 
@@ -240,7 +291,7 @@ Contains tests.
 
 """The codex runtime against its fake app-server (storm ch 03; C1). Contains tests.
 
-[`tests/test_codex_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_runtime.py) · code · 78784 bytes
+[`tests/test_codex_runtime.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_codex_runtime.py) · code · 79110 bytes
 
 ### test_command_executor.py
 
@@ -511,7 +562,7 @@ The fake CLIs speak their protocols (storm ch 06 §1). Runnable as a script via 
 == '__main__'`. Classes: `_FakeTest`, `EngineTests`, `ClaudeFakeTests`, `CodexFakeTests`,
 `AgyFakeTests`. Contains tests.
 
-[`tests/test_fake_clis.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_fake_clis.py) · code · 10534 bytes
+[`tests/test_fake_clis.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_fake_clis.py) · code · 10691 bytes
 
 ### test_files_paths.py
 
@@ -827,7 +878,7 @@ list say (storm ch 01 §7, ch 06 §2). Runnable as a script via `if __name__ == 
 Classes: `Binding`, `ConformanceTests`, `FamilyProblemsTests`, `SessionConformanceTests`,
 `TranscriptConformanceTests`, `TranscriptProblemsTests`, `EventOrderTests`.
 
-[`tests/test_runtime_conformance.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_conformance.py) · code · 45124 bytes
+[`tests/test_runtime_conformance.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_runtime_conformance.py) · code · 47134 bytes
 
 ### test_runtime_contract.py
 
@@ -1025,6 +1076,14 @@ Exercise the preview's Projects navigation and atlas reload handoff. Runnable as
 via `if __name__ == '__main__'`. Classes: `PreviewNavigationTests`. Contains tests.
 
 [`tests/test_space_preview_navigation.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_preview_navigation.py) · code · 13008 bytes
+
+### test_space_project_download.py
+
+/api/xo-projects/{id}/download: one file's bytes as an attachment. Runnable as a script via
+`if __name__ == '__main__'`. Classes: `ProjectDownloadTests`. Built with FastAPI. Contains
+tests.
+
+[`tests/test_space_project_download.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_space_project_download.py) · code · 5684 bytes
 
 ### test_space_project_image.py
 
@@ -1272,6 +1331,13 @@ as a script via `if __name__ == '__main__'`. Classes: `Case`, `GapTests`,
 
 [`tests/test_storm_engine_inputs.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine_inputs.py) · code · 24019 bytes
 
+### test_storm_engine_native_recovery.py
+
+An allocated native id may be replaced only before any input could reach it. Classes:
+`NativeSession`, `MissingRuntime`, `RecoveryTests`. Contains tests.
+
+[`tests/test_storm_engine_native_recovery.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_engine_native_recovery.py) · code · 9503 bytes
+
 ### test_storm_engine_routes.py
 
 Storm's first routes (ch 17 §2.1, §2.7; sedc 09 #9): /api/chat/status, /api/chat/sessions*,
@@ -1344,7 +1410,7 @@ and checked by its runtime, never by its name. Runnable as a script via `if __na
 '__main__'`. Classes: `PresetSpecTests`, `PluggableTests`, `FingerprintTests`. Functions:
 `ctx`, `build`. Contains tests.
 
-[`tests/test_storm_presets.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_presets.py) · code · 14118 bytes
+[`tests/test_storm_presets.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_storm_presets.py) · code · 14719 bytes
 
 ### test_storm_redact.py
 
@@ -1608,4 +1674,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

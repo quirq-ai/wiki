@@ -31,4 +31,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`cli/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/tsconfig.json) · code · 264 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

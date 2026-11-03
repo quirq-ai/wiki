@@ -82,7 +82,7 @@ The project README (“Instants”). Instants turns folders of past research and
 into Instagram-style carousel posts, so you can browse, rediscover and showcase your work.
 Drop in new data in any format (notes, CSV, JSON, images, code) and it becomes a new post.
 
-[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 6250 bytes
+[`README.md`](https://github.com/quirq-ai/instants/blob/main/README.md) · code · 7573 bytes
 
 ### SECURITY.md
 
@@ -129,7 +129,7 @@ Provides a default export as the module's public entry.
 On server boot (Node runtime only): migrate the content store and resume the Spacehub
 autosync and source watcher if a space is configured. Notable exports: `register`.
 
-[`instrumentation.ts`](https://github.com/quirq-ai/instants/blob/main/instrumentation.ts) · code · 445 bytes
+[`instrumentation.ts`](https://github.com/quirq-ai/instants/blob/main/instrumentation.ts) · code · 606 bytes
 
 ### next.config.ts
 
@@ -168,7 +168,7 @@ Unknown post slugs and topics must answer 404. The root loading.tsx streams the 
 rendering starts, and rewrites misses to an unmatched path that Next serves with a real 404.
 Notable exports: `proxy`, `config`. Wired into a Next.js app (App Router or Next APIs).
 
-[`proxy.ts`](https://github.com/quirq-ai/instants/blob/main/proxy.ts) · code · 1376 bytes
+[`proxy.ts`](https://github.com/quirq-ai/instants/blob/main/proxy.ts) · code · 1507 bytes
 
 ### tsconfig.json
 
@@ -185,4 +185,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/instants/blob/main/vercel.json) · code · 177 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

@@ -29,4 +29,4 @@ const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN Notable exports
 
 [`src/components/posthog/provider.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/posthog/provider.tsx) · code · 756 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

@@ -17,10 +17,10 @@ JSON document `capabilities.json` whose top-level keys are `models`, `data`, `ch
 
 JSON document `manifest.json` whose top-level keys are `name`, `binary`, `install_url`,
 `home_dir`, `env_file`, `config_file`, `agents_dir`, `workspace_dir`, `provisioning_log`,
-`cwd`, `project_config_paths`, `cli_timeout_seconds`, and 6 more. Structured data consumed
-by the surrounding app or tooling.
+`cwd`, `project_config_paths`, `inherited_env`, and 7 more. Structured data consumed by the
+surrounding app or tooling.
 
-[`config/agents/antigravity/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/manifest.json) · code · 1570 bytes
+[`config/agents/antigravity/manifest.json`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/manifest.json) · code · 1558 bytes
 
 ### settings.json
 
@@ -33,8 +33,9 @@ JSON document `settings.json` whose top-level keys are `cli_path_env`, `timeout`
 
 config/agents/antigravity/setup.sh — install + configure the antigravity (agy) agent.
 Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_warn`, `log_error`,
-`write_env_file`, `check_agy_cli`, `check_login`, `seed_onboarding_state`.
+`write_env_file`, `check_agy_cli`, `check_login`, `seed_onboarding_state`,
+`install_xo_plugin`.
 
-[`config/agents/antigravity/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/setup.sh) · code · 10033 bytes
+[`config/agents/antigravity/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/setup.sh) · code · 11192 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

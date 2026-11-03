@@ -27,7 +27,7 @@ properties (design tokens).
 Self-hosted at build time, so the browser never fetches from Google. Notable exports:
 `RootLayout`, `metadata`. Wired into a Next.js app (App Router or Next APIs).
 
-[`app/layout.tsx`](https://github.com/quirq-ai/instants/blob/main/app/layout.tsx) · code · 2431 bytes
+[`app/layout.tsx`](https://github.com/quirq-ai/instants/blob/main/app/layout.tsx) · code · 2498 bytes
 
 ### loading.tsx
 
@@ -47,6 +47,6 @@ Next.js app (App Router or Next APIs).
 type Media = "all" | "video" Notable exports: `FeedPage`. Wired into a Next.js app (App
 Router or Next APIs).
 
-[`app/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/page.tsx) · code · 7846 bytes
+[`app/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/page.tsx) · code · 8047 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

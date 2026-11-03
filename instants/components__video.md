@@ -22,7 +22,7 @@ SOUNDS: VideoSound[] = ["full", "music", "off"]; export const SOUND_LABEL: Recor
 ["9:16", "1:1", "16:9"]; export const LENGTHS = [30, 45, 60] Notable exports: `ratio`,
 `elapsedLabel`, `startVideo`, `useVideo`, `VideoAspect`, `VideoSound`, `SOUNDS`
 
-[`components/video/use-video.ts`](https://github.com/quirq-ai/instants/blob/main/components/video/use-video.ts) · code · 5369 bytes
+[`components/video/use-video.ts`](https://github.com/quirq-ai/instants/blob/main/components/video/use-video.ts) · code · 5412 bytes
 
 ### video-grid.tsx
 
@@ -52,4 +52,4 @@ status: VideoStatus; title: string; maxVh?: number; autoPlay?: boolean; classNam
 
 [`components/video/video-player.tsx`](https://github.com/quirq-ai/instants/blob/main/components/video/video-player.tsx) · code · 1007 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

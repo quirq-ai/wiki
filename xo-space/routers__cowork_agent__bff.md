@@ -118,8 +118,8 @@ Classes: `WorkspaceWorkitem`, `SkippedProject`, `WorkspaceWorkitemsResponse`.
 GET /api/xo-projects — BFF list of user projects. Defines the `router` application object.
 HTTP routes: `GET /api/xo-projects`, `GET /api/xo-projects/{project_id}/tree`, `GET /api/xo-
 projects/{project_id}/file`, `GET /api/xo-projects/{project_id}/image`, `GET /api/xo-
-projects/{project_id}/file-history`.
+projects/{project_id}/download`, `GET /api/xo-projects/{project_id}/file-history`.
 
-[`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 21130 bytes
+[`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 23567 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

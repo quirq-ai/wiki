@@ -13,4 +13,4 @@ how-to knowledge. Read only via the skill-finder subagent.
 
 [`services/cowork_agent/project_template/memory/procedural/README.md`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/project_template/memory/procedural/README.md) · code · 1219 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

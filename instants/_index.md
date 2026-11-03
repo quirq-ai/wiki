@@ -8,8 +8,8 @@ Instants turns folders of past research and experiments into Instagram-style car
 - [Activity history](../_activity/repos/instants.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-10-31T01:46:21Z`
-- Snapshot SHA: `bbbcb8bc245c`
+- Last push: `2026-11-03T07:04:15Z`
+- Snapshot SHA: `655b08b7d528`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -49,7 +49,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `components/library` | 4 | [components__library.md](components__library.md) |
 | `components/post` | 8 | [components__post.md](components__post.md) |
 | `components/search` | 1 | [components__search.md](components__search.md) |
-| `components/shell` | 3 | [components__shell.md](components__shell.md) |
+| `components/shell` | 4 | [components__shell.md](components__shell.md) |
 | `components/slides` | 9 | [components__slides.md](components__slides.md) |
 | `components/sources` | 4 | [components__sources.md](components__sources.md) |
 | `components/topics` | 1 | [components__topics.md](components__topics.md) |
@@ -59,7 +59,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `docs/media` | 5 | [docs__media.md](docs__media.md) |
 | `hooks` | 1 | [hooks.md](hooks.md) |
 | `lib` | 1 | [lib.md](lib.md) |
-| `lib/research` | 4 | [lib__research.md](lib__research.md) |
+| `lib/research` | 5 | [lib__research.md](lib__research.md) |
 | `lib/server` | 4 | [lib__server.md](lib__server.md) |
 | `public` | 5 | [public.md](public.md) |
 | `public/work` | 6 | [public__work.md](public__work.md) |
@@ -67,4 +67,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `vendor` | 2 | [vendor.md](vendor.md) |
 
-_Generated 2026-11-02 13:57 UTC._
+_Generated 2026-11-03 13:06 UTC._

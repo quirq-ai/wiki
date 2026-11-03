@@ -13,4 +13,11 @@ workstream, and anyone can also have a personal channel named after their GitHub
 
 [`Chat/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/README.md) · code · 1501 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+### chat.json
+
+JSON document `chat.json` whose top-level keys are `type`, `title`, `messages`. Structured
+data consumed by the surrounding app or tooling.
+
+[`Chat/chat.json`](https://github.com/quirq-ai/quirq/blob/main/Chat/chat.json) · code · 171 bytes
+
+_Generated 2026-11-03 13:06 UTC from `main`._

@@ -8,8 +8,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-10-30T16:41:02Z`
-- Snapshot SHA: `0b8b860a9bfc`
+- Last push: `2026-11-03T08:01:17Z`
+- Snapshot SHA: `e1ecfc57bee3`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -76,7 +76,9 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/connections` | 6 | [services__connections.md](services__connections.md) |
 | `services/cowork_agent` | 17 | [services__cowork_agent.md](services__cowork_agent.md) |
 | `services/cowork_agent/adapters` | 7 | [services__cowork_agent__adapters.md](services__cowork_agent__adapters.md) |
-| `services/cowork_agent/adapters/antigravity` | 15 | [services__cowork_agent__adapters__antigravity.md](services__cowork_agent__adapters__antigravity.md) |
+| `services/cowork_agent/adapters/antigravity` | 16 | [services__cowork_agent__adapters__antigravity.md](services__cowork_agent__adapters__antigravity.md) |
+| `services/cowork_agent/adapters/antigravity/runtime` | 14 | [services__cowork_agent__adapters__antigravity__runtime.md](services__cowork_agent__adapters__antigravity__runtime.md) |
+| `services/cowork_agent/adapters/antigravity/runtime/plugin` | 2 | [services__cowork_agent__adapters__antigravity__runtime__plugin.md](services__cowork_agent__adapters__antigravity__runtime__plugin.md) |
 | `services/cowork_agent/adapters/claude_code` | 16 | [services__cowork_agent__adapters__claude_code.md](services__cowork_agent__adapters__claude_code.md) |
 | `services/cowork_agent/adapters/claude_code/runtime` | 10 | [services__cowork_agent__adapters__claude_code__runtime.md](services__cowork_agent__adapters__claude_code__runtime.md) |
 | `services/cowork_agent/adapters/codex` | 17 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
@@ -131,8 +133,8 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 197 | [tests.md](tests.md) |
-| `tests/fakes` | 3 | [tests__fakes.md](tests__fakes.md) |
+| `tests` | 205 | [tests.md](tests.md) |
+| `tests/fakes` | 4 | [tests__fakes.md](tests__fakes.md) |
 | `tests/fakes/agy` | 1 | [tests__fakes__agy.md](tests__fakes__agy.md) |
 | `tests/fakes/claude` | 1 | [tests__fakes__claude.md](tests__fakes__claude.md) |
 | `tests/fakes/codex` | 1 | [tests__fakes__codex.md](tests__fakes__codex.md) |
@@ -185,4 +187,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-11-02 13:57 UTC._
+_Generated 2026-11-03 13:06 UTC._

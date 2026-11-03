@@ -175,4 +175,4 @@ PATH by default, so qq-setup runs on Windows' Node. npx then starts in
 
 [`cli/windows.mjs`](https://github.com/quirq-ai/setup/blob/main/cli/windows.mjs) · code · 2604 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

@@ -13,7 +13,7 @@ beside a conversation file, committed to the project's default branch. This is t
 open-chat's hub backend writes, so either can read the other's chats. The reducer
 (append_chat in index.ts) runs it as one transaction, so two writers cannot race.
 
-[`module/src/chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/chat.ts) · code · 7678 bytes
+[`module/src/chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/chat.ts) · code · 10519 bytes
 
 ### code.ts
 
@@ -61,7 +61,7 @@ pages, so they never disagree. They are drawn with the app's classes (style.ts);
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 80183 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 85073 bytes
 
 ### markdown.ts
 
@@ -140,6 +140,6 @@ service serves at /, /<space> and /<space>/<project>. It speaks open-chat's snap
 so the app renders conversations, collections, feeds, documents and previews exactly as
 open-chat does.
 
-[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 38559 bytes
+[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 39273 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

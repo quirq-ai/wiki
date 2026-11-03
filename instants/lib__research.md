@@ -13,14 +13,23 @@ Small formatting helpers shared by server and client components. Notable exports
 
 [`lib/research/format.ts`](https://github.com/quirq-ai/instants/blob/main/lib/research/format.ts) · code · 2178 bytes
 
+### hub.ts
+
+Read-only content store served straight from Spacehub over HTTPS, for hosts with no
+persistent disk (Vercel). The space project (INSTANTS_SPACE) is the database: posts, media
+and videos are read from the hub's raw file URLs, and nothing is written. On by default when
+VERCEL is set; INSTANTS_STORE=hub or INSTANTS_STORE=local forces either mode.
+
+[`lib/research/hub.ts`](https://github.com/quirq-ai/instants/blob/main/lib/research/hub.ts) · code · 4938 bytes
+
 ### library.ts
 
 Server-only data layer: research records live as JSON files in the content store's posts/
 (lib/research/store.ts), per-user activity in .research-cache/activity.json. Notable
 exports: `getRecord`, `relatedTo`, `getActivity`, `updateActivity`, `getSourceStatus`,
-`writeSourceStatus`, `getVideoStatus`, `getVideoStatuses`, and 2 more.
+`writeSourceStatus`, `getVideoStatus`, `getVideoStatuses`, and 3 more.
 
-[`lib/research/library.ts`](https://github.com/quirq-ai/instants/blob/main/lib/research/library.ts) · code · 7708 bytes
+[`lib/research/library.ts`](https://github.com/quirq-ai/instants/blob/main/lib/research/library.ts) · code · 8201 bytes
 
 ### store.ts
 
@@ -38,4 +47,4 @@ The research post contract shared by the generator (research/*.mjs), the server 
 
 [`lib/research/types.ts`](https://github.com/quirq-ai/instants/blob/main/lib/research/types.ts) · code · 6137 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

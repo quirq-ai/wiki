@@ -12,6 +12,6 @@ Serve generated media and videos from the content store at the URLs records alre
 /research/media/<slug>/<file> and /research/videos/<slug>.mp4|.jpg. Notable exports: `GET`,
 `HEAD`, `runtime`, `dynamic`.
 
-[`app/research/[...path]/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/research/[...path]/route.ts) · code · 3824 bytes
+[`app/research/[...path]/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/research/[...path]/route.ts) · code · 4216 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

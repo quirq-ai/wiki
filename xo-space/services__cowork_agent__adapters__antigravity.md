@@ -43,9 +43,10 @@ Antigravity (agy) channels-status view. Functions: `build_status_view`,
 
 ### models.py
 
-antigravity model listing (/api/models).
+antigravity model listing (/api/models). Functions: `model_rows`, `list_models`. Built with
+FastAPI.
 
-[`services/cowork_agent/adapters/antigravity/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/models.py) · code · 1172 bytes
+[`services/cowork_agent/adapters/antigravity/models.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/models.py) · code · 1819 bytes
 
 ### models_status.py
 
@@ -53,6 +54,13 @@ Antigravity (agy) models-status view — the "not logged in" surface. Functions:
 `build_status_view`, `get_models_status`.
 
 [`services/cowork_agent/adapters/antigravity/models_status.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/models_status.py) · code · 1540 bytes
+
+### oneshot_prompt.py
+
+Capability `oneshot_prompt`: one tool-free agy completion (storm ch 01 §4.7, ch 04 §10, ch
+10 §8). Classes: `_NoTools`, `AgyOneshot`. Functions: `oneshot`.
+
+[`services/cowork_agent/adapters/antigravity/oneshot_prompt.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/oneshot_prompt.py) · code · 5683 bytes
 
 ### paths.py
 
@@ -114,4 +122,4 @@ emits normalised activity events. Classes: `Source`.
 
 [`services/cowork_agent/adapters/antigravity/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/visualizer_source.py) · code · 7338 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

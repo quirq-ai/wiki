@@ -6,6 +6,15 @@ Source: [app/test](https://github.com/quirq-ai/space-hub/tree/main/app/test) in 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### activity.test.ts
+
+const at = (y: number, m: number, d: number, h = 12) => new Date(y, m - 1, d,
+h).toISOString(); const item = (kind: string, agent: string) => ({ at: at(2026, 11, 2),
+agent, kind, path: "quirq/quirq", subject: "refs/heads/main", text: "", count: 1, oid: "" })
+Automated test file.
+
+[`app/test/activity.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/activity.test.ts) · code · 2919 bytes
+
 ### agenthub.test.ts
 
 test("tasks from a list or {tasks}, newest activity first", () => { const tasks = toTasks({
@@ -47,4 +56,4 @@ test file.
 
 [`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 4884 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

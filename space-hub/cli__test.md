@@ -27,10 +27,10 @@ file.
 
 ### avatar.test.ts
 
-Avatars: GitHub pictures fetched by the hub, initials for everyone else. Automated test
-file.
+Avatars: GitHub pictures fetched by the hub, initials (an org, a building) for everyone
+else. Automated test file.
 
-[`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 2434 bytes
+[`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 3011 bytes
 
 ### compat.test.ts
 
@@ -196,4 +196,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

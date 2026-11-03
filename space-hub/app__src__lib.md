@@ -6,6 +6,15 @@ Source: [app/src/lib](https://github.com/quirq-ai/space-hub/tree/main/app/src/li
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### activity.ts
+
+/** What someone connected is doing, by presence mode. */ export const MODES: Record = {
+watch: "watching", sync: "syncing", autosync: "editing", agent: "running", app: "in the app"
+} Notable exports: `dayOf`, `keepActivity`, `liveRows`, `MODES`, `FILTERS`,
+`ActivityFilter`, `LiveRow`.
+
+[`app/src/lib/activity.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/activity.ts) · code · 2972 bytes
+
 ### agenthub.ts
 
 Workers launched from a chat, as the app shows them: tasks on the org's Agents Hub, read
@@ -32,6 +41,16 @@ ChatTurn = DemoMessage & { author?: string; time?: string } Notable exports: `ch
 `parseTurn`, `parseChatLog`, `chatLogLine`, `ChatTurn`, `MAX_TURNS_PER_REQUEST`.
 
 [`app/src/lib/chat-log.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/chat-log.ts) · code · 2999 bytes
+
+### chat-place.ts
+
+/** * Where a place's one chat lives (module/src/index.ts chatOf agrees): an * org's at the
+root of /chat, an agent's in its home project, a * project's in Chat/chat.json, or at the
+root of a project named chat. * Builders' own spaces have none. */ export function
+chatPlace(place: Place, kind = ""): { place: Place; path: string } | null { if
+(place.project) Notable exports: `chatPlace`.
+
+[`app/src/lib/chat-place.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/chat-place.ts) · code · 716 bytes
 
 ### conversation.ts
 
@@ -109,4 +128,4 @@ exports: `parseUrlFile`.
 
 [`app/src/lib/url-file.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/url-file.ts) · code · 979 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

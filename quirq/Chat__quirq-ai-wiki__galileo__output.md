@@ -12,4 +12,4 @@ Markdown page “galileo”. Inspect local apps and files under one bar.
 
 [`Chat/quirq-ai-wiki/galileo/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/galileo/output/one-pager.md) · code · 1656 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

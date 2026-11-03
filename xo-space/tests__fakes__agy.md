@@ -9,9 +9,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### __init__.py
 
 agy's stream-json (``--input-format stream-json --output-format stream-json``), as the fake
-speaks it. Functions: `version`, `user_message`, `init`, `step`, `result`, `text_turn`,
-`stops_on_sigint`.
+speaks it: agy 1.4.10's shapes, read live (`/home/coder/scratch/c2v2/live/FINDINGS.md`).
+Functions: `version`, `plugin_list`, `models`, `usage`, `probes`, `user_message`, `init`,
+`step`, and 11 more.
 
-[`tests/fakes/agy/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/agy/__init__.py) · code · 2065 bytes
+[`tests/fakes/agy/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/agy/__init__.py) · code · 9441 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

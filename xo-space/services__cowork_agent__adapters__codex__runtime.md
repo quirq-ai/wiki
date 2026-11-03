@@ -41,16 +41,16 @@ ch 16 §1). Functions: `codex_home`, `read_config`, `provider_key_vars`, `mcp_va
 
 The app-server parameters for one session (storm ch 03 §3.2, §4). Functions:
 `approval_policy`, `is_comms`, `mcp_servers`, `instructions`, `web_search`, `thread_params`,
-`turn_params`, `context`, and 2 more.
+`resume_params`, `turn_params`, and 3 more.
 
-[`services/cowork_agent/adapters/codex/runtime/params.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/params.py) · code · 9714 bytes
+[`services/cowork_agent/adapters/codex/runtime/params.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/params.py) · code · 10270 bytes
 
 ### rpc.py
 
 codex's app-server JSON-RPC, as one session's process speaks it (storm ch 03 §1). Classes:
 `Line`, `RpcError`, `Rpc`. Functions: `classify`, `initialize_params`, `version_of`.
 
-[`services/cowork_agent/adapters/codex/runtime/rpc.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/rpc.py) · code · 5919 bytes
+[`services/cowork_agent/adapters/codex/runtime/rpc.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/rpc.py) · code · 5983 bytes
 
 ### session.py
 
@@ -59,14 +59,14 @@ and its sub-agents' threads (storm ch 03 §1–§5; one process per session, own
 so the engine sees codex exactly as it sees claude). Classes: `CodexSession`. Functions:
 `_now`, `_native`, `_elicited_tool`, `_refusal`, `_cancel_and_wait`.
 
-[`services/cowork_agent/adapters/codex/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/session.py) · code · 52886 bytes
+[`services/cowork_agent/adapters/codex/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/session.py) · code · 56694 bytes
 
 ### support.py
 
 What the codex runtime supports: `check(spec)` (storm ch 01 §6) and the feature list (ch 01
 §4.8, ch 03 §2–§10). Functions: `check`, `features`.
 
-[`services/cowork_agent/adapters/codex/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/support.py) · code · 13852 bytes
+[`services/cowork_agent/adapters/codex/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/support.py) · code · 13638 bytes
 
 ### tools.py
 
@@ -89,6 +89,6 @@ them; nothing is copied. Functions: `sessions_root`, `rollout`, `meta`, `list_se
 codex's app-server notifications as contract events (storm ch 03 §5, §8). Classes: `Out`,
 `_Block`, `_OpenTool`, `_Run`, `Wire`. Functions: `token_usage`, `thinking_steps`.
 
-[`services/cowork_agent/adapters/codex/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/wire.py) · code · 46982 bytes
+[`services/cowork_agent/adapters/codex/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/wire.py) · code · 49125 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

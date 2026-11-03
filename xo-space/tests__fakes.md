@@ -20,7 +20,7 @@ The fake-CLI engine: plays a scripted scenario over newline-delimited JSON. Runn
 script via `if __name__ == '__main__'`. Classes: `Fake`. Functions: `matches`, `dig`,
 `main`.
 
-[`tests/fakes/engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/engine.py) · code · 11404 bytes
+[`tests/fakes/engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/engine.py) · code · 17667 bytes
 
 ### host.py
 
@@ -29,4 +29,11 @@ A `Host` for runtime tests: the contract's callbacks with scripted answers. Clas
 
 [`tests/fakes/host.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/host.py) · code · 2682 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+### mcp_stdio.py
+
+A model-free MCP server used by installed-CLI integration tests. Runnable as a script via
+`if __name__ == '__main__'`. Functions: `main`.
+
+[`tests/fakes/mcp_stdio.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/mcp_stdio.py) · code · 1034 bytes
+
+_Generated 2026-11-03 13:06 UTC from `main`._

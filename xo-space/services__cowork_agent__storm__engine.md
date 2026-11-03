@@ -75,18 +75,18 @@ Classes: `RawTurnLog`, `TeedProcess`. Functions: `_by_turn`, `_redacted`, `_writ
 
 What the engine writes, as SQL run inside one store transaction each (ch 08 §3). Classes:
 `StaleEpoch`, `Ids`, `TurnIdTaken`, `TurnEnd`. Functions: `fence`, `set_status`,
-`ensure_turn`, `take_wakes`, `finish_turn`, `step`, `event_data`, `usage_totals`.
+`native_never_submitted`, `ensure_turn`, `take_wakes`, `finish_turn`, `step`, `event_data`,
+and 1 more.
 
-[`services/cowork_agent/storm/engine/records.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/records.py) · code · 11017 bytes
+[`services/cowork_agent/storm/engine/records.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/records.py) · code · 11959 bytes
 
 ### session.py
 
-One attached session: a runtime session (its CLI process), the pump that records its events,
-the running turn, the calls held for the person and the live sub-agents (ch 07 §2, §4, §6).
-Classes: `Parked`, `Meta`, `Turn`, `Held`, `Input`, `_Facts`, `LiveSession`, `EngineHost`,
-and 1 more. Functions: `emulated_auto`, `native`, `report_rows`.
+"""One attached session: a runtime session (its CLI process), the pump that records its
+events, the running turn, the calls held for the person and the live sub-agents (ch 07 §2,
+§4, §6).
 
-[`services/cowork_agent/storm/engine/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/session.py) · code · 64388 bytes
+[`services/cowork_agent/storm/engine/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/session.py) · code · 65950 bytes
 
 ### specs.py
 
@@ -96,4 +96,4 @@ A `SessionSpec as the store keeps it (sessions.spec`), and back. Functions:
 
 [`services/cowork_agent/storm/engine/specs.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/specs.py) · code · 2857 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

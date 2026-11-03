@@ -12,4 +12,4 @@ HTML document `index.html` titled “skillUsage · XO Research”. skillUsage ·
 
 [`claude/output/app/claude-json-explorer/site/skillUsage/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/skillUsage/index.html) · code · 15867 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

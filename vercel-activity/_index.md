@@ -23,4 +23,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/components` | 4 | [src__components.md](src__components.md) |
 | `src/lib` | 1 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-11-02 13:57 UTC._
+_Generated 2026-11-03 13:06 UTC._

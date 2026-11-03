@@ -20,4 +20,4 @@ Url file `example.url`. https://example.com/.
 
 [`Library/example.url`](https://github.com/quirq-ai/quirq/blob/main/Library/example.url) · code · 21 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

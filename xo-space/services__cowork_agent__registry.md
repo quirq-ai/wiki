@@ -30,7 +30,7 @@ Helpers for the active agent's `.env` file. Functions: `parse_env_file`,
 Agent manifest registry. Classes: `AgentManifest`. Functions: `get_active_agent`,
 `get_agent`, `all_agents`.
 
-[`services/cowork_agent/registry/agent_registry.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/registry/agent_registry.py) · code · 10212 bytes
+[`services/cowork_agent/registry/agent_registry.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/registry/agent_registry.py) · code · 10320 bytes
 
 ### agent_settings.py
 
@@ -46,4 +46,4 @@ Environment, paths, and constants for the cowork_agent subsystem. Functions:
 
 [`services/cowork_agent/registry/settings.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/registry/settings.py) · code · 3267 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

@@ -16,4 +16,4 @@ builders into infra-config pipelines.toml and compute them too.
 
 [`tests/fixtures/raw/gate/main/settings/github.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gate/main/settings/github.toml) · code · 14420 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

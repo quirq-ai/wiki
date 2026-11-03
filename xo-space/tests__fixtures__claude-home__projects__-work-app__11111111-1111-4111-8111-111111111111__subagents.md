@@ -49,4 +49,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`tests/fixtures/claude-home/projects/-work-app/11111111-1111-4111-8111-111111111111/subagents/agent-f5e6.meta.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/claude-home/projects/-work-app/11111111-1111-4111-8111-111111111111/subagents/agent-f5e6.meta.json) · code · 205 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

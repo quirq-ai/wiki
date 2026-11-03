@@ -22,8 +22,9 @@ export default function Loading() { return ( Notable exports: `Loading`.
 ### page.tsx
 
 export const metadata = { title: "Sources" }; export const dynamic = "force-dynamic" Notable
-exports: `SourcesPage`, `metadata`, `dynamic`.
+exports: `SourcesPage`, `metadata`, `dynamic`. Wired into a Next.js app (App Router or Next
+APIs).
 
-[`app/sources/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/sources/page.tsx) · code · 901 bytes
+[`app/sources/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/sources/page.tsx) · code · 1071 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

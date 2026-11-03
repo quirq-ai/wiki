@@ -23,7 +23,7 @@ scripted requests). Host is client-controlled, so a production server (next star
 Docker image) never trusts it: there every action needs the unlock cookie matching
 INSTANTS_ADMIN_TOKEN.
 
-[`lib/server/local-only.ts`](https://github.com/quirq-ai/instants/blob/main/lib/server/local-only.ts) · code · 2825 bytes
+[`lib/server/local-only.ts`](https://github.com/quirq-ai/instants/blob/main/lib/server/local-only.ts) · code · 3033 bytes
 
 ### space.ts
 
@@ -43,4 +43,4 @@ reloads; a job older than STALE_MS is dead. Notable exports: `videoJob`.
 
 [`lib/server/video-job.ts`](https://github.com/quirq-ai/instants/blob/main/lib/server/video-job.ts) · code · 3906 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

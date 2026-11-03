@@ -50,7 +50,7 @@ The hub's app: open-chat's interface over the whole hub. The proxy sends the hub
 here; the module still renders the code views (tree, blob, raw, commits, commit, refs,
 activity) and the guide.
 
-[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 10266 bytes
+[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 12846 bytes
 
 ### autosync.ts
 
@@ -67,10 +67,10 @@ a step every few seconds and on every push the hub reports.
 Avatars for the app: GET /-/avatar/<name> answers with an image for any builder, org or
 agent. A name backed by a GitHub account (a builder who signed up with GitHub, an org linked
 to one) gets its GitHub picture, fetched here so visitors' browsers never contact GitHub;
-everyone else gets initials on a color derived from the name. Answers are cached in memory.
-Notable exports: `initialsSvg`, `handleAvatar`, `AvatarDeps`.
+everyone else gets initials (an org, a building) on a color derived from the name. Answers
+are cached in memory.
 
-[`cli/src/avatar.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/avatar.ts) · code · 4035 bytes
+[`cli/src/avatar.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/avatar.ts) · code · 4949 bytes
 
 ### cli.ts
 
@@ -80,7 +80,7 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 69014 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 69418 bytes
 
 ### compat.ts
 
@@ -344,4 +344,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

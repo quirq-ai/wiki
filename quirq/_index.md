@@ -8,8 +8,8 @@ A small, filesystem-first workspace for quirqy, viewed with [open-chat](https://
 - [Activity history](../_activity/repos/quirq.md)
 - Default branch: `main`
 - Primary language (GitHub): HTML
-- Last push: `2026-11-02T08:15:32Z`
-- Snapshot SHA: `006cbe444c42`
+- Last push: `2026-11-03T11:19:05Z`
+- Snapshot SHA: `aa4c5f3b328d`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -20,7 +20,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.github/scripts` | 3 | [.github__scripts.md](.github__scripts.md) |
 | `.github/workflows` | 1 | [.github__workflows.md](.github__workflows.md) |
 | `Activity` | 2 | [Activity.md](Activity.md) |
-| `Chat` | 1 | [Chat.md](Chat.md) |
+| `Chat` | 2 | [Chat.md](Chat.md) |
 | `Chat/euler` | 3 | [Chat__euler.md](Chat__euler.md) |
 | `Chat/euler/output` | 1 | [Chat__euler__output.md](Chat__euler__output.md) |
 | `Chat/gates` | 3 | [Chat__gates.md](Chat__gates.md) |
@@ -144,4 +144,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `Library` | 2 | [Library.md](Library.md) |
 | `Vision` | 2 | [Vision.md](Vision.md) |
 
-_Generated 2026-11-02 13:57 UTC._
+_Generated 2026-11-03 13:06 UTC._

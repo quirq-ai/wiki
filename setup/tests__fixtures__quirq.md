@@ -25,4 +25,4 @@ names a reviewed commit. Notable exports: `makeRemotes`, `landOnMain`.
 
 [`tests/fixtures/quirq/remotes.mjs`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/remotes.mjs) · code · 1995 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

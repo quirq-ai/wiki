@@ -32,7 +32,7 @@ function currentPreference(): ThemePreference { return
 themePreference(document.documentElement.dataset.themePreference); } Notable exports:
 `ThemePicker`.
 
-[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 3640 bytes
+[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 4111 bytes
 
 ### worker-card.tsx
 
@@ -41,4 +41,4 @@ status === "failed" ? "fail" : "stop") Notable exports: `WorkerCard`.
 
 [`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 7078 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._

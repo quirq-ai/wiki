@@ -23,7 +23,7 @@ variables. Keys: `HOST`, `PORT`, `STAGE`, `UVICORN_RELOAD`, `QUIRQ_SKIP_BOOT_INS
 `QUIRQ_WATCHER_SOURCE_MODE`, `XO_RC_DIR`, `CLAUDE_CLI_PATH`, and 9 more. Copy to `.env`
 locally; never commit real credentials.
 
-[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 17857 bytes
+[`.env.example`](https://github.com/quirq-ai/xo-space/blob/main/.env.example) · code · 17860 bytes
 
 ### .gitattributes
 
@@ -47,7 +47,7 @@ The agent/workspace instructions (“XO Cowork API - Codex Project Instructions�
 backend that brokers chat and auth flows. - Uses local coding CLIs (claude or codex) for
 assistant responses. - Keep API behavior backward compatible by default.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4146 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4149 bytes
 
 ### CLAUDE.md
 
@@ -55,7 +55,7 @@ The Claude Code instructions (“XO Cowork API - Project Memory”). - FastAPI b
 brokers chat and auth flows. - Uses local claude CLI for coding/assistant responses. -
 Primary API behavior should remain backward compatible.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4225 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4228 bytes
 
 ### CONTRIBUTING.md
 
@@ -64,7 +64,7 @@ open-source local control plane for AI coding agents — Claude Code, Codex, Ope
 Antigravity, and Cursor for telemetry — plus the Space UI that shows what those agents did
 to your projects. This guide is the short path from "I found something" to "it's merged".
 
-[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17721 bytes
+[`CONTRIBUTING.md`](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) · code · 17724 bytes
 
 ### DEVELOPING.md
 
@@ -72,7 +72,7 @@ The developer guide (“Developing xo-space”). A practical guide to working in
 how it's wired, where things live, how to run and validate it, and how to add a new agent
 backend without touching core code.
 
-[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 67680 bytes
+[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 67686 bytes
 
 ### Dockerfile
 
@@ -179,4 +179,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-11-02 13:57 UTC from `main`._
+_Generated 2026-11-03 13:06 UTC from `main`._
