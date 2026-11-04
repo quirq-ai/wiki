@@ -91,4 +91,4 @@ codex's app-server notifications as contract events (storm ch 03 §5, §8). Clas
 
 [`services/cowork_agent/adapters/codex/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/runtime/wire.py) · code · 49125 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

@@ -16,4 +16,4 @@ Notable exports: `AppWindow`.
 
 [`src/components/AppWindow/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/AppWindow/index.tsx) · code · 20392 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

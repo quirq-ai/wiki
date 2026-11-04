@@ -16,4 +16,4 @@ builders into infra-config pipelines.toml and compute them too.
 
 [`settings/github.toml`](https://github.com/quirq-ai/gate/blob/main/settings/github.toml) · code · 15261 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

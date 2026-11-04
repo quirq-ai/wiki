@@ -26,4 +26,4 @@ sha256:c5669804721bea225ec7560c9c8ace326e219e4b30e284863086d3f6b995f59d.
 
 [`tests/golden/generated/github/xo-space/qq-xo-space-presubmit.yml`](https://github.com/quirq-ai/infra-config/blob/main/tests/golden/generated/github/xo-space/qq-xo-space-presubmit.yml) · code · 2438 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

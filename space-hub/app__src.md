@@ -53,4 +53,4 @@ The hub's app: a desktop-style interface for every space and project on the hub.
 
 [`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 5176 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

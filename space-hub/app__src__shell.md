@@ -35,4 +35,4 @@ string; href: string; name?: string } Notable exports: `SearchPalette`.
 
 [`app/src/shell/shell.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/shell.tsx) · code · 17151 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

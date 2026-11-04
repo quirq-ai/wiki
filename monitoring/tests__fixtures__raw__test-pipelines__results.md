@@ -14,4 +14,4 @@ surrounding app or tooling.
 
 [`tests/fixtures/raw/test-pipelines/results/scorecard.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/test-pipelines/results/scorecard.json) · code · 22686 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

@@ -21,4 +21,4 @@ screensaver Notable exports: `INACTIVITY_TIMEOUTS`, `PROSE_CORE`, `getProseClass
 
 [`src/constants/index.ts`](https://github.com/quirq-ai/website/blob/main/src/constants/index.ts) · code · 910 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

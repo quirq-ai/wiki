@@ -29,4 +29,4 @@ exports: `WindowMenuItem`, `AppWindow`, `Context`, `Provider`, `useWindow`.
 
 [`src/context/Window.tsx`](https://github.com/quirq-ai/website/blob/main/src/context/Window.tsx) · code · 4631 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

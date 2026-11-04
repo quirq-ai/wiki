@@ -15,4 +15,4 @@ follows. robots: { index: false }, } Notable exports: `JourneyLoader`, `metadata
 
 [`app/journey/load/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/journey/load/page.tsx) · code · 1069 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

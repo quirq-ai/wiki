@@ -31,4 +31,4 @@ describe the scenario: it('returns null when user not found').
 
 [`templates/default/.claude/rules/testing.md`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/.claude/rules/testing.md) · code · 566 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

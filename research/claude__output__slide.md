@@ -12,4 +12,4 @@ The project README (“slide”). A slide deck for presenting the verified findi
 
 [`claude/output/slide/README.md`](https://github.com/quirq-ai/research/blob/main/claude/output/slide/README.md) · code · 351 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

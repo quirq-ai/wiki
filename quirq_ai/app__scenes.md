@@ -24,4 +24,4 @@ Notable exports: `STORY`.
 
 [`app/scenes/story.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/scenes/story.ts) · code · 4774 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:21 UTC from `main`._

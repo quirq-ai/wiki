@@ -24,4 +24,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests` | 10 | [tests.md](tests.md) |
 | `tools` | 3 | [tools.md](tools.md) |
 
-_Generated 2026-11-03 13:06 UTC._
+_Generated 2026-11-04 13:21 UTC._

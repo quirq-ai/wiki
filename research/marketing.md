@@ -32,4 +32,4 @@ npm package manifest for `marketing`. Scripts: `build`, `dev`.
 
 [`marketing/package.json`](https://github.com/quirq-ai/research/blob/main/marketing/package.json) · code · 177 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._

@@ -21,4 +21,4 @@ unit = 100 km. Wedge-cut globe, layers at PREM radii. Notable exports: `EarthLab
 
 [`src/earth/earthlab.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/earth/earthlab.js) · code · 4596 bytes
 
-_Generated 2026-11-03 13:06 UTC from `quirq`._
+_Generated 2026-11-04 13:21 UTC from `quirq`._

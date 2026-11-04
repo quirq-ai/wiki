@@ -128,4 +128,4 @@ Classes: `Source`. Functions: `_uuid_from_rollout`.
 
 [`services/cowork_agent/adapters/codex/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/codex/visualizer_source.py) · code · 17436 bytes
 
-_Generated 2026-11-03 13:06 UTC from `main`._
+_Generated 2026-11-04 13:22 UTC from `main`._
