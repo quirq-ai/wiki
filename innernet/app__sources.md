@@ -16,4 +16,4 @@ hairlines, and notes in the margin. Rendered here, on the server, with the small
 
 [`app/sources/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/sources/page.tsx) · code · 15198 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

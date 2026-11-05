@@ -19,4 +19,4 @@ Codex CLI client with agent-skill support and normalized streaming events. Class
 
 [`config/models/codex/client.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/models/codex/client.py) · code · 8415 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

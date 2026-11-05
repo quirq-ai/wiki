@@ -10,6 +10,6 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 Markdown page “gates”. Claude's working agent for suraj's Claude Duet project.
 
-[`Chat/gates/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/gates/output/one-pager.md) · code · 497 bytes
+[`Chat/gates/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/gates/output/one-pager.md) · code · 492 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

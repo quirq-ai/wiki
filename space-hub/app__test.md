@@ -15,16 +15,6 @@ Automated test file.
 
 [`app/test/activity.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/activity.test.ts) · code · 2919 bytes
 
-### agenthub.test.ts
-
-test("tasks from a list or {tasks}, newest activity first", () => { const tasks = toTasks({
-tasks: [ { id: "a", title: "Old", status: "done", createdAt: "2026-10-29T10:00:00Z" }, { id:
-"b", title: "", status: "running", created_at: "2026-10-29T09:00:00Z", updatedAt:
-"2026-10-29T12:00:00Z", repo: "quirq-ai/space-hub" }, { title: "no id" }, ] });
-assert.deepEq Automated test file.
-
-[`app/test/agenthub.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/agenthub.test.ts) · code · 4612 bytes
-
 ### channels.test.ts
 
 const entry = (path: string, kind: "file" | "directory", extra: Record = {}) => ({ name:
@@ -56,4 +46,14 @@ test file.
 
 [`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 4884 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+### workers.test.ts
+
+test("tasks from a list or {tasks}, newest activity first", () => { const tasks = toTasks({
+tasks: [ { id: "a", title: "Old", status: "done", createdAt: "2026-10-29T10:00:00Z" }, { id:
+"b", title: "", status: "running", created_at: "2026-10-29T09:00:00Z", updatedAt:
+"2026-10-29T12:00:00Z", repo: "quirq-ai/space-hub" }, { title: "no id" }, ] });
+assert.deepEq Automated test file.
+
+[`app/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/workers.test.ts) · code · 11289 bytes
+
+_Generated 2026-11-05 13:35 UTC from `main`._

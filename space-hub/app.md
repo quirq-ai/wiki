@@ -17,7 +17,7 @@ Extensionless file `OPENMUSE-LICENSE`. MIT License.
 Build the app into dist/: app.js and app.css (esbuild), plus the files in public/. The web
 service serves dist/ at /-/app/ (SPACEHUB_APP_DIR).
 
-[`app/build.mjs`](https://github.com/quirq-ai/space-hub/blob/main/app/build.mjs) · code · 853 bytes
+[`app/build.mjs`](https://github.com/quirq-ai/space-hub/blob/main/app/build.mjs) · code · 740 bytes
 
 ### package-lock.json
 
@@ -43,4 +43,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`app/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/app/tsconfig.json) · code · 441 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

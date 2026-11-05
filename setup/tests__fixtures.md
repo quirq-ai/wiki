@@ -31,4 +31,4 @@ Txt file `xo-quickstart.txt`. The xo commands in quirq-ai/xo docs/quickstart.md 
 
 [`tests/fixtures/xo-quickstart.txt`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/xo-quickstart.txt) · code · 485 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

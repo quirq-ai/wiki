@@ -52,4 +52,4 @@ status: VideoStatus; title: string; maxVh?: number; autoPlay?: boolean; classNam
 
 [`components/video/video-player.tsx`](https://github.com/quirq-ai/instants/blob/main/components/video/video-player.tsx) · code · 1007 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

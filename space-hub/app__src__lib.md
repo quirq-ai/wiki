@@ -15,16 +15,6 @@ watch: "watching", sync: "syncing", autosync: "editing", agent: "running", app: 
 
 [`app/src/lib/activity.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/activity.ts) · code · 2972 bytes
 
-### agenthub.ts
-
-Workers launched from a chat, as the app shows them: tasks on the org's Agents Hub, read
-through the web service (/-/api/agenthub, cli/src/agenthub.ts), and their events folded into
-messages, steps, links and notes. A launch is a chat turn that ends with the task's marker.
-The Agents Hub's event kinds: user · message · thinking · tool / tool_done · command /
-command_done · link · env · status · turn · note · error.
-
-[`app/src/lib/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/agenthub.ts) · code · 11295 bytes
-
 ### channels.ts
 
 /** * Chat as channels, the way quirq lays it out: Chat// holds a * README (its "## Input"
@@ -128,4 +118,13 @@ exports: `parseUrlFile`.
 
 [`app/src/lib/url-file.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/url-file.ts) · code · 979 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+### workers.ts
+
+Workers launched from a chat, as the app shows them: tasks on the launcher's own runner
+(Worker Protocol worker/1), read through the web service (/-/api/workers,
+cli/src/workers.ts), and their events folded into messages, steps, links and notes. A launch
+is a chat turn that ends with the task's marker.
+
+[`app/src/lib/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/workers.ts) · code · 16973 bytes
+
+_Generated 2026-11-05 13:35 UTC from `main`._

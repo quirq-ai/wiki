@@ -15,4 +15,4 @@ qqsync.manifest library); never parse it any other way. Sections: `qq`, `deps.in
 
 [`infra/repo.toml`](https://github.com/quirq-ai/euler/blob/main/infra/repo.toml) · code · 1741 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

@@ -12,4 +12,4 @@ The project README (“marketing”). euler.
 
 [`Chat/quirq-ai-wiki/marketing/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/marketing/README.md) · code · 298 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

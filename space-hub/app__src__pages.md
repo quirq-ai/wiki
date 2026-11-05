@@ -29,7 +29,7 @@ type Message = { id: string; role: string; author: string; content: string; link
 string; path: string }[]; time?: string; saving?: boolean }; type Conversation = { title?:
 unknown; subtitle?: unknown; messages: Record[] } Notable exports: `ChatView`.
 
-[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 11152 bytes
+[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 11812 bytes
 
 ### code.tsx
 
@@ -44,9 +44,9 @@ export function PageHeader({ crumbs, title, subtitle, leading, actions, children
 crumbs?: { label: string; href: string }[]; title: ReactNode; subtitle?: ReactNode;
 leading?: ReactNode; actions?: ReactNode; children?: ReactNode; }) { return {crumbs &&
 crumbs.length > 0 && {crumbs.map((crumb, i) => {i > 0 && /}{crumb.label})}} Notable exports:
-`PageHeader`, `Tabs`, `PlaceBar`, `ActivityList`, `ActivityStream`, `ActivityPanel`
+`PageHeader`, `Tabs`, `ActivityList`, `ActivityStream`, `ActivityPanel`, `LiveNow`
 
-[`app/src/pages/common.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/common.tsx) · code · 14225 bytes
+[`app/src/pages/common.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/common.tsx) · code · 13573 bytes
 
 ### deps.tsx
 
@@ -70,16 +70,16 @@ const SECTION_ORDER = ["chat", "activity", "insights", "vision", "library", "ide
 ### goal.tsx
 
 const SPACE_FILE = "SPACE.md"; const SHOWN = 6 Notable exports: `Meter`, `GoalPanel`,
-`SpaceOutcomes`, `templateHref`.
+`GoalChip`, `templateHref`.
 
-[`app/src/pages/goal.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/goal.tsx) · code · 8280 bytes
+[`app/src/pages/goal.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/goal.tsx) · code · 5691 bytes
 
 ### home.tsx
 
 const kindOf = (detail = "") => detail.startsWith("org") ? "org" :
 detail.startsWith("agent") ? "agent" : "personal" Notable exports: `HomePage`.
 
-[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9428 bytes
+[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9029 bytes
 
 ### instance-recovery.tsx
 
@@ -93,25 +93,32 @@ numbe Notable exports: `InstanceRecoveryPage`, `SubhubConnectionCard`
 
 ### project.tsx
 
-export type ProjectRoute = Extract Notable exports: `projectTabs`, `ProjectPage`,
-`ProjectRoute`.
+type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
-[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 14120 bytes
+[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 8017 bytes
+
+### runners.tsx
+
+type MyWorker = { taskId: string; runnerId: string; title: string; status: string; space:
+string; project: string; updatedAt: string } Notable exports: `RunnersSection`.
+
+[`app/src/pages/runners.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/runners.tsx) · code · 7702 bytes
 
 ### settings.tsx
 
-export function SettingsPage({ onConnectionState }: { onConnectionState?: (state: "live" |
-"offline" | "loading") => void }) { return } title="Settings" subtitle="Manage this Spacehub
-instance." /> Notable exports: `SettingsPage`.
+export function SettingsPage({ onConnectionState, signedIn = false }: { onConnectionState?:
+(state: "live" | "offline" | "loading") => void; signedIn?: boolean }) { return }
+title="Settings" subtitle="Manage this Spacehub instance." /> {signedIn && } Notable
+exports: `SettingsPage`.
 
-[`app/src/pages/settings.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/settings.tsx) · code · 543 bytes
+[`app/src/pages/settings.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/settings.tsx) · code · 662 bytes
 
 ### space.tsx
 
-const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `spaceTabs`,
-`SpacePage`, `AgentList`.
+const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`,
+`AgentList`.
 
-[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 16518 bytes
+[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 17425 bytes
 
 ### subhub.tsx
 
@@ -123,4 +130,4 @@ In Notable exports: `SubhubPage`.
 
 [`app/src/pages/subhub.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/subhub.tsx) · code · 6253 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

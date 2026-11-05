@@ -12,4 +12,4 @@ Markdown page “machinespeed”. Projects for the MachineSpeed engagement (priv
 
 [`Chat/quirq-ai-wiki/machinespeed/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/machinespeed/output/one-pager.md) · code · 1434 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

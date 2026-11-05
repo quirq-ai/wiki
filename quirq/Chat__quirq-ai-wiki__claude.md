@@ -12,4 +12,4 @@ The project README (“_claude”). euler.
 
 [`Chat/quirq-ai-wiki/claude/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/claude/README.md) · code · 416 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/raw/gardener/tree-status/groups/groups.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/gardener/tree-status/groups/groups.json) · code · 55 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

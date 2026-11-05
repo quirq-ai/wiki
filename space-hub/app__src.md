@@ -16,19 +16,19 @@ space: string; project: string } Notable exports: `viewUrl`, `codeUrl`, `placeUr
 
 ### app.css
 
-The hub's app, in xo-swarm's iPhone look: Apple's system colors (apple-colors.css), a still
-space wallpaper (deep blue Leading class selectors include `quiet`, `small`, `strong`,
-`glass`, `glass-effect`, `glass-tint`, `glass-shine`, `glass-filter`, and 275 more. Defines
-or consumes CSS custom properties (design tokens).
+The hub's app: one neutral palette, one accent, an 4px spacing grid. Light and dark follow
+data-theme (theme.js). Leading class selectors include `quiet`, `small`, `strong`, `shell`,
+`progress`, `topbar`, `logo`, `search-trigger`, and 279 more. Defines or consumes CSS custom
+properties (design tokens).
 
-[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 94818 bytes
+[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 80956 bytes
 
 ### app.tsx
 
-const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1" Notable
-exports: `App`.
+const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1"; const RAIL =
+"spacehub:rail:v1"; const ACTIVITY = "spacehub:activity:v1" Notable exports: `App`.
 
-[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 14661 bytes
+[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 15663 bytes
 
 ### content.css
 
@@ -47,10 +47,12 @@ The hub's app: a desktop-style interface for every space and project on the hub.
 
 ### router.ts
 
-/** A space's sections, in the order its bar and the dock show them. */ export type SpaceTab
-= "chat" | "projects" | "outcomes" | "people" | "activity" Notable exports: `parseRoute`,
-`hashOf`, `navigate`, `useRoute`, `onLink`, `SpaceTab`, `Route`.
+/** * The app owns three paths (/, /, //); everything * inside a space or project lives in
+the hash, as "/?", so the * server and its proxy only ever see those three paths. */ export
+type Route = | { page: "home"; tab: "home" | "agents" | "builders" | "settings" } A
+connected sub-hub's storage, read live (/subhub/, #/backup?id= one backup). | { page:
+"subhub Notable exports: `parseRoute`, `hashOf`, `navigate`, `useRoute`, `onLink`, `Route`.
 
-[`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 5176 bytes
+[`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 4942 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

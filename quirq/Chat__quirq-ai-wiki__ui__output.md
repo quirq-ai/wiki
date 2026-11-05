@@ -12,4 +12,4 @@ Markdown page “ui”. The quirq UI shadcn registry of Astryx components.
 
 [`Chat/quirq-ai-wiki/ui/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/ui/output/one-pager.md) · code · 1867 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

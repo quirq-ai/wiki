@@ -19,4 +19,4 @@ Defines or consumes CSS custom properties (design tokens).
 
 [`vendor/shadcn-tailwind-4.13.0.css`](https://github.com/quirq-ai/instants/blob/main/vendor/shadcn-tailwind-4.13.0.css) · code · 16041 bytes
 
-_Generated 2026-11-04 13:21 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

@@ -6,12 +6,6 @@ Source: [cli/test](https://github.com/quirq-ai/space-hub/tree/main/cli/test) in 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
-### agenthub.test.ts
-
-Agenthub in front of a stand-in for an Agents Hub (npm test). Automated test file.
-
-[`cli/test/agenthub.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/agenthub.test.ts) · code · 12605 bytes
-
 ### agenttemplate.test.ts
 
 The starter definition of an agent (npm test). Automated test file.
@@ -155,6 +149,20 @@ The GitHub sync's rules, on a plain git repository (npm test). Automated test fi
 
 [`cli/test/refplan.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/refplan.test.ts) · code · 4243 bytes
 
+### runnerstore.test.ts
+
+The runner store: the same behaviour in memory and over the hub admin's SQL + reducer API
+(npm test). Automated test file.
+
+[`cli/test/runnerstore.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/runnerstore.test.ts) · code · 5734 bytes
+
+### seal.test.ts
+
+Runner tokens are sealed with SPACEHUB_SECRET_KEY before they reach the database (npm test).
+Automated test file.
+
+[`cli/test/seal.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/seal.test.ts) · code · 2066 bytes
+
 ### signin.test.ts
 
 GitHub sign-in in front of stand-ins for GitHub's API and SpacetimeDB's HTTP API (npm test).
@@ -182,6 +190,20 @@ file.
 
 [`cli/test/visitor.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/visitor.test.ts) · code · 2625 bytes
 
+### workerclient.test.ts
+
+The Worker Protocol client (worker/1) against a stand-in runner (npm test). Automated test
+file.
+
+[`cli/test/workerclient.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/workerclient.test.ts) · code · 6232 bytes
+
+### workers.test.ts
+
+Runners and workers through space-hub's routes, in front of stand-in runners that speak
+worker/1 and scope tokens like the Agents Hub (npm test). Automated test file.
+
+[`cli/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/workers.test.ts) · code · 31175 bytes
+
 ### xo.test.ts
 
 The xo API in front of a stand-in for SpacetimeDB's HTTP API (npm test). Automated test
@@ -196,4 +218,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

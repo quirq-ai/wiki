@@ -32,13 +32,16 @@ function currentPreference(): ThemePreference { return
 themePreference(document.documentElement.dataset.themePreference); } Notable exports:
 `ThemePicker`.
 
-[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 4111 bytes
+[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 3640 bytes
 
 ### worker-card.tsx
 
-const tone = (status: string) => (isRunning(status) ? "run" : status === "done" ? "done" :
-status === "failed" ? "fail" : "stop") Notable exports: `WorkerCard`.
+const tone = (status: string, state: WorkerState) => (state === "gone" || state ===
+"disconnected" ? "quiet" : isRunning(status) ? "run" : status === "done" ? "done" : status
+=== "failed" ? "fail" : "stop"); const STATE_ICON = { gone: CircleSlash, disconnected:
+Unplug, unreachable: WifiOff } as const; A result taller than this is folded, with Show
+more. cons Notable exports: `WorkerCard`.
 
-[`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 7078 bytes
+[`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 10684 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

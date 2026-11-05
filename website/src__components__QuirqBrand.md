@@ -21,4 +21,4 @@ themes. Notable exports: `QuirqMark`, `QuirqWordmark`.
 
 [`src/components/QuirqBrand/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqBrand/index.tsx) · code · 3262 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._

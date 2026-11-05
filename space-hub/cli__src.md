@@ -16,16 +16,6 @@ sign-in (signin.ts), with their small JSON-over-HTTP helpers. Notable exports: `
 
 [`cli/src/admin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/admin.ts) · code · 3617 bytes
 
-### agenthub.ts
-
-Agenthub: worker agents launched from a project's chat, served by the web service at
-/-/api/agenthub/. A member writes a message in a channel and presses Launch instead of Send:
-the service starts a task on the org's Agents Hub (a sandbox and an agent that works on
-GitHub), and saves the message to the channel's chat with the task's id, so everyone in the
-channel sees the worker and follows it there.
-
-[`cli/src/agenthub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agenthub.ts) · code · 14786 bytes
-
 ### agentrun.ts
 
 spacehub agent run: an agent at work. One folder holds the agent's own space (its
@@ -279,6 +269,25 @@ clones) and speaks the remote helper protocol on stdin/stdout (see `man gitremot
 
 [`cli/src/remote.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/remote.ts) · code · 11561 bytes
 
+### runnerstore.ts
+
+Where the web service keeps each person's runners and the workers launched from chats: the
+module's private `runner` and `worker` tables, read over the hub admin's SQL and written
+through its admin-only reducers (admin.ts), like github_account. A Runner never carries its
+token; sealedTokenOf is the only way to it. memoryStore is the same behaviour in memory, for
+tests.
+
+[`cli/src/runnerstore.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/runnerstore.ts) · code · 10060 bytes
+
+### seal.ts
+
+Runner tokens are sealed before they reach the database: AES-256-GCM with
+SPACEHUB_SECRET_KEY, which lives in the environment and not in /data, so the hub's backups
+(sub-hubs copy /data) hold only ciphertext. A sealed value is base64 of iv (12 bytes) |
+ciphertext | tag (16 bytes). Notable exports: `sealKey`, `sealKeyOrOff`, `seal`, `open`.
+
+[`cli/src/seal.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/seal.ts) · code · 2287 bytes
+
 ### signin.ts
 
 Sign up and sign in with GitHub, served by the web service.
@@ -326,7 +335,24 @@ Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 39575 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 41141 bytes
+
+### workerclient.ts
+
+The Worker Protocol (worker/1): how space-hub reaches a runner, whatever runs the workers
+behind it (docs/specs/2026-11-03-workers-on-your-own-runners-design.md §5). Nothing here
+knows a vendor.
+
+[`cli/src/workerclient.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/workerclient.ts) · code · 7123 bytes
+
+### workers.ts
+
+Workers on your own runners, served by the web service (docs/specs/2026-11-03-workers-on-
+your-own-runners-design.md). A person connects runners (services that speak the Worker
+Protocol, workerclient.ts) and launches workers from a project's chat on one of them;
+everyone in the space follows the worker there.
+
+[`cli/src/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/workers.ts) · code · 29920 bytes
 
 ### xo.ts
 
@@ -344,4 +370,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-04 13:22 UTC from `main`._
+_Generated 2026-11-05 13:35 UTC from `main`._
