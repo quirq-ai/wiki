@@ -29,6 +29,14 @@ npm test. Automated test file.
 
 [`module/test/coord.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/coord.test.ts) · code · 11648 bytes
 
+### explain.test.ts
+
+Repo rooms (explain.ts): opened by the hub, questions from anyone signed in within the caps,
+claimed and answered by connected agents. Run in SpacetimeDB's in-process module harness:
+npm test. Automated test file.
+
+[`module/test/explain.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/explain.test.ts) · code · 9380 bytes
+
 ### runners.test.ts
 
 Runners and workers (private, admin-only): run in SpacetimeDB's in-process module harness:
@@ -64,4 +72,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7898 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

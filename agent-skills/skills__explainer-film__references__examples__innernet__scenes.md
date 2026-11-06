@@ -39,4 +39,4 @@ folder tree from 01 draws itself again, this time lit in its folders' own colour
 
 [`skills/explainer-film/references/examples/innernet/scenes/21-close.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/innernet/scenes/21-close.mjs) · code · 8178 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

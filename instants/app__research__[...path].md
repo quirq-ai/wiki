@@ -14,4 +14,4 @@ Serve generated media and videos from the content store at the URLs records alre
 
 [`app/research/[...path]/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/research/[...path]/route.ts) · code · 4216 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

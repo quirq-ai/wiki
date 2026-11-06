@@ -40,4 +40,4 @@ Swarm calls for the daily usage report. Functions: `probe_key`, `report`.
 
 [`services/swarm_api/usage.py`](https://github.com/quirq-ai/xo-space/blob/main/services/swarm_api/usage.py) · code · 600 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

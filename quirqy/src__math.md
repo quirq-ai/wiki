@@ -44,4 +44,4 @@ Notable exports: `MATH_PRESETS`, `CUSTOM_TEMPLATE`.
 
 [`src/math/presets.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/math/presets.js) · code · 9277 bytes
 
-_Generated 2026-11-05 13:35 UTC from `quirq`._
+_Generated 2026-11-06 13:20 UTC from `quirq`._

@@ -22,7 +22,7 @@ Drafts stay in this browser tab. */ export function useChat(place: Place, conver
 string | undefined, repliesPath: string | undefined, blocked: string | undefined, logEx
 Notable exports: `useChat`.
 
-[`app/src/hooks/use-chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-chat.ts) · code · 6279 bytes
+[`app/src/hooks/use-chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-chat.ts) · code · 6625 bytes
 
 ### use-folders.ts
 
@@ -69,4 +69,4 @@ Notable exports: `useTaskEvents`.
 
 [`app/src/hooks/use-workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-workers.ts) · code · 2392 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

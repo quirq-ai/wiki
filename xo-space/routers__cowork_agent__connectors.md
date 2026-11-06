@@ -83,4 +83,4 @@ more. Classes: `TokenBody`, `ExchangeBody`.
 
 [`routers/cowork_agent/connectors/vercel.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/vercel.py) · code · 8729 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

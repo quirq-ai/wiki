@@ -84,4 +84,4 @@ Functions: `_check_name`, `_read_json`.
 
 [`src/qqrelease/store.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/store.py) · code · 7068 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

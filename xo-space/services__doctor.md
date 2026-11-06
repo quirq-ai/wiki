@@ -106,4 +106,4 @@ Run every check with error isolation and assemble the report (architecture §5).
 
 [`services/doctor/run.py`](https://github.com/quirq-ai/xo-space/blob/main/services/doctor/run.py) · code · 6838 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

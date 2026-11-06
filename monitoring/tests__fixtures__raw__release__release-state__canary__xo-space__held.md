@@ -14,4 +14,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/raw/release/release-state/canary/xo-space/held/14b21a41668bc8124b4cf5cf9cd59fb44dc7d419.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/canary/xo-space/held/14b21a41668bc8124b4cf5cf9cd59fb44dc7d419.json) · code · 326 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

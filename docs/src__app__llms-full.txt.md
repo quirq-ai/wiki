@@ -12,4 +12,4 @@ export const revalidate = false Notable exports: `GET`, `revalidate`.
 
 [`src/app/llms-full.txt/route.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/llms-full.txt/route.ts) · code · 257 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

@@ -70,7 +70,7 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 69418 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 75537 bytes
 
 ### compat.ts
 
@@ -142,7 +142,7 @@ refplan's rules (work done on the hub is never thrown away); - GithubSync: keep 
 linked to a GitHub user or organization in step, as the hub admin, on request and every so
 often.
 
-[`cli/src/github.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/github.ts) · code · 14318 bytes
+[`cli/src/github.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/github.ts) · code · 14358 bytes
 
 ### githubsignin.ts
 
@@ -269,6 +269,13 @@ clones) and speaks the remote helper protocol on stdin/stdout (see `man gitremot
 
 [`cli/src/remote.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/remote.ts) · code · 11561 bytes
 
+### rooms.ts
+
+Repo rooms on the web (module/src/explain.ts): an open explainer and group chat for any
+public GitHub repository.
+
+[`cli/src/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/rooms.ts) · code · 7803 bytes
+
 ### runnerstore.ts
 
 Where the web service keeps each person's runners and the workers launched from chats: the
@@ -335,7 +342,7 @@ Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 41141 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 42509 bytes
 
 ### workerclient.ts
 
@@ -370,4 +377,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

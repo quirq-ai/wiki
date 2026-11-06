@@ -12,4 +12,4 @@ Markdown page “quirq_ai”. The original cinematic quirq.ai marketing site.
 
 [`Chat/quirq-ai-wiki/quirq-ai/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/quirq-ai/output/one-pager.md) · code · 1964 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

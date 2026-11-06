@@ -48,4 +48,4 @@ Dynamic loader for the active agent's usage module. Functions: `load_usage_modul
 
 [`services/cowork_agent/engine/usage_loader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/engine/usage_loader.py) · code · 1198 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

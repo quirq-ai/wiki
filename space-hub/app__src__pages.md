@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 const filesHref = (place: Place, path: string, as?: string) => placeUrl(place,
 hashOf("files", { path, as })) Notable exports: `ChannelList`, `ChannelPage`.
 
-[`app/src/pages/channels.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/channels.tsx) · code · 13473 bytes
+[`app/src/pages/channels.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/channels.tsx) · code · 13490 bytes
 
 ### chat-section.tsx
 
@@ -21,7 +21,7 @@ place: Place; kind?: string; me: string | null; signIn: string; canStart: boolea
 chat = chatPlace(place, kind)!; const live = useLive>(viewUrl(chat.place, chat.pa Notable
 exports: `ChatSection`.
 
-[`app/src/pages/chat-section.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat-section.tsx) · code · 3016 bytes
+[`app/src/pages/chat-section.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat-section.tsx) · code · 3044 bytes
 
 ### chat.tsx
 
@@ -29,7 +29,7 @@ type Message = { id: string; role: string; author: string; content: string; link
 string; path: string }[]; time?: string; saving?: boolean }; type Conversation = { title?:
 unknown; subtitle?: unknown; messages: Record[] } Notable exports: `ChatView`.
 
-[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 11812 bytes
+[`app/src/pages/chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/chat.tsx) · code · 14364 bytes
 
 ### code.tsx
 
@@ -65,7 +65,7 @@ Lightbulb], ["goals", SquareCheck], ["files", FolderOpen], ["apps", Shapes], ]);
 const SECTION_ORDER = ["chat", "activity", "insights", "vision", "library", "ideas",
 "goals", "f Notable exports: `entryIcon`, `isChannel`, `FilesTab`, `SECTION_ICONS`
 
-[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 10123 bytes
+[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 10140 bytes
 
 ### goal.tsx
 
@@ -79,7 +79,7 @@ const SPACE_FILE = "SPACE.md"; const SHOWN = 6 Notable exports: `Meter`, `GoalPa
 const kindOf = (detail = "") => detail.startsWith("org") ? "org" :
 detail.startsWith("agent") ? "agent" : "personal" Notable exports: `HomePage`.
 
-[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9029 bytes
+[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9430 bytes
 
 ### instance-recovery.tsx
 
@@ -95,7 +95,7 @@ numbe Notable exports: `InstanceRecoveryPage`, `SubhubConnectionCard`
 
 type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
-[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 8017 bytes
+[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 7894 bytes
 
 ### runners.tsx
 
@@ -118,7 +118,7 @@ exports: `SettingsPage`.
 const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`,
 `AgentList`.
 
-[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 17425 bytes
+[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 17320 bytes
 
 ### subhub.tsx
 
@@ -130,4 +130,4 @@ In Notable exports: `SubhubPage`.
 
 [`app/src/pages/subhub.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/subhub.tsx) · code · 6253 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

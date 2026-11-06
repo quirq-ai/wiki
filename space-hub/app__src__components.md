@@ -30,9 +30,9 @@ Notable exports: `FilePreview`.
 
 function currentPreference(): ThemePreference { return
 themePreference(document.documentElement.dataset.themePreference); } Notable exports:
-`ThemePicker`.
+`selectTheme`, `ThemeChoices`.
 
-[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 3640 bytes
+[`app/src/components/theme-picker.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/theme-picker.tsx) · code · 2667 bytes
 
 ### worker-card.tsx
 
@@ -44,4 +44,4 @@ more. cons Notable exports: `WorkerCard`.
 
 [`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 10684 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

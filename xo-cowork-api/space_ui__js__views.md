@@ -34,4 +34,4 @@ export as the module's public entry.
 
 [`space_ui/js/views/sessions.js`](https://github.com/quirq-ai/xo-cowork-api/blob/main/space_ui/js/views/sessions.js) · code · 20829 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

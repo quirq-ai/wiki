@@ -20,4 +20,4 @@ data consumed by the surrounding app or tooling.
 
 [`Chat/chat.json`](https://github.com/quirq-ai/quirq/blob/main/Chat/chat.json) · code · 171 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

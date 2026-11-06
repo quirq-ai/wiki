@@ -51,7 +51,7 @@ The image builds the CLI with only the module files it imports, copied one by on
 (Dockerfile, the cli stage). A new import must be copied too (npm test). Automated test
 file.
 
-[`cli/test/dockerfile.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/dockerfile.test.ts) · code · 1092 bytes
+[`cli/test/dockerfile.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/dockerfile.test.ts) · code · 1101 bytes
 
 ### doctor.test.ts
 
@@ -149,6 +149,13 @@ The GitHub sync's rules, on a plain git repository (npm test). Automated test fi
 
 [`cli/test/refplan.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/refplan.test.ts) · code · 4243 bytes
 
+### rooms.test.ts
+
+Repo rooms on the web: /gh/<owner>/<repo> opens a public repository's room once, and
+/-/api/ask asks there as the signed-in builder (npm test). Automated test file.
+
+[`cli/test/rooms.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/rooms.test.ts) · code · 5666 bytes
+
 ### runnerstore.test.ts
 
 The runner store: the same behaviour in memory and over the hub admin's SQL + reducer API
@@ -218,4 +225,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

@@ -10,25 +10,25 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 /** Where the page is: the hub (no space), a space, or a project. */ export type Place = {
 space: string; project: string } Notable exports: `viewUrl`, `codeUrl`, `placeUrl`,
-`avatarUrl`, `setSpacePicture`, `startChat`, `rawUrl`, `count`, and 35 more.
+`avatarUrl`, `setSpacePicture`, `startChat`, `rawUrl`, `count`, and 37 more.
 
-[`app/src/api.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/api.ts) · code · 12583 bytes
+[`app/src/api.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/api.ts) · code · 13046 bytes
 
 ### app.css
 
 The hub's app: one neutral palette, one accent, an 4px spacing grid. Light and dark follow
 data-theme (theme.js). Leading class selectors include `quiet`, `small`, `strong`, `shell`,
-`progress`, `topbar`, `logo`, `search-trigger`, and 279 more. Defines or consumes CSS custom
-properties (design tokens).
+`progress`, `inset-header`, `side-trigger`, `inset-sep`, and 274 more. Defines or consumes
+CSS custom properties (design tokens).
 
-[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 80956 bytes
+[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 84211 bytes
 
 ### app.tsx
 
 const HUB: Place = { space: "", project: "" }; const SEEN = "spacehub:seen:v1"; const RAIL =
 "spacehub:rail:v1"; const ACTIVITY = "spacehub:activity:v1" Notable exports: `App`.
 
-[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 15663 bytes
+[`app/src/app.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.tsx) · code · 16907 bytes
 
 ### content.css
 
@@ -55,4 +55,4 @@ connected sub-hub's storage, read live (/subhub/, #/backup?id= one backup). | { 
 
 [`app/src/router.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/router.ts) · code · 4942 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

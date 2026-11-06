@@ -12,4 +12,4 @@ The project README (“marketing”). marketing: campaign copy, launch posts and
 
 [`README.md`](https://github.com/quirq-ai/marketing/blob/main/README.md) · code · 68 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

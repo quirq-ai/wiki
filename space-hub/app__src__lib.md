@@ -92,6 +92,14 @@ Files the browser shows itself: images in an <img>, video in a <video>. Notable 
 
 [`app/src/lib/media.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/media.ts) · code · 1040 bytes
 
+### rooms.ts
+
+/** Where the explanation of a room's repository is written. */ export const
+EXPLAINER_OUTPUT = "Chat/explainer/output/one-pager.md" Notable exports: `stateNow`,
+`questionsLeft`, `EXPLAINER_OUTPUT`, `STATE_TEXT`.
+
+[`app/src/lib/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/rooms.ts) · code · 1377 bytes
+
 ### theme.ts
 
 export type ThemePreference = "light" | "dark" | "system"; export const THEME_STORAGE_KEY =
@@ -127,4 +135,4 @@ is a chat turn that ends with the task's marker.
 
 [`app/src/lib/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/workers.ts) · code · 16973 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

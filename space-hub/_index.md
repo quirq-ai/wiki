@@ -8,8 +8,8 @@ Git hosting stored in SpacetimeDB, laid out like GitHub
 - [Activity history](../_activity/repos/space-hub.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-11-05T13:21:48Z`
-- Snapshot SHA: `721ab3459187`
+- Last push: `2026-11-06T13:04:47Z`
+- Snapshot SHA: `65b5939dc634`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -21,21 +21,21 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `app/src` | 6 | [app__src.md](app__src.md) |
 | `app/src/components` | 4 | [app__src__components.md](app__src__components.md) |
 | `app/src/hooks` | 7 | [app__src__hooks.md](app__src__hooks.md) |
-| `app/src/lib` | 14 | [app__src__lib.md](app__src__lib.md) |
+| `app/src/lib` | 15 | [app__src__lib.md](app__src__lib.md) |
 | `app/src/pages` | 15 | [app__src__pages.md](app__src__pages.md) |
 | `app/src/shell` | 3 | [app__src__shell.md](app__src__shell.md) |
 | `app/src/ui` | 2 | [app__src__ui.md](app__src__ui.md) |
-| `app/test` | 6 | [app__test.md](app__test.md) |
+| `app/test` | 7 | [app__test.md](app__test.md) |
 | `cli` | 3 | [cli.md](cli.md) |
 | `cli/bin` | 3 | [cli__bin.md](cli__bin.md) |
-| `cli/src` | 41 | [cli__src.md](cli__src.md) |
-| `cli/src/module_bindings` | 68 | [cli__src__module_bindings.md](cli__src__module_bindings.md) |
+| `cli/src` | 42 | [cli__src.md](cli__src.md) |
+| `cli/src/module_bindings` | 73 | [cli__src__module_bindings.md](cli__src__module_bindings.md) |
 | `cli/src/module_bindings/types` | 2 | [cli__src__module_bindings__types.md](cli__src__module_bindings__types.md) |
-| `cli/test` | 29 | [cli__test.md](cli__test.md) |
+| `cli/test` | 30 | [cli__test.md](cli__test.md) |
 | `docker` | 5 | [docker.md](docker.md) |
 | `module` | 4 | [module.md](module.md) |
-| `module/src` | 16 | [module__src.md](module__src.md) |
-| `module/test` | 8 | [module__test.md](module__test.md) |
+| `module/src` | 18 | [module__src.md](module__src.md) |
+| `module/test` | 9 | [module__test.md](module__test.md) |
 | `scripts` | 4 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-05 13:35 UTC._
+_Generated 2026-11-06 13:20 UTC._

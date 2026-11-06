@@ -19,4 +19,4 @@ token_store — the single owner of token.json. Functions: `read_all`, `write_al
 
 [`services/cowork_agent/connectors/token_store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/token_store.py) · code · 5121 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

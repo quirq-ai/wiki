@@ -13,4 +13,4 @@ import React from 'react' import { useWindowLayoutAttributes } from
 
 [`src/components/AppContainer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/AppContainer/index.tsx) · code · 908 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

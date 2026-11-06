@@ -20,4 +20,4 @@ executable source.
 
 [`brand/xo-logo.svg`](https://github.com/quirq-ai/xo-cowork-api/blob/main/brand/xo-logo.svg) · code · 754 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

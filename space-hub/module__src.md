@@ -13,7 +13,7 @@ beside a conversation file, committed to the project's default branch. This is t
 open-chat's hub backend writes, so either can read the other's chats. The reducer
 (append_chat in index.ts) runs it as one transaction, so two writers cannot race.
 
-[`module/src/chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/chat.ts) · code · 10519 bytes
+[`module/src/chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/chat.ts) · code · 10644 bytes
 
 ### code.ts
 
@@ -38,6 +38,16 @@ Line diffs for the web UI: Myers' O(ND) algorithm plus unified hunks. Notable ex
 
 [`module/src/diff.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/diff.ts) · code · 3275 bytes
 
+### explain.ts
+
+Repo rooms: an open explainer and a group chat for any public GitHub repository. Opening
+hub.quirq.dev/gh/<owner>/<repo> makes the project `<explain space>/<owner>.<repo>` (the web
+service checks the repository is public, then calls open_repo_room as the hub admin). The
+project holds only the room: SPACE.md, Chat/general (the group chat) and Chat/explainer (the
+explanation). The code stays on GitHub, where agents read it.
+
+[`module/src/explain.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/explain.ts) · code · 3602 bytes
+
 ### guide.ts
 
 The hub's guide: get started in five steps, the words it uses, then one section per thing
@@ -61,7 +71,7 @@ pages, so they never disagree. They are drawn with the app's classes (style.ts);
 spacehub: GitHub-shaped git hosting where the database is the server. The hub has GitHub's
 two levels.
 
-[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 90244 bytes
+[`module/src/index.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/index.ts) · code · 98902 bytes
 
 ### markdown.ts
 
@@ -80,6 +90,14 @@ change breaks clients built before it: a table, column, reducer or procedure the
 renamed, removed or changes type, or a table gains a column.
 
 [`module/src/protocol.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/protocol.ts) · code · 988 bytes
+
+### roomfiles.ts
+
+The files a repo room starts with (explain.ts): README, SPACE.md (its goal, rules and
+routines), the group chat in Chat/general and the explainer channel whose one-pager agents
+write. Notable exports: `roomFiles`.
+
+[`module/src/roomfiles.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/roomfiles.ts) · code · 3095 bytes
 
 ### sha1.ts
 
@@ -140,6 +158,6 @@ service serves at /, /<space> and /<space>/<project>. It speaks open-chat's snap
 so the app renders conversations, collections, feeds, documents and previews exactly as
 open-chat does.
 
-[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 39273 bytes
+[`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 41535 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

@@ -46,4 +46,4 @@ Shared UI helpers. Notable exports: `toast`.
 
 [`space_ui/js/core/ui.js`](https://github.com/quirq-ai/xo-cowork-api/blob/main/space_ui/js/core/ui.js) · code · 246 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

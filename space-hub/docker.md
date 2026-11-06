@@ -36,7 +36,7 @@ hub admin claimed. Only then does the real allowlist proxy Shebang `#!/bin/sh`.
 Caddyfile file `server.Caddyfile`. Built into the server image. SpacetimeDB listens only
 inside the container; this is the one public port.
 
-[`docker/server.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/server.Caddyfile) · code · 2109 bytes
+[`docker/server.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/server.Caddyfile) · code · 2319 bytes
 
 ### starting.Caddyfile
 
@@ -47,4 +47,4 @@ hub admin. server.Caddyfile takes the port over after that.
 
 [`docker/starting.Caddyfile`](https://github.com/quirq-ai/space-hub/blob/main/docker/starting.Caddyfile) · code · 406 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

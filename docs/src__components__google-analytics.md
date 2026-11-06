@@ -20,4 +20,4 @@ const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID Notable exports:
 
 [`src/components/google-analytics/provider.tsx`](https://github.com/quirq-ai/docs/blob/main/src/components/google-analytics/provider.tsx) · code · 245 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._

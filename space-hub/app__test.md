@@ -44,7 +44,14 @@ undefined); assert.equal(mediaOf("mp4"), undefined); }) Automated test file.
 Exercise the actual shell components without browser effects or production data. Automated
 test file.
 
-[`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 4884 bytes
+[`app/test/recovery-shell.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/recovery-shell.test.ts) · code · 5958 bytes
+
+### rooms.test.ts
+
+A repo room's chat: a question's state now, and how many questions are left today (npm
+test). Automated test file.
+
+[`app/test/rooms.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/rooms.test.ts) · code · 1349 bytes
 
 ### workers.test.ts
 
@@ -56,4 +63,4 @@ assert.deepEq Automated test file.
 
 [`app/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/workers.test.ts) · code · 11289 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:20 UTC from `main`._

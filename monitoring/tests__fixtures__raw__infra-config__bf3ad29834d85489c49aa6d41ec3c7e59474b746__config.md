@@ -16,4 +16,4 @@ limit gates submission, not creation.
 
 [`tests/fixtures/raw/infra-config/bf3ad29834d85489c49aa6d41ec3c7e59474b746/config/auto_revert.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/infra-config/bf3ad29834d85489c49aa6d41ec3c7e59474b746/config/auto_revert.toml) · code · 2101 bytes
 
-_Generated 2026-11-05 13:35 UTC from `main`._
+_Generated 2026-11-06 13:19 UTC from `main`._
