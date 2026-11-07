@@ -13,4 +13,4 @@ pluginUsage[&lt;plugin id&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/pluginUsage/each-plugin/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/pluginUsage/each-plugin/index.html) · code · 16203 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

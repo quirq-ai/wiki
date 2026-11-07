@@ -21,4 +21,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`Insights/index.json`](https://github.com/quirq-ai/quirq/blob/main/Insights/index.json) · code · 465 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

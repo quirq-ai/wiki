@@ -6,6 +6,13 @@ Source: [cli/test](https://github.com/quirq-ai/space-hub/tree/main/cli/test) in 
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### activityjournal.test.ts
+
+The activity journal: every activity row also on disk, append-only, each once, catching up
+after a restart (npm test). Automated test file.
+
+[`cli/test/activityjournal.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/activityjournal.test.ts) · code · 6090 bytes
+
 ### agenttemplate.test.ts
 
 The starter definition of an agent (npm test). Automated test file.
@@ -24,13 +31,13 @@ file.
 Avatars: GitHub pictures fetched by the hub, initials (an org, a building) for everyone
 else. Automated test file.
 
-[`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 3011 bytes
+[`cli/test/avatar.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/avatar.test.ts) · code · 4005 bytes
 
 ### compat.test.ts
 
 The CLI and hub protocol check (npm test). Automated test file.
 
-[`cli/test/compat.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/compat.test.ts) · code · 3846 bytes
+[`cli/test/compat.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/compat.test.ts) · code · 4939 bytes
 
 ### device.test.ts
 
@@ -58,7 +65,7 @@ file.
 spacehub doctor's checks, the PATH lines install-cli.sh prints, and the help added under a
 permission refusal (npm test). Automated test file.
 
-[`cli/test/doctor.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/doctor.test.ts) · code · 9374 bytes
+[`cli/test/doctor.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/doctor.test.ts) · code · 11297 bytes
 
 ### githubsignin.test.ts
 
@@ -141,7 +148,7 @@ InstanceVaultError Automated test file.
 
 Which pages are live and what the live stream carries (npm test). Automated test file.
 
-[`cli/test/livepage.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/livepage.test.ts) · code · 1530 bytes
+[`cli/test/livepage.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/livepage.test.ts) · code · 3451 bytes
 
 ### refplan.test.ts
 
@@ -154,7 +161,7 @@ The GitHub sync's rules, on a plain git repository (npm test). Automated test fi
 Repo rooms on the web: /gh/<owner>/<repo> opens a public repository's room once, and
 /-/api/ask asks there as the signed-in builder (npm test). Automated test file.
 
-[`cli/test/rooms.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/rooms.test.ts) · code · 5666 bytes
+[`cli/test/rooms.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/rooms.test.ts) · code · 9258 bytes
 
 ### runnerstore.test.ts
 
@@ -225,4 +232,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

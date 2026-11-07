@@ -190,4 +190,4 @@ generated blobs.
 
 [`public/videos/onboard.webp`](https://github.com/quirq-ai/docs/blob/main/public/videos/onboard.webp) · binary · 44358 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

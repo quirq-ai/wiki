@@ -21,4 +21,4 @@ source file for the full document.
 
 [`tests/fixtures/golden/frozen-surfaces.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/golden/frozen-surfaces.json) · code · 180607 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

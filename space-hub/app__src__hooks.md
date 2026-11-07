@@ -24,6 +24,13 @@ Notable exports: `useChat`.
 
 [`app/src/hooks/use-chat.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-chat.ts) · code · 6625 bytes
 
+### use-feed.ts
+
+export type Feed = { posts: Post[]; videos: Set; total: number; loading: boolean; error:
+string } Notable exports: `useFeed`, `Feed`.
+
+[`app/src/hooks/use-feed.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-feed.ts) · code · 3182 bytes
+
 ### use-folders.ts
 
 export type FolderSummary = { items: number; channels: number } Notable exports:
@@ -57,7 +64,7 @@ function useMe() { const [me, setMe] = useState(); useEffect(() => { void fetch(
 })).then(setMe).catch(() => setMe({ name: null })); }, []); const profile = useLive>(me?.
 Notable exports: `useMe`, `recentProjects`, `rememberProject`.
 
-[`app/src/hooks/use-me.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-me.ts) · code · 1471 bytes
+[`app/src/hooks/use-me.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-me.ts) · code · 1689 bytes
 
 ### use-workers.ts
 
@@ -69,4 +76,4 @@ Notable exports: `useTaskEvents`.
 
 [`app/src/hooks/use-workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-workers.ts) · code · 2392 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

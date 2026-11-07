@@ -23,4 +23,4 @@ MODIFY TABLES IN YOUR MODULE SOURCE CODE INSTEAD. Notable exports: `AddProjectMe
 
 [`cli/src/module_bindings/types/reducers.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/module_bindings/types/reducers.ts) · code · 6277 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

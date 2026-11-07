@@ -78,4 +78,4 @@ string }) { return ( Notable exports: `SlideThumb`.
 
 [`components/slides/thumb.tsx`](https://github.com/quirq-ai/instants/blob/main/components/slides/thumb.tsx) · code · 651 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

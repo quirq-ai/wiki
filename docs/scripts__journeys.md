@@ -53,4 +53,4 @@ home page's xo commands. Runnable as a script via `if __name__ == '__main__'`. C
 
 [`scripts/journeys/xo-standin.py`](https://github.com/quirq-ai/docs/blob/main/scripts/journeys/xo-standin.py) · code · 6457 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

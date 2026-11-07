@@ -2,14 +2,14 @@
 
 # space-hub
 
-Git hosting stored in SpacetimeDB, laid out like GitHub
+Create your own collaborationhub to work autonomously with agents
 
 - GitHub: [https://github.com/quirq-ai/space-hub](https://github.com/quirq-ai/space-hub)
 - [Activity history](../_activity/repos/space-hub.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-11-06T13:04:47Z`
-- Snapshot SHA: `65b5939dc634`
+- Last push: `2026-11-07T05:55:05Z`
+- Snapshot SHA: `2fcfbf31ead5`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -17,25 +17,25 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 6 | [_root.md](_root.md) |
 | `app` | 5 | [app.md](app.md) |
-| `app/public` | 4 | [app__public.md](app__public.md) |
-| `app/src` | 6 | [app__src.md](app__src.md) |
-| `app/src/components` | 4 | [app__src__components.md](app__src__components.md) |
-| `app/src/hooks` | 7 | [app__src__hooks.md](app__src__hooks.md) |
-| `app/src/lib` | 15 | [app__src__lib.md](app__src__lib.md) |
-| `app/src/pages` | 15 | [app__src__pages.md](app__src__pages.md) |
+| `app/public` | 11 | [app__public.md](app__public.md) |
+| `app/src` | 8 | [app__src.md](app__src.md) |
+| `app/src/components` | 7 | [app__src__components.md](app__src__components.md) |
+| `app/src/hooks` | 8 | [app__src__hooks.md](app__src__hooks.md) |
+| `app/src/lib` | 19 | [app__src__lib.md](app__src__lib.md) |
+| `app/src/pages` | 17 | [app__src__pages.md](app__src__pages.md) |
 | `app/src/shell` | 3 | [app__src__shell.md](app__src__shell.md) |
 | `app/src/ui` | 2 | [app__src__ui.md](app__src__ui.md) |
-| `app/test` | 7 | [app__test.md](app__test.md) |
+| `app/test` | 11 | [app__test.md](app__test.md) |
 | `cli` | 3 | [cli.md](cli.md) |
 | `cli/bin` | 3 | [cli__bin.md](cli__bin.md) |
-| `cli/src` | 42 | [cli__src.md](cli__src.md) |
+| `cli/src` | 43 | [cli__src.md](cli__src.md) |
 | `cli/src/module_bindings` | 73 | [cli__src__module_bindings.md](cli__src__module_bindings.md) |
 | `cli/src/module_bindings/types` | 2 | [cli__src__module_bindings__types.md](cli__src__module_bindings__types.md) |
-| `cli/test` | 30 | [cli__test.md](cli__test.md) |
+| `cli/test` | 31 | [cli__test.md](cli__test.md) |
 | `docker` | 5 | [docker.md](docker.md) |
 | `module` | 4 | [module.md](module.md) |
 | `module/src` | 18 | [module__src.md](module__src.md) |
 | `module/test` | 9 | [module__test.md](module__test.md) |
-| `scripts` | 4 | [scripts.md](scripts.md) |
+| `scripts` | 5 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-06 13:20 UTC._
+_Generated 2026-11-07 11:58 UTC._

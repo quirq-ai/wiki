@@ -12,4 +12,4 @@ Markdown page “sync”. The repo manifest schema and its only parser.
 
 [`Chat/quirq-ai-wiki/sync/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/sync/output/one-pager.md) · code · 1748 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

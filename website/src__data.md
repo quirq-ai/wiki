@@ -20,4 +20,4 @@ inspected.
 
 [`src/data/quirq-repositories.json`](https://github.com/quirq-ai/website/blob/main/src/data/quirq-repositories.json) · huge · 414186 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

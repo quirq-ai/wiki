@@ -12,4 +12,4 @@ Markdown page “space-hub”. spacehub: git hosting on SpacetimeDB at hub.quirq
 
 [`Chat/quirq-ai-wiki/space-hub/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/space-hub/output/one-pager.md) · code · 2262 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

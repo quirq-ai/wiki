@@ -13,4 +13,4 @@ data consumed by the surrounding app or tooling.
 
 [`tests/fixtures/storm/policy-corpus.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/storm/policy-corpus.json) · code · 49716 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

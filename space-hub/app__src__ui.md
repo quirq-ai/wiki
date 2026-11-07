@@ -16,12 +16,10 @@ belongs there, each holding cards.
 
 ### primitives.tsx
 
-/** A person, org or agent. The hub serves a picture for every name (GitHub's, or initials).
-*/ export function Avatar({ name, size = 24, kind, title }: { name: string; size?: number;
-kind?: string; title?: string }) { if (name === "quirqy") return ; const square = kind ===
-"org" || kind === "agent"; return ; } Notable exports: `Avatar`, `AvatarStack`,
-`PersonLink`, `Ago`, `Skeleton`, `SkeletonRows`, `SkeletonText`, `CopyButton`, and 5 more.
+/** * A person, org or agent. The hub serves a picture for every name (GitHub's, an *
+agent's blobatar, or initials); an agent known to be one here is drawn inline * as the same
+blobatar, so it can wake up on hover.
 
-[`app/src/ui/primitives.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/ui/primitives.tsx) · code · 6662 bytes
+[`app/src/ui/primitives.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/ui/primitives.tsx) · code · 6795 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

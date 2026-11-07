@@ -580,6 +580,14 @@ Functions: `observe`, `leaked`. Contains tests.
 
 [`tests/test_frozen_surfaces.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_frozen_surfaces.py) · code · 6024 bytes
 
+### test_gateway_restart.py
+
+Gateway restart: the call returns, and the gateway it starts survives the caller. Runnable
+as a script via `if __name__ == '__main__'`. Classes: `GatewayRestartRouteTests`,
+`GatewayLauncherDetachTests`. Functions: `_real_gateway_present`. Contains tests.
+
+[`tests/test_gateway_restart.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_gateway_restart.py) · code · 8568 bytes
+
 ### test_grokbot_adapter.py
 
 Focused unit tests for the Grok Bot adapter (paths, seats, sessions, HTTP). Runnable as a
@@ -1674,4 +1682,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

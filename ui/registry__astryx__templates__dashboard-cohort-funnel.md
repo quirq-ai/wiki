@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports:
 
 [`registry/astryx/templates/dashboard-cohort-funnel/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/dashboard-cohort-funnel/page.tsx) · code · 25959 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

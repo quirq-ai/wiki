@@ -16,4 +16,4 @@ assert.notEq Automated test file.
 
 [`tests/engine.test.ts`](https://github.com/quirq-ai/quitter/blob/main/tests/engine.test.ts) · code · 10030 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

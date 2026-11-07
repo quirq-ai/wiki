@@ -10,9 +10,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 type Option = { key: string; label: string; href: string; kind: "space" | "project" |
 "folder" | "file"; spaceKind?: string }; type Segment = { key: string; label: string; href:
-string; current: boolean; load: () => Promise } Notable exports: `PathBar`.
+string; kind: "space" | "project" | "folder"; current: boolean; load: () => Promise }
+Notable exports: `PathBar`.
 
-[`app/src/shell/path-bar.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/path-bar.tsx) · code · 5709 bytes
+[`app/src/shell/path-bar.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/path-bar.tsx) · code · 9380 bytes
 
 ### search.tsx
 
@@ -25,6 +26,6 @@ string; href: string; name?: string } Notable exports: `SearchPalette`.
 
 /** A thin bar across the top while the reader waits for something to load.
 
-[`app/src/shell/shell.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/shell.tsx) · code · 16153 bytes
+[`app/src/shell/shell.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell/shell.tsx) · code · 19309 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

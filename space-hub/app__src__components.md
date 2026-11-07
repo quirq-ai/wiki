@@ -6,15 +6,24 @@ Source: [app/src/components](https://github.com/quirq-ai/space-hub/tree/main/app
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### claude-onboard.tsx
+
+/** Claude's spark: rounded rays of uneven length around a center, in Claude's clay color.
+*/ export function ClaudeSpark({ size = 18 }: { size?: number }) { const rays = [10, 7.4,
+9.2, 6.8, 10, 7.8, 9, 6.6, 9.8, 7.2, 9.4, 7]; return {rays.map((length, i) => )} ; } Notable
+exports: `ClaudeSpark`, `ClaudeOnboard`.
+
+[`app/src/components/claude-onboard.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/claude-onboard.tsx) · code · 2167 bytes
+
 ### content-view.tsx
 
 type ObjectValue = Record; type Navigate = (path: string) => void; const object = (value:
 unknown): value is ObjectValue => value !== null && typeof value === "object" &&
 !Array.isArray(value); const string = (value: unknown) => typeof value === "string" ? value
-: "" Notable exports: `MarkdownMedia`, `Markdown`, `FileContent`, `RawFiles`,
+: "" Notable exports: `MarkdownMedia`, `Markdown`, `FileContent`, `RawFiles`, `isHtml`,
 `isConversation`.
 
-[`app/src/components/content-view.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/content-view.tsx) · code · 14977 bytes
+[`app/src/components/content-view.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/content-view.tsx) · code · 16723 bytes
 
 ### file-preview.tsx
 
@@ -25,6 +34,21 @@ opens as a page. */ export function FilePreview({ place, paths, branch, onOpen, 
 Notable exports: `FilePreview`.
 
 [`app/src/components/file-preview.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/file-preview.tsx) · code · 2513 bytes
+
+### mermaid-view.tsx
+
+type MermaidApi = typeof import("mermaid").default Notable exports: `MermaidDiagram`.
+
+[`app/src/components/mermaid-view.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/mermaid-view.tsx) · code · 3579 bytes
+
+### slides.tsx
+
+/** * A post's slides as Instants draws them: 4:5 cards on a dark ground tinted * by the
+post's accent, sized by the card's width (cqw) so the same slide * reads the same in a feed
+card and on the post page. */ type Raw = (path: string) => string Notable exports:
+`SlideCard`, `Carousel`.
+
+[`app/src/components/slides.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/slides.tsx) · code · 12631 bytes
 
 ### theme-picker.tsx
 
@@ -44,4 +68,4 @@ more. cons Notable exports: `WorkerCard`.
 
 [`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 10684 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

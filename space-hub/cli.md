@@ -8,12 +8,12 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### package-lock.json
 
-Package-manager lockfile (package-lock.json, 19.8 KB). It pins the exact dependency tree for
+Package-manager lockfile (package-lock.json, 20.4 KB). It pins the exact dependency tree for
 reproducible installs. Treat this as a generated blob: read the companion manifest
 (`package.json`, `pyproject.toml`, or `requirements.txt`) for declared dependencies instead
 of this file.
 
-[`cli/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package-lock.json) · lockfile · 20287 bytes
+[`cli/package-lock.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package-lock.json) · lockfile · 20854 bytes
 
 ### package.json
 
@@ -22,7 +22,7 @@ remote helper (git clone/push/fetch quirq://hub.quirq.dev/owner/space). CLI bins
 `spacehub`, `git-remote-quirq`, `git-remote-spacehub`. Scripts: `build`, `typecheck`,
 `generate`, `test`.
 
-[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 1006 bytes
+[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 1032 bytes
 
 ### tsconfig.json
 
@@ -31,4 +31,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`cli/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/tsconfig.json) · code · 264 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

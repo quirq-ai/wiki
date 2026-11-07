@@ -10,10 +10,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 /** What someone connected is doing, by presence mode. */ export const MODES: Record = {
 watch: "watching", sync: "syncing", autosync: "editing", agent: "running", app: "in the app"
-} Notable exports: `dayOf`, `keepActivity`, `liveRows`, `MODES`, `FILTERS`,
+} Notable exports: `dayOf`, `keepActivity`, `liveRows`, `mergeActivity`, `MODES`, `FILTERS`,
 `ActivityFilter`, `LiveRow`.
 
-[`app/src/lib/activity.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/activity.ts) · code · 2972 bytes
+[`app/src/lib/activity.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/activity.ts) · code · 3686 bytes
 
 ### channels.ts
 
@@ -69,6 +69,16 @@ runs.
 
 [`app/src/lib/instance-recovery.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/instance-recovery.ts) · code · 6323 bytes
 
+### instants.ts
+
+An Instants library: a project with `instants.json` at its root, written by Instants
+(github.com/quirq-ai/instants). Like chat.json makes a folder read as a chat, the manifest
+makes the project's Files tab read as a feed of its posts, the way Instants shows them; Code
+still shows the files. Notable exports: `isLibrary`, `parsePost`, `slugOf`, `isPostPath`,
+`mediaPath`, `latestFirst`, `rediscover`, `topicsOf`, and 10 more.
+
+[`app/src/lib/instants.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/instants.ts) · code · 7515 bytes
+
 ### jsonl.ts
 
 export type JsonlRecord = { line: number; value: unknown; error?: never } | { line: number;
@@ -92,13 +102,39 @@ Files the browser shows itself: images in an <img>, video in a <video>. Notable 
 
 [`app/src/lib/media.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/media.ts) · code · 1040 bytes
 
+### mermaid.ts
+
+A Mermaid diagram file: .mmd or .mermaid, shown as the diagram it draws. Notable exports:
+`isMermaid`, `isMermaidFence`.
+
+[`app/src/lib/mermaid.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/mermaid.ts) · code · 379 bytes
+
+### onboard.ts
+
+"Onboard with Claude": the prompt that walks Claude Code through adding an agent to the hub
+end to end, built from the same commands the Add an agent panel shows, and the link that
+opens Claude Code with it filled in. Notable exports: `onboardPrompt`, `OnboardTarget`,
+`CLAUDE_CODE_URL`, `serverOf`, `claudeCodeLink`.
+
+[`app/src/lib/onboard.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/onboard.ts) · code · 3314 bytes
+
+### path-fold.ts
+
+Which breadcrumb segments fold into the "…" menu so the rest fit in `room`. Where you are
+(the last) always stays. Folders fold first, nearest the top first, then the project, then
+the space; the menu itself takes `menu`. Any room left over goes back to the folders nearest
+where you are. Notable exports: `foldedSegments`.
+
+[`app/src/lib/path-fold.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/path-fold.ts) · code · 921 bytes
+
 ### rooms.ts
 
 /** Where the explanation of a room's repository is written. */ export const
-EXPLAINER_OUTPUT = "Chat/explainer/output/one-pager.md" Notable exports: `stateNow`,
-`questionsLeft`, `EXPLAINER_OUTPUT`, `STATE_TEXT`.
+EXPLAINER_OUTPUT = "Chat/explainer/output/one-pager.md" Notable exports: `repoOfGithubUrl`,
+`explainReply`, `stateNow`, `questionsLeft`, `EXPLAINER_OUTPUT`, `ROOM_CHAT_FOLDER`,
+`ROOM_CHAT_LOG`, `STATE_TEXT`.
 
-[`app/src/lib/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/rooms.ts) · code · 1377 bytes
+[`app/src/lib/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/rooms.ts) · code · 2599 bytes
 
 ### theme.ts
 
@@ -135,4 +171,4 @@ is a chat turn that ends with the task's marker.
 
 [`app/src/lib/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/workers.ts) · code · 16973 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

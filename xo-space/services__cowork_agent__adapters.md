@@ -57,4 +57,4 @@ Shared usage aggregation over normalized usage entries. Classes: `Source`. Funct
 
 [`services/cowork_agent/adapters/usage_common.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/usage_common.py) · code · 30100 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

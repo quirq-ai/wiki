@@ -22,4 +22,4 @@ const LABEL: Record = { claude_code: 'Claude Code', codex: 'Codex' } Notable exp
 
 [`dashboard/src/lib/agents.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/lib/agents.ts) · code · 1211 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

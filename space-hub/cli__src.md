@@ -6,6 +6,14 @@ Source: [cli/src](https://github.com/quirq-ai/space-hub/tree/main/cli/src) in [s
 
 Each heading is a file that lives **directly** in this folder. Nested folders have their own pages.
 
+### activityjournal.ts
+
+The activity journal: every activity row the hub records, also written to files on the hub's
+own disk, append-only, so the feed's history is kept even apart from the database. Nothing
+here ever deletes or rewrites a line.
+
+[`cli/src/activityjournal.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/activityjournal.ts) · code · 8953 bytes
+
 ### admin.ts
 
 The web service acting as the hub admin (the identity that owns the database, whose token
@@ -40,7 +48,7 @@ The hub's app: open-chat's interface over the whole hub. The proxy sends the hub
 here; the module still renders the code views (tree, blob, raw, commits, commit, refs,
 activity) and the guide.
 
-[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 12846 bytes
+[`cli/src/app.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/app.ts) · code · 13102 bytes
 
 ### autosync.ts
 
@@ -55,12 +63,9 @@ a step every few seconds and on every push the hub reports.
 ### avatar.ts
 
 Avatars for the app: GET /-/avatar/<name> answers with an image for any builder, org or
-agent. A name backed by a GitHub account (a builder who signed up with GitHub, an org linked
-to one) gets its GitHub picture, fetched here so visitors' browsers never contact GitHub;
-everyone else gets initials (an org, a building) on a color derived from the name. Answers
-are cached in memory.
+agent.
 
-[`cli/src/avatar.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/avatar.ts) · code · 4949 bytes
+[`cli/src/avatar.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/avatar.ts) · code · 5348 bytes
 
 ### cli.ts
 
@@ -70,16 +75,17 @@ and agents), and `project` (alias `repo`) manages the git projects inside them. 
 is plain git through git-remote-quirq, on a remote always named quirq that points at a quirq
 URL (quirq://hub.quirq.dev/<space>/<project>).
 
-[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 75537 bytes
+[`cli/src/cli.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/cli.ts) · code · 76000 bytes
 
 ### compat.ts
 
 Does this CLI match the hub it talks to? The hub reports the client protocol it speaks
 (module/src/protocol.ts, through the client_protocol procedure). On a mismatch the CLI stops
 with what to do, instead of failing on a table or column it cannot read. Notable exports:
-`protocolProblem`, `unreadableData`, `isDecodeError`, `UPDATE_COMMAND`, `HubProtocol`.
+`protocolProblem`, `unreadableData`, `isDecodeError`, `UPDATE_COMMAND`,
+`UPDATE_COMMAND_WINDOWS`, `updateCommand`, `HubProtocol`.
 
-[`cli/src/compat.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/compat.ts) · code · 2039 bytes
+[`cli/src/compat.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/compat.ts) · code · 2535 bytes
 
 ### config.ts
 
@@ -122,9 +128,9 @@ spacehub doctor: is this machine set up? Where the CLI is installed, whether the
 it, whether the install survives a restart, whether it matches the hub, and who it is signed
 in as. Each check says what to run when it fails. The checks are pure (tested); cli.ts
 gathers the facts. Notable exports: `binDir`, `isInside`, `findOnPath`, `shellRc`,
-`pathFix`, `pathCheck`, `restartCheck`, `hubCheck`, and 6 more.
+`pathFix`, `pathCheck`, `restartCheck`, `hubCheck`, and 7 more.
 
-[`cli/src/doctor.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/doctor.ts) · code · 7353 bytes
+[`cli/src/doctor.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/doctor.ts) · code · 8621 bytes
 
 ### git.ts
 
@@ -274,7 +280,7 @@ clones) and speaks the remote helper protocol on stdin/stdout (see `man gitremot
 Repo rooms on the web (module/src/explain.ts): an open explainer and group chat for any
 public GitHub repository.
 
-[`cli/src/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/rooms.ts) · code · 7803 bytes
+[`cli/src/rooms.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/rooms.ts) · code · 9392 bytes
 
 ### runnerstore.ts
 
@@ -342,7 +348,7 @@ Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 42509 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 43556 bytes
 
 ### workerclient.ts
 
@@ -377,4 +383,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

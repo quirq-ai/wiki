@@ -10,10 +10,10 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 OpenClaw OneClick Setup & Gateway Manager Combined setup + gateway management in a single
 script. Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_warn`,
-`log_error`, `load_env`, `rotate_log`, `acquire_lock`, `clean_stale_pid`,
-`find_orphan_gateways`, `kill_orphan_gateways`, and 22 more.
+`log_error`, `load_env`, `setup_runtime_path`, `rotate_log`, `log_gateway`, `caller_chain`,
+`log_request`, and 28 more.
 
-[`config/agents/openclaw/agent.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/agent.sh) · code · 36527 bytes
+[`config/agents/openclaw/agent.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/agent.sh) · code · 41804 bytes
 
 ### capabilities.json
 
@@ -57,4 +57,4 @@ Cross-check xo-project intent against the live OpenClaw install. Runnable as a s
 
 [`config/agents/openclaw/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/troubleshoot.py) · code · 9135 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

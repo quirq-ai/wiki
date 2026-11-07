@@ -219,4 +219,4 @@ Workspace-wide rollups, in one request. Notable exports: `workspaceCounts`.
 
 [`space_ui/js/core/workspace.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/core/workspace.js) · code · 2968 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

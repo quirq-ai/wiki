@@ -15,4 +15,4 @@ it: pages only receive the allowlisted shapes below. Notable exports: `getActivi
 
 [`src/lib/activity.ts`](https://github.com/quirq-ai/vercel-activity/blob/main/src/lib/activity.ts) · code · 11219 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

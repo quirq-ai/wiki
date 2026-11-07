@@ -12,4 +12,4 @@ Markdown page “qq”. The qq command line, version-pinned per repo.
 
 [`Chat/quirq-ai-wiki/qq/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/qq/output/one-pager.md) · code · 1901 bytes
 
-_Generated 2026-11-06 13:19 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

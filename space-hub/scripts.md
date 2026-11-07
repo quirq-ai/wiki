@@ -23,6 +23,14 @@ SPACEHUB_E2E_SERVER=ws://127.0.0.1:3000 scripts/e2e.sh against a running server,
 
 [`scripts/e2e.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/e2e.sh) · code · 71469 bytes
 
+### install-cli.ps1
+
+Ps1 file `install-cli.ps1`. Install the spacehub client on Windows, the Windows twin of
+install-cli.sh: puts spacehub and git-remote-quirq (plus git-remote-spacehub, for older
+clones) on your PATH. Needs Node 22+ and git.
+
+[`scripts/install-cli.ps1`](https://github.com/quirq-ai/space-hub/blob/main/scripts/install-cli.ps1) · code · 4516 bytes
+
 ### install-cli.sh
 
 Install the spacehub client globally, the way gh is installed: puts spacehub and git-remote-
@@ -41,4 +49,4 @@ defaults to "spacehub"; override with SPACEHUB_DB. Shebang `#!/usr/bin/env bash`
 
 [`scripts/setup.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/setup.sh) · code · 1086 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

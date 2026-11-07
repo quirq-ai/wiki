@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/form-wizard-inline/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/form-wizard-inline/page.tsx) · code · 41968 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

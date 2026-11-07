@@ -13,4 +13,4 @@ groveConfigCache[&lt;account id&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/groveConfigCache/each-account/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/groveConfigCache/each-account/index.html) · code · 15894 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

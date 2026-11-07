@@ -44,9 +44,9 @@ export function PageHeader({ crumbs, title, subtitle, leading, actions, children
 crumbs?: { label: string; href: string }[]; title: ReactNode; subtitle?: ReactNode;
 leading?: ReactNode; actions?: ReactNode; children?: ReactNode; }) { return {crumbs &&
 crumbs.length > 0 && {crumbs.map((crumb, i) => {i > 0 && /}{crumb.label})}} Notable exports:
-`PageHeader`, `Tabs`, `ActivityList`, `ActivityStream`, `ActivityPanel`, `LiveNow`
+`PageHeader`, `Tabs`, `ActivityList`, `placeOf`, `ActivityStream`, `ActivityPanel`
 
-[`app/src/pages/common.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/common.tsx) · code · 13573 bytes
+[`app/src/pages/common.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/common.tsx) · code · 15789 bytes
 
 ### deps.tsx
 
@@ -57,6 +57,21 @@ Notable exports: `DepsTab`.
 
 [`app/src/pages/deps.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/deps.tsx) · code · 4519 bytes
 
+### explain-chat.tsx
+
+/** One URL sent, and what came of it. */ type Turn = { id: string; url: string; project?:
+string; error?: string } Notable exports: `ExplainChat`.
+
+[`app/src/pages/explain-chat.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/explain-chat.tsx) · code · 7961 bytes
+
+### feed.tsx
+
+const PAGE = 12; const postHref = (place: Place, slug: string) => placeUrl(place,
+hashOf("files", { path: posts/${slug}.json })); const codeHref = (place: Place, path = "")
+=> placeUrl(place, hashOf("code", { path })) Notable exports: `FeedTab`, `PostPage`.
+
+[`app/src/pages/feed.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/feed.tsx) · code · 10065 bytes
+
 ### files.tsx
 
 export const SECTION_ICONS = new Map([ ["chat", MessageCircle], ["activity", PanelsTopLeft],
@@ -65,7 +80,7 @@ Lightbulb], ["goals", SquareCheck], ["files", FolderOpen], ["apps", Shapes], ]);
 const SECTION_ORDER = ["chat", "activity", "insights", "vision", "library", "ideas",
 "goals", "f Notable exports: `entryIcon`, `isChannel`, `FilesTab`, `SECTION_ICONS`
 
-[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 10140 bytes
+[`app/src/pages/files.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/files.tsx) · code · 11175 bytes
 
 ### goal.tsx
 
@@ -79,7 +94,7 @@ const SPACE_FILE = "SPACE.md"; const SHOWN = 6 Notable exports: `Meter`, `GoalPa
 const kindOf = (detail = "") => detail.startsWith("org") ? "org" :
 detail.startsWith("agent") ? "agent" : "personal" Notable exports: `HomePage`.
 
-[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9430 bytes
+[`app/src/pages/home.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/home.tsx) · code · 9120 bytes
 
 ### instance-recovery.tsx
 
@@ -95,7 +110,7 @@ numbe Notable exports: `InstanceRecoveryPage`, `SubhubConnectionCard`
 
 type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
-[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 7894 bytes
+[`app/src/pages/project.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/project.tsx) · code · 7952 bytes
 
 ### runners.tsx
 
@@ -106,19 +121,20 @@ string; project: string; updatedAt: string } Notable exports: `RunnersSection`.
 
 ### settings.tsx
 
-export function SettingsPage({ onConnectionState, signedIn = false }: { onConnectionState?:
-(state: "live" | "offline" | "loading") => void; signedIn?: boolean }) { return }
-title="Settings" subtitle="Manage this Spacehub instance." /> {signedIn && } Notable
-exports: `SettingsPage`.
+export function SettingsPage({ onConnectionState, signedIn = false, operator = false }: {
+onConnectionState?: (state: "live" | "offline" | "loading") => void; signedIn?: boolean;
+operator?: boolean }) { return } title="Settings" subtitle="Manage this Spacehub instance."
+/> {signedIn && } {operator && } {!signedIn && !operator && Sign in to manage your runner
+Notable exports: `SettingsPage`.
 
-[`app/src/pages/settings.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/settings.tsx) · code · 662 bytes
+[`app/src/pages/settings.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/settings.tsx) · code · 803 bytes
 
 ### space.tsx
 
 const KIND_ICON = { personal: , org: , agent: } as Record Notable exports: `SpacePage`,
 `AgentList`.
 
-[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 17320 bytes
+[`app/src/pages/space.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/space.tsx) · code · 17640 bytes
 
 ### subhub.tsx
 
@@ -130,4 +146,4 @@ In Notable exports: `SubhubPage`.
 
 [`app/src/pages/subhub.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/subhub.tsx) · code · 6253 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

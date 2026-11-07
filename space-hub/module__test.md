@@ -19,7 +19,7 @@ wherever a name does (npm test). Automated test file.
 Spaces, projects, collaborators and presence, run in SpacetimeDB's in-process module harness
 (no server needed): npm test. Automated test file.
 
-[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 22437 bytes
+[`module/test/collab.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/collab.test.ts) · code · 22651 bytes
 
 ### coord.test.ts
 
@@ -35,7 +35,7 @@ Repo rooms (explain.ts): opened by the hub, questions from anyone signed in with
 claimed and answered by connected agents. Run in SpacetimeDB's in-process module harness:
 npm test. Automated test file.
 
-[`module/test/explain.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/explain.test.ts) · code · 9380 bytes
+[`module/test/explain.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/explain.test.ts) · code · 9769 bytes
 
 ### runners.test.ts
 
@@ -63,7 +63,7 @@ module harness: npm test. Automated test file.
 The app's workspace API and the append_chat reducer, in SpacetimeDB's in-process module
 harness (no server needed): npm test. Automated test file.
 
-[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 22162 bytes
+[`module/test/workspace.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/workspace.test.ts) · code · 26092 bytes
 
 ### xo.test.ts
 
@@ -72,4 +72,4 @@ needed): npm test. Automated test file.
 
 [`module/test/xo.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/test/xo.test.ts) · code · 7898 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._

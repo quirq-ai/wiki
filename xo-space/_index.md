@@ -8,8 +8,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-11-06T12:54:13Z`
-- Snapshot SHA: `e1ecfc57bee3`
+- Last push: `2026-11-07T11:57:23Z`
+- Snapshot SHA: `6dfc8e730fb1`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -133,7 +133,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 205 | [tests.md](tests.md) |
+| `tests` | 206 | [tests.md](tests.md) |
 | `tests/fakes` | 4 | [tests__fakes.md](tests__fakes.md) |
 | `tests/fakes/agy` | 1 | [tests__fakes__agy.md](tests__fakes__agy.md) |
 | `tests/fakes/claude` | 1 | [tests__fakes__claude.md](tests__fakes__claude.md) |
@@ -187,4 +187,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-11-06 13:20 UTC._
+_Generated 2026-11-07 11:58 UTC._

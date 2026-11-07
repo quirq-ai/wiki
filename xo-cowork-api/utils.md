@@ -19,4 +19,4 @@ Subprocess command-runner utility. Classes: `CommandResult`. Functions: `run`, `
 
 [`utils/commands.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/utils/commands.py) · code · 10291 bytes
 
-_Generated 2026-11-06 13:20 UTC from `main`._
+_Generated 2026-11-07 11:58 UTC from `main`._
