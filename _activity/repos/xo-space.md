@@ -4,13 +4,13 @@
 
 **Status:** Collected
 
-**Requested from:** 2026-10-01T18:05:58Z · **Last success:** 2026-11-07T13:05:44Z
+**Requested from:** 2026-10-01T18:05:58Z · **Last success:** 2026-11-08T13:28:05Z
 
-**Stored records:** 1,139
+**Stored records:** 1,148
 
 | Date (UTC) | Records | Kinds |
 | --- | ---: | --- |
-| [2026-11-07](../2026/11/07/README.md) | 2 | release: 1, workflow: 1 |
+| [2026-11-07](../2026/11/07/README.md) | 11 | commit: 1, pull request: 1, release: 2, workflow: 7 |
 | [2026-11-06](../2026/11/06/README.md) | 29 | commit: 6, pull request: 3, workflow: 20 |
 | [2026-11-02](../2026/11/02/README.md) | 17 | commit: 3, pull request: 3, workflow: 11 |
 | [2026-10-30](../2026/10/30/README.md) | 16 | commit: 8, pull request: 2, workflow: 6 |
