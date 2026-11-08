@@ -586,7 +586,7 @@ Gateway restart: the call returns, and the gateway it starts survives the caller
 as a script via `if __name__ == '__main__'`. Classes: `GatewayRestartRouteTests`,
 `GatewayLauncherDetachTests`. Functions: `_real_gateway_present`. Contains tests.
 
-[`tests/test_gateway_restart.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_gateway_restart.py) · code · 8568 bytes
+[`tests/test_gateway_restart.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/test_gateway_restart.py) · code · 11344 bytes
 
 ### test_grokbot_adapter.py
 
@@ -1682,4 +1682,4 @@ fabricated managed install. Shebang `#!/usr/bin/env bash`. Functions: `ok`, `bad
 
 [`tests/uninstall_sh_harness.sh`](https://github.com/quirq-ai/xo-space/blob/main/tests/uninstall_sh_harness.sh) · code · 9689 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

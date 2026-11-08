@@ -15,4 +15,4 @@ surface), so it needs suraj. Sections: `terms`, `[allow`.
 
 [`guard/terms.toml`](https://github.com/quirq-ai/gate/blob/main/guard/terms.toml) · code · 4846 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

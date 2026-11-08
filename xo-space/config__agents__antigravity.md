@@ -38,4 +38,4 @@ Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_warn`, `log
 
 [`config/agents/antigravity/setup.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/antigravity/setup.sh) · code · 11192 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

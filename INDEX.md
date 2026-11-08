@@ -61,4 +61,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-11-07 11:58 UTC._
+_Generated 2026-11-08 12:18 UTC._

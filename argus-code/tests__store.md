@@ -35,4 +35,4 @@ Write batches are atomic and the shared connection's transactions don't leak (H4
 
 [`tests/store/test_transactions.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/store/test_transactions.py) · code · 4354 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

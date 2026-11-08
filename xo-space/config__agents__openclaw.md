@@ -13,7 +13,7 @@ script. Shebang `#!/usr/bin/env bash`. Functions: `log`, `log_success`, `log_war
 `log_error`, `load_env`, `setup_runtime_path`, `rotate_log`, `log_gateway`, `caller_chain`,
 `log_request`, and 28 more.
 
-[`config/agents/openclaw/agent.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/agent.sh) · code · 41804 bytes
+[`config/agents/openclaw/agent.sh`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/agent.sh) · code · 42847 bytes
 
 ### capabilities.json
 
@@ -57,4 +57,4 @@ Cross-check xo-project intent against the live OpenClaw install. Runnable as a s
 
 [`config/agents/openclaw/troubleshoot.py`](https://github.com/quirq-ai/xo-space/blob/main/config/agents/openclaw/troubleshoot.py) · code · 9135 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

@@ -161,4 +161,4 @@ executable source.
 
 [`public/icons/xo-cowork.svg`](https://github.com/quirq-ai/docs/blob/main/public/icons/xo-cowork.svg) · code · 587 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

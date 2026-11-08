@@ -12,4 +12,4 @@ Markdown page “library”. Exact copies of outside GitHub projects, one branch
 
 [`Chat/quirq-ai-wiki/library/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/library/output/one-pager.md) · code · 1962 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._

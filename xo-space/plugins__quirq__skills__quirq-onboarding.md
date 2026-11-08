@@ -13,4 +13,4 @@ the plugin is installed, or when the user asks to set up XO Space in ChatGPT or 
 
 [`plugins/quirq/skills/quirq-onboarding/SKILL.md`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/skills/quirq-onboarding/SKILL.md) · code · 1741 bytes
 
-_Generated 2026-11-07 11:58 UTC from `main`._
+_Generated 2026-11-08 12:18 UTC from `main`._
