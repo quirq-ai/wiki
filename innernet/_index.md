@@ -82,4 +82,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `public/guide/plates` | 9 | [public__guide__plates.md](public__guide__plates.md) |
 | `scripts` | 12 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-08 12:18 UTC._
+_Generated 2026-11-09 14:29 UTC._

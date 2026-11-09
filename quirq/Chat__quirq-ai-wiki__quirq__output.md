@@ -12,4 +12,4 @@ Markdown page “quirq”. This content workspace (quirq/quirq on the hub).
 
 [`Chat/quirq-ai-wiki/quirq/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/quirq/output/one-pager.md) · code · 2045 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

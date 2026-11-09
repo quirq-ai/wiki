@@ -185,4 +185,4 @@ xo-projects backup/restore router. Defines the `router` application object. HTTP
 
 [`routers/cowork_agent/xo_projects_sync.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/xo_projects_sync.py) · code · 13060 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

@@ -12,4 +12,4 @@ Markdown page “wiki”. The generated wiki of every public repo's code.
 
 [`Chat/quirq-ai-wiki/wiki/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/wiki/output/one-pager.md) · code · 1928 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

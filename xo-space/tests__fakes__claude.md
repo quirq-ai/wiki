@@ -14,4 +14,4 @@ more.
 
 [`tests/fakes/claude/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/claude/__init__.py) · code · 15526 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

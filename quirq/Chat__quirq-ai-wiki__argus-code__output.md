@@ -12,4 +12,4 @@ Markdown page “argus-code”. Local observability for Claude Code and Codex se
 
 [`Chat/quirq-ai-wiki/argus-code/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/argus-code/output/one-pager.md) · code · 2037 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

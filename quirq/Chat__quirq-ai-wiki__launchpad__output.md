@@ -12,4 +12,4 @@ Markdown page “launchpad”. XO Launchpad CLI: create apps and manage deployme
 
 [`Chat/quirq-ai-wiki/launchpad/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/launchpad/output/one-pager.md) · code · 1555 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

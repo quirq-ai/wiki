@@ -28,4 +28,4 @@ or Next APIs).
 
 [`app/insights/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/insights/page.tsx) · code · 9914 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

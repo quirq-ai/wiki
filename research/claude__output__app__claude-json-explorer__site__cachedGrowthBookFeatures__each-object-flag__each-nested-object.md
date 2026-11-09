@@ -14,4 +14,4 @@ name&gt;][&lt;field&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/each-nested-object/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedGrowthBookFeatures/each-object-flag/each-nested-object/index.html) · code · 16572 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

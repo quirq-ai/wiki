@@ -44,4 +44,4 @@ browser.
 
 [`components/sources/use-generate.ts`](https://github.com/quirq-ai/instants/blob/main/components/sources/use-generate.ts) · code · 4966 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

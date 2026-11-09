@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/messaging-shell/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/messaging-shell/page.tsx) · code · 19684 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

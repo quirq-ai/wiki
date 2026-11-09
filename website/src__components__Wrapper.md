@@ -14,4 +14,4 @@ list, not the whole Wrapper (and therefore not the desktop, taskbar, etc.). Nota
 
 [`src/components/Wrapper/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Wrapper/index.tsx) · code · 2915 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

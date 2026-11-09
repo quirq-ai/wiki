@@ -52,4 +52,4 @@ Sway Fy, Yaw moment N about the vessel CG (N, N·m). World frame: +x east, +z no
 
 [`src/spm/tanker.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/spm/tanker.js) · code · 6697 bytes
 
-_Generated 2026-11-08 12:18 UTC from `quirq`._
+_Generated 2026-11-09 14:29 UTC from `quirq`._

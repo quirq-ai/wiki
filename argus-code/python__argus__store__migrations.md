@@ -19,4 +19,4 @@ Schema migrations.
 
 [`python/argus/store/migrations/inline.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/store/migrations/inline.py) · code · 6782 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

@@ -20,4 +20,4 @@ of quirq-ai/gate (V0-GAT-01).
 
 [`tests/fakes/qqgate`](https://github.com/quirq-ai/qq/blob/main/tests/fakes/qqgate) · other · 2013 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

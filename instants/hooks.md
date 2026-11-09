@@ -12,4 +12,4 @@ import * as React from "react" Notable exports: `useIsMobile`.
 
 [`hooks/use-mobile.ts`](https://github.com/quirq-ai/instants/blob/main/hooks/use-mobile.ts) · code · 565 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

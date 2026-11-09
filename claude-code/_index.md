@@ -18,4 +18,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | (repository root) | 4 | [_root.md](_root.md) |
 | `launchpad` | 1 | [launchpad.md](launchpad.md) |
 
-_Generated 2026-11-08 12:18 UTC._
+_Generated 2026-11-09 14:29 UTC._

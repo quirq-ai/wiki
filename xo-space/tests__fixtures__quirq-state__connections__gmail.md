@@ -30,4 +30,4 @@ tooling.
 
 [`tests/fixtures/quirq-state/connections/gmail/state.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/connections/gmail/state.json) · code · 233 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

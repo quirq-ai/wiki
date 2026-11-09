@@ -35,4 +35,4 @@ Notable exports: `STORY`.
 
 [`app/how-it-works/story.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/how-it-works/story.ts) · code · 3794 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._

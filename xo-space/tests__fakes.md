@@ -36,4 +36,4 @@ A model-free MCP server used by installed-CLI integration tests. Runnable as a s
 
 [`tests/fakes/mcp_stdio.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/mcp_stdio.py) · code · 1034 bytes
 
-_Generated 2026-11-08 12:18 UTC from `main`._
+_Generated 2026-11-09 14:29 UTC from `main`._
