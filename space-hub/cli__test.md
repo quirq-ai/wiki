@@ -232,4 +232,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

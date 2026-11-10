@@ -55,4 +55,4 @@ configuration.
 
 [`pyproject.toml`](https://github.com/quirq-ai/release/blob/main/pyproject.toml) · code · 1417 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

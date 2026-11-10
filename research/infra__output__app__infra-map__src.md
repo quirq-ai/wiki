@@ -72,4 +72,4 @@ each repo's pinned dependencies (pyproject.toml, pins.toml) and README. Notable 
 
 [`infra/output/app/infra-map/src/repos.ts`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/repos.ts) · code · 8964 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

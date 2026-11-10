@@ -14,4 +14,4 @@ TODO(expert): let rollers move these pins. Sections: `release`, `infra-config`, 
 
 [`tests/fixtures/raw/installer/main/pins.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/installer/main/pins.toml) · code · 1162 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

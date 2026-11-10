@@ -111,4 +111,4 @@ agy's stream-json output as contract events (storm ch 04 §7, §8). Classes: `Ou
 
 [`services/cowork_agent/adapters/antigravity/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/wire.py) · code · 21599 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

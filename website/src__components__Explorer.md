@@ -23,4 +23,4 @@ import ScrollArea from 'components/RadixUI/ScrollArea' import { useWindow } from
 
 [`src/components/Explorer/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Explorer/index.tsx) · code · 2288 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

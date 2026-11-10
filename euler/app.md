@@ -14,4 +14,4 @@ quitter — the agent activity workspace. - instants — the visual workspace an
 
 [`app/README.md`](https://github.com/quirq-ai/euler/blob/main/app/README.md) · code · 1733 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

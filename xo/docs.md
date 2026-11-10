@@ -59,4 +59,4 @@ deployed Shebang `#!/usr/bin/env bash`. Functions: `pass`, `fail`, `xo`, `expect
 
 [`docs/test-xo-server.sh`](https://github.com/quirq-ai/xo/blob/main/docs/test-xo-server.sh) · code · 8229 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

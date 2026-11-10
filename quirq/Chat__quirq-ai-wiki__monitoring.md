@@ -12,4 +12,4 @@ The project README (“monitoring”). euler.
 
 [`Chat/quirq-ai-wiki/monitoring/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/monitoring/README.md) · code · 301 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

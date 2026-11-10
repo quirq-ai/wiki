@@ -48,4 +48,4 @@ class selectors include `page`, `wrap`, `header`, `tabs`, `tab`, `tabOn`, `tabCo
 
 [`app/writing/writing.module.css`](https://github.com/quirq-ai/quirq_ai/blob/main/app/writing/writing.module.css) · code · 9852 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._

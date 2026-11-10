@@ -16,4 +16,4 @@ APIs). Marked `'use client'` so it runs in the browser.
 
 [`components/search/command-palette.tsx`](https://github.com/quirq-ai/instants/blob/main/components/search/command-palette.tsx) · code · 3758 bytes
 
-_Generated 2026-11-09 14:29 UTC from `main`._
+_Generated 2026-11-10 13:51 UTC from `main`._
