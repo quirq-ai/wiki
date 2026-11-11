@@ -111,14 +111,14 @@
     },
     {
       "archived": false,
-      "bytes": 53030,
+      "bytes": 53476,
       "default_branch": "main",
       "error": null,
       "files": 7,
       "fork": false,
-      "github_kb": 301602,
+      "github_kb": 301445,
       "repo": "experiments",
-      "sha": "ab60283481620a61c267151eeef1ed466b9ee655",
+      "sha": "f8f36e7941f646234434eb4cd8209e1bdf17a51b",
       "truncated": false
     },
     {
@@ -140,7 +140,7 @@
       "error": null,
       "files": 52,
       "fork": false,
-      "github_kb": 240,
+      "github_kb": 241,
       "repo": "gardener",
       "sha": "8681a0562de4197aec801371ed18f9ab75686e0f",
       "truncated": false
@@ -368,7 +368,7 @@
       "error": null,
       "files": 55,
       "fork": false,
-      "github_kb": 357,
+      "github_kb": 362,
       "repo": "release",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147",
       "truncated": false
@@ -452,7 +452,7 @@
       "error": null,
       "files": 58,
       "fork": false,
-      "github_kb": 3943,
+      "github_kb": 3944,
       "repo": "test-pipelines",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539",
       "truncated": false
@@ -519,14 +519,14 @@
     },
     {
       "archived": false,
-      "bytes": 21841035,
+      "bytes": 22168070,
       "default_branch": "main",
       "error": null,
-      "files": 1876,
+      "files": 1878,
       "fork": false,
-      "github_kb": 9738,
+      "github_kb": 10026,
       "repo": "wiki",
-      "sha": "31299d2370eb56989e7b812aa739043b368f4851",
+      "sha": "3a1cb44f52a7844a07a231e65425bbd1cb5c3cc6",
       "truncated": false
     },
     {
@@ -567,13 +567,13 @@
     }
   ],
   "schema_version": 1,
-  "taken_at": "2026-11-10T15:15:02Z",
+  "taken_at": "2026-11-11T14:44:10Z",
   "totals": {
-    "bytes": 262089459,
+    "bytes": 262416940,
     "complete": true,
-    "files": 8242,
+    "files": 8244,
     "github_complete": true,
-    "github_kb": 1032240,
+    "github_kb": 1032378,
     "left_out": 0,
     "repos": 47
   }
