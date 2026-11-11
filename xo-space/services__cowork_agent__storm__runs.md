@@ -37,4 +37,4 @@ execute` and `append`). Functions: `new_id`, `started`, `found`, `finished`, `go
 
 [`services/cowork_agent/storm/runs/records.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/runs/records.py) · code · 18786 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

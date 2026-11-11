@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `ShellTopNav
 
 [`registry/astryx/templates/shell-top-nav/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/shell-top-nav/page.tsx) · code · 7300 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

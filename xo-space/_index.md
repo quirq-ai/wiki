@@ -187,4 +187,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-11-10 13:51 UTC._
+_Generated 2026-11-11 13:02 UTC._

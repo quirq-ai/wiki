@@ -160,4 +160,4 @@ open-chat does.
 
 [`module/src/workspace.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/src/workspace.ts) · code · 44555 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

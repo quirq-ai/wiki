@@ -12,4 +12,4 @@ The project README (“argus-code”). euler.
 
 [`Chat/quirq-ai-wiki/argus-code/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/argus-code/README.md) · code · 301 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

@@ -174,4 +174,4 @@ Wiki — one compact directory, with full guides in xo-docs. Leading class selec
 
 [`space_ui/css/wiki.css`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/css/wiki.css) · code · 4464 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

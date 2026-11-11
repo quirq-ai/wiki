@@ -12,4 +12,4 @@ import React from 'react' Notable exports: `KeyboardShortcut`.
 
 [`src/components/KeyboardShortcut/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/KeyboardShortcut/index.tsx) · code · 761 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

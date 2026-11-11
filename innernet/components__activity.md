@@ -88,4 +88,4 @@ from "./shared" Notable exports: `sessionId`, `currentSessionId`, `readTrail`, `
 
 [`components/activity/trail.ts`](https://github.com/quirq-ai/innernet/blob/main/components/activity/trail.ts) · code · 10946 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

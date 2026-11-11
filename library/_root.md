@@ -57,4 +57,4 @@ npm package manifest for `library`. One repo, one branch per GitHub project. Scr
 
 [`package.json`](https://github.com/quirq-ai/library/blob/claude/project-thread-152nwx/package.json) · code · 216 bytes
 
-_Generated 2026-11-10 13:51 UTC from `claude/project-thread-152nwx`._
+_Generated 2026-11-11 13:02 UTC from `claude/project-thread-152nwx`._

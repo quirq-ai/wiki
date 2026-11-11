@@ -45,4 +45,4 @@ Automated test file.
 
 [`tests/editor/toml-fields.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/editor/toml-fields.test.ts) · code · 5137 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

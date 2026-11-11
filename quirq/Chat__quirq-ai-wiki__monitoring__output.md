@@ -12,4 +12,4 @@ Markdown page “monitoring”. Read-only dashboard of the whole org's state.
 
 [`Chat/quirq-ai-wiki/monitoring/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/monitoring/output/one-pager.md) · code · 2242 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

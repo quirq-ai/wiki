@@ -8,7 +8,7 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/release.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-11-10T07:41:29Z`
+- Last push: `2026-11-11T07:41:45Z`
 - Snapshot SHA: `b3f6ee5622fa`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -30,4 +30,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/canary_app/tests` | 1 | [tests__fixtures__canary_app__tests.md](tests__fixtures__canary_app__tests.md) |
 | `tools` | 2 | [tools.md](tools.md) |
 
-_Generated 2026-11-10 13:51 UTC._
+_Generated 2026-11-11 13:02 UTC._

@@ -21,4 +21,4 @@ blobs.
 
 [`docs/images/euler-home.png`](https://github.com/quirq-ai/euler/blob/main/docs/images/euler-home.png) · binary · 1108383 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

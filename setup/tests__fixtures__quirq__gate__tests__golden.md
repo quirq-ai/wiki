@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/quirq/gate/tests/golden/quirq-settings-plan.json`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/gate/tests/golden/quirq-settings-plan.json) · code · 28 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

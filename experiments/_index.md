@@ -8,8 +8,8 @@ One repo, one branch per experiment. This branch, main, is the index, and archiv
 - [Activity history](../_activity/repos/experiments.md)
 - Default branch: `main`
 - Primary language (GitHub): JavaScript
-- Last push: `2026-10-30T09:47:12Z`
-- Snapshot SHA: `ab6028348162`
+- Last push: `2026-11-11T10:21:20Z`
+- Snapshot SHA: `f8f36e7941f6`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -17,4 +17,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | --- | ---: | --- |
 | (repository root) | 7 | [_root.md](_root.md) |
 
-_Generated 2026-11-10 13:51 UTC._
+_Generated 2026-11-11 13:02 UTC._

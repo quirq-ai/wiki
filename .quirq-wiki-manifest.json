@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-10T13:51:29.661430+00:00",
+  "generated_at": "2026-11-11T13:02:29.669723+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -94,8 +94,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/experiments",
-      "pushed_at": "2026-10-30T09:47:12Z",
-      "sha": "ab60283481620a61c267151eeef1ed466b9ee655"
+      "pushed_at": "2026-11-11T10:21:20Z",
+      "sha": "f8f36e7941f646234434eb4cd8209e1bdf17a51b"
     },
     {
       "name": "galileo",
@@ -112,7 +112,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/gardener",
-      "pushed_at": "2026-11-07T15:41:11Z",
+      "pushed_at": "2026-11-10T14:47:59Z",
       "sha": "8681a0562de4197aec801371ed18f9ab75686e0f"
     },
     {
@@ -283,7 +283,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-10T07:41:29Z",
+      "pushed_at": "2026-11-11T07:41:45Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -346,7 +346,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-10T07:29:32Z",
+      "pushed_at": "2026-11-11T06:43:58Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {

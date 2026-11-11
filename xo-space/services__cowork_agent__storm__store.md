@@ -53,4 +53,4 @@ Times are UTC text ending in Z; JSON -- columns hold valid JSON. Ids carry thei.
 
 [`services/cowork_agent/storm/store/schema.sql`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/store/schema.sql) · code · 19241 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

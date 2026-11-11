@@ -31,4 +31,4 @@ Curated optical-bench presets for the Light Lab. Geometry is in millimeters; the
 
 [`src/light/presets.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/light/presets.js) · code · 17445 bytes
 
-_Generated 2026-11-10 13:51 UTC from `quirq`._
+_Generated 2026-11-11 13:02 UTC from `quirq`._

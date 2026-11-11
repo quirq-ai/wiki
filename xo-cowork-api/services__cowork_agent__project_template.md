@@ -56,4 +56,4 @@ before doing project work.
 
 [`services/cowork_agent/project_template/PROJECT.md`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/project_template/PROJECT.md) · code · 1259 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

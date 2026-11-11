@@ -23,4 +23,4 @@ from 'components/Link' import ActiveWindowsPanel from 'components/ActiveWindowsP
 
 [`src/components/Dock/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Dock/index.tsx) · code · 6921 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

@@ -4619,4 +4619,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/blocks/useThemeHookUsage.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/blocks/useThemeHookUsage.tsx) · code · 1409 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

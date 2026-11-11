@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/form-wizard-dialog/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/form-wizard-dialog/page.tsx) · code · 24257 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

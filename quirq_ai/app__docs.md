@@ -25,4 +25,4 @@ Next APIs).
 
 [`app/docs/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/docs/page.tsx) · code · 7273 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

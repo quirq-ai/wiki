@@ -82,4 +82,4 @@ claude's stream-json output as contract events (storm ch 02 §4.3–§5). Classe
 
 [`services/cowork_agent/adapters/claude_code/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/wire.py) · code · 35913 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

@@ -46,4 +46,4 @@ Go file `up.go`. package main.
 
 [`cli/up.go`](https://github.com/quirq-ai/lan/blob/main/cli/up.go) · code · 9755 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

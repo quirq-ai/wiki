@@ -13,4 +13,4 @@ browser.
 
 [`registry/astryx/templates/settings-dialog/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/settings-dialog/page.tsx) · code · 85840 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._

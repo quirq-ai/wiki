@@ -110,4 +110,4 @@ Verdicts, computed mechanically from Results (plan §5.4). Functions: `by_test`,
 
 [`src/qqresults/verdict.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/verdict.py) · code · 1957 bytes
 
-_Generated 2026-11-10 13:51 UTC from `main`._
+_Generated 2026-11-11 13:02 UTC from `main`._
