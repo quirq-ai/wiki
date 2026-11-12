@@ -2,7 +2,7 @@
 
 Files and bytes in each public repository's default branch at HEAD, measured daily from its Git tree. GitHub's size counts the whole history as stored on GitHub.
 
-**Snapshot:** 2026-11-11T14:44:10Z · **Repositories:** 47 · **Files:** 8,244 · **Size:** 262.4 MB · **On GitHub:** 1.1 GB
+**Snapshot:** 2026-11-12T15:37:21Z · **Repositories:** 47 · **Files:** 8,246 · **Size:** 262.7 MB · **On GitHub:** 1.1 GB
 
 Files are Git blobs: a symlink counts as a file sized by its target path, a Git LFS file at its pointer size, and submodules are left out. The total includes forks, archived repositories and this wiki. Private repositories are never measured; one that later turns private keeps its earlier public rows in history.jsonl and in Git history until removed with `python -m quirq_wiki sizes --forget <repo>`.
 
@@ -12,7 +12,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | --- | ---: | ---: | ---: | --- |
 | [innernet](https://github.com/quirq-ai/innernet) | 361 | 103.3 MB | 100.7 MB | main |
 | [quirqy](https://github.com/quirq-ai/quirqy) | 233 | 34.7 MB | 28.4 MB | quirq |
-| [wiki](https://github.com/quirq-ai/wiki) | 1,878 | 22.2 MB | 10.3 MB | main |
+| [wiki](https://github.com/quirq-ai/wiki) | 1,880 | 22.4 MB | 10.3 MB | main |
 | [docs](https://github.com/quirq-ai/docs) | 164 | 20.6 MB | 162.4 MB | main |
 | [quirq_ai](https://github.com/quirq-ai/quirq_ai) | 285 | 17.9 MB | 19.5 MB | main |
 | [xo-space](https://github.com/quirq-ai/xo-space) | 1,019 | 16.2 MB | 11.9 MB | main |
@@ -37,7 +37,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | [quirq](https://github.com/quirq-ai/quirq) | 165 | 342.8 kB | 299.0 kB | main |
 | [gardener](https://github.com/quirq-ai/gardener) | 52 | 310.5 kB | 246.8 kB | main |
 | [github-activity](https://github.com/quirq-ai/github-activity) | 24 | 302.3 kB | 73.7 kB | main |
-| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 370.7 kB | main |
+| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 376.8 kB | main |
 | [vercel-activity](https://github.com/quirq-ai/vercel-activity) | 24 | 292.3 kB | 72.7 kB | main |
 | [qq](https://github.com/quirq-ai/qq) | 44 | 278.8 kB | 236.5 kB | main |
 | [sync](https://github.com/quirq-ai/sync) | 49 | 247.9 kB | 163.8 kB | main |
@@ -62,6 +62,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 
 | Date (UTC) | Repositories | Files | Size | On GitHub |
 | --- | ---: | ---: | ---: | ---: |
+| 2026-11-12 | 47 | 8,246 | 262.7 MB | 1.1 GB |
 | 2026-11-11 | 47 | 8,244 | 262.4 MB | 1.1 GB |
 | 2026-11-10 | 47 | 8,242 | 262.1 MB | 1.1 GB |
 | 2026-11-09 | 47 | 8,240 | 261.8 MB | 1.1 GB |
