@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-11T13:02:29.669723+00:00",
+  "generated_at": "2026-11-13T13:30:59.028006+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -96,6 +96,24 @@
       "html_url": "https://github.com/quirq-ai/experiments",
       "pushed_at": "2026-11-11T10:21:20Z",
       "sha": "f8f36e7941f646234434eb4cd8209e1bdf17a51b"
+    },
+    {
+      "name": "fabric-chat",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/fabric-chat",
+      "pushed_at": "2026-11-13T04:36:29Z",
+      "sha": "253005efc5f24b8f0e02fbad8dcb1c0fde945469"
+    },
+    {
+      "name": "fabric-chat-node",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/fabric-chat-node",
+      "pushed_at": "2026-11-13T04:37:33Z",
+      "sha": "2986e3c84318ec4e159dbcc2da966fd8ebd2e363"
     },
     {
       "name": "galileo",
@@ -238,8 +256,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/quirq",
-      "pushed_at": "2026-11-06T20:19:18Z",
-      "sha": "0f62c096d604e1aaa9a5dd8649c1e2f939b1c20f"
+      "pushed_at": "2026-11-13T03:49:15Z",
+      "sha": "4c042271e82d09e1fddb05577e54ad5c36018f96"
     },
     {
       "name": "quirq_ai",
@@ -283,7 +301,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-11T07:41:45Z",
+      "pushed_at": "2026-11-13T07:40:52Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -328,8 +346,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/space-hub",
-      "pushed_at": "2026-11-09T15:51:40Z",
-      "sha": "2fcfbf31ead50c650ed672675b1d6d8418fdac48"
+      "pushed_at": "2026-11-13T12:51:22Z",
+      "sha": "bcbada8d172348f84a3df83330e520bd66e2e453"
     },
     {
       "name": "sync",
@@ -346,7 +364,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-11T06:43:58Z",
+      "pushed_at": "2026-11-13T06:56:36Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {

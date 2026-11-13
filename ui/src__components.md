@@ -16,4 +16,4 @@ browser.
 
 [`src/components/astryx-providers.tsx`](https://github.com/quirq-ai/ui/blob/main/src/components/astryx-providers.tsx) · code · 637 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

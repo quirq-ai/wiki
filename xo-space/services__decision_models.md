@@ -33,4 +33,4 @@ Levanto Sage through its `/decide` endpoint (native choice and tags). Functions:
 
 [`services/decision_models/sage.py`](https://github.com/quirq-ai/xo-space/blob/main/services/decision_models/sage.py) · code · 2792 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

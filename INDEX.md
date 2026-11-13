@@ -18,6 +18,8 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
 | **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
 | **experiments** | public | [`experiments/`](experiments/_index.md) | [experiments](https://github.com/quirq-ai/experiments) |
+| **fabric-chat**<br>A Slack-style team chat where every message is a transaction on a Hyperledger Fabric 2.5 ledger | public | [`fabric-chat/`](fabric-chat/_index.md) | [fabric-chat](https://github.com/quirq-ai/fabric-chat) |
+| **fabric-chat-node**<br>The template a company copies to run its own Fabric Chat server: company.json, the chat command and compose.yaml | public | [`fabric-chat-node/`](fabric-chat-node/_index.md) | [fabric-chat-node](https://github.com/quirq-ai/fabric-chat-node) |
 | **galileo** | public | [`galileo/`](galileo/_index.md) | [galileo](https://github.com/quirq-ai/galileo) |
 | **gardener** | public | [`gardener/`](gardener/_index.md) | [gardener](https://github.com/quirq-ai/gardener) |
 | **gate** | public | [`gate/`](gate/_index.md) | [gate](https://github.com/quirq-ai/gate) |
@@ -61,4 +63,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-11-11 13:02 UTC._
+_Generated 2026-11-13 13:30 UTC._

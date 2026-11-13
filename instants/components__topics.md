@@ -13,4 +13,4 @@ exports: `topicSpan`, `TopicTile`. Wired into a Next.js app (App Router or Next 
 
 [`components/topics/topic-tile.tsx`](https://github.com/quirq-ai/instants/blob/main/components/topics/topic-tile.tsx) · code · 2216 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

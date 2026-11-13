@@ -13,4 +13,4 @@ Bootstrapper behind `curl -fsSL quirq.ai/install | sh`. Notable exports: `GET`, 
 
 [`app/install/route.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/install/route.ts) · code · 2833 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

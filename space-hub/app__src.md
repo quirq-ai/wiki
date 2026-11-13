@@ -18,10 +18,10 @@ space: string; project: string } Notable exports: `viewUrl`, `codeUrl`, `activit
 
 The hub's app. Its palette and frame (sidebar, inset header) are in shell.css. Leading class
 selectors include `quiet`, `small`, `strong`, `main-scroll`, `page`, `inspector`,
-`inspector-head`, `inspector-note`, and 285 more. Defines or consumes CSS custom properties
+`inspector-head`, `inspector-note`, and 286 more. Defines or consumes CSS custom properties
 (design tokens).
 
-[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 67777 bytes
+[`app/src/app.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/app.css) · code · 69170 bytes
 
 ### app.tsx
 
@@ -73,4 +73,4 @@ properties (design tokens).
 
 [`app/src/shell.css`](https://github.com/quirq-ai/space-hub/blob/main/app/src/shell.css) · code · 25465 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

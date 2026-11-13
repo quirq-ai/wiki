@@ -94,4 +94,4 @@ italic, a quiet nod to the thing being searched being you. Notable exports: `Wor
 
 [`components/wordmark.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wordmark.tsx) · code · 1171 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

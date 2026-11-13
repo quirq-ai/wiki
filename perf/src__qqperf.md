@@ -62,4 +62,4 @@ Where perf records live, behind a backend (plan: cloud agnostic). Classes: `Stor
 
 [`src/qqperf/store.py`](https://github.com/quirq-ai/perf/blob/main/src/qqperf/store.py) · code · 10569 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

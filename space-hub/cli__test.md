@@ -13,6 +13,14 @@ after a restart (npm test). Automated test file.
 
 [`cli/test/activityjournal.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/activityjournal.test.ts) · code · 6090 bytes
 
+### agentshub.test.ts
+
+"Connect Agents Hub" (agentshub.ts) against stand-ins for XO's GET /login, Clerk's token
+endpoint, Launchpad's apps list and a hub's /healthz, with a stand-in for the usual Connect
+(npm test). Automated test file.
+
+[`cli/test/agentshub.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/agentshub.test.ts) · code · 23585 bytes
+
 ### agenttemplate.test.ts
 
 The starter definition of an agent (npm test). Automated test file.
@@ -216,7 +224,7 @@ file.
 Runners and workers through space-hub's routes, in front of stand-in runners that speak
 worker/1 and scope tokens like the Agents Hub (npm test). Automated test file.
 
-[`cli/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/workers.test.ts) · code · 31175 bytes
+[`cli/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/workers.test.ts) · code · 32161 bytes
 
 ### xo.test.ts
 
@@ -232,4 +240,4 @@ and for SpacetimeDB's HTTP API (npm test). Automated test file.
 
 [`cli/test/xosignin.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/test/xosignin.test.ts) · code · 12921 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

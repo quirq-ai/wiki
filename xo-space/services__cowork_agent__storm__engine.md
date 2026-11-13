@@ -96,4 +96,4 @@ A `SessionSpec as the store keeps it (sessions.spec`), and back. Functions:
 
 [`services/cowork_agent/storm/engine/specs.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/engine/specs.py) · code · 2857 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

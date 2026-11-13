@@ -126,4 +126,4 @@ A small shell parser for the policy engine (design ch 15 §2.1; decision §0.61)
 
 [`services/cowork_agent/storm/review/tiers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/tiers.py) · code · 89855 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

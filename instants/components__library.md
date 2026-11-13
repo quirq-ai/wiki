@@ -37,4 +37,4 @@ Library URL state, shared by the server page and the client browser. Notable exp
 
 [`components/library/state.ts`](https://github.com/quirq-ai/instants/blob/main/components/library/state.ts) · code · 430 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

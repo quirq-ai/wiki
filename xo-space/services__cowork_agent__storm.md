@@ -36,4 +36,4 @@ Functions: `redact`, `redact_data`, `watch_env`, `add_token`, `drop_token`, `red
 
 [`services/cowork_agent/storm/redact.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/redact.py) · code · 14425 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

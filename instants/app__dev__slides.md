@@ -13,4 +13,4 @@ export const metadata: Metadata = { title: "Slide gallery" } Notable exports:
 
 [`app/dev/slides/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/dev/slides/page.tsx) · code · 2100 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

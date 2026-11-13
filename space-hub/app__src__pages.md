@@ -114,10 +114,12 @@ type ProjectRoute = Extract Notable exports: `ProjectPage`.
 
 ### runners.tsx
 
-type MyWorker = { taskId: string; runnerId: string; title: string; status: string; space:
-string; project: string; updatedAt: string } Notable exports: `RunnersSection`.
+import { afterCheck, CANCEL, CHECK, dialogFor, isHubOutcome, launchpadHome, POLL_MS, START,
+stillWatching, watches, type HubDialog, } from "@/lib/agentshub"; type MyWorker = { taskId:
+string; runnerId: string; title: string; status: string; space: string; project: string;
+updatedAt: string } Notable exports: `RunnersSection`.
 
-[`app/src/pages/runners.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/runners.tsx) · code · 7702 bytes
+[`app/src/pages/runners.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/runners.tsx) · code · 14158 bytes
 
 ### settings.tsx
 
@@ -146,4 +148,4 @@ In Notable exports: `SubhubPage`.
 
 [`app/src/pages/subhub.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/pages/subhub.tsx) · code · 6253 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

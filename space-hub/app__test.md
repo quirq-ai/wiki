@@ -15,6 +15,13 @@ String(nextId++)) => ({ id, at: at(2026, 11, 2), agent, kind, path: "quirq/quirq
 
 [`app/test/activity.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/activity.test.ts) · code · 3707 bytes
 
+### agentshub.test.ts
+
+import { afterCheck, dialogFor, HOLD_MS, isHubOutcome, launchpadHome, POLL_MS,
+STOP_AFTER_MS, stillWatching, watches, } from "../src/lib/agentshub.ts" Automated test file.
+
+[`app/test/agentshub.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/agentshub.test.ts) · code · 3012 bytes
+
 ### channels.test.ts
 
 const entry = (path: string, kind: "file" | "directory", extra: Record = {}) => ({ name:
@@ -95,6 +102,6 @@ tasks: [ { id: "a", title: "Old", status: "done", createdAt: "2026-10-29T10:00:0
 "2026-10-29T12:00:00Z", repo: "quirq-ai/space-hub" }, { title: "no id" }, ] });
 assert.deepEq Automated test file.
 
-[`app/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/workers.test.ts) · code · 11289 bytes
+[`app/test/workers.test.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/test/workers.test.ts) · code · 11702 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

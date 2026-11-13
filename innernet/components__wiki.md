@@ -54,4 +54,4 @@ special pages, held to the bottom of the window on short pages. Each view render
 
 [`components/wiki/wiki-shell.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/wiki/wiki-shell.tsx) · code · 1228 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

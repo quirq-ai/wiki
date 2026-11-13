@@ -13,4 +13,4 @@ HTML document `index.html` titled “cachedExperimentData · XO Research”. cac
 
 [`claude/output/app/claude-json-explorer/site/cachedExperimentData/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedExperimentData/index.html) · code · 15930 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

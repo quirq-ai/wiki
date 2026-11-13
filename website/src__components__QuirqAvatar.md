@@ -26,4 +26,4 @@ useQuirqAvatar, } from 'lib/quirqAvatar' Notable exports: `QuirqAvatar`, `QuirqA
 
 [`src/components/QuirqAvatar/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqAvatar/index.tsx) · code · 19992 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

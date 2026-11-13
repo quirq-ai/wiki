@@ -30,4 +30,4 @@ consumes CSS custom properties (design tokens).
 
 [`src/style.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/style.css) · code · 44110 bytes
 
-_Generated 2026-11-11 13:02 UTC from `quirq`._
+_Generated 2026-11-13 13:30 UTC from `quirq`._

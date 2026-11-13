@@ -83,4 +83,4 @@ e;if(!Array.isArray(globalThis.TURBOPACK))return;var
 
 [`out/_next/static/chunks/turbopack-1y655n96lhfxa.js`](https://github.com/quirq-ai/setup/blob/main/out/_next/static/chunks/turbopack-1y655n96lhfxa.js) · code · 9688 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

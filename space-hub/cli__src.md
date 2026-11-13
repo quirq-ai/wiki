@@ -34,6 +34,13 @@ agent as running there ("agent" presence, with the host).
 
 [`cli/src/agentrun.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agentrun.ts) · code · 5372 bytes
 
+### agentshub.ts
+
+"Connect Agents Hub": one button that finds the person's Agents Hub on Launchpad and
+connects it as their runner. Served by the web service.
+
+[`cli/src/agentshub.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/agentshub.ts) · code · 25577 bytes
+
 ### agenttemplate.ts
 
 The starter definition `spacehub agent create` puts in an agent's home project, in the xo-
@@ -348,7 +355,7 @@ Notable exports: `visitorHome`, `forgetVisitorLanding`, `visitorLanding`.
 
 spacehub web service: the write side of the web UI.
 
-[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 43556 bytes
+[`cli/src/web.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/web.ts) · code · 44698 bytes
 
 ### workerclient.ts
 
@@ -365,7 +372,7 @@ your-own-runners-design.md). A person connects runners (services that speak the 
 Protocol, workerclient.ts) and launches workers from a project's chat on one of them;
 everyone in the space follows the worker there.
 
-[`cli/src/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/workers.ts) · code · 29920 bytes
+[`cli/src/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/workers.ts) · code · 30769 bytes
 
 ### xo.ts
 
@@ -383,4 +390,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

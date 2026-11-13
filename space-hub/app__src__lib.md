@@ -15,6 +15,15 @@ watch: "watching", sync: "syncing", autosync: "editing", agent: "running", app: 
 
 [`app/src/lib/activity.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/activity.ts) · code · 3686 bytes
 
+### agentshub.ts
+
+"Connect Agents Hub" in Settings (pages/runners.tsx): which dialog to show after the button,
+and how the dialog watches for a new hub. Pure, so the rules that keep it from running on
+are tested (test/agentshub.test.ts). Notable exports: `dialogFor`, `afterCheck`,
+`launchpadHome`, `START`, `CHECK`, `CANCEL`, `POLL_MS`, `HOLD_MS`, and 7 more.
+
+[`app/src/lib/agentshub.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/agentshub.ts) · code · 3548 bytes
+
 ### channels.ts
 
 /** * Chat as channels, the way quirq lays it out: Chat// holds a * README (its "## Input"
@@ -169,6 +178,6 @@ Workers launched from a chat, as the app shows them: tasks on the launcher's own
 cli/src/workers.ts), and their events folded into messages, steps, links and notes. A launch
 is a chat turn that ends with the task's marker.
 
-[`app/src/lib/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/workers.ts) · code · 16973 bytes
+[`app/src/lib/workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/lib/workers.ts) · code · 17437 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

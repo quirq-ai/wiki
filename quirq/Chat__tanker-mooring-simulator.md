@@ -27,10 +27,8 @@ Structured data consumed by the surrounding app or tooling.
 
 Jsonl file `chat.log.jsonl`. {"id": "euler-deploy-1", "role": "assistant", "author":
 "euler", "content": "Deployed: the simulator is live as a claude.ai artifact at
-https://claude.ai/artifact/UtxcGHsmTjvGeX4HGCQyEq (private to suraj until shared). It is the
-same page as output/index.html, with the uPlot stylesheet inlined and JSON/CSV saves routed
-through the artifact viewer.", "time": "2026-10-29T19:42:00.000Z"}.
+https://claude.ai/artifact/UtxcGHsmTjvGeX4HGCQyEq (private to suraj until shared).
 
-[`Chat/tanker-mooring-simulator/chat.log.jsonl`](https://github.com/quirq-ai/quirq/blob/main/Chat/tanker-mooring-simulator/chat.log.jsonl) · code · 388 bytes
+[`Chat/tanker-mooring-simulator/chat.log.jsonl`](https://github.com/quirq-ai/quirq/blob/main/Chat/tanker-mooring-simulator/chat.log.jsonl) · code · 1327 bytes
 
-_Generated 2026-11-11 13:02 UTC from `main`._
+_Generated 2026-11-13 13:30 UTC from `main`._

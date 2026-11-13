@@ -33,6 +33,8 @@ flowchart LR
     environment["environment"]
     euler["euler"]
     experiments["experiments"]
+    fabric_chat["fabric-chat"]
+    fabric_chat_node["fabric-chat-node"]
     galileo["galileo"]
     gardener["gardener"]
     gate["gate"]
@@ -80,6 +82,8 @@ flowchart LR
   click environment "./environment/_index.md"
   click euler "./euler/_index.md"
   click experiments "./experiments/_index.md"
+  click fabric_chat "./fabric-chat/_index.md"
+  click fabric_chat_node "./fabric-chat-node/_index.md"
   click galileo "./galileo/_index.md"
   click gardener "./gardener/_index.md"
   click gate "./gate/_index.md"
@@ -118,7 +122,7 @@ flowchart LR
   click xo_space "./xo-space/_index.md"
 ```
 
-[`.github`](.github/_index.md) · [`agent-skills`](agent-skills/_index.md) · [`argus-code`](argus-code/_index.md)* · [`claude-code`](claude-code/_index.md) · [`cli-console`](cli-console/_index.md) · [`control`](control/_index.md) · [`docs`](docs/_index.md) · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`experiments`](experiments/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`github-activity`](github-activity/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`lan`](lan/_index.md) · [`launchpad`](launchpad/_index.md) · [`library`](library/_index.md) · [`marketing`](marketing/_index.md) · [`monitoring`](monitoring/_index.md) · [`perf`](perf/_index.md) · [`qq`](qq/_index.md) · [`quirq`](quirq/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`setup`](setup/_index.md) · [`space-hub`](space-hub/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`ui`](ui/_index.md) · [`vangogh`](vangogh/_index.md) · [`vercel-activity`](vercel-activity/_index.md) · [`website`](website/_index.md) · [`xo`](xo/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
+[`.github`](.github/_index.md) · [`agent-skills`](agent-skills/_index.md) · [`argus-code`](argus-code/_index.md)* · [`claude-code`](claude-code/_index.md) · [`cli-console`](cli-console/_index.md) · [`control`](control/_index.md) · [`docs`](docs/_index.md) · [`environment`](environment/_index.md) · [`euler`](euler/_index.md) · [`experiments`](experiments/_index.md) · [`fabric-chat`](fabric-chat/_index.md) · [`fabric-chat-node`](fabric-chat-node/_index.md) · [`galileo`](galileo/_index.md) · [`gardener`](gardener/_index.md) · [`gate`](gate/_index.md) · [`github-activity`](github-activity/_index.md) · [`infra-config`](infra-config/_index.md) · [`innernet`](innernet/_index.md) · [`installer`](installer/_index.md) · [`instants`](instants/_index.md) · [`lan`](lan/_index.md) · [`launchpad`](launchpad/_index.md) · [`library`](library/_index.md) · [`marketing`](marketing/_index.md) · [`monitoring`](monitoring/_index.md) · [`perf`](perf/_index.md) · [`qq`](qq/_index.md) · [`quirq`](quirq/_index.md) · [`quirq_ai`](quirq_ai/_index.md) · [`quirqy`](quirqy/_index.md) · [`quitter`](quitter/_index.md) · [`recipes`](recipes/_index.md) · [`release`](release/_index.md) · [`remote-build`](remote-build/_index.md) · [`research`](research/_index.md) · [`rollers`](rollers/_index.md) · [`setup`](setup/_index.md) · [`space-hub`](space-hub/_index.md) · [`sync`](sync/_index.md) · [`test-pipelines`](test-pipelines/_index.md) · [`toolchains`](toolchains/_index.md) · [`ui`](ui/_index.md) · [`vangogh`](vangogh/_index.md) · [`vercel-activity`](vercel-activity/_index.md) · [`website`](website/_index.md) · [`xo`](xo/_index.md) · [`xo-cowork-api`](xo-cowork-api/_index.md) · [`xo-space`](xo-space/_index.md)*
 
 \* public fork
 <!-- quirq-wiki:repos:end -->

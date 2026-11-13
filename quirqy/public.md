@@ -27,4 +27,4 @@ executable source.
 
 [`public/xo-logo.svg`](https://github.com/quirq-ai/quirqy/blob/quirq/public/xo-logo.svg) · code · 754 bytes
 
-_Generated 2026-11-11 13:02 UTC from `quirq`._
+_Generated 2026-11-13 13:30 UTC from `quirq`._
