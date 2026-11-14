@@ -52,7 +52,7 @@ redistribution.
 The project README (“Fabric Chat”). A Slack-style team chat where the database is a
 Hyperledger Fabric 2.5 ledger. It runs in two ways.
 
-[`README.md`](https://github.com/quirq-ai/fabric-chat/blob/main/README.md) · code · 26818 bytes
+[`README.md`](https://github.com/quirq-ai/fabric-chat/blob/main/README.md) · code · 26908 bytes
 
 ### network.json
 
@@ -94,4 +94,4 @@ module's public entry.
 
 [`vite.config.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/vite.config.ts) · code · 512 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

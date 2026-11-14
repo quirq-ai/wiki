@@ -74,4 +74,4 @@ exposed to the internet, and every connection is identity-checked.
 
 [`README.md`](https://github.com/quirq-ai/lan/blob/main/README.md) · code · 2434 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

@@ -13,4 +13,4 @@ Wired into a Next.js app (App Router or Next APIs).
 
 [`app/add/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/add/page.tsx) · code · 2173 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

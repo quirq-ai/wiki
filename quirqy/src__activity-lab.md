@@ -160,4 +160,4 @@ button`, `activity-guide-actions`, and 20 more. Defines or consumes CSS custom p
 
 [`src/activity-lab/style.css`](https://github.com/quirq-ai/quirqy/blob/quirq/src/activity-lab/style.css) · code · 14586 bytes
 
-_Generated 2026-11-13 13:30 UTC from `quirq`._
+_Generated 2026-11-14 12:36 UTC from `quirq`._

@@ -14,4 +14,4 @@ blobs.
 
 [`docs/calendar-phone.png`](https://github.com/quirq-ai/monitoring/blob/main/docs/calendar-phone.png) · binary · 96025 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

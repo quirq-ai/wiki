@@ -55,4 +55,4 @@ and both orderers.
 
 [`docs/lab/who-needs-whom.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/lab/who-needs-whom.ts) · code · 6009 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

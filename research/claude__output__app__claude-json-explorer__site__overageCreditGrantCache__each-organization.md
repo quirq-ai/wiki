@@ -13,4 +13,4 @@ Research”. overageCreditGrantCache[&lt;organization id&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/overageCreditGrantCache/each-organization/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/overageCreditGrantCache/each-organization/index.html) · code · 15895 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

@@ -70,4 +70,4 @@ Python module `test_worker.py`. Functions: `write_request`,
 
 [`tests/test_worker.py`](https://github.com/quirq-ai/remote-build/blob/main/tests/test_worker.py) · code · 2953 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

@@ -17,6 +17,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **docs** | public | [`docs/`](docs/_index.md) | [docs](https://github.com/quirq-ai/docs) |
 | **environment** | public | [`environment/`](environment/_index.md) | [environment](https://github.com/quirq-ai/environment) |
 | **euler** | public | [`euler/`](euler/_index.md) | [euler](https://github.com/quirq-ai/euler) |
+| **executor** | public | [`executor/`](executor/_index.md) | [executor](https://github.com/quirq-ai/executor) |
 | **experiments** | public | [`experiments/`](experiments/_index.md) | [experiments](https://github.com/quirq-ai/experiments) |
 | **fabric-chat**<br>A Slack-style team chat where every message is a transaction on a Hyperledger Fabric 2.5 ledger | public | [`fabric-chat/`](fabric-chat/_index.md) | [fabric-chat](https://github.com/quirq-ai/fabric-chat) |
 | **fabric-chat-node**<br>The template a company copies to run its own Fabric Chat server: company.json, the chat command and compose.yaml | public | [`fabric-chat-node/`](fabric-chat-node/_index.md) | [fabric-chat-node](https://github.com/quirq-ai/fabric-chat-node) |
@@ -31,6 +32,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **lan** | public | [`lan/`](lan/_index.md) | [lan](https://github.com/quirq-ai/lan) |
 | **launchpad** | public | [`launchpad/`](launchpad/_index.md) | [launchpad](https://github.com/quirq-ai/launchpad) |
 | **library** | public | [`library/`](library/_index.md) | [library](https://github.com/quirq-ai/library) |
+| **liftoff**<br>Local deploy console for XO Launchpad docker apps | public | [`liftoff/`](liftoff/_index.md) | [liftoff](https://github.com/quirq-ai/liftoff) |
 | **marketing**<br>marketing: campaign copy, launch posts and brand assets | public | [`marketing/`](marketing/_index.md) | [marketing](https://github.com/quirq-ai/marketing) |
 | **monitoring** | public | [`monitoring/`](monitoring/_index.md) | [monitoring](https://github.com/quirq-ai/monitoring) |
 | **perf** | public | [`perf/`](perf/_index.md) | [perf](https://github.com/quirq-ai/perf) |
@@ -63,4 +65,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-11-13 13:30 UTC._
+_Generated 2026-11-14 12:36 UTC._

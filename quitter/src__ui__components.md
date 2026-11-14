@@ -100,4 +100,4 @@ Notable exports: `Tabs`.
 
 [`src/ui/components/Tabs.tsx`](https://github.com/quirq-ai/quitter/blob/main/src/ui/components/Tabs.tsx) · code · 1210 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

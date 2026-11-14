@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-13T13:30:59.028006+00:00",
+  "generated_at": "2026-11-14T12:36:21.923057+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -89,6 +89,15 @@
       "sha": "30e24dc1605d5244d8be854e025849b7cb5b7a02"
     },
     {
+      "name": "executor",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/executor",
+      "pushed_at": "2026-11-13T14:53:42Z",
+      "sha": "2cbd2cffe3410ad61340263d8d3d514eefd6e4c1"
+    },
+    {
       "name": "experiments",
       "fork": false,
       "archived": false,
@@ -103,8 +112,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/fabric-chat",
-      "pushed_at": "2026-11-13T04:36:29Z",
-      "sha": "253005efc5f24b8f0e02fbad8dcb1c0fde945469"
+      "pushed_at": "2026-11-13T16:15:12Z",
+      "sha": "f73414bc2f419af84de23749b35a971a8be18caf"
     },
     {
       "name": "fabric-chat-node",
@@ -112,8 +121,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/fabric-chat-node",
-      "pushed_at": "2026-11-13T04:37:33Z",
-      "sha": "2986e3c84318ec4e159dbcc2da966fd8ebd2e363"
+      "pushed_at": "2026-11-13T16:13:20Z",
+      "sha": "bde14c327fb3c3a18f563bed5bc4182808cfda91"
     },
     {
       "name": "galileo",
@@ -184,7 +193,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/instants",
-      "pushed_at": "2026-11-03T07:04:15Z",
+      "pushed_at": "2026-11-13T15:36:46Z",
       "sha": "655b08b7d5282ae8d8f6e4cdfef543ee4bcc92f4"
     },
     {
@@ -213,6 +222,15 @@
       "html_url": "https://github.com/quirq-ai/library",
       "pushed_at": "2026-10-21T18:17:29Z",
       "sha": "4e0cce24fede4dc1b8936354b1f56ff3282e90bc"
+    },
+    {
+      "name": "liftoff",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/liftoff",
+      "pushed_at": "2026-11-13T16:11:26Z",
+      "sha": "4f2c068a7fa3cc01d028dbe470818cfc8eecebf9"
     },
     {
       "name": "marketing",
@@ -256,8 +274,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/quirq",
-      "pushed_at": "2026-11-13T03:49:15Z",
-      "sha": "4c042271e82d09e1fddb05577e54ad5c36018f96"
+      "pushed_at": "2026-11-14T03:48:56Z",
+      "sha": "4cba8377d6da3b5ed922c715515ed70f5e356a25"
     },
     {
       "name": "quirq_ai",
@@ -301,7 +319,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-13T07:40:52Z",
+      "pushed_at": "2026-11-14T07:40:37Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -364,7 +382,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-13T06:56:36Z",
+      "pushed_at": "2026-11-14T06:42:26Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {
@@ -436,7 +454,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-11-09T16:07:30Z",
+      "pushed_at": "2026-11-13T23:19:53Z",
       "sha": "b7124b07dc309174c9239389559ae25af49f0596"
     }
   ]

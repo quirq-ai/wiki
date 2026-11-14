@@ -28,4 +28,4 @@ Vtt file `innernet-explainer.vtt`. WEBVTT.
 
 [`public/guide/innernet-explainer.vtt`](https://github.com/quirq-ai/innernet/blob/main/public/guide/innernet-explainer.vtt) · code · 4085 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

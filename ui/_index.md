@@ -257,4 +257,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/docs` | 15 | [src__docs.md](src__docs.md) |
 | `src/registry` | 3 | [src__registry.md](src__registry.md) |
 
-_Generated 2026-11-13 13:30 UTC._
+_Generated 2026-11-14 12:36 UTC._

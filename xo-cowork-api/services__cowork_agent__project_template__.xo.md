@@ -55,4 +55,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`services/cowork_agent/project_template/.xo/todos.json`](https://github.com/quirq-ai/xo-cowork-api/blob/main/services/cowork_agent/project_template/.xo/todos.json) · code · 58 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

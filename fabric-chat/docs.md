@@ -13,7 +13,7 @@ up companies on one laptop. This guide is about the real thing: each company run
 copy on its own server, adds its own people, and connects to other companies when it wants
 to talk to them.
 
-[`docs/many-companies.md`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/many-companies.md) · code · 35244 bytes
+[`docs/many-companies.md`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/many-companies.md) · code · 35981 bytes
 
 ### many-connect.svg
 
@@ -50,4 +50,4 @@ executable source.
 
 [`docs/send.svg`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/send.svg) · code · 4746 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

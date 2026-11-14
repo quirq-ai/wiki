@@ -36,7 +36,7 @@ The project README (“Your company's Fabric Chat server”). This folder is eve
 company needs to run its own team chat on its own Hyperledger Fabric node, and to share a
 workspace with other companies that do the same: three files, and Docker.
 
-[`node-template/README.md`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/README.md) · code · 18105 bytes
+[`node-template/README.md`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/README.md) · code · 18090 bytes
 
 ### chat
 
@@ -51,7 +51,7 @@ JSON document `company.json` whose top-level keys are `name`, `id`, `color`, `ho
 `admin`, `listen`, `images`, `release`. Structured data consumed by the surrounding app or
 tooling.
 
-[`node-template/company.json`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/company.json) · code · 401 bytes
+[`node-template/company.json`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/company.json) · code · 418 bytes
 
 ### compose.yaml
 
@@ -62,4 +62,4 @@ server.
 
 [`node-template/compose.yaml`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/compose.yaml) · code · 11605 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

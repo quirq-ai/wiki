@@ -90,4 +90,4 @@ The canonical `.xo/` directory every xo-project carries. Classes: `EnsureReport`
 
 [`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 11164 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

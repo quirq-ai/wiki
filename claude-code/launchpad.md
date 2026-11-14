@@ -12,4 +12,4 @@ YAML file `template.yaml`. Top-level keys: `apiVersion`, `kind`, `metadata`, `sp
 
 [`launchpad/template.yaml`](https://github.com/quirq-ai/claude-code/blob/main/launchpad/template.yaml) · code · 1233 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

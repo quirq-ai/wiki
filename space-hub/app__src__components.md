@@ -68,4 +68,4 @@ more. cons Notable exports: `WorkerCard`.
 
 [`app/src/components/worker-card.tsx`](https://github.com/quirq-ai/space-hub/blob/main/app/src/components/worker-card.tsx) · code · 10684 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

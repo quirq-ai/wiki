@@ -22,4 +22,4 @@ blobs.
 
 [`tests/space_ui_preview/screenshots/global-refresh-mobile.png`](https://github.com/quirq-ai/xo-space/blob/main/tests/space_ui_preview/screenshots/global-refresh-mobile.png) · binary · 59396 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

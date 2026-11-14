@@ -39,7 +39,7 @@ What a company's own server shows that the sandbox does not: a sign-in form, the
 an invitation link, and the list of people an administrator looks after. Notable exports:
 `CompanySignIn`, `AcceptInvite`, `PeopleDialog`.
 
-[`web/src/Company.tsx`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/Company.tsx) · code · 15661 bytes
+[`web/src/Company.tsx`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/Company.tsx) · code · 16750 bytes
 
 ### Compare.tsx
 
@@ -130,7 +130,7 @@ Fabric Chat. One stylesheet: tokens, then each part of the screen from the outsi
 Leading class selectors include `mono`, `dim`, `small`, `good`, `warn`, `error`, `row`,
 `primary`, and 135 more. Defines or consumes CSS custom properties (design tokens).
 
-[`web/src/styles.css`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/styles.css) · code · 38809 bytes
+[`web/src/styles.css`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/styles.css) · code · 39024 bytes
 
 ### types.ts
 
@@ -138,6 +138,6 @@ The shapes the API returns. Most are defined once, on the server, and only their
 used here. Notable exports: `Org`, `Workspace`, `NetworkInfo`, `Role`, `SessionUser`,
 `Member`, `CardView`, `SharedWorkspace`, and 8 more.
 
-[`web/src/types.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/types.ts) · code · 4725 bytes
+[`web/src/types.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/types.ts) · code · 4830 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

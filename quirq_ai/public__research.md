@@ -134,4 +134,4 @@ generated blobs.
 
 [`public/research/validation.jpg`](https://github.com/quirq-ai/quirq_ai/blob/main/public/research/validation.jpg) · binary · 205736 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

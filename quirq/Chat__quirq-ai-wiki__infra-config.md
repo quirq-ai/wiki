@@ -12,4 +12,4 @@ The project README (“infra-config”). euler.
 
 [`Chat/quirq-ai-wiki/infra-config/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/infra-config/README.md) · code · 307 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

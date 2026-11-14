@@ -8,7 +8,7 @@ Instants turns folders of past research and experiments into Instagram-style car
 - [Activity history](../_activity/repos/instants.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-11-03T07:04:15Z`
+- Last push: `2026-11-13T15:36:46Z`
 - Snapshot SHA: `655b08b7d528`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -67,4 +67,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `vendor` | 2 | [vendor.md](vendor.md) |
 
-_Generated 2026-11-13 13:30 UTC._
+_Generated 2026-11-14 12:36 UTC._

@@ -29,4 +29,4 @@ per project.
 
 [`services/cowork_agent/storm/presets/prompts/workspace_coordinator.md`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/presets/prompts/workspace_coordinator.md) · code · 3161 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

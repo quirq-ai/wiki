@@ -30,4 +30,4 @@ company runs, on one server.
 
 [`scripts/releases/0.2.0/compose.yaml`](https://github.com/quirq-ai/fabric-chat/blob/main/scripts/releases/0.2.0/compose.yaml) · code · 9579 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

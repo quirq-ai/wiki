@@ -43,7 +43,7 @@ fabric-chat-app the chat app Usage: npm run images build them on this machine np
 -- --push ghcr.io/quirq-ai/fabric-chat and send them to a registry, where a company's server
 can get them Sending needs "docker login" to that registry first.
 
-[`scripts/images.mjs`](https://github.com/quirq-ai/fabric-chat/blob/main/scripts/images.mjs) · code · 2990 bytes
+[`scripts/images.mjs`](https://github.com/quirq-ai/fabric-chat/blob/main/scripts/images.mjs) · code · 3669 bytes
 
 ### lib.mjs
 
@@ -77,4 +77,4 @@ earlier release came with. It uses ports 4795 to 4797 on this machine.
 
 [`scripts/upgrade-check.mjs`](https://github.com/quirq-ai/fabric-chat/blob/main/scripts/upgrade-check.mjs) · code · 13821 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

@@ -164,4 +164,4 @@ module's public entry.
 
 [`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8251 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

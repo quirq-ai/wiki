@@ -12,4 +12,4 @@ The project README (“web”).
 
 [`tests/fixtures/quirq/web/README.md`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/web/README.md) · code · 6 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

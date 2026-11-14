@@ -33,4 +33,4 @@ const BACKENDS = { dir: DirTransport, git: GitTransport } Notable exports:
 
 [`src/transports/index.js`](https://github.com/quirq-ai/control/blob/main/src/transports/index.js) · code · 536 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:35 UTC from `main`._

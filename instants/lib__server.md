@@ -43,4 +43,4 @@ reloads; a job older than STALE_MS is dead. Notable exports: `videoJob`.
 
 [`lib/server/video-job.ts`](https://github.com/quirq-ai/instants/blob/main/lib/server/video-job.ts) · code · 3906 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

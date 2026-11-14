@@ -110,4 +110,4 @@ Python module `test_service.py`. Functions: `svc`, `test_deploy_probe_teardown`,
 
 [`tests/test_service.py`](https://github.com/quirq-ai/recipes/blob/main/tests/test_service.py) · code · 5961 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+_Generated 2026-11-14 12:36 UTC from `main`._

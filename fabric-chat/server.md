@@ -14,7 +14,7 @@ key (see wallet.ts); the account is what lets them use it: a password, a role, a
 they have accepted their invitation yet. Everything is kept in two small files in the app's
 own data volume.
 
-[`server/accounts.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/accounts.ts) · code · 12204 bytes
+[`server/accounts.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/accounts.ts) · code · 13431 bytes
 
 ### api.ts
 
@@ -24,7 +24,7 @@ on the first screen is the sign-in, and each request names that person in the x-
 header. On a company's own server a person signs in with a password, and each request is
 theirs because of its session cookie (company.ts).
 
-[`server/api.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/api.ts) · code · 21199 bytes
+[`server/api.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/api.ts) · code · 21260 bytes
 
 ### backup.mjs
 
@@ -69,7 +69,7 @@ handle and a password. The server answers with a session cookie. An administrato
 person: the company's CA signs them a certificate, they join the home workspace, and the
 administrator gets a one-time link to pass on.
 
-[`server/company.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/company.ts) · code · 23581 bytes
+[`server/company.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/company.ts) · code · 26183 bytes
 
 ### config.ts
 
@@ -165,4 +165,13 @@ people's behalf, the way a company's mail server sends on theirs.
 
 [`server/wallet.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/wallet.ts) · code · 3041 bytes
 
-_Generated 2026-11-13 13:30 UTC from `main`._
+### xologin.ts
+
+"Sign in with XO": an optional second way in, next to a handle and a password. XO's accounts
+are kept by Clerk. The xo server (quirq-ai/xo) says where Clerk's sign-in is and which
+public OAuth client to use (GET /login), the same one `xo login` uses. The chat sends the
+browser there with a one-time verifier's hash (OAuth's authorization code flow with PKCE).
+
+[`server/xologin.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/xologin.ts) · code · 7166 bytes
+
+_Generated 2026-11-14 12:35 UTC from `main`._
