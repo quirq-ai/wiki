@@ -139,4 +139,4 @@ import.meta.url)), }, }, test: { include: process.env.LIVE ? ["tests/live-check.
 
 [`vitest.config.ts`](https://github.com/quirq-ai/monitoring/blob/main/vitest.config.ts) · code · 567 bytes
 
-_Generated 2026-11-14 12:36 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._

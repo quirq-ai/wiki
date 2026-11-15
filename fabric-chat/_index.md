@@ -37,4 +37,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `web` | 1 | [web.md](web.md) |
 | `web/src` | 17 | [web__src.md](web__src.md) |
 
-_Generated 2026-11-14 12:35 UTC._
+_Generated 2026-11-15 13:01 UTC._

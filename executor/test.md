@@ -13,4 +13,4 @@ CODEX_API_KEY: "k", WORKSPACE_DIR: "/workspace/work", } Automated test file.
 
 [`test/config.test.mjs`](https://github.com/quirq-ai/executor/blob/main/test/config.test.mjs) · code · 1574 bytes
 
-_Generated 2026-11-14 12:35 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._

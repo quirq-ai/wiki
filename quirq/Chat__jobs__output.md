@@ -12,4 +12,4 @@ Markdown page “jobs”. An agent for the quirq organization.
 
 [`Chat/jobs/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/jobs/output/one-pager.md) · code · 263 bytes
 
-_Generated 2026-11-14 12:36 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._

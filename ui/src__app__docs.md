@@ -20,4 +20,4 @@ export const metadata: Metadata = { title: "Introduction" } Notable exports: `Pa
 
 [`src/app/docs/page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/docs/page.tsx) · code · 301 bytes
 
-_Generated 2026-11-14 12:36 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._

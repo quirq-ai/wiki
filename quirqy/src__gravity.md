@@ -42,4 +42,4 @@ exports: `runningGAt`, `qgAccelFromTo`, `qgAccelAt`, `qgPotentialAt`, `hawkingMa
 
 [`src/gravity/quantum.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/gravity/quantum.js) · code · 7477 bytes
 
-_Generated 2026-11-14 12:36 UTC from `quirq`._
+_Generated 2026-11-15 13:01 UTC from `quirq`._

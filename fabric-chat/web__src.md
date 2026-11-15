@@ -140,4 +140,4 @@ used here. Notable exports: `Org`, `Workspace`, `NetworkInfo`, `Role`, `SessionU
 
 [`web/src/types.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/web/src/types.ts) · code · 4830 bytes
 
-_Generated 2026-11-14 12:35 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._

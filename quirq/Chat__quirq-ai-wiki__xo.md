@@ -12,4 +12,4 @@ The project README (“xo”). euler.
 
 [`Chat/quirq-ai-wiki/xo/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/xo/README.md) · code · 277 bytes
 
-_Generated 2026-11-14 12:36 UTC from `main`._
+_Generated 2026-11-15 13:01 UTC from `main`._
