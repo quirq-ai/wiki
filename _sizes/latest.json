@@ -416,7 +416,7 @@
       "error": null,
       "files": 55,
       "fork": false,
-      "github_kb": 379,
+      "github_kb": 361,
       "repo": "release",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147",
       "truncated": false
@@ -500,7 +500,7 @@
       "error": null,
       "files": 58,
       "fork": false,
-      "github_kb": 4317,
+      "github_kb": 4319,
       "repo": "test-pipelines",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539",
       "truncated": false
@@ -567,14 +567,14 @@
     },
     {
       "archived": false,
-      "bytes": 23258665,
+      "bytes": 23599433,
       "default_branch": "main",
       "error": null,
-      "files": 1928,
+      "files": 1930,
       "fork": false,
-      "github_kb": 10691,
+      "github_kb": 11016,
       "repo": "wiki",
-      "sha": "f29772dd02ca905dccb8fce45b98798e28f9f16c",
+      "sha": "db2a9502d52302e08599b7b8e15a78d7341eb6ae",
       "truncated": false
     },
     {
@@ -615,13 +615,13 @@
     }
   ],
   "schema_version": 1,
-  "taken_at": "2026-11-14T13:49:07Z",
+  "taken_at": "2026-11-15T14:19:30Z",
   "totals": {
-    "bytes": 268979013,
+    "bytes": 269319781,
     "complete": true,
-    "files": 8484,
+    "files": 8486,
     "github_complete": true,
-    "github_kb": 1039124,
+    "github_kb": 1039433,
     "left_out": 0,
     "repos": 51
   }
