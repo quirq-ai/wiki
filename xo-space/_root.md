@@ -43,19 +43,17 @@ are not in the clone the wiki summarizes.
 
 ### AGENTS.md
 
-The agent/workspace instructions (“XO Cowork API - Codex Project Instructions”). - FastAPI
-backend that brokers chat and auth flows. - Uses local coding CLIs (claude or codex) for
-assistant responses. - Keep API behavior backward compatible by default.
+The agent/workspace instructions (“XO Cowork API - Project Instructions”). The one
+instruction file for every coding agent in this repo. CLAUDE.md only imports this file, so
+edit here.
 
-[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 4149 bytes
+[`AGENTS.md`](https://github.com/quirq-ai/xo-space/blob/main/AGENTS.md) · code · 5725 bytes
 
 ### CLAUDE.md
 
-The Claude Code instructions (“XO Cowork API - Project Memory”). - FastAPI backend that
-brokers chat and auth flows. - Uses local claude CLI for coding/assistant responses. -
-Primary API behavior should remain backward compatible.
+The Claude Code instructions. @AGENTS.md.
 
-[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 4228 bytes
+[`CLAUDE.md`](https://github.com/quirq-ai/xo-space/blob/main/CLAUDE.md) · code · 11 bytes
 
 ### CONTRIBUTING.md
 
@@ -72,7 +70,7 @@ The developer guide (“Developing xo-space”). A practical guide to working in
 how it's wired, where things live, how to run and validate it, and how to add a new agent
 backend without touching core code.
 
-[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 67686 bytes
+[`DEVELOPING.md`](https://github.com/quirq-ai/xo-space/blob/main/DEVELOPING.md) · code · 73477 bytes
 
 ### Dockerfile
 
@@ -158,7 +156,7 @@ Txt file `requirements-dev.txt`. XO Space API — development / test dependencie
 
 Txt file `requirements.txt`. XO Space API Dependencies.
 
-[`requirements.txt`](https://github.com/quirq-ai/xo-space/blob/main/requirements.txt) · code · 2927 bytes
+[`requirements.txt`](https://github.com/quirq-ai/xo-space/blob/main/requirements.txt) · code · 3819 bytes
 
 ### server.py
 
@@ -168,7 +166,7 @@ script via `if __name__ == '__main__'`. Defines the `app` application object. HT
 `POST /app/update`. Functions: `lifespan`, `root`, `health_check`, `debug_ai_auth`,
 `gateway_restart`, `app_restart`, `app_update`. Built with FastAPI.
 
-[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 43128 bytes
+[`server.py`](https://github.com/quirq-ai/xo-space/blob/main/server.py) · code · 46907 bytes
 
 ### uninstall.sh
 
@@ -179,4 +177,4 @@ uninstall.sh — remove everything install.sh created, keeping your projects. Sh
 
 [`uninstall.sh`](https://github.com/quirq-ai/xo-space/blob/main/uninstall.sh) · code · 15758 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

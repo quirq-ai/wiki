@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Router aggregation for the cowork_agent subpackage. Functions: `_active_agent_routes`. Built
 with FastAPI.
 
-[`routers/cowork_agent/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/__init__.py) · code · 3333 bytes
+[`routers/cowork_agent/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/__init__.py) · code · 3395 bytes
 
 ### agents.py
 
@@ -185,4 +185,4 @@ xo-projects backup/restore router. Defines the `router` application object. HTTP
 
 [`routers/cowork_agent/xo_projects_sync.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/xo_projects_sync.py) · code · 13060 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

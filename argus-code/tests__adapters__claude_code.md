@@ -99,4 +99,4 @@ Python module `test_schemas.py`. Functions: `test_parses_assistant_line_with_usa
 
 [`tests/adapters/claude_code/test_schemas.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/adapters/claude_code/test_schemas.py) · code · 3069 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

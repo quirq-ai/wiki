@@ -15,9 +15,10 @@ GitHub connector.
 ### cli_auth.py
 
 GitHub connector — gh auth login (CLI device-flow) acquisition. Classes: `_Session`.
-Functions: `start_login`, `poll_login`, `connect`, `cancel_login`. Built with FastAPI.
+Functions: `gh_login_token`, `missing_scopes`, `existing_login`, `import_existing_login`,
+`start_login`, `poll_login`, `connect`, `cancel_login`. Built with FastAPI.
 
-[`services/cowork_agent/connectors/github/cli_auth.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/github/cli_auth.py) · code · 13126 bytes
+[`services/cowork_agent/connectors/github/cli_auth.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/github/cli_auth.py) · code · 18611 bytes
 
 ### common.py
 
@@ -50,4 +51,4 @@ GitHub connector — PAT (Personal Access Token) acquisition. Functions: `looks_
 
 [`services/cowork_agent/connectors/github/pat.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/github/pat.py) · code · 1948 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

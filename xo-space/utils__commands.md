@@ -8,17 +8,20 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 ### __init__.py
 
-""" Subprocess command-runner utility.
+Subprocess command-runner utility. Classes: `CommandResult`, `LineTooLong`, `LiveProcess`,
+`_StreamProtocol`, `StreamProcess`, `CommandSpecError`, `CommandSpec`, `PtyProcess`.
+Functions: `spawn_detached`, `archive_path_for`, `run`, `run_watched`, `run_sync`,
+`run_chain`, `live_processes`, `process_start_ticks`, and 9 more.
 
-[`utils/commands/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/__init__.py) · code · 68332 bytes
+[`utils/commands/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/__init__.py) · code · 74275 bytes
 
 ### scheduler.py
 
 Manual and fixed-interval commands: the job store and the tick. Classes: `SchedulerError`,
 `UnknownJobError`, `JobRunningError`, `ConcurrencyLimitError`, `AgentJobsUnavailable`,
 `_Run`, `TickReport`. Functions: `jobs_file`, `state_file`, `runs_file`, `log_file`,
-`scheduler_enabled`, `max_concurrent`, `now_utc`, `stamp`, and 18 more.
+`scheduler_enabled`, `max_concurrent`, `now_utc`, `stamp`, and 20 more.
 
-[`utils/commands/scheduler.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/scheduler.py) · code · 47328 bytes
+[`utils/commands/scheduler.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/scheduler.py) · code · 48782 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

@@ -12,4 +12,4 @@ type ShareView = 'lines' | 'columns' | 'table' Notable exports: `ModelsPage`.
 
 [`dashboard/src/features/models/ModelsPage.tsx`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/features/models/ModelsPage.tsx) · code · 4933 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

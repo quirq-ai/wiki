@@ -42,10 +42,11 @@ REST routes for the Google Drive connector. Defines the `router` application obj
 
 REST routes for the GitHub connector — CLI method (gh auth login device flow). Defines the
 `router` application object. HTTP routes: `POST /api/connectors/github/cli/start`, `POST
-/api/connectors/github/cli/poll`, `POST /api/connectors/github/cli/cancel`. Classes:
-`CliSessionBody`. Functions: `cli_login_start`, `cli_login_poll`, `cli_login_cancel`.
+/api/connectors/github/cli/poll`, `POST /api/connectors/github/cli/cancel`, `GET
+/api/connectors/github/cli/existing`, `POST /api/connectors/github/cli/import`. Classes:
+`CliSessionBody`.
 
-[`routers/cowork_agent/connectors/github_cli.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/github_cli.py) · code · 3316 bytes
+[`routers/cowork_agent/connectors/github_cli.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/github_cli.py) · code · 5199 bytes
 
 ### github_pat.py
 
@@ -55,7 +56,7 @@ the `router` application object. HTTP routes: `POST /api/connectors/github/token
 /api/connectors/github/reconnect`. Classes: `TokenBody`. Functions: `submit_github_token`,
 `github_status`, `disconnect_github`, `reconnect_github`.
 
-[`routers/cowork_agent/connectors/github_pat.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/github_pat.py) · code · 3881 bytes
+[`routers/cowork_agent/connectors/github_pat.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/github_pat.py) · code · 4381 bytes
 
 ### magicpath.py
 
@@ -83,4 +84,4 @@ more. Classes: `TokenBody`, `ExchangeBody`.
 
 [`routers/cowork_agent/connectors/vercel.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/connectors/vercel.py) · code · 8729 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

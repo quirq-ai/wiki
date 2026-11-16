@@ -14,4 +14,4 @@ as a script via `if __name__ == '__main__'`. Functions: `normalized`, `pretty`, 
 
 [`tools/junit_compare.py`](https://github.com/quirq-ai/qq/blob/main/tools/junit_compare.py) · code · 2239 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

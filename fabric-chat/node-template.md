@@ -62,4 +62,4 @@ server.
 
 [`node-template/compose.yaml`](https://github.com/quirq-ai/fabric-chat/blob/main/node-template/compose.yaml) · code · 11605 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

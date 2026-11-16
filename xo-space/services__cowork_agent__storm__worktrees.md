@@ -15,18 +15,31 @@ Storm's worktrees (design ch 13): each thread of a git project works in its own 
 
 ### git.py
 
-The git commands storm's worktrees run, through the one executor (`utils.commands.run`), and
-the parsers for what they print. Classes: `GitFailed`, `Entry`, `Change`. Functions: `git`,
-`git_out`, `version`, `relative_paths`, `worktree_list`, `status`.
+Moved to services.git_safe; this import path stays valid.
 
-[`services/cowork_agent/storm/worktrees/git.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/git.py) · code · 5292 bytes
+[`services/cowork_agent/storm/worktrees/git.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/git.py) · code · 146 bytes
 
 ### service.py
 
 Storm's worktrees in the engine's life (design ch 13 §2, §4–§6). Classes: `WouldLoseWork`,
 `NotFound`, `Worktrees`. Functions: `current`.
 
-[`services/cowork_agent/storm/worktrees/service.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/service.py) · code · 24778 bytes
+[`services/cowork_agent/storm/worktrees/service.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/service.py) · code · 28256 bytes
+
+### state.py
+
+A thread branch's git state, as a person catching up reads it (v2). Functions: `empty`,
+`read`, `merge_pr`, `changed`, `gh_available`, `pr_lookup`.
+
+[`services/cowork_agent/storm/worktrees/state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/state.py) · code · 12857 bytes
+
+### tracking.py
+
+Keeping each thread branch's git state (`state.py`) in the store, so a thread says what
+became of its work after its worktree and branch are gone. Classes: `Tracker`. Functions:
+`pr_due`.
+
+[`services/cowork_agent/storm/worktrees/tracking.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/tracking.py) · code · 7813 bytes
 
 ### trees.py
 
@@ -35,6 +48,6 @@ A thread's git worktree on disk, its whole life (design ch 13 §1–§6). Classe
 `worktrees_root`, `tree_path`, `thread_of`, `lock_for`, `snapshot`, `find`, `ensure`, and 6
 more. Contains tests.
 
-[`services/cowork_agent/storm/worktrees/trees.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/trees.py) · code · 29074 bytes
+[`services/cowork_agent/storm/worktrees/trees.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/worktrees/trees.py) · code · 29095 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

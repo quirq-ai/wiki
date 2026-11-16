@@ -14,4 +14,4 @@ blobs.
 
 [`public/assets/machinespeed/hero.jpg`](https://github.com/quirq-ai/quirq_ai/blob/main/public/assets/machinespeed/hero.jpg) · binary · 57446 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

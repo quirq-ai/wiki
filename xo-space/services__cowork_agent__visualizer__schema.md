@@ -126,4 +126,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`services/cowork_agent/visualizer/schema/workitems.schema.json`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/visualizer/schema/workitems.schema.json) · code · 10095 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

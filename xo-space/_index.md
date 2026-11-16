@@ -8,8 +8,8 @@ Build, observe and measure agentic work — locally, across every coding agent y
 - [Activity history](../_activity/repos/xo-space.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-11-13T23:19:53Z`
-- Snapshot SHA: `b7124b07dc30`
+- Last push: `2026-11-16T10:55:31Z`
+- Snapshot SHA: `9bc003e27b15`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
@@ -24,6 +24,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `.agents/skills/debugger` | 1 | [.agents__skills__debugger.md](.agents__skills__debugger.md) |
 | `.agents/skills/default` | 1 | [.agents__skills__default.md](.agents__skills__default.md) |
 | `.agents/skills/reviewer` | 1 | [.agents__skills__reviewer.md](.agents__skills__reviewer.md) |
+| `.agents/skills/xo-deploy` | 1 | [.agents__skills__xo-deploy.md](.agents__skills__xo-deploy.md) |
 | `.claude-plugin` | 1 | [.claude-plugin.md](.claude-plugin.md) |
 | `.github` | 1 | [.github.md](.github.md) |
 | `.github/ISSUE_TEMPLATE` | 4 | [.github__ISSUE_TEMPLATE.md](.github__ISSUE_TEMPLATE.md) |
@@ -63,16 +64,18 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `plugins/quirq/skills/quirq-start` | 1 | [plugins__quirq__skills__quirq-start.md](plugins__quirq__skills__quirq-start.md) |
 | `plugins/quirq/skills/quirq-status` | 1 | [plugins__quirq__skills__quirq-status.md](plugins__quirq__skills__quirq-status.md) |
 | `plugins/quirq/ui` | 3 | [plugins__quirq__ui.md](plugins__quirq__ui.md) |
-| `routers` | 8 | [routers.md](routers.md) |
+| `routers` | 9 | [routers.md](routers.md) |
 | `routers/auth` | 4 | [routers__auth.md](routers__auth.md) |
 | `routers/cowork_agent` | 20 | [routers__cowork_agent.md](routers__cowork_agent.md) |
-| `routers/cowork_agent/bff` | 13 | [routers__cowork_agent__bff.md](routers__cowork_agent__bff.md) |
+| `routers/cowork_agent/bff` | 17 | [routers__cowork_agent__bff.md](routers__cowork_agent__bff.md) |
 | `routers/cowork_agent/connectors` | 9 | [routers__cowork_agent__connectors.md](routers__cowork_agent__connectors.md) |
+| `routers/cowork_agent/coworker` | 2 | [routers__cowork_agent__coworker.md](routers__cowork_agent__coworker.md) |
 | `routers/cowork_agent/legacy` | 2 | [routers__cowork_agent__legacy.md](routers__cowork_agent__legacy.md) |
-| `routers/cowork_agent/storm` | 14 | [routers__cowork_agent__storm.md](routers__cowork_agent__storm.md) |
+| `routers/cowork_agent/storm` | 17 | [routers__cowork_agent__storm.md](routers__cowork_agent__storm.md) |
 | `routers/status` | 4 | [routers__status.md](routers__status.md) |
-| `scripts` | 4 | [scripts.md](scripts.md) |
-| `services` | 12 | [services.md](services.md) |
+| `scripts` | 7 | [scripts.md](scripts.md) |
+| `services` | 17 | [services.md](services.md) |
+| `services/advisory` | 8 | [services__advisory.md](services__advisory.md) |
 | `services/connections` | 6 | [services__connections.md](services__connections.md) |
 | `services/cowork_agent` | 17 | [services__cowork_agent.md](services__cowork_agent.md) |
 | `services/cowork_agent/adapters` | 7 | [services__cowork_agent__adapters.md](services__cowork_agent__adapters.md) |
@@ -80,7 +83,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/adapters/antigravity/runtime` | 14 | [services__cowork_agent__adapters__antigravity__runtime.md](services__cowork_agent__adapters__antigravity__runtime.md) |
 | `services/cowork_agent/adapters/antigravity/runtime/plugin` | 2 | [services__cowork_agent__adapters__antigravity__runtime__plugin.md](services__cowork_agent__adapters__antigravity__runtime__plugin.md) |
 | `services/cowork_agent/adapters/claude_code` | 16 | [services__cowork_agent__adapters__claude_code.md](services__cowork_agent__adapters__claude_code.md) |
-| `services/cowork_agent/adapters/claude_code/runtime` | 10 | [services__cowork_agent__adapters__claude_code__runtime.md](services__cowork_agent__adapters__claude_code__runtime.md) |
+| `services/cowork_agent/adapters/claude_code/runtime` | 11 | [services__cowork_agent__adapters__claude_code__runtime.md](services__cowork_agent__adapters__claude_code__runtime.md) |
 | `services/cowork_agent/adapters/codex` | 17 | [services__cowork_agent__adapters__codex.md](services__cowork_agent__adapters__codex.md) |
 | `services/cowork_agent/adapters/codex/runtime` | 11 | [services__cowork_agent__adapters__codex__runtime.md](services__cowork_agent__adapters__codex__runtime.md) |
 | `services/cowork_agent/adapters/cursor` | 2 | [services__cowork_agent__adapters__cursor.md](services__cowork_agent__adapters__cursor.md) |
@@ -98,18 +101,20 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/project_sharing` | 10 | [services__cowork_agent__project_sharing.md](services__cowork_agent__project_sharing.md) |
 | `services/cowork_agent/project_template` | 1 | [services__cowork_agent__project_template.md](services__cowork_agent__project_template.md) |
 | `services/cowork_agent/registry` | 6 | [services__cowork_agent__registry.md](services__cowork_agent__registry.md) |
-| `services/cowork_agent/storm` | 4 | [services__cowork_agent__storm.md](services__cowork_agent__storm.md) |
-| `services/cowork_agent/storm/chats` | 13 | [services__cowork_agent__storm__chats.md](services__cowork_agent__storm__chats.md) |
-| `services/cowork_agent/storm/comms` | 9 | [services__cowork_agent__storm__comms.md](services__cowork_agent__storm__comms.md) |
+| `services/cowork_agent/storm` | 10 | [services__cowork_agent__storm.md](services__cowork_agent__storm.md) |
+| `services/cowork_agent/storm/chats` | 24 | [services__cowork_agent__storm__chats.md](services__cowork_agent__storm__chats.md) |
+| `services/cowork_agent/storm/comms` | 10 | [services__cowork_agent__storm__comms.md](services__cowork_agent__storm__comms.md) |
+| `services/cowork_agent/storm/control` | 5 | [services__cowork_agent__storm__control.md](services__cowork_agent__storm__control.md) |
 | `services/cowork_agent/storm/engine` | 12 | [services__cowork_agent__storm__engine.md](services__cowork_agent__storm__engine.md) |
 | `services/cowork_agent/storm/jobs` | 3 | [services__cowork_agent__storm__jobs.md](services__cowork_agent__storm__jobs.md) |
 | `services/cowork_agent/storm/presets` | 5 | [services__cowork_agent__storm__presets.md](services__cowork_agent__storm__presets.md) |
 | `services/cowork_agent/storm/presets/prompts` | 3 | [services__cowork_agent__storm__presets__prompts.md](services__cowork_agent__storm__presets__prompts.md) |
+| `services/cowork_agent/storm/records` | 9 | [services__cowork_agent__storm__records.md](services__cowork_agent__storm__records.md) |
 | `services/cowork_agent/storm/review` | 15 | [services__cowork_agent__storm__review.md](services__cowork_agent__storm__review.md) |
 | `services/cowork_agent/storm/runs` | 4 | [services__cowork_agent__storm__runs.md](services__cowork_agent__storm__runs.md) |
-| `services/cowork_agent/storm/store` | 6 | [services__cowork_agent__storm__store.md](services__cowork_agent__storm__store.md) |
+| `services/cowork_agent/storm/store` | 7 | [services__cowork_agent__storm__store.md](services__cowork_agent__storm__store.md) |
 | `services/cowork_agent/storm/stream` | 8 | [services__cowork_agent__storm__stream.md](services__cowork_agent__storm__stream.md) |
-| `services/cowork_agent/storm/worktrees` | 4 | [services__cowork_agent__storm__worktrees.md](services__cowork_agent__storm__worktrees.md) |
+| `services/cowork_agent/storm/worktrees` | 6 | [services__cowork_agent__storm__worktrees.md](services__cowork_agent__storm__worktrees.md) |
 | `services/cowork_agent/visualizer` | 24 | [services__cowork_agent__visualizer.md](services__cowork_agent__visualizer.md) |
 | `services/cowork_agent/visualizer/ingest` | 4 | [services__cowork_agent__visualizer__ingest.md](services__cowork_agent__visualizer__ingest.md) |
 | `services/cowork_agent/visualizer/schema` | 15 | [services__cowork_agent__visualizer__schema.md](services__cowork_agent__visualizer__schema.md) |
@@ -117,10 +122,13 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `services/cowork_agent/visualizer/sources` | 2 | [services__cowork_agent__visualizer__sources.md](services__cowork_agent__visualizer__sources.md) |
 | `services/cowork_agent/visualizer/workspace` | 9 | [services__cowork_agent__visualizer__workspace.md](services__cowork_agent__visualizer__workspace.md) |
 | `services/cowork_agent/xo_projects_sync` | 8 | [services__cowork_agent__xo_projects_sync.md](services__cowork_agent__xo_projects_sync.md) |
+| `services/coworker` | 2 | [services__coworker.md](services__coworker.md) |
 | `services/decision_models` | 4 | [services__decision_models.md](services__decision_models.md) |
 | `services/doctor` | 14 | [services__doctor.md](services__doctor.md) |
 | `services/inbox` | 4 | [services__inbox.md](services__inbox.md) |
+| `services/launchpad` | 6 | [services__launchpad.md](services__launchpad.md) |
 | `services/levanto` | 2 | [services__levanto.md](services__levanto.md) |
+| `services/project_files` | 8 | [services__project_files.md](services__project_files.md) |
 | `services/storage` | 7 | [services__storage.md](services__storage.md) |
 | `services/swarm_api` | 5 | [services__swarm_api.md](services__swarm_api.md) |
 | `services/terminal` | 5 | [services__terminal.md](services__terminal.md) |
@@ -133,12 +141,13 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `space_ui/js` | 1 | [space_ui__js.md](space_ui__js.md) |
 | `space_ui/js/core` | 30 | [space_ui__js__core.md](space_ui__js__core.md) |
 | `space_ui/js/views` | 22 | [space_ui__js__views.md](space_ui__js__views.md) |
-| `tests` | 206 | [tests.md](tests.md) |
+| `tests` | 248 | [tests.md](tests.md) |
 | `tests/fakes` | 4 | [tests__fakes.md](tests__fakes.md) |
 | `tests/fakes/agy` | 1 | [tests__fakes__agy.md](tests__fakes__agy.md) |
 | `tests/fakes/claude` | 1 | [tests__fakes__claude.md](tests__fakes__claude.md) |
 | `tests/fakes/codex` | 1 | [tests__fakes__codex.md](tests__fakes__codex.md) |
-| `tests/fixtures` | 0 | [tests__fixtures.md](tests__fixtures.md) |
+| `tests/fixtures` | 1 | [tests__fixtures.md](tests__fixtures.md) |
+| `tests/fixtures/advisory` | 3 | [tests__fixtures__advisory.md](tests__fixtures__advisory.md) |
 | `tests/fixtures/claude-home` | 0 | [tests__fixtures__claude-home.md](tests__fixtures__claude-home.md) |
 | `tests/fixtures/claude-home/projects` | 0 | [tests__fixtures__claude-home__projects.md](tests__fixtures__claude-home__projects.md) |
 | `tests/fixtures/claude-home/projects/-work-app` | 1 | [tests__fixtures__claude-home__projects__-work-app.md](tests__fixtures__claude-home__projects__-work-app.md) |
@@ -178,7 +187,7 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/quirq-state/sharing` | 1 | [tests__fixtures__quirq-state__sharing.md](tests__fixtures__quirq-state__sharing.md) |
 | `tests/fixtures/quirq-state/sharing/removed` | 1 | [tests__fixtures__quirq-state__sharing__removed.md](tests__fixtures__quirq-state__sharing__removed.md) |
 | `tests/fixtures/quirq-state/usage` | 1 | [tests__fixtures__quirq-state__usage.md](tests__fixtures__quirq-state__usage.md) |
-| `tests/fixtures/storm` | 1 | [tests__fixtures__storm.md](tests__fixtures__storm.md) |
+| `tests/fixtures/storm` | 2 | [tests__fixtures__storm.md](tests__fixtures__storm.md) |
 | `tests/fixtures/xo-project` | 1 | [tests__fixtures__xo-project.md](tests__fixtures__xo-project.md) |
 | `tests/fixtures/xo-project/.xo` | 4 | [tests__fixtures__xo-project__.xo.md](tests__fixtures__xo-project__.xo.md) |
 | `tests/quirq` | 1 | [tests__quirq.md](tests__quirq.md) |
@@ -187,4 +196,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `utils` | 4 | [utils.md](utils.md) |
 | `utils/commands` | 2 | [utils__commands.md](utils__commands.md) |
 
-_Generated 2026-11-15 13:01 UTC._
+_Generated 2026-11-16 14:06 UTC._

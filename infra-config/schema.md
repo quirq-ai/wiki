@@ -118,4 +118,4 @@ surrounding app or tooling.
 
 [`schema/rollers.schema.json`](https://github.com/quirq-ai/infra-config/blob/main/schema/rollers.schema.json) · code · 1385 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

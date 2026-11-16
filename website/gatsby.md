@@ -15,4 +15,4 @@ buildQuirqApps } = require('../scripts/lib/quirq-catalog.mjs') Automated test fi
 
 [`gatsby/quirqRoutes.test.cjs`](https://github.com/quirq-ai/website/blob/main/gatsby/quirqRoutes.test.cjs) · code · 6264 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

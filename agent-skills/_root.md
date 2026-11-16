@@ -30,4 +30,4 @@ the steps) and whatever it needs beside it: templates, scripts, references.
 
 [`README.md`](https://github.com/quirq-ai/agent-skills/blob/main/README.md) · code · 1226 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

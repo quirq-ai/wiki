@@ -12,4 +12,4 @@ Markdown page “xo-agents”. Agents Hub: per-user agent hub with a sandbox per
 
 [`Chat/quirq-ai-wiki/xo-agents/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/xo-agents/output/one-pager.md) · code · 1782 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

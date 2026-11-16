@@ -13,4 +13,4 @@ maxDuration = 600 Notable exports: `POST`, `runtime`, `dynamic`, `maxDuration`.
 
 [`app/api/generate/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/generate/route.ts) · code · 5976 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

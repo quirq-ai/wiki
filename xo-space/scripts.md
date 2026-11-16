@@ -36,4 +36,28 @@ script via `if __name__ == '__main__'`. Functions: `runtime_mounts`.
 
 [`scripts/list_runtime_mounts.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/list_runtime_mounts.py) · code · 2160 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+### storm_audit.py
+
+Storm's audit: the numbers each step of the storm rebuild is measured against (the plan's §3
+targets, the review's §5 table), read from a store. Runnable as a script via `if __name__ ==
+'__main__'`. Functions: `open_read_only`, `since_time`, `audit`, `render`, `main`.
+
+[`scripts/storm_audit.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/storm_audit.py) · code · 16806 bytes
+
+### storm_load.py
+
+Opt-in subscription load rehearsal on a new isolated store; never starts a server. Runnable
+as a script via `if __name__ == '__main__'`. Functions: `subscription_ready`, `rehearsal`,
+`main`.
+
+[`scripts/storm_load.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/storm_load.py) · code · 5846 bytes
+
+### storm_rehearse_upgrade.py
+
+Rehearse this build's store upgrade on a copy of a real store. Runnable as a script via `if
+__name__ == '__main__'`. Functions: `backup`, `facts`, `checks`, `open_copy`, `rehearse`,
+`describe`, `main`.
+
+[`scripts/storm_rehearse_upgrade.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/storm_rehearse_upgrade.py) · code · 7501 bytes
+
+_Generated 2026-11-16 14:06 UTC from `main`._

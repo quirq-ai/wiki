@@ -16,10 +16,10 @@ The agy runtime: storm's contract on agy's headless stream-json (storm ch 04).
 
 What an agy session knows about its account: the login it started with and agy's own usage
 windows (storm ch 04 §10). Classes: `Window`, `UsageGuard`. Functions: `login_fingerprint`,
-`account_fingerprint`, `logged_in`, `command_data`, `parse_usage`, `json_response`,
-`group_of`, `agy_error`, and 2 more.
+`account_fingerprint`, `logged_in`, `window_name`, `command_data`, `parse_usage`,
+`json_response`, `group_of`, and 3 more.
 
-[`services/cowork_agent/adapters/antigravity/runtime/account.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/account.py) · code · 11302 bytes
+[`services/cowork_agent/adapters/antigravity/runtime/account.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/account.py) · code · 11584 bytes
 
 ### argv.py
 
@@ -34,7 +34,7 @@ The agy runtime: storm's contract (`adapters/contract.py`) on agy's headless str
 (storm ch 04). Classes: `_Executor`, `AgyRuntime`. Functions: `find_binary`, `models_from`,
 `runtime`. Built with FastAPI.
 
-[`services/cowork_agent/adapters/antigravity/runtime/core.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/core.py) · code · 16628 bytes
+[`services/cowork_agent/adapters/antigravity/runtime/core.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/core.py) · code · 17002 bytes
 
 ### env.py
 
@@ -79,14 +79,14 @@ What agy leaves running when it ends (storm ch 04 §7). Functions: `descendants`
 """One agy session: an agy stream-json process for its conversation, and the socket XO's
 plugin reaches it through (storm ch 04 §1–§9).
 
-[`services/cowork_agent/adapters/antigravity/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/session.py) · code · 70020 bytes
+[`services/cowork_agent/adapters/antigravity/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/session.py) · code · 70090 bytes
 
 ### support.py
 
 What the agy runtime supports: `check(spec)` (storm ch 01 §6) and the feature list (ch 01
 §4.8, ch 04 §5). Functions: `check`, `features`.
 
-[`services/cowork_agent/adapters/antigravity/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/support.py) · code · 14395 bytes
+[`services/cowork_agent/adapters/antigravity/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/support.py) · code · 14586 bytes
 
 ### tools.py
 
@@ -109,6 +109,6 @@ live follower of a sub-agent's steps. Classes: `Tail`. Functions: `transcript_fi
 agy's stream-json output as contract events (storm ch 04 §7, §8). Classes: `Out`, `_Tool`,
 `_Run`, `_Turn`, `Wire`. Functions: `usage_of`.
 
-[`services/cowork_agent/adapters/antigravity/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/wire.py) · code · 21599 bytes
+[`services/cowork_agent/adapters/antigravity/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/wire.py) · code · 21818 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

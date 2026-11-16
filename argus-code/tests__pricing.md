@@ -34,4 +34,4 @@ LiteLLM pricing refresh. Functions: `test_diff_detects_added_removed_changed`,
 
 [`tests/pricing/test_refresh.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/pricing/test_refresh.py) · code · 1810 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

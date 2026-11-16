@@ -36,4 +36,4 @@ npm package manifest for `infra`. Scripts: `build`, `dev`.
 
 [`infra/package.json`](https://github.com/quirq-ai/research/blob/main/infra/package.json) · code · 195 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

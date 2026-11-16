@@ -24,4 +24,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `test/e2e` | 2 | [test__e2e.md](test__e2e.md) |
 | `test/fixtures` | 1 | [test__fixtures.md](test__fixtures.md) |
 
-_Generated 2026-11-15 13:01 UTC._
+_Generated 2026-11-16 14:05 UTC._

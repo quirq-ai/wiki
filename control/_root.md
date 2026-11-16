@@ -53,4 +53,4 @@ directory). CLI bins: `control`. Scripts: `test`. Entry `./src/index.js`.
 
 [`package.json`](https://github.com/quirq-ai/control/blob/main/package.json) · code · 623 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

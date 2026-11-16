@@ -27,18 +27,56 @@ The typed failure the Space services raise. Classes: `ServiceError`. Built with 
 
 [`services/errors.py`](https://github.com/quirq-ai/xo-space/blob/main/services/errors.py) · code · 750 bytes
 
+### git_clone.py
+
+Run `git clone --progress` and say what it is doing, and why it failed. Classes:
+`CloneProgress`, `GitCloneResult`. Functions: `run_git_clone`, `scrub`, `classify_failure`,
+`failure_detail`.
+
+[`services/git_clone.py`](https://github.com/quirq-ai/xo-space/blob/main/services/git_clone.py) · code · 13544 bytes
+
+### git_safe.py
+
+XO's own git commands, through the one executor (`utils.commands.run`), and the parsers for
+what they print. Classes: `GitFailed`, `Entry`, `Change`. Functions: `git`, `git_sync`,
+`git_out`, `version`, `relative_paths`, `default_branch`, `worktree_list`, `status`.
+
+[`services/git_safe.py`](https://github.com/quirq-ai/xo-space/blob/main/services/git_safe.py) · code · 8472 bytes
+
+### loop_watchdog.py
+
+Name what blocks the event loop. Classes: `Stall`, `LoopWatchdog`. Functions: `threshold_s`,
+`start`, `stop`, `current`.
+
+[`services/loop_watchdog.py`](https://github.com/quirq-ai/xo-space/blob/main/services/loop_watchdog.py) · code · 5748 bytes
+
+### media_info.py
+
+What a client needs to lay out a file before its bytes arrive: an image's width, height and
+average colour (`tint`). Functions: `image_info`.
+
+[`services/media_info.py`](https://github.com/quirq-ai/xo-space/blob/main/services/media_info.py) · code · 2818 bytes
+
 ### periodic.py
 
 The one loop skeleton behind the background pollers. Functions: `run_forever`.
 
 [`services/periodic.py`](https://github.com/quirq-ai/xo-space/blob/main/services/periodic.py) · code · 1928 bytes
 
+### project_clones.py
+
+Clone jobs: `POST /api/xo-projects with "wait": false`. Classes: `CloneJob`. Functions:
+`start_clone`, `clone_status`, `cancel_clone`, `shutdown`.
+
+[`services/project_clones.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_clones.py) · code · 6904 bytes
+
 ### project_management.py
 
-Clone and remove local projects. Functions: `removal_status`, `on_removed`,
-`remove_project`, `clone_project`.
+Clone and remove local projects. Classes: `CloneError`, `CloneRequest`. Functions:
+`removal_status`, `on_removed`, `remove_project`, `prepare_clone`, `clone_project`,
+`run_clone`.
 
-[`services/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_management.py) · code · 20557 bytes
+[`services/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_management.py) · code · 30098 bytes
 
 ### setup_status.py
 
@@ -88,6 +126,6 @@ xo.json — agent capability + live-status manifest. Functions: `build_static_ma
 The canonical `.xo/` directory every xo-project carries. Classes: `EnsureReport`. Functions:
 `empty_documents`, `ensure_xo_structure`, `ensure_xo_structure_if_changed`.
 
-[`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 11164 bytes
+[`services/xo_structure.py`](https://github.com/quirq-ai/xo-space/blob/main/services/xo_structure.py) · code · 11562 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

@@ -22,4 +22,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/transports` | 3 | [src__transports.md](src__transports.md) |
 | `test` | 11 | [test.md](test.md) |
 
-_Generated 2026-11-15 13:01 UTC._
+_Generated 2026-11-16 14:05 UTC._

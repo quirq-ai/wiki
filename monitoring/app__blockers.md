@@ -20,4 +20,4 @@ Notable exports: `BlockersPage`. Wired into a Next.js app (App Router or Next AP
 
 [`app/blockers/page.tsx`](https://github.com/quirq-ai/monitoring/blob/main/app/blockers/page.tsx) · code · 6869 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

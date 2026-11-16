@@ -10,7 +10,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 
 BFF (Backend-for-Frontend) layer.
 
-[`routers/cowork_agent/bff/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/__init__.py) · code · 1154 bytes
+[`routers/cowork_agent/bff/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/__init__.py) · code · 1542 bytes
 
 ### _visualizer_models.py
 
@@ -38,6 +38,16 @@ Polling drawer). Defines the `router` application object. HTTP routes: `GET
 
 [`routers/cowork_agent/bff/connections.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/connections.py) · code · 4186 bytes
 
+### deploy.py
+
+Deploying a project to XO Launchpad: the Deploy panel's routes. Defines the `router`
+application object. HTTP routes: `GET /api/deploy/flow`, `GET /api/deploy/sizes`, `GET
+/api/deploy/{project}/check`, `GET /api/deploy/{project}/preflight`, `POST
+/api/deploy/{project}`, `DELETE /api/deploy/{project}`, and 5 more. Classes:
+`DeployRequest`, `LinkRequest`, `AgentRequest`.
+
+[`routers/cowork_agent/bff/deploy.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/deploy.py) · code · 10375 bytes
+
 ### errors.py
 
 HTTP glue shared by the Space BFF routes (`inbox.py, connections.py`). Classes:
@@ -48,10 +58,10 @@ HTTP glue shared by the Space BFF routes (`inbox.py, connections.py`). Classes:
 ### filters.py
 
 Visibility and validation predicates for the BFF layer. Functions: `is_valid_key`,
-`is_valid_value`, `is_hidden_key`, `preview_value`, `is_hidden_name`, `is_root_only_hidden`,
-`is_valid_workspace_id`.
+`is_valid_value`, `is_hidden_key`, `preview_value`, `is_temp_name`, `is_hidden_name`,
+`is_root_only_hidden`, `is_valid_workspace_id`.
 
-[`routers/cowork_agent/bff/filters.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/filters.py) · code · 4078 bytes
+[`routers/cowork_agent/bff/filters.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/filters.py) · code · 4276 bytes
 
 ### inbox.py
 
@@ -63,15 +73,23 @@ Functions: `list_inbox`, `create_inbox_item`, `update_inbox_items`, `update_inbo
 
 [`routers/cowork_agent/bff/inbox.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/inbox.py) · code · 3542 bytes
 
+### project_clones.py
+
+Clone jobs started by `POST /api/xo-projects with "wait": false`. Defines the `router`
+application object. HTTP routes: `GET /api/xo-projects/clones/{clone_id}`, `DELETE /api/xo-
+projects/clones/{clone_id}`. Functions: `clone_status`, `cancel_clone`.
+
+[`routers/cowork_agent/bff/project_clones.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/project_clones.py) · code · 1529 bytes
+
 ### project_management.py
 
 Local project management. All filesystem and sharing policy is in services. Defines the
 `router` application object. HTTP routes: `POST /api/xo-projects`, `GET /api/xo-
 projects/{project_id}/removal`, `DELETE /api/xo-projects/{project_id}`. Classes:
-`CloneProject`, `RemoveProject`. Functions: `clone_project`, `removal_status`,
-`remove_project`.
+`CloneProject`, `RemoveProject`. Functions: `clone_error`, `clone_project`,
+`removal_status`, `remove_project`.
 
-[`routers/cowork_agent/bff/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/project_management.py) · code · 2220 bytes
+[`routers/cowork_agent/bff/project_management.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/project_management.py) · code · 3583 bytes
 
 ### project_sharing.py
 
@@ -82,6 +100,13 @@ projects/{project_id}/commits`, `GET /api/xo-projects/{project_id}/members`, `PO
 projects/{project_id}/share`, and 1 more. Classes: `ShareBody`.
 
 [`routers/cowork_agent/bff/project_sharing.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/project_sharing.py) · code · 3223 bytes
+
+### read_host.py
+
+The Host check on the routes that answer with a project's files. Functions:
+`require_read_host`. Built with FastAPI.
+
+[`routers/cowork_agent/bff/read_host.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/read_host.py) · code · 879 bytes
 
 ### secrets.py
 
@@ -113,6 +138,16 @@ Classes: `WorkspaceWorkitem`, `SkippedProject`, `WorkspaceWorkitemsResponse`.
 
 [`routers/cowork_agent/bff/workspace_visualizer.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/workspace_visualizer.py) · code · 34339 bytes
 
+### xo_project_files.py
+
+Editing a project's files, and what a thread changed (Space's own API). Defines the `router`
+application object. HTTP routes: `PUT /api/xo-projects/{project_id}/file`, `GET /api/xo-
+projects/{project_id}/changes`, `GET /api/xo-projects/{project_id}/edits`, `POST /api/xo-
+projects/{project_id}/edits/{edit_id}/undo`. Classes: `SaveRequest`. Functions:
+`save_project_file`, `project_changes_route`, `project_edits`, `undo_project_edit`.
+
+[`routers/cowork_agent/bff/xo_project_files.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_project_files.py) · code · 6785 bytes
+
 ### xo_projects.py
 
 GET /api/xo-projects — BFF list of user projects. Defines the `router` application object.
@@ -120,6 +155,6 @@ HTTP routes: `GET /api/xo-projects`, `GET /api/xo-projects/{project_id}/tree`, `
 projects/{project_id}/file`, `GET /api/xo-projects/{project_id}/image`, `GET /api/xo-
 projects/{project_id}/download`, `GET /api/xo-projects/{project_id}/file-history`.
 
-[`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 23567 bytes
+[`routers/cowork_agent/bff/xo_projects.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/bff/xo_projects.py) · code · 25117 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

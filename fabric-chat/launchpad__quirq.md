@@ -21,4 +21,4 @@ tooling.
 
 [`launchpad/quirq/company.json`](https://github.com/quirq-ai/fabric-chat/blob/main/launchpad/quirq/company.json) · code · 400 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

@@ -13,4 +13,4 @@ TODO(expert): let rollers move these pins. Sections: `gate`.
 
 [`tests/fixtures/raw/test-pipelines/main/pins.toml`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/test-pipelines/main/pins.toml) · code · 282 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

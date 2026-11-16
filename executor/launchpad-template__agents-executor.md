@@ -12,4 +12,4 @@ YAML file `template.yaml`. Top-level keys: `apiVersion`, `kind`, `metadata`, `sp
 
 [`launchpad-template/agents-executor/template.yaml`](https://github.com/quirq-ai/executor/blob/main/launchpad-template/agents-executor/template.yaml) · code · 1356 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

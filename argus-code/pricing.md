@@ -34,4 +34,4 @@ data consumed by the surrounding app or tooling.
 
 [`pricing/2026-10-04.json`](https://github.com/quirq-ai/argus-code/blob/main/pricing/2026-10-04.json) · code · 6862 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

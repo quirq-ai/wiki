@@ -12,7 +12,7 @@ Fake agent CLIs: a test talks to a runtime's CLI with no model, no login and no 
 design ch 06 §1). Classes: `FakeCli`. Functions: `scenario`, `by_prompt`, `expect`, `write`,
 `answer`, `install`.
 
-[`tests/fakes/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/__init__.py) · code · 5419 bytes
+[`tests/fakes/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/__init__.py) · code · 5624 bytes
 
 ### engine.py
 
@@ -20,7 +20,7 @@ The fake-CLI engine: plays a scripted scenario over newline-delimited JSON. Runn
 script via `if __name__ == '__main__'`. Classes: `Fake`. Functions: `matches`, `dig`,
 `main`.
 
-[`tests/fakes/engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/engine.py) · code · 17667 bytes
+[`tests/fakes/engine.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/engine.py) · code · 20642 bytes
 
 ### host.py
 
@@ -36,4 +36,4 @@ A model-free MCP server used by installed-CLI integration tests. Runnable as a s
 
 [`tests/fakes/mcp_stdio.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/mcp_stdio.py) · code · 1034 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

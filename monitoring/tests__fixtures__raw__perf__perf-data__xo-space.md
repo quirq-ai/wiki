@@ -12,4 +12,4 @@ Jsonl file `xo-space-server-start.jsonl`.
 
 [`tests/fixtures/raw/perf/perf-data/xo-space/xo-space-server-start.jsonl`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/perf/perf-data/xo-space/xo-space-server-start.jsonl) · code · 7693 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

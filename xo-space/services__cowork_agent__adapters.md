@@ -30,9 +30,9 @@ Shared CLI invocation for the per-agent status adapters. Classes: `CliStatusErro
 
 The runtime contract: the one interface storm's core runs any session through. Classes:
 `SystemPrompt`, `ToolPolicy`, `PermissionPolicy`, `CliLimits`, `McpServer`, `HostTool`,
-`AgentDef`, `SessionSpec`, and 57 more.
+`AgentDef`, `SessionSpec`, and 59 more.
 
-[`services/cowork_agent/adapters/contract.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/contract.py) · code · 32174 bytes
+[`services/cowork_agent/adapters/contract.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/contract.py) · code · 35330 bytes
 
 ### env_whitelist.py
 
@@ -57,4 +57,4 @@ Shared usage aggregation over normalized usage entries. Classes: `Source`. Funct
 
 [`services/cowork_agent/adapters/usage_common.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/usage_common.py) · code · 30100 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

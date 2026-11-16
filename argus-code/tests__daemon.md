@@ -78,4 +78,4 @@ argus start chooses read_only based on daemon liveness. Functions:
 
 [`tests/daemon/test_yield.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/daemon/test_yield.py) · code · 815 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

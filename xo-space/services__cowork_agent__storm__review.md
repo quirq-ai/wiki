@@ -21,7 +21,7 @@ check (`integrity, on disk; integrity_watch`, in the engine's life).
 Checking a person's decision against its item, and what it does (design ch 15 §7; ch 17
 §2.5). Classes: `ReviewRefused`, `Request`, `Plan`. Functions: `secret_ids`, `plan`.
 
-[`services/cowork_agent/storm/review/decisions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/decisions.py) · code · 12918 bytes
+[`services/cowork_agent/storm/review/decisions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/decisions.py) · code · 13377 bytes
 
 ### engine_link.py
 
@@ -29,7 +29,7 @@ Everything the review queue asks of the engine, in one place (design ch 07 §6; 
 `storm/engine/ports.py`). Classes: `Asked`, `Resolved`. Functions: `boot`, `shutdown`,
 `current`, `desk`, `clock`, `subscribe`, `read`, `write`, and 5 more.
 
-[`services/cowork_agent/storm/review/engine_link.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/engine_link.py) · code · 5429 bytes
+[`services/cowork_agent/storm/review/engine_link.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/engine_link.py) · code · 5701 bytes
 
 ### integrity.py
 
@@ -45,17 +45,17 @@ with the session's baseline. Classes: `CheckFailed`, `Watch`, `Entry`, `Scan`, `
 
 The integrity check in the engine's life (design ch 16 §2.3–§2.4; owner §11.2, §0.72): when
 it runs, the baselines it keeps, and the report it opens. Classes: `Target`,
-`IntegrityWatch`. Functions: `_never_watched`, `_late`, `_target`, `_has_baseline`,
-`_baseline`, `_keep_baseline`, `_has_run`, `_reported`, and 6 more.
+`IntegrityWatch`. Functions: `_by_person`, `_never_watched`, `_late`, `_target`,
+`_has_baseline`, `_baseline`, `_keep_baseline`, `_has_run`, and 7 more.
 
-[`services/cowork_agent/storm/review/integrity_watch.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/integrity_watch.py) · code · 26213 bytes
+[`services/cowork_agent/storm/review/integrity_watch.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/integrity_watch.py) · code · 27513 bytes
 
 ### items.py
 
 The review item: one model for every kind (design ch 15 §5; ch 08 §2). Classes: `ItemSpec`.
 Functions: `fixed_options`, `expiry`, `permission_options`, `render_rule`, `view`.
 
-[`services/cowork_agent/storm/review/items.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/items.py) · code · 10947 bytes
+[`services/cowork_agent/storm/review/items.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/items.py) · code · 11094 bytes
 
 ### loops.py
 
@@ -85,7 +85,7 @@ The policy engine: what happens to an action a CLI asked about (design ch 15 §2
 §0.61, §0.62, §0.75, §0.80). Classes: `SessionRef`, `Action`, `Grant`, `PolicyContext`,
 `Verdict`. Functions: `action_sha256`, `request_sha256`, `decide`, `assess`.
 
-[`services/cowork_agent/storm/review/policy.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/policy.py) · code · 10910 bytes
+[`services/cowork_agent/storm/review/policy.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/policy.py) · code · 11104 bytes
 
 ### queue.py
 
@@ -93,7 +93,7 @@ The review queue: everything only the person can settle (design ch 15 §5–§9;
 ch 11 §10). Classes: `Conversation`, `ReviewQueue`. Functions: `boot`, `shutdown`,
 `current`.
 
-[`services/cowork_agent/storm/review/queue.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/queue.py) · code · 34223 bytes
+[`services/cowork_agent/storm/review/queue.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/queue.py) · code · 35487 bytes
 
 ### rule_store.py
 
@@ -124,6 +124,6 @@ A small shell parser for the policy engine (design ch 15 §2.1; decision §0.61)
 """The tier of an action, computed and never claimed (design ch 15 §2.2; ch 16 §7; R-E
 §3.2). Contains tests.
 
-[`services/cowork_agent/storm/review/tiers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/tiers.py) · code · 89855 bytes
+[`services/cowork_agent/storm/review/tiers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/review/tiers.py) · code · 92340 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

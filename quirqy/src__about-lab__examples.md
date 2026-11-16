@@ -22,4 +22,4 @@ tooling.
 
 [`src/about-lab/examples/xo.json`](https://github.com/quirq-ai/quirqy/blob/quirq/src/about-lab/examples/xo.json) · code · 19678 bytes
 
-_Generated 2026-11-15 13:01 UTC from `quirq`._
+_Generated 2026-11-16 14:05 UTC from `quirq`._

@@ -22,10 +22,9 @@ and owner Coder reports when it runs the pod. Functions: `xo_space_id`, `workspa
 
 ### file_history.py
 
-Git history of one file inside a project, for the previewer. Functions: `file_git_history`,
-`read_file_at_commit`.
+Moved to services.project_files.history; this import path stays valid.
 
-[`services/cowork_agent/file_history.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/file_history.py) · code · 9863 bytes
+[`services/cowork_agent/file_history.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/file_history.py) · code · 172 bytes
 
 ### github_poller.py
 
@@ -62,9 +61,9 @@ OpenTelemetry GenAI Semantic Conventions & OTLP Exporter implementation. Functio
 
 Canonical project layout for //. Functions: `xo_projects_root`, `workspace_xo_dir`,
 `workspace_runtime_dir`, `workspace_sessions_dir`, `workspace_timeline_path`,
-`xo_runtime_root`, `runtime_dir`, `runtime_sessions_dir`, and 28 more.
+`xo_runtime_root`, `runtime_dir`, `runtime_sessions_dir`, and 29 more.
 
-[`services/cowork_agent/project_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_layout.py) · code · 32047 bytes
+[`services/cowork_agent/project_layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/project_layout.py) · code · 32530 bytes
 
 ### providers_status_lib.py
 
@@ -121,7 +120,7 @@ Functions: `load_catalog`, `install`, `install_startup_skills`.
 
 Bundled-skill installer. Functions: `install_xo_skills`, `link_global_skill`.
 
-[`services/cowork_agent/skill_installer.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/skill_installer.py) · code · 6294 bytes
+[`services/cowork_agent/skill_installer.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/skill_installer.py) · code · 6367 bytes
 
 ### xo_cowork_state.py
 
@@ -129,4 +128,4 @@ Quirq machine-local UI/installation state. Functions: `get_state`, `update_state
 
 [`services/cowork_agent/xo_cowork_state.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/xo_cowork_state.py) · code · 2499 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

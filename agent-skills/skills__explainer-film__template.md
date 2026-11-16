@@ -83,4 +83,4 @@ npm package manifest for `explainer-film`. Scripts: `postinstall`, `build`, `dev
 
 [`skills/explainer-film/template/package.json`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/package.json) · code · 781 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

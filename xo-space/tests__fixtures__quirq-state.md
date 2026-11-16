@@ -14,6 +14,6 @@ tests/test_quirq_state_layout.py holds the code to it: every store writes inside
 these folders, services/storage/layout.py names exactly these folders, and an install from
 before the state root had folders is moved into them.
 
-[`tests/fixtures/quirq-state/README.md`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/README.md) · code · 7518 bytes
+[`tests/fixtures/quirq-state/README.md`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/README.md) · code · 7523 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

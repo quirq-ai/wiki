@@ -34,7 +34,7 @@ The folders of the machine-local state root (`~/.quirq/`). Functions: `projects_
 `sessions_dir`, `inbox_dir`, `connections_dir`, `sharing_dir`, `usage_dir`, `settings_dir`,
 `secrets_dir`, and 7 more.
 
-[`services/storage/layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/layout.py) · code · 3862 bytes
+[`services/storage/layout.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/layout.py) · code · 3993 bytes
 
 ### migrations.py
 
@@ -57,4 +57,4 @@ Pure JSON readers for visualizer and watcher state. Functions: `read_json`,
 
 [`services/storage/reader.py`](https://github.com/quirq-ai/xo-space/blob/main/services/storage/reader.py) · code · 8221 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

@@ -23,4 +23,4 @@ that takes the password directly.
 
 [`test/e2e/run.mjs`](https://github.com/quirq-ai/liftoff/blob/main/test/e2e/run.mjs) · code · 9270 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

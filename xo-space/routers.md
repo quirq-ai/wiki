@@ -12,6 +12,13 @@ Routers package for FastAPI endpoint modules. Built with FastAPI.
 
 [`routers/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/__init__.py) · code · 52 bytes
 
+### advisory.py
+
+`/api/advisory`: the space advisory's snapshot. Defines the `router` application object.
+Functions: `snapshot`.
+
+[`routers/advisory.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/advisory.py) · code · 1475 bytes
+
 ### branding.py
 
 Branding settings for the workspace Setup page. Defines the `router` application object.
@@ -24,9 +31,9 @@ HTTP routes: `GET /logo`. Functions: `get_branding`, `save_branding`, `get_logo`
 Which browser requests may change things in Space. Classes: `RecordTransportClient`,
 `BrowserWriteGuard`. Functions: `add_forwarding_middleware`, `is_loopback_peer`,
 `origin_allowed`, `write_allowed`, `add_browser_write_guard`, `websocket_allowed`,
-`is_local_mutation`.
+`coder_host_suffix`, `read_host_allowed`, and 1 more.
 
-[`routers/browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/browser_guard.py) · code · 11739 bytes
+[`routers/browser_guard.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/browser_guard.py) · code · 14491 bytes
 
 ### schedules.py
 
@@ -70,4 +77,4 @@ application object. HTTP routes: `GET /space.json`, `GET /dashboard.json`, `GET
 
 [`routers/xo_data.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/xo_data.py) · code · 2720 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

@@ -72,4 +72,4 @@ tests.
 
 [`tests/adapters/codex/test_state.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/adapters/codex/test_state.py) · code · 3085 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

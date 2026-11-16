@@ -390,4 +390,4 @@ this hub's xo key, answers the Clerk user id and their builder: the builder of t
 
 [`cli/src/xosignin.ts`](https://github.com/quirq-ai/space-hub/blob/main/cli/src/xosignin.ts) · code · 10445 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

@@ -9,9 +9,9 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 ### __init__.py
 
 Claude Code's stream-json control protocol, as the fake speaks it. Functions: `version`,
-`auth_status`, `init`, `user_message`, `text_turn`, `streamed`, `result`, `idle`, and 14
+`auth_status`, `init`, `user_message`, `text_turn`, `streamed`, `result`, `idle`, and 15
 more.
 
-[`tests/fakes/claude/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/claude/__init__.py) · code · 15526 bytes
+[`tests/fakes/claude/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/tests/fakes/claude/__init__.py) · code · 16273 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

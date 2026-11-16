@@ -11,7 +11,7 @@ Each heading is a file that lives **directly** in this folder. Nested folders ha
 Storm's routes, all under `/api/chat/` (design ch 17): thin handlers over
 `services.cowork_agent.storm`, one file per route group.
 
-[`routers/cowork_agent/storm/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/__init__.py) · code · 1463 bytes
+[`routers/cowork_agent/storm/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/__init__.py) · code · 1726 bytes
 
 ### attachments.py
 
@@ -25,11 +25,11 @@ HTTP routes: `POST /api/chat/chats/{chat_id}/attachments`, `GET
 
 Workspace and project chats, their messages, threads, hops and memory (design ch 17 §2.2; ch
 11) Defines the `router` application object. HTTP routes: `GET /api/chat/chats`, `GET
-/api/chat/chats/{chat_id}`, `PATCH /api/chat/chats/{chat_id}`, `GET
-/api/chat/chats/{chat_id}/messages`, `POST /api/chat/chats/{chat_id}/messages`, `GET
-/api/chat/chats/{chat_id}/threads`, and 5 more.
+/api/chat/chats/{chat_id}`, `GET /api/chat/chats/{chat_id}/work`, `GET
+/api/chat/chats/{chat_id}/tasks/{task_id}/reports`, `PATCH /api/chat/chats/{chat_id}`, `GET
+/api/chat/chats/{chat_id}/messages`, and 10 more.
 
-[`routers/cowork_agent/storm/chats.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/chats.py) · code · 7632 bytes
+[`routers/cowork_agent/storm/chats.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/chats.py) · code · 11151 bytes
 
 ### comms.py
 
@@ -47,7 +47,27 @@ be confirmed with, the sentence a rule must be made with (`400 rule_sentence_mis
 15 §3), what removing a worktree would lose with its confirmation (`409 would_lose_work`, ch
 13 §4.3), and the stored summary of a run whose transcript is gone (`410 transcript_gone`
 
-[`routers/cowork_agent/storm/errors.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/errors.py) · code · 921 bytes
+[`routers/cowork_agent/storm/errors.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/errors.py) · code · 932 bytes
+
+### intent.py
+
+The founder's Stop, pause and resume, and paid usage (w2-w3 design §4) Defines the `router`
+application object. HTTP routes: `GET /api/chat/intent`, `POST /api/chat/intent/stop`, `POST
+/api/chat/intent/pause`, `POST /api/chat/intent/resume`, `POST /api/chat/intent/paid`.
+Classes: `Held`, `Lifted`, `PaidMode`. Functions: `list_intents`, `stop`, `pause`, `resume`,
+`paid`.
+
+[`routers/cowork_agent/storm/intent.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/intent.py) · code · 4764 bytes
+
+### made.py
+
+What a chat's threads made (v2; `services/cowork_agent/storm/made.py`) Defines the `router`
+application object. HTTP routes: `GET /api/chat/chats/{chat_id}/made`, `PUT
+/api/chat/chats/{chat_id}/made/{made_id}/pin`, `DELETE
+/api/chat/chats/{chat_id}/made/{made_id}/pin`. Functions: `list_made`, `pin_made`,
+`unpin_made`.
+
+[`routers/cowork_agent/storm/made.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/made.py) · code · 2490 bytes
 
 ### review.py
 
@@ -56,7 +76,7 @@ routes: `GET /api/chat/review`, `GET /api/chat/review/{item_id}`, `POST
 /api/chat/review/{item_id}/decision`. Classes: `DecisionBody`. Functions: `list_review`,
 `get_review`, `decide`.
 
-[`routers/cowork_agent/storm/review.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/review.py) · code · 3541 bytes
+[`routers/cowork_agent/storm/review.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/review.py) · code · 3549 bytes
 
 ### router.py
 
@@ -90,10 +110,12 @@ HTTP routes: `GET /api/chat/sessions/{session_id}/runs`, `GET /api/chat/runs/{ru
 ### runtimes.py
 
 Storm's runtimes (ch 17 §2.7) Defines the `router` application object. HTTP routes: `GET
-/api/chat/runtimes`, `GET /api/chat/runtimes/{name}/models`. Functions: `list_runtimes`,
-`runtime_models`.
+/api/chat/runtimes`, `GET /api/chat/runtimes/{name}/models`, `GET /api/chat/runtime-policy`,
+`PUT /api/chat/runtime-policy`, `GET /api/chat/chats/{chat_id}/runtime-policy`, `PUT
+/api/chat/chats/{chat_id}/runtime-policy`, and 1 more. Classes: `RuntimePolicy`,
+`ContinueThread`.
 
-[`routers/cowork_agent/storm/runtimes.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/runtimes.py) · code · 2593 bytes
+[`routers/cowork_agent/storm/runtimes.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/runtimes.py) · code · 6579 bytes
 
 ### sessions.py
 
@@ -103,6 +125,15 @@ Storm's sessions (ch 17 §2.1) Defines the `router` application object. HTTP rou
 `get_session`, `update_session`.
 
 [`routers/cowork_agent/storm/sessions.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/sessions.py) · code · 2555 bytes
+
+### shape.py
+
+The person's own layer of the UI's shape, across devices
+(`services/cowork_agent/storm/chats/shape.py`) Defines the `router` application object. HTTP
+routes: `GET /api/chat/shape`, `PUT /api/chat/shape`. Classes: `ShapeUpdate`. Functions:
+`get_shape`, `put_shape`.
+
+[`routers/cowork_agent/storm/shape.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/shape.py) · code · 1523 bytes
 
 ### status.py
 
@@ -128,6 +159,6 @@ Storm's worktrees (ch 13 §4, §6; ch 17) Defines the `router` application objec
 routes: `GET /api/chat/worktrees`, `DELETE /api/chat/worktrees/{chat_id}/{thread_ts}`.
 Functions: `list_worktrees`, `remove_worktree`.
 
-[`routers/cowork_agent/storm/worktrees.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/worktrees.py) · code · 1759 bytes
+[`routers/cowork_agent/storm/worktrees.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/storm/worktrees.py) · code · 2157 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

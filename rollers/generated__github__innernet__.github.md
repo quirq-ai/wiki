@@ -15,4 +15,4 @@ in quirq-ai/rollers, and copy.
 
 [`generated/github/innernet/.github/dependabot.yml`](https://github.com/quirq-ai/rollers/blob/main/generated/github/innernet/.github/dependabot.yml) · code · 446 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

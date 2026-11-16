@@ -84,4 +84,4 @@ Contains tests.
 
 [`tests/test_workflows.py`](https://github.com/quirq-ai/perf/blob/main/tests/test_workflows.py) · code · 2649 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

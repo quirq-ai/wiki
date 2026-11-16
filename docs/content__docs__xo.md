@@ -78,4 +78,4 @@ site.
 
 [`content/docs/xo/spaces.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/xo/spaces.mdx) · code · 10963 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._

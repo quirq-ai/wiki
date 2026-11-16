@@ -12,15 +12,15 @@ The claude_code runtime: storm's contract (`adapters/contract.py`) on Claude Cod
 json control protocol (storm ch 02). Classes: `_Executor`, `ClaudeRuntime`. Functions:
 `find_binary`, `runtime`. Built with FastAPI.
 
-[`services/cowork_agent/adapters/claude_code/runtime/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/__init__.py) · code · 15979 bytes
+[`services/cowork_agent/adapters/claude_code/runtime/__init__.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/__init__.py) · code · 16681 bytes
 
 ### account.py
 
 What a claude session knows about its account: the login it started with and the rate limits
 claude reports (storm ch 02 §2.3, §6). Classes: `_Window`, `UsageGuard`. Functions:
-`login_fingerprint`, `account_fingerprint`.
+`login_fingerprint`, `account_fingerprint`, `api_key_login`.
 
-[`services/cowork_agent/adapters/claude_code/runtime/account.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/account.py) · code · 6233 bytes
+[`services/cowork_agent/adapters/claude_code/runtime/account.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/account.py) · code · 7408 bytes
 
 ### command.py
 
@@ -50,14 +50,14 @@ Model-free questions to the claude CLI (storm ch 02 §7): its version, its login
 One claude session: a long-lived stream-json control-protocol process (storm ch 02 §1–§4).
 Classes: `ClaudeSession`. Functions: `_now`, `_cancel_and_wait`, `_content_blocks`.
 
-[`services/cowork_agent/adapters/claude_code/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/session.py) · code · 43900 bytes
+[`services/cowork_agent/adapters/claude_code/runtime/session.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/session.py) · code · 43971 bytes
 
 ### support.py
 
 What the claude runtime supports: `check(spec)` (storm ch 01 §6) and the feature list (ch 01
 §4.8, ch 02 §8). Functions: `check`, `features`.
 
-[`services/cowork_agent/adapters/claude_code/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/support.py) · code · 12748 bytes
+[`services/cowork_agent/adapters/claude_code/runtime/support.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/support.py) · code · 13933 bytes
 
 ### tools.py
 
@@ -74,12 +74,19 @@ nothing is copied. Functions: `projects_root`, `list_sessions`, `read_session`, 
 
 [`services/cowork_agent/adapters/claude_code/runtime/transcript.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/transcript.py) · code · 19551 bytes
 
+### usage_read.py
+
+Claude's usage, read from Anthropic with no model call (contract 1.1, `UsageReader`; storm
+plan W4, Step 0). Functions: `access_token`, `fetch`, `snapshot`, `api_key_usage`.
+
+[`services/cowork_agent/adapters/claude_code/runtime/usage_read.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/usage_read.py) · code · 9260 bytes
+
 ### wire.py
 
 claude's stream-json output as contract events (storm ch 02 §4.3–§5). Classes: `Out`,
-`ContentCounter`, `_Block`, `_OpenTool`, `Wire`. Functions: `iso_from_epoch`, `token_usage`,
-`thinking_steps`, `plan_items`.
+`ContentCounter`, `_Block`, `_OpenTool`, `Wire`. Functions: `iso_from_epoch`,
+`context_tokens`, `token_usage`, `thinking_steps`, `plan_items`.
 
-[`services/cowork_agent/adapters/claude_code/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/wire.py) · code · 35913 bytes
+[`services/cowork_agent/adapters/claude_code/runtime/wire.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/runtime/wire.py) · code · 41268 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

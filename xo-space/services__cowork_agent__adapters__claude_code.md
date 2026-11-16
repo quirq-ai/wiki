@@ -60,7 +60,7 @@ Claude Code models-status view. Functions: `build_status_view`, `fetch_raw_statu
 Capability `oneshot_prompt`: one tool-free claude completion (storm ch 01 §4.7, ch 10 §8).
 Classes: `ClaudeOneshot`. Functions: `build_argv`, `oneshot`.
 
-[`services/cowork_agent/adapters/claude_code/oneshot_prompt.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/oneshot_prompt.py) · code · 4628 bytes
+[`services/cowork_agent/adapters/claude_code/oneshot_prompt.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/oneshot_prompt.py) · code · 4799 bytes
 
 ### providers_status.py
 
@@ -121,4 +121,4 @@ Claude Code visualizer source — tails `~/.claude/projects/*.jsonl` and reads
 
 [`services/cowork_agent/adapters/claude_code/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/claude_code/visualizer_source.py) · code · 21522 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

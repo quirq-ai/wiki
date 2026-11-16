@@ -47,7 +47,7 @@ Inbox tab: what arrived in the workspace, and whether anyone has dealt Notable e
 Workspace connectors use their existing local APIs, independently of the XO Notable exports:
 `mountNativeConnectors`.
 
-[`space_ui/js/views/native-connectors.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/native-connectors.js) · code · 21124 bytes
+[`space_ui/js/views/native-connectors.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/native-connectors.js) · code · 21476 bytes
 
 ### project-manage.js
 
@@ -164,4 +164,4 @@ module's public entry.
 
 [`space_ui/js/views/wiki.js`](https://github.com/quirq-ai/xo-space/blob/main/space_ui/js/views/wiki.js) · code · 8251 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:06 UTC from `main`._

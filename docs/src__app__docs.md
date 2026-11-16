@@ -14,4 +14,4 @@ on: "menu" as const })) Notable exports: `Layout`.
 
 [`src/app/docs/layout.tsx`](https://github.com/quirq-ai/docs/blob/main/src/app/docs/layout.tsx) · code · 1370 bytes
 
-_Generated 2026-11-15 13:01 UTC from `main`._
+_Generated 2026-11-16 14:05 UTC from `main`._
