@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/table-grouped/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/table-grouped/page.tsx) · code · 34401 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

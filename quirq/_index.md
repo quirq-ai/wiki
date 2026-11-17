@@ -146,4 +146,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `Library` | 2 | [Library.md](Library.md) |
 | `Vision` | 2 | [Vision.md](Vision.md) |
 
-_Generated 2026-11-16 14:05 UTC._
+_Generated 2026-11-17 15:00 UTC._

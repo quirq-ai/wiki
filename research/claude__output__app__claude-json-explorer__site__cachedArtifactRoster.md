@@ -13,4 +13,4 @@ HTML document `index.html` titled “cachedArtifactRoster · XO Research”. cac
 
 [`claude/output/app/claude-json-explorer/site/cachedArtifactRoster/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedArtifactRoster/index.html) · code · 16937 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

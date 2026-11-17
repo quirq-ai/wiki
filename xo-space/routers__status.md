@@ -33,4 +33,4 @@ Providers status API router. Defines the `router` application object. HTTP route
 
 [`routers/status/providers.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/status/providers.py) · code · 1928 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

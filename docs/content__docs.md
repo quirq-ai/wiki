@@ -122,4 +122,4 @@ rendered by the docs site.
 
 [`content/docs/try-first-build.mdx`](https://github.com/quirq-ai/docs/blob/main/content/docs/try-first-build.mdx) · code · 2602 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

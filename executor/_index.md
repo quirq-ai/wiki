@@ -20,4 +20,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `launchpad-template/agents-executor` | 1 | [launchpad-template__agents-executor.md](launchpad-template__agents-executor.md) |
 | `test` | 1 | [test.md](test.md) |
 
-_Generated 2026-11-16 14:05 UTC._
+_Generated 2026-11-17 14:59 UTC._

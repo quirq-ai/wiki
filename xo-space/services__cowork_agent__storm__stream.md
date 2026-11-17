@@ -68,4 +68,4 @@ from the tool `kind` the runtime supplies (ch 01 §5.3), the same for every CLI.
 
 [`services/cowork_agent/storm/stream/wording.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/stream/wording.py) · code · 7047 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

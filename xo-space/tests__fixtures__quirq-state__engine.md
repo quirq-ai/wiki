@@ -16,4 +16,4 @@ turn_id TEXT, kind TEXT NOT NULL CHECK (kind IN ('file', 'image', 'link', 'branc
 
 [`tests/fixtures/quirq-state/engine/xo.db.sql`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/engine/xo.db.sql) · code · 44567 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

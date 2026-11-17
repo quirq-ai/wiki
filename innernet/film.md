@@ -116,4 +116,4 @@ field guide film · storyboard v2.
 
 [`film/storyboard.html`](https://github.com/quirq-ai/innernet/blob/main/film/storyboard.html) · code · 154116 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

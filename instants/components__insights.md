@@ -14,4 +14,4 @@ Notable exports: `Section`, `Stat`, `ColumnChart`, `BarList`, `StackedBar`, `Rin
 
 [`components/insights/charts.tsx`](https://github.com/quirq-ai/instants/blob/main/components/insights/charts.tsx) · code · 7006 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

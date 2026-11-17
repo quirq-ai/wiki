@@ -14,4 +14,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `ThemeShowca
 
 [`registry/astryx/templates/theme-showcase/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/theme-showcase/page.tsx) · code · 36532 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

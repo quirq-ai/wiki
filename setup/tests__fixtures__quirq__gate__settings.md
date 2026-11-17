@@ -12,4 +12,4 @@ TOML config `github.toml`. Sections: `main`, `[repo`.
 
 [`tests/fixtures/quirq/gate/settings/github.toml`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/gate/settings/github.toml) · code · 273 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

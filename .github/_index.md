@@ -24,4 +24,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `profile/assets` | 2 | [profile__assets.md](profile__assets.md) |
 | `scripts` | 1 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-16 14:05 UTC._
+_Generated 2026-11-17 14:59 UTC._

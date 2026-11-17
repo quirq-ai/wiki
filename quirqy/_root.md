@@ -68,4 +68,4 @@ manual `npm run dev`. Provides a default export as the module's public entry.
 
 [`vite.config.js`](https://github.com/quirq-ai/quirqy/blob/quirq/vite.config.js) · code · 354 bytes
 
-_Generated 2026-11-16 14:05 UTC from `quirq`._
+_Generated 2026-11-17 15:00 UTC from `quirq`._

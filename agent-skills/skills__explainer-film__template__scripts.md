@@ -116,4 +116,4 @@ assets/audio/vo/meta.json: { [id]: { text, file, duration, words: [{ text, start
 
 [`skills/explainer-film/template/scripts/voice.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/scripts/voice.mjs) · code · 3445 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

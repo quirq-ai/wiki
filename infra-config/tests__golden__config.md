@@ -129,4 +129,4 @@ alone (D4). Sections: `area`, `[roller`.
 
 [`tests/golden/config/rollers.toml`](https://github.com/quirq-ai/infra-config/blob/main/tests/golden/config/rollers.toml) · code · 1496 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

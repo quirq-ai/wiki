@@ -28,4 +28,4 @@ executable source.
 
 [`public/quirq-logo.svg`](https://github.com/quirq-ai/quitter/blob/main/public/quirq-logo.svg) · code · 1875 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

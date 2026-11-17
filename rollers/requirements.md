@@ -22,4 +22,4 @@ qqroll.
 
 [`requirements/roll.lock`](https://github.com/quirq-ai/rollers/blob/main/requirements/roll.lock) · code · 11668 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

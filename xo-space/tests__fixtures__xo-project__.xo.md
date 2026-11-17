@@ -35,4 +35,4 @@ JSON document `workitems.json` whose top-level keys are `$schema`, `schema`, `up
 
 [`tests/fixtures/xo-project/.xo/workitems.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/xo-project/.xo/workitems.json) · code · 96 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

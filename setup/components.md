@@ -66,4 +66,4 @@ machine" Done button, or the org answers. type Mode = "machine" | "repos" Notabl
 
 [`components/setup-form.tsx`](https://github.com/quirq-ai/setup/blob/main/components/setup-form.tsx) · code · 20780 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

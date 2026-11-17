@@ -13,4 +13,4 @@ Notable exports: `cn`.
 
 [`lib/utils.ts`](https://github.com/quirq-ai/instants/blob/main/lib/utils.ts) · code · 177 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

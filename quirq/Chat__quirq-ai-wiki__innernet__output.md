@@ -13,4 +13,4 @@ Innerpedia.
 
 [`Chat/quirq-ai-wiki/innernet/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/innernet/output/one-pager.md) · code · 2303 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

@@ -58,4 +58,4 @@ tools/qqtc.py. Sections: `github`.
 
 [`toolchains.toml`](https://github.com/quirq-ai/toolchains/blob/main/toolchains.toml) · code · 309 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

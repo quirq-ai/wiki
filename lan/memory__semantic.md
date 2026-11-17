@@ -27,4 +27,4 @@ structural rules. One claim per line. No narrative.
 
 [`memory/semantic/project-facts.md`](https://github.com/quirq-ai/lan/blob/main/memory/semantic/project-facts.md) · code · 763 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

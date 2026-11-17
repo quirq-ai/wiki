@@ -21,4 +21,4 @@ any security-sensitive release.
 
 [`templates/default/.claude/agents/security-auditor.md`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/.claude/agents/security-auditor.md) · code · 1156 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

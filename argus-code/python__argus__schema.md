@@ -21,4 +21,4 @@ more.
 
 [`python/argus/schema/types.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/schema/types.py) · code · 4025 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._

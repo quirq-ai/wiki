@@ -12,4 +12,4 @@ Basic usage <OSButton>Click me</OSButton> Notable exports: `OSButton`.
 
 [`src/components/OSButton/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/OSButton/index.tsx) · code · 12205 bytes
 
-_Generated 2026-11-16 14:06 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

@@ -14,4 +14,4 @@ the policy-owner (org.toml [roles]; settled: suraj), and its author cannot appro
 
 [`tests/fixtures/raw/infra-config/main/.github/CODEOWNERS`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/infra-config/main/.github/CODEOWNERS) · other · 1022 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

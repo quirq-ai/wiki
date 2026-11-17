@@ -52,4 +52,4 @@ blobs.
 
 [`public/assets/readme-banner.png`](https://github.com/quirq-ai/quirq_ai/blob/main/public/assets/readme-banner.png) · binary · 1305696 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 15:00 UTC from `main`._

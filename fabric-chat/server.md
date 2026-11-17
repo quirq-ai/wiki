@@ -174,4 +174,4 @@ browser there with a one-time verifier's hash (OAuth's authorization code flow w
 
 [`server/xologin.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/server/xologin.ts) · code · 7166 bytes
 
-_Generated 2026-11-16 14:05 UTC from `main`._
+_Generated 2026-11-17 14:59 UTC from `main`._
