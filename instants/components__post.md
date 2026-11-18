@@ -71,4 +71,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`components/post/share.tsx`](https://github.com/quirq-ai/instants/blob/main/components/post/share.tsx) · code · 4268 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

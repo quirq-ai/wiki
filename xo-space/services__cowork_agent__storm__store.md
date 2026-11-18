@@ -60,4 +60,4 @@ timers and leases, per the record design v2, and -- drops the pools' own copies 
 
 [`services/cowork_agent/storm/store/schema.sql`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/store/schema.sql) · code · 33297 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

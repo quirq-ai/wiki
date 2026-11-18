@@ -13,4 +13,4 @@ export const runtime = "nodejs"; export const dynamic = "force-dynamic" Notable 
 
 [`app/api/video/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/video/route.ts) · code · 2900 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

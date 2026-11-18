@@ -22,4 +22,4 @@ GET /api/coworker/xo-projects/{project_id}/version: one project file's bytes at 
 
 [`routers/cowork_agent/coworker/versions.py`](https://github.com/quirq-ai/xo-space/blob/main/routers/cowork_agent/coworker/versions.py) · code · 4873 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

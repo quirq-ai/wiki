@@ -72,4 +72,4 @@ const awkward = 'p@ss wörd/with+odd=chars"\'%$`é漢' Automated test file.
 
 [`test/vault.test.js`](https://github.com/quirq-ai/liftoff/blob/main/test/vault.test.js) · code · 3320 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

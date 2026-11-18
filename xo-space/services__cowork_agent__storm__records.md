@@ -79,4 +79,4 @@ to 7 and 9; w5-w7-design W6). Classes: `Timer`. Functions: `on`, `get`, `by_key`
 
 [`services/cowork_agent/storm/records/timers.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/records/timers.py) · code · 13012 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

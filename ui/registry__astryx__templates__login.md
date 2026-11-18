@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `LoginPage`.
 
 [`registry/astryx/templates/login/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/login/page.tsx) · code · 2934 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

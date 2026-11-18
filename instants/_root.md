@@ -185,4 +185,4 @@ surrounding app or tooling.
 
 [`vercel.json`](https://github.com/quirq-ai/instants/blob/main/vercel.json) · code · 177 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

@@ -39,4 +39,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`components/shell/view-only.tsx`](https://github.com/quirq-ai/instants/blob/main/components/shell/view-only.tsx) · code · 475 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

@@ -14,4 +14,4 @@ generated blobs.
 
 [`assets/archive/v0.6/hero.png`](https://github.com/quirq-ai/argus-code/blob/main/assets/archive/v0.6/hero.png) · binary · 467292 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

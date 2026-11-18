@@ -65,4 +65,4 @@ function niceMax(v: number) { if (v = v) return m * mag; return 10 * mag; } Nota
 
 [`src/components/weekly-chart.tsx`](https://github.com/quirq-ai/github-activity/blob/main/src/components/weekly-chart.tsx) · code · 4128 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

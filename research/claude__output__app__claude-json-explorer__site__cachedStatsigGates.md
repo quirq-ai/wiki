@@ -13,4 +13,4 @@ XO Research.
 
 [`claude/output/app/claude-json-explorer/site/cachedStatsigGates/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedStatsigGates/index.html) · code · 15871 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

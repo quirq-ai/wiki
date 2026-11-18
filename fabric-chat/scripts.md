@@ -77,4 +77,4 @@ earlier release came with. It uses ports 4795 to 4797 on this machine.
 
 [`scripts/upgrade-check.mjs`](https://github.com/quirq-ai/fabric-chat/blob/main/scripts/upgrade-check.mjs) · code · 13821 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

@@ -19,4 +19,4 @@ Classes: `Response`. Functions: `api`, `members`, `invite`, `revoke`.
 
 [`src/qqsync/project/backends/github.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/project/backends/github.py) · code · 7986 bytes
 
-_Generated 2026-11-17 15:00 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

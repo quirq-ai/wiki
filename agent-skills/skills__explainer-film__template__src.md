@@ -74,4 +74,4 @@ against FACTS.md. scripts/voice.mjs renders it with the voice below. Notable exp
 
 [`skills/explainer-film/template/src/script.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/src/script.mjs) · code · 1614 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._

@@ -94,4 +94,4 @@ generated blobs.
 
 [`assets/screenshots/trends.png`](https://github.com/quirq-ai/argus-code/blob/main/assets/screenshots/trends.png) · binary · 523958 bytes
 
-_Generated 2026-11-17 14:59 UTC from `main`._
+_Generated 2026-11-18 14:40 UTC from `main`._
