@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-18T14:40:56.692124+00:00",
+  "generated_at": "2026-11-19T14:46:38.158440+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -319,7 +319,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-18T07:40:35Z",
+      "pushed_at": "2026-11-19T07:41:10Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -364,8 +364,8 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/space-hub",
-      "pushed_at": "2026-11-13T12:51:22Z",
-      "sha": "bcbada8d172348f84a3df83330e520bd66e2e453"
+      "pushed_at": "2026-11-19T14:37:43Z",
+      "sha": "ed23432486117eb950d85c3993a93b241171a528"
     },
     {
       "name": "sync",
@@ -382,7 +382,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-18T07:42:04Z",
+      "pushed_at": "2026-11-19T07:38:26Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {

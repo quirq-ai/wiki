@@ -20,7 +20,7 @@ of this file.
 npm package manifest for `spacehub-module` v0.1.0. SpacetimeDB module for spacehub: owners,
 spaces, refs and git objects. Scripts: `build`, `typecheck`, `test`.
 
-[`module/package.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package.json) · code · 405 bytes
+[`module/package.json`](https://github.com/quirq-ai/space-hub/blob/main/module/package.json) · code · 425 bytes
 
 ### tsconfig.json
 
@@ -36,4 +36,4 @@ export default defineConfig({ plugins: [spacetimedbModuleTestPlugin()], test: { 
 
 [`module/vitest.config.ts`](https://github.com/quirq-ai/space-hub/blob/main/module/vitest.config.ts) · code · 248 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

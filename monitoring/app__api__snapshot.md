@@ -13,4 +13,4 @@ it is a secret: it is what the pages show, from public data. Notable exports: `G
 
 [`app/api/snapshot/route.ts`](https://github.com/quirq-ai/monitoring/blob/main/app/api/snapshot/route.ts) · code · 820 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

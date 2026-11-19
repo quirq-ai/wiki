@@ -34,7 +34,7 @@ npm package manifest for `spacehub-app` v0.1.0. The hub's web app: open-chat's i
 over spaces and projects, served by the web service at /. Scripts: `build`, `typecheck`,
 `test`.
 
-[`app/package.json`](https://github.com/quirq-ai/space-hub/blob/main/app/package.json) · code · 798 bytes
+[`app/package.json`](https://github.com/quirq-ai/space-hub/blob/main/app/package.json) · code · 818 bytes
 
 ### tsconfig.json
 
@@ -43,4 +43,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`app/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/app/tsconfig.json) · code · 441 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

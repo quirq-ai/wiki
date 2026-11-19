@@ -16,4 +16,4 @@ one fixed failure type must not exonerate.
 
 [`tools/planted_demo.sh`](https://github.com/quirq-ai/test-pipelines/blob/main/tools/planted_demo.sh) · code · 5602 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

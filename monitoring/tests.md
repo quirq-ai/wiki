@@ -39,4 +39,4 @@ Automated test file.
 
 [`tests/read-only.test.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/read-only.test.ts) · code · 4579 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

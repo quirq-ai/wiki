@@ -14,4 +14,4 @@ surrounding app or tooling.
 
 [`tests/fixtures/quirq-state/sharing/github.com__acme__sample-project-9eef45d3.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/sharing/github.com__acme__sample-project-9eef45d3.json) · code · 126 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

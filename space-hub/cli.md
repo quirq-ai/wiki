@@ -22,7 +22,7 @@ remote helper (git clone/push/fetch quirq://hub.quirq.dev/owner/space). CLI bins
 `spacehub`, `git-remote-quirq`, `git-remote-spacehub`. Scripts: `build`, `typecheck`,
 `generate`, `test`.
 
-[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 1032 bytes
+[`cli/package.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/package.json) · code · 1052 bytes
 
 ### tsconfig.json
 
@@ -31,4 +31,4 @@ Downstream `tsc` and bundlers read it to typecheck and emit.
 
 [`cli/tsconfig.json`](https://github.com/quirq-ai/space-hub/blob/main/cli/tsconfig.json) · code · 264 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

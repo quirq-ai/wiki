@@ -140,4 +140,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `scripts/lib` | 1 | [scripts__lib.md](scripts__lib.md) |
 
-_Generated 2026-11-18 14:40 UTC._
+_Generated 2026-11-19 14:46 UTC._

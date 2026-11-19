@@ -50,4 +50,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures/quirq/infra-config/tools` | 1 | [tests__fixtures__quirq__infra-config__tools.md](tests__fixtures__quirq__infra-config__tools.md) |
 | `tests/fixtures/quirq/web` | 1 | [tests__fixtures__quirq__web.md](tests__fixtures__quirq__web.md) |
 
-_Generated 2026-11-18 14:40 UTC._
+_Generated 2026-11-19 14:46 UTC._

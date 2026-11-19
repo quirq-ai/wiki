@@ -20,4 +20,4 @@ executable source.
 
 [`public/icons.svg`](https://github.com/quirq-ai/ui/blob/main/public/icons.svg) · code · 5031 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

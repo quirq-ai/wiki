@@ -22,4 +22,4 @@ Generates registry items for every Astryx component, block template and page tem
 
 [`scripts/generate-registry.mjs`](https://github.com/quirq-ai/ui/blob/main/scripts/generate-registry.mjs) · code · 12842 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

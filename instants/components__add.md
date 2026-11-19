@@ -25,4 +25,4 @@ or Next APIs).
 
 [`components/add/created-preview.tsx`](https://github.com/quirq-ai/instants/blob/main/components/add/created-preview.tsx) · code · 3081 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

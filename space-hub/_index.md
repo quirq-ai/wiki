@@ -8,14 +8,14 @@ Create your own collaborationhub to work autonomously with agents
 - [Activity history](../_activity/repos/space-hub.md)
 - Default branch: `main`
 - Primary language (GitHub): TypeScript
-- Last push: `2026-11-13T12:51:22Z`
-- Snapshot SHA: `bcbada8d1723`
+- Last push: `2026-11-19T14:37:43Z`
+- Snapshot SHA: `ed2343248611`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
 
 | Source folder | Files | Wiki page |
 | --- | ---: | --- |
-| (repository root) | 6 | [_root.md](_root.md) |
+| (repository root) | 7 | [_root.md](_root.md) |
 | `app` | 5 | [app.md](app.md) |
 | `app/public` | 11 | [app__public.md](app__public.md) |
 | `app/src` | 8 | [app__src.md](app__src.md) |
@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `module/test` | 9 | [module__test.md](module__test.md) |
 | `scripts` | 5 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-18 14:40 UTC._
+_Generated 2026-11-19 14:46 UTC._

@@ -36,4 +36,4 @@ Markdown document `review.md`. Review staged changes before committing.
 
 [`templates/default/.claude/commands/review.md`](https://github.com/quirq-ai/argus-code/blob/main/templates/default/.claude/commands/review.md) · code · 423 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

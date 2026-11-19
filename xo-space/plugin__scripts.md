@@ -16,4 +16,4 @@ ports, not the pointer port.
 
 [`plugin/scripts/discover.sh`](https://github.com/quirq-ai/xo-space/blob/main/plugin/scripts/discover.sh) · code · 7667 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

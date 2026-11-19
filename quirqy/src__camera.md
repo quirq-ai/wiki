@@ -14,4 +14,4 @@ orbital motion while OrbitControls still work. Notable exports: `FocusController
 
 [`src/camera/focus.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/camera/focus.js) · code · 2816 bytes
 
-_Generated 2026-11-18 14:40 UTC from `quirq`._
+_Generated 2026-11-19 14:46 UTC from `quirq`._

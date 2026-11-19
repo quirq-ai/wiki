@@ -140,4 +140,4 @@ all: null })[w] Notable exports: `dayKeys`, `windowDays`, `widerWindowFor`, `sli
 
 [`dashboard/src/lib/analysis/windows.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/lib/analysis/windows.ts) · code · 927 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

@@ -13,4 +13,4 @@ space](https://github.com/quirq-ai/xo-space), the local control plane for AI cod
 
 [`plugin/README.md`](https://github.com/quirq-ai/xo-space/blob/main/plugin/README.md) · code · 1188 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

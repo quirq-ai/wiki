@@ -54,4 +54,4 @@ The per-connection files: `~/.quirq/connections//`. Classes: `ConnectionsError`.
 
 [`services/connections/store.py`](https://github.com/quirq-ai/xo-space/blob/main/services/connections/store.py) · code · 23700 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

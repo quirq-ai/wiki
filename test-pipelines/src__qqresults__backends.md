@@ -29,4 +29,4 @@ Functions: `run_from_args`.
 
 [`src/qqresults/backends/local.py`](https://github.com/quirq-ai/test-pipelines/blob/main/src/qqresults/backends/local.py) · code · 605 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

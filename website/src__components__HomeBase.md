@@ -32,4 +32,4 @@ quirqConfig, type QuirqApp } from Notable exports: `HomeBase`.
 
 [`src/components/HomeBase/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/HomeBase/index.tsx) · code · 23194 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

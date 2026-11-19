@@ -58,4 +58,4 @@ export const revalidate = false Notable exports: `sitemap`, `revalidate`.
 
 [`src/app/sitemap.ts`](https://github.com/quirq-ai/docs/blob/main/src/app/sitemap.ts) · code · 547 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

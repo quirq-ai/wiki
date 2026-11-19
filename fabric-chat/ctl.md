@@ -105,4 +105,4 @@ Functions: `fingerprint`, `own_card`, `lay_card`, `keep_card`, `probe`, `reach`,
 
 [`ctl/workspaces.sh`](https://github.com/quirq-ai/fabric-chat/blob/main/ctl/workspaces.sh) · code · 24689 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

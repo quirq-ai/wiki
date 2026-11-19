@@ -13,4 +13,4 @@ Marked `'use client'` so it runs in the browser.
 
 [`registry/astryx/templates/dashboard-comparison/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/dashboard-comparison/page.tsx) · code · 26675 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

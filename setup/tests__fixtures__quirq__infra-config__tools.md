@@ -12,4 +12,4 @@ Python module `qqcfg.py`.
 
 [`tests/fixtures/quirq/infra-config/tools/qqcfg.py`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/infra-config/tools/qqcfg.py) · code · 78 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

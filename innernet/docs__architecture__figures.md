@@ -41,4 +41,4 @@ executable source.
 
 [`docs/architecture/figures/data-1.svg`](https://github.com/quirq-ai/innernet/blob/main/docs/architecture/figures/data-1.svg) · code · 9160 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

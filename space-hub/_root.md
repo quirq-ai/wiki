@@ -36,11 +36,19 @@ Container build file `Dockerfile`. Base image `--platform=$BUILDPLATFORM`. Expos
 
 [`Dockerfile`](https://github.com/quirq-ai/space-hub/blob/main/Dockerfile) · other · 5335 bytes
 
+### LICENSE
+
+License text (MIT License). Governs use, modification, and distribution of this repository.
+Read the full file in the source tree before depending on the project in a product or
+redistribution.
+
+[`LICENSE`](https://github.com/quirq-ai/space-hub/blob/main/LICENSE) · other · 1065 bytes
+
 ### README.md
 
 The project README (“spacehub”). Git hosting stored in SpacetimeDB, laid out like GitHub.
 
-[`README.md`](https://github.com/quirq-ai/space-hub/blob/main/README.md) · code · 84046 bytes
+[`README.md`](https://github.com/quirq-ai/space-hub/blob/main/README.md) · code · 84188 bytes
 
 ### docker-compose.yml
 
@@ -51,4 +59,4 @@ server behind a Caddy TLS front.
 
 [`docker-compose.yml`](https://github.com/quirq-ai/space-hub/blob/main/docker-compose.yml) · code · 1926 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._

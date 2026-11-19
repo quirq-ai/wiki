@@ -14,4 +14,4 @@ name&gt;].value[&lt;field&gt;] · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/cachedExperimentData/each-flag/value/each-nested-object/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/cachedExperimentData/each-flag/value/each-nested-object/index.html) · code · 16221 bytes
 
-_Generated 2026-11-18 14:40 UTC from `main`._
+_Generated 2026-11-19 14:46 UTC from `main`._
