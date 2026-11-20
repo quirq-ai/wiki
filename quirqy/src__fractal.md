@@ -52,4 +52,4 @@ exterior distance, and lit DE raymarching. Notable exports: `paletteIndex`,
 
 [`src/fractal/shaders.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/fractal/shaders.js) · code · 16992 bytes
 
-_Generated 2026-11-19 14:46 UTC from `quirq`._
+_Generated 2026-11-20 14:28 UTC from `quirq`._

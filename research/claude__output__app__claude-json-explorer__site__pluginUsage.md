@@ -12,4 +12,4 @@ HTML document `index.html` titled “pluginUsage · XO Research”. pluginUsage 
 
 [`claude/output/app/claude-json-explorer/site/pluginUsage/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/pluginUsage/index.html) · code · 15889 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

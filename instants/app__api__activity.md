@@ -13,4 +13,4 @@ Per-user activity (save, pin, hide, read, notes). Local only. Notable exports: `
 
 [`app/api/activity/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/activity/route.ts) · code · 3112 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

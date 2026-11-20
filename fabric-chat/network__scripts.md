@@ -56,4 +56,4 @@ from /work/net.env, which network/generate.mjs writes. Shebang `#!/bin/bash`. Fu
 
 [`network/scripts/lib.sh`](https://github.com/quirq-ai/fabric-chat/blob/main/network/scripts/lib.sh) · code · 1574 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:27 UTC from `main`._

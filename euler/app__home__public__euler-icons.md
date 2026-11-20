@@ -41,4 +41,4 @@ executable source.
 
 [`app/home/public/euler-icons/settings.svg`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler-icons/settings.svg) · code · 804 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:27 UTC from `main`._

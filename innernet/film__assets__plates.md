@@ -69,4 +69,4 @@ executable source.
 
 [`film/assets/plates/search.svg`](https://github.com/quirq-ai/innernet/blob/main/film/assets/plates/search.svg) · code · 49638 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

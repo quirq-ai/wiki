@@ -12,4 +12,4 @@ The project README (“How it grows”). quirq.
 
 [`profile/README.md`](https://github.com/quirq-ai/.github/blob/main/profile/README.md) · code · 2045 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:27 UTC from `main`._

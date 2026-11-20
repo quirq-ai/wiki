@@ -23,4 +23,4 @@ socket. Runnable as a script via `if __name__ == '__main__'`. Functions: `write`
 
 [`services/cowork_agent/adapters/antigravity/runtime/plugin/xo_agy_mcp.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/antigravity/runtime/plugin/xo_agy_mcp.py) · code · 3108 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

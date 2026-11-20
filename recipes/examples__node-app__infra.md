@@ -13,4 +13,4 @@ through the adapter in CI. Sections: `qq`, `toolchains.node`, `[targets`.
 
 [`examples/node-app/infra/repo.toml`](https://github.com/quirq-ai/recipes/blob/main/examples/node-app/infra/repo.toml) · code · 731 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

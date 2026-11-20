@@ -12,4 +12,4 @@ Lock file `engine.lock`. 4194300.
 
 [`tests/fixtures/quirq-state/run/engine.lock`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/run/engine.lock) · code · 8 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

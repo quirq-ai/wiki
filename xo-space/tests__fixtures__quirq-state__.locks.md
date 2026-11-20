@@ -13,4 +13,4 @@ placeholder or `.gitkeep` stand-in) but contains no content to describe.
 
 [`tests/fixtures/quirq-state/.locks/todos.json.121bc02e.lock`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/.locks/todos.json.121bc02e.lock) · empty · 0 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

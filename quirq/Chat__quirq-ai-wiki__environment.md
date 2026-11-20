@@ -12,4 +12,4 @@ The project README (“environment”). euler.
 
 [`Chat/quirq-ai-wiki/environment/README.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/environment/README.md) · code · 304 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._

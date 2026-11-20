@@ -13,4 +13,4 @@ dynamics.
 
 [`Chat/tanker-mooring-simulator/output/index.html`](https://github.com/quirq-ai/quirq/blob/main/Chat/tanker-mooring-simulator/output/index.html) · code · 45614 bytes
 
-_Generated 2026-11-19 14:46 UTC from `main`._
+_Generated 2026-11-20 14:28 UTC from `main`._
