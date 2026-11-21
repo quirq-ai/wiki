@@ -4,13 +4,14 @@
 
 **Status:** Collected
 
-**Requested from:** 2026-10-01T18:05:58Z · **Last success:** 2026-11-20T15:29:55Z
+**Requested from:** 2026-10-01T18:05:58Z · **Last success:** 2026-11-21T14:41:57Z
 
-**Stored records:** 218
+**Stored records:** 220
 
 | Date (UTC) | Records | Kinds |
 | --- | ---: | --- |
-| [2026-11-20](../2026/11/20/README.md) | 1 | workflow: 1 |
+| [2026-11-21](../2026/11/21/README.md) | 1 | workflow: 1 |
+| [2026-11-20](../2026/11/20/README.md) | 2 | workflow: 2 |
 | [2026-11-19](../2026/11/19/README.md) | 2 | workflow: 2 |
 | [2026-11-18](../2026/11/18/README.md) | 2 | workflow: 2 |
 | [2026-11-17](../2026/11/17/README.md) | 2 | workflow: 2 |
