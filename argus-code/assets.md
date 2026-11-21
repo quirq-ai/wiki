@@ -21,4 +21,4 @@ executable source.
 
 [`assets/logo.svg`](https://github.com/quirq-ai/argus-code/blob/main/assets/logo.svg) · code · 414 bytes
 
-_Generated 2026-11-20 14:27 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

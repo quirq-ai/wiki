@@ -22,4 +22,4 @@ Contains tests.
 
 [`tests/dashboard/test_no_raw_html.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/dashboard/test_no_raw_html.py) · code · 1490 bytes
 
-_Generated 2026-11-20 14:27 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

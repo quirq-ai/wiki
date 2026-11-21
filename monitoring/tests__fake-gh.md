@@ -16,4 +16,4 @@ editor, or the script it prints, would have sent.
 
 [`tests/fake-gh/gh`](https://github.com/quirq-ai/monitoring/blob/main/tests/fake-gh/gh) · other · 4812 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

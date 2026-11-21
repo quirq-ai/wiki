@@ -14,4 +14,4 @@ pinned by commit.
 
 [`timing/action.yml`](https://github.com/quirq-ai/gate/blob/main/timing/action.yml) · code · 2195 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

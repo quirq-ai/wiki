@@ -13,4 +13,4 @@ export type ButtonProps = AstryxButtonProps; export type { ButtonSize, ButtonVar
 
 [`registry/astryx/button/button.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/button/button.tsx) · code · 628 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

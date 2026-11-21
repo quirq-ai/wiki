@@ -34,4 +34,4 @@ import { useAppWindows } from '../context/App' Notable exports: `useWindowLayout
 
 [`src/hooks/useWindowLayoutAttributes.ts`](https://github.com/quirq-ai/website/blob/main/src/hooks/useWindowLayoutAttributes.ts) · code · 551 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

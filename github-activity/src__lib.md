@@ -14,4 +14,4 @@ exports: `getDashboard`, `getRepoDetail`, `OWNERS`, `WEEKS`, `CiState`, `Repo`, 
 
 [`src/lib/github.ts`](https://github.com/quirq-ai/github-activity/blob/main/src/lib/github.ts) · code · 17393 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

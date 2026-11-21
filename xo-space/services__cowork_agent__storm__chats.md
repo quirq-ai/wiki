@@ -199,4 +199,4 @@ its sessions hold. Functions: `snapshot`, `reports`.
 
 [`services/cowork_agent/storm/chats/work.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/chats/work.py) · code · 3683 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

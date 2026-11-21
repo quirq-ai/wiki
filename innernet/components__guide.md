@@ -162,4 +162,4 @@ next.config.ts names the files a deployment needs.
 
 [`components/guide/source.ts`](https://github.com/quirq-ai/innernet/blob/main/components/guide/source.ts) · code · 3834 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

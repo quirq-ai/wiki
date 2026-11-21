@@ -98,4 +98,4 @@ function Snippet({ segments }: { segments: Segment[] }) { return <>{segments.map
 
 [`components/search/snippet.tsx`](https://github.com/quirq-ai/innernet/blob/main/components/search/snippet.tsx) · code · 317 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

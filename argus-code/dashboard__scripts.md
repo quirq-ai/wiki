@@ -13,4 +13,4 @@ excluded).
 
 [`dashboard/scripts/size.mjs`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/scripts/size.mjs) · code · 746 bytes
 
-_Generated 2026-11-20 14:27 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

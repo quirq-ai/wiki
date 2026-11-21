@@ -25,6 +25,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **gardener** | public | [`gardener/`](gardener/_index.md) | [gardener](https://github.com/quirq-ai/gardener) |
 | **gate** | public | [`gate/`](gate/_index.md) | [gate](https://github.com/quirq-ai/gate) |
 | **github-activity**<br>Public activity dashboard for quirq-ai's public GitHub repos | public | [`github-activity/`](github-activity/_index.md) | [github-activity](https://github.com/quirq-ai/github-activity) |
+| **heartwood**<br>An old tree as 5.9 million Gaussian splats that pulses with music. PlayCanvas, WebGPU, Web Audio. | public | [`heartwood/`](heartwood/_index.md) | [heartwood](https://github.com/quirq-ai/heartwood) |
 | **infra-config** | public | [`infra-config/`](infra-config/_index.md) | [infra-config](https://github.com/quirq-ai/infra-config) |
 | **innernet** | public | [`innernet/`](innernet/_index.md) | [innernet](https://github.com/quirq-ai/innernet) |
 | **installer** | public | [`installer/`](installer/_index.md) | [installer](https://github.com/quirq-ai/installer) |
@@ -65,4 +66,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-11-20 14:28 UTC._
+_Generated 2026-11-21 13:47 UTC._

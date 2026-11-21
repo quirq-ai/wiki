@@ -20,4 +20,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/quirq-state/scheduler/state.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/scheduler/state.json) · code · 477 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

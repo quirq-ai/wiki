@@ -15,4 +15,4 @@ Notable exports: `LanguageAlternate`, `SEO`.
 
 [`src/components/seo.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/seo.tsx) · code · 4500 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

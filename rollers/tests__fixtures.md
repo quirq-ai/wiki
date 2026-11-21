@@ -34,4 +34,4 @@ roll changes only python's version and pin. Sections: `qq`, `toolchains.python`,
 
 [`tests/fixtures/stale.repo.toml`](https://github.com/quirq-ai/rollers/blob/main/tests/fixtures/stale.repo.toml) · code · 1120 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

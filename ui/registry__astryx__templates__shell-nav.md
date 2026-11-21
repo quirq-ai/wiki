@@ -13,4 +13,4 @@ client'` so it runs in the browser.
 
 [`registry/astryx/templates/shell-nav/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/shell-nav/page.tsx) · code · 8930 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

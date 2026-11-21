@@ -14,4 +14,4 @@ main(process.argv.slice(2)).then( (code) => { if (typeof code === 'number') proc
 
 [`bin/liftoff.js`](https://github.com/quirq-ai/liftoff/blob/main/bin/liftoff.js) · code · 269 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

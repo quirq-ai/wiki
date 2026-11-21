@@ -26,4 +26,4 @@ Target repos as local git directories: /. Classes: `Mirror`.
 
 [`src/qqrelease/backends/local.py`](https://github.com/quirq-ai/release/blob/main/src/qqrelease/backends/local.py) · code · 1990 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

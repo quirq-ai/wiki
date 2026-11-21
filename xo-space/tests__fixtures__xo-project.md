@@ -16,4 +16,4 @@ services/xo_structure.py.
 
 [`tests/fixtures/xo-project/README.md`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/xo-project/README.md) · code · 4376 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

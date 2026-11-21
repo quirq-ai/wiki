@@ -16,4 +16,4 @@ tools/plant-break.sh DIR [N=12] [BREAK=7] Shebang `#!/usr/bin/env bash`. Fails f
 
 [`tools/plant-break.sh`](https://github.com/quirq-ai/gardener/blob/main/tools/plant-break.sh) · code · 1057 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-20T14:28:17.568689+00:00",
+  "generated_at": "2026-11-21T13:47:26.418570+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -161,6 +161,15 @@
       "sha": "d4a8271f3ab2f4c703daf4379abf8087a52dc63b"
     },
     {
+      "name": "heartwood",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/heartwood",
+      "pushed_at": "2026-11-20T20:02:31Z",
+      "sha": "a99be4605296204d650c1556f8c1d11812b1a062"
+    },
+    {
       "name": "infra-config",
       "fork": false,
       "archived": false,
@@ -319,7 +328,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-20T07:40:41Z",
+      "pushed_at": "2026-11-21T07:41:08Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -382,7 +391,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-20T07:29:27Z",
+      "pushed_at": "2026-11-21T07:24:28Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {

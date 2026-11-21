@@ -19,4 +19,4 @@ config`, `sync`.
 
 [`tests/fixtures/quirq/gate/pins.toml`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/gate/pins.toml) · code · 280 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

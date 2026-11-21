@@ -94,4 +94,4 @@ const r = makeRedactor() Automated test file.
 
 [`test/redact.test.js`](https://github.com/quirq-ai/control/blob/main/test/redact.test.js) · code · 2321 bytes
 
-_Generated 2026-11-20 14:27 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

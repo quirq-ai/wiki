@@ -14,4 +14,4 @@ Router or Next APIs).
 
 [`src/app/preview/[name]/page.tsx`](https://github.com/quirq-ai/ui/blob/main/src/app/preview/[name]/page.tsx) · code · 1293 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

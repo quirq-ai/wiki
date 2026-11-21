@@ -12,4 +12,4 @@ Entry point. Adding a view = create js/views/<name>.js exporting the view.
 
 [`space_ui/js/app.js`](https://github.com/quirq-ai/xo-cowork-api/blob/main/space_ui/js/app.js) · code · 1174 bytes
 
-_Generated 2026-11-20 14:28 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

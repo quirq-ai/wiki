@@ -67,4 +67,4 @@ a shared dock, and directly mounted applications. CLI bins: `euler`. Scripts: `s
 
 [`package.json`](https://github.com/quirq-ai/euler/blob/main/package.json) · code · 857 bytes
 
-_Generated 2026-11-20 14:27 UTC from `main`._
+_Generated 2026-11-21 13:47 UTC from `main`._

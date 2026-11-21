@@ -67,4 +67,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 4 | [scripts.md](scripts.md) |
 | `vendor` | 2 | [vendor.md](vendor.md) |
 
-_Generated 2026-11-20 14:28 UTC._
+_Generated 2026-11-21 13:47 UTC._
