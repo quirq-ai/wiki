@@ -20,4 +20,4 @@ Functions: `not_found`, `bytes_at_commit`.
 
 [`services/coworker/versions.py`](https://github.com/quirq-ai/xo-space/blob/main/services/coworker/versions.py) · code · 4951 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

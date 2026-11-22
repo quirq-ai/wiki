@@ -94,4 +94,4 @@ module's public entry.
 
 [`vite.config.ts`](https://github.com/quirq-ai/fabric-chat/blob/main/vite.config.ts) · code · 512 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

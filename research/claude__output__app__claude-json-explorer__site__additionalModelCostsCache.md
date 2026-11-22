@@ -13,4 +13,4 @@ additionalModelCostsCache · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/additionalModelCostsCache/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/additionalModelCostsCache/index.html) · code · 16040 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

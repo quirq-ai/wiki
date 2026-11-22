@@ -29,4 +29,4 @@ Structured data consumed by the surrounding app or tooling.
 
 [`tests/fixtures/advisory/codex_paid_incident.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/advisory/codex_paid_incident.json) · code · 5775 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

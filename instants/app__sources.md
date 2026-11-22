@@ -27,4 +27,4 @@ APIs).
 
 [`app/sources/page.tsx`](https://github.com/quirq-ai/instants/blob/main/app/sources/page.tsx) · code · 1071 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

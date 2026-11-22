@@ -70,4 +70,4 @@ server for one OpenAI Agents API session, configured by Launchpad. Scripts: `sta
 
 [`package.json`](https://github.com/quirq-ai/executor/blob/main/package.json) · code · 350 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

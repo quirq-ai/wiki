@@ -102,4 +102,4 @@ generated blobs.
 
 [`docs/screens/side-by-side.png`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/screens/side-by-side.png) · binary · 418598 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

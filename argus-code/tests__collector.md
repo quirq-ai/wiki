@@ -123,4 +123,4 @@ Watchdog live-tail. Slow-ish because we wait for the debouncer to fire. Function
 
 [`tests/collector/test_watcher.py`](https://github.com/quirq-ai/argus-code/blob/main/tests/collector/test_watcher.py) · code · 2078 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

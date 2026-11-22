@@ -29,4 +29,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/fixtures` | 4 | [tests__fixtures.md](tests__fixtures.md) |
 | `tests/project` | 7 | [tests__project.md](tests__project.md) |
 
-_Generated 2026-11-21 13:47 UTC._
+_Generated 2026-11-22 13:40 UTC._

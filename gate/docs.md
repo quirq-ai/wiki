@@ -15,4 +15,4 @@ command, from the gate commit the coordinator names.
 
 [`docs/apply-settings.md`](https://github.com/quirq-ai/gate/blob/main/docs/apply-settings.md) · code · 23942 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._

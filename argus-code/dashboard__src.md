@@ -33,4 +33,4 @@ CSS custom properties (design tokens).
 
 [`dashboard/src/styles.css`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/styles.css) · code · 2264 bytes
 
-_Generated 2026-11-21 13:47 UTC from `main`._
+_Generated 2026-11-22 13:40 UTC from `main`._
