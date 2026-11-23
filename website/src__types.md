@@ -16,4 +16,4 @@ Notable exports: `PostHog`.
 
 [`src/types/posthog.ts`](https://github.com/quirq-ai/website/blob/main/src/types/posthog.ts) · code · 933 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

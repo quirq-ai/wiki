@@ -16,4 +16,4 @@ test file.
 
 [`packages/present/test/outputs.test.mjs`](https://github.com/quirq-ai/research/blob/main/packages/present/test/outputs.test.mjs) · code · 5294 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

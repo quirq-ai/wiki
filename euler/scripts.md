@@ -34,4 +34,4 @@ app/<id> to exactly that tree.
 
 [`scripts/sources.mjs`](https://github.com/quirq-ai/euler/blob/main/scripts/sources.mjs) · code · 12970 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

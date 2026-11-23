@@ -30,4 +30,4 @@ the working directory off sys.path.
 
 [`tools/qqperf`](https://github.com/quirq-ai/perf/blob/main/tools/qqperf) · other · 512 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

@@ -13,4 +13,4 @@ front of the container.
 
 [`deploy/Caddyfile`](https://github.com/quirq-ai/heartwood/blob/main/deploy/Caddyfile) · other · 536 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

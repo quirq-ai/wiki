@@ -65,4 +65,4 @@ dependencies`, `project.scripts`, `tool.setuptools.packages.find`,
 
 [`pyproject.toml`](https://github.com/quirq-ai/gate/blob/main/pyproject.toml) · code · 837 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

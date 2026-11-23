@@ -135,4 +135,4 @@ What the form shows for a file: plain, serialisable values only. Notable exports
 
 [`lib/editor/view.ts`](https://github.com/quirq-ai/monitoring/blob/main/lib/editor/view.ts) · code · 2223 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

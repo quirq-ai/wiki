@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `FormWizardP
 
 [`registry/astryx/templates/form-wizard/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/form-wizard/page.tsx) · code · 36044 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

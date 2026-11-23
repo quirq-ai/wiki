@@ -12,4 +12,4 @@ Markdown page “release”. lkgr, channels, canary and rollback.
 
 [`Chat/quirq-ai-wiki/release/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/release/output/one-pager.md) · code · 2207 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

@@ -12,4 +12,4 @@ Markdown page “liftoff”. Deploys apps to XO Launchpad from the queue in quir
 
 [`Chat/liftoff/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/liftoff/output/one-pager.md) · code · 249 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

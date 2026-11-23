@@ -32,4 +32,4 @@ Notable exports: `FigureSeries`, `FigureMark`, `Figure`, `BeatData`.
 
 [`components/story/types.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/components/story/types.ts) · code · 2707 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

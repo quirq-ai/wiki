@@ -19,4 +19,4 @@ exports: `Page`.
 
 [`examples/node-app/app/page.tsx`](https://github.com/quirq-ai/recipes/blob/main/examples/node-app/app/page.tsx) · code · 134 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

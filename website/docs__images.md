@@ -22,4 +22,4 @@ blobs.
 
 [`docs/images/home-base-light.jpg`](https://github.com/quirq-ai/website/blob/main/docs/images/home-base-light.jpg) · binary · 69870 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

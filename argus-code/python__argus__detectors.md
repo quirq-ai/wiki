@@ -44,4 +44,4 @@ tool_error_rate_spike detector. Classes: `ToolErrorRateSpikeDetector`.
 
 [`python/argus/detectors/tool_error_rate_spike.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/detectors/tool_error_rate_spike.py) · code · 4875 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

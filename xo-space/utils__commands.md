@@ -24,4 +24,4 @@ Manual and fixed-interval commands: the job store and the tick. Classes: `Schedu
 
 [`utils/commands/scheduler.py`](https://github.com/quirq-ai/xo-space/blob/main/utils/commands/scheduler.py) · code · 48782 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

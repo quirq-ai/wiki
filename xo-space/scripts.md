@@ -60,4 +60,4 @@ __name__ == '__main__'`. Functions: `backup`, `facts`, `checks`, `open_copy`, `r
 
 [`scripts/storm_rehearse_upgrade.py`](https://github.com/quirq-ai/xo-space/blob/main/scripts/storm_rehearse_upgrade.py) · code · 7501 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._

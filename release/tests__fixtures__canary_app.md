@@ -32,4 +32,4 @@ __name__ == '__main__'`. Classes: `Handler`.
 
 [`tests/fixtures/canary_app/server.py`](https://github.com/quirq-ai/release/blob/main/tests/fixtures/canary_app/server.py) · code · 1151 bytes
 
-_Generated 2026-11-22 13:40 UTC from `main`._
+_Generated 2026-11-23 16:38 UTC from `main`._
