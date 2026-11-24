@@ -12,4 +12,4 @@ Markdown page “agent-skills”. Agent skills, starting with explainer-film.
 
 [`Chat/quirq-ai-wiki/agent-skills/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/agent-skills/output/one-pager.md) · code · 1814 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

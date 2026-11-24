@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-23T16:38:29.463744+00:00",
+  "generated_at": "2026-11-24T16:35:00.823566+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -328,7 +328,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-23T07:40:57Z",
+      "pushed_at": "2026-11-24T01:15:05Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -391,7 +391,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-23T07:52:41Z",
+      "pushed_at": "2026-11-24T10:05:12Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {

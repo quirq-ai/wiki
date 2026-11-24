@@ -16,4 +16,4 @@ Provides a default export as the module's public entry.
 
 [`src/components/FloatingModal/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/FloatingModal/index.tsx) · code · 7425 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

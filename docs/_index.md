@@ -60,4 +60,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/journeys` | 5 | [src__journeys.md](src__journeys.md) |
 | `src/lib` | 5 | [src__lib.md](src__lib.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

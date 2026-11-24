@@ -30,4 +30,4 @@ TOML config `repos.toml`. Sections: `[repo`, `repo.deploy`.
 
 [`tests/fixtures/quirq/infra-config/config/repos.toml`](https://github.com/quirq-ai/setup/blob/main/tests/fixtures/quirq/infra-config/config/repos.toml) · code · 171 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

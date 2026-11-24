@@ -13,4 +13,4 @@ consumed by the surrounding app or tooling.
 
 [`tests/fixtures/raw/release/release-state/channels.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/channels.json) · code · 701 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

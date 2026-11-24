@@ -13,4 +13,4 @@ oauthAccount.ccOnboardingFlags · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/oauthAccount/ccOnboardingFlags/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/oauthAccount/ccOnboardingFlags/index.html) · code · 15959 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

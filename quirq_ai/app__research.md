@@ -25,4 +25,4 @@ its falsifier.", } Notable exports: `ResearchIndex`, `metadata`. Wired into a Ne
 
 [`app/research/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/research/page.tsx) · code · 873 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

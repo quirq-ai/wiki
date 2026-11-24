@@ -49,4 +49,4 @@ defaults to "spacehub"; override with SPACEHUB_DB. Shebang `#!/usr/bin/env bash`
 
 [`scripts/setup.sh`](https://github.com/quirq-ai/space-hub/blob/main/scripts/setup.sh) · code · 1086 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

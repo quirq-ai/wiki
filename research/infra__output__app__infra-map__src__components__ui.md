@@ -93,4 +93,4 @@ in the browser.
 
 [`infra/output/app/infra-map/src/components/ui/toggle.tsx`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/components/ui/toggle.tsx) · code · 1523 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

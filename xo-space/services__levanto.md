@@ -18,4 +18,4 @@ The one HTTP door to Levanto Sage. Classes: `SageResult`. Functions: `decide`.
 
 [`services/levanto/client.py`](https://github.com/quirq-ai/xo-space/blob/main/services/levanto/client.py) · code · 4725 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

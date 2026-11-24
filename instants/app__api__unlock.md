@@ -14,4 +14,4 @@ only routes accept on non-loopback hosts. Notable exports: `POST`, `DELETE`, `ru
 
 [`app/api/unlock/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/unlock/route.ts) · code · 1125 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

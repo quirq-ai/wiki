@@ -21,4 +21,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `scripts` | 1 | [scripts.md](scripts.md) |
 | `src` | 12 | [src.md](src.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

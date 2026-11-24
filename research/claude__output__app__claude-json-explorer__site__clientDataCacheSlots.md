@@ -13,4 +13,4 @@ HTML document `index.html` titled “clientDataCacheSlots · XO Research”. cli
 
 [`claude/output/app/claude-json-explorer/site/clientDataCacheSlots/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/clientDataCacheSlots/index.html) · code · 16586 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

@@ -13,4 +13,4 @@ JSON document `sample-project.json` whose top-level keys are `schema`, `updated_
 
 [`tests/fixtures/quirq-state/cache/activity/projects/sample-project.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/cache/activity/projects/sample-project.json) · code · 338 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

@@ -18,4 +18,4 @@ Shell script `setup.sh`. Fails fast (`set -e`).
 
 [`infra/output/app/infra-map/src/commands/setup.sh`](https://github.com/quirq-ai/research/blob/main/infra/output/app/infra-map/src/commands/setup.sh) · code · 1674 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

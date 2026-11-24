@@ -12,4 +12,4 @@ HTML document `index.html` titled “Fabric Chat”. Fabric Chat.
 
 [`web/index.html`](https://github.com/quirq-ai/fabric-chat/blob/main/web/index.html) · code · 766 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

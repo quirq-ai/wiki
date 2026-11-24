@@ -93,4 +93,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/server` | 9 | [tests__server.md](tests__server.md) |
 | `tests/store` | 4 | [tests__store.md](tests__store.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

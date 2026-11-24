@@ -15,4 +15,4 @@ main until v2.
 
 [`docs/xo-space-canary.md`](https://github.com/quirq-ai/installer/blob/main/docs/xo-space-canary.md) · code · 7637 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

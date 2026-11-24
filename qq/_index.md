@@ -30,4 +30,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tests/parity_adapters` | 3 | [tests__parity_adapters.md](tests__parity_adapters.md) |
 | `tools` | 1 | [tools.md](tools.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

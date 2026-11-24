@@ -15,4 +15,4 @@ Team price), to stand in for a second version of the app. Notable exports:
 
 [`sample-app/server.mjs`](https://github.com/quirq-ai/galileo/blob/main/sample-app/server.mjs) · code · 3700 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

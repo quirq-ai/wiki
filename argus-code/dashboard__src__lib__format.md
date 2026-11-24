@@ -26,4 +26,4 @@ return '$' + n.toFixed(3); return '$' + n.toFixed(4); } Notable exports: `usd`, 
 
 [`dashboard/src/lib/format/format.ts`](https://github.com/quirq-ai/argus-code/blob/main/dashboard/src/lib/format/format.ts) · code · 2076 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

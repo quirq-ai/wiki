@@ -25,4 +25,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/qqrbe/backends` | 3 | [src__qqrbe__backends.md](src__qqrbe__backends.md) |
 | `tests` | 8 | [tests.md](tests.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

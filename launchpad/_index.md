@@ -21,4 +21,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `src/xo_launchpad` | 7 | [src__xo_launchpad.md](src__xo_launchpad.md) |
 | `tests` | 4 | [tests.md](tests.md) |
 
-_Generated 2026-11-23 16:38 UTC._
+_Generated 2026-11-24 16:34 UTC._

@@ -138,4 +138,4 @@ level events into the watcher. Classes: `Source`. Functions: `_profile_state_dbs
 
 [`services/cowork_agent/adapters/hermes/visualizer_source.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/adapters/hermes/visualizer_source.py) · code · 13462 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._

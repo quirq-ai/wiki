@@ -28,4 +28,4 @@ prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"qq-setup"}.
 
 [`out/_not-found/__next._tree.txt`](https://github.com/quirq-ai/setup/blob/main/out/_not-found/__next._tree.txt) · code · 355 bytes
 
-_Generated 2026-11-23 16:38 UTC from `main`._
+_Generated 2026-11-24 16:34 UTC from `main`._
