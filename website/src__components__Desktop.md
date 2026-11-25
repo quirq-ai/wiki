@@ -29,4 +29,4 @@ Provides a default export as the module's public entry.
 
 [`src/components/Desktop/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Desktop/index.tsx) · code · 17019 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

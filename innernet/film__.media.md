@@ -13,4 +13,4 @@ JSON document `preferences.json` whose top-level keys are `version`, `preference
 
 [`film/.media/preferences.json`](https://github.com/quirq-ai/innernet/blob/main/film/.media/preferences.json) · code · 567 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

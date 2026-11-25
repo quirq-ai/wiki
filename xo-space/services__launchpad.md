@@ -49,4 +49,4 @@ Functions: `project_path`, `launchpad_url`, `github_login`, `script_env`, `cli_i
 
 [`services/launchpad/runs.py`](https://github.com/quirq-ai/xo-space/blob/main/services/launchpad/runs.py) · code · 25718 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

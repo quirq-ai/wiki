@@ -104,4 +104,4 @@ import * as React from "react" import { cn } from "@/lib/utils" Notable exports:
 
 [`components/ui/textarea.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/ui/textarea.tsx) · code · 755 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

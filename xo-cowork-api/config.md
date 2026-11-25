@@ -13,4 +13,4 @@ Empty file `__init__.py` in the source tree. It is present (often as a placehold
 
 [`config/__init__.py`](https://github.com/quirq-ai/xo-cowork-api/blob/main/config/__init__.py) · empty · 0 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

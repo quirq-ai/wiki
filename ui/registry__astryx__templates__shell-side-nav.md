@@ -13,4 +13,4 @@ Copyright (c) Meta Platforms, Inc. and affiliates. Notable exports: `ShellSideNa
 
 [`registry/astryx/templates/shell-side-nav/page.tsx`](https://github.com/quirq-ai/ui/blob/main/registry/astryx/templates/shell-side-nav/page.tsx) · code · 6768 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

@@ -132,4 +132,4 @@ JSON goes in as a string cast in the SQL ($1::jsonb) and comes back parsed.
 
 [`lib/db/types.ts`](https://github.com/quirq-ai/innernet/blob/main/lib/db/types.ts) · code · 2319 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

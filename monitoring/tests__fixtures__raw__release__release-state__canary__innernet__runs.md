@@ -38,4 +38,4 @@ JSON document `{{today}}.json` whose top-level keys are `commit`, `date`, `diges
 
 [`tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today}}.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/canary/innernet/runs/{{today}}.json) · code · 1445 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

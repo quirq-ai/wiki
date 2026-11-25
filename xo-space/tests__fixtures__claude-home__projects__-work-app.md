@@ -12,4 +12,4 @@ Jsonl file `11111111-1111-4111-8111-111111111111.jsonl`.
 
 [`tests/fixtures/claude-home/projects/-work-app/11111111-1111-4111-8111-111111111111.jsonl`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/claude-home/projects/-work-app/11111111-1111-4111-8111-111111111111.jsonl) · code · 1353 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

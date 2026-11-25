@@ -88,4 +88,4 @@ HTML document `euler.html` titled “Home &middot; Euler”. Home &middot; Euler
 
 [`app/home/public/euler.html`](https://github.com/quirq-ai/euler/blob/main/app/home/public/euler.html) · code · 14563 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

@@ -26,4 +26,4 @@ a description. v1.md and v2.md are not copied, so links to them do not resolve h
 
 [`docs/v0.md`](https://github.com/quirq-ai/infra-config/blob/main/docs/v0.md) · code · 17347 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

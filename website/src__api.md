@@ -16,4 +16,4 @@ public, so it can't be pointed at a private network.
 
 [`src/api/frame-check.ts`](https://github.com/quirq-ai/website/blob/main/src/api/frame-check.ts) · code · 4500 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

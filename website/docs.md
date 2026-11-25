@@ -30,4 +30,4 @@ inherited material.
 
 [`docs/repository-audit.md`](https://github.com/quirq-ai/website/blob/main/docs/repository-audit.md) · code · 14304 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

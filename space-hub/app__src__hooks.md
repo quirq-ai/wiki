@@ -76,4 +76,4 @@ Notable exports: `useTaskEvents`.
 
 [`app/src/hooks/use-workers.ts`](https://github.com/quirq-ai/space-hub/blob/main/app/src/hooks/use-workers.ts) · code · 2392 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

@@ -13,4 +13,4 @@ process.stderr.write(control: ${err.message}\n); process.exitCode = 1; }, ).
 
 [`bin/control.js`](https://github.com/quirq-ai/control/blob/main/bin/control.js) · code · 227 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

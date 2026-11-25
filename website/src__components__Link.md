@@ -23,4 +23,4 @@ IconArrowUpRight } from '@posthog/icons' import ContextMenu, { ContextMenuItemPr
 
 [`src/components/Link/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/Link/index.tsx) · code · 4200 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

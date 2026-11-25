@@ -66,4 +66,4 @@ roll its manifest to the promoted digests and open (or refresh) one roll PR. Cla
 
 [`src/qqroll/rotation.py`](https://github.com/quirq-ai/rollers/blob/main/src/qqroll/rotation.py) · code · 6187 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

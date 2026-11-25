@@ -32,4 +32,4 @@ meter the agents your team already runs." Notable exports: `Page`, `metadata`.
 
 [`app/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/page.tsx) · code · 754 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

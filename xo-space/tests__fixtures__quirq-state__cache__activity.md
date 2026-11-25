@@ -13,4 +13,4 @@ JSON document `workspace.json` whose top-level keys are `schema`, `updated_at`,
 
 [`tests/fixtures/quirq-state/cache/activity/workspace.json`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/cache/activity/workspace.json) · code · 376 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

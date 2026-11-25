@@ -14,4 +14,4 @@ slugify(title) }); } Notable exports: `GET`.
 
 [`examples/node-app/app/api/slug/route.ts`](https://github.com/quirq-ai/recipes/blob/main/examples/node-app/app/api/slug/route.ts) · code · 208 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

@@ -14,4 +14,4 @@ JSON document `plugin.json` whose top-level keys are `name`, `version`, `descrip
 
 [`plugins/quirq/.codex-plugin/plugin.json`](https://github.com/quirq-ai/xo-space/blob/main/plugins/quirq/.codex-plugin/plugin.json) · code · 1611 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

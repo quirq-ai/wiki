@@ -39,4 +39,4 @@ prove the dashboard never writes.
 
 [`tests/fixtures/server.mjs`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/server.mjs) · code · 7893 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

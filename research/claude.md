@@ -36,4 +36,4 @@ npm package manifest for `claude`. Scripts: `build`, `dev`.
 
 [`claude/package.json`](https://github.com/quirq-ai/research/blob/main/claude/package.json) · code · 207 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

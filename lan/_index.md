@@ -28,4 +28,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `memory/working` | 1 | [memory__working.md](memory__working.md) |
 | `server` | 6 | [server.md](server.md) |
 
-_Generated 2026-11-24 16:34 UTC._
+_Generated 2026-11-25 16:16 UTC._

@@ -48,4 +48,4 @@ against FACTS.md. Lily (ElevenLabs) reads it; scripts/voice.mjs renders it. Nota
 
 [`skills/explainer-film/references/examples/quirq-infra/script.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/references/examples/quirq-infra/script.mjs) · code · 3089 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

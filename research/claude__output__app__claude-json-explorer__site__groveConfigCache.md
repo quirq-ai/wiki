@@ -13,4 +13,4 @@ Research.
 
 [`claude/output/app/claude-json-explorer/site/groveConfigCache/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/groveConfigCache/index.html) · code · 16125 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

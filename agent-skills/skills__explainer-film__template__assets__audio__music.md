@@ -13,4 +13,4 @@ turns. The plan (chunks, trims, an optional close-in) lives in src/music.mjs.
 
 [`skills/explainer-film/template/assets/audio/music/bed.mjs`](https://github.com/quirq-ai/agent-skills/blob/main/skills/explainer-film/template/assets/audio/music/bed.mjs) · code · 15644 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

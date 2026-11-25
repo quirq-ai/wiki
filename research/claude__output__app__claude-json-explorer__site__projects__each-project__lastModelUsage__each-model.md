@@ -14,4 +14,4 @@ Research.
 
 [`claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage/each-model/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/each-project/lastModelUsage/each-model/index.html) · code · 17628 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._

@@ -14,4 +14,4 @@ data consumed by the surrounding app or tooling.
 
 [`src/qqsync/schema/quirq-repo-1.schema.json`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/schema/quirq-repo-1.schema.json) · code · 6937 bytes
 
-_Generated 2026-11-24 16:34 UTC from `main`._
+_Generated 2026-11-25 16:16 UTC from `main`._
