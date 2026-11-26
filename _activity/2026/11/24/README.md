@@ -2,7 +2,7 @@
 
 [Activity index](../../../INDEX.md) · [Structured records](records.jsonl)
 
-360 observed records. commit: 12, issue: 1, workflow: 347.
+371 observed records. commit: 23, issue: 1, workflow: 347.
 
 | Time (UTC) | Repository | Kind | Author / actor | Activity | State |
 | --- | --- | --- | --- | --- | --- |
@@ -48,12 +48,14 @@
 | 21:23:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45489850554) | success |
 | 21:19:03 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45489067505) | success |
 | 21:14:31 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45488280285) | success |
+| 21:14:14 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Pick collaborators from the hub&#x27;s builders](https://github.com/quirq-ai/space-hub/commit/ee8fd52588dc3d2235db117a34b546c6e26226e4) |  |
 | 21:10:01 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45487495753) | success |
 | 21:05:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45486702229) | success |
 | 21:00:58 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45485957177) | success |
 | 20:56:26 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45485186431) | success |
 | 20:51:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45484417032) | success |
 | 20:47:25 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45483640593) | success |
+| 20:44:00 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Add and remove a project&#x27;s collaborators from its page](https://github.com/quirq-ai/space-hub/commit/0627a6c0af759579d869ab0d51ee298cb3e11e13) |  |
 | 20:42:54 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45482886840) | success |
 | 20:38:21 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45482100630) | success |
 | 20:33:49 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45481303579) | success |
@@ -62,23 +64,31 @@
 | 20:21:02 | [release](../../../repos/release.md) | workflow | quirq-gates | [canary-watchdog](https://github.com/quirq-ai/release/actions/runs/45479799945) | success |
 | 20:20:17 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45478926990) | success |
 | 20:15:45 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45478107168) | success |
+| 20:13:01 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Make projects private from the app and the CLI](https://github.com/quirq-ai/space-hub/commit/1a410f9f23a80da941edc908c99f27d68f98ef40) |  |
 | 20:11:14 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45477294796) | success |
 | 20:06:42 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45476487202) | success |
 | 20:02:10 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45475688441) | success |
 | 19:57:40 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45474908239) | success |
+| 19:55:41 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Private projects are private on the web](https://github.com/quirq-ai/space-hub/commit/5874e083445a1c855b913f43b176c354dae4d437) |  |
 | 19:53:09 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45474119555) | success |
 | 19:48:37 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45473322328) | success |
+| 19:46:48 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [The owner picks whether new projects start public or private](https://github.com/quirq-ai/space-hub/commit/57188e1d54a2cb1e58e2dd8481fd14ae01f9b372) |  |
+| 19:45:14 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Private projects are private in the database](https://github.com/quirq-ai/space-hub/commit/37190db5b3d3c934e393534d144fd14f54e2d222) |  |
 | 19:44:06 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45472529835) | success |
 | 19:39:35 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45471738648) | success |
 | 19:35:02 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45470928554) | success |
 | 19:30:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45470141094) | success |
+| 19:27:41 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Project visibility and who may read each project](https://github.com/quirq-ai/space-hub/commit/ee2e07310d4adfd017abced0538d81919ea3c675) |  |
 | 19:26:01 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45469342423) | success |
 | 19:21:30 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45468530842) | success |
 | 19:16:57 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45467722535) | success |
 | 19:12:24 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45466923846) | success |
+| 19:10:34 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Send a suspended or signed-out builder to sign in, and explain the allowlist](https://github.com/quirq-ai/space-hub/commit/b65384af81b1a00787d5ffbe3def34b6d62c899b) |  |
 | 19:07:52 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45466104331) | success |
 | 19:03:21 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45465285170) | success |
 | 18:58:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45464501230) | success |
+| 18:54:36 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Suspending a builder takes effect at once](https://github.com/quirq-ai/space-hub/commit/59f7e016d249c9b1a629dfe259857fe7ba68c151) |  |
+| 18:54:36 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Settings -&gt; Hub in the app&#x27;s own style](https://github.com/quirq-ai/space-hub/commit/2d1e89e8f173f00fa38ccfe809a68cc27757a433) |  |
 | 18:54:19 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45463698515) | success |
 | 18:49:48 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45462900638) | success |
 | 18:45:16 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45462098382) | success |
@@ -112,6 +122,7 @@
 | 17:41:55 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45450598609) | success |
 | 17:37:22 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45449766112) | success |
 | 17:37:03 | [qq](../../../repos/qq.md) | workflow | quirq-gates | [e2e-sync](https://github.com/quirq-ai/qq/actions/runs/45450459446) | success |
+| 17:35:37 | [space-hub](../../../repos/space-hub.md) | commit | KrishBhimani | [Members-only at the front door and in the web service](https://github.com/quirq-ai/space-hub/commit/22c85f1e23a32440d26f7ecd277b60b95e884351) |  |
 | 17:32:50 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45448917538) | success |
 | 17:28:18 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45448082377) | success |
 | 17:23:47 | [gardener](../../../repos/gardener.md) | workflow | github-actions\[bot\] | [tree-status](https://github.com/quirq-ai/gardener/actions/runs/45447233461) | success |
