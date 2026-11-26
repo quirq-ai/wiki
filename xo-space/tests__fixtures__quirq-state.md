@@ -16,4 +16,4 @@ before the state root had folders is moved into them.
 
 [`tests/fixtures/quirq-state/README.md`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/quirq-state/README.md) · code · 7523 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:54 UTC from `main`._

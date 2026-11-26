@@ -16,4 +16,4 @@ Notable exports: `BodyBlock`.
 
 [`components/prose/body.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/components/prose/body.tsx) · code · 4468 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

@@ -14,4 +14,4 @@ fails the way gh does on a 404.
 
 [`tests/fake-gh/gh`](https://github.com/quirq-ai/setup/blob/main/tests/fake-gh/gh) · other · 8431 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

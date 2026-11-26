@@ -12,4 +12,4 @@ Markdown page “euler”. One local home and dock for Innernet, Quitter and Ins
 
 [`Chat/quirq-ai-wiki/euler/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/quirq-ai-wiki/euler/output/one-pager.md) · code · 2111 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

@@ -102,4 +102,4 @@ once). Notable exports: `JobState`.
 
 [`src/state.js`](https://github.com/quirq-ai/control/blob/main/src/state.js) · code · 976 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

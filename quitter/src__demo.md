@@ -26,4 +26,4 @@ revisit t Notable exports: `createFixtures`.
 
 [`src/demo/fixtures.ts`](https://github.com/quirq-ai/quitter/blob/main/src/demo/fixtures.ts) · code · 8633 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

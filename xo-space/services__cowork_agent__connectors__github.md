@@ -51,4 +51,4 @@ GitHub connector — PAT (Personal Access Token) acquisition. Functions: `looks_
 
 [`services/cowork_agent/connectors/github/pat.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/connectors/github/pat.py) · code · 1948 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:54 UTC from `main`._

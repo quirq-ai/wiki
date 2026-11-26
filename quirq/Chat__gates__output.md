@@ -12,4 +12,4 @@ Markdown page “gates”. Claude's working agent for suraj's Claude Duet projec
 
 [`Chat/gates/output/one-pager.md`](https://github.com/quirq-ai/quirq/blob/main/Chat/gates/output/one-pager.md) · code · 492 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

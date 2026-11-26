@@ -112,4 +112,4 @@ Functions: `sha`, `history`, `runs_for`.
 
 [`tests/timeline.py`](https://github.com/quirq-ai/release/blob/main/tests/timeline.py) · code · 2271 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

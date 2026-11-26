@@ -16,4 +16,4 @@ credit in place wherever it is published.
 
 [`scripts/fetch-scene.mjs`](https://github.com/quirq-ai/heartwood/blob/main/scripts/fetch-scene.mjs) · code · 2384 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

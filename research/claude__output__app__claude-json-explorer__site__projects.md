@@ -12,4 +12,4 @@ HTML document `index.html` titled “projects · XO Research”. projects · XO 
 
 [`claude/output/app/claude-json-explorer/site/projects/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/index.html) · code · 18855 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

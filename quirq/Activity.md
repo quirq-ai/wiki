@@ -22,4 +22,4 @@ a file to make it yours."}.
 
 [`Activity/example.jsonl`](https://github.com/quirq-ai/quirq/blob/main/Activity/example.jsonl) · code · 177 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

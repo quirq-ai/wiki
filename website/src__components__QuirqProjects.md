@@ -24,4 +24,4 @@ Notable exports: `QuirqProjects`.
 
 [`src/components/QuirqProjects/index.tsx`](https://github.com/quirq-ai/website/blob/main/src/components/QuirqProjects/index.tsx) · code · 17368 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:54 UTC from `main`._

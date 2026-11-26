@@ -13,4 +13,4 @@ projects[&lt;project path&gt;].mcpServers · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/projects/each-project/mcpServers/index.html) · code · 16367 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

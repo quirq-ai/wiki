@@ -50,4 +50,4 @@ executable source.
 
 [`docs/send.svg`](https://github.com/quirq-ai/fabric-chat/blob/main/docs/send.svg) · code · 4746 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

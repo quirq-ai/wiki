@@ -78,4 +78,4 @@ entry.
 
 [`vite.config.js`](https://github.com/quirq-ai/heartwood/blob/main/vite.config.js) · code · 449 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

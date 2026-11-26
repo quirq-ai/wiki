@@ -41,4 +41,4 @@ Automated test file.
 
 [`src/branding/logo-preference.test.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/branding/logo-preference.test.js) · code · 9310 bytes
 
-_Generated 2026-11-25 16:16 UTC from `quirq`._
+_Generated 2026-11-26 15:53 UTC from `quirq`._

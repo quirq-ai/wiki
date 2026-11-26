@@ -13,4 +13,4 @@ python-service: a Python server or app run from source on the pinned CPython. Cl
 
 [`src/qqrecipes/adapters/python_service/__init__.py`](https://github.com/quirq-ai/recipes/blob/main/src/qqrecipes/adapters/python_service/__init__.py) · code · 3492 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

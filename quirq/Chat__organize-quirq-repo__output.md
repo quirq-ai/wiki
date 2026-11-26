@@ -12,4 +12,4 @@ Url file `github.url`. https://github.com/quirq-ai/quirq/blob/main/CONTRIBUTING.
 
 [`Chat/organize-quirq-repo/output/github.url`](https://github.com/quirq-ai/quirq/blob/main/Chat/organize-quirq-repo/output/github.url) · code · 60 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

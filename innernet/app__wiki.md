@@ -15,4 +15,4 @@ anniversaries, all computed from the index. Notable exports: `WikiMain`, `dynami
 
 [`app/wiki/page.tsx`](https://github.com/quirq-ai/innernet/blob/main/app/wiki/page.tsx) · code · 3013 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

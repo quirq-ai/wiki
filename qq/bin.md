@@ -12,4 +12,4 @@ Extensionless file `qq`. qq bootstrap. Put this directory on PATH, like depot_to
 
 [`bin/qq`](https://github.com/quirq-ai/qq/blob/main/bin/qq) · other · 1016 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

@@ -13,4 +13,4 @@ the stored record, never from the client. Notable exports: `POST`.
 
 [`app/api/open/route.ts`](https://github.com/quirq-ai/instants/blob/main/app/api/open/route.ts) · code · 1502 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

@@ -20,4 +20,4 @@ Stands in for the `server-only` package under vitest, where there is no React se
 
 [`tests/helpers/server-only.ts`](https://github.com/quirq-ai/monitoring/blob/main/tests/helpers/server-only.ts) · code · 106 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

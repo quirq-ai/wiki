@@ -37,4 +37,4 @@ so they need no image files and stay sharp. Notable exports: `icon`, `topicMap`.
 
 [`packages/theme/visuals.mjs`](https://github.com/quirq-ai/research/blob/main/packages/theme/visuals.mjs) · code · 3618 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

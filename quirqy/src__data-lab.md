@@ -561,4 +561,4 @@ exports: `createLeafGeometry`, `rootReadableViewport`, `TreeScene`.
 
 [`src/data-lab/tree-scene.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/data-lab/tree-scene.js) · code · 53961 bytes
 
-_Generated 2026-11-25 16:16 UTC from `quirq`._
+_Generated 2026-11-26 15:53 UTC from `quirq`._

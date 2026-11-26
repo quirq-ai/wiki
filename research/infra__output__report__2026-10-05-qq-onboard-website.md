@@ -142,4 +142,4 @@ generated blobs.
 
 [`infra/output/report/2026-10-05-qq-onboard-website/06c-plan.png`](https://github.com/quirq-ai/research/blob/main/infra/output/report/2026-10-05-qq-onboard-website/06c-plan.png) · binary · 149469 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._

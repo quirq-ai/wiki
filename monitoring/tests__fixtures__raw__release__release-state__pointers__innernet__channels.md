@@ -14,4 +14,4 @@ JSON document `canary.json` whose top-level keys are `commit`, `digest`, `genera
 
 [`tests/fixtures/raw/release/release-state/pointers/innernet/channels/canary.json`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/release/release-state/pointers/innernet/channels/canary.json) · code · 403 bytes
 
-_Generated 2026-11-25 16:16 UTC from `main`._
+_Generated 2026-11-26 15:53 UTC from `main`._
