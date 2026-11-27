@@ -15,4 +15,4 @@ in step with the hub both ways, pushing as the agent.
 
 [`scripts/hub-sync.mjs`](https://github.com/quirq-ai/liftoff/blob/main/scripts/hub-sync.mjs) · code · 3054 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

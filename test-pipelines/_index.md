@@ -8,7 +8,7 @@ Part of quirq infra ("qq"), quirq-ai's CI/CD system for repos in any language. T
 - [Activity history](../_activity/repos/test-pipelines.md)
 - Default branch: `main`
 - Primary language (GitHub): Python
-- Last push: `2026-11-26T08:36:33Z`
+- Last push: `2026-11-27T08:47:52Z`
 - Snapshot SHA: `b26a369800ed`
 
 Pages below follow the org wiki convention: one markdown file per source directory, with `/` encoded as `__`.
@@ -31,4 +31,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `tools` | 1 | [tools.md](tools.md) |
 | `tools/bin` | 1 | [tools__bin.md](tools__bin.md) |
 
-_Generated 2026-11-26 15:53 UTC._
+_Generated 2026-11-27 15:41 UTC._

@@ -34,4 +34,4 @@ FastAPI app builder + uvicorn launcher. Classes: `ServerOpts`, `SafeStaticFiles`
 
 [`python/argus/server/app.py`](https://github.com/quirq-ai/argus-code/blob/main/python/argus/server/app.py) · code · 9353 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

@@ -19,4 +19,4 @@ ff-only: fast-forward HEAD to origin/, or refuse and say why. Functions: `apply`
 
 [`src/qqsync/project/strategies/ff_only.py`](https://github.com/quirq-ai/sync/blob/main/src/qqsync/project/strategies/ff_only.py) · code · 3144 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

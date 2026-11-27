@@ -65,4 +65,4 @@ The UI writer key: proof that a save came through the coworker UI's proxy. Funct
 
 [`services/project_files/writer_key.py`](https://github.com/quirq-ai/xo-space/blob/main/services/project_files/writer_key.py) · code · 3864 bytes
 
-_Generated 2026-11-26 15:54 UTC from `main`._
+_Generated 2026-11-27 15:42 UTC from `main`._

@@ -25,4 +25,4 @@ Notable exports: `Page`, `metadata`.
 
 [`app/demo/page.tsx`](https://github.com/quirq-ai/quirq_ai/blob/main/app/demo/page.tsx) · code · 1416 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

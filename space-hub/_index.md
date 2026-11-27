@@ -38,4 +38,4 @@ Pages below follow the org wiki convention: one markdown file per source directo
 | `module/test` | 9 | [module__test.md](module__test.md) |
 | `scripts` | 5 | [scripts.md](scripts.md) |
 
-_Generated 2026-11-26 15:53 UTC._
+_Generated 2026-11-27 15:41 UTC._

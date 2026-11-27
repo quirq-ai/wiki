@@ -78,4 +78,4 @@ Functions: `registry`, `registry_from`, `npm_file`.
 
 [`tests/tests_support.py`](https://github.com/quirq-ai/rollers/blob/main/tests/tests_support.py) · code · 5747 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

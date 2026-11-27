@@ -28,4 +28,4 @@ panel (expected vs actual). Notable exports: `createRecorder`, `RECORD_MAX_MS`.
 
 [`src/capture/recorder.js`](https://github.com/quirq-ai/quirqy/blob/quirq/src/capture/recorder.js) · code · 7397 bytes
 
-_Generated 2026-11-26 15:53 UTC from `quirq`._
+_Generated 2026-11-27 15:41 UTC from `quirq`._

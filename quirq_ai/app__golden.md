@@ -24,4 +24,4 @@ mad Notable exports: `STORY`.
 
 [`app/golden/story.ts`](https://github.com/quirq-ai/quirq_ai/blob/main/app/golden/story.ts) · code · 4019 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

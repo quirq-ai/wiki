@@ -56,4 +56,4 @@ Terminal rendering and copyable commands. Functions: `shell_quote`, `docker_comm
 
 [`src/xo_launchpad/output.py`](https://github.com/quirq-ai/launchpad/blob/main/src/xo_launchpad/output.py) · code · 4130 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

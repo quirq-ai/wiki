@@ -41,4 +41,4 @@ executable source.
 
 [`public/window.svg`](https://github.com/quirq-ai/instants/blob/main/public/window.svg) · code · 386 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

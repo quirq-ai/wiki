@@ -15,4 +15,4 @@ stands for stores already on people's disks.
 
 [`tests/fixtures/storm_store_v1.sql`](https://github.com/quirq-ai/xo-space/blob/main/tests/fixtures/storm_store_v1.sql) · code · 30937 bytes
 
-_Generated 2026-11-26 15:54 UTC from `main`._
+_Generated 2026-11-27 15:42 UTC from `main`._

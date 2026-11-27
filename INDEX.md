@@ -39,6 +39,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **perf** | public | [`perf/`](perf/_index.md) | [perf](https://github.com/quirq-ai/perf) |
 | **qq** | public | [`qq/`](qq/_index.md) | [qq](https://github.com/quirq-ai/qq) |
 | **quirq** | public | [`quirq/`](quirq/_index.md) | [quirq](https://github.com/quirq-ai/quirq) |
+| **quirq-orbit**<br>The quirq site as an orbit of globes: work, solutions, process, research and notes, with live playable showcases of every public quirq-ai repo. | public | [`quirq-orbit/`](quirq-orbit/_index.md) | [quirq-orbit](https://github.com/quirq-ai/quirq-orbit) |
 | **quirq_ai** | public | [`quirq_ai/`](quirq_ai/_index.md) | [quirq_ai](https://github.com/quirq-ai/quirq_ai) |
 | **quirqy** | public | [`quirqy/`](quirqy/_index.md) | [quirqy](https://github.com/quirq-ai/quirqy) |
 | **quitter** | public | [`quitter/`](quitter/_index.md) | [quitter](https://github.com/quirq-ai/quitter) |
@@ -57,6 +58,7 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 | **vercel-activity**<br>Public dashboard of Vercel deployment activity for the projects deployed from our workspace | public | [`vercel-activity/`](vercel-activity/_index.md) | [vercel-activity](https://github.com/quirq-ai/vercel-activity) |
 | **website**<br>website: code and deploy of the public quirq.ai site | public | [`website/`](website/_index.md) | [website](https://github.com/quirq-ai/website) |
 | **xo**<br>product: xo, the command line for the XO Cloud API | public | [`xo/`](xo/_index.md) | [xo](https://github.com/quirq-ai/xo) |
+| **xo-claude-plugin**<br>Claude Code plugin: create, deploy and run apps on XO Launchpad (app.xo.builders) | public | [`xo-claude-plugin/`](xo-claude-plugin/_index.md) | [xo-claude-plugin](https://github.com/quirq-ai/xo-claude-plugin) |
 | **xo-cowork-api** | public | [`xo-cowork-api/`](xo-cowork-api/_index.md) | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) |
 | **xo-space** | public fork | [`xo-space/`](xo-space/_index.md) | [xo-space](https://github.com/quirq-ai/xo-space) |
 
@@ -66,4 +68,4 @@ Public `quirq-ai` repositories documented in this wiki. The `wiki` repo itself i
 - `_root.md` — files at the source repository root
 - `src.md` / `src__utils.md` — one page per nested source directory
 
-_Generated 2026-11-26 15:54 UTC._
+_Generated 2026-11-27 15:42 UTC._

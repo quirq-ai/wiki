@@ -15,4 +15,4 @@ still merge on green CI and review alone.
 
 [`tests/fixtures/raw/toolchains/main/.github/CODEOWNERS`](https://github.com/quirq-ai/monitoring/blob/main/tests/fixtures/raw/toolchains/main/.github/CODEOWNERS) · other · 472 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

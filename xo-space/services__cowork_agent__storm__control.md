@@ -43,4 +43,4 @@ Find and stop every process that carries a session's marker (plan W3). Classes: 
 
 [`services/cowork_agent/storm/control/sweep.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/control/sweep.py) · code · 7261 bytes
 
-_Generated 2026-11-26 15:54 UTC from `main`._
+_Generated 2026-11-27 15:42 UTC from `main`._

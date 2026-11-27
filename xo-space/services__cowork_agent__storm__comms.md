@@ -82,4 +82,4 @@ state. Functions: `read_memory`, `update_memory`, `add_todo`, `update_todo`, `li
 
 [`services/cowork_agent/storm/comms/work.py`](https://github.com/quirq-ai/xo-space/blob/main/services/cowork_agent/storm/comms/work.py) · code · 25368 bytes
 
-_Generated 2026-11-26 15:54 UTC from `main`._
+_Generated 2026-11-27 15:42 UTC from `main`._

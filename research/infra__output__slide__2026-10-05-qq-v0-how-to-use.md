@@ -14,4 +14,4 @@ app or tooling.
 
 [`infra/output/slide/2026-10-05-qq-v0-how-to-use/deck.json`](https://github.com/quirq-ai/research/blob/main/infra/output/slide/2026-10-05-qq-v0-how-to-use/deck.json) · code · 1946 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

@@ -14,4 +14,4 @@ blobs.
 
 [`static/brand/quirq/og.jpg`](https://github.com/quirq-ai/website/blob/main/static/brand/quirq/og.jpg) · binary · 66400 bytes
 
-_Generated 2026-11-26 15:54 UTC from `main`._
+_Generated 2026-11-27 15:42 UTC from `main`._

@@ -185,4 +185,4 @@ now); const utc = exactUtc(iso); return ( Notable exports: `TimeAgo`.
 
 [`components/time-ago.tsx`](https://github.com/quirq-ai/monitoring/blob/main/components/time-ago.tsx) · code · 547 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

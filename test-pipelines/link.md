@@ -14,4 +14,4 @@ bisection or a person closing a record.
 
 [`link/action.yml`](https://github.com/quirq-ai/test-pipelines/blob/main/link/action.yml) · code · 5299 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

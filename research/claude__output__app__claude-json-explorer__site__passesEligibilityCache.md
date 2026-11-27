@@ -13,4 +13,4 @@ passesEligibilityCache · XO Research.
 
 [`claude/output/app/claude-json-explorer/site/passesEligibilityCache/index.html`](https://github.com/quirq-ai/research/blob/main/claude/output/app/claude-json-explorer/site/passesEligibilityCache/index.html) · code · 16068 bytes
 
-_Generated 2026-11-26 15:53 UTC from `main`._
+_Generated 2026-11-27 15:41 UTC from `main`._

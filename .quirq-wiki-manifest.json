@@ -1,6 +1,6 @@
 {
   "org": "quirq-ai",
-  "generated_at": "2026-11-26T15:54:08.346326+00:00",
+  "generated_at": "2026-11-27T15:42:04.934931+00:00",
   "skip_archived": true,
   "excluded_repos": [
     "wiki"
@@ -202,7 +202,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/instants",
-      "pushed_at": "2026-11-13T15:36:46Z",
+      "pushed_at": "2026-11-27T07:54:25Z",
       "sha": "655b08b7d5282ae8d8f6e4cdfef543ee4bcc92f4"
     },
     {
@@ -287,6 +287,15 @@
       "sha": "86d29864dac314e208d435e36137db9e130d758f"
     },
     {
+      "name": "quirq-orbit",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/quirq-orbit",
+      "pushed_at": "2026-11-27T02:34:50Z",
+      "sha": "ceed7339a56f09aee1884376c67d0d5882fa897c"
+    },
+    {
       "name": "quirq_ai",
       "fork": false,
       "archived": false,
@@ -328,7 +337,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/release",
-      "pushed_at": "2026-11-26T07:41:00Z",
+      "pushed_at": "2026-11-27T07:41:03Z",
       "sha": "b3f6ee5622fa3dc60745fcd71c9a790501146147"
     },
     {
@@ -391,7 +400,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/test-pipelines",
-      "pushed_at": "2026-11-26T08:36:33Z",
+      "pushed_at": "2026-11-27T08:47:52Z",
       "sha": "b26a369800ed9ac4d9d9041374736889a773e539"
     },
     {
@@ -449,6 +458,15 @@
       "sha": "14ae1bd3ba1089e919540944805730cd2139a2ac"
     },
     {
+      "name": "xo-claude-plugin",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "html_url": "https://github.com/quirq-ai/xo-claude-plugin",
+      "pushed_at": "2026-11-27T15:01:08Z",
+      "sha": "12642727f0f923b485f2d032dfc5f858b99c3b8c"
+    },
+    {
       "name": "xo-cowork-api",
       "fork": false,
       "archived": false,
@@ -463,7 +481,7 @@
       "archived": false,
       "default_branch": "main",
       "html_url": "https://github.com/quirq-ai/xo-space",
-      "pushed_at": "2026-11-23T16:08:12Z",
+      "pushed_at": "2026-11-27T15:15:58Z",
       "sha": "9bc003e27b15325a308a8b9fd15ec6732a4c73f0"
     }
   ]
