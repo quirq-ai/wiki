@@ -2,7 +2,7 @@
 
 Files and bytes in each public repository's default branch at HEAD, measured daily from its Git tree. GitHub's size counts the whole history as stored on GitHub.
 
-**Snapshot:** 2026-11-26T17:20:39Z · **Repositories:** 52 · **Files:** 8,677 · **Size:** 275.2 MB · **On GitHub:** 1.1 GB
+**Snapshot:** 2026-11-27T16:59:47Z · **Repositories:** 54 · **Files:** 8,870 · **Size:** 289.4 MB · **On GitHub:** 1.1 GB
 
 Files are Git blobs: a symlink counts as a file sized by its target path, a Git LFS file at its pointer size, and submodules are left out. The total includes forks, archived repositories and this wiki. Private repositories are never measured; one that later turns private keeps its earlier public rows in history.jsonl and in Git history until removed with `python -m quirq_wiki sizes --forget <repo>`.
 
@@ -12,15 +12,16 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | --- | ---: | ---: | ---: | --- |
 | [innernet](https://github.com/quirq-ai/innernet) | 361 | 103.3 MB | 100.7 MB | main |
 | [quirqy](https://github.com/quirq-ai/quirqy) | 233 | 34.7 MB | 28.4 MB | quirq |
-| [wiki](https://github.com/quirq-ai/wiki) | 1,969 | 27.2 MB | 14.8 MB | main |
+| [wiki](https://github.com/quirq-ai/wiki) | 1,996 | 27.7 MB | 15.1 MB | main |
 | [docs](https://github.com/quirq-ai/docs) | 164 | 20.6 MB | 162.4 MB | main |
-| [xo-space](https://github.com/quirq-ai/xo-space) | 1,145 | 18.0 MB | 15.2 MB | main |
+| [xo-space](https://github.com/quirq-ai/xo-space) | 1,145 | 18.0 MB | 16.1 MB | main |
 | [quirq_ai](https://github.com/quirq-ai/quirq_ai) | 285 | 17.9 MB | 19.5 MB | main |
 | [argus-code](https://github.com/quirq-ai/argus-code) | 398 | 13.6 MB | 27.4 MB | main |
+| [quirq-orbit](https://github.com/quirq-ai/quirq-orbit) | 151 | 13.5 MB | 11.6 MB | main |
 | [research](https://github.com/quirq-ai/research) | 263 | 5.4 MB | 17.2 MB | main |
 | [fabric-chat](https://github.com/quirq-ai/fabric-chat) | 131 | 5.0 MB | 4.2 MB | main |
 | [ui](https://github.com/quirq-ai/ui) | 926 | 3.7 MB | 10.3 MB | main |
-| [instants](https://github.com/quirq-ai/instants) | 204 | 3.6 MB | 34.7 MB | main |
+| [instants](https://github.com/quirq-ai/instants) | 204 | 3.6 MB | 34.8 MB | main |
 | [website](https://github.com/quirq-ai/website) | 275 | 2.8 MB | 177.3 MB | main |
 | [space-hub](https://github.com/quirq-ai/space-hub) | 298 | 2.4 MB | 29.4 MB | main |
 | [xo-cowork-api](https://github.com/quirq-ai/xo-cowork-api) | 312 | 2.0 MB | 2.2 MB | main |
@@ -40,10 +41,11 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 | [liftoff](https://github.com/quirq-ai/liftoff) | 34 | 340.9 kB | 108.5 kB | main |
 | [gardener](https://github.com/quirq-ai/gardener) | 52 | 310.5 kB | 247.8 kB | main |
 | [github-activity](https://github.com/quirq-ai/github-activity) | 24 | 302.3 kB | 73.7 kB | main |
-| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 400.4 kB | main |
+| [release](https://github.com/quirq-ai/release) | 55 | 295.0 kB | 407.6 kB | main |
 | [vercel-activity](https://github.com/quirq-ai/vercel-activity) | 24 | 292.3 kB | 72.7 kB | main |
 | [qq](https://github.com/quirq-ai/qq) | 44 | 278.8 kB | 236.5 kB | main |
 | [sync](https://github.com/quirq-ai/sync) | 49 | 247.9 kB | 163.8 kB | main |
+| [xo-claude-plugin](https://github.com/quirq-ai/xo-claude-plugin) | 15 | 211.6 kB | 175.1 kB | main |
 | [recipes](https://github.com/quirq-ai/recipes) | 65 | 209.7 kB | 205.8 kB | main |
 | [galileo](https://github.com/quirq-ai/galileo) | 33 | 197.2 kB | 275.5 kB | main |
 | [cli-console](https://github.com/quirq-ai/cli-console) | 22 | 150.7 kB | 46.1 kB | main |
@@ -67,6 +69,7 @@ Files are Git blobs: a symlink counts as a file sized by its target path, a Git 
 
 | Date (UTC) | Repositories | Files | Size | On GitHub |
 | --- | ---: | ---: | ---: | ---: |
+| 2026-11-27 | 54 | 8,870 | 289.4 MB | 1.1 GB |
 | 2026-11-26 | 52 | 8,677 | 275.2 MB | 1.1 GB |
 | 2026-11-25 | 52 | 8,675 | 274.8 MB | 1.1 GB |
 | 2026-11-24 | 52 | 8,673 | 274.6 MB | 1.1 GB |
